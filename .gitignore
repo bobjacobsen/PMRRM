@@ -1,0 +1,8 @@
+*.DS_Store
+
+*.bak
+
+# runtime artifacts
+messages.log*
+session.log
+

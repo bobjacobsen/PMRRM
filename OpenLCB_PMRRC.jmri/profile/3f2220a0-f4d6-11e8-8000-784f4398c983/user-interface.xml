@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="CAN Simulation" name="OpenLCB"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.beantable.BlockTableAction.AutoSystemName</setting>
+        <setting xmlns="">jmri.jmrix.openlcb.swing.monitor.MonitorPane.Event</setting>
+        <setting xmlns="">jmri.jmrix.openlcb.swing.monitor.MonitorPane.EventAll</setting>
+        <setting xmlns="">jmri.jmrix.openlcb.swing.monitor.MonitorPane.AutoScroll</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="Description" order="2" width="610"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="Column5" order="5" width="79"/>
+                <column hidden="false" name="System Name" order="0" width="70"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.IdTagTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="318"/>
+                <column hidden="false" name="Where seen" order="5" width="154"/>
+                <column hidden="false" name="Column7" order="7" width="80"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="System Name" order="0" width="277"/>
+                <column hidden="false" name="Tag ID" order="2" width="130"/>
+                <column hidden="false" name="When seen" order="6" width="154"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.networktree.NetworkTreePane" height="728.0" locX="0.0" locY="25.0" width="500.0"/>
+        <window xmlns="" class="AF West" height="685.0" locX="119.0" locY="423.0" width="1614.0"/>
+        <window xmlns="" class="Add New Block" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.monitor.MonitorPane" height="854.0" locX="64.0" locY="25.0" width="1636.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:ID Tags" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="28.0" locY="26.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:RailCom IDs" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="AF East" height="832.0" locX="2739.0" locY="43.0" width="1618.0"/>
+        <window xmlns="" class="AP West" height="655.0" locX="331.0" locY="494.0" width="1556.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1085.0" locX="0.0" locY="25.0" width="1001.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
+        <window xmlns="" class="Add/Edit ID Tag" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.monitor.MonitorPane.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.openlcb.swing.monitor.MonitorPane.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="Yard power relays" height="646.0" locX="1808.0" locY="178.0" width="300.0"/>
+        <window xmlns="" class="PanelPro" height="237.0" locX="932.0" locY="601.0" width="696.0"/>
+        <window xmlns="" class="AES LCC" height="571.0" locX="896.0" locY="290.0" width="1043.0"/>
+    </windowDetails>
+</auxiliary-configuration>

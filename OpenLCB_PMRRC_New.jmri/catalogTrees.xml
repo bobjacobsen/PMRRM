@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile.xsl" type="text/xsl"?>
+<!DOCTYPE catalogTrees SYSTEM "/xml/DTD/catalogTree.dtd">
+<catalogTrees class="jmri.jmrit.catalog.DefaultCatalogTreeManagerConfigXML">
+  <!--Written by JMRI version 5.5.3plus+jake+20230810T2009Z+R387568c891 on Thu Aug 10 16:38:22 EDT 2023-->
+  <catalogTree systemName="NXDI" userName="Default Icons">
+    <node nodeName="Default Icons">
+      <node nodeName="LeftTurnout">
+        <leaf name="TurnoutStateThrown" path="preference:resources/TurnoutDescending-L.png" />
+        <leaf name="TurnoutStateClosed" path="preference:resources/TurnoutStraight-L.png" />
+        <leaf name="BeanStateInconsistent" path="preference:resources/TurnoutInconsistent-L.png" />
+        <leaf name="BeanStateUnknown" path="preference:resources/TurnoutUnknown-L.png" />
+      </node>
+      <node nodeName="Background">
+        <leaf name="background" path="preference:resources/AFE C T Area.png" />
+      </node>
+      <node nodeName="RightTurnout">
+        <leaf name="TurnoutStateThrown" path="preference:resources/TurnoutDescending-R.png" />
+        <leaf name="TurnoutStateClosed" path="preference:resources/TurnoutStraight-R.png" />
+        <leaf name="BeanStateInconsistent" path="preference:resources/TurnoutInconsistent-R.png" />
+        <leaf name="BeanStateUnknown" path="preference:resources/TurnoutUnknown-R.png" />
+      </node>
+      <node nodeName="Sensor">
+        <leaf name="SensorStateActive" path="program:resources/icons/USS/plate/levers/codeButton-Active.gif" />
+        <leaf name="SensorStateInactive" path="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" />
+        <leaf name="BeanStateInconsistent" path="program:resources/icons/USS/plate/levers/codeButton-inconsistent.gif" />
+        <leaf name="BeanStateUnknown" path="program:resources/icons/USS/plate/levers/codeButton-unknown.gif" />
+      </node>
+    </node>
+  </catalogTree>
+</catalogTrees>

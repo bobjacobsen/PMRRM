@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/idtags.xsl" type="text/xsl"?>
+<idtagtable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/idtags.xsd">
+  <!--Written by JMRI version 5.5.3plus+jake+20230810T1400Z+R387568c891 on Thu Aug 10 10:18:55 EDT 2023-->
+  <configuration>
+    <storeState>no</storeState>
+    <useFastClock>no</useFastClock>
+  </configuration>
+  <idtags>
+    <idtag>
+      <systemName>IDOpenLCB$01.01.02.00.00.FF.00.12</systemName>
+      <userName>AFW Bend Intermodal West DCC 6 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$01.01.02.00.00.FF.00.13</systemName>
+      <userName>AFW Bend Intermodal West DCC 6 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9A.00.B7</systemName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.00</systemName>
+      <userName>AFE Request Trk 02 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0C</systemName>
+      <userName>AFE Request Trk 03 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0D</systemName>
+      <userName>AFE Request Trk 04 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.01</systemName>
+      <userName>AFE Request Trk 01 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.1E</systemName>
+      <userName>AFE F12 F34 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.1F</systemName>
+      <userName>AFE F12 F34 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.2A</systemName>
+      <userName>AFE F5 F6 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.2B</systemName>
+      <userName>AFE F5 F6 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.3C</systemName>
+      <userName>AFE Request Trk 09 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.3D</systemName>
+      <userName>AFE Ladder top 2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.4E</systemName>
+      <userName>AFE F7 F8 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.4F</systemName>
+      <userName>AFE F7 F8 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.5A</systemName>
+      <userName>AFE F10 F11 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.5B</systemName>
+      <userName>AFE F10 F11 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.06</systemName>
+      <userName>AFE F1 F2 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.6C</systemName>
+      <userName>AFE slip left side AND pocket right side Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.6D</systemName>
+      <userName>AFE slip left side AND pocket right side Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.07</systemName>
+      <userName>AFE F1 F3 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.7E</systemName>
+      <userName>AFE West DS confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.7F</systemName>
+      <userName>AFE West DS confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.8A</systemName>
+      <userName>AFE T1 T2 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.8B</systemName>
+      <userName>AFE T1 T2 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.9C</systemName>
+      <userName>AFE Caboose ladder T2 C1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.9D</systemName>
+      <userName>AFE Caboose ladder T2 C1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.12</systemName>
+      <userName>AFE F3 F4 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.13</systemName>
+      <userName>AFE F3 F4 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.18</systemName>
+      <userName>AFE Ladder bottom 2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.19</systemName>
+      <userName>AFE Ladder bottom 2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.24</systemName>
+      <userName>AFE Request Trk 06 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.25</systemName>
+      <userName>AFE Request Trk 05 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.30</systemName>
+      <userName>AFE Ladder bottom 1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.31</systemName>
+      <userName>AFE Ladder bottom 1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.36</systemName>
+      <userName>AFE F1234 F56 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.37</systemName>
+      <userName>AFE F1234 F56 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.42</systemName>
+      <userName>AFE F78 F9 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.43</systemName>
+      <userName>AFE F78 F9 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.48</systemName>
+      <userName>AFE Request Trk 08 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.49</systemName>
+      <userName>AFE Request Trk 07 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.54</systemName>
+      <userName>AFE Request Trk 11 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.55</systemName>
+      <userName>AFE Request Trk 10 Active</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.60</systemName>
+      <userName>AFE Ladder top 1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.61</systemName>
+      <userName>AFE Ladder top 1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.66</systemName>
+      <userName>AFE F789 F1011 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.67</systemName>
+      <userName>AFE F789 F1011 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.72</systemName>
+      <userName>AFE East DS confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.73</systemName>
+      <userName>AFE East DS confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.78</systemName>
+      <userName>AFE slip right side Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.79</systemName>
+      <userName>AFE slip right side Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.84</systemName>
+      <userName>AFE Caboose ladder T1 T2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.85</systemName>
+      <userName>AFE Caboose ladder T1 T2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.90</systemName>
+      <userName>AFE East Pocket T1 Xover Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.91</systemName>
+      <userName>AFE East Pocket T1 Xover Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.96</systemName>
+      <userName>AFE East Xover confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.97</systemName>
+      <userName>AFE East Xover confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.A2</systemName>
+      <userName>AFE T2 C1 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.A3</systemName>
+      <userName>AFE T2 C1 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.A8</systemName>
+      <userName>AFE Caboose ladder C1 C2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.A9</systemName>
+      <userName>AFE Caboose ladder C1 C2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.AE</systemName>
+      <userName>AFE C1 C2 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.AF</systemName>
+      <userName>AFE C1 C2 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.B4</systemName>
+      <userName>AFE Caboose ladder East T1 T2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.B5</systemName>
+      <userName>AFE Caboose ladder East T1 T2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.BA</systemName>
+      <userName>AFE East T1 T2 confirm thrown</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.BB</systemName>
+      <userName>AFE East T1 T2 confirm closed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.BC</systemName>
+      <userName>AFE East T1 T2 status changed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.C4</systemName>
+      <userName>AFE Selected Trk 02</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.C5</systemName>
+      <userName>AFE Selected Trk 01</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.CC</systemName>
+      <userName>AFE Selected Trk 03</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.CD</systemName>
+      <userName>AFE Selected Trk 04</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.DC</systemName>
+      <userName>AFE Selected Trk 06</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.DD</systemName>
+      <userName>AFE Selected Trk 05</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.EC</systemName>
+      <userName>AFE Selected Trk 09</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.F4</systemName>
+      <userName>AFE Selected Trk 08</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.F5</systemName>
+      <userName>AFE Selected Trk 07</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.FC</systemName>
+      <userName>AFE Selected Trk 11</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.FD</systemName>
+      <userName>AFE Selected Trk 10</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.01.1A</systemName>
+      <userName>AFE T1 T2 status changed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.01.1E</systemName>
+      <userName>AFE T1 T2 prompt lamps T2 C1</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9D.00.7E</systemName>
+      <userName>AFE X-over to APE Thrown reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9D.00.7F</systemName>
+      <userName>AFE X-over to APE Closed reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9D.00.78</systemName>
+      <userName>AFE X-over to APE Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9D.00.79</systemName>
+      <userName>AFE X-over to APE Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.00</systemName>
+      <userName>AES Diesel Shop Service 1-2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.0C</systemName>
+      <userName>AES Diesel Shop Service 3 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.0D</systemName>
+      <userName>AES Diesel Shop Service 3 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.01</systemName>
+      <userName>AES Diesel Shop Service 1-2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.3C</systemName>
+      <userName>AES Diesel Shop Ladder 1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.3D</systemName>
+      <userName>AES Diesel Shop Ladder 1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.6C</systemName>
+      <userName>AES Diesel East 3-2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.6D</systemName>
+      <userName>AES Diesel East 3-2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.9C</systemName>
+      <userName>AES Diesel West 3-4 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.9D</systemName>
+      <userName>AES Diesel West 3-4 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.18</systemName>
+      <userName>AES Diesel Shop Service 4-5 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.19</systemName>
+      <userName>AES Diesel Shop Service 4-5 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.24</systemName>
+      <userName>AES Steam 4-3 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.25</systemName>
+      <userName>AES Steam 4-3 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.30</systemName>
+      <userName>AES Diesel cross Track 1 to Diesel Ladder 2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.31</systemName>
+      <userName>AES Diesel cross Track 1 to Diesel Ladder 2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.48</systemName>
+      <userName>AES Steam Ladder 1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.49</systemName>
+      <userName>AES Steam Ladder 1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.54</systemName>
+      <userName>AES Steam 2-1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.55</systemName>
+      <userName>AES Steam 2-1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.60</systemName>
+      <userName>AES Diesel West Ladder 1 T4 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.61</systemName>
+      <userName>AES Diesel West Ladder 1 T4 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.78</systemName>
+      <userName>AES East Diesel Ladder 1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.79</systemName>
+      <userName>AES East Diesel Ladder 1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.84</systemName>
+      <userName>AES Diesel West 1-2 UNKNOWN Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.85</systemName>
+      <userName>AES Diesel West 1-2 UNKNOWN Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.90</systemName>
+      <userName>AES Diesel West 2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.91</systemName>
+      <userName>AES Diesel West 2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.A8</systemName>
+      <userName>AES East double slip east end Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.A9</systemName>
+      <userName>AES East double slip east end Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.B4</systemName>
+      <userName>AES East double slip west end Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.B0.00.B5</systemName>
+      <userName>AES East double slip west end Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.5C.00.B4</systemName>
+      <userName>Alhambra Freight East T1/2 reversed</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.5C.00.B5</systemName>
+      <userName>Alhambra Freight East T1/2 normal</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.00</systemName>
+      <userName>Zion Relay 09 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.0C</systemName>
+      <userName>Zion Relay 10 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.0D</systemName>
+      <userName>Zion Track 10 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.01</systemName>
+      <userName>Zion Track 09 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.1E</systemName>
+      <userName>Zion Relay 11 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.1F</systemName>
+      <userName>Zion Relay 11 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.2A</systemName>
+      <userName>Zion Relay 12 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.2B</systemName>
+      <userName>Zion Relay 12 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.3C</systemName>
+      <userName>Zion Relay 14 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.3D</systemName>
+      <userName>Zion Track 14 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.4E</systemName>
+      <userName>Zion Relay 15 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.4F</systemName>
+      <userName>Zion Relay 15 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.5A</systemName>
+      <userName>Zion Relay 16 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.5B</systemName>
+      <userName>Zion Relay 16 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.06</systemName>
+      <userName>Zion Relay 09 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.6C</systemName>
+      <userName>Zion Relay 02 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.6D</systemName>
+      <userName>Zion Track 02 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.07</systemName>
+      <userName>Zion Relay 09 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.7E</systemName>
+      <userName>Zion Relay 03 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.7F</systemName>
+      <userName>Zion Relay 03 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.8A</systemName>
+      <userName>Zion Relay 04 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.8B</systemName>
+      <userName>Zion Relay 04 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.9C</systemName>
+      <userName>Zion Relay 06 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.9D</systemName>
+      <userName>Zion Track 06 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.12</systemName>
+      <userName>Zion Relay 10 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.13</systemName>
+      <userName>Zion Relay 10 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.18</systemName>
+      <userName>Zion Relay 11 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.19</systemName>
+      <userName>Zion Track 11 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.24</systemName>
+      <userName>Zion Relay 12 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.25</systemName>
+      <userName>Zion Track 12 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.30</systemName>
+      <userName>Zion Relay 13 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.31</systemName>
+      <userName>Zion Track 13 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.36</systemName>
+      <userName>Zion Relay 13 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.37</systemName>
+      <userName>Zion Relay 13 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.42</systemName>
+      <userName>Zion Relay 14 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.43</systemName>
+      <userName>Zion Relay 14 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.48</systemName>
+      <userName>Zion Relay 15 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.49</systemName>
+      <userName>Zion Track 15 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.54</systemName>
+      <userName>Zion Relay 16 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.55</systemName>
+      <userName>Zion Track 16 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.60</systemName>
+      <userName>Zion Relay 01 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.61</systemName>
+      <userName>Zion Track 01 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.62</systemName>
+      <userName>AF AP MWay Zion Relays Apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.63</systemName>
+      <userName>AF AP MWay Zion Relays Remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.66</systemName>
+      <userName>Zion Relay 01 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.67</systemName>
+      <userName>Zion Relay 01 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.72</systemName>
+      <userName>Zion Relay 02 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.73</systemName>
+      <userName>Zion Relay 02 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.78</systemName>
+      <userName>Zion Relay 03 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.79</systemName>
+      <userName>Zion Track 03 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.84</systemName>
+      <userName>Zion Relay 04 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.85</systemName>
+      <userName>Zion Track 04 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.90</systemName>
+      <userName>Zion Relay 05 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.91</systemName>
+      <userName>Zion Track 05 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.96</systemName>
+      <userName>Zion Relay 05 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.97</systemName>
+      <userName>Zion Relay 05 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.A2</systemName>
+      <userName>Zion Relay 06 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.A3</systemName>
+      <userName>Zion Relay 06 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.A8</systemName>
+      <userName>Zion Relay 07 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.A9</systemName>
+      <userName>Zion Track 07 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.AE</systemName>
+      <userName>Zion Relay 07 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.AF</systemName>
+      <userName>Zion Relay 07 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.B4</systemName>
+      <userName>Zion Relay 08 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.B5</systemName>
+      <userName>Zion Track 08 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.BA</systemName>
+      <userName>Zion Relay 08 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.A8.00.BB</systemName>
+      <userName>Zion Relay 08 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.00</systemName>
+      <userName>AF Trk 01 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.0C</systemName>
+      <userName>AF Trk 02 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.0D</systemName>
+      <userName>AF Trk 02 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.01</systemName>
+      <userName>AF Trk 01 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.1C</systemName>
+      <userName>AF Trk 03 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.1E</systemName>
+      <userName>AF Trk 03 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.1F</systemName>
+      <userName>AF Trk 03 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.2A</systemName>
+      <userName>AF Trk 04 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.2B</systemName>
+      <userName>AF Trk 04 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.3C</systemName>
+      <userName>AF Trk 06 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.3D</systemName>
+      <userName>AF Trk 06 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.04</systemName>
+      <userName>AF Trk 01 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.4C</systemName>
+      <userName>AF Trk 07 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.4E</systemName>
+      <userName>AF Trk 07 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.4F</systemName>
+      <userName>AF Trk 07 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.5A</systemName>
+      <userName>AF Trk 08 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.5B</systemName>
+      <userName>AF Trk 08 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.06</systemName>
+      <userName>AF Trk 01 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.6C</systemName>
+      <userName>AF Trk 10 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.6D</systemName>
+      <userName>AF Trk 10 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.07</systemName>
+      <userName>AF Trk 01 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.7C</systemName>
+      <userName>AF Trk 11 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.7E</systemName>
+      <userName>AF Trk 11 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.7F</systemName>
+      <userName>AF Trk 11 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.8A</systemName>
+      <userName>AF Relay 12 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.8B</systemName>
+      <userName>AF Relay 12 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.9C</systemName>
+      <userName>AF Relay 14 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.9D</systemName>
+      <userName>AF Relay 14 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.10</systemName>
+      <userName>AF Trk 02 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.12</systemName>
+      <userName>AF Trk 02 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.13</systemName>
+      <userName>AF Trk 02 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.18</systemName>
+      <userName>AF Trk 03 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.19</systemName>
+      <userName>AF Trk 03 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.24</systemName>
+      <userName>AF Trk 04 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.25</systemName>
+      <userName>AF Trk 04 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.28</systemName>
+      <userName>AF Trk 04 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.30</systemName>
+      <userName>AF Trk 05 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.31</systemName>
+      <userName>AF Trk 05 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.34</systemName>
+      <userName>AF Trk 05 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.36</systemName>
+      <userName>AF Trk 05 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.37</systemName>
+      <userName>AF Trk 05 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.40</systemName>
+      <userName>AF Trk 06 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.42</systemName>
+      <userName>AF Trk 06 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.43</systemName>
+      <userName>AF Trk 06 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.48</systemName>
+      <userName>AF Trk 07 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.49</systemName>
+      <userName>AF Trk 07 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.54</systemName>
+      <userName>AF Trk 08 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.55</systemName>
+      <userName>AF Trk 08 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.58</systemName>
+      <userName>AF Trk 08 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.60</systemName>
+      <userName>AF Trk 09 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.61</systemName>
+      <userName>AF Trk 09 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.64</systemName>
+      <userName>AF Trk 09 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.66</systemName>
+      <userName>AF Trk 09 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.67</systemName>
+      <userName>AF Trk 09 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.70</systemName>
+      <userName>AF Trk 10 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.72</systemName>
+      <userName>AF Trk 10 DCC applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.73</systemName>
+      <userName>AF Trk 10 DCC removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.78</systemName>
+      <userName>AF Trk 11 DCC power on request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.79</systemName>
+      <userName>AF Trk 11 DCC power off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.84</systemName>
+      <userName>AF Relay 12 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.85</systemName>
+      <userName>AF Relay 12 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.88</systemName>
+      <userName>AF Trk 12 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.90</systemName>
+      <userName>AF Relay 13 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.91</systemName>
+      <userName>AF Relay 13 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.94</systemName>
+      <userName>AF Trk 13 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.96</systemName>
+      <userName>AF Relay 13 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.97</systemName>
+      <userName>AF Relay 13 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.A0</systemName>
+      <userName>AF Trk 14 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.A2</systemName>
+      <userName>AF Relay 14 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.A3</systemName>
+      <userName>AF Relay 14 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.A8</systemName>
+      <userName>AF Relay 15 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.A9</systemName>
+      <userName>AF Relay 15 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.AC</systemName>
+      <userName>AF Trk 15 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.AE</systemName>
+      <userName>AF Relay 15 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.AF</systemName>
+      <userName>AF Relay 15 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.B4</systemName>
+      <userName>AF Relay 16 apply request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.B5</systemName>
+      <userName>AF Relay 16 remove request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.B8</systemName>
+      <userName>AF Trk 16 DCC Toggle</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.BA</systemName>
+      <userName>AF Relay 16 applied feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.BB</systemName>
+      <userName>AF Relay 16 removed feedback</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.C2</systemName>
+      <userName>AF Trk 01 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.CA</systemName>
+      <userName>AF Trk 02 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.D2</systemName>
+      <userName>AF Trk 03 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.DA</systemName>
+      <userName>AF Trk 04 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.E2</systemName>
+      <userName>AF Trk 05 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.EA</systemName>
+      <userName>AF Trk 06 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.F2</systemName>
+      <userName>AF Trk 07 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.00.FA</systemName>
+      <userName>AF Trk 08 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.0A</systemName>
+      <userName>AF Trk 10 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.1A</systemName>
+      <userName>AF Trk 12 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.02</systemName>
+      <userName>AF Trk 09 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.2A</systemName>
+      <userName>AF Trk 14 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.3A</systemName>
+      <userName>AF Trk 16 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.4A</systemName>
+      <userName>AF Trk 02 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.5A</systemName>
+      <userName>AF Trk 04 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.6A</systemName>
+      <userName>AF Trk 06 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.7A</systemName>
+      <userName>AF Trk 08 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.8A</systemName>
+      <userName>AF Trk 10 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.9A</systemName>
+      <userName>AF Trk 12 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.12</systemName>
+      <userName>AF Trk 11 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.22</systemName>
+      <userName>AF Trk 13 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.32</systemName>
+      <userName>AF Trk 15 DCC Toggle AFE Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.42</systemName>
+      <userName>AF Trk 01 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.52</systemName>
+      <userName>AF Trk 03 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.62</systemName>
+      <userName>AF Trk 05 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.72</systemName>
+      <userName>AF Trk 07 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.82</systemName>
+      <userName>AF Trk 09 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.92</systemName>
+      <userName>AF Trk 11 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.A2</systemName>
+      <userName>AF Trk 13 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.AA</systemName>
+      <userName>AF Trk 14 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.B2</systemName>
+      <userName>AF Trk 15 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.B3</systemName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.C3.01.BA</systemName>
+      <userName>AF Trk 16 DCC Toggle AFW Enabled</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.1E</systemName>
+      <userName>AFW Bend C or D from yard DCC 3 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.1F</systemName>
+      <userName>AFW Bend C or D from yard DCC 3 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.2A</systemName>
+      <userName>AFW Bend D-C yard side DCC 4 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.2B</systemName>
+      <userName>AFW Bend D-C yard side DCC 4 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.4E</systemName>
+      <userName>AFW Bend C-D Bend side DCC 7 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.4F</systemName>
+      <userName>AFW Bend C-D Bend side DCC 7 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.5A</systemName>
+      <userName>AFW Bend B-A Bend side DCC 8 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.5B</systemName>
+      <userName>AFW Bend B-A Bend side DCC 8 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.06</systemName>
+      <userName>AFW Bend DCC 1 AJ Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.07</systemName>
+      <userName>AFW Bend DCC 1 AJ Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.12</systemName>
+      <userName>AFW Bend A or B yard DCC 2 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.13</systemName>
+      <userName>AFW Bend A or B yard DCC 2 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.36</systemName>
+      <userName>AFW Bend C-B bend side DCC 5 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.37</systemName>
+      <userName>AFW Bend C-B bend side DCC 5 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.42</systemName>
+      <userName>AFW Bend Intermodal West DCC 6 Closed reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.02.E8.00.43</systemName>
+      <userName>AFW Bend Intermodal West DCC 6 Thrown reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.04.5A.00.96</systemName>
+      <userName>AFW Remote Toggle Input ON action</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.04.5A.00.97</systemName>
+      <userName>AFW Remote Toggle Input OFF action</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.00</systemName>
+      <userName>AFW E RA Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.0C</systemName>
+      <userName>AFW FL A Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.0D</systemName>
+      <userName>AFW FL A Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.01</systemName>
+      <userName>AFW E RA Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.3C</systemName>
+      <userName>AFW L2 (FL B) Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.3D</systemName>
+      <userName>AFW L 2 (FL B) Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.4E</systemName>
+      <userName>AFW F4 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.4F</systemName>
+      <userName>AFW F4 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.08</systemName>
+      <userName>AFW East RA Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.09</systemName>
+      <userName>AFW East RA Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.14</systemName>
+      <userName>AFW L 1 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.15</systemName>
+      <userName>AFW L 1 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.18</systemName>
+      <userName>AFW E siding Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.19</systemName>
+      <userName>AFW E siding Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.24</systemName>
+      <userName>AFW W siding Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.25</systemName>
+      <userName>AFW W siding Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.30</systemName>
+      <userName>AFW F5/6 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.31</systemName>
+      <userName>AFW F5/6 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.38</systemName>
+      <userName>AFW F5/6 Output ON reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.39</systemName>
+      <userName>AFW F5/6 Output OFF reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.44</systemName>
+      <userName>AFW L 2 Output On reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.45</systemName>
+      <userName>AFW L 2 Output Off reply</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.48</systemName>
+      <userName>AFW F4 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.49</systemName>
+      <userName>AFW F4 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.54</systemName>
+      <userName>AFW CY2 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.00.64.00.55</systemName>
+      <userName>AFW CY2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.00</systemName>
+      <userName>APE P6/7 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.0C</systemName>
+      <userName>APE L1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.0D</systemName>
+      <userName>APE L1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.01</systemName>
+      <userName>APE P6/7 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.3C</systemName>
+      <userName>APE S4 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.3D</systemName>
+      <userName>APE S4 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.18</systemName>
+      <userName>APE P 1/2 cross Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.19</systemName>
+      <userName>APE P 1/2  cross Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.24</systemName>
+      <userName>APE P 2/3 cross Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.25</systemName>
+      <userName>APE P 2/3 coss Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.30</systemName>
+      <userName>APE T4/5 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.31</systemName>
+      <userName>APE T 4/5 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.48</systemName>
+      <userName>APE S6 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.49</systemName>
+      <userName>APE S6 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.54</systemName>
+      <userName>APE S3 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.10.01.60.00.55</systemName>
+      <userName>APE S3 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.02</systemName>
+      <userName>Send Loconet Power On request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.03</systemName>
+      <userName>Send Loconet Power Off request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.04</systemName>
+      <userName>Send Loconet Emergency Stop request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.05</systemName>
+      <userName>Send Loconet Special Interrogate sequence request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.06</systemName>
+      <userName>Bend DCC-LCC LT1 Thrown request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.20.00.1B.00.07</systemName>
+      <userName>Bend DCC-LCC LT1 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.10</systemName>
+      <userName>AFE Remove Control Enable</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.11</systemName>
+      <userName>AFE Remote Control Disable</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.12</systemName>
+      <userName>AFW Remote Control enable</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.13</systemName>
+      <userName>AFW Remote Control Disable</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.18</systemName>
+      <userName>AFE Unselected Bottom Ladder</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.19</systemName>
+      <userName>AFE Unselected Top Ladder</userName>
+    </idtag>
+  </idtags>
+</idtagtable>
