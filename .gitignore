@@ -6,3 +6,6 @@
 messages.log*
 session.log
 
+# backups
+OpenLCB_PMRRC_New.jmri/backupPanels/
+OpenLCB_PMRRC.jmri/backupPanels/
