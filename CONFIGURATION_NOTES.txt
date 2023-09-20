@@ -1,0 +1,9 @@
+A series of notes-in-progress about AFE configuration.
+
+[ ] Right TWR 15, 16 not yet assigned uses, need to be configured once they are
+
+[ ] Event ID (tagging) file is going to need to be recreated from scratch due to naming changes?
+
+[ ] Some of the AFE Turnouts single lines (e.g not AF relays, which is done) don't have their veto-mode connections configured.  The remote sample panel will have to be updated for that.
+
+[ ] Local and remote image panels need to have the whole slip area added.
