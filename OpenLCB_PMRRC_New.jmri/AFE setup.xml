@@ -3986,108 +3986,142 @@
       </icons>
       <iconmaps />
     </turnouticon>
+    <turnouticon turnout="AFE East Xover" x="444" y="174" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="AFE East Xover" x="383" y="263" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Sep 20 10:23:32 EDT 2023</date>
+      <date>Wed Sep 20 12:53:38 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Sep 20 10:23:50 EDT 2023</date>
+      <date>Wed Sep 20 12:55:04 EDT 2023</date>
       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Sep 20 10:20:58 EDT 2023</date>
+          <date>Wed Sep 20 10:23:32 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Sep 20 10:21:15 EDT 2023</date>
+          <date>Wed Sep 20 10:23:50 EDT 2023</date>
           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Wed Sep 20 08:09:22 EDT 2023</date>
+              <date>Wed Sep 20 10:20:58 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Wed Sep 20 08:09:52 EDT 2023</date>
+              <date>Wed Sep 20 10:21:15 EDT 2023</date>
               <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Tue Sep 19 19:33:44 EDT 2023</date>
+                  <date>Wed Sep 20 08:09:22 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Tue Sep 19 19:35:50 EDT 2023</date>
+                  <date>Wed Sep 20 08:09:52 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Tue Sep 19 18:53:20 EDT 2023</date>
+                      <date>Tue Sep 19 19:33:44 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Tue Sep 19 18:58:16 EDT 2023</date>
+                      <date>Tue Sep 19 19:35:50 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Tue Sep 19 17:57:51 EDT 2023</date>
+                          <date>Tue Sep 19 18:53:20 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Tue Sep 19 17:58:08 EDT 2023</date>
+                          <date>Tue Sep 19 18:58:16 EDT 2023</date>
                           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Tue Sep 19 18:22:18 EDT 2023</date>
+                          <date>Tue Sep 19 19:14:53 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Tue Sep 19 19:14:53 EDT 2023</date>
+                      <date>Tue Sep 19 19:38:33 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Tue Sep 19 19:38:33 EDT 2023</date>
+                  <date>Wed Sep 20 10:14:11 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Wed Sep 20 10:14:11 EDT 2023</date>
+              <date>Wed Sep 20 10:22:54 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Sep 20 10:22:54 EDT 2023</date>
+          <date>Wed Sep 20 10:48:59 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Sep 20 10:48:59 EDT 2023</date>
+      <date>Wed Sep 20 12:57:55 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230920T1423Z+R3c3953b844 on Wed Sep 20 10:48:59 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230920T1653Z+R3c3953b844 on Wed Sep 20 12:57:55 EDT 2023-->
 </layout-config>
