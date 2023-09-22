@@ -1,5 +1,5 @@
 NODE ID.Your name and description for this node.Node Name=AFE new panel left twr
-NODE ID.Your name and description for this node.Node Description=Left side routing buttons & LEDs  TWRC7d-18Sept23
+NODE ID.Your name and description for this node.Node Description=Left side routing buttons & LEDs  TWRC7d-21Sept23
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.02.C7.04.88
 Node Power Monitor.Power Not OK=02.01.57.00.02.C7.04.89
