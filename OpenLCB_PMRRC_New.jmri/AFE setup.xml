@@ -710,7 +710,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.BA;02.01.57.00.01.9C.00.BB</systemName>
-      <userName>AFE East T1 T2 confirm thrown/closed</userName>
+      <userName>AFE East AFE4-AFE3 confirm thrown/closed</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1552,6 +1552,7 @@
   <turnouts class="jmri.jmrix.openlcb.configurexml.OlcbTurnoutManagerXml">
     <operations automate="false">
       <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
       <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
     </operations>
     <defaultclosedspeed>Normal</defaultclosedspeed>
@@ -1766,9 +1767,9 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AFE East T1 T2 confirm thrown/closed" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AFE East AFE4-AFE3 confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.B4;02.01.57.00.01.9C.00.B5</systemName>
-      <userName>AFE East T1 T2</userName>
+      <userName>AFE East AFE4-AFE3</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -2618,7 +2619,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="182" y="540" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="182" y="540" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2633,7 +2634,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="121" y="486" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="121" y="486" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4220,7 +4221,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="176" y="539" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="176" y="539" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4235,7 +4236,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="120" y="486" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="120" y="486" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4349,7 +4350,7 @@
         <rotation>0</rotation>
       </icon>
     </positionablelabel>
-    <turnouticon turnout="AFE East T1 T2" x="25" y="26" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE East AFE4-AFE3" x="25" y="26" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight-R.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -4432,7 +4433,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="171" y="87" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="171" y="87" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4447,7 +4448,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East T1 T2 confirm thrown/closed" x="116" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="116" y="35" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4704,104 +4705,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Sep 21 17:13:17 EDT 2023</date>
+      <date>Fri Sep 22 10:37:08 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Sep 21 17:13:34 EDT 2023</date>
+      <date>Fri Sep 22 10:37:20 EDT 2023</date>
       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Sep 21 17:03:41 EDT 2023</date>
+          <date>Thu Sep 21 17:13:17 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Sep 21 17:03:56 EDT 2023</date>
+          <date>Thu Sep 21 17:13:34 EDT 2023</date>
           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Sep 21 16:58:09 EDT 2023</date>
+              <date>Thu Sep 21 17:03:41 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Sep 21 16:58:38 EDT 2023</date>
+              <date>Thu Sep 21 17:03:56 EDT 2023</date>
               <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Sep 21 16:52:15 EDT 2023</date>
+                  <date>Thu Sep 21 16:58:09 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Sep 21 16:52:32 EDT 2023</date>
+                  <date>Thu Sep 21 16:58:38 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Sep 20 12:53:38 EDT 2023</date>
+                      <date>Thu Sep 21 16:52:15 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Sep 20 12:55:04 EDT 2023</date>
+                      <date>Thu Sep 21 16:52:32 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Sep 20 10:23:32 EDT 2023</date>
+                          <date>Wed Sep 20 12:53:38 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Sep 20 10:23:50 EDT 2023</date>
+                          <date>Wed Sep 20 12:55:04 EDT 2023</date>
                           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Sep 20 10:48:59 EDT 2023</date>
+                          <date>Wed Sep 20 12:57:55 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Sep 20 12:57:55 EDT 2023</date>
+                      <date>Thu Sep 21 16:54:28 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Sep 21 16:54:28 EDT 2023</date>
+                  <date>Thu Sep 21 17:01:14 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Sep 21 17:01:14 EDT 2023</date>
+              <date>Thu Sep 21 17:08:38 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Sep 21 17:08:38 EDT 2023</date>
+          <date>Thu Sep 21 17:14:49 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Sep 21 17:14:49 EDT 2023</date>
+      <date>Fri Sep 22 10:40:48 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230921T2113Z+R3c3953b844 on Thu Sep 21 17:14:49 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230922T1437Z+R63f68a3c34 on Fri Sep 22 10:40:48 EDT 2023-->
 </layout-config>
