@@ -10,7 +10,7 @@
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.00</systemName>
-      <userName>AFE Request Trk 02</userName>
+      <userName>AFE Trk 02 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -24,7 +24,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.01</systemName>
-      <userName>AFE Request Trk 01</userName>
+      <userName>AFE Trk 01 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -38,7 +38,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.02</systemName>
-      <userName>AFE Request Trk 02 Remote</userName>
+      <userName>AFE Trk 02 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -52,7 +52,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.03</systemName>
-      <userName>AFE Request Trk 01 Remote</userName>
+      <userName>AFE Trk 01 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -80,7 +80,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.0C</systemName>
-      <userName>AFE Request Trk 03</userName>
+      <userName>AFE Trk 03 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -94,7 +94,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.0D</systemName>
-      <userName>AFE Request Trk 04</userName>
+      <userName>AFE Trk 04 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -108,7 +108,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.0E</systemName>
-      <userName>AFE Request Trk 03 Remote</userName>
+      <userName>AFE Trk 03 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -122,7 +122,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.0F</systemName>
-      <userName>AFE Request Trk 04 Remote</userName>
+      <userName>AFE Trk 04 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -164,7 +164,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.24</systemName>
-      <userName>AFE Request Trk 06</userName>
+      <userName>AFE Trk 06 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -178,7 +178,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.25</systemName>
-      <userName>AFE Request Trk 05</userName>
+      <userName>AFE Trk 05 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -192,7 +192,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.26</systemName>
-      <userName>AFE Request Trk 06 Remote</userName>
+      <userName>AFE Trk 06 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -206,7 +206,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.27</systemName>
-      <userName>AFE Request Trk 05 Remote</userName>
+      <userName>AFE Trk 05 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -248,7 +248,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.3C</systemName>
-      <userName>AFE Request Trk 09</userName>
+      <userName>AFE Trk 09 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -262,7 +262,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.3E</systemName>
-      <userName>AFE Request Trk 09 Remote</userName>
+      <userName>AFE Trk 09 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -290,7 +290,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.48</systemName>
-      <userName>AFE Request Trk 08</userName>
+      <userName>AFE Trk 08 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -304,7 +304,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.49</systemName>
-      <userName>AFE Request Trk 07</userName>
+      <userName>AFE Trk 07 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -318,7 +318,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.4A</systemName>
-      <userName>AFE Request Trk 08 Remote</userName>
+      <userName>AFE Trk 08 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -332,7 +332,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.4B</systemName>
-      <userName>AFE Request Trk 07 Remote</userName>
+      <userName>AFE Trk 07 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -360,7 +360,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.54</systemName>
-      <userName>AFE Request Trk 11</userName>
+      <userName>AFE Trk 11 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -374,7 +374,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.55</systemName>
-      <userName>AFE Request Trk 10</userName>
+      <userName>AFE Trk 10 Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -388,7 +388,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.56</systemName>
-      <userName>AFE Request Trk 11 Remote</userName>
+      <userName>AFE Trk 11 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -402,7 +402,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.57</systemName>
-      <userName>AFE Request Trk 10 Remote</userName>
+      <userName>AFE Trk 10 Remote Request</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1808,7 +1808,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 01" x="1841" y="849" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 01 Request" x="1841" y="849" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1823,7 +1823,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 02" x="1835" y="800" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 02 Request" x="1835" y="800" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1838,7 +1838,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 03" x="1837" y="743" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 03 Request" x="1837" y="743" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1853,7 +1853,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 04" x="1837" y="693" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 04 Request" x="1837" y="693" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1868,7 +1868,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 05" x="1836" y="637" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 05 Request" x="1836" y="637" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1883,7 +1883,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 06" x="1832" y="583" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 06 Request" x="1832" y="583" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1898,7 +1898,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 07" x="1833" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 07 Request" x="1833" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1913,7 +1913,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 08" x="1837" y="476" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 08 Request" x="1837" y="476" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1928,7 +1928,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 10" x="1834" y="371" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 10 Request" x="1834" y="371" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1943,7 +1943,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 11" x="1834" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 11 Request" x="1834" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2123,7 +2123,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 09" x="1837" y="424" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 09 Request" x="1837" y="424" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2759,7 +2759,7 @@
       <iconmaps />
     </sensoricon>
     <positionablelabel x="62" y="671" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" text="Enable Remote Access" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="AFE Request Trk 01" x="565" y="560" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 01 Request" x="565" y="560" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2774,7 +2774,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 02" x="565" y="499" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 02 Request" x="565" y="499" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2789,7 +2789,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 03" x="565" y="444" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 03 Request" x="565" y="444" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2804,7 +2804,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 04" x="565" y="394" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 04 Request" x="565" y="394" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2819,7 +2819,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 06" x="565" y="273" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 06 Request" x="565" y="273" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2834,7 +2834,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 05" x="565" y="333" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 05 Request" x="565" y="333" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2849,7 +2849,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 07" x="565" y="230" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 07 Request" x="565" y="230" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2864,7 +2864,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 08" x="565" y="174" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 08 Request" x="565" y="174" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2879,7 +2879,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 10" x="565" y="63" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 10 Request" x="565" y="63" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2894,7 +2894,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 11" x="565" y="8" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 11 Request" x="565" y="8" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3142,7 +3142,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="AFE Request Trk 09" x="563" y="117" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 09 Request" x="563" y="117" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3996,7 +3996,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 09 Remote" x="1836" y="426" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 09 Remote Request" x="1836" y="426" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4011,7 +4011,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 11 Remote" x="1826" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 11 Remote Request" x="1826" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4026,7 +4026,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 10 Remote" x="1829" y="371" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 10 Remote Request" x="1829" y="371" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4041,7 +4041,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 08 Remote" x="1837" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 08 Remote Request" x="1837" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4056,7 +4056,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 07 Remote" x="1835" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 07 Remote Request" x="1835" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4071,7 +4071,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 06 Remote" x="1833" y="585" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 06 Remote Request" x="1833" y="585" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4086,7 +4086,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 05 Remote" x="1834" y="636" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 05 Remote Request" x="1834" y="636" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4101,7 +4101,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 04 Remote" x="1833" y="692" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 04 Remote Request" x="1833" y="692" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4116,7 +4116,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 03 Remote" x="1834" y="743" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 03 Remote Request" x="1834" y="743" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4131,7 +4131,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 02 Remote" x="1839" y="797" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 02 Remote Request" x="1839" y="797" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4146,7 +4146,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Request Trk 01 Remote" x="1837" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 01 Remote Request" x="1837" y="851" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4705,104 +4705,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Sep 22 10:37:08 EDT 2023</date>
+      <date>Fri Sep 22 10:55:20 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Sep 22 10:37:20 EDT 2023</date>
+      <date>Fri Sep 22 10:55:40 EDT 2023</date>
       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Sep 21 17:13:17 EDT 2023</date>
+          <date>Fri Sep 22 10:37:08 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Sep 21 17:13:34 EDT 2023</date>
+          <date>Fri Sep 22 10:37:20 EDT 2023</date>
           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Sep 21 17:03:41 EDT 2023</date>
+              <date>Thu Sep 21 17:13:17 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Sep 21 17:03:56 EDT 2023</date>
+              <date>Thu Sep 21 17:13:34 EDT 2023</date>
               <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Sep 21 16:58:09 EDT 2023</date>
+                  <date>Thu Sep 21 17:03:41 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Sep 21 16:58:38 EDT 2023</date>
+                  <date>Thu Sep 21 17:03:56 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Thu Sep 21 16:52:15 EDT 2023</date>
+                      <date>Thu Sep 21 16:58:09 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Thu Sep 21 16:52:32 EDT 2023</date>
+                      <date>Thu Sep 21 16:58:38 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Sep 20 12:53:38 EDT 2023</date>
+                          <date>Thu Sep 21 16:52:15 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Sep 20 12:55:04 EDT 2023</date>
+                          <date>Thu Sep 21 16:52:32 EDT 2023</date>
                           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Sep 20 12:57:55 EDT 2023</date>
+                          <date>Thu Sep 21 16:54:28 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Thu Sep 21 16:54:28 EDT 2023</date>
+                      <date>Thu Sep 21 17:01:14 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Sep 21 17:01:14 EDT 2023</date>
+                  <date>Thu Sep 21 17:08:38 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Sep 21 17:08:38 EDT 2023</date>
+              <date>Thu Sep 21 17:14:49 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Sep 21 17:14:49 EDT 2023</date>
+          <date>Fri Sep 22 10:40:48 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Sep 22 10:40:48 EDT 2023</date>
+      <date>Fri Sep 22 11:06:15 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230922T1437Z+R63f68a3c34 on Fri Sep 22 10:40:48 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230922T1455Z+R63f68a3c34 on Fri Sep 22 11:06:15 EDT 2023-->
 </layout-config>
