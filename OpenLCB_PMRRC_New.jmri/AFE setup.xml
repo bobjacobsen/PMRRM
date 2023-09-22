@@ -1311,7 +1311,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.C2;02.01.57.00.02.C3.00.C3</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.C2</systemName>
       <userName>AF Relay 01 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1325,7 +1325,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.CA;02.01.57.00.02.C3.00.CB</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.CA</systemName>
       <userName>AF Relay 02 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1339,7 +1339,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.D2;02.01.57.00.02.C3.00.D3</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.D2</systemName>
       <userName>AF Relay 03 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1353,7 +1353,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.DA;02.01.57.00.02.C3.00.DB</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.DA</systemName>
       <userName>AF Relay 04 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1367,7 +1367,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.E2;02.01.57.00.02.C3.00.E3</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.E2</systemName>
       <userName>AF Relay 05 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1381,7 +1381,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.EA;02.01.57.00.02.C3.00.EB</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.EA</systemName>
       <userName>AF Relay 06 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1395,7 +1395,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.F2;02.01.57.00.02.C3.00.F3</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.F2</systemName>
       <userName>AF Relay 07 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1409,7 +1409,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.00.FA;02.01.57.00.02.C3.00.FB</systemName>
+      <systemName>MS02.01.57.00.02.C3.00.FA</systemName>
       <userName>AF Relay 08 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1423,7 +1423,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.02;02.01.57.00.02.C3.01.03</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.02</systemName>
       <userName>AF Relay 09 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1437,7 +1437,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.0A;02.01.57.00.02.C3.01.0B</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.0A</systemName>
       <userName>AF Relay 10 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1451,7 +1451,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.12;02.01.57.00.02.C3.01.13</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.12</systemName>
       <userName>AF Relay 11 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1465,7 +1465,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.1A;02.01.57.00.02.C3.01.1B</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.1A</systemName>
       <userName>AF Relay 12 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1479,7 +1479,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.22;02.01.57.00.02.C3.01.23</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.22</systemName>
       <userName>AF Relay 13 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1493,7 +1493,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.2A;02.01.57.00.02.C3.01.2B</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.2A</systemName>
       <userName>AF Relay 14 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1507,7 +1507,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.32;02.01.57.00.02.C3.01.33</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.32</systemName>
       <userName>AF Relay 15 AFE Remote Toggle</userName>
       <properties>
         <property>
@@ -1521,7 +1521,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C3.01.3A;02.01.57.00.02.C3.01.3B</systemName>
+      <systemName>MS02.01.57.00.02.C3.01.3A</systemName>
       <userName>AF Relay 16 AFE Remote Toggle</userName>
       <properties>
         <property>
