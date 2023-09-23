@@ -1969,10 +1969,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 01 Follower" x="2014" y="852" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -1984,10 +1984,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 02 Follower" x="2014" y="803" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -1999,10 +1999,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 03 Follower" x="2013" y="746" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2014,10 +2014,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 04 Follower" x="2014" y="698" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2029,10 +2029,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 05 Follower" x="2014" y="644" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2044,10 +2044,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 06 Follower" x="2013" y="588" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2059,10 +2059,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 07 Follower" x="2015" y="535" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2074,10 +2074,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 08 Follower" x="2013" y="477" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2089,10 +2089,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 09 Follower" x="2016" y="422" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2104,10 +2104,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 10 Follower" x="2016" y="374" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2119,10 +2119,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 11 Follower" x="2015" y="323" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2662,10 +2662,10 @@
     <positionablelabel x="36" y="397" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- East" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1865" y="184" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="AF Relay 14 Follower" x="322" y="326" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2677,10 +2677,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="332" y="645" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2692,10 +2692,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="330" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2707,10 +2707,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="329" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -2722,10 +2722,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="328" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3145,10 +3145,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 01 Follower" x="701" y="568" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3160,10 +3160,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 02 Follower" x="701" y="505" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3175,10 +3175,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 03 Follower" x="703" y="451" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3190,10 +3190,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 04 Follower" x="702" y="400" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3205,10 +3205,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 05 Follower" x="701" y="340" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3220,10 +3220,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 06 Follower" x="700" y="280" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3235,10 +3235,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 07 Follower" x="700" y="237" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3250,10 +3250,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 08 Follower" x="698" y="179" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3265,10 +3265,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 09 Follower" x="699" y="121" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3280,10 +3280,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 10 Follower" x="697" y="68" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3295,10 +3295,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 11 Follower" x="697" y="13" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3737,10 +3737,10 @@
     <positionablelabel x="1911" y="855" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1907" y="324" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="11" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="AF Relay 01 Follower" x="1978" y="855" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3752,10 +3752,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 02 Follower" x="1979" y="803" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3767,10 +3767,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 03 Follower" x="1978" y="752" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3782,10 +3782,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 04 Follower" x="1981" y="700" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3797,10 +3797,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 05 Follower" x="1978" y="643" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3812,10 +3812,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 06 Follower" x="1978" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3827,10 +3827,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 07 Follower" x="1980" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3842,10 +3842,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 08 Follower" x="1981" y="482" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3857,10 +3857,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 09 Follower" x="1981" y="433" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3872,10 +3872,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 10 Follower" x="1979" y="380" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -3887,10 +3887,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 11 Follower" x="1980" y="328" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4579,10 +4579,10 @@
     <positionablelabel x="1852" y="161" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="38" y="394" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- East" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="AF Relay 14 Follower" x="318" y="647" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4594,10 +4594,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="318" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4609,10 +4609,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="318" y="538" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4624,10 +4624,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="317" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4639,10 +4639,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="310" y="323" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -4995,10 +4995,10 @@
     <positionablelabel x="694" y="5" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="10" y="5" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- East" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="AF Relay 14 Follower" x="314" y="33" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -5010,10 +5010,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="314" y="87" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -5025,10 +5025,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="315" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -5040,10 +5040,10 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="AF Relay 14 Follower" x="315" y="192" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+      <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/blue-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
