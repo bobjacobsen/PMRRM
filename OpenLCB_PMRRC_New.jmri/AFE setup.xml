@@ -485,20 +485,6 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.86</systemName>
-      <userName>AFE turnouts.Port I/O.Line(12,T1 T2).Commands/Consumers(3).Command</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.87</systemName>
       <userName>AFE AFE4 Request Remote</userName>
       <properties>
@@ -878,7 +864,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.1D;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE Trk T2 Selected</userName>
+      <userName>AFE AFE4 Selected</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -892,7 +878,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.2C;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE Trk T1 Selected</userName>
+      <userName>AFE AFE3 Selected</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -906,7 +892,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.34;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE Trk C2 Selected</userName>
+      <userName>AFE AFE2 Selected</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -920,7 +906,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.35;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE Trk C1 Selected</userName>
+      <userName>AFE AFE1 Selected</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1723,7 +1709,7 @@
     </turnout>
     <turnout feedback="ONESENSOR" sensor1="AFE AFE3-AFE4 confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.84;02.01.57.00.01.9C.00.85</systemName>
-      <userName>AFE T1 T2</userName>
+      <userName>AFE AFE3-AFE4</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1751,7 +1737,7 @@
     </turnout>
     <turnout feedback="ONESENSOR" sensor1="AFE AFE3-AFE2 confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.9C;02.01.57.00.01.9C.00.9D</systemName>
-      <userName>AFE T2 C1</userName>
+      <userName>AFE AFE3-AFE2</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1765,7 +1751,7 @@
     </turnout>
     <turnout feedback="ONESENSOR" sensor1="AFE AFE1-AFE2 confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.A8;02.01.57.00.01.9C.00.A9</systemName>
-      <userName>AFE C1 C2</userName>
+      <userName>AFE AFE1-AFE2</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -2569,7 +2555,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C1 Selected" x="404" y="646" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE1 Selected" x="404" y="646" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2584,7 +2570,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C2 Selected" x="459" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE2 Selected" x="459" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2599,7 +2585,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T1 Selected" x="509" y="535" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 Selected" x="509" y="535" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2614,7 +2600,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T2 Selected" x="562" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 Selected" x="562" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4396,7 +4382,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C1 Selected" x="400" y="643" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE1 Selected" x="400" y="643" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4411,7 +4397,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C2 Selected" x="461" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE2 Selected" x="461" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4426,7 +4412,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T1 Selected" x="512" y="537" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 Selected" x="512" y="537" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4441,7 +4427,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T2 Selected" x="562" y="484" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 Selected" x="562" y="484" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4752,7 +4738,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="AFE T2 C1" x="573" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE AFE3-AFE2" x="573" y="75" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutDescending-L.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -4769,7 +4755,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="AFE T1 T2" x="624" y="24" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE AFE3-AFE4" x="624" y="24" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight-L.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -4786,7 +4772,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="AFE C1 C2" x="515" y="130" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE AFE1-AFE2" x="515" y="130" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutDescending-L.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -4911,7 +4897,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C1 Selected" x="398" y="194" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE1 Selected" x="398" y="194" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4926,7 +4912,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk C2 Selected" x="450" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE2 Selected" x="450" y="139" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4941,7 +4927,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T1 Selected" x="507" y="87" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 Selected" x="507" y="87" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4956,7 +4942,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk T2 Selected" x="559" y="34" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 Selected" x="559" y="34" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -4986,10 +4972,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="219" y="75" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="T1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="217" y="22" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="T2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="221" y="184" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="C1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="221" y="131" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="C2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="8" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- East" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="702" y="234" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="694" y="5" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -5380,9 +5362,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Sep 23 12:50:54 EDT 2023</date>
+      <date>Sat Sep 23 13:00:03 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230923T1610Z+R50b5d9a6ed on Sat Sep 23 12:50:54 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230923T1610Z+R50b5d9a6ed on Sat Sep 23 13:00:03 EDT 2023-->
 </layout-config>
