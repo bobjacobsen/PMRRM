@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFE new panel middle twr
-NODE ID.Your name and description for this node.Node Description=AF body and AFE track power buttons TWRC7d-21Sept
+NODE ID.Your name and description for this node.Node Name=AFE panel middle twr 23Sept23
+NODE ID.Your name and description for this node.Node Description=AF body and AFE track power buttons TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.04.4D.04.88
 Node Power Monitor.Power Not OK=02.01.57.00.04.4D.04.89
