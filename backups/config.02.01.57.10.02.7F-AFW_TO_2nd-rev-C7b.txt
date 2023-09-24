@@ -1,5 +1,5 @@
-Node ID.Your name and description for this node.Node Name=AFW TO 2nd
-Node ID.Your name and description for this node.Node Description=SIGC7b-20Apr22a
+Node ID.Your name and description for this node.Node Name=AFW TO 2nd 20Apr22a
+Node ID.Your name and description for this node.Node Description=Turnout owner SIGC7b
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=00.00.00.00.00.00.00.00
 Node Power Monitor.Power Not OK=00.00.00.00.00.00.00.00

@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFW panel TWR1
-NODE ID.Your name and description for this node.Node Description=Body track relay ctrl buttons & partial routes TWRC7d-21Sept23
+NODE ID.Your name and description for this node.Node Name=AFW panel TWR1 21Sept23
+NODE ID.Your name and description for this node.Node Description=Body track relay ctrl buttons & partial routes TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.04.59.02.40
 Node Power Monitor.Power Not OK=02.01.57.00.04.59.02.41

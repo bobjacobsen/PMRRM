@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFW TO 1st
-NODE ID.Your name and description for this node.Node Description=TWRC7d-26Jul22a
+NODE ID.Your name and description for this node.Node Name=AFW TO 1st 26July22a
+NODE ID.Your name and description for this node.Node Description=Turnout owner TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.02.5A.02.40
 Node Power Monitor.Power Not OK=02.01.57.00.02.5A.02.41

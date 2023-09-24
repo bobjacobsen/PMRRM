@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFW panel TWR3
-NODE ID.Your name and description for this node.Node Description=Throat PB TWRC7d-16Feb23
+NODE ID.Your name and description for this node.Node Name=AFW panel TWR3 16Feb23
+NODE ID.Your name and description for this node.Node Description=Throat PB TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.01.9A.02.40
 Node Power Monitor.Power Not OK=02.01.57.00.01.9A.02.41
