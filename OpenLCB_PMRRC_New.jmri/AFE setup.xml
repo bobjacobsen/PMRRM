@@ -1723,7 +1723,7 @@
     </turnout>
     <turnout feedback="ONESENSOR" sensor1="AFE AFE4 West Pocket Xover confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.91;02.01.57.00.01.9C.00.90</systemName>
-      <userName>AFE East Xover</userName>
+      <userName>AFE AFE4 West Pocket AFE5 Xover</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -4730,7 +4730,7 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE C T Tracks Layout Actual Controls" x="327" y="858" height="401" width="787" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE C T Tracks Layout Actual Controls" x="338" y="988" height="401" width="787" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/AFE C T Area.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -5169,7 +5169,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="AFE East Xover" x="444" y="174" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE AFE4 West Pocket AFE5 Xover" x="444" y="174" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight-L.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -5186,7 +5186,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="AFE East Xover" x="383" y="263" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="AFE AFE4 West Pocket AFE5 Xover" x="383" y="263" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/TurnoutStraight-L.png" degrees="0" scale="1.0">
           <rotation>2</rotation>
@@ -5392,9 +5392,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Sep 26 10:12:05 EDT 2023</date>
+      <date>Tue Sep 26 12:00:11 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230926T1405Z+R0fbc164cb7 on Tue Sep 26 10:12:05 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230926T1405Z+R0fbc164cb7 on Tue Sep 26 12:00:11 EDT 2023-->
 </layout-config>
