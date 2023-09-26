@@ -1,4 +1,4 @@
-NODE ID.Your name and description for this node.Node Name=AFE turnouts 25Sept23
+NODE ID.Your name and description for this node.Node Name=AFE turnouts 26Sept23
 NODE ID.Your name and description for this node.Node Description=AFE turnout owner TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.01.9C.02.40
@@ -423,7 +423,7 @@ Port I/O.Line(11).Actions/Producers(4).Upon this action=0
 Port I/O.Line(11).Actions/Producers(4).Indicator=02.01.57.00.01.9C.00.8E
 Port I/O.Line(11).Actions/Producers(5).Upon this action=0
 Port I/O.Line(11).Actions/Producers(5).Indicator=02.01.57.00.01.9C.00.8F
-Port I/O.Line(12).Line Description=East Xover
+Port I/O.Line(12).Line Description=AFE4 westpocket, AF5 Xover
 Port I/O.Line(12).Output Function=1
 Port I/O.Line(12).Receiving the configured Command (C) event(s) will drive or pulse the line:=1
 Port I/O.Line(12).Input Function=0
