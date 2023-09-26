@@ -1,9 +1,92 @@
 A series of notes-in-progress about AFE configuration.
 
+***Useful Tools***
+
+git log --name-status --graph --oneline
+
+git diff --name-only <tag>
+
+**Later**
+
 [ ] Right TWR 15, 16 not yet assigned uses, need to be configured once they are
 
-[ ] Event ID (tagging) file is going to need to be recreated from scratch due to naming changes?
+[ ] Left TWR not configured at all
 
-[ ] Some of the AFE Turnouts single lines (e.g not AF relays, which is done) don't have their veto-mode connections configured.  The remote sample panel will have to be updated for that.
+[ ] Event ID (tagging) file is going to need to be recreated from scratch due to naming changes
 
-[ ] Local and remote image panels need to have the whole slip area added.
+[ ] Some of the AFE Turnouts single lines (e.g not AF relays, which is done) d
+    on't have their veto-mode connections configured.  
+    The remote sample panel will have to be updated for that.
+
+[ ] Remote image panel needs to be updated with full controls
+
+[ ] Set Disable on all the sensor icons before publishing panels to club
+
+** Soon **
+
+[ ] Local image panel needs to be updated with full controls
+
+**This week**
+
+[X] Add power selectors for AFE1-5 to panel, to nodes
+
+[ ] Tower connections for selecting APE 1-5 (middle line 13 et al) need to done.
+
+[ ] Slip area Tower connections need to be done (with subpanel buttons) - polarity now thought to be OK
+
+[ ] East Xover needs twr, panel controls - alternating control
+    Will need an alternate event in it's node - already there
+    Need to find out the response events to light the LED
+
+[ ] "APE cross AF" button needs to be configured
+        EventID:02.01.57.00.01.9D.00.79
+          Event: AFE X-over to APE Closed request
+                 Turnout AFE Cross AP Closed
+        EventID:02.01.57.00.01.9D.00.78
+          Event: AFE X-over to APE Thrown request
+                 Turnout AFE Cross AP Thrown
+    Node 02.01.57.00.01.9D is APE (not AFE) turnouts, check for alternating
+
+[X] Names for C1 - T2 were redone; change names in panel file to agree
+
+[X] For consistency with the other channels, move Toggle to Event 5 on AF Relay 14. 
+    Will require changes of Event IDs in PP panel sensor(s) and in the panel twr node.
+        Evt 5 is 02.01.57.00.02.C3.00.A0
+        Evt 1 is 02.01.57.00.02.C3.00.9C
+    
+[ ] Understand the desired encoding of the passenger-panel interaction for the top crossover
+
+[X] Does Peter want final virtual panels to be photographic or schematic?
+        Schematic, maybe Layout Editor
+
+
+[ ] Need to fix this:
+     [java] 06:04:20,232 mri.jmrix.AbstractMRTrafficController WARN  - notify: During reply dispatch to jmri.jmrix.openlcb.OlcbConfigurationManager$2@6a2f1b33 [AWT-EventQueue-0]
+     [java] java.lang.NullPointerException: null
+     [java] 	at org.openlcb.swing.networktree.TreePane$1.propertyChange(TreePane.java:84) ~[openlcb.jar:?]
+     [java] 	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341) ~[?:?]
+     [java] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333) ~[?:?]
+     [java] 	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266) ~[?:?]
+     [java] 	at org.openlcb.MimicNodeStore$NodeMemo.handleSimpleNodeIdentInfoReply(MimicNodeStore.java:291) ~[openlcb.jar:?]
+     [java] 	at org.openlcb.SimpleNodeIdentInfoReplyMessage.applyTo(SimpleNodeIdentInfoReplyMessage.java:60) ~[openlcb.jar:?]
+     [java] 	at org.openlcb.MessageDecoder.put(MessageDecoder.java:34) ~[openlcb.jar:?]
+     [java] 	at org.openlcb.MimicNodeStore.put(MimicNodeStore.java:87) ~[openlcb.jar:?]
+     [java] 	at org.openlcb.OlcbInterface$MessageDispatcher.put(OlcbInterface.java:292) ~[openlcb.jar:?]
+     [java] 	at org.openlcb.can.CanInterface$FrameParser.send(CanInterface.java:158) ~[openlcb.jar:?]
+     [java] 	at jmri.jmrix.openlcb.OlcbConfigurationManager$2.reply(OlcbConfigurationManager.java:594) ~[classes/:?]
+     [java] 	at jmri.jmrix.can.adapters.gridconnect.GcTrafficController.forwardReply(GcTrafficController.java:52) ~[classes/:?]
+     [java] 	at jmri.jmrix.AbstractMRTrafficController.notifyReply(AbstractMRTrafficController.java:312) [classes/:?]
+     [java] 	at jmri.jmrix.AbstractMRTrafficController$RcvNotifier.run(AbstractMRTrafficController.java:1260) [classes/:?]
+     [java] 	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+     [java] 	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+     [java] 	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+     [java] 	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+     [java] 	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+     [java] 	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+     [java] 	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+     [java] 	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+     [java] 	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+     [java] 	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+     [java] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+     [java] 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+     [java] 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
