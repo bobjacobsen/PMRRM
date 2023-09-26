@@ -514,7 +514,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.97;02.01.57.00.01.9C.00.96</systemName>
-      <userName>AFE East Xover confirm thrown/closed</userName>
+      <userName>AFE AFE4 West Pocket Xover confirm thrown/closed</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -1721,7 +1721,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AFE East Xover confirm thrown/closed" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AFE AFE4 West Pocket Xover confirm thrown/closed" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.91;02.01.57.00.01.9C.00.90</systemName>
       <userName>AFE East Xover</userName>
       <properties>
@@ -1781,7 +1781,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE Hardware Panel Image" x="210" y="191" height="1057" width="2139" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE Hardware Panel Image" x="210" y="190" height="1057" width="2139" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/AFE_Panel_2BW.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -2862,6 +2862,21 @@
         <rotation>0</rotation>
       </active>
       <inactive url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="AFE AFE4 West Pocket Xover confirm thrown/closed" x="828" y="405" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
       <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
@@ -5263,108 +5278,123 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <sensoricon sensor="AFE AFE4 West Pocket Xover confirm thrown/closed" x="419" y="233" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Sep 26 08:43:46 EDT 2023</date>
+      <date>Tue Sep 26 10:05:33 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Sep 26 08:44:02 EDT 2023</date>
+      <date>Tue Sep 26 10:06:20 EDT 2023</date>
       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Sun Sep 24 18:24:17 EDT 2023</date>
+          <date>Tue Sep 26 08:43:46 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Sun Sep 24 18:24:45 EDT 2023</date>
+          <date>Tue Sep 26 08:44:02 EDT 2023</date>
           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sat Sep 23 12:10:15 EDT 2023</date>
+              <date>Sun Sep 24 18:24:17 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sat Sep 23 12:10:36 EDT 2023</date>
+              <date>Sun Sep 24 18:24:45 EDT 2023</date>
               <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Sep 23 08:38:29 EDT 2023</date>
+                  <date>Sat Sep 23 12:10:15 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Sep 23 08:38:44 EDT 2023</date>
+                  <date>Sat Sep 23 12:10:36 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sat Sep 23 08:12:49 EDT 2023</date>
+                      <date>Sat Sep 23 08:38:29 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sat Sep 23 08:13:03 EDT 2023</date>
+                      <date>Sat Sep 23 08:38:44 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sat Sep 23 08:04:18 EDT 2023</date>
+                          <date>Sat Sep 23 08:12:49 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sat Sep 23 08:04:45 EDT 2023</date>
+                          <date>Sat Sep 23 08:13:03 EDT 2023</date>
                           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sat Sep 23 08:09:13 EDT 2023</date>
+                          <date>Sat Sep 23 08:25:42 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sat Sep 23 08:25:42 EDT 2023</date>
+                      <date>Sat Sep 23 08:50:16 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Sep 23 08:50:16 EDT 2023</date>
+                  <date>Sat Sep 23 13:00:03 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Sat Sep 23 13:00:03 EDT 2023</date>
+              <date>Sun Sep 24 18:49:10 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Sun Sep 24 18:49:10 EDT 2023</date>
+          <date>Tue Sep 26 08:44:14 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Sep 26 08:44:14 EDT 2023</date>
+      <date>Tue Sep 26 10:12:05 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.4plus+jake+20230926T1243Z+R0fbc164cb7 on Tue Sep 26 08:44:14 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230926T1405Z+R0fbc164cb7 on Tue Sep 26 10:12:05 EDT 2023-->
 </layout-config>
