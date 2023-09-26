@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/idtags.xsl" type="text/xsl"?>
 <idtagtable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/idtags.xsd">
-  <!--Written by JMRI version 5.5.3plus+jake+20230810T1400Z+R387568c891 on Thu Aug 10 10:18:55 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20230923T1752Z+Rc9119e6cdb on Sat Sep 23 14:08:29 EDT 2023-->
   <configuration>
     <storeState>no</storeState>
     <useFastClock>no</useFastClock>
@@ -20,19 +20,27 @@
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.00</systemName>
-      <userName>AFE Request Trk 02 Active</userName>
+      <userName>AFE Trk 02 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0C</systemName>
-      <userName>AFE Request Trk 03 Active</userName>
+      <userName>AFE Trk 03 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0D</systemName>
-      <userName>AFE Request Trk 04 Active</userName>
+      <userName>AFE Trk 04 Request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0E</systemName>
+      <userName>AFE Trk 03 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.0F</systemName>
+      <userName>AFE Trk 04 Request Remote</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.01</systemName>
-      <userName>AFE Request Trk 01 Active</userName>
+      <userName>AFE Trk 01 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.1E</systemName>
@@ -43,6 +51,10 @@
       <userName>AFE F12 F34 confirm closed</userName>
     </idtag>
     <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.02</systemName>
+      <userName>AFE Trk 02 Request Remote</userName>
+    </idtag>
+    <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.2A</systemName>
       <userName>AFE F5 F6 confirm thrown</userName>
     </idtag>
@@ -51,12 +63,28 @@
       <userName>AFE F5 F6 confirm closed</userName>
     </idtag>
     <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.03</systemName>
+      <userName>AFE Trk 01 Request Remote</userName>
+    </idtag>
+    <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.3C</systemName>
-      <userName>AFE Request Trk 09 Active</userName>
+      <userName>AFE Trk 09 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.3D</systemName>
       <userName>AFE Ladder top 2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.3E</systemName>
+      <userName>AFE Trk 09 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.4A</systemName>
+      <userName>AFE Trk 08 Remote Request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.4B</systemName>
+      <userName>AFE Trk 07 Remote Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.4E</systemName>
@@ -136,7 +164,15 @@
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.25</systemName>
-      <userName>AFE Request Trk 05 Active</userName>
+      <userName>AFE Trk 05 Request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.26</systemName>
+      <userName>AFE Trk 06 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.27</systemName>
+      <userName>AFE Trk 05 Request Remote</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.30</systemName>
@@ -164,19 +200,27 @@
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.48</systemName>
-      <userName>AFE Request Trk 08 Active</userName>
+      <userName>AFE Trk 08 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.49</systemName>
-      <userName>AFE Request Trk 07 Active</userName>
+      <userName>AFE Trk 07 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.54</systemName>
-      <userName>AFE Request Trk 11 Active</userName>
+      <userName>AFE Trk 11 Request</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.55</systemName>
-      <userName>AFE Request Trk 10 Active</userName>
+      <userName>AFE Trk 10 Request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.56</systemName>
+      <userName>AFE Trk 11 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.57</systemName>
+      <userName>AFE Trk 10 Request Remote</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.60</systemName>
@@ -219,6 +263,13 @@
       <userName>AFE Caboose ladder T1 T2 Closed request</userName>
     </idtag>
     <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.86</systemName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.87</systemName>
+      <userName>AFE AFE4 Request Remote</userName>
+    </idtag>
+    <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.90</systemName>
       <userName>AFE East Pocket T1 Xover Thrown request</userName>
     </idtag>
@@ -251,6 +302,14 @@
       <userName>AFE Caboose ladder C1 C2 Closed request</userName>
     </idtag>
     <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.AA</systemName>
+      <userName>AFE AFE2 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.AB</systemName>
+      <userName>AFE AFE1 Request Remote</userName>
+    </idtag>
+    <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.AE</systemName>
       <userName>AFE C1 C2 confirm thrown</userName>
     </idtag>
@@ -265,6 +324,13 @@
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.B5</systemName>
       <userName>AFE Caboose ladder East T1 T2 Closed request</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.B6</systemName>
+      <userName>AFE AFE3 Request Remote</userName>
+    </idtag>
+    <idtag>
+      <systemName>IDOpenLCB$02.01.57.00.01.9C.00.B7</systemName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$02.01.57.00.01.9C.00.BA</systemName>
@@ -1462,8 +1528,12 @@
       <userName>Bend DCC-LCC LT1 Closed request</userName>
     </idtag>
     <idtag>
+      <systemName>IDOpenLCB$05.01.01.01.3C.00.00.1A</systemName>
+      <userName>AFE Unselected AFE1-4 Ladder</userName>
+    </idtag>
+    <idtag>
       <systemName>IDOpenLCB$05.01.01.01.3C.00.00.10</systemName>
-      <userName>AFE Remove Control Enable</userName>
+      <userName>AFE Remote Control Enable</userName>
     </idtag>
     <idtag>
       <systemName>IDOpenLCB$05.01.01.01.3C.00.00.11</systemName>
