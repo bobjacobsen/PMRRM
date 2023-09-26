@@ -1,4 +1,4 @@
-NODE ID.Your name and description for this node.Node Name=AFE turnouts 21Sept23
+NODE ID.Your name and description for this node.Node Name=AFE turnouts 25Sept23
 NODE ID.Your name and description for this node.Node Description=AFE turnout owner TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.01.9C.02.40

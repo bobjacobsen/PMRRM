@@ -1,4 +1,4 @@
-NODE ID.Your name and description for this node.Node Name=AF relays 21Sept23
+NODE ID.Your name and description for this node.Node Name=AF relays 25Sep23
 NODE ID.Your name and description for this node.Node Description=Relays controlling body track power at AF TWRC7d
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.02.C3.02.40
