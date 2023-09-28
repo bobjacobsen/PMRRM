@@ -570,7 +570,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.06;02.01.57.00.02.C3.00.07</systemName>
-      <userName>AF_Relay01_feedback</userName>
+      <userName>AF Relay 01 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -580,7 +580,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.12;02.01.57.00.02.C3.00.13</systemName>
-      <userName>AF_Relay02_feedback</userName>
+      <userName>AF Relay 02 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -590,7 +590,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.1E;02.01.57.00.02.C3.00.1F</systemName>
-      <userName>AF_Relay03_feedback</userName>
+      <userName>AF Relay 03 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -600,7 +600,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.2A;02.01.57.00.02.C3.00.2B</systemName>
-      <userName>AF_Relay04_feedback</userName>
+      <userName>AF Relay 04 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -610,7 +610,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.36;02.01.57.00.02.C3.00.37</systemName>
-      <userName>AF_Relay05_feedback</userName>
+      <userName>AF Relay 05 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -620,7 +620,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.42;02.01.57.00.02.C3.00.43</systemName>
-      <userName>AF_Relay06_feedback</userName>
+      <userName>AF Relay 06 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -630,7 +630,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.4E;02.01.57.00.02.C3.00.4F</systemName>
-      <userName>AF_Relay07_feedback</userName>
+      <userName>AF Relay 07 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -640,7 +640,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.5A;02.01.57.00.02.C3.00.5B</systemName>
-      <userName>AF_Relay08_feedback</userName>
+      <userName>AF Relay 08 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -650,7 +650,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.66;02.01.57.00.02.C3.00.67</systemName>
-      <userName>AF_Relay09_feedback</userName>
+      <userName>AF Relay 09 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -660,7 +660,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.72;02.01.57.00.02.C3.00.73</systemName>
-      <userName>AF_Relay10_feedback</userName>
+      <userName>AF Relay 10 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -670,7 +670,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.7E;02.01.57.00.02.C3.00.7F</systemName>
-      <userName>AF_Relay11_feedback</userName>
+      <userName>AF Relay 11 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -680,7 +680,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.8A;02.01.57.00.02.C3.00.8B</systemName>
-      <userName>AF_Relay12_feedback</userName>
+      <userName>AF Relay 12 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -690,7 +690,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.96;02.01.57.00.02.C3.00.97</systemName>
-      <userName>AF_Relay13_feedback</userName>
+      <userName>AF Relay 13 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -700,7 +700,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.A2;02.01.57.00.02.C3.00.A3</systemName>
-      <userName>AF_Relay14_feedback</userName>
+      <userName>AF Relay 14 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -710,7 +710,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.AE;02.01.57.00.02.C3.00.AF</systemName>
-      <userName>AF_Relay15_feedback</userName>
+      <userName>AF Relay 15 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -720,7 +720,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.00.BA;02.01.57.00.02.C3.00.BB</systemName>
-      <userName>AF_Relay16_feedback</userName>
+      <userName>AF Relay 16 Follower</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1178,7 +1178,7 @@
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.00;02.01.57.00.01.9C.00.01</systemName>
-      <userName>AFE F1 F2 chkd</userName>
+      <userName>AFE F1 F2</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1188,7 +1188,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.0C;02.01.57.00.01.9C.00.0D</systemName>
-      <userName>AFE F3 F4 chkd</userName>
+      <userName>AFE F3 F4</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1198,7 +1198,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.18;02.01.57.00.01.9C.00.19</systemName>
-      <userName>AFE Ladder bottom 2 chkd</userName>
+      <userName>AFE F12 F34</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1208,7 +1208,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.24;02.01.57.00.01.9C.00.25</systemName>
-      <userName>AFE F5 F6 chkd</userName>
+      <userName>AFE F5 F6</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1218,7 +1218,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.30;02.01.57.00.01.9C.00.31</systemName>
-      <userName>AFE Ladder bottom 1 chkd</userName>
+      <userName>AFE F1234 F56</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1228,7 +1228,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.3C;02.01.57.00.01.9C.00.3D</systemName>
-      <userName>AFE Ladder top 2 chkd</userName>
+      <userName>AFE F78 F9</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1238,7 +1238,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.48;02.01.57.00.01.9C.00.49</systemName>
-      <userName>AFE F7 F8 chkd</userName>
+      <userName>AFE F7 F8</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1248,7 +1248,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.54;02.01.57.00.01.9C.00.55</systemName>
-      <userName>AFE F10 F11 chkd</userName>
+      <userName>AFE F10 F11</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -1258,7 +1258,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.9C.00.60;02.01.57.00.01.9C.00.61</systemName>
-      <userName>AFE Ladder top 1 chkd</userName>
+      <userName>AFE F789 F1011</userName>
       <properties>
         <property>
           <key>IsAuthoritative</key>
@@ -2317,7 +2317,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay01_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 01 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.00;02.01.57.00.02.C3.00.01</systemName>
       <userName>AF_Relay01_F1</userName>
       <properties>
@@ -2327,7 +2327,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay02_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 02 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.0C;02.01.57.00.02.C3.00.0D</systemName>
       <userName>AF_Relay02_F2</userName>
       <properties>
@@ -2337,7 +2337,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay03_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 03 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.18;02.01.57.00.02.C3.00.19</systemName>
       <userName>AF_Relay03_F3</userName>
       <properties>
@@ -2347,7 +2347,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay04_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 04 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.24;02.01.57.00.02.C3.00.25</systemName>
       <userName>AF_Relay04_F4</userName>
       <properties>
@@ -2357,7 +2357,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay05_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 05 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.30;02.01.57.00.02.C3.00.31</systemName>
       <userName>AF_Relay05_F5</userName>
       <properties>
@@ -2367,7 +2367,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay06_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 06 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.3C;02.01.57.00.02.C3.00.3D</systemName>
       <userName>AF_Relay06_F6</userName>
       <properties>
@@ -2377,7 +2377,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay07_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 07 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.48;02.01.57.00.02.C3.00.49</systemName>
       <userName>AF_Relay07_F7</userName>
       <properties>
@@ -2387,7 +2387,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay08_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 08 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.54;02.01.57.00.02.C3.00.55</systemName>
       <userName>AF_Relay08_F8</userName>
       <properties>
@@ -2397,7 +2397,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay09_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 09 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.60;02.01.57.00.02.C3.00.61</systemName>
       <userName>AF_Relay09_F9</userName>
       <properties>
@@ -2407,7 +2407,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay10_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 10 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.6C;02.01.57.00.02.C3.00.6D</systemName>
       <userName>AF_Relay10_F10</userName>
       <properties>
@@ -2417,7 +2417,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay11_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 11 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.78;02.01.57.00.02.C3.00.79</systemName>
       <userName>AF_Relay11_F11</userName>
       <properties>
@@ -2427,7 +2427,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay12_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 12 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.84;02.01.57.00.02.C3.00.85</systemName>
       <userName>AF_Relay12_Engine_Pocket_pwr</userName>
       <properties>
@@ -2437,7 +2437,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay13_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 13 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.90;02.01.57.00.02.C3.00.91</systemName>
       <userName>AF_Relay13_Intermodal_pwr</userName>
       <properties>
@@ -2447,7 +2447,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay14_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 14 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.9C;02.01.57.00.02.C3.00.9D</systemName>
       <userName>AF_Relay14_UNUSED</userName>
       <properties>
@@ -2457,7 +2457,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay15_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 15 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.A8;02.01.57.00.02.C3.00.A9</systemName>
       <userName>AF_Relay15_UNUSED</userName>
       <properties>
@@ -2467,7 +2467,7 @@
         </property>
       </properties>
     </turnout>
-    <turnout feedback="ONESENSOR" sensor1="AF_Relay16_feedback" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="AF Relay 16 Follower" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.C3.00.B4;02.01.57.00.02.C3.00.B5</systemName>
       <userName>AF_Relay16_UNUSED</userName>
       <properties>
@@ -2906,9 +2906,9 @@
     <route userName="AFE F2 route">
       <systemName>IO:AUTO:0001</systemName>
       <userName>AFE F2 route</userName>
-      <routeOutputTurnout systemName="AFE F1 F2 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 2 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F1 F2" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F12 F34" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="CLOSED" />
       <routeOutputSensor systemName="AFE F1 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F3 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F4 routing button" state="INACTIVE" />
@@ -2919,9 +2919,9 @@
     <route userName="AFE F1 route">
       <systemName>IO:AUTO:0002</systemName>
       <userName>AFE F1 route</userName>
-      <routeOutputTurnout systemName="AFE F1 F2 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 2 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F1 F2" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F12 F34" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="CLOSED" />
       <routeOutputSensor systemName="AFE F2 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F3 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F4 routing button" state="INACTIVE" />
@@ -2932,9 +2932,9 @@
     <route userName="AFE F3 route">
       <systemName>IO:AUTO:0003</systemName>
       <userName>AFE F3 route</userName>
-      <routeOutputTurnout systemName="AFE F3 F4 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 2 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F3 F4" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F12 F34" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="CLOSED" />
       <routeOutputSensor systemName="AFE F2 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F1 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F4 routing button" state="INACTIVE" />
@@ -2945,9 +2945,9 @@
     <route userName="AFE F4 route">
       <systemName>IO:AUTO:0004</systemName>
       <userName>AFE F4 route</userName>
-      <routeOutputTurnout systemName="AFE F3 F4 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 2 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F3 F4" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F12 F34" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="CLOSED" />
       <routeOutputSensor systemName="AFE F2 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F1 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F3 routing button" state="INACTIVE" />
@@ -2963,8 +2963,8 @@
     <route userName="AFE F5 route">
       <systemName>IO:AUTO:0005</systemName>
       <userName>AFE F5 route</userName>
-      <routeOutputTurnout systemName="AFE F5 F6 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F5 F6" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="THROWN" />
       <routeOutputSensor systemName="AFE F2 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F1 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F3 routing button" state="INACTIVE" />
@@ -2975,8 +2975,8 @@
     <route userName="AFE F6 route">
       <systemName>IO:AUTO:0006</systemName>
       <userName>AFE F6 route</userName>
-      <routeOutputTurnout systemName="AFE F5 F6 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder bottom 1 chkd" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F5 F6" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F1234 F56" state="THROWN" />
       <routeOutputSensor systemName="AFE F2 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F1 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F3 routing button" state="INACTIVE" />
@@ -2992,9 +2992,9 @@
     <route userName="AFE F7 route">
       <systemName>IO:AUTO:0007</systemName>
       <userName>AFE F7 route</userName>
-      <routeOutputTurnout systemName="AFE Ladder top 2 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE F7 F8 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder top 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F78 F9" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F7 F8" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F789 F1011" state="CLOSED" />
       <routeOutputSensor systemName="AFE F8 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F9 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F10 routing button" state="INACTIVE" />
@@ -3004,9 +3004,9 @@
     <route userName="AFE F8 route">
       <systemName>IO:AUTO:0008</systemName>
       <userName>AFE F8 route</userName>
-      <routeOutputTurnout systemName="AFE Ladder top 2 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE F7 F8 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder top 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F78 F9" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F7 F8" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F789 F1011" state="CLOSED" />
       <routeOutputSensor systemName="AFE F7 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F9 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F10 routing button" state="INACTIVE" />
@@ -3016,8 +3016,8 @@
     <route userName="AFE F9 route">
       <systemName>IO:AUTO:0009</systemName>
       <userName>AFE F9 route</userName>
-      <routeOutputTurnout systemName="AFE Ladder top 2 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder top 1 chkd" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F78 F9" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F789 F1011" state="CLOSED" />
       <routeOutputSensor systemName="AFE F7 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F8 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F10 routing button" state="INACTIVE" />
@@ -3027,8 +3027,8 @@
     <route userName="AFE F10 route">
       <systemName>IO:AUTO:0010</systemName>
       <userName>AFE F10 route</userName>
-      <routeOutputTurnout systemName="AFE F10 F11 chkd" state="CLOSED" />
-      <routeOutputTurnout systemName="AFE Ladder top 1 chkd" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F10 F11" state="CLOSED" />
+      <routeOutputTurnout systemName="AFE F789 F1011" state="THROWN" />
       <routeOutputSensor systemName="AFE F7 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F8 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F9 routing button" state="INACTIVE" />
@@ -3038,8 +3038,8 @@
     <route userName="AFE F11 route">
       <systemName>IO:AUTO:0011</systemName>
       <userName>AFE F11 route</userName>
-      <routeOutputTurnout systemName="AFE F10 F11 chkd" state="THROWN" />
-      <routeOutputTurnout systemName="AFE Ladder top 1 chkd" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F10 F11" state="THROWN" />
+      <routeOutputTurnout systemName="AFE F789 F1011" state="THROWN" />
       <routeOutputSensor systemName="AFE F7 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F8 routing button" state="INACTIVE" />
       <routeOutputSensor systemName="AFE F9 routing button" state="INACTIVE" />
