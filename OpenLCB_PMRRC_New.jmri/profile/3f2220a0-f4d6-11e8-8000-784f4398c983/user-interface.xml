@@ -203,7 +203,7 @@
         <window xmlns="" class="Local JMRI throttles" height="228.0" locX="28.0" locY="26.0" width="320.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Actual" locX="0.0" locY="25.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1362.0" locX="0.0" locY="25.0" width="2532.0"/>
-        <window xmlns="" class="AFE Slip Area Actual Controls" height="587.0" locX="1418.0" locY="904.0" width="997.0"/>
+        <window xmlns="" class="AFE Slip Area Actual Controls" height="587.0" locX="1418.0" locY="853.0" width="997.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor" height="347.0" locX="0.0" locY="25.0" width="319.0"/>
         <window xmlns="" class="jmri.jmrix.openlcb.swing.send.OpenLcbCanSendPane" height="896.0" locX="316.0" locY="285.0" width="1180.0"/>
@@ -227,7 +227,7 @@
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Remote Panel Image" locX="0.0" locY="25.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:LeftTurnout" height="671.0" locX="0.0" locY="25.0" width="553.0"/>
         <window xmlns="" class="Panel" height="484.0" locX="886.0" locY="519.0" width="987.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.networktree.NetworkTreePane" height="744.0" locX="796.0" locY="25.0" width="805.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.networktree.NetworkTreePane" height="801.0" locX="796.0" locY="25.0" width="855.0"/>
         <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="463.0" locX="0.0" locY="25.0" width="1125.0"/>
         <window xmlns="" class="AFE Hardware Panel Image:1" height="1057.0" locX="2879.0" locY="3.0" width="2139.0"/>
         <window xmlns="" class="AFE Remote Panel Image" height="1130.0" locX="247.0" locY="155.0" width="2065.0"/>
