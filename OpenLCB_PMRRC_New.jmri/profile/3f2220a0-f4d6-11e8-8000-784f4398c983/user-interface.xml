@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
-        <preferences xmlns="" class="jmri.jmrit.display.EditorManager"/>
         <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
     </classPreferences>
     <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
-        <comboBox xmlns="" lastSelected="Internal" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
+        <comboBox xmlns="" lastSelected="OpenLCB" name="jmri.jmrit.beantable.SensorTableAction.SystemSelected"/>
         <comboBox xmlns="" lastSelected="CAN via GridConnect Network Interface" name="OpenLCB"/>
         <comboBox xmlns="" lastSelected="OpenLCB" name="jmri.jmrit.beantable.TurnoutTableAction.SystemSelected"/>
     </comboBoxLastValue>
@@ -71,26 +70,26 @@
                 <column hidden="false" name="User Name" order="1" width="190"/>
                 <column hidden="true" name="Closed Speed" order="16" width="178"/>
                 <column hidden="true" name="ForgetState" order="18" width="84"/>
-                <column hidden="true" name="Mode" order="9" width="130"/>
-                <column hidden="true" name="Column13" order="13" width="102"/>
+                <column hidden="false" name="Mode" order="9" width="130"/>
+                <column hidden="false" name="Column13" order="13" width="102"/>
                 <column hidden="false" name="Column4" order="4" width="88"/>
-                <column hidden="true" name="Retry Automation" order="12" width="121"/>
+                <column hidden="false" name="Retry Automation" order="12" width="121"/>
                 <column hidden="true" name="QueryState" order="19" width="81"/>
                 <column hidden="true" name="Decoder" order="15" width="130"/>
                 <column hidden="false" name="Locked" order="6" width="82"/>
                 <column hidden="false" name="Always listen" order="21" width="94"/>
                 <column hidden="false" name="Column7" order="7" width="79"/>
-                <column hidden="true" name="Feedback" order="8" width="130"/>
-                <column hidden="true" name="Sensor1" order="10" width="262"/>
+                <column hidden="false" name="Feedback" order="8" width="130"/>
+                <column hidden="false" name="Sensor1" order="10" width="262"/>
                 <column hidden="false" name="State" order="2" width="88"/>
                 <column hidden="false" name="Inverted" order="5" width="82"/>
-                <column hidden="true" name="Sensor2" order="11" width="126"/>
+                <column hidden="false" name="Sensor2" order="11" width="126"/>
                 <column hidden="false" name="System Name" order="0" width="369"/>
             </columns>
             <sortOrder>
+                <sortKey column="1" sortOrder="DESCENDING"/>
                 <sortKey column="0" sortOrder="DESCENDING"/>
                 <sortKey column="11" sortOrder="ASCENDING"/>
-                <sortKey column="10" sortOrder="ASCENDING"/>
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
@@ -190,9 +189,9 @@
                 <column hidden="false" name="System Name" order="0" width="388"/>
             </columns>
             <sortOrder>
+                <sortKey column="1" sortOrder="ASCENDING"/>
                 <sortKey column="0" sortOrder="ASCENDING"/>
                 <sortKey column="14" sortOrder="ASCENDING"/>
-                <sortKey column="13" sortOrder="DESCENDING"/>
             </sortOrder>
         </table>
         <table xmlns="" name="jmri.jmrit.beantable.SignalHeadTableAction:Signal Heads">
@@ -200,34 +199,51 @@
         </table>
     </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="AF East" height="832.0" locX="303.0" locY="92.0" width="1618.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:RightTurnout" height="796.0" locX="0.0" locY="25.0" width="580.0"/>
-        <window xmlns="" class="Add New Turnout" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
-            <properties>
-                <property>
-                    <key>dividerLocation</key>
-                    <value class="java.lang.Integer">149</value>
-                </property>
-            </properties>
-        </window>
-        <window xmlns="" class="AFE Slip Area Actual Controls" height="587.0" locX="886.0" locY="519.0" width="997.0"/>
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Layout Actual" locX="682.0" locY="701.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors:1" height="1415.0" locX="28.0" locY="25.0" width="1838.0"/>
-        <window xmlns="" class="Alambra East Freight Afferent" height="1059.0" locX="2646.0" locY="0.0" width="2096.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.monitor.MonitorPane" height="949.0" locX="39.0" locY="1490.0" width="1517.0"/>
-        <window xmlns="" class="AFE Ladder Layout Actual" height="794.0" locX="1315.0" locY="574.0" width="785.0"/>
-        <window xmlns="" class="AFE Slip Area Actual Controls:1" height="590.0" locX="886.0" locY="519.0" width="1092.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Memory" height="399.0" locX="0.0" locY="25.0" width="364.0"/>
+        <window xmlns="" class="AFE C T Tracks Layout Actual Controls:1" height="401.0" locX="3247.0" locY="1026.0" width="787.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="28.0" locY="26.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Actual" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1362.0" locX="0.0" locY="25.0" width="2532.0"/>
+        <window xmlns="" class="AFE Slip Area Actual Controls" height="587.0" locX="1418.0" locY="904.0" width="997.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor" height="347.0" locX="0.0" locY="25.0" width="319.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.send.OpenLcbCanSendPane" height="896.0" locX="316.0" locY="285.0" width="1180.0"/>
         <window xmlns="" class="jmri.jmrix.openlcb.swing.memtool.MemoryToolPane" height="168.0" locX="28.0" locY="26.0" width="978.0"/>
+        <window xmlns="" class="Add New Turnout" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="Alambra East Freight Afferent" height="1059.0" locX="2646.0" locY="0.0" width="2096.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors:1" height="1415.0" locX="28.0" locY="25.0" width="1838.0"/>
         <window xmlns="" class="Add New Sensor" height="171.0" locX="28.0" locY="26.0" width="852.0"/>
-        <window xmlns="" class="Untitled(Control Panel)" height="426.0" locX="403.0" locY="178.0" width="471.0"/>
-        <window xmlns="" class="Alambra East Freight" height="1068.0" locX="271.0" locY="183.0" width="2046.0"/>
+        <window xmlns="" class="AFE Ladder Layout Actual Controls" height="794.0" locX="1384.0" locY="363.0" width="785.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.monitor.MonitorPane" height="949.0" locX="39.0" locY="373.0" width="1517.0"/>
         <window xmlns="" class="jmri.jmrit.display.controlPanelEditor.ControlPanelEditor:Control Panel" height="347.0" locX="403.0" locY="178.0" width="319.0"/>
-        <window xmlns="" class="PanelPro" height="237.0" locX="2604.0" locY="843.0" width="696.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Turnouts" height="970.0" locX="3.0" locY="1498.0" width="1626.0"/>
+        <window xmlns="" class="PanelPro" height="237.0" locX="45.0" locY="996.0" width="696.0"/>
+        <window xmlns="" class="Add/Edit ID Tag" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="Add New Memory" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Hardware Panel Image" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.protocoloptions.ProtocolOptionsFrame" height="209.0" locX="28.0" locY="26.0" width="439.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:ID Tags" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
+        <window xmlns="" class="AFE Ladder Layout Actual Controls:1" height="794.0" locX="4081.0" locY="627.0" width="785.0"/>
+        <window xmlns="" class="Yard power relays" height="646.0" locX="1808.0" locY="178.0" width="300.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Remote Panel Image" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:LeftTurnout" height="671.0" locX="0.0" locY="25.0" width="553.0"/>
+        <window xmlns="" class="Panel" height="484.0" locX="886.0" locY="519.0" width="987.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.networktree.NetworkTreePane" height="744.0" locX="796.0" locY="25.0" width="805.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="463.0" locX="0.0" locY="25.0" width="1125.0"/>
         <window xmlns="" class="AFE Hardware Panel Image:1" height="1057.0" locX="2879.0" locY="3.0" width="2139.0"/>
-        <window xmlns="" class="AF West" height="685.0" locX="119.0" locY="423.0" width="1614.0"/>
+        <window xmlns="" class="AFE Remote Panel Image" height="1130.0" locX="247.0" locY="155.0" width="2065.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Alambra East Freight Afferent" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.eventtable.EventTablePane" height="1385.0" locX="2621.0" locY="12.0" width="2071.0"/>
+        <window xmlns="" class="Add New Block" locX="28.0" locY="26.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Alambra East Freight" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE C T Tracks Layout Actual Controls" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:RightTurnout" height="796.0" locX="0.0" locY="25.0" width="580.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:SlipTOEditor" height="705.0" locX="0.0" locY="25.0" width="513.0"/>
+        <window xmlns="" class="AP West" height="655.0" locX="331.0" locY="494.0" width="1556.0"/>
+        <window xmlns="" class="jmri.jmrit.revhistory.swing.FileHistoryAction$1" height="400.0" locX="0.0" locY="25.0" width="1071.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor" height="731.0" locX="0.0" locY="25.0" width="533.0"/>
+        <window xmlns="" class="AF East" height="832.0" locX="303.0" locY="92.0" width="1618.0"/>
         <window xmlns="" class="jmri.jmrix.openlcb.swing.monitor.MonitorPane.FilterField">
             <properties>
                 <property>
@@ -236,50 +252,34 @@
                 </property>
             </properties>
         </window>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Turnouts" height="673.0" locX="220.0" locY="60.0" width="2240.0"/>
-        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="28.0" locY="26.0" width="320.0"/>
-        <window xmlns="" class="Panel" height="484.0" locX="886.0" locY="519.0" width="987.0"/>
-        <window xmlns="" class="Yard power relays" height="646.0" locX="1808.0" locY="178.0" width="300.0"/>
-        <window xmlns="" class="AFE Ladder Layout Actual Controls" height="794.0" locX="4081.0" locY="627.0" width="785.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="463.0" locX="0.0" locY="25.0" width="1125.0"/>
-        <window xmlns="" class="Add New Memory" locX="28.0" locY="26.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor" height="731.0" locX="0.0" locY="25.0" width="533.0"/>
-        <window xmlns="" class="Add/Edit ID Tag" locX="28.0" locY="26.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1085.0" locX="1.0" locY="25.0" width="1001.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Alambra East Freight Afferent" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.send.OpenLcbCanSendPane" height="896.0" locX="316.0" locY="285.0" width="1180.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor:1" height="463.0" locX="0.0" locY="25.0" width="356.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Slip Area Actual Controls" locX="155.0" locY="500.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Actual" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="AFE Ladder Layout Actual Controls:1" height="794.0" locX="4081.0" locY="627.0" width="785.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Hardware Panel Image" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:RailCom IDs" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="AFE C T Tracks Layout Actual Controls:1" height="401.0" locX="3247.0" locY="1026.0" width="787.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.hub.HubPane" height="548.0" locX="0.0" locY="25.0" width="735.0"/>
-        <window xmlns="" class="AFE Remote Panel Image" height="1130.0" locX="2924.0" locY="54.0" width="2065.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:ID Tags" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Alambra East Freight" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel" locX="20.0" locY="25.0"/>
+        <window xmlns="" class="AF West" height="685.0" locX="119.0" locY="423.0" width="1614.0"/>
         <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Layout Actual Controls" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="Untitled(Control Panel)" height="426.0" locX="403.0" locY="178.0" width="471.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame">
+            <properties>
+                <property>
+                    <key>dividerLocation</key>
+                    <value class="java.lang.Integer">149</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="AFE C T Tracks Layout Actual Controls" height="401.0" locX="338.0" locY="988.0" width="787.0"/>
         <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Background" height="838.0" locX="0.0" locY="25.0" width="816.0"/>
-        <window xmlns="" class="Add New Block" locX="28.0" locY="26.0"/>
-        <window xmlns="" class="AP West" height="655.0" locX="331.0" locY="494.0" width="1556.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:LeftTurnout" height="671.0" locX="0.0" locY="25.0" width="553.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.protocoloptions.ProtocolOptionsFrame" height="209.0" locX="28.0" locY="26.0" width="439.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:RailCom IDs" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.hub.HubPane" height="548.0" locX="0.0" locY="25.0" width="735.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1085.0" locX="1.0" locY="25.0" width="1001.0"/>
+        <window xmlns="" class="Alambra East Freight" height="1068.0" locX="271.0" locY="183.0" width="2046.0"/>
         <window xmlns="" class="AFE Remote Panel Image:1" height="1130.0" locX="2924.0" locY="54.0" width="2065.0"/>
-        <window xmlns="" class="AFE Hardware Panel Image" height="1057.0" locX="2879.0" locY="3.0" width="2139.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Memory" height="399.0" locX="0.0" locY="25.0" width="364.0"/>
         <window xmlns="" class="AES LCC" height="571.0" locX="896.0" locY="290.0" width="1043.0"/>
         <window xmlns="" class="AFE Ladder Actual" height="794.0" locX="1629.0" locY="25.0" width="747.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors" height="673.0" locX="220.0" locY="60.0" width="2240.0"/>
-        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:My Layout" height="1362.0" locX="0.0" locY="25.0" width="2532.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor" height="347.0" locX="0.0" locY="25.0" width="319.0"/>
-        <window xmlns="" class="AFE C T Tracks Layout Actual Controls" height="401.0" locX="3247.0" locY="1026.0" width="787.0"/>
-        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:SlipTOEditor" height="705.0" locX="0.0" locY="25.0" width="513.0"/>
-        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Memory Variables" height="1085.0" locX="0.0" locY="25.0" width="1728.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.eventtable.EventTablePane" height="1385.0" locX="2685.0" locY="0.0" width="2071.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE C T Tracks Layout Actual Controls" locX="0.0" locY="25.0"/>
-        <window xmlns="" class="jmri.jmrix.openlcb.swing.networktree.NetworkTreePane" height="744.0" locX="2570.0" locY="5.0" width="805.0"/>
-        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Remote Panel Image" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors" height="970.0" locX="3.0" locY="1498.0" width="1626.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Slip Area Actual Controls" locX="0.0" locY="25.0"/>
+        <window xmlns="" class="AFE Hardware Panel Image" height="1057.0" locX="235.0" locY="204.0" width="2139.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:Panel" locX="20.0" locY="25.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor:1" height="463.0" locX="0.0" locY="25.0" width="356.0"/>
+        <window xmlns="" class="AFE Slip Area Actual Controls:1" height="590.0" locX="886.0" locY="519.0" width="1092.0"/>
+        <window xmlns="" class="jmri.jmrit.display.panelEditor.PanelEditor:AFE Ladder Layout Actual" locX="682.0" locY="701.0"/>
+        <window xmlns="" class="AFE Ladder Layout Actual" height="794.0" locX="1315.0" locY="574.0" width="785.0"/>
     </windowDetails>
 </auxiliary-configuration>
