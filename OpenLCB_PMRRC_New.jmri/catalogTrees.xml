@@ -2,15 +2,9 @@
 <?xml-stylesheet href="/xml/XSLT/panelfile.xsl" type="text/xsl"?>
 <!DOCTYPE catalogTrees SYSTEM "/xml/DTD/catalogTree.dtd">
 <catalogTrees class="jmri.jmrit.catalog.DefaultCatalogTreeManagerConfigXML">
-  <!--Written by JMRI version 5.5.4plus+jake+20230920T1653Z+R3c3953b844 on Wed Sep 20 12:58:02 EDT 2023-->
+  <!--Written by JMRI version 5.5.4plus+jake+20231002T2102Z+Rfbdf100ae5 on Mon Oct 02 17:19:54 EDT 2023-->
   <catalogTree systemName="NXDI" userName="Default Icons">
     <node nodeName="Default Icons">
-      <node nodeName="Sensor">
-        <leaf name="SensorStateActive" path="program:resources/icons/USS/plate/levers/codeButton-Active.gif" />
-        <leaf name="SensorStateInactive" path="program:resources/icons/USS/plate/levers/codeButton-Inactive.gif" />
-        <leaf name="BeanStateInconsistent" path="program:resources/icons/USS/plate/levers/codeButton-inconsistent.gif" />
-        <leaf name="BeanStateUnknown" path="program:resources/icons/USS/plate/levers/codeButton-unknown.gif" />
-      </node>
       <node nodeName="RightTurnout">
         <leaf name="TurnoutStateClosed" path="preference:resources/TurnoutStraight-R.png" />
         <leaf name="BeanStateUnknown" path="preference:resources/TurnoutUnknown-L.png" />
@@ -25,6 +19,12 @@
         <leaf name="BeanStateUnknown" path="preference:resources/TurnoutUnknown-L.png" />
         <leaf name="TurnoutStateThrown" path="preference:resources/TurnoutDescending-L.png" />
         <leaf name="TurnoutStateClosed" path="preference:resources/TurnoutStraight-L.png" />
+      </node>
+      <node nodeName="Sensor">
+        <leaf name="SensorStateInactive" path="program:resources/icons/USS/sensor/amber-off.gif" />
+        <leaf name="SensorStateActive" path="program:resources/icons/USS/sensor/amber-on.gif" />
+        <leaf name="BeanStateInconsistent" path="program:resources/icons/USS/sensor/s-inconsistent.gif" />
+        <leaf name="BeanStateUnknown" path="program:resources/icons/USS/sensor/s-unknown.gif" />
       </node>
     </node>
   </catalogTree>

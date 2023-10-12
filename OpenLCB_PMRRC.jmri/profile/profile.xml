@@ -11,7 +11,5 @@
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="preference:PMRRM_2023-09-25_update_format.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" name="home:Desktop/Peter Ely Items/JMRI git profiles/OpenLCB_PMRRC_New.jmri/AFE setup.xml" type="XmlFile"/>
     </startup>
 </auxiliary-configuration>
