@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="CAN via LCC Buffer-USB" name="OpenLCB"/>
+    </comboBoxLastValue>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="AF East" height="832.0" locX="2739.0" locY="43.0" width="1618.0"/>
+        <window xmlns="" class="AES LCC" height="571.0" locX="3491.0" locY="804.0" width="1043.0"/>
+        <window xmlns="" class="AF West" height="685.0" locX="2844.0" locY="658.0" width="1614.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="1085.0" locX="0.0" locY="25.0" width="1001.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="AFE Hardware Panel Image" height="1057.0" locX="210.0" locY="190.0" width="2139.0"/>
+        <window xmlns="" class="Yard power relays" height="646.0" locX="4778.0" locY="12.0" width="300.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="28.0" locY="26.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrix.openlcb.swing.protocoloptions.ProtocolOptionsFrame" height="209.0" locX="28.0" locY="26.0" width="439.0"/>
+        <window xmlns="" class="PanelPro" height="237.0" locX="931.0" locY="601.0" width="698.0"/>
+        <window xmlns="" class="AP West" height="655.0" locX="2788.0" locY="615.0" width="1556.0"/>
+    </windowDetails>
+</auxiliary-configuration>

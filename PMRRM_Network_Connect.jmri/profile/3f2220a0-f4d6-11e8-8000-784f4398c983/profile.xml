@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" address="172.113.52.21" class="jmri.jmrix.can.adapters.gridconnect.net.configurexml.ConnectionConfigXml" disabled="no" manufacturer="OpenLCB" mdnsConfigure="false" port="12021" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="M" turnoutInterval="100" userName="OpenLCB">
+            <options>
+                <option>
+                    <name>Gateway</name>
+                    <value>Pass All</value>
+                </option>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
+                </option>
+            </options>
+        </connection>
+    </connections>
+</auxiliary-configuration>
