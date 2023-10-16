@@ -2670,7 +2670,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="332" y="645" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="645" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2685,7 +2685,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="330" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2700,7 +2700,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="329" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2715,7 +2715,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="328" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2745,7 +2745,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="281" y="586" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="586" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2760,7 +2760,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="276" y="534" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="534" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2775,7 +2775,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="272" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2790,7 +2790,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="266" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
