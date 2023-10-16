@@ -2473,7 +2473,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE3 East Request" x="116" y="537" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 East Request" x="116" y="537" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2488,7 +2488,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE4 East Request" x="59" y="480" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 East Request" x="59" y="480" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2503,7 +2503,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE3 Request" x="549" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 Request" x="549" y="532" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2518,7 +2518,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE4 Request" x="604" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 Request" x="604" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2533,7 +2533,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE1 Request" x="441" y="642" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE1 Request" x="441" y="642" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2548,7 +2548,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE2 Request" x="497" y="587" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE2 Request" x="497" y="587" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2730,7 +2730,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="641" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="641" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2745,7 +2745,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="586" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="586" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2760,7 +2760,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="534" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="534" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2775,7 +2775,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="479" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2790,7 +2790,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Toggle" x="282" y="319" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -5319,104 +5319,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Oct 15 09:04:39 EDT 2023</date>
+      <date>Mon Oct 16 08:21:58 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Oct 15 09:04:45 EDT 2023</date>
+      <date>Mon Oct 16 08:22:00 EDT 2023</date>
       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Oct 02 17:02:44 EDT 2023</date>
+          <date>Sun Oct 15 09:04:39 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Oct 02 17:02:58 EDT 2023</date>
+          <date>Sun Oct 15 09:04:45 EDT 2023</date>
           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Sep 26 19:14:02 EDT 2023</date>
+              <date>Mon Oct 02 17:02:44 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Sep 26 19:14:25 EDT 2023</date>
-              <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
+              <date>Mon Oct 02 17:02:58 EDT 2023</date>
+              <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Tue Sep 26 19:04:08 EDT 2023</date>
+                  <date>Tue Sep 26 19:14:02 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Tue Sep 26 19:13:09 EDT 2023</date>
+                  <date>Tue Sep 26 19:14:25 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Tue Sep 26 10:05:33 EDT 2023</date>
+                      <date>Tue Sep 26 19:04:08 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Tue Sep 26 10:06:20 EDT 2023</date>
+                      <date>Tue Sep 26 19:13:09 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Tue Sep 26 08:43:46 EDT 2023</date>
+                          <date>Tue Sep 26 10:05:33 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Tue Sep 26 08:44:02 EDT 2023</date>
+                          <date>Tue Sep 26 10:06:20 EDT 2023</date>
                           <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Tue Sep 26 08:44:14 EDT 2023</date>
+                          <date>Tue Sep 26 12:00:11 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Tue Sep 26 12:00:11 EDT 2023</date>
+                      <date>Tue Sep 26 19:13:46 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Tue Sep 26 19:13:46 EDT 2023</date>
+                  <date>Tue Sep 26 19:17:32 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Sep 26 19:17:32 EDT 2023</date>
+              <date>Mon Oct 02 17:12:42 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Oct 02 17:12:42 EDT 2023</date>
+          <date>Sun Oct 15 12:15:24 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Oct 15 12:15:24 EDT 2023</date>
+      <date>Mon Oct 16 08:24:25 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.5plus+jake+20231015T1304Z+R849a7eda7d on Sun Oct 15 12:15:24 EDT 2023-->
+  <!--Written by JMRI version 5.5.5plus+jake+20231016T1221Z+Raded16b60c on Mon Oct 16 08:24:25 EDT 2023-->
 </layout-config>
