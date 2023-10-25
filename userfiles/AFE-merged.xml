@@ -709,162 +709,8 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.C4;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 02 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.C5;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 01 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.CC;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 03 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.CD;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 04 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.DC;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 06 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.DD;05.01.01.01.3C.00.00.18</systemName>
-      <userName>AFE Trk 05 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.E2</systemName>
       <userName>AFE Initialize AF Lower Ladder</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.EC;05.01.01.01.3C.00.00.19</systemName>
-      <userName>AFE Trk 09 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.F4;05.01.01.01.3C.00.00.19</systemName>
-      <userName>AFE Trk 08 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.F5;05.01.01.01.3C.00.00.19</systemName>
-      <userName>AFE Trk 07 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.FC;05.01.01.01.3C.00.00.19</systemName>
-      <userName>AFE Trk 11 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.FD;05.01.01.01.3C.00.00.19</systemName>
-      <userName>AFE Trk 10 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.02</systemName>
@@ -873,62 +719,6 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.1A</systemName>
       <userName>AFE Initialize AFE Ladder</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.1D;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE AFE4 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.2C;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE AFE3 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.34;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE AFE2 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.35;05.01.01.01.3C.00.00.1A</systemName>
-      <userName>AFE AFE1 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9D.00.79;02.01.57.00.01.9D.00.78</systemName>
@@ -2099,6 +1889,216 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.C3.01.3A</systemName>
       <userName>AF Relay 16 AFE Remote Toggle</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.C8;02.01.57.00.02.C7.02.C9</systemName>
+      <userName>AFE AFE1 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.D4;02.01.57.00.02.C7.02.D5</systemName>
+      <userName>AFE AFE2 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.E0;02.01.57.00.02.C7.02.E1</systemName>
+      <userName>AFE AFE3 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.EC;02.01.57.00.02.C7.02.ED</systemName>
+      <userName>AFE AFE4 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.50;02.01.57.00.04.5E.02.51</systemName>
+      <userName>AFE Trk 01 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.5C;02.01.57.00.04.5E.02.5D</systemName>
+      <userName>AFE Trk 02 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.68;02.01.57.00.04.5E.02.69</systemName>
+      <userName>AFE Trk 03 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.74;02.01.57.00.04.5E.02.75</systemName>
+      <userName>AFE Trk 04 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.80;02.01.57.00.04.5E.02.81</systemName>
+      <userName>AFE Trk 05 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.8C;02.01.57.00.04.5E.02.8D</systemName>
+      <userName>AFE Trk 06 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.98;02.01.57.00.04.5E.02.99</systemName>
+      <userName>AFE Trk 07 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.A4;02.01.57.00.04.5E.02.A5</systemName>
+      <userName>AFE Trk 08 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.B0;02.01.57.00.04.5E.02.B1</systemName>
+      <userName>AFE Trk 09 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.BC;02.01.57.00.04.5E.02.BD</systemName>
+      <userName>AFE Trk 10 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.C8;02.01.57.00.04.5E.02.C9</systemName>
+      <userName>AFE Trk 11 Selected</userName>
       <properties>
         <property>
           <key>ListenStateMessages</key>
@@ -4139,7 +4139,7 @@
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
-    <memory value="4:14 PM">
+    <memory value="6:52 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -9898,12 +9898,12 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Oct 24 16:12:47 EDT 2023</date>
+      <date>Wed Oct 25 18:50:19 EDT 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Oct 24 16:13:04 EDT 2023</date>
+      <date>Wed Oct 25 18:50:41 EDT 2023</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/AFE-base-for-merge.xml</filename>
       <filehistory>
         <operation>
@@ -10032,7 +10032,7 @@
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Oct 24 16:13:18 EDT 2023</date>
+      <date>Wed Oct 25 18:51:01 EDT 2023</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/AFE_development.xml</filename>
       <filehistory>
         <operation>
@@ -10122,9 +10122,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Oct 24 16:14:36 EDT 2023</date>
+      <date>Wed Oct 25 18:52:36 EDT 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.5plus+jake+20231024T2012Z+Rb1f91233e1 on Tue Oct 24 16:14:36 EDT 2023-->
+  <!--Written by JMRI version 5.5.5plus+jake+20231025T2250Z+R13a6d2b390 on Wed Oct 25 18:52:36 EDT 2023-->
 </layout-config>

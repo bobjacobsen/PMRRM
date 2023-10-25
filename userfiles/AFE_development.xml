@@ -709,7 +709,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.C4;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.5C;02.01.57.00.04.5E.02.5D</systemName>
       <userName>AFE Trk 02 Selected</userName>
       <properties>
         <property>
@@ -723,7 +723,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.C5;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.50;02.01.57.00.04.5E.02.51</systemName>
       <userName>AFE Trk 01 Selected</userName>
       <properties>
         <property>
@@ -737,7 +737,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.CC;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.68;02.01.57.00.04.5E.02.69</systemName>
       <userName>AFE Trk 03 Selected</userName>
       <properties>
         <property>
@@ -751,7 +751,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.CD;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.74;02.01.57.00.04.5E.02.75</systemName>
       <userName>AFE Trk 04 Selected</userName>
       <properties>
         <property>
@@ -765,7 +765,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.DC;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.8C;02.01.57.00.04.5E.02.8D</systemName>
       <userName>AFE Trk 06 Selected</userName>
       <properties>
         <property>
@@ -779,7 +779,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.DD;05.01.01.01.3C.00.00.18</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.80;02.01.57.00.04.5E.02.81</systemName>
       <userName>AFE Trk 05 Selected</userName>
       <properties>
         <property>
@@ -797,7 +797,7 @@
       <userName>AFE Initialize AF Lower Ladder</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.EC;05.01.01.01.3C.00.00.19</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.B0;02.01.57.00.04.5E.02.B1</systemName>
       <userName>AFE Trk 09 Selected</userName>
       <properties>
         <property>
@@ -811,7 +811,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.F4;05.01.01.01.3C.00.00.19</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.A4;02.01.57.00.04.5E.02.A5</systemName>
       <userName>AFE Trk 08 Selected</userName>
       <properties>
         <property>
@@ -825,7 +825,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.F5;05.01.01.01.3C.00.00.19</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.98;02.01.57.00.04.5E.02.99</systemName>
       <userName>AFE Trk 07 Selected</userName>
       <properties>
         <property>
@@ -839,7 +839,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.FC;05.01.01.01.3C.00.00.19</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.C8;02.01.57.00.04.5E.02.C9</systemName>
       <userName>AFE Trk 11 Selected</userName>
       <properties>
         <property>
@@ -853,7 +853,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.00.FD;05.01.01.01.3C.00.00.19</systemName>
+      <systemName>MS02.01.57.00.04.5E.02.BC;02.01.57.00.04.5E.02.BD</systemName>
       <userName>AFE Trk 10 Selected</userName>
       <properties>
         <property>
@@ -875,7 +875,7 @@
       <userName>AFE Initialize AFE Ladder</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.1D;05.01.01.01.3C.00.00.1A</systemName>
+      <systemName>MS02.01.57.00.02.C7.02.EC;02.01.57.00.02.C7.02.ED</systemName>
       <userName>AFE AFE4 Selected</userName>
       <properties>
         <property>
@@ -889,7 +889,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.2C;05.01.01.01.3C.00.00.1A</systemName>
+      <systemName>MS02.01.57.00.02.C7.02.E0;02.01.57.00.02.C7.02.E1</systemName>
       <userName>AFE AFE3 Selected</userName>
       <properties>
         <property>
@@ -903,7 +903,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.34;05.01.01.01.3C.00.00.1A</systemName>
+      <systemName>MS02.01.57.00.02.C7.02.D4;02.01.57.00.02.C7.02.D5</systemName>
       <userName>AFE AFE2 Selected</userName>
       <properties>
         <property>
@@ -917,7 +917,7 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.9C.01.35;05.01.01.01.3C.00.00.1A</systemName>
+      <systemName>MS02.01.57.00.02.C7.02.C8;02.01.57.00.02.C7.02.C9</systemName>
       <userName>AFE AFE1 Selected</userName>
       <properties>
         <property>
