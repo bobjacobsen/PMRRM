@@ -9,3 +9,6 @@ session.log
 # backups
 OpenLCB_PMRRC_New.jmri/backupPanels/
 OpenLCB_PMRRC.jmri/backupPanels/
+PMRRM_Development.jmri/backupPanels/
+PMRRM_Network_Connect.jmri/backupPanels/
+PMRRM_Production.jmri/backupPanels/
