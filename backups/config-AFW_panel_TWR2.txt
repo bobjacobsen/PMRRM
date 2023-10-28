@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFW panel TWR2 21Sept23
-NODE ID.Your name and description for this node.Node Description=Routes TWRC7d
+NODE ID.Your name and description for this node.Node Name=AFW panel TWR2 23-09-21
+NODE ID.Your name and description for this node.Node Description=Middle turnout, local sw, pwr but & LEDS. TWR
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.04.5A.02.40
 Node Power Monitor.Power Not OK=02.01.57.00.04.5A.02.41
