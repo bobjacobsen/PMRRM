@@ -709,162 +709,8 @@
       </properties>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.5C;02.01.57.00.04.5E.02.5D</systemName>
-      <userName>AFE Trk 02 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.50;02.01.57.00.04.5E.02.51</systemName>
-      <userName>AFE Trk 01 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.68;02.01.57.00.04.5E.02.69</systemName>
-      <userName>AFE Trk 03 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.74;02.01.57.00.04.5E.02.75</systemName>
-      <userName>AFE Trk 04 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.8C;02.01.57.00.04.5E.02.8D</systemName>
-      <userName>AFE Trk 06 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.80;02.01.57.00.04.5E.02.81</systemName>
-      <userName>AFE Trk 05 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.00.E2</systemName>
       <userName>AFE Initialize AF Lower Ladder</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.B0;02.01.57.00.04.5E.02.B1</systemName>
-      <userName>AFE Trk 09 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.A4;02.01.57.00.04.5E.02.A5</systemName>
-      <userName>AFE Trk 08 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.98;02.01.57.00.04.5E.02.99</systemName>
-      <userName>AFE Trk 07 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.C8;02.01.57.00.04.5E.02.C9</systemName>
-      <userName>AFE Trk 11 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.04.5E.02.BC;02.01.57.00.04.5E.02.BD</systemName>
-      <userName>AFE Trk 10 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.02</systemName>
@@ -873,62 +719,6 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9C.01.1A</systemName>
       <userName>AFE Initialize AFE Ladder</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C7.02.EC;02.01.57.00.02.C7.02.ED</systemName>
-      <userName>AFE AFE4 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C7.02.E0;02.01.57.00.02.C7.02.E1</systemName>
-      <userName>AFE AFE3 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C7.02.D4;02.01.57.00.02.C7.02.D5</systemName>
-      <userName>AFE AFE2 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>MS02.01.57.00.02.C7.02.C8;02.01.57.00.02.C7.02.C9</systemName>
-      <userName>AFE AFE1 Selected</userName>
-      <properties>
-        <property>
-          <key>ListenStateMessages</key>
-          <value class="java.lang.Boolean">true</value>
-        </property>
-        <property>
-          <key>IsAuthoritative</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.01.9D.00.79;02.01.57.00.01.9D.00.78</systemName>
@@ -1551,6 +1341,216 @@
       </properties>
     </sensor>
     <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.C8;02.01.57.00.02.C7.02.C9</systemName>
+      <userName>AFE AFE1 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.D4;02.01.57.00.02.C7.02.D5</systemName>
+      <userName>AFE AFE2 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.E0;02.01.57.00.02.C7.02.E1</systemName>
+      <userName>AFE AFE3 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.C7.02.EC;02.01.57.00.02.C7.02.ED</systemName>
+      <userName>AFE AFE4 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.50;02.01.57.00.04.5E.02.51</systemName>
+      <userName>AFE Trk 01 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.5C;02.01.57.00.04.5E.02.5D</systemName>
+      <userName>AFE Trk 02 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.68;02.01.57.00.04.5E.02.69</systemName>
+      <userName>AFE Trk 03 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.74;02.01.57.00.04.5E.02.75</systemName>
+      <userName>AFE Trk 04 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.80;02.01.57.00.04.5E.02.81</systemName>
+      <userName>AFE Trk 05 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.8C;02.01.57.00.04.5E.02.8D</systemName>
+      <userName>AFE Trk 06 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.98;02.01.57.00.04.5E.02.99</systemName>
+      <userName>AFE Trk 07 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.A4;02.01.57.00.04.5E.02.A5</systemName>
+      <userName>AFE Trk 08 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.B0;02.01.57.00.04.5E.02.B1</systemName>
+      <userName>AFE Trk 09 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.BC;02.01.57.00.04.5E.02.BD</systemName>
+      <userName>AFE Trk 10 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.04.5E.02.C8;02.01.57.00.04.5E.02.C9</systemName>
+      <userName>AFE Trk 11 Selected</userName>
+      <properties>
+        <property>
+          <key>ListenStateMessages</key>
+          <value class="java.lang.Boolean">true</value>
+        </property>
+        <property>
+          <key>IsAuthoritative</key>
+          <value class="java.lang.Boolean">false</value>
+        </property>
+      </properties>
+    </sensor>
+    <sensor inverted="false">
       <systemName>MS05.01.01.01.3C.00.00.10;05.01.01.01.3C.00.00.11</systemName>
       <userName>AFE Enable Remote Access</userName>
       <properties>
@@ -1801,7 +1801,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE Hardware Panel Image" x="235" y="204" height="1057" width="2139" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE Hardware Panel Image" x="222" y="150" height="1057" width="2139" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/AFE_Panel_2BW.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1809,7 +1809,7 @@
     </positionablelabel>
     <positionablelabel x="1911" y="855" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1907" y="324" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="11" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="AFE Enable Remote Access" x="1361" y="836" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Enable Remote Access" x="1727" y="202" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1974,7 +1974,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 01 Follower" x="2014" y="852" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 01 Follower" x="2014" y="852" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1989,7 +1989,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 02 Follower" x="2014" y="803" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 02 Follower" x="2014" y="803" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2004,7 +2004,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 03 Follower" x="2013" y="746" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 03 Follower" x="2013" y="746" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2019,7 +2019,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 04 Follower" x="2014" y="698" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 04 Follower" x="2014" y="698" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2034,7 +2034,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 05 Follower" x="2014" y="644" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 05 Follower" x="2014" y="644" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2049,7 +2049,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 06 Follower" x="2013" y="588" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 06 Follower" x="2013" y="588" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2064,7 +2064,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 07 Follower" x="2015" y="535" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 07 Follower" x="2015" y="535" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2079,7 +2079,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 08 Follower" x="2013" y="477" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 08 Follower" x="2013" y="477" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2094,7 +2094,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 09 Follower" x="2016" y="422" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 09 Follower" x="2016" y="422" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2109,7 +2109,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 10 Follower" x="2016" y="374" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 10 Follower" x="2016" y="374" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2124,7 +2124,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 11 Follower" x="2015" y="323" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 11 Follower" x="2015" y="323" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2154,7 +2154,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 01 Selected" x="1794" y="856" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 01 Selected" x="1794" y="856" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2169,7 +2169,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 02 Selected" x="1789" y="806" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 02 Selected" x="1789" y="806" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2184,7 +2184,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 03 Selected" x="1790" y="750" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 03 Selected" x="1790" y="750" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2199,7 +2199,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 04 Selected" x="1790" y="698" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 04 Selected" x="1790" y="698" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2214,7 +2214,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 05 Selected" x="1790" y="645" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 05 Selected" x="1790" y="645" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2229,7 +2229,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 06 Selected" x="1788" y="589" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 06 Selected" x="1788" y="589" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2244,7 +2244,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 07 Selected" x="1789" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 07 Selected" x="1789" y="536" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2259,7 +2259,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 08 Selected" x="1789" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 08 Selected" x="1789" y="483" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2274,7 +2274,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 09 Selected" x="1789" y="431" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 09 Selected" x="1789" y="431" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2289,7 +2289,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 10 Selected" x="1787" y="377" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 10 Selected" x="1787" y="377" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2304,7 +2304,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE Trk 11 Selected" x="1787" y="323" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE Trk 11 Selected" x="1787" y="323" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2469,7 +2469,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1304" y="812" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Enable Remote Access" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1670" y="179" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Enable Remote Access" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <sensoricon sensor="AF Relay 09 Toggle" x="1956" y="419" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/codeButton-Active.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -2575,7 +2575,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE1 Selected" x="404" y="646" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE1 Selected" x="404" y="646" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2590,7 +2590,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE2 Selected" x="459" y="590" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE2 Selected" x="459" y="590" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2605,7 +2605,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE3 Selected" x="509" y="535" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE3 Selected" x="509" y="535" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2620,7 +2620,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE AFE4 Selected" x="562" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE AFE4 Selected" x="562" y="483" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2635,7 +2635,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="182" y="540" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="182" y="540" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2650,7 +2650,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="121" y="486" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AFE East AFE4-AFE3 confirm thrown/closed" x="121" y="486" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/amber-off.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2667,7 +2667,7 @@
     </sensoricon>
     <positionablelabel x="36" y="397" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="&lt;- East" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1865" y="184" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="West -&gt;" size="24" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="AF Relay 14 Follower" x="322" y="326" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="326" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2682,7 +2682,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="322" y="645" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="645" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2697,7 +2697,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="322" y="591" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="591" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2712,7 +2712,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="322" y="536" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="536" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2727,7 +2727,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="AF Relay 14 Follower" x="322" y="483" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="AF Relay 14 Follower" x="322" y="483" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/blue-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2922,6 +2922,19 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <positionablelabel x="1912" y="802" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1912" y="748" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1911" y="697" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="4" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1912" y="642" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="5" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1912" y="587" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="6" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1913" y="535" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="7" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1914" y="482" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="8" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1913" y="431" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="9" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1908" y="377" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="10" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="382" y="634" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="382" y="579" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="381" y="526" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="382" y="471" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="4" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
   <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="AFE Ladder Layout Actual Controls" x="1383" y="363" height="794" width="785" editable="yes" positionable="no" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -5346,104 +5359,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Oct 23 08:23:08 EDT 2023</date>
+      <date>Sun Nov 05 09:49:14 EST 2023</date>
       <filename>JMRI program</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Oct 23 09:02:51 EDT 2023</date>
+      <date>Sun Nov 05 09:49:38 EST 2023</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/AFE_development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Oct 16 13:42:50 EDT 2023</date>
+          <date>Mon Oct 23 08:23:08 EDT 2023</date>
           <filename>JMRI program</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Oct 16 13:43:06 EDT 2023</date>
+          <date>Mon Oct 23 09:02:51 EDT 2023</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/AFE_development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Oct 16 08:21:58 EDT 2023</date>
+              <date>Mon Oct 16 13:42:50 EDT 2023</date>
               <filename>JMRI program</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Oct 16 08:22:00 EDT 2023</date>
-              <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
+              <date>Mon Oct 16 13:43:06 EDT 2023</date>
+              <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/AFE_development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sun Oct 15 09:04:39 EDT 2023</date>
+                  <date>Mon Oct 16 08:21:58 EDT 2023</date>
                   <filename>JMRI program</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sun Oct 15 09:04:45 EDT 2023</date>
+                  <date>Mon Oct 16 08:22:00 EDT 2023</date>
                   <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Oct 02 17:02:44 EDT 2023</date>
+                      <date>Sun Oct 15 09:04:39 EDT 2023</date>
                       <filename>JMRI program</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Oct 02 17:02:58 EDT 2023</date>
+                      <date>Sun Oct 15 09:04:45 EDT 2023</date>
                       <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Tue Sep 26 19:14:02 EDT 2023</date>
+                          <date>Mon Oct 02 17:02:44 EDT 2023</date>
                           <filename>JMRI program</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Tue Sep 26 19:14:25 EDT 2023</date>
-                          <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE%20setup.xml</filename>
+                          <date>Mon Oct 02 17:02:58 EDT 2023</date>
+                          <filename>/Users/jake/Desktop/Peter%20Ely%20Items/JMRI%20git%20profiles/OpenLCB_PMRRC_New.jmri/AFE_setup.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Tue Sep 26 19:17:32 EDT 2023</date>
+                          <date>Mon Oct 02 17:12:42 EDT 2023</date>
                           <filename />
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Oct 02 17:12:42 EDT 2023</date>
+                      <date>Sun Oct 15 12:15:24 EDT 2023</date>
                       <filename />
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Oct 15 12:15:24 EDT 2023</date>
+                  <date>Mon Oct 16 08:24:25 EDT 2023</date>
                   <filename />
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Oct 16 08:24:25 EDT 2023</date>
+              <date>Mon Oct 16 13:45:46 EDT 2023</date>
               <filename />
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Oct 16 13:45:46 EDT 2023</date>
+          <date>Mon Oct 23 09:03:34 EDT 2023</date>
           <filename />
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Oct 23 09:03:34 EDT 2023</date>
+      <date>Sun Nov 05 09:58:30 EST 2023</date>
       <filename />
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.5.5plus+jake+20231023T1222Z+R4d4b786111 on Mon Oct 23 09:03:34 EDT 2023-->
+  <!--Written by JMRI version 5.5.5plus+jake+20231105T1449Z+R02498926f2 on Sun Nov 05 09:58:30 EST 2023-->
 </layout-config>
