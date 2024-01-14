@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/panelfile-5-5-5.xsl" type="text/xsl"?>
+<layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
+  <jmriversion>
+    <major>5</major>
+    <minor>7</minor>
+    <test>3</test>
+    <modifier>plus</modifier>
+  </jmriversion>
+  <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
+    <defaultInitialState>unknown</defaultInitialState>
+    <sensor inverted="false">
+      <systemName>ISZE Request F1</systemName>
+      <userName>ZE Request F1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F2</systemName>
+      <userName>ZE Request F2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F3</systemName>
+      <userName>ZE Request F3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F4</systemName>
+      <userName>ZE Request F4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F5</systemName>
+      <userName>ZE Request F5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F6</systemName>
+      <userName>ZE Request F6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F7</systemName>
+      <userName>ZE Request F7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request F8</systemName>
+      <userName>ZE Request F8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P1</systemName>
+      <userName>ZE Request P1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P2</systemName>
+      <userName>ZE Request P2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P3</systemName>
+      <userName>ZE Request P3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P4</systemName>
+      <userName>ZE Request P4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P5</systemName>
+      <userName>ZE Request P5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P6</systemName>
+      <userName>ZE Request P6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>ISZE Request P7</systemName>
+      <userName>ZE Request P7</userName>
+    </sensor>
+  </sensors>
+  <turnouts class="jmri.jmrix.openlcb.configurexml.OlcbTurnoutManagerXml">
+    <operations automate="false">
+      <operation name="NoFeedback" class="jmri.configurexml.turnoutoperations.NoFeedbackTurnoutOperationXml" interval="300" maxtries="2" />
+      <operation name="Raw" class="jmri.configurexml.turnoutoperations.RawTurnoutOperationXml" interval="300" maxtries="1" />
+      <operation name="Sensor" class="jmri.configurexml.turnoutoperations.SensorTurnoutOperationXml" interval="300" maxtries="3" />
+    </operations>
+    <defaultclosedspeed>Normal</defaultclosedspeed>
+    <defaultthrownspeed>Restricted</defaultthrownspeed>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.00;02.01.57.00.01.B1.00.01</systemName>
+      <userName>Zion East Cab track - Runaround</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.0C;02.01.57.00.01.B1.00.0D</systemName>
+      <userName>Zion East W Engine - Cab/Runaround</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.30;02.01.57.00.01.B1.00.31</systemName>
+      <userName>Zion East TE1234 - Passenger Lead</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.3C;02.01.57.00.01.B1.00.3D</systemName>
+      <userName>Zion East Zion - Port</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.54;02.01.57.00.01.B1.00.55</systemName>
+      <userName>Zion East Freight B ladder - WEngine, Cab</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.60;02.01.57.00.01.B1.00.61</systemName>
+      <userName>Zion East F1-234</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.6C;02.01.57.00.01.B1.00.6D</systemName>
+      <userName>Zion East Z2 to Z1 West Xover - Straight</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.78;02.01.57.00.01.B1.00.79</systemName>
+      <userName>Zion East F6-78</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.90;02.01.57.00.01.B1.00.91</systemName>
+      <userName>Zion East F2-34</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.9C;02.01.57.00.01.B1.00.9D</systemName>
+      <userName>Zion East West engine pocket - Freight B</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.A8;02.01.57.00.01.B1.00.A9</systemName>
+      <userName>Zion East F3-4</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.01.B1.00.B4;02.01.57.00.01.B1.00.B5</systemName>
+      <userName>Zion East F5-678</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.00;02.01.57.00.02.5B.00.01</systemName>
+      <userName>Zion East P2-1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.18;02.01.57.00.02.5B.00.19</systemName>
+      <userName>Zion East East Eng pocket East D-N</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.24;02.01.57.00.02.5B.00.25</systemName>
+      <userName>Zion East East Eng pocket West D-N</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.30;02.01.57.00.02.5B.00.31</systemName>
+      <userName>Zion East P5-67</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.3C;02.01.57.00.02.5B.00.3D</systemName>
+      <userName>Zion East P3-4</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.48;02.01.57.00.02.5B.00.49</systemName>
+      <userName>Zion East Z1 to Z2 East Xover - Straight</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.54;02.01.57.00.02.5B.00.55</systemName>
+      <userName>Zion East W Cross</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.60;02.01.57.00.02.5B.00.42</systemName>
+      <userName>Zion East P34-567</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.60;02.01.57.00.02.5B.00.61</systemName>
+      <userName>Zion East TE4-3</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.84;02.01.57.00.02.5B.00.85</systemName>
+      <userName>Zion East P34567-12</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.90;02.01.57.00.02.5B.00.91</systemName>
+      <userName>Zion East TE234-1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.9C;02.01.57.00.02.5B.00.9D</systemName>
+      <userName>Zion East TE34-2</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.A8;02.01.57.00.02.5B.00.A9</systemName>
+      <userName>Zion East P6-7</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.B4;02.01.57.00.02.5B.00.B5</systemName>
+      <userName>Zion East Zion - Branch</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5D.00.BA;02.01.57.00.02.5D.00.06</systemName>
+      <userName>Zion East F7-8</userName>
+    </turnout>
+  </turnouts>
+  <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
+    <logicDelay>500</logicDelay>
+  </signalmastlogics>
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Panel" x="2569" y="0" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+    <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+      <icon url="preference:resources/Zion East BW long debug -1920x1200.png" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </icon>
+    </positionablelabel>
+    <turnouticon turnout="Zion East East Eng pocket East D-N" x="923" y="905" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="588" y="745" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W Cross" x="740" y="792" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W Cross" x="712" y="862" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Zion - Port" x="722" y="471" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Zion - Branch" x="642" y="466" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="572" y="464" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F5-678" x="345" y="740" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Freight B ladder - WEngine, Cab" x="770" y="749" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P2-1" x="354" y="458" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P3-4" x="303" y="346" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P34567-12" x="427" y="463" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE4-3" x="438" y="129" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE34-2" x="458" y="179" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE234-1" x="477" y="227" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P34-567" x="375" y="348" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P5-67" x="326" y="232" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East P6-7" x="301" y="177" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Cab track - Runaround" x="723" y="635" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W Engine - Cab/Runaround" x="747" y="692" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F6-78" x="322" y="684" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F7-8" x="297" y="632" level="8" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East East Eng pocket West D-N" x="744" y="906" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F7-8" x="296" y="612" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F1-234" x="342" y="1021" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutDescending60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutStraight60-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-R.png" degrees="0" scale="1.0">
+          <rotation>2</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F2-34" x="284" y="985" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="65" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East F3-4" x="262" y="934" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" degrees="65" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="preference:resources/TurnoutStraight60-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="preference:resources/TurnoutDescending60-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="preference:resources/TurnoutUnknown-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="preference:resources/TurnoutInconsistent-L.png" degrees="65" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+  </paneleditor>
+  <filehistory>
+    <operation>
+      <type>app</type>
+      <date>Sun Jan 14 11:40:00 EST 2024</date>
+      <filename>PanelPro (v5.7.3)</filename>
+    </operation>
+    <operation>
+      <type>Load OK</type>
+      <date>Sun Jan 14 11:40:14 EST 2024</date>
+      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+      <filehistory>
+        <operation>
+          <type>app</type>
+          <date>Sun Jan 14 11:31:59 EST 2024</date>
+          <filename>PanelPro (v5.7.3)</filename>
+        </operation>
+        <operation>
+          <type>Load OK</type>
+          <date>Sun Jan 14 11:32:13 EST 2024</date>
+          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+          <filehistory>
+            <operation>
+              <type>app</type>
+              <date>Sat Jan 13 16:57:27 EST 2024</date>
+              <filename>PanelPro (v5.7.3)</filename>
+            </operation>
+            <operation>
+              <type>Load OK</type>
+              <date>Sat Jan 13 16:57:39 EST 2024</date>
+              <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+              <filehistory>
+                <operation>
+                  <type>app</type>
+                  <date>Sat Jan 13 16:46:18 EST 2024</date>
+                  <filename>PanelPro (v5.7.3)</filename>
+                </operation>
+                <operation>
+                  <type>Load OK</type>
+                  <date>Sat Jan 13 16:46:28 EST 2024</date>
+                  <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                  <filehistory>
+                    <operation>
+                      <type>app</type>
+                      <date>Sat Jan 13 13:26:38 EST 2024</date>
+                      <filename>PanelPro (v5.7.3)</filename>
+                    </operation>
+                    <operation>
+                      <type>Load OK</type>
+                      <date>Sat Jan 13 13:26:55 EST 2024</date>
+                      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                      <filehistory>
+                        <operation>
+                          <type>app</type>
+                          <date>Sat Jan 13 12:43:16 EST 2024</date>
+                          <filename>PanelPro (v5.7.3)</filename>
+                        </operation>
+                        <operation>
+                          <type>Load OK</type>
+                          <date>Sat Jan 13 12:43:30 EST 2024</date>
+                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                        </operation>
+                        <operation>
+                          <type>Store</type>
+                          <date>Sat Jan 13 13:23:26 EST 2024</date>
+                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                        </operation>
+                      </filehistory>
+                    </operation>
+                    <operation>
+                      <type>Store</type>
+                      <date>Sat Jan 13 13:33:57 EST 2024</date>
+                      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                    </operation>
+                  </filehistory>
+                </operation>
+                <operation>
+                  <type>Store</type>
+                  <date>Sat Jan 13 16:57:18 EST 2024</date>
+                  <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                </operation>
+              </filehistory>
+            </operation>
+            <operation>
+              <type>Store</type>
+              <date>Sat Jan 13 17:01:22 EST 2024</date>
+              <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+            </operation>
+          </filehistory>
+        </operation>
+        <operation>
+          <type>Store</type>
+          <date>Sun Jan 14 11:38:15 EST 2024</date>
+          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+        </operation>
+      </filehistory>
+    </operation>
+    <operation>
+      <type>Store</type>
+      <date>Sun Jan 14 12:53:11 EST 2024</date>
+      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+    </operation>
+  </filehistory>
+  <!--Written by JMRI version 5.7.3plus+jake+20240114T1639Z+Rd7fa6cc27a5 on Sun Jan 14 12:53:11 EST 2024-->
+</layout-config>
