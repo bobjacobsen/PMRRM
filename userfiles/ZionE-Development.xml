@@ -7,16 +7,138 @@
     <test>3</test>
     <modifier>plus</modifier>
   </jmriversion>
+  <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.05</systemName>
+      <userName>ZE P1 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.06;02.01.57.00.02.A8.00.07</systemName>
+      <userName>ZE P1 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.11</systemName>
+      <userName>ZE P2 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.12;02.01.57.00.02.A8.00.13</systemName>
+      <userName>ZE P2 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.1D</systemName>
+      <userName>ZE P3 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.1E;02.01.57.00.02.A8.00.1F</systemName>
+      <userName>ZE P3 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.29</systemName>
+      <userName>ZE P4 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.2A;02.01.57.00.02.A8.00.2B</systemName>
+      <userName>ZE P4 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.35</systemName>
+      <userName>ZE P5 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.36;02.01.57.00.02.A8.00.37</systemName>
+      <userName>ZE P5 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.41</systemName>
+      <userName>ZE P6 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.42;02.01.57.00.02.A8.00.43</systemName>
+      <userName>ZE P6 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.4D</systemName>
+      <userName>ZE P7 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.4E;02.01.57.00.02.A8.00.4F</systemName>
+      <userName>ZE P7 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.59</systemName>
+      <userName>ZE Misc power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.5A;02.01.57.00.02.A8.00.5B</systemName>
+      <userName>ZE Misc power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.65</systemName>
+      <userName>ZE F1 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.66;02.01.57.00.02.A8.00.67</systemName>
+      <userName>ZE F1 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.71</systemName>
+      <userName>ZE F2 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.72;02.01.57.00.02.A8.00.73</systemName>
+      <userName>ZE F2 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.7D</systemName>
+      <userName>ZE F3 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.7E;02.01.57.00.02.A8.00.7F</systemName>
+      <userName>ZE F3 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.89</systemName>
+      <userName>ZE F4 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.8A;02.01.57.00.02.A8.00.8B</systemName>
+      <userName>ZE F4 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.95</systemName>
+      <userName>ZE F5 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.96;02.01.57.00.02.A8.00.97</systemName>
+      <userName>ZE F5 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.A1</systemName>
+      <userName>ZE F6 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.A2;02.01.57.00.02.A8.00.A3</systemName>
+      <userName>ZE F6 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.AD</systemName>
+      <userName>ZE F7 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.AE;02.01.57.00.02.A8.00.AF</systemName>
+      <userName>ZE F7 power ack</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.B9</systemName>
+      <userName>ZE F8 power request</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.A8.00.BA;02.01.57.00.02.A8.00.BB</systemName>
+      <userName>ZE F8 power ack</userName>
+    </sensor>
+  </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
     <defaultInitialState>unknown</defaultInitialState>
-    <sensor inverted="false">
-      <systemName>ISZE Caboose power ack</systemName>
-      <userName>ZE Caboose power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE Caboose power request</systemName>
-      <userName>ZE Caboose power request</userName>
-    </sensor>
     <sensor inverted="false">
       <systemName>ISZE EABECR Cab ack</systemName>
       <userName>ZE EABECR Cab ack</userName>
@@ -46,108 +168,36 @@
       <userName>ZE EABECR XOver A-B ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE East Engine power ack</systemName>
-      <userName>ZE East Engine power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE East Engine power request</systemName>
-      <userName>ZE East Engine power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE F1 Ack</systemName>
       <userName>ZE F1 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F1 power ack</systemName>
-      <userName>ZE F1 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F1 power request</systemName>
-      <userName>ZE F1 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE F2 Ack</systemName>
       <userName>ZE F2 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE F2 power ack</systemName>
-      <userName>ZE F2 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F2 power request</systemName>
-      <userName>ZE F2 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE F3 Ack</systemName>
       <userName>ZE F3 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F3 power ack</systemName>
-      <userName>ZE F3 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F3 power request</systemName>
-      <userName>ZE F3 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE F4 Ack</systemName>
       <userName>ZE F4 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE F4 power ack</systemName>
-      <userName>ZE F4 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F4 power request</systemName>
-      <userName>ZE F4 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE F5 Ack</systemName>
       <userName>ZE F5 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F5 power ack</systemName>
-      <userName>ZE F5 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F5 power request</systemName>
-      <userName>ZE F5 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE F6 Ack</systemName>
       <userName>ZE F6 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE F6 power ack</systemName>
-      <userName>ZE F6 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F6 power request</systemName>
-      <userName>ZE F6 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE F7 Ack</systemName>
       <userName>ZE F7 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE F7 power ack</systemName>
-      <userName>ZE F7 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F7 power request</systemName>
-      <userName>ZE F7 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE F8 Ack</systemName>
       <userName>ZE F8 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F8 power ack</systemName>
-      <userName>ZE F8 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE F8 power request</systemName>
-      <userName>ZE F8 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE Main 1 power ack</systemName>
@@ -198,84 +248,28 @@
       <userName>ZE P1 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE P1 power ack</systemName>
-      <userName>ZE P1 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P1 power request</systemName>
-      <userName>ZE P1 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE P2 Ack</systemName>
       <userName>ZE P2 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P2 power ack</systemName>
-      <userName>ZE P2 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P2 power request</systemName>
-      <userName>ZE P2 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE P3 Ack</systemName>
       <userName>ZE P3 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE P3 power ack</systemName>
-      <userName>ZE P3 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P3 power request</systemName>
-      <userName>ZE P3 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE P4 Ack</systemName>
       <userName>ZE P4 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P4 power ack</systemName>
-      <userName>ZE P4 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P4 power request</systemName>
-      <userName>ZE P4 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE P5 Ack</systemName>
       <userName>ZE P5 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE P5 power ack</systemName>
-      <userName>ZE P5 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P5 power request</systemName>
-      <userName>ZE P5 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE P6 Ack</systemName>
       <userName>ZE P6 Ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE P6 power ack</systemName>
-      <userName>ZE P6 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P6 power request</systemName>
-      <userName>ZE P6 power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE P7 Ack</systemName>
       <userName>ZE P7 Ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P7 power ack</systemName>
-      <userName>ZE P7 power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE P7 power request</systemName>
-      <userName>ZE P7 power request</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>ISZE Remote - Local</systemName>
@@ -322,14 +316,6 @@
       <userName>ZE W3 ack</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>ISZE West Engine power ack</systemName>
-      <userName>ZE West Engine power ack</userName>
-    </sensor>
-    <sensor inverted="false">
-      <systemName>ISZE West Engine power request</systemName>
-      <userName>ZE West Engine power request</userName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>ISZE Whiskey 1 Occupancy</systemName>
       <userName>ZE Whiskey 1 Occupancy</userName>
     </sensor>
@@ -354,38 +340,6 @@
     </operations>
     <defaultclosedspeed>Normal</defaultclosedspeed>
     <defaultthrownspeed>Restricted</defaultthrownspeed>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT98</systemName>
-      <userName>Whiskey 1-2</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT99</systemName>
-      <userName>Whiskey 12-3</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT100</systemName>
-      <userName>Xerox 1-2</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT103</systemName>
-      <userName>Yazoo E2 to W2-W3</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT104</systemName>
-      <userName>Yazoo E1 to W1-W2</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT105</systemName>
-      <userName>Yazoo W2 to E1-E2</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT106</systemName>
-      <userName>Yazoo 2-3 XOver D-N</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MTT107</systemName>
-      <userName>Yazoo 1-2 XOver D-N</userName>
-    </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.B1.00.00;02.01.57.00.01.B1.00.01</systemName>
       <userName>Zion East Cab track - Runaround</userName>
@@ -451,6 +405,10 @@
       <userName>Zion East P5-67</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.00.02.5B.00.36;02.01.57.00.02.5B.00.42</systemName>
+      <userName>Zion East P34-567</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.5B.00.3C;02.01.57.00.02.5B.00.3D</systemName>
       <userName>Zion East P3-4</userName>
     </turnout>
@@ -461,10 +419,6 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.5B.00.54;02.01.57.00.02.5B.00.55</systemName>
       <userName>Zion East W 2 3 Cross</userName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.00.02.5B.00.60;02.01.57.00.02.5B.00.42</systemName>
-      <userName>Zion East P34-567</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.5B.00.60;02.01.57.00.02.5B.00.61</systemName>
@@ -493,6 +447,38 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.5D.00.BA;02.01.57.00.02.5D.00.06</systemName>
       <userName>Zion East F7-8</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.06;02.01.57.20.00.1B.02.07</systemName>
+      <userName>Whiskey 1-2</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.08;02.01.57.20.00.1B.02.09</systemName>
+      <userName>Whiskey 12-3</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.0A;02.01.57.20.00.1B.02.0B</systemName>
+      <userName>Xerox 1-2</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.10;02.01.57.20.00.1B.02.11</systemName>
+      <userName>Yazoo E2 to W2-W3</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.12;02.01.57.20.00.1B.02.13</systemName>
+      <userName>Yazoo E1 to W1-W2</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.14;02.01.57.20.00.1B.02.15</systemName>
+      <userName>Yazoo W2 to E1-E2</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.16;02.01.57.20.00.1B.02.17</systemName>
+      <userName>Yazoo 2-3 XOver D-N</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MT02.01.57.20.00.1B.02.18;02.01.57.20.00.1B.02.19</systemName>
+      <userName>Yazoo 1-2 XOver D-N</userName>
     </turnout>
   </turnouts>
   <turnouts class="jmri.jmrix.internal.configurexml.InternalTurnoutManagerXml">
@@ -567,23 +553,23 @@
       <systemName>ITZE F8 request</systemName>
       <userName>ZE F8 request</userName>
     </turnout>
-    <turnout feedback="DIRECT" sensor1="ZE NX X1 ack" inverted="false" automate="Off">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITZE NX X1 request</systemName>
       <userName>ZE NX X1 request</userName>
     </turnout>
-    <turnout feedback="DIRECT" sensor1="ZE NX X2 ack" inverted="false" automate="Off">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITZE NX X2 request</systemName>
       <userName>ZE NX X2 request</userName>
     </turnout>
-    <turnout feedback="DIRECT" sensor1="ZE NX Y1 ack" inverted="false" automate="Off">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITZE NX Y1 request</systemName>
       <userName>ZE NX Y1 request</userName>
     </turnout>
-    <turnout feedback="DIRECT" sensor1="ZE NX Y2 ack" inverted="false" automate="Off">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITZE NX Y2 request</systemName>
       <userName>ZE NX Y2 request</userName>
     </turnout>
-    <turnout feedback="DIRECT" sensor1="ZE NX Y3 ack" inverted="false" automate="Off">
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
       <systemName>ITZE NX Y3 request</systemName>
       <userName>ZE NX Y3 request</userName>
     </turnout>
@@ -750,6 +736,7 @@
     <route userName="ZE T1 fires" controlTurnout="ZE T1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0011</systemName>
       <userName>ZE T1 fires</userName>
+      <routeOutputTurnout systemName="Zion East TE234-1" state="CLOSED" />
       <routeOutputSensor systemName="ZE T1 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE T2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T3 Ack" state="INACTIVE" />
@@ -758,6 +745,8 @@
     <route userName="ZE T2 fires" controlTurnout="ZE T2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0012</systemName>
       <userName>ZE T2 fires</userName>
+      <routeOutputTurnout systemName="Zion East TE234-1" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East TE34-2" state="CLOSED" />
       <routeOutputSensor systemName="ZE T1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T2 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE T3 Ack" state="INACTIVE" />
@@ -766,6 +755,9 @@
     <route userName="ZE T3 fires" controlTurnout="ZE T3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0013</systemName>
       <userName>ZE T3 fires</userName>
+      <routeOutputTurnout systemName="Zion East TE4-3" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East TE234-1" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East TE34-2" state="THROWN" />
       <routeOutputSensor systemName="ZE T1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T3 Ack" state="ACTIVE" />
@@ -774,6 +766,9 @@
     <route userName="ZE T4 fires" controlTurnout="ZE T4 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0014</systemName>
       <userName>ZE T4 fires</userName>
+      <routeOutputTurnout systemName="Zion East TE4-3" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East TE234-1" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East TE34-2" state="THROWN" />
       <routeOutputSensor systemName="ZE T1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE T3 Ack" state="INACTIVE" />
@@ -847,6 +842,8 @@
     <route userName="ZE W1 fires" controlTurnout="ZE W1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0029</systemName>
       <userName>ZE W1 fires</userName>
+      <routeOutputTurnout systemName="Whiskey 1-2" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
       <routeOutputSensor systemName="ZE W1 ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE W2 ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE W3 ack" state="INACTIVE" />
@@ -854,6 +851,8 @@
     <route userName="ZE W2 firest" controlTurnout="ZE W2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0030</systemName>
       <userName>ZE W2 firest</userName>
+      <routeOutputTurnout systemName="Whiskey 1-2" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
       <routeOutputSensor systemName="ZE W1 ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE W2 ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE W3 ack" state="INACTIVE" />
@@ -861,6 +860,7 @@
     <route userName="ZE W3 is fires" controlTurnout="ZE W3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0031</systemName>
       <userName>ZE W3 is fires</userName>
+      <routeOutputTurnout systemName="Whiskey 12-3" state="CLOSED" />
       <routeOutputSensor systemName="ZE W1 ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE W2 ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE W3 ack" state="ACTIVE" />
@@ -868,6 +868,9 @@
     <route userName="ZE EABCER Cab fires" controlTurnout="ZE EABECR Cab request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0032</systemName>
       <userName>ZE EABCER Cab fires</userName>
+      <routeOutputTurnout systemName="Zion East Cab track - Runaround" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East W Engine - Cab/Runaround" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East Freight B ladder - WEngine, Cab" state="CLOSED" />
       <routeOutputSensor systemName="ZE EABECR Cab ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtB ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR Run ack" state="INACTIVE" />
@@ -877,6 +880,8 @@
     <route userName="ZE EABCER EEng fires" controlTurnout="ZE EABECR EEng request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0033</systemName>
       <userName>ZE EABCER EEng fires</userName>
+      <routeOutputTurnout systemName="Zion East Z2 to Z1 West Xover - Straight" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East East Eng pocket West D-N" state="THROWN" />
       <routeOutputSensor systemName="ZE EABECR EEng ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtA ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR XOver A-B ack" state="INACTIVE" />
@@ -884,6 +889,8 @@
     <route userName="ZE EABCER FrtA fires" controlTurnout="ZE EABECR FrtA request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0034</systemName>
       <userName>ZE EABCER FrtA fires</userName>
+      <routeOutputTurnout systemName="Zion East Z2 to Z1 West Xover - Straight" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East East Eng pocket West D-N" state="CLOSED" />
       <routeOutputSensor systemName="ZE EABECR EEng ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtA ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE EABECR XOver A-B ack" state="INACTIVE" />
@@ -891,6 +898,8 @@
     <route userName="ZE EABCER FrtB fires" controlTurnout="ZE EABECR FrtB request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0035</systemName>
       <userName>ZE EABCER FrtB fires</userName>
+      <routeOutputTurnout systemName="Zion East Freight B ladder - WEngine, Cab" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East Z2 to Z1 West Xover - Straight" state="CLOSED" />
       <routeOutputSensor systemName="ZE EABECR Cab ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtB ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE EABECR Run ack" state="INACTIVE" />
@@ -900,6 +909,9 @@
     <route userName="ZE EABCER Run fires" controlTurnout="ZE EABECR Run request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0036</systemName>
       <userName>ZE EABCER Run fires</userName>
+      <routeOutputTurnout systemName="Zion East Cab track - Runaround" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East W Engine - Cab/Runaround" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East Freight B ladder - WEngine, Cab" state="CLOSED" />
       <routeOutputSensor systemName="ZE EABECR Cab ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtB ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR Run ack" state="ACTIVE" />
@@ -909,6 +921,8 @@
     <route userName="ZE EABCER WEng fires" controlTurnout="ZE EABECR WEng request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0037</systemName>
       <userName>ZE EABCER WEng fires</userName>
+      <routeOutputTurnout systemName="Zion East W Engine - Cab/Runaround" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East Freight B ladder - WEngine, Cab" state="CLOSED" />
       <routeOutputSensor systemName="ZE EABECR Cab ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtB ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR Run ack" state="INACTIVE" />
@@ -918,6 +932,8 @@
     <route userName="ZE EABCER XOver A-B fires" controlTurnout="ZE EABECR XOver A-B request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0038</systemName>
       <userName>ZE EABCER XOver A-B fires</userName>
+      <routeOutputTurnout systemName="Zion East Freight B ladder - WEngine, Cab" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East Z2 to Z1 West Xover - Straight" state="THROWN" />
       <routeOutputSensor systemName="ZE EABECR Cab ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR EEng ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE EABECR FrtA ack" state="INACTIVE" />
@@ -936,7 +952,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="2738" y="0" height="1193" width="1928" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="2642" y="0" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long debug -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1640,7 +1656,7 @@
       <iconmaps />
     </turnouticon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="262" y="25" height="1204" width="1922" editable="yes" positionable="no" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="46" y="25" height="1204" width="1922" editable="yes" positionable="no" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1676,52 +1692,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Caboose power request" x="678" y="603" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="ZE East Engine power request" x="856" y="859" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="ZE Team power request" x="523" y="310" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="ZE West Engine power request" x="701" y="654" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2300,7 +2271,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE Caboose power ack" x="647" y="609" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F1 power ack" x="151" y="961" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2315,7 +2286,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE East Engine power ack" x="821" y="867" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F2 power ack" x="175" y="910" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2330,7 +2301,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F1 power ack" x="151" y="961" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Main 1 power ack" x="1126" y="819" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2345,7 +2316,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F2 power ack" x="175" y="910" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Main 2 power ack" x="1128" y="716" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2360,7 +2331,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Main 1 power ack" x="1126" y="819" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Main 3 power ack" x="1129" y="615" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2375,7 +2346,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Main 2 power ack" x="1128" y="716" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Team power ack" x="514" y="285" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2390,7 +2361,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Main 3 power ack" x="1129" y="615" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F3 power ack" x="204" y="858" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2405,7 +2376,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Team power ack" x="513" y="285" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F4 power ack" x="233" y="807" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2420,7 +2391,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE West Engine power ack" x="669" y="660" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F5 power ack" x="236" y="704" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2435,7 +2406,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F3 power ack" x="204" y="858" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F6 power ack" x="210" y="652" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2450,7 +2421,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F4 power ack" x="233" y="807" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F7 power ack" x="184" y="603" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2465,7 +2436,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F5 power ack" x="236" y="704" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F8 power ack" x="160" y="549" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2480,7 +2451,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F6 power ack" x="210" y="652" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P1 power ack" x="243" y="450" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2495,7 +2466,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F7 power ack" x="184" y="603" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P2 power ack" x="218" y="399" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2510,7 +2481,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F8 power ack" x="160" y="549" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P3 power ack" x="191" y="349" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2525,7 +2496,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P1 power ack" x="243" y="450" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P4 power ack" x="168" y="297" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2540,7 +2511,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P2 power ack" x="218" y="399" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P5 power ack" x="141" y="245" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2555,7 +2526,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P3 power ack" x="191" y="349" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P6 power ack" x="115" y="192" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2570,52 +2541,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P4 power ack" x="168" y="297" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="ZE P5 power ack" x="141" y="245" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="ZE P6 power ack" x="115" y="192" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="ZE P7 power ack" x="90" y="142" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P7 power ack" x="90" y="142" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2944,7 +2870,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W1 request" x="1613" y="668" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W1 request" x="1667" y="773" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -2978,7 +2904,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W3 request" x="1666" y="771" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W3 request" x="1611" y="668" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3172,108 +3098,470 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1045" y="819" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1048" y="716" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W 2 3 Cross" x="972" y="715" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W 2 3 Cross" x="974" y="613" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="634" y="657" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="606" y="710" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East W 2 3 Cross" x="973" y="665" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1046" y="765" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Zion - Port" x="713" y="457" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Branch - Zion" x="632" y="400" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="564" y="401" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="561" y="455" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Branch - Zion" x="632" y="459" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Zion East Zion - Port" x="711" y="401" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Xerox 1-2" x="1491" y="670" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <turnouticon turnout="Xerox 1-2" x="1492" y="771" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+      <icons>
+        <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </closed>
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </thrown>
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </unknown>
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </inconsistent>
+      </icons>
+      <iconmaps />
+    </turnouticon>
+    <sensoricon sensor="ZE Misc power ack" x="649" y="609" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power ack" x="675" y="661" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power ack" x="824" y="866" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/mediumschematics/LEDs/GRAYLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/mediumschematics/LEDs/whiteLED.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="851" y="859" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="705" y="653" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="ZE Misc power request" x="677" y="603" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/USS/plate/levers/code.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/USS/plate/levers/code-unknown.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/USS/plate/levers/code-inconsistent.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Jan 18 16:45:07 EST 2024</date>
+      <date>Fri Jan 19 10:59:15 EST 2024</date>
       <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Jan 18 16:45:22 EST 2024</date>
+      <date>Fri Jan 19 10:59:18 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Thu Jan 18 16:04:25 EST 2024</date>
+          <date>Fri Jan 19 10:41:45 EST 2024</date>
           <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Thu Jan 18 16:04:42 EST 2024</date>
+          <date>Fri Jan 19 10:41:47 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Thu Jan 18 15:32:55 EST 2024</date>
+              <date>Fri Jan 19 10:28:06 EST 2024</date>
               <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Thu Jan 18 15:32:58 EST 2024</date>
+              <date>Fri Jan 19 10:28:08 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Thu Jan 18 15:23:58 EST 2024</date>
+                  <date>Fri Jan 19 10:09:26 EST 2024</date>
                   <filename>PanelPro (v5.7.3)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Thu Jan 18 15:24:01 EST 2024</date>
+                  <date>Fri Jan 19 10:09:29 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Thu Jan 18 11:52:36 EST 2024</date>
+                      <date>Fri Jan 19 08:00:25 EST 2024</date>
                       <filename>PanelPro (v5.7.3)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Thu Jan 18 11:52:49 EST 2024</date>
+                      <date>Fri Jan 19 08:00:28 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Thu Jan 18 09:05:14 EST 2024</date>
+                          <date>Fri Jan 19 07:59:28 EST 2024</date>
                           <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Thu Jan 18 09:05:26 EST 2024</date>
+                          <date>Fri Jan 19 07:59:31 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Thu Jan 18 10:06:51 EST 2024</date>
+                          <date>Fri Jan 19 07:59:41 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Thu Jan 18 12:48:20 EST 2024</date>
+                      <date>Fri Jan 19 08:57:31 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Thu Jan 18 15:32:10 EST 2024</date>
+                  <date>Fri Jan 19 10:11:29 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Thu Jan 18 15:56:05 EST 2024</date>
+              <date>Fri Jan 19 10:37:19 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Thu Jan 18 16:35:30 EST 2024</date>
+          <date>Fri Jan 19 10:42:02 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jan 18 17:44:43 EST 2024</date>
+      <date>Fri Jan 19 11:29:49 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jake+20240118T2144Z+Rfdb9c5a7c60 on Thu Jan 18 17:44:43 EST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jake+20240119T1559Z+Rfdb9c5a7c60 on Fri Jan 19 11:29:49 EST 2024-->
 </layout-config>
