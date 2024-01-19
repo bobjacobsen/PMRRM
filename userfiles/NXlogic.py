@@ -70,11 +70,11 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         Y2Turnout = turnouts.getTurnout("ZE NX Y2 request")
         Y3Turnout = turnouts.getTurnout("ZE NX Y3 request")
         
-        X1Sensor = sensors.getSensor("ZE NX X1 ack")
-        X2Sensor = sensors.getSensor("ZE NX X2 ack")
-        Y1Sensor = sensors.getSensor("ZE NX Y1 ack")
-        Y2Sensor = sensors.getSensor("ZE NX Y2 ack")
-        Y3Sensor = sensors.getSensor("ZE NX Y3 ack")
+        X1Lamp = sensors.getSensor("ZE NX X1 ack")
+        X2Lamp = sensors.getSensor("ZE NX X2 ack")
+        Y1Lamp = sensors.getSensor("ZE NX Y1 ack")
+        Y2Lamp = sensors.getSensor("ZE NX Y2 ack")
+        Y3Lamp = sensors.getSensor("ZE NX Y3 ack")
         
         MTT103 = turnouts.getTurnout("MTT103")
         MTT104 = turnouts.getTurnout("MTT104")
@@ -94,16 +94,17 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         # this is disabled here, as it causes the CpmmandedState to change and 
         #   creates a spurious input.  I'm keeping the section to remind
         #   me to see whether this can be done in STL via a sacrificial output
-        # blinker = (turnouts.getTurnout("Blinker").getState() == THROWN);
-        # if blinker :
-        #     allocatedOutput = ACTIVE
-        # else :
-        #     allocatedOutput = INACTIVE
-        # if X1Allocated : X1Sensor.state = allocatedOutput
-        # if X2Allocated : X2Sensor.state = allocatedOutput
-        # if Y1Allocated : Y1Sensor.state = allocatedOutput
-        # if Y2Allocated : Y2Sensor.state = allocatedOutput
-        # if Y3Allocated : Y3Sensor.state = allocatedOutput
+        #
+        blinker = (turnouts.getTurnout("Blinker").getState() == THROWN);
+        if blinker :
+            allocatedOutput = ACTIVE
+        else :
+            allocatedOutput = INACTIVE
+        if X1Allocated : X1Lamp.state = allocatedOutput
+        if X2Allocated : X2Lamp.state = allocatedOutput
+        if Y1Allocated : Y1Lamp.state = allocatedOutput
+        if Y2Allocated : Y2Lamp.state = allocatedOutput
+        if Y3Allocated : Y3Lamp.state = allocatedOutput
         
         # compute changes
         X1Pressed = not X1InputLast and X1InputNow
@@ -119,75 +120,74 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
         if not (X1Pressed or X2Pressed or Y1Pressed or Y2Pressed or Y3Pressed) : return True
         
-        print ("Proceeding")
-        
+        # check for turning off one a button
         if X1Pressed and (X1On or X1Allocated): # second push of lit button
             X1Off = True; X1On = False; X1Allocated = False 
-            X1Sensor.state = INACTIVE
+            X1Lamp.state = INACTIVE
             if Route_X1_Y1:
                 Route_X1_Y1 = False
                 Y1Off = True; Y1On = False; Y1Allocated = False
-                Y1Sensor.state = INACTIVE
+                Y1Lamp.state = INACTIVE
             if Route_X1_Y2:
                 Route_X1_Y2 = False
                 Y2Off = True; Y2On = False; Y2Allocated = False
-                Y2Sensor.state = INACTIVE
+                Y2Lamp.state = INACTIVE
             if Route_X1_Y3:
                 Route_X1_Y3 = False
                 Y3Off = True; Y3On = False; Y3Allocated = False
-                Y3Sensor.state = INACTIVE
+                Y3Lamp.state = INACTIVE
             return True # end processing **
         if X2Pressed and (X2On or X2Allocated): # second push of lit button
             X2Off = True; X2On = False; X2Allocated = False 
-            X2Sensor.state = INACTIVE
+            X2Lamp.state = INACTIVE
             if Route_X2_Y1:
                 Route_X2_Y1 = False
                 Y1Off = True; Y1On = False; Y1Allocated = False
-                Y1Sensor.state = INACTIVE
+                Y1Lamp.state = INACTIVE
             if Route_X2_Y2:
                 Route_X2_Y2 = False
                 Y2Off = True; Y2On = False; Y2Allocated = False
-                Y2Sensor.state = INACTIVE
+                Y2Lamp.state = INACTIVE
             if Route_X2_Y3:
                 Route_X2_Y3 = False
                 Y3Off = True; Y3On = False; Y3Allocated = False
-                Y3Sensor.state = INACTIVE
+                Y3Lamp.state = INACTIVE
             return True # end processing **
         if Y1Pressed and (Y1On or Y1Allocated): # second push of lit button
             Y1Off = True; Y1On = False; Y1Allocated = False 
-            Y1Sensor.state = INACTIVE
+            Y1Lamp.state = INACTIVE
             if Route_X1_Y1:
                 Route_X1_Y1 = False
                 X1Off = True; X1On = False; X1Allocated = False
-                X1Sensor.state = INACTIVE
+                X1Lamp.state = INACTIVE
             if Route_X2_Y1:
                 Route_X2_Y1 = False
                 X2Off = True; X2On = False; X2Allocated = False
-                X2Sensor.state = INACTIVE
+                X2Lamp.state = INACTIVE
             return True # end processing **
         if Y2Pressed and (Y2On or Y2Allocated): # second push of lit button
             Y2Off = True; Y2On = False; Y2Allocated = False 
-            Y2Sensor.state = INACTIVE
+            Y2Lamp.state = INACTIVE
             if Route_X1_Y2:
                 Route_X1_Y2 = False
                 X1Off = True; X1On = False; X1Allocated = False
-                X1Sensor.state = INACTIVE
+                X1Lamp.state = INACTIVE
             if Route_X2_Y2:
                 Route_X2_Y2 = False
                 X2Off = True; X2On = False; X2Allocated = False
-                X2Sensor.state = INACTIVE
+                X2Lamp.state = INACTIVE
             return True # end processing **
         if Y3Pressed and (Y3On or Y3Allocated): # second push of lit button
             Y3Off = True; Y3On = False; Y3Allocated = False 
-            Y3Sensor.state = INACTIVE
+            Y3Lamp.state = INACTIVE
             if Route_X1_Y3:
                 Route_X1_Y3 = False
                 X1Off = True; X1On = False; X1Allocated = False
-                X1Sensor.state = INACTIVE
+                X1Lamp.state = INACTIVE
             if Route_X2_Y3:
                 Route_X2_Y3 = False
                 X2Off = True; X2On = False; X2Allocated = False
-                X2Sensor.state = INACTIVE
+                X2Lamp.state = INACTIVE
             return True # end processing **
 
         # At this point, the pressed button is on Off state
@@ -195,43 +195,43 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         # Only one allocated track per side possible
         if X1Pressed :
             X1Allocated = True; X1Off = False; X1On = False
-            X1Sensor.state = ACTIVE
+            X1Lamp.state = ACTIVE
             if X2Allocated :
                 X2Off = True; X2On = False; X2Allocated = False 
-                X2Sensor.state = INACTIVE
+                X2Lamp.state = INACTIVE
         if X2Pressed :
             X2Allocated = True; X2Off = False; X2On = False
-            X2Sensor.state = ACTIVE
+            X2Lamp.state = ACTIVE
             if X1Allocated :
                 X1Off = True; X1On = False; X1Allocated = False 
-                X1Sensor.state = INACTIVE
+                X1Lamp.state = INACTIVE
         if Y1Pressed :
             Y1Allocated = True; Y1Off = False; Y1On = False
-            Y1Sensor.state = ACTIVE
+            Y1Lamp.state = ACTIVE
             if Y2Allocated :
                 Y2Off = True; Y2On = False; Y2Allocated = False 
-                Y2Sensor.state = INACTIVE
+                Y2Lamp.state = INACTIVE
             if Y3Allocated :
                 Y3Off = True; Y3On = False; Y3Allocated = False 
-                Y3Sensor.state = INACTIVE
+                Y3Lamp.state = INACTIVE
         if Y2Pressed :
             Y2Allocated = True; Y2Off = False; Y2On = False
-            Y2Sensor.state = ACTIVE
+            Y2Lamp.state = ACTIVE
             if Y1Allocated :
                 Y1Off = True; Y1On = False; Y1Allocated = False 
-                Y1Sensor.state = INACTIVE
+                Y1Lamp.state = INACTIVE
             if Y3Allocated :
                 Y3Off = True; Y3On = False; Y3Allocated = False 
-                Y3Sensor.state = INACTIVE
+                Y3Lamp.state = INACTIVE
         if Y3Pressed :
             Y3Allocated = True; Y3Off = False; Y3On = False
-            Y3Sensor.state = ACTIVE
+            Y3Lamp.state = ACTIVE
             if Y1Allocated :
                 Y1Off = True; Y1On = False; Y1Allocated = False 
-                Y1Sensor.state = INACTIVE
+                Y1Lamp.state = INACTIVE
             if Y2Allocated :
                 Y2Off = True; Y2On = False; Y2Allocated = False 
-                Y2Sensor.state = INACTIVE
+                Y2Lamp.state = INACTIVE
 
 
         # Exhaustively check available route candidates and assign as needed:
@@ -240,71 +240,74 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
             # fire Route-X1-Y1 outputs
             MTT107.state = CLOSED; MTT104.state = THROWN
             X1On = True; X1Off = False; X1Allocated = False
-            X1Sensor.state = ACTIVE
+            X1Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
-            Y1Sensor.state = ACTIVE
+            Y1Lamp.state = ACTIVE
         
         if X1Allocated and Y2Allocated and not Route_X2_Y1 :   # no conflicting route set
             Route_X1_Y2 = True
             # fire Route-X1-Y2 outputs
-            MTT107.state = CLOSED; MTT106.state = CLOSED; MTT104.state = CLOSED
+            MTT107.state = CLOSED; MTT106.state = CLOSED; MTT105 = CLOSED; MTT104.state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
-            X1Sensor.state = ACTIVE
+            X1Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
-            Y2Sensor.state = ACTIVE
+            Y2Lamp.state = ACTIVE
         if X1Allocated and Y2Allocated and Route_X2_Y1 :       # conflicting route set, drop allocations
             X1Off = True; X1On = False; X1Allocated = False 
-            X1Sensor.state = INACTIVE
+            X1Lamp.state = INACTIVE
             Y2Off = True; Y2On = False; Y2Allocated = False 
-            Y2Sensor.state = INACTIVE
+            Y2Lamp.state = INACTIVE
         
         if X1Allocated and Y3Allocated and not (Route_X2_Y2 or Route_X2_Y1) :   # no conflicting route set
             Route_X1_Y3 = True
             # fire Route-X1-Y3 outputs
-            MTT107.state = CLOSED; MTT106.state = THROWN; MTT104.state = CLOSED
+            MTT107.state = CLOSED; MTT106.state = THROWN; MTT105 = CLOSED; MTT104.state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
-            X1Sensor.state = ACTIVE
+            X1Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
-            Y3Sensor.state = ACTIVE
+            Y3Lamp.state = ACTIVE
         if X1Allocated and Y3Allocated and (Route_X2_Y2 or Route_X2_Y1) :       # conflicting route set, drop allocations
             X1Off = True; X1On = False; X1Allocated = False 
-            X1Sensor.state = INACTIVE
+            X1Lamp.state = INACTIVE
             Y3Off = True; Y3On = False; Y3Allocated = False 
-            Y3Sensor.state = INACTIVE
+            Y3Lamp.state = INACTIVE
         
         if X2Allocated and Y1Allocated and not (Route_X1_Y2 or Route_X1_Y3) :
             Route_X2_Y1 = True
             # fire Route-X2-Y1 outputs
+            MTT107.state = CLOSED; MTT106.state = THROWN; MTT105 = THROWN; MTT103.state = THROWN
             X2On = True; X2Off = False; X2Allocated = False
-            X2Sensor.state = ACTIVE
+            X2Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
-            Y1Sensor.state = ACTIVE
+            Y1Lamp.state = ACTIVE
         if X2Allocated and Y1Allocated and (Route_X1_Y2 or Route_X1_Y3) :       # conflicting route set, drop allocations
             X2Off = True; X2On = False; X2Allocated = False 
-            X2Sensor.state = INACTIVE
+            X2Lamp.state = INACTIVE
             Y1Off = True; Y1On = False; Y1Allocated = False 
-            Y1Sensor.state = INACTIVE
+            Y1Lamp.state = INACTIVE
         
         if X2Allocated and Y2Allocated and not Route_X1_Y3 :   # no conflicting route set
             Route_X2_Y2 = True
             # fire Route-X2-Y2 outputs
+            MTT107.state = CLOSED; MTT106.state = CLOSED; MTT105 = THROWN; MTT103.state = THROWN
             X2On = True; X2Off = False; X2Allocated = False
-            X2Sensor.state = ACTIVE
+            X2Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
-            Y2Sensor.state = ACTIVE
+            Y2Lamp.state = ACTIVE
         if X2Allocated and Y2Allocated and Route_X1_Y3 :       # conflicting route set, drop allocations
             X2Off = True; X2On = False; X2Allocated = False 
-            X2Sensor.state = INACTIVE
+            X2Lamp.state = INACTIVE
             Y2Off = True; Y2On = False; Y2Allocated = False 
-            Y2Sensor.state = INACTIVE
+            Y2Lamp.state = INACTIVE
         
         if X2Allocated and Y3Allocated : # no conflicting route to check
             Route_X2_Y3 = True
             # fire Route-X2-Y3 outputs
+            MTT106.state = CLOSED; MTT103.state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
-            X2Sensor.state = ACTIVE
+            X2Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
-            Y3Sensor.state = ACTIVE
+            Y3Lamp.state = ACTIVE
            
         return True
         
