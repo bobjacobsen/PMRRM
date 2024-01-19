@@ -405,7 +405,7 @@
       <userName>Zion East P5-67</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.00.02.5B.00.36;02.01.57.00.02.5B.00.42</systemName>
+      <systemName>MT02.01.57.00.02.5B.00.36;02.01.57.00.02.5B.00.37</systemName>
       <userName>Zion East P34-567</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
@@ -659,6 +659,8 @@
     <route userName="ZE P1 fires" controlTurnout="ZE P1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0001</systemName>
       <userName>ZE P1 fires</userName>
+      <routeOutputTurnout systemName="Zion East P2-1" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="CLOSED" />
       <routeOutputSensor systemName="ZE P1 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -670,6 +672,8 @@
     <route userName="ZE P2 fires" controlTurnout="ZE P2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0002</systemName>
       <userName>ZE P2 fires</userName>
+      <routeOutputTurnout systemName="Zion East P2-1" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="CLOSED" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -681,6 +685,9 @@
     <route userName="ZE P3 fires" controlTurnout="ZE P3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0003</systemName>
       <userName>ZE P3 fires</userName>
+      <routeOutputTurnout systemName="Zion East P34-567" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P3-4" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="THROWN" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="ACTIVE" />
@@ -692,6 +699,9 @@
     <route userName="ZE P4 fires" controlTurnout="ZE P4 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0004</systemName>
       <userName>ZE P4 fires</userName>
+      <routeOutputTurnout systemName="Zion East P34-567" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P3-4" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="THROWN" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -703,6 +713,9 @@
     <route userName="ZE P5 fires" controlTurnout="ZE P5 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0005</systemName>
       <userName>ZE P5 fires</userName>
+      <routeOutputTurnout systemName="Zion East P5-67" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P34-567" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="THROWN" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -714,6 +727,10 @@
     <route userName="ZE P6 fires" controlTurnout="ZE P6 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0006</systemName>
       <userName>ZE P6 fires</userName>
+      <routeOutputTurnout systemName="Zion East P5-67" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34-567" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P6-7" state="THROWN" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -725,6 +742,10 @@
     <route userName="ZE P7 fires" controlTurnout="ZE P7 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0007</systemName>
       <userName>ZE P7 fires</userName>
+      <routeOutputTurnout systemName="Zion East P5-67" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34-567" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East P34567-12" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East P6-7" state="CLOSED" />
       <routeOutputSensor systemName="ZE P1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE P3 Ack" state="INACTIVE" />
@@ -777,6 +798,7 @@
     <route userName="ZE F1 fires" controlTurnout="ZE F1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0021</systemName>
       <userName>ZE F1 fires</userName>
+      <routeOutputTurnout systemName="Zion East F1-234" state="THROWN" />
       <routeOutputSensor systemName="ZE F1 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE F2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F3 Ack" state="INACTIVE" />
@@ -785,6 +807,8 @@
     <route userName="ZE F2 fires" controlTurnout="ZE F2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0022</systemName>
       <userName>ZE F2 fires</userName>
+      <routeOutputTurnout systemName="Zion East F1-234" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F2-34" state="THROWN" />
       <routeOutputSensor systemName="ZE F1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F2 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE F3 Ack" state="INACTIVE" />
@@ -793,6 +817,9 @@
     <route userName="ZE F3 fires" controlTurnout="ZE F3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0023</systemName>
       <userName>ZE F3 fires</userName>
+      <routeOutputTurnout systemName="Zion East F1-234" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F2-34" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F3-4" state="THROWN" />
       <routeOutputSensor systemName="ZE F1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F3 Ack" state="ACTIVE" />
@@ -801,6 +828,9 @@
     <route userName="ZE F4 fires" controlTurnout="ZE F4 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0024</systemName>
       <userName>ZE F4 fires</userName>
+      <routeOutputTurnout systemName="Zion East F1-234" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F2-34" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F3-4" state="CLOSED" />
       <routeOutputSensor systemName="ZE F1 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F2 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F3 Ack" state="INACTIVE" />
@@ -809,6 +839,7 @@
     <route userName="ZE F5 fires" controlTurnout="ZE F5 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0025</systemName>
       <userName>ZE F5 fires</userName>
+      <routeOutputTurnout systemName="Zion East F5-678" state="THROWN" />
       <routeOutputSensor systemName="ZE F5 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE F6 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F7 Ack" state="INACTIVE" />
@@ -817,6 +848,8 @@
     <route userName="ZE F6 fires" controlTurnout="ZE F6 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0026</systemName>
       <userName>ZE F6 fires</userName>
+      <routeOutputTurnout systemName="Zion East F6-78" state="THROWN" />
+      <routeOutputTurnout systemName="Zion East F5-678" state="CLOSED" />
       <routeOutputSensor systemName="ZE F5 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F6 Ack" state="ACTIVE" />
       <routeOutputSensor systemName="ZE F7 Ack" state="INACTIVE" />
@@ -825,6 +858,9 @@
     <route userName="ZE F7 fires" controlTurnout="ZE F7 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0027</systemName>
       <userName>ZE F7 fires</userName>
+      <routeOutputTurnout systemName="Zion East F6-78" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F5-678" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F7-8" state="THROWN" />
       <routeOutputSensor systemName="ZE F5 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F6 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F7 Ack" state="ACTIVE" />
@@ -833,6 +869,9 @@
     <route userName="ZE F8 fires" controlTurnout="ZE F8 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0028</systemName>
       <userName>ZE F8 fires</userName>
+      <routeOutputTurnout systemName="Zion East F6-78" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F5-678" state="CLOSED" />
+      <routeOutputTurnout systemName="Zion East F7-8" state="CLOSED" />
       <routeOutputSensor systemName="ZE F5 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F6 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE F7 Ack" state="INACTIVE" />
@@ -945,6 +984,7 @@
     <route userName="ZE Run West fires" controlTurnout="ZE Run West request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0039</systemName>
       <userName>ZE Run West fires</userName>
+      <routeOutputTurnout systemName="Zion East F7-8" state="THROWN" />
       <routeOutputSensor systemName="ZE F8 Ack" state="INACTIVE" />
       <routeOutputSensor systemName="ZE Run West ack" state="ACTIVE" />
     </route>
@@ -3464,104 +3504,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jan 19 10:59:15 EST 2024</date>
+      <date>Fri Jan 19 16:23:39 EST 2024</date>
       <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jan 19 10:59:18 EST 2024</date>
+      <date>Fri Jan 19 16:23:42 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Jan 19 10:41:45 EST 2024</date>
+          <date>Fri Jan 19 10:59:15 EST 2024</date>
           <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Jan 19 10:41:47 EST 2024</date>
+          <date>Fri Jan 19 10:59:18 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Jan 19 10:28:06 EST 2024</date>
+              <date>Fri Jan 19 10:41:45 EST 2024</date>
               <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Jan 19 10:28:08 EST 2024</date>
+              <date>Fri Jan 19 10:41:47 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Jan 19 10:09:26 EST 2024</date>
+                  <date>Fri Jan 19 10:28:06 EST 2024</date>
                   <filename>PanelPro (v5.7.3)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Jan 19 10:09:29 EST 2024</date>
+                  <date>Fri Jan 19 10:28:08 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Jan 19 08:00:25 EST 2024</date>
+                      <date>Fri Jan 19 10:09:26 EST 2024</date>
                       <filename>PanelPro (v5.7.3)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Jan 19 08:00:28 EST 2024</date>
+                      <date>Fri Jan 19 10:09:29 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Jan 19 07:59:28 EST 2024</date>
+                          <date>Fri Jan 19 08:00:25 EST 2024</date>
                           <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Jan 19 07:59:31 EST 2024</date>
+                          <date>Fri Jan 19 08:00:28 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Jan 19 07:59:41 EST 2024</date>
+                          <date>Fri Jan 19 08:57:31 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Jan 19 08:57:31 EST 2024</date>
+                      <date>Fri Jan 19 10:11:29 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Jan 19 10:11:29 EST 2024</date>
+                  <date>Fri Jan 19 10:37:19 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Jan 19 10:37:19 EST 2024</date>
+              <date>Fri Jan 19 10:42:02 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Jan 19 10:42:02 EST 2024</date>
+          <date>Fri Jan 19 11:29:49 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jan 19 11:29:49 EST 2024</date>
+      <date>Fri Jan 19 16:46:33 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jake+20240119T1559Z+Rfdb9c5a7c60 on Fri Jan 19 11:29:49 EST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jake+20240119T2123Z+Rfdb9c5a7c60 on Fri Jan 19 16:46:33 EST 2024-->
 </layout-config>
