@@ -76,10 +76,11 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         Y2Lamp = sensors.getSensor("ZE NX Y2 ack")
         Y3Lamp = sensors.getSensor("ZE NX Y3 ack")
         
-        MTT103 = turnouts.getTurnout("MTT103")
-        MTT104 = turnouts.getTurnout("MTT104")
-        MTT106 = turnouts.getTurnout("MTT106")
-        MTT107 = turnouts.getTurnout("MTT107")
+        E2W23 = turnouts.getTurnout("Yazoo E2 to W2-W3")
+        E1W12 = turnouts.getTurnout("Yazoo E1 to W1-W2")
+        E12W2 = turnouts.getTurnout("Yazoo W2 to E1-E2")
+        X23 = turnouts.getTurnout("Yazoo 2-3 XOver D-N")
+        X12 = turnouts.getTurnout("Yazoo 1-2 XOver D-N")
     
         self.waitMsec(20)  # to simulate -Q node
         
@@ -238,7 +239,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X1Allocated and Y1Allocated : # no conflicting route to check
             Route_X1_Y1 = True
             # fire Route-X1-Y1 outputs
-            MTT107.state = CLOSED; MTT104.state = THROWN
+            E1W12.state = THROWN; X12.state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
@@ -247,7 +248,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X1Allocated and Y2Allocated and not Route_X2_Y1 :   # no conflicting route set
             Route_X1_Y2 = True
             # fire Route-X1-Y2 outputs
-            MTT107.state = CLOSED; MTT106.state = CLOSED; MTT105 = CLOSED; MTT104.state = CLOSED
+            E1W12.state = CLOSED; E12W2.state = CLOSED; X12.state = CLOSED; X23.state = CLOSED
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
@@ -261,7 +262,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X1Allocated and Y3Allocated and not (Route_X2_Y2 or Route_X2_Y1) :   # no conflicting route set
             Route_X1_Y3 = True
             # fire Route-X1-Y3 outputs
-            MTT107.state = CLOSED; MTT106.state = THROWN; MTT105 = CLOSED; MTT104.state = CLOSED
+            E1W12.state = CLOSED; E12W2.state = CLOSED; X23.state = THROWN
             X1On = True; X1Off = False; X1Allocated = False
             X1Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
@@ -275,7 +276,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X2Allocated and Y1Allocated and not (Route_X1_Y2 or Route_X1_Y3) :
             Route_X2_Y1 = True
             # fire Route-X2-Y1 outputs
-            MTT107.state = CLOSED; MTT106.state = THROWN; MTT105 = THROWN; MTT103.state = THROWN
+            E2W23.state = THROWN; E12W2.state = THROWN; X12.state = THROWN; X23.state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y1On = True; Y1Off = False; Y1Allocated = False
@@ -289,7 +290,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X2Allocated and Y2Allocated and not Route_X1_Y3 :   # no conflicting route set
             Route_X2_Y2 = True
             # fire Route-X2-Y2 outputs
-            MTT107.state = CLOSED; MTT106.state = CLOSED; MTT105 = THROWN; MTT103.state = THROWN
+            E2W23.state = THROWN; E12W2.state = THROWN; X12.state = CLOSED; X23.state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y2On = True; Y2Off = False; Y2Allocated = False
@@ -303,7 +304,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         if X2Allocated and Y3Allocated : # no conflicting route to check
             Route_X2_Y3 = True
             # fire Route-X2-Y3 outputs
-            MTT106.state = CLOSED; MTT103.state = CLOSED
+            E2W23.state = CLOSED; X23.state = CLOSED
             X2On = True; X2Off = False; X2Allocated = False
             X2Lamp.state = ACTIVE
             Y3On = True; Y3Off = False; Y3Allocated = False
