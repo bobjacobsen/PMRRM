@@ -1,3 +1,7 @@
+# Control the NX logic at Zion East / Xerox
+#
+# Bob Jacobsen for the PMRRM, Copyright 2024
+
 # X1-X2 on the left
 # Y1-Y2-Y3 on the right
 # 
@@ -314,4 +318,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         
         
 
-NXdriver().start()
+nxdriver = NXdriver()
+nxdriver.name = "ZE NX Driver"
+nxdriver.start()
+

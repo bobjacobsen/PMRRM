@@ -883,26 +883,17 @@
       <userName>ZE W1 fires</userName>
       <routeOutputTurnout systemName="Whiskey 1-2" state="THROWN" />
       <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
-      <routeOutputSensor systemName="ZE W1 ack" state="ACTIVE" />
-      <routeOutputSensor systemName="ZE W2 ack" state="INACTIVE" />
-      <routeOutputSensor systemName="ZE W3 ack" state="INACTIVE" />
     </route>
-    <route userName="ZE W2 firest" controlTurnout="ZE W2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
+    <route userName="ZE W2 fires" controlTurnout="ZE W2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0030</systemName>
-      <userName>ZE W2 firest</userName>
+      <userName>ZE W2 fires</userName>
       <routeOutputTurnout systemName="Whiskey 1-2" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
-      <routeOutputSensor systemName="ZE W1 ack" state="INACTIVE" />
-      <routeOutputSensor systemName="ZE W2 ack" state="ACTIVE" />
-      <routeOutputSensor systemName="ZE W3 ack" state="INACTIVE" />
     </route>
-    <route userName="ZE W3 is fires" controlTurnout="ZE W3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
+    <route userName="ZE W3 fires" controlTurnout="ZE W3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0031</systemName>
-      <userName>ZE W3 is fires</userName>
+      <userName>ZE W3 fires</userName>
       <routeOutputTurnout systemName="Whiskey 12-3" state="CLOSED" />
-      <routeOutputSensor systemName="ZE W1 ack" state="INACTIVE" />
-      <routeOutputSensor systemName="ZE W2 ack" state="INACTIVE" />
-      <routeOutputSensor systemName="ZE W3 ack" state="ACTIVE" />
     </route>
     <route userName="ZE EABCER Cab fires" controlTurnout="ZE EABECR Cab request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0032</systemName>
@@ -1732,7 +1723,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Team power request" x="523" y="310" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Team power request" x="500" y="361" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1973,7 +1964,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE XY Remote - Local" x="1559" y="514" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE XY Remote - Local" x="1585" y="520" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2243,7 +2234,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T1 request" x="449" y="242" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T1 request" x="422" y="288" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -2260,7 +2251,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T2 request" x="435" y="198" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T2 request" x="407" y="243" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -2277,7 +2268,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T3 request" x="424" y="153" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T3 request" x="394" y="196" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -2294,7 +2285,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T4 request" x="410" y="110" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T4 request" x="383" y="153" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -2386,7 +2377,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Team power ack" x="514" y="285" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Team power ack" x="492" y="340" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3274,7 +3265,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Zion - Port" x="713" y="457" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Zion - Port" x="632" y="458" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3291,7 +3282,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="632" y="400" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="722" y="428" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3308,7 +3299,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="564" y="401" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="526" y="423" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-off.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3325,7 +3316,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="561" y="455" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="509" y="454" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3342,7 +3333,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="632" y="459" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="708" y="458" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3359,7 +3350,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Zion - Port" x="711" y="401" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Zion - Port" x="650" y="430" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3504,104 +3495,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Jan 19 16:23:39 EST 2024</date>
+      <date>Sat Jan 20 13:47:36 EST 2024</date>
       <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Jan 19 16:23:42 EST 2024</date>
+      <date>Sat Jan 20 13:47:38 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri Jan 19 10:59:15 EST 2024</date>
+          <date>Fri Jan 19 18:57:38 EST 2024</date>
           <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri Jan 19 10:59:18 EST 2024</date>
+          <date>Fri Jan 19 18:57:41 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Jan 19 10:41:45 EST 2024</date>
+              <date>Fri Jan 19 18:51:22 EST 2024</date>
               <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Jan 19 10:41:47 EST 2024</date>
+              <date>Fri Jan 19 18:51:25 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Jan 19 10:28:06 EST 2024</date>
+                  <date>Fri Jan 19 16:23:39 EST 2024</date>
                   <filename>PanelPro (v5.7.3)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Jan 19 10:28:08 EST 2024</date>
+                  <date>Fri Jan 19 16:23:42 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Fri Jan 19 10:09:26 EST 2024</date>
+                      <date>Fri Jan 19 10:59:15 EST 2024</date>
                       <filename>PanelPro (v5.7.3)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Fri Jan 19 10:09:29 EST 2024</date>
+                      <date>Fri Jan 19 10:59:18 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Fri Jan 19 08:00:25 EST 2024</date>
+                          <date>Fri Jan 19 10:41:45 EST 2024</date>
                           <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Fri Jan 19 08:00:28 EST 2024</date>
+                          <date>Fri Jan 19 10:41:47 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Fri Jan 19 08:57:31 EST 2024</date>
+                          <date>Fri Jan 19 10:42:02 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Fri Jan 19 10:11:29 EST 2024</date>
+                      <date>Fri Jan 19 11:29:49 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Jan 19 10:37:19 EST 2024</date>
+                  <date>Fri Jan 19 16:46:33 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Jan 19 10:42:02 EST 2024</date>
+              <date>Fri Jan 19 18:54:29 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri Jan 19 11:29:49 EST 2024</date>
+          <date>Fri Jan 19 19:08:47 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Jan 19 16:46:33 EST 2024</date>
+      <date>Sat Jan 20 13:58:59 EST 2024</date>
       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jake+20240119T2123Z+Rfdb9c5a7c60 on Fri Jan 19 16:46:33 EST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jake+20240120T1847Z+Rfdb9c5a7c60 on Sat Jan 20 13:58:59 EST 2024-->
 </layout-config>
