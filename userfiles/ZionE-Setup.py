@@ -9,12 +9,16 @@ sensors.getSensor("ZE XY Remote - Local").state = ACTIVE
 sensors.getSensor("ZE Remote - Local").state = INACTIVE
 
 # Whiskey occupancy and signals
-sensors.getSensor("ZE Whiskey 1 Occupancy").state = INACTIVE
-sensors.getSensor("ZE Whiskey 2 Occupancy").state = INACTIVE
-sensors.getSensor("ZE Whiskey 3 Occupancy").state = INACTIVE
+sensors.getSensor("Whiskey 1 occupancy").state = INACTIVE
+sensors.getSensor("Whiskey 2 occupancy").state = INACTIVE
+sensors.getSensor("Whiskey 3 occupancy").state = INACTIVE
 signals.getSignalHead("Whiskey 1 Exit W").appearance = GREEN
 signals.getSignalHead("Whiskey 2 Exit W").appearance = GREEN
 signals.getSignalHead("Whiskey 3 Exit W").appearance = GREEN
+
+sensors.getSensor("Whisky Xerox transition occupancy").state = INACTIVE
+sensors.getSensor("Xerox 1 occupancy").state = INACTIVE
+sensors.getSensor("Xerox 2 occupancy").state = INACTIVE
 
 # Yazoo NX buttons
 turnouts.getTurnout("ZE NX X1 request").state = CLOSED
@@ -27,15 +31,6 @@ sensors.getSensor("ZE NX X2 ack").state = INACTIVE
 sensors.getSensor("ZE NX Y1 ack").state = INACTIVE
 sensors.getSensor("ZE NX Y2 ack").state = INACTIVE
 sensors.getSensor("ZE NX Y3 ack").state = INACTIVE
-
-
-# Zion main power
-sensors.getSensor("ZE Main 1 power ack").state = ACTIVE
-sensors.getSensor("ZE Main 2 power ack").state = ACTIVE
-sensors.getSensor("ZE Main 3 power ack").state = ACTIVE
-sensors.getSensor("ZE Main 1 power request").state = INACTIVE
-sensors.getSensor("ZE Main 2 power request").state = INACTIVE
-sensors.getSensor("ZE Main 3 power request").state = INACTIVE
 
 # Zion team tracks power
 sensors.getSensor("ZE Team power ack").state = ACTIVE
