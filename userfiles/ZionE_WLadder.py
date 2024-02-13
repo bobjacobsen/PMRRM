@@ -9,7 +9,7 @@ class WWLdriver(jmri.jmrit.automat.AbstractAutomaton) :
         return
         
     def handle(self):
-                
+
         W3Lamp = sensors.getSensor("ZE W3 ack")
         W2Lamp = sensors.getSensor("ZE W2 ack")
         W1Lamp = sensors.getSensor("ZE W1 ack")
@@ -20,13 +20,13 @@ class WWLdriver(jmri.jmrit.automat.AbstractAutomaton) :
         
         # compute yard configuration
         if not W123 : # track 3
-            W3Lamp.state = ACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = INACTIVE
+            W3Lamp.state = INACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = ACTIVE
         elif not W12 : # track 2
             W3Lamp.state = INACTIVE; W2Lamp.state = ACTIVE; W1Lamp.state = INACTIVE
         else :        # track 1
-            W3Lamp.state = INACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = ACTIVE
+            W3Lamp.state = ACTIVE; W2Lamp.state = INACTIVE; W1Lamp.state = INACTIVE
                               
-        self.waitMsec(50)  # to simulate -Q node
+        self.waitMsec(300)  # to simulate -Q node
         
         return True
         
