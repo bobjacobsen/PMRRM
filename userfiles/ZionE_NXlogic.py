@@ -4,6 +4,10 @@
 
 # X1-X2 on the left
 # Y1-Y2-Y3 on the right
+#
+# Note that tracks are numbered from the bottom to the top.
+# In the case of Xerox, this is the opposite of the labels
+# on the panel. Someday....
 # 
 # 6 individual valid routes by name
 #     Route_Z1_X1 through Route_Z3_X2
