@@ -437,19 +437,19 @@
       <userName>Zion East F7-8</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.06;02.01.57.20.00.1B.02.07</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.07;02.01.57.20.00.1B.02.06</systemName>
       <userName>Whiskey 1-2</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.08;02.01.57.20.00.1B.02.09</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.09;02.01.57.20.00.1B.02.08</systemName>
       <userName>Whiskey 12-3</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.0A;02.01.57.20.00.1B.02.0B</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.0B;02.01.57.20.00.1B.02.0A</systemName>
       <userName>Xerox 1-2</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.10;02.01.57.20.00.1B.02.11</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.11;02.01.57.20.00.1B.02.10</systemName>
       <userName>Yazoo E2 to W2-W3</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
@@ -457,15 +457,15 @@
       <userName>Yazoo E1 to W1-W2</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.14;02.01.57.20.00.1B.02.15</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.15;02.01.57.20.00.1B.02.14</systemName>
       <userName>Yazoo W2 to E1-E2</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.16;02.01.57.20.00.1B.02.17</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.17;02.01.57.20.00.1B.02.16</systemName>
       <userName>Yazoo 2-3 XOver D-N</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>MT02.01.57.20.00.1B.02.18;02.01.57.20.00.1B.02.19</systemName>
+      <systemName>MT02.01.57.20.00.1B.02.19;02.01.57.20.00.1B.02.18</systemName>
       <userName>Yazoo 1-2 XOver D-N</userName>
     </turnout>
   </turnouts>
@@ -897,19 +897,19 @@
     <route userName="ZE W1 fires" controlTurnout="ZE W1 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0029</systemName>
       <userName>ZE W1 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 1-2" state="THROWN" />
-      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey 12-3" state="CLOSED" />
     </route>
     <route userName="ZE W2 fires" controlTurnout="ZE W2 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0030</systemName>
       <userName>ZE W2 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 1-2" state="CLOSED" />
       <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey 1-2" state="CLOSED" />
     </route>
     <route userName="ZE W3 fires" controlTurnout="ZE W3 request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0031</systemName>
       <userName>ZE W3 fires</userName>
-      <routeOutputTurnout systemName="Whiskey 12-3" state="CLOSED" />
+      <routeOutputTurnout systemName="Whiskey 12-3" state="THROWN" />
+      <routeOutputTurnout systemName="Whiskey 1-2" state="THROWN" />
     </route>
     <route userName="ZE EABCER Cab fires" controlTurnout="ZE EABECR Cab request" controlTurnoutState="THROWN" controlTurnoutFeedback="true">
       <systemName>IO:AUTO:0032</systemName>
@@ -3050,7 +3050,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE NX X1 ack" x="1473" y="624" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE NX X2 ack" x="1473" y="624" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3110,7 +3110,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE NX X2 request" x="1468" y="716" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX X1 request" x="1468" y="716" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3127,7 +3127,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE NX X1 request" x="1468" y="618" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX X2 request" x="1468" y="618" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3195,7 +3195,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE NX X2 ack" x="1471" y="721" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE NX X1 ack" x="1471" y="721" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
