@@ -1711,13 +1711,13 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="231" y="127" height="1077" width="1924" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
-    <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="true" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="240" y="175" height="1077" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+    <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </icon>
     </positionablelabel>
-    <sensoricon sensor="ZE F1 power request" x="136" y="920" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F1 power request" x="136" y="920" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1732,7 +1732,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F2 power request" x="136" y="867" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F2 power request" x="136" y="867" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1747,7 +1747,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Whisky Xerox transition occupancy" x="1652" y="628" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Whisky Xerox transition occupancy" x="1652" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1762,7 +1762,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Xerox 2 occupancy" x="1487" y="722" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Xerox 2 occupancy" x="1487" y="722" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1777,7 +1777,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Xerox 1 occupancy" x="1487" y="628" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Xerox 1 occupancy" x="1487" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1792,7 +1792,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Whiskey 1 occupancy" x="1826" y="628" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Whiskey 1 occupancy" x="1826" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1807,7 +1807,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Whiskey 2 occupancy" x="1826" y="675" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Whiskey 2 occupancy" x="1826" y="675" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1822,7 +1822,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Whiskey 3 occupancy" x="1826" y="722" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Whiskey 3 occupancy" x="1826" y="722" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1837,7 +1837,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Remote - Local" x="1442" y="133" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Remote - Local" x="1442" y="133" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1852,41 +1852,41 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Zion East East Eng pocket East D-N" x="921" y="801" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East East Eng pocket East D-N" x="901" y="816" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East East Eng pocket East D-N" x="898" y="764" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East East Eng pocket East D-N" x="884" y="758" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE XY Remote - Local" x="1744" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE XY Remote - Local" x="1744" y="368" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/switch-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1901,432 +1901,432 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE F1 request" x="268" y="924" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F1 request" x="257" y="919" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F2 request" x="298" y="870" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F2 request" x="284" y="866" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F3 request" x="327" y="818" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F3 request" x="316" y="813" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F4 request" x="354" y="765" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F4 request" x="345" y="760" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F5 request" x="349" y="673" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F5 request" x="338" y="669" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F6 request" x="325" y="624" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F6 request" x="316" y="620" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F7 request" x="295" y="571" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F7 request" x="287" y="567" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F8 request" x="267" y="518" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F8 request" x="252" y="512" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P1 request" x="358" y="427" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P1 request" x="340" y="422" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P2 request" x="334" y="374" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P2 request" x="303" y="368" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P3 request" x="295" y="325" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P3 request" x="276" y="320" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P4 request" x="274" y="274" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P4 request" x="243" y="269" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P5 request" x="323" y="225" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P5 request" x="316" y="220" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P6 request" x="297" y="175" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P6 request" x="289" y="171" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P7 request" x="276" y="124" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P7 request" x="266" y="121" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T1 request" x="488" y="321" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T1 request" x="487" y="319" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T2 request" x="463" y="272" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T2 request" x="463" y="270" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T3 request" x="435" y="222" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T3 request" x="435" y="220" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T4 request" x="403" y="176" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T4 request" x="405" y="171" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE T5 request" x="437" y="122" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE T5 request" x="434" y="121" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE SL1 request" x="373" y="81" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE SL1 request" x="368" y="76" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE SL2 request" x="336" y="35" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE SL2 request" x="336" y="30" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT1 request" x="740" y="182" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT1 request" x="734" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT2 request" x="684" y="182" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT2 request" x="677" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT3 request" x="629" y="182" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT3 request" x="623" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE F1 power ack" x="91" y="928" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F1 power ack" x="91" y="928" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2341,7 +2341,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F2 power ack" x="91" y="874" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F2 power ack" x="91" y="874" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2356,7 +2356,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F3 power ack" x="91" y="822" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F3 power ack" x="91" y="822" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2371,7 +2371,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F4 power ack" x="91" y="768" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F4 power ack" x="91" y="768" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2386,7 +2386,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F5 power ack" x="91" y="678" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F5 power ack" x="91" y="678" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2401,7 +2401,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F6 power ack" x="91" y="627" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F6 power ack" x="91" y="627" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2416,7 +2416,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F7 power ack" x="91" y="574" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F7 power ack" x="91" y="574" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2431,7 +2431,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F8 power ack" x="91" y="522" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F8 power ack" x="91" y="522" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2446,7 +2446,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P1 power ack" x="91" y="430" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P1 power ack" x="91" y="430" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2461,7 +2461,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P2 power ack" x="91" y="377" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P2 power ack" x="91" y="377" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2476,7 +2476,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P3 power ack" x="91" y="328" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P3 power ack" x="91" y="328" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2491,7 +2491,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P4 power ack" x="91" y="278" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P4 power ack" x="91" y="278" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2506,7 +2506,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P5 power ack" x="91" y="228" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P5 power ack" x="91" y="228" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2521,7 +2521,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P6 power ack" x="91" y="178" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P6 power ack" x="91" y="178" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2536,7 +2536,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P7 power ack" x="91" y="129" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P7 power ack" x="91" y="129" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2551,7 +2551,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F3 power request" x="136" y="815" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F3 power request" x="136" y="815" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2566,7 +2566,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F4 power request" x="136" y="761" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F4 power request" x="136" y="761" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2581,7 +2581,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F5 power request" x="136" y="670" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F5 power request" x="136" y="670" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2596,7 +2596,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F6 power request" x="136" y="619" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F6 power request" x="136" y="619" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2611,7 +2611,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F7 power request" x="136" y="567" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F7 power request" x="136" y="567" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2626,7 +2626,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE F8 power request" x="136" y="513" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE F8 power request" x="136" y="513" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2641,7 +2641,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P1 power request" x="136" y="422" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P1 power request" x="136" y="422" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2656,7 +2656,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P2 power request" x="136" y="369" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P2 power request" x="136" y="369" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2671,7 +2671,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P3 power request" x="136" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P3 power request" x="136" y="320" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2686,7 +2686,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P4 power request" x="136" y="270" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P4 power request" x="136" y="270" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2701,7 +2701,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P5 power request" x="136" y="220" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P5 power request" x="136" y="220" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2716,7 +2716,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P6 power request" x="136" y="171" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P6 power request" x="136" y="171" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2731,7 +2731,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE P7 power request" x="136" y="122" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE P7 power request" x="136" y="122" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -2746,254 +2746,254 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE EABECR Cab request" x="636" y="569" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR Cab request" x="636" y="569" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR EEng request" x="734" y="799" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR EEng request" x="742" y="815" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR FrtA request" x="755" y="762" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR FrtA request" x="767" y="758" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR FrtB request" x="646" y="671" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR FrtB request" x="621" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR Run request" x="612" y="516" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR Run request" x="612" y="516" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR WEng request" x="668" y="623" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR WEng request" x="668" y="623" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR XOver A-B request" x="654" y="717" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR XOver A-B request" x="645" y="716" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W1 request" x="1735" y="624" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W1 request" x="1736" y="618" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W2 request" x="1766" y="671" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W2 request" x="1760" y="665" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W3 request" x="1787" y="719" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W3 request" x="1782" y="713" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE Run West request" x="354" y="518" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE Run West request" x="345" y="513" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE NX X2 ack" x="1411" y="623" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+    <sensoricon sensor="ZE NX X2 ack" x="1410" y="622" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE NX Y3 ack" x="1221" y="577" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+    <sensoricon sensor="ZE NX Y3 ack" x="1221" y="574" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE NX Y2 ack" x="1246" y="672" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+    <sensoricon sensor="ZE NX Y2 ack" x="1232" y="665" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE NX Y1 ack" x="1207" y="764" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+    <sensoricon sensor="ZE NX Y1 ack" x="1200" y="761" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE NX X1 request" x="1408" y="715" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX X1 request" x="1415" y="717" level="11" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3010,7 +3010,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE NX X2 request" x="1408" y="619" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX X2 request" x="1414" y="623" level="11" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3027,7 +3027,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE NX Y3 request" x="1220" y="573" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX Y3 request" x="1220" y="570" level="11" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3044,7 +3044,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE NX Y2 request" x="1246" y="667" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX Y2 request" x="1237" y="666" level="11" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3061,7 +3061,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE NX Y1 request" x="1207" y="756" level="11" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE NX Y1 request" x="1205" y="760" level="11" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="preference:resources/invisible27x33.png" degrees="0" scale="1.0">
           <rotation>0</rotation>
@@ -3078,328 +3078,328 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE NX X1 ack" x="1411" y="718" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+    <sensoricon sensor="ZE NX X1 ack" x="1409" y="716" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+      <inactive url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="994" y="760" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="979" y="759" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1024" y="671" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1039" y="667" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East W 2 3 Cross" x="906" y="672" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East W 2 3 Cross" x="890" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East W 2 3 Cross" x="936" y="577" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East W 2 3 Cross" x="951" y="574" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East West engine pocket - Freight B" x="471" y="640" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="474" y="619" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East West engine pocket - Freight B" x="517" y="672" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="517" y="672" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East W 2 3 Cross" x="921" y="624" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East W 2 3 Cross" x="915" y="619" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1009" y="715" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1009" y="715" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Zion - Port" x="757" y="425" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Zion - Port" x="744" y="419" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Shortline ZionE-Port" x="794" y="326" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Shortline ZionE-Port" x="788" y="321" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Shortline ZionE-Port" x="786" y="267" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Shortline ZionE-Port" x="781" y="261" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="684" y="373" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="680" y="363" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="567" y="387" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="562" y="384" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="526" y="426" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East TE1234 - Passenger Lead" x="509" y="421" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="675" y="425" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="646" y="420" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Zion - Port" x="765" y="373" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Zion - Port" x="762" y="368" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Xerox 1-2" x="1542" y="625" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Xerox 1-2" x="1543" y="619" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Xerox 1-2" x="1553" y="676" level="7" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Xerox 1-2" x="1539" y="684" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
-        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.25">
+        <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </closed>
-        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.25">
+        <thrown url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </thrown>
-        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.25">
+        <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </unknown>
-        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.25">
+        <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
         </inconsistent>
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE Misc power ack" x="483" y="574" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="531" y="574" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3414,7 +3414,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power ack" x="494" y="250" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="494" y="250" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3429,7 +3429,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power ack" x="549" y="629" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="568" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3444,7 +3444,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power ack" x="817" y="827" level="10" forcecontroloff="true" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="809" y="827" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3459,7 +3459,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power request" x="855" y="819" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power request" x="841" y="819" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3474,7 +3474,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power request" x="589" y="621" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power request" x="600" y="621" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3489,7 +3489,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power request" x="523" y="566" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power request" x="561" y="566" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3504,7 +3504,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power request" x="545" y="341" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power request" x="545" y="341" level="10" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/plate/levers/code-press.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3519,112 +3519,112 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Feb 12 09:28:27 PST 2024</date>
+      <date>Wed Feb 14 16:06:23 PST 2024</date>
       <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Feb 12 09:28:31 PST 2024</date>
+      <date>Wed Feb 14 16:06:27 PST 2024</date>
       <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Mon Feb 12 08:30:29 PST 2024</date>
+          <date>Wed Feb 14 15:15:42 PST 2024</date>
           <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Mon Feb 12 08:30:33 PST 2024</date>
+          <date>Wed Feb 14 15:15:46 PST 2024</date>
           <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Sun Feb 11 23:42:22 PST 2024</date>
+              <date>Wed Feb 14 15:10:37 PST 2024</date>
               <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Sun Feb 11 23:42:26 PST 2024</date>
+              <date>Wed Feb 14 15:10:41 PST 2024</date>
               <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sun Feb 11 23:35:22 PST 2024</date>
+                  <date>Wed Feb 14 15:04:16 PST 2024</date>
                   <filename>PanelPro (v5.7.3)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sun Feb 11 23:35:26 PST 2024</date>
+                  <date>Wed Feb 14 15:04:20 PST 2024</date>
                   <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Sun Feb 11 23:30:29 PST 2024</date>
+                      <date>Mon Feb 12 09:28:27 PST 2024</date>
                       <filename>PanelPro (v5.7.3)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Sun Feb 11 23:30:33 PST 2024</date>
+                      <date>Mon Feb 12 09:28:31 PST 2024</date>
                       <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Sun Feb 11 23:29:02 PST 2024</date>
+                          <date>Mon Feb 12 08:30:29 PST 2024</date>
                           <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Sun Feb 11 23:29:06 PST 2024</date>
+                          <date>Mon Feb 12 08:30:33 PST 2024</date>
                           <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Sun Feb 11 23:29:43 PST 2024</date>
+                          <date>Mon Feb 12 09:23:42 PST 2024</date>
                           <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Sun Feb 11 23:31:29 PST 2024</date>
+                      <date>Mon Feb 12 17:24:47 PST 2024</date>
                       <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sun Feb 11 23:36:17 PST 2024</date>
-                  <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
+                  <date>Wed Feb 14 15:05:12 PST 2024</date>
+                  <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development_2024-02-14-1dot5 jewles.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Mon Feb 12 00:02:29 PST 2024</date>
+              <date>Wed Feb 14 15:13:04 PST 2024</date>
               <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Mon Feb 12 09:23:42 PST 2024</date>
+          <date>Wed Feb 14 15:40:59 PST 2024</date>
           <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Feb 12 17:24:47 PST 2024</date>
+      <date>Wed Feb 14 16:07:37 PST 2024</date>
       <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Mon Feb 12 17:24:47 PST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Wed Feb 14 16:07:37 PST 2024-->
 </layout-config>
