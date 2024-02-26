@@ -329,6 +329,58 @@
     <defaultclosedspeed>Normal</defaultclosedspeed>
     <defaultthrownspeed>Restricted</defaultthrownspeed>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT98</systemName>
+      <userName>Whiskey 1-2 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT99</systemName>
+      <userName>Whiskey 12-3 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT100</systemName>
+      <userName>Xerox 1-2 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT103</systemName>
+      <userName>Yazoo E2 to W2-W3 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT104</systemName>
+      <userName>Yazoo E1 to W1-W2 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT105</systemName>
+      <userName>Yazoo W2 to E1-E2 KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT106</systemName>
+      <userName>Yazoo 2-3 XOver D-N KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT107</systemName>
+      <userName>Yazoo 1-2 XOver D-N KNOWN</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT711</systemName>
+      <userName>Zion Branch East Port-Zion</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT716</systemName>
+      <userName>Zion Branch East P9-P8</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT729</systemName>
+      <userName>Zion Branch East P89-TE5</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT730</systemName>
+      <userName>Zion Port PT23-PT1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>MTT731</systemName>
+      <userName>Zion Port PT2-PT3</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.B1.00.00;02.01.57.00.01.B1.00.01</systemName>
       <userName>Zion East Cab track - Runaround</userName>
     </turnout>
@@ -1711,7 +1763,7 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="240" y="175" height="1077" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="575" y="33" height="1077" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -2746,7 +2798,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE EABECR Cab request" x="636" y="569" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR Cab request" x="630" y="565" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2814,7 +2866,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR Run request" x="612" y="516" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR Run request" x="603" y="512" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2831,7 +2883,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR WEng request" x="668" y="623" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR WEng request" x="663" y="619" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3399,7 +3451,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <sensoricon sensor="ZE Misc power ack" x="531" y="574" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="527" y="574" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3429,7 +3481,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="ZE Misc power ack" x="568" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="ZE Misc power ack" x="560" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/BLUELED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -3527,104 +3579,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Feb 14 16:06:23 PST 2024</date>
+      <date>Sat Feb 24 17:05:09 PST 2024</date>
       <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Feb 14 16:06:27 PST 2024</date>
+      <date>Sat Feb 24 17:05:13 PST 2024</date>
       <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Feb 14 15:15:42 PST 2024</date>
+          <date>Wed Feb 21 15:39:31 PST 2024</date>
           <filename>PanelPro (v5.7.3)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Feb 14 15:15:46 PST 2024</date>
+          <date>Wed Feb 21 15:39:35 PST 2024</date>
           <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Wed Feb 14 15:10:37 PST 2024</date>
+              <date>Wed Feb 14 16:06:23 PST 2024</date>
               <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Wed Feb 14 15:10:41 PST 2024</date>
+              <date>Wed Feb 14 16:06:27 PST 2024</date>
               <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Wed Feb 14 15:04:16 PST 2024</date>
+                  <date>Wed Feb 14 15:15:42 PST 2024</date>
                   <filename>PanelPro (v5.7.3)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Wed Feb 14 15:04:20 PST 2024</date>
+                  <date>Wed Feb 14 15:15:46 PST 2024</date>
                   <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Feb 12 09:28:27 PST 2024</date>
+                      <date>Wed Feb 14 15:10:37 PST 2024</date>
                       <filename>PanelPro (v5.7.3)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Feb 12 09:28:31 PST 2024</date>
+                      <date>Wed Feb 14 15:10:41 PST 2024</date>
                       <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Feb 12 08:30:29 PST 2024</date>
+                          <date>Wed Feb 14 15:04:16 PST 2024</date>
                           <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Feb 12 08:30:33 PST 2024</date>
+                          <date>Wed Feb 14 15:04:20 PST 2024</date>
                           <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Feb 12 09:23:42 PST 2024</date>
-                          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
+                          <date>Wed Feb 14 15:05:12 PST 2024</date>
+                          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development_2024-02-14-1dot5 jewles.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Feb 12 17:24:47 PST 2024</date>
+                      <date>Wed Feb 14 15:13:04 PST 2024</date>
                       <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Wed Feb 14 15:05:12 PST 2024</date>
-                  <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development_2024-02-14-1dot5 jewles.xml</filename>
+                  <date>Wed Feb 14 15:40:59 PST 2024</date>
+                  <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Wed Feb 14 15:13:04 PST 2024</date>
+              <date>Wed Feb 14 16:07:37 PST 2024</date>
               <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Feb 14 15:40:59 PST 2024</date>
+          <date>Wed Feb 21 15:44:17 PST 2024</date>
           <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Feb 14 16:07:37 PST 2024</date>
+      <date>Sat Feb 24 18:39:21 PST 2024</date>
       <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Wed Feb 14 16:07:37 PST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Sat Feb 24 18:39:21 PST 2024-->
 </layout-config>
