@@ -3357,7 +3357,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Shortline ZionE-Port" x="788" y="321" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion Branch East Port-Zion" x="788" y="321" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3374,7 +3374,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Shortline ZionE-Port" x="781" y="261" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion Branch East Port-Zion" x="781" y="261" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
