@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>7</minor>
-    <test>4</test>
+    <test>3</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
@@ -1110,7 +1110,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="2642" y="0" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="620" y="32" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long debug -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1822,7 +1822,7 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="175" y="132" height="1064" width="1929" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="172" y="50" height="1053" width="1924" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1858,7 +1858,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="Whisky Xerox transition occupancy" x="1652" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Whisky Xerox transition occupancy" x="1634" y="628" level="10" forcecontroloff="true" hidden="no" positionable="false" showtooltip="false" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/mediumschematics/LEDs/REDLED.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -1963,7 +1963,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Zion East East Eng pocket East D-N" x="901" y="816" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East East Eng pocket East D-N" x="901" y="818" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -1980,7 +1980,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East East Eng pocket East D-N" x="884" y="758" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East East Eng pocket East D-N" x="869" y="760" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2012,7 +2012,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="ZE F1 request" x="257" y="919" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F1 request" x="220" y="919" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2029,7 +2029,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F2 request" x="284" y="866" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F2 request" x="260" y="866" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2046,7 +2046,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F3 request" x="316" y="813" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F3 request" x="300" y="813" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2063,7 +2063,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F4 request" x="345" y="760" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F4 request" x="340" y="760" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2080,7 +2080,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F5 request" x="338" y="669" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F5 request" x="340" y="669" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2097,7 +2097,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F6 request" x="316" y="620" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F6 request" x="300" y="620" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2114,7 +2114,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F7 request" x="287" y="567" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F7 request" x="260" y="567" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2131,7 +2131,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE F8 request" x="252" y="512" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE F8 request" x="220" y="512" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2165,7 +2165,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P2 request" x="303" y="368" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P2 request" x="300" y="368" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2182,7 +2182,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P3 request" x="276" y="320" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P3 request" x="263" y="320" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2199,7 +2199,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P4 request" x="243" y="269" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P4 request" x="220" y="269" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2216,7 +2216,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P5 request" x="316" y="220" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P5 request" x="300" y="220" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2233,7 +2233,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P6 request" x="289" y="171" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P6 request" x="260" y="171" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2250,7 +2250,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P7 request" x="266" y="121" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P7 request" x="220" y="121" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2369,7 +2369,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE P9 request" x="336" y="30" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE P9 request" x="328" y="30" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2386,7 +2386,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT1 request" x="734" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT1 request" x="754" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2403,7 +2403,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT2 request" x="677" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT2 request" x="699" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2420,7 +2420,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE PT3 request" x="623" y="178" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE PT3 request" x="647" y="109" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2874,7 +2874,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR EEng request" x="742" y="815" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR EEng request" x="704" y="818" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2891,7 +2891,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR FrtA request" x="767" y="758" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR FrtA request" x="726" y="760" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2908,7 +2908,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE EABECR FrtB request" x="621" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE EABECR FrtB request" x="605" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2976,7 +2976,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W1 request" x="1736" y="618" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W1 request" x="1700" y="618" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -2993,7 +2993,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W2 request" x="1760" y="665" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W2 request" x="1740" y="665" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3010,7 +3010,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="ZE W3 request" x="1782" y="713" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="ZE W3 request" x="1780" y="713" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="true" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3204,7 +3204,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="979" y="759" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="972" y="759" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3238,7 +3238,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East W 2 3 Cross" x="890" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East W 2 3 Cross" x="876" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3272,7 +3272,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East West engine pocket - Freight B" x="474" y="619" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="477" y="618" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3289,7 +3289,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East West engine pocket - Freight B" x="517" y="672" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East West engine pocket - Freight B" x="517" y="668" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3323,7 +3323,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1009" y="715" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Z1 to Z2 East Xover - Straight" x="1007" y="712" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3357,7 +3357,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion Branch East Port-Zion" x="788" y="321" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Shortline ZionE-Port" x="827" y="320" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3374,7 +3374,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion Branch East Port-Zion" x="781" y="261" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Shortline ZionE-Port" x="827" y="243" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3391,7 +3391,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="680" y="363" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="650" y="357" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/red-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3442,7 +3442,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Branch - Zion" x="646" y="420" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Branch - Zion" x="640" y="422" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3459,7 +3459,7 @@
       </icons>
       <iconmaps />
     </turnouticon>
-    <turnouticon turnout="Zion East Zion - Port" x="762" y="368" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
+    <turnouticon turnout="Zion East Zion - Port" x="748" y="243" level="7" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" tristate="false" momentary="false" directControl="false" class="jmri.jmrit.display.configurexml.TurnoutIconXml">
       <icons>
         <closed url="program:resources/icons/USS/sensor/green-on.gif" degrees="0" scale="1.75">
           <rotation>0</rotation>
@@ -3630,12 +3630,12 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1404" y="111" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1702" y="347" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text=" LOCAL" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1705" y="399" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="12" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1405" y="175" level="4" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" text="REMOTE" fontFamily="Dialog" fontname="Dialog.bold" size="14" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="3859" y="154" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="113" y="625" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Port_and_Branch.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3730,104 +3730,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Feb 28 18:50:52 EST 2024</date>
-      <filename>PanelPro (v5.7.4)</filename>
+      <date>Wed Feb 28 16:55:16 PST 2024</date>
+      <filename>PanelPro (v5.7.3)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Feb 28 18:50:55 EST 2024</date>
-      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+      <date>Wed Feb 28 16:55:20 PST 2024</date>
+      <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Feb 27 13:46:52 EST 2024</date>
+          <date>Wed Feb 28 18:50:52 EST 2024</date>
           <filename>PanelPro (v5.7.4)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Feb 27 13:46:55 EST 2024</date>
+          <date>Wed Feb 28 18:50:55 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Tue Feb 27 12:08:35 EST 2024</date>
+              <date>Tue Feb 27 13:46:52 EST 2024</date>
               <filename>PanelPro (v5.7.4)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Tue Feb 27 12:08:38 EST 2024</date>
+              <date>Tue Feb 27 13:46:55 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Tue Feb 27 12:03:32 EST 2024</date>
+                  <date>Tue Feb 27 12:08:35 EST 2024</date>
                   <filename>PanelPro (v5.7.4)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Tue Feb 27 12:03:34 EST 2024</date>
+                  <date>Tue Feb 27 12:08:38 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Tue Feb 27 11:50:13 EST 2024</date>
+                      <date>Tue Feb 27 12:03:32 EST 2024</date>
                       <filename>PanelPro (v5.7.4)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Tue Feb 27 11:50:16 EST 2024</date>
+                      <date>Tue Feb 27 12:03:34 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Tue Feb 27 11:42:26 EST 2024</date>
+                          <date>Tue Feb 27 11:50:13 EST 2024</date>
                           <filename>PanelPro (v5.7.4)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Tue Feb 27 11:42:28 EST 2024</date>
+                          <date>Tue Feb 27 11:50:16 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Tue Feb 27 11:48:35 EST 2024</date>
+                          <date>Tue Feb 27 11:55:11 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Tue Feb 27 11:55:11 EST 2024</date>
+                      <date>Tue Feb 27 12:04:44 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Tue Feb 27 12:04:44 EST 2024</date>
+                  <date>Tue Feb 27 12:12:23 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Feb 27 12:12:23 EST 2024</date>
+              <date>Tue Feb 27 13:48:02 EST 2024</date>
               <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Tue Feb 27 13:48:02 EST 2024</date>
+          <date>Wed Feb 28 19:23:38 EST 2024</date>
           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Feb 28 19:23:38 EST 2024</date>
-      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+      <date>Wed Feb 28 17:45:55 PST 2024</date>
+      <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.4plus+jake+20240228T2350Z+R740e291fe33 on Wed Feb 28 19:23:38 EST 2024-->
+  <!--Written by JMRI version 5.7.3plus+jenkins+20240201T0511Z+R64f527bca68 on Wed Feb 28 17:45:55 PST 2024-->
 </layout-config>
