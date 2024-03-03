@@ -6,6 +6,12 @@
 class ZTSLdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
     def init(self):
+        turnouts.getTurnout("ZE T5 request").state = CLOSED
+        turnouts.getTurnout("ZE P8 request").state = CLOSED
+        turnouts.getTurnout("ZE P9 request").state = CLOSED
+        sensors.getSensor("ZE T5 ack").state = INACTIVE
+        sensors.getSensor("ZE P8 ack").state = INACTIVE
+        sensors.getSensor("ZE P9 ack").state = INACTIVE
         return
         
     def handle(self):
@@ -15,17 +21,19 @@ class ZTSLdriver(jmri.jmrit.automat.AbstractAutomaton) :
         P9Lamp = sensors.getSensor("ZE P9 ack")
         
         # get inputs to process
-        P89T5 = turnouts.getTurnout("Zion Branch East P89-TE5").state == THROWN
-        P89 =  turnouts.getTurnout("Zion Branch East P9-P8").state == THROWN        
+        P89T5 = turnouts.getTurnout("Zion Branch East P89-TE5").state
+        P98 =  turnouts.getTurnout("Zion Branch East P9-P8").state      
         
         # compute yard configuration
-        if P89T5 : # track 1
+        if P89T5 == THROWN : # track TE5
             T5Lamp.state = ACTIVE; P8Lamp.state = INACTIVE; P9Lamp.state = INACTIVE
-        elif not P89 : # track 2
-            T5Lamp.state = INACTIVE; P8Lamp.state = ACTIVE; P9Lamp.state = INACTIVE
-        else :         # track 3
-            T5Lamp.state = INACTIVE; P8Lamp.state = INACTIVE; P9Lamp.state = ACTIVE
-                              
+        elif P89T5 == CLOSED :
+            if P98 == CLOSED : # track P8
+                T5Lamp.state = INACTIVE; P8Lamp.state = ACTIVE; P9Lamp.state = INACTIVE
+            elif P98 == THROWN : # track P9
+                T5Lamp.state = INACTIVE; P8Lamp.state = INACTIVE; P9Lamp.state = ACTIVE
+        # UNKNOWN, INCONSISTENT fall through                       
+     
         self.waitMsec(300)  # to simulate -Q node
         
         return True
