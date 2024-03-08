@@ -55,7 +55,7 @@ Y3InputLast = Y3On = Y3Allocated = False; Y3Off = True
 
 Route_X1_Y1 = Route_X1_Y2 = Route_X1_Y3 = False
 Route_X2_Y1 = Route_X2_Y2 = Route_X2_Y3 = False
-    
+
 class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 
     def init(self):
@@ -325,4 +325,43 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 nxdriver = NXdriver()
 nxdriver.name = "ZE NX Driver"
 nxdriver.start()
+
+# Now press the buttons for the desired startup state
+class NXInit(jmri.jmrit.automat.AbstractAutomaton) :
+        
+    def handle(self):
+        self.waitMsec(1000)
+        
+        step = 20*5  # make sure inputs are in separate -Q steps
+        
+        turnouts.getTurnout("ZE NX X1 request").commandedState = THROWN
+        self.waitMsec(step)
+        turnouts.getTurnout("ZE NX X1 request").commandedState = CLOSED
+        
+        self.waitMsec(step)
+        
+        turnouts.getTurnout("ZE NX Y1 request").commandedState = THROWN
+        self.waitMsec(step)
+        turnouts.getTurnout("ZE NX Y1 request").commandedState = CLOSED
+        
+        self.waitMsec(step)
+            
+        turnouts.getTurnout("ZE NX X2 request").commandedState = THROWN
+        self.waitMsec(step)
+        turnouts.getTurnout("ZE NX X2 request").commandedState = CLOSED
+        
+        self.waitMsec(step)
+        
+        print ("Y1 cycle")
+        turnouts.getTurnout("ZE NX Y3 request").commandedState = THROWN
+        self.waitMsec(step)
+        turnouts.getTurnout("ZE NX Y3 request").commandedState = CLOSED
+        
+        turnouts.getTurnout("Xerox 1-2").state = CLOSED        
+    
+        return False # only do once
+
+nxinit = NXInit()
+nxinit.name = "ZE NX Initialization"
+nxinit.start()
 
