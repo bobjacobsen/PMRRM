@@ -4,10 +4,18 @@
   <jmriversion>
     <major>5</major>
     <minor>7</minor>
-    <test>4</test>
+    <test>5</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.B1.00.36;02.01.57.00.01.B1.00.37</systemName>
+      <userName>Zion East TE1234 - Passenger Lead</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.02.5B.00.BA;02.01.57.00.02.5B.00.BB</systemName>
+      <userName>Zion East Branch - Zion</userName>
+    </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.00.02.A8.00.05</systemName>
       <userName>ZE P1 power request</userName>
@@ -155,6 +163,7 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.20.00.1B.06.02;02.01.57.20.00.1B.06.03</systemName>
       <userName>Xerox 1 occupancy</userName>
+      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>MS02.01.57.20.00.1B.06.04;02.01.57.20.00.1B.06.05</systemName>
@@ -417,7 +426,7 @@
       <systemName>MT02.01.57.00.01.B1.00.0C;02.01.57.00.01.B1.00.0D</systemName>
       <userName>Zion East W Engine - Cab/Runaround</userName>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="Zion East TE1234 - Passenger Lead" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.B1.00.30;02.01.57.00.01.B1.00.31</systemName>
       <userName>Zion East TE1234 - Passenger Lead</userName>
     </turnout>
@@ -509,7 +518,7 @@
       <systemName>MT02.01.57.00.02.5B.00.A8;02.01.57.00.02.5B.00.A9</systemName>
       <userName>Zion East P6-7</userName>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="Zion East Branch - Zion" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.02.5B.00.B4;02.01.57.00.02.5B.00.B5</systemName>
       <userName>Zion East Branch - Zion</userName>
     </turnout>
@@ -1110,15 +1119,16 @@
       <routeOutputTurnout systemName="Zion Branch East P9-P8" state="THROWN" />
       <routeOutputTurnout systemName="Zion Branch East P89-TE5" state="CLOSED" />
     </route>
-    <route userName="ZE Branch Port Interchange Set">
+    <route userName="ZE Branch Port Interchange Active">
       <systemName>IO:AUTO:0046</systemName>
-      <userName>ZE Branch Port Interchange Set</userName>
+      <userName>ZE Branch Port Interchange Active</userName>
       <routeOutputTurnout systemName="Zion Branch East Port-Zion" state="CLOSED" />
       <routeOutputTurnout systemName="Zion East Zion - Port" state="THROWN" />
       <routeSensor systemName="ISZE Branch - Port Interchange Request" mode="onActive" />
     </route>
-    <route>
+    <route userName="ZE Branch Port Interchange Inactive">
       <systemName>IO:AUTO:0047</systemName>
+      <userName>ZE Branch Port Interchange Inactive</userName>
       <routeOutputTurnout systemName="Zion Branch East Port-Zion" state="THROWN" />
       <routeOutputTurnout systemName="Zion East Zion - Port" state="CLOSED" />
       <routeSensor systemName="ISZE Branch - Port Interchange Request" mode="onInactive" />
@@ -1127,7 +1137,7 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="2642" y="0" height="1204" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East Debug" x="2008" y="25" height="1042" width="1922" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long debug -1920x1080.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -1839,7 +1849,7 @@
     <positionablelabel x="1126" y="735" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="2" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1127" y="633" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="3" size="13" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="175" y="132" height="1064" width="1929" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Zion East" x="175" y="25" height="1042" width="1929" editable="yes" positionable="no" showtooltips="no" controlling="yes" hide="no" panelmenu="no" scrollable="none" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="false" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Zion East color long 1920x1020.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3644,7 +3654,7 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="3859" y="154" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
+  <paneleditor class="jmri.jmrit.display.panelEditor.configurexml.PanelEditorXml" name="Port and Branch Debug" x="2008" y="154" height="803" width="968" editable="yes" positionable="yes" showtooltips="yes" controlling="yes" hide="yes" panelmenu="yes" scrollable="both" redBackground="255" greenBackground="255" blueBackground="255">
     <positionablelabel x="0" y="0" level="1" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="true" icon="yes" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <icon url="preference:resources/Port_and_Branch.png" degrees="0" scale="1.0">
         <rotation>0</rotation>
@@ -3739,104 +3749,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Mar 02 17:35:46 EST 2024</date>
-      <filename>PanelPro (v5.7.4)</filename>
+      <date>Mon Mar 11 20:17:24 EDT 2024</date>
+      <filename>PanelPro (v5.7.5)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Mar 02 17:35:48 EST 2024</date>
-      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+      <date>Mon Mar 11 20:17:30 EDT 2024</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Wed Feb 28 16:55:16 PST 2024</date>
-          <filename>PanelPro (v5.7.3)</filename>
+          <date>Sat Mar 02 17:35:46 EST 2024</date>
+          <filename>PanelPro (v5.7.4)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Wed Feb 28 16:55:20 PST 2024</date>
-          <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
+          <date>Sat Mar 02 17:35:48 EST 2024</date>
+          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Wed Feb 28 18:50:52 EST 2024</date>
-              <filename>PanelPro (v5.7.4)</filename>
+              <date>Wed Feb 28 16:55:16 PST 2024</date>
+              <filename>PanelPro (v5.7.3)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Wed Feb 28 18:50:55 EST 2024</date>
-              <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+              <date>Wed Feb 28 16:55:20 PST 2024</date>
+              <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Tue Feb 27 13:46:52 EST 2024</date>
+                  <date>Wed Feb 28 18:50:52 EST 2024</date>
                   <filename>PanelPro (v5.7.4)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Tue Feb 27 13:46:55 EST 2024</date>
+                  <date>Wed Feb 28 18:50:55 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Tue Feb 27 12:08:35 EST 2024</date>
+                      <date>Tue Feb 27 13:46:52 EST 2024</date>
                       <filename>PanelPro (v5.7.4)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Tue Feb 27 12:08:38 EST 2024</date>
+                      <date>Tue Feb 27 13:46:55 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Tue Feb 27 12:03:32 EST 2024</date>
+                          <date>Tue Feb 27 12:08:35 EST 2024</date>
                           <filename>PanelPro (v5.7.4)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Tue Feb 27 12:03:34 EST 2024</date>
+                          <date>Tue Feb 27 12:08:38 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Tue Feb 27 12:04:44 EST 2024</date>
+                          <date>Tue Feb 27 12:12:23 EST 2024</date>
                           <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Tue Feb 27 12:12:23 EST 2024</date>
+                      <date>Tue Feb 27 13:48:02 EST 2024</date>
                       <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Tue Feb 27 13:48:02 EST 2024</date>
+                  <date>Wed Feb 28 19:23:38 EST 2024</date>
                   <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Wed Feb 28 19:23:38 EST 2024</date>
-              <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+              <date>Wed Feb 28 17:45:55 PST 2024</date>
+              <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Wed Feb 28 17:45:55 PST 2024</date>
-          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
+          <date>Sat Mar 02 18:07:36 EST 2024</date>
+          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Mar 02 18:07:36 EST 2024</date>
-      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+      <date>Tue Mar 12 10:38:23 EDT 2024</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.4plus+jake+20240302T2235Z+R28615360d59 on Sat Mar 02 18:07:36 EST 2024-->
+  <!--Written by JMRI version 5.7.5plus+jake+20240312T0017Z+R159d41aef4 on Tue Mar 12 10:38:23 EDT 2024-->
 </layout-config>
