@@ -45,3 +45,7 @@ class WWLdriver(jmri.jmrit.automat.AbstractAutomaton) :
 wwldriver = WWLdriver()
 wwldriver.name = "Whiskey West Ladder"
 wwldriver.start()
+
+# Initialize to W1Lamp
+turnouts.getTurnout("Whiskey 12-3").state = CLOSED
+turnouts.getTurnout("Whiskey 1-2").state = CLOSED
