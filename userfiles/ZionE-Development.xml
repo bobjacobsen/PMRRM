@@ -1119,6 +1119,26 @@
       <routeOutputTurnout systemName="Zion Branch East P9-P8" state="THROWN" />
       <routeOutputTurnout systemName="Zion Branch East P89-TE5" state="CLOSED" />
     </route>
+    <route userName="Zion East Zion - Port Thrown" controlTurnout="Zion East Zion - Port" controlTurnoutState="THROWN">
+      <systemName>IO:AUTO:0046</systemName>
+      <userName>Zion East Zion - Port Thrown</userName>
+      <routeOutputTurnout systemName="Zion Branch East Port-Zion" state="CLOSED" />
+    </route>
+    <route userName="Zion East Zion - Port Closed" controlTurnout="Zion East Zion - Port" controlTurnoutState="CLOSED">
+      <systemName>IO:AUTO:0047</systemName>
+      <userName>Zion East Zion - Port Closed</userName>
+      <routeOutputTurnout systemName="Zion Branch East Port-Zion" state="THROWN" />
+    </route>
+    <route userName="Zion Branch-East Port Zion Closed" controlTurnout="Zion Branch East Port-Zion" controlTurnoutState="CLOSED">
+      <systemName>IO:AUTO:0048</systemName>
+      <userName>Zion Branch-East Port Zion Closed</userName>
+      <routeOutputTurnout systemName="Zion East Zion - Port" state="THROWN" />
+    </route>
+    <route userName="Zion Branch-East Port Zion Thrown" controlTurnout="Zion Branch East Port-Zion" controlTurnoutState="THROWN">
+      <systemName>IO:AUTO:0049</systemName>
+      <userName>Zion Branch-East Port Zion Thrown</userName>
+      <routeOutputTurnout systemName="Zion East Zion - Port" state="CLOSED" />
+    </route>
   </routes>
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
@@ -3743,104 +3763,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Mar 12 11:01:58 EDT 2024</date>
+      <date>Tue Mar 12 11:19:46 EDT 2024</date>
       <filename>PanelPro (v5.7.5)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Mar 12 11:02:03 EDT 2024</date>
+      <date>Tue Mar 12 11:19:51 EDT 2024</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Tue Mar 12 10:47:28 EDT 2024</date>
+          <date>Tue Mar 12 11:01:58 EDT 2024</date>
           <filename>PanelPro (v5.7.5)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Tue Mar 12 10:47:33 EDT 2024</date>
+          <date>Tue Mar 12 11:02:03 EDT 2024</date>
           <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Mon Mar 11 20:17:24 EDT 2024</date>
+              <date>Tue Mar 12 10:47:28 EDT 2024</date>
               <filename>PanelPro (v5.7.5)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Mon Mar 11 20:17:30 EDT 2024</date>
+              <date>Tue Mar 12 10:47:33 EDT 2024</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Sat Mar 02 17:35:46 EST 2024</date>
-                  <filename>PanelPro (v5.7.4)</filename>
+                  <date>Mon Mar 11 20:17:24 EDT 2024</date>
+                  <filename>PanelPro (v5.7.5)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Sat Mar 02 17:35:48 EST 2024</date>
-                  <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                  <date>Mon Mar 11 20:17:30 EDT 2024</date>
+                  <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Wed Feb 28 16:55:16 PST 2024</date>
-                      <filename>PanelPro (v5.7.3)</filename>
+                      <date>Sat Mar 02 17:35:46 EST 2024</date>
+                      <filename>PanelPro (v5.7.4)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Wed Feb 28 16:55:20 PST 2024</date>
-                      <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
+                      <date>Sat Mar 02 17:35:48 EST 2024</date>
+                      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Wed Feb 28 18:50:52 EST 2024</date>
-                          <filename>PanelPro (v5.7.4)</filename>
+                          <date>Wed Feb 28 16:55:16 PST 2024</date>
+                          <filename>PanelPro (v5.7.3)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Wed Feb 28 18:50:55 EST 2024</date>
-                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                          <date>Wed Feb 28 16:55:20 PST 2024</date>
+                          <filename>/D:/OneDrive/__Bob_Peter_Shared/JMRI user Bob PMRRM/ZionE-Development.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Wed Feb 28 19:23:38 EST 2024</date>
-                          <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                          <date>Wed Feb 28 17:45:55 PST 2024</date>
+                          <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Wed Feb 28 17:45:55 PST 2024</date>
-                      <filename>D:\OneDrive\__Bob_Peter_Shared\JMRI user Bob PMRRM\ZionE-Development.xml</filename>
+                      <date>Sat Mar 02 18:07:36 EST 2024</date>
+                      <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Sat Mar 02 18:07:36 EST 2024</date>
-                  <filename>/Users/jake/Documents/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
+                  <date>Tue Mar 12 10:38:23 EDT 2024</date>
+                  <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Tue Mar 12 10:38:23 EDT 2024</date>
+              <date>Tue Mar 12 10:54:10 EDT 2024</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Tue Mar 12 10:54:10 EDT 2024</date>
+          <date>Tue Mar 12 11:17:57 EDT 2024</date>
           <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Mar 12 11:17:57 EDT 2024</date>
+      <date>Tue Mar 12 11:36:08 EDT 2024</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/Git_Repo/userfiles/ZionE-Development.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.7.5plus+jake+20240312T1501Z+R159d41aef4 on Tue Mar 12 11:17:57 EDT 2024-->
+  <!--Written by JMRI version 5.7.5plus+jake+20240312T1519Z+R159d41aef4 on Tue Mar 12 11:36:08 EDT 2024-->
 </layout-config>
