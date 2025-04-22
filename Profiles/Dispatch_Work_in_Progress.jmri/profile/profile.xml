@@ -22,7 +22,7 @@
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="scripts:SetAllUnknownSensorsToInactive.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_semaphores.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_searchlights.py" type="ScriptFile"/>
-        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="apps.RestartAction" type="Button">
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
             <property name="systemPrefix" value=""/>
         </perform>
     </startup>
