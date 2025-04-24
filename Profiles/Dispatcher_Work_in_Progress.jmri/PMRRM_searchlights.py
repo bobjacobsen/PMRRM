@@ -33,6 +33,10 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
     def handle(self) :
         local = GREEN
 
+        if self.next and self.next != False :
+            if self.next.getAppearance() == RED :
+                local = YELLOW
+
         for sensor in self.blocks :
             if sensor.state != INACTIVE :
                 local = RED
@@ -40,12 +44,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         for turnout in self.turnouts :
             if turnout.state != CLOSED :
                 local = RED
-                
-        
-        if self.next and self.next != False :
-            if self.next.getAppearance() == RED and local != RED :
-                local = YELLOW
-            
+                            
         self.local.setAppearance(local)
         
         self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
