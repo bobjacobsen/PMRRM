@@ -42,9 +42,8 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
                 local = RED
                 
         
-        lower = RED             # might not have next signal, in which case show Approach
         if self.next and self.next != False :
-            if self.next.getAppearance() == RED :
+            if self.next.getAppearance() == RED and local != RED :
                 local = YELLOW
             
         self.local.setAppearance(local)
