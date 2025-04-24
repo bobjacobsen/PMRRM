@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TurnoutTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="LocoNet LocoBuffer-USB" name="Digitrax"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update.toolBarThin</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="145.0" locX="-181.0" locY="25.0" width="181.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="942.0" locX="0.0" locY="28.0" width="1001.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update" height="970.0" locX="45.0" locY="25.0" width="1875.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="25.0" locY="26.0" width="320.0"/>
+        <window xmlns="" class="Midway Yard" height="355.0" locX="-1039.0" locY="29.0" width="1079.0"/>
+        <window xmlns="" class="PanelPro" height="266.0" locX="710.0" locY="407.0" width="499.0"/>
+    </windowDetails>
+</auxiliary-configuration>

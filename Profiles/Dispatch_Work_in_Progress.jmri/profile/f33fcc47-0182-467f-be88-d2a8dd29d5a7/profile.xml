@@ -30,19 +30,4 @@
             </options>
         </connection>
     </connections>
-    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="no" name="jmri.jmrit.automat.monitor.AutomatTableAction" type="Action">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_semaphores.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_searchlights.py" type="ScriptFile"/>
-        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
-            <property name="systemPrefix" value=""/>
-        </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MenuItemDisable.py" type="ScriptFile"/>
-    </startup>
 </auxiliary-configuration>
