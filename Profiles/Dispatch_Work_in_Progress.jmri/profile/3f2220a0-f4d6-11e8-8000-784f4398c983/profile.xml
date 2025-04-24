@@ -9,7 +9,7 @@
                 </option>
                 <option>
                     <name>SensorDefaultState</name>
-                    <value>Unknown</value>
+                    <value>Inactive</value>
                 </option>
             </options>
         </connection>
