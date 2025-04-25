@@ -122,7 +122,7 @@ a = ControlAbsSearchlight()
 a.setName("W Vista Main")
 a.local    = signals.getSignalHead("W Vista Main")
 a.blocks   = [sensors.getSensor("Vista main")]
-a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1")]
+a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2"), turnouts.getTurnout("Vista E 2")]
 a.next     = signals.getSignalHead("W U-T")
 a.next2    = False
 a.start()
