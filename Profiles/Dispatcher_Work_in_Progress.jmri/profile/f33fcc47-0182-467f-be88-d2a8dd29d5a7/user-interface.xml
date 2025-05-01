@@ -23,15 +23,54 @@
     <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update.antialiasingOn</setting>
         <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update.toolBarThin</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher.toolBarThin</setting>
     </settings>
-    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd"/>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="Description" order="2" width="610"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="Column5" order="5" width="79"/>
+                <column hidden="false" name="System Name" order="0" width="70"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+        <table xmlns="" name="jmri.jmrit.beantable.SensorTableAction:All">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="ForgetState" order="11" width="88"/>
+                <column hidden="false" name="Delay to Active" order="8" width="106"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="QueryState" order="12" width="85"/>
+                <column hidden="false" name="Pull-Up/Down" order="10" width="106"/>
+                <column hidden="false" name="Delay to Inactive" order="9" width="106"/>
+                <column hidden="false" name="Use Global Delays" order="7" width="106"/>
+                <column hidden="false" name="Column6" order="6" width="79"/>
+                <column hidden="false" name="State" order="2" width="88"/>
+                <column hidden="false" name="Inverted" order="5" width="58"/>
+                <column hidden="false" name="System Name" order="0" width="70"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="1" sortOrder="DESCENDING"/>
+                <sortKey column="2" sortOrder="DESCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
     <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
-        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
-        <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="145.0" locX="-181.0" locY="25.0" width="181.0"/>
-        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="942.0" locX="0.0" locY="28.0" width="1001.0"/>
         <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC NX DS 4a mod update" height="970.0" locX="45.0" locY="25.0" width="1875.0"/>
+        <window xmlns="" class="PanelPro" height="266.0" locX="623.0" locY="472.0" width="499.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.hexfile.HexFileFrame" height="145.0" locX="-181.0" locY="25.0" width="181.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Sensors" height="942.0" locX="0.0" locY="28.0" width="1761.0"/>
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="942.0" locX="0.0" locY="28.0" width="1001.0"/>
+        <window xmlns="" class="Midway Yard" height="355.0" locX="-1079.0" locY="29.0" width="1079.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher" height="970.0" locX="45.0" locY="25.0" width="1875.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
         <window xmlns="" class="Local JMRI throttles" height="228.0" locX="25.0" locY="26.0" width="320.0"/>
-        <window xmlns="" class="Midway Yard" height="355.0" locX="-1039.0" locY="29.0" width="1079.0"/>
-        <window xmlns="" class="PanelPro" height="266.0" locX="710.0" locY="407.0" width="499.0"/>
     </windowDetails>
 </auxiliary-configuration>
