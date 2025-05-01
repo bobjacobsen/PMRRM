@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.loconet.locobufferusb.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="cu.usbserial-FTAH77Y" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+            <options>
+                <option>
+                    <name>CommandStation</name>
+                    <value>DCS240 (Advanced Command Station)</value>
+                </option>
+                <option>
+                    <name>InterrogateOnStart</name>
+                    <value>Yes</value>
+                </option>
+                <option>
+                    <name>LoconetProtocolAutoDetect</name>
+                    <value>Auto Detect</value>
+                </option>
+                <option>
+                    <name>PacketizerType</name>
+                    <value>Normal (recommended)</value>
+                </option>
+                <option>
+                    <name>TranspondingPresent</name>
+                    <value>No</value>
+                </option>
+                <option>
+                    <name>TurnoutHandle</name>
+                    <value>Spread</value>
+                </option>
+            </options>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault_simple.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
+            <property name="systemPrefix" value=""/>
+        </perform>
+    </startup>
+</auxiliary-configuration>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.loconet.locobufferusb.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="cu.usbserial-FTAH77Y" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+            <options>
+                <option>
+                    <name>CommandStation</name>
+                    <value>DCS240 (Advanced Command Station)</value>
+                </option>
+                <option>
+                    <name>InterrogateOnStart</name>
+                    <value>Yes</value>
+                </option>
+                <option>
+                    <name>LoconetProtocolAutoDetect</name>
+                    <value>Auto Detect</value>
+                </option>
+                <option>
+                    <name>PacketizerType</name>
+                    <value>Normal (recommended)</value>
+                </option>
+                <option>
+                    <name>TranspondingPresent</name>
+                    <value>No</value>
+                </option>
+                <option>
+                    <name>TurnoutHandle</name>
+                    <value>Spread</value>
+                </option>
+            </options>
+        </connection>
+    </connections>
+</auxiliary-configuration>

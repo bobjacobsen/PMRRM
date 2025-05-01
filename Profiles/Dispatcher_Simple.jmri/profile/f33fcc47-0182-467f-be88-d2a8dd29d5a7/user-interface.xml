@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <classPreferences xmlns="http://jmri.org/xml/schema/auxiliary-configuration/class-preferences-4-3-5.xsd">
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalMastTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LogixTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LRouteTableAction"/>
+        <preferences xmlns="" class="jmri.managers.JmriUserPreferencesManager"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SensorTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalHeadTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.BlockTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.AudioTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.SignalGroupTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.LightTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.TransitTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.ReporterTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.RouteTableAction"/>
+        <preferences xmlns="" class="jmri.jmrit.beantable.MemoryTableAction"/>
+    </classPreferences>
+    <comboBoxLastValue xmlns="http://jmri.org/xml/schema/auxiliary-configuration/combobox-4-3-5.xsd">
+        <comboBox xmlns="" lastSelected="LocoNet LocoBuffer-USB" name="Digitrax"/>
+    </comboBoxLastValue>
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC 4a Dispatcher.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC 4a Dispatcher.toolBarThin</setting>
+    </settings>
+    <tableDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/table-details-4-3-5.xsd">
+        <table xmlns="" name="jmri.jmrit.beantable.AudioTableAction">
+            <columns>
+                <column hidden="false" name="Comment" order="3" width="190"/>
+                <column hidden="false" name="Description" order="2" width="610"/>
+                <column hidden="false" name="User Name" order="1" width="190"/>
+                <column hidden="false" name="Column4" order="4" width="88"/>
+                <column hidden="false" name="Column5" order="5" width="79"/>
+                <column hidden="false" name="System Name" order="0" width="70"/>
+            </columns>
+            <sortOrder>
+                <sortKey column="0" sortOrder="ASCENDING"/>
+            </sortOrder>
+        </table>
+    </tableDetails>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="apps.gui3.tabbedpreferences.TabbedPreferencesFrame:Preferences" height="942.0" locX="0.0" locY="28.0" width="1001.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.locomon.LocoMonPane.FilterField">
+            <properties>
+                <property>
+                    <key>jmri.jmrix.loconet.locomon.LocoMonPane.FilterField</key>
+                    <value class="java.lang.String"/>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.ListedTableFrame:Blocks" height="942.0" locX="-1776.0" locY="28.0" width="1761.0"/>
+        <window xmlns="" class="PanelPro" height="265.0" locX="-947.0" locY="393.0" width="730.0"/>
+        <window xmlns="" class="jmri.jmrit.beantable.BlockTableAction">
+            <properties>
+                <property>
+                    <key>Restore Rule</key>
+                    <value class="java.lang.String">RESTOREONLYIFALLOCCUPIED</value>
+                </property>
+            </properties>
+        </window>
+        <window xmlns="" class="jmri.jmrit.beantable.AbstractTableAction$1" height="972.0" locX="-1596.0" locY="28.0" width="508.0"/>
+        <window xmlns="" class="jmri.jmrit.display.Editor$JFrameItem:Sensor" height="643.0" locX="202.0" locY="280.0" width="507.0"/>
+        <window xmlns="" class="jmri.jmrix.loconet.slotmon.SlotMonPane" height="536.0" locX="-454.0" locY="25.0" width="349.0"/>
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="jmri.jmrix.loconet.locomon.LocoMonPane" height="535.0" locX="-1653.0" locY="181.0" width="520.0"/>
+        <window xmlns="" class="Local JMRI throttles" height="228.0" locX="25.0" locY="26.0" width="320.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRC 4a Dispatcher" height="970.0" locX="14.0" locY="25.0" width="1897.0">
+            <properties>
+                <property>
+                    <key>zoom</key>
+                    <value class="java.lang.Double">1.3321629213483146</value>
+                </property>
+            </properties>
+        </window>
+    </windowDetails>
+</auxiliary-configuration>
