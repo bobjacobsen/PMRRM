@@ -121,7 +121,7 @@ a.setName("W Redcliff Sem")
 a.upper    = signals.getSignalHead("W Redcliff Sem")
 a.lower    = signals.getSignalHead("W Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
-a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E")]
+a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Staging")]
 a.next     = signals.getSignalHead("E RP Sem")
 a.start()
 
@@ -151,7 +151,7 @@ a.setName("E Redcliff Sem")
 a.upper    = signals.getSignalHead("E Redcliff Sem")
 a.lower    = signals.getSignalHead("E Redcliff Sem L")
 a.blocks   = [sensors.getSensor("Redcliff main")]
-a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E")]
+a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Staging")]
 a.next     = signals.getSignalHead("E RS Sem")
 a.start()
 
