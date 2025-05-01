@@ -23,7 +23,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         self.beans.extend(self.blocks)
         self.beans.extend(self.turnouts)
         if self.next != False :  self.beans.append(self.next)
-        if self.next2 != False : self.beans.append(self.next)
+        if self.next2 != False : self.beans.append(self.next2)
         
         # Remember the current state of the beans for a later waitCheck
         self.waitChangePrecheck(self.beans)
@@ -40,7 +40,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
             if self.next.getAppearance() != RED :
                 nextRed = False
         if self.next2 != False :
-            if self.next2.getAppearance() == RED :
+            if self.next2.getAppearance() != RED :
                 nextRed = False
         if nextRed : local = YELLOW
 
@@ -54,7 +54,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
                             
         self.local.setAppearance(local)
         
-        self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
+        self.waitChange(self.beans)  # run again when something changes
         
         return True
 
@@ -155,7 +155,7 @@ a.local    = signals.getSignalHead("E W-X")
 a.blocks   = [sensors.getSensor("W-X")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Xerox Main")
-a.next2    = signals.getSignalHead("E Xerox sidng")  # sic
+a.next2    = signals.getSignalHead("E Xerox siding")
 a.start()
 
 a = ControlAbsSearchlight()

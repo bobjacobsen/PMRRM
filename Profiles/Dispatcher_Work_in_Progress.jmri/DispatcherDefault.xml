@@ -5389,7 +5389,7 @@
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.SE8cSignalHeadXml">
       <systemName>IH:SE8c:"LT440";"LT441"</systemName>
-      <userName>E Xerox sidng</userName>
+      <userName>E Xerox siding</userName>
       <turnoutname defines="low">LT440</turnoutname>
       <turnoutname defines="high">LT441</turnoutname>
     </signalhead>
@@ -8183,7 +8183,7 @@
       <sensorname>W-X</sensorname>
       <comment />
     </signalelement>
-    <signalelement signal="E Xerox sidng" mode="3" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
+    <signalelement signal="E Xerox siding" mode="3" watchedturnout="Xerox E" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>Xerox siding</sensorname>
       <comment />
     </signalelement>
@@ -11342,7 +11342,7 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <signalheadicon signalhead="E Xerox sidng" x="930" y="506" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+    <signalheadicon signalhead="E Xerox siding" x="930" y="506" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
           <rotation>0</rotation>
