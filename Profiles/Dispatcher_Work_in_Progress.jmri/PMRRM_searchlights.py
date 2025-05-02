@@ -179,7 +179,7 @@ a.start()
 a = ControlAbsSearchlight()
 a.setName("E Vista Main")
 a.local    = signals.getSignalHead("E Vista Main")
-a.blocks   = [sensors.getSensor("Vista siding")]  # due to mis-naming at Vista
+a.blocks   = [sensors.getSensor("Vista main")]
 a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2"), turnouts.getTurnout("Vista E 2")]
 a.next     = signals.getSignalHead("E V-W")
 a.next2    = False
