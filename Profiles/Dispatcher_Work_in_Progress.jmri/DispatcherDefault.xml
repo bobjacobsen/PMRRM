@@ -317,13 +317,11 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS91</systemName>
-      <userName>Vista main</userName>
-      <comment>Really the upper, siding track</comment>
+      <userName>Vista siding</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS92</systemName>
-      <userName>Vista siding</userName>
-      <comment>Really the center, main track</comment>
+      <userName>Vista main</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS93</systemName>
@@ -7644,7 +7642,7 @@
       <systemName>IB17</systemName>
       <userName>Vista Siding</userName>
       <permissive>no</permissive>
-      <occupancysensor>Vista main</occupancysensor>
+      <occupancysensor>Vista siding</occupancysensor>
       <path todir="128" fromdir="64" block="IB25">
         <beansetting setting="4">
           <turnout systemName="LT94" />
@@ -9161,7 +9159,7 @@
       <systemName>ILB16</systemName>
       <userName>Vista Main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB17" occupancysensor="Vista main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM29">
+    <layoutblock systemName="ILB17" occupancysensor="Vista siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM29">
       <systemName>ILB17</systemName>
       <userName>Vista Siding</userName>
     </layoutblock>
@@ -9609,7 +9607,7 @@
       <sensorname>S-T</sensorname>
     </signalelement>
     <signalelement signal="IH47" mode="2" watchedturnout="LT21" watchedsignal1="IH53" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>Vista main</sensorname>
+      <sensorname>Vista siding</sensorname>
     </signalelement>
     <signalelement signal="IH48" mode="3" watchedturnout="LT21" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <comment />
@@ -9622,7 +9620,7 @@
       <comment />
     </signalelement>
     <signalelement signal="IH51" mode="3" watchedturnout="LT39" watchedsignal1="IH49" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>Vista main</sensorname>
+      <sensorname>Vista siding</sensorname>
       <comment />
     </signalelement>
     <signalelement signal="IH52" mode="2" watchedturnout="LT39" limitspeed1="true" limitspeed2="true" useflashyellow="false" distantsignal="false">
@@ -9665,7 +9663,7 @@
       <comment />
     </signalelement>
     <signalelement signal="IH64" mode="3" watchedturnout="LT24" watchedsignal1="IH70" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
-      <sensorname>Vista siding</sensorname>
+      <sensorname>Vista main</sensorname>
     </signalelement>
     <signalelement signal="IH65" mode="2" watchedturnout="LT24" watchedsignal1="IH59" watchedsignal1alt="IH60" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
       <sensorname>U-Vw</sensorname>
