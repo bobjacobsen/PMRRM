@@ -4216,6 +4216,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT509</systemName>
+      <comment>E Sierra Sem Red</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4225,6 +4226,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT510</systemName>
+      <comment>E Sierra Sem Green</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4234,6 +4236,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT511</systemName>
+      <comment>E Sierra L Sem Red</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4796,7 +4799,7 @@
     <memory>
       <systemName>IM62</systemName>
     </memory>
-    <memory value="1:00 PM">
+    <memory value="1:20 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -5266,6 +5269,20 @@
       <comment>495 496</comment>
       <turnoutname defines="green">LT496</turnoutname>
       <turnoutname defines="red">LT495</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>IH116</systemName>
+      <userName>E Sierra Sem</userName>
+      <comment>509 510</comment>
+      <turnoutname defines="green">LT510</turnoutname>
+      <turnoutname defines="red">LT509</turnoutname>
+    </signalhead>
+    <signalhead class="jmri.implementation.configurexml.DoubleTurnoutSignalHeadXml">
+      <systemName>IH117</systemName>
+      <userName>E Sierra Sem L</userName>
+      <comment>511 512</comment>
+      <turnoutname defines="green">LT512</turnoutname>
+      <turnoutname defines="red">LT511</turnoutname>
     </signalhead>
     <signalhead class="jmri.implementation.configurexml.SE8cSignalHeadXml">
       <systemName>IH:SE8C:"LT400";"LT401"</systemName>
@@ -10733,7 +10750,7 @@
     <positionablelabel x="1222" y="372" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="#170 Staging" fontFamily="Dialog" fontname="Dialog" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1016" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="#172" fontFamily="Dialog" fontname="Dialog" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1001" y="361" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="#172" fontFamily="Dialog" fontname="Dialog" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="893" y="366" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="#173" fontFamily="Dialog" fontname="Dialog" size="11" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -13044,6 +13061,64 @@
       </icons>
       <iconmaps />
     </signalheadicon>
+    <signalheadicon signalhead="E Sierra Sem" x="1023" y="387" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
+    <signalheadicon signalhead="E Sierra Sem L" x="1023" y="397" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
+      <icons>
+        <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </held>
+        <dark url="program:resources/icons/smallschematics/searchlights/left-dark-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </dark>
+        <red url="program:resources/icons/smallschematics/searchlights/left-red-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </red>
+        <yellow url="program:resources/icons/smallschematics/searchlights/left-yellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </yellow>
+        <green url="program:resources/icons/smallschematics/searchlights/left-green-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </green>
+        <flashred url="program:resources/icons/smallschematics/searchlights/left-flashred-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashred>
+        <flashyellow url="program:resources/icons/smallschematics/searchlights/left-flashyellow-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashyellow>
+        <flashgreen url="program:resources/icons/smallschematics/searchlights/left-flashgreen-short.gif" degrees="0" scale="1.0">
+          <rotation>0</rotation>
+        </flashgreen>
+      </icons>
+      <iconmaps />
+    </signalheadicon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1113.0" ycen="323.0" xa="1133.0" ya="323.0" xb="1093.0" yb="323.0" xc="1093.0" yc="313.0" xd="1133.0" yd="323.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -13236,7 +13311,7 @@
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
     <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1195.0" ycen="381.0" xa="1215.0" ya="381.0" xb="1175.0" yb="381.0" xc="1175.0" yc="371.0" xd="1215.0" yd="381.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging" />
-    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1016.0" ycen="387.0" xa="1036.0" ya="387.0" xb="996.0" yb="387.0" xc="996.0" yc="377.0" xd="1036.0" yd="387.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" />
+    <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="999.0" ycen="381.0" xa="1019.0" ya="381.0" xb="979.0" yb="381.0" xc="979.0" yc="371.0" xd="1019.0" yd="381.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" />
     <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="922.0" ycen="387.0" xa="902.0" ya="387.0" xb="942.0" yb="387.0" xc="942.0" yc="377.0" xd="902.0" yd="387.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" />
     <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="779.0" ycen="257.0" xa="759.0" ya="257.0" xb="799.0" yb="257.0" xc="799.0" yc="247.0" xd="759.0" yd="257.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 1" />
     <layoutturnout ident="TO88" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="674.0" ycen="467.0" xa="654.0" ya="467.0" xb="694.0" yb="467.0" xc="694.0" yc="477.0" xd="654.0" yd="467.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT184" />
@@ -13516,9 +13591,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri May 02 13:00:15 EDT 2025</date>
+      <date>Fri May 02 13:20:22 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.5plus+jake+20250502T1652Z+R1d996f76bf6 on Fri May 02 13:00:15 EDT 2025-->
+  <!--Written by JMRI version 5.11.5plus+jake+20250502T1652Z+R1d996f76bf6 on Fri May 02 13:20:22 EDT 2025-->
 </layout-config>

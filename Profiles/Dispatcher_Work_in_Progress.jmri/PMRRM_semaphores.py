@@ -138,12 +138,21 @@ a.start()
 # ###### East to West ######
 
 a = ControlDualSemaphore()
+a.setName("E Sierra Sem")
+a.upper    = signals.getSignalHead("E Sierra Sem")
+a.lower    = signals.getSignalHead("E Sierra Sem L")
+a.blocks   = [sensors.getSensor("Sierra main")]
+a.turnouts = [turnouts.getTurnout("Sierra W"), turnouts.getTurnout("Sierra E")]
+a.next     = signals.getSignalHead("E S-T")
+a.start()
+
+a = ControlDualSemaphore()
 a.setName("E RS Sem")
 a.upper    = signals.getSignalHead("E RS Sem")
 a.lower    = signals.getSignalHead("E RS Sem L")
 a.blocks   = [sensors.getSensor("R-S")]
 a.turnouts = []
-a.next     = False
+a.next     = signals.getSignalHead("E Sierra Sem")
 a.start()
 
 a = ControlDualSemaphore()
