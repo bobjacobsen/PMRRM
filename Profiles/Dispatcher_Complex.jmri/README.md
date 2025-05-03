@@ -1,7 +1,9 @@
 
 # Background Information on this JMRI Profile #
 
-This is the development profile for the PMRRM dispatcher system.
+This is the standard PMRRM dispatching profile.
+
+It is updated from the Dispatcher Work in Progress profile when that has been sufficiently tested.
 
 ## Startup ##
 

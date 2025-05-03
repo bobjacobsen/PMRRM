@@ -1,7 +1,9 @@
 
 # Background Information on this JMRI Profile #
 
-This is the development profile for the PMRRM dispatcher system.
+This is a simplified PMRRM dispatching profile.
+
+It is updated from the Dispatcher Work in Progress profile when that has been sufficiently tested.
 
 ## Startup ##
 
@@ -12,8 +14,8 @@ At startup, JMRI processes several files:
  - PMRRM_semaphores.py - Controls semaphore signals from Narrows to Sierra.
  - MenuItemDisable.py - Disable certain items on the main menu to prevent their use.  See comments in the script for which ones.
  - DontListenDoubleHead.py - Prevent DoubleTurnoutSignalHead objects from listening to external changes
+ - MakeYellowDotsInvisible.py - Simplifies the display panel by disabling and hiding certain icons. This is not done in the Dispatcher Complex and Dispatcher Work in Progress profiles.
 
 It also
  - Starts the JMRI web server to display on the secondary screens.
- - Puts a button for opening the Block Table on the main panel. The Block Table is accessed to enter train information.
  
