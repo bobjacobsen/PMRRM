@@ -39,6 +39,6 @@
         <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MakeYellowDotsInvisible.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ConvertComplexToSimple.py" type="ScriptFile"/>
     </startup>
 </auxiliary-configuration>

@@ -14,7 +14,7 @@ At startup, JMRI processes several files:
  - PMRRM_semaphores.py - Controls semaphore signals from Narrows to Sierra.
  - MenuItemDisable.py - Disable certain items on the main menu to prevent their use.  See comments in the script for which ones.
  - DontListenDoubleHead.py - Prevent DoubleTurnoutSignalHead objects from listening to external changes
- - MakeYellowDotsInvisible.py - Simplifies the display panel by disabling and hiding certain icons. This is not done in the Dispatcher Complex and Dispatcher Work in Progress profiles.
+ - ConvertComplexToSimple.py - Simplifies the display panel by disabling and hiding certain icons. This is not done in the Dispatcher Complex and Dispatcher Work in Progress profiles. Effectively, it converts the Dispatcher Complex configuration to the desired Dispatcher Simple one.
 
 It also
  - Starts the JMRI web server to display on the secondary screens.
