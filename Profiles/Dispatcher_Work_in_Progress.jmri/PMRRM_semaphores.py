@@ -94,7 +94,7 @@ a.setName("W OP Sem")
 a.upper    = signals.getSignalHead("W OP Sem")
 a.lower    = signals.getSignalHead("W OP Sem L")
 a.blocks   = [sensors.getSensor("O-P")]
-a.turnouts = []
+a.turnouts = [turnouts.getTurnout("McSweeney")]
 a.next     = signals.getSignalHead("W Osage Sem")
 a.start()
 
@@ -187,7 +187,7 @@ a.setName("E OP Sem")
 a.upper    = signals.getSignalHead("E OP Sem")
 a.lower    = signals.getSignalHead("E OP Sem L")
 a.blocks   = [sensors.getSensor("O-P")]
-a.turnouts = []
+a.turnouts = [turnouts.getTurnout("McSweeney")]
 a.next     = signals.getSignalHead("E Powder Sem")
 a.start()
 
