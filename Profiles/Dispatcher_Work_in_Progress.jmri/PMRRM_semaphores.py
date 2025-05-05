@@ -103,7 +103,7 @@ a.setName("W Powder Sem")
 a.upper    = signals.getSignalHead("W Powder Sem")
 a.lower    = signals.getSignalHead("W Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
-a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E")]
+a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn house"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover")]
 a.next     = signals.getSignalHead("W OP Sem")
 a.start()
 
@@ -178,7 +178,7 @@ a.setName("E Powder Sem")
 a.upper    = signals.getSignalHead("E Powder Sem")
 a.lower    = signals.getSignalHead("E Powder Sem L")
 a.blocks   = [sensors.getSensor("Powderhorn main")]
-a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E")]
+a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn house"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover")]
 a.next     = signals.getSignalHead("E Quartz Sem")
 a.start()
 
