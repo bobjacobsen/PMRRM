@@ -155,7 +155,7 @@ a.local    = signals.getSignalHead("E W-X")
 a.blocks   = [sensors.getSensor("W-X")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Xerox Main")
-a.next2    = signals.getSignalHead("E Xerox siding")
+a.next2    = False # according to Mike, as E W-X is single-head, it only references top head at Xerox entrance
 a.start()
 
 a = ControlAbsSearchlight()
