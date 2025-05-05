@@ -359,6 +359,7 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS103</systemName>
+      <userName>Osage pocket</userName>
     </sensor>
     <sensor inverted="false">
       <systemName>LS104</systemName>
@@ -6152,6 +6153,11 @@
       <systemName>IT2</systemName>
       <userName>Sensor Init</userName>
     </turnout>
+    <turnout feedback="DIRECT" inverted="false" automate="Off">
+      <systemName>IT3</systemName>
+      <userName>Osage Pocket Upper</userName>
+      <comment>Stand-in until this is separately wired</comment>
+    </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
     <memory>
@@ -6181,13 +6187,13 @@
     <memory>
       <systemName>IM9</systemName>
     </memory>
-    <memory>
+    <memory value="Test">
       <systemName>IM10</systemName>
     </memory>
-    <memory>
+    <memory value="Test">
       <systemName>IM11</systemName>
     </memory>
-    <memory>
+    <memory value="Test">
       <systemName>IM12</systemName>
     </memory>
     <memory>
@@ -6340,7 +6346,7 @@
     <memory>
       <systemName>IM62</systemName>
     </memory>
-    <memory value="5:43 PM">
+    <memory value="7:16 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -7108,6 +7114,10 @@
       <systemName>IB37</systemName>
       <userName>MWF</userName>
     </block>
+    <block systemName="IB38">
+      <systemName>IB38</systemName>
+      <userName>AUTOBLK:37</userName>
+    </block>
     <block systemName="IB39">
       <systemName>IB39</systemName>
       <userName>Bend 1</userName>
@@ -7255,6 +7265,10 @@
     <block systemName="IB75">
       <systemName>IB75</systemName>
       <userName>AUTOBLK:75</userName>
+    </block>
+    <block systemName="IB76">
+      <systemName>IB76</systemName>
+      <userName>AUTOBLK:52</userName>
     </block>
     <block systemName="IB78">
       <systemName>IB78</systemName>
@@ -7417,13 +7431,16 @@
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB35">
-        <beansetting setting="2">
-          <turnout systemName="Osage crossover" />
+        <beansetting setting="4">
+          <turnout systemName="Osage Pocket Upper" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB36">
+      <path todir="64" fromdir="128" block="IB36">
         <beansetting setting="4">
           <turnout systemName="Osage crossover" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Osage Pocket Upper" />
         </beansetting>
       </path>
     </block>
@@ -8030,18 +8047,15 @@
       <systemName>IB35</systemName>
       <userName>Osage Pocket</userName>
       <permissive>no</permissive>
-      <occupancysensor>LS103</occupancysensor>
+      <occupancysensor>Osage pocket</occupancysensor>
       <path todir="64" fromdir="128" block="IB2">
         <beansetting setting="4">
           <turnout systemName="Osage pocket" />
         </beansetting>
-        <beansetting setting="2">
-          <turnout systemName="Osage crossover" />
-        </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB4">
-        <beansetting setting="2">
-          <turnout systemName="Osage crossover" />
+        <beansetting setting="4">
+          <turnout systemName="Osage Pocket Upper" />
         </beansetting>
       </path>
     </block>
@@ -8060,7 +8074,7 @@
           <turnout systemName="Osage crossover" />
         </beansetting>
       </path>
-      <path todir="144" fromdir="96" block="IB4">
+      <path todir="128" fromdir="64" block="IB4">
         <beansetting setting="4">
           <turnout systemName="Osage crossover" />
         </beansetting>
@@ -8076,6 +8090,11 @@
           <turnout systemName="LT60" />
         </beansetting>
       </path>
+    </block>
+    <block systemName="IB38" length="0.0" curve="0">
+      <systemName>IB38</systemName>
+      <userName>AUTOBLK:37</userName>
+      <permissive>no</permissive>
     </block>
     <block systemName="IB39" length="6096.0" curve="0">
       <systemName>IB39</systemName>
@@ -8674,6 +8693,11 @@
       <userName>AUTOBLK:75</userName>
       <permissive>no</permissive>
     </block>
+    <block systemName="IB76" length="0.0" curve="0">
+      <systemName>IB76</systemName>
+      <userName>AUTOBLK:52</userName>
+      <permissive>no</permissive>
+    </block>
     <block systemName="IB78" length="0.0" curve="0">
       <systemName>IB78</systemName>
       <userName>AUTOBLK:83</userName>
@@ -9232,13 +9256,17 @@
       <systemName>ILB34</systemName>
       <userName>AUTOBLK:34</userName>
     </layoutblock>
-    <layoutblock systemName="ILB35" occupancysensor="LS103" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM10">
+    <layoutblock systemName="ILB35" occupancysensor="Osage pocket" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM10">
       <systemName>ILB35</systemName>
       <userName>Osage Pocket</userName>
     </layoutblock>
     <layoutblock systemName="ILB36" occupancysensor="Osage approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM8">
       <systemName>ILB36</systemName>
       <userName>Osage Approach</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB37" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB37</systemName>
+      <userName>AUTOBLK:37</userName>
     </layoutblock>
     <layoutblock systemName="ILB38" occupancysensor="Bend 1" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM56">
       <systemName>ILB38</systemName>
@@ -9295,6 +9323,10 @@
     <layoutblock systemName="ILB51" occupancysensor="Fox" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="IM47">
       <systemName>ILB51</systemName>
       <userName>Fox</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB52" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
+      <systemName>ILB52</systemName>
+      <userName>AUTOBLK:52</userName>
     </layoutblock>
     <layoutblock systemName="ILB53" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB53</systemName>
@@ -9499,7 +9531,7 @@
       <sensorname>Narrows Upper</sensorname>
     </signalelement>
     <signalelement signal="IH11" mode="2" watchedturnout="LT20" watchedsignal1="IH10" limitspeed1="false" limitspeed2="false" useflashyellow="false" distantsignal="false">
-      <sensorname>LS103</sensorname>
+      <sensorname>Osage pocket</sensorname>
     </signalelement>
     <signalelement signal="IH12" mode="3" watchedturnout="LT20" watchedsignal1="IH9" limitspeed1="false" limitspeed2="true" useflashyellow="false" distantsignal="false">
       <sensorname>Osage approach</sensorname>
@@ -10222,18 +10254,18 @@
         <destination type="sensor" item="NX-RedcliffS-WB" nxType="fullinterlocking" uniqueid="IN:07be4992-1eef-41e8-b4e7-72a0dc652278" />
       </source>
       <source type="sensor" item="NX-PDM-EB">
-        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:f041cedf-06de-4fde-9c22-6e6540acccd8" />
+        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:34d5f432-6252-4969-ba64-034b03557905" />
         <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:a6649882-127f-474f-87f3-2b60bba29268" />
         <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:032c6e4f-493c-4cdc-b0e9-964dc3c4b0ef" />
         <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:e1af22ff-9775-4813-aef8-0831e53dd7e8" />
-        <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:06aa23f3-e553-4c31-b16a-29a4b877d337" />
+        <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:40705784-5e32-45d6-9e3a-9d780701774b" />
       </source>
       <source type="sensor" item="NX-PDS-EB">
-        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:bab74cea-1a18-4ade-8fa2-a88b3208cb99" />
+        <destination type="sensor" item="NX-OM-EB" nxType="fullinterlocking" uniqueid="IN:6139fad1-f1b0-4824-9ab7-f4ed51f1539b" />
         <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:186c5a5b-8fec-4728-b66c-74866f7c053f" />
         <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:14344d84-538f-4b54-8661-395f3625b0ac" />
         <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:e3f47e12-1f17-41b3-bca3-72ec08513d18" />
-        <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:a983c13f-0367-4f4c-b4ef-6e748e8d2765" />
+        <destination type="sensor" item="NX-OS-EB" nxType="fullinterlocking" uniqueid="IN:c6598295-64c4-4e40-89d5-446258e1eed4" />
       </source>
       <source type="sensor" item="NX-UptonM-EB">
         <destination type="sensor" item="NX-TroyM-EB" nxType="fullinterlocking" uniqueid="IN:52bae763-8487-4336-82be-5d8d41bfdbf2" />
@@ -10264,9 +10296,9 @@
         <destination type="sensor" item="NX-PDS-WB" nxType="fullinterlocking" uniqueid="IN:9212fe1b-27d9-4b09-a21e-c416c0ff6a3e" />
       </source>
       <source type="sensor" item="NX-OM-EB">
-        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:a854c009-aa31-4ab7-a21d-d796b70abba8" />
-        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:4b25e07c-66da-4307-825d-94fcd86969da" />
-        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:e9d02843-ece5-41f0-8ba9-c3d40a0a4352" />
+        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:fa9ac2b0-fab5-43bd-9b00-b2b4820c5d40" />
+        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:d8c4f887-50cc-4b08-a1be-03c98893178b" />
+        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:ae11b0a9-d4de-4591-8b89-431b57df1ddb" />
       </source>
       <source type="sensor" item="NX-MWP-WB">
         <destination type="sensor" item="NX-OM-WB" nxType="fullinterlocking" uniqueid="IN:83c3ad96-3b51-4c6c-a7c1-076a4caf9b19" />
@@ -10359,11 +10391,6 @@
       </source>
       <source type="sensor" item="NX-MWP3-EB">
         <destination type="sensor" item="NX-MWP-WB" nxType="fullinterlocking" uniqueid="IN:333316dd-fc86-41a5-bd64-4778472193e8" />
-      </source>
-      <source type="sensor" item="NX-OS-EB">
-        <destination type="sensor" item="NX-MEP1-WB" nxType="fullinterlocking" uniqueid="IN:22341032-0d91-4fe0-b98c-74386c5e4632" />
-        <destination type="sensor" item="NX-MEP2-WB" nxType="fullinterlocking" uniqueid="IN:26700ac9-a685-44c5-bb65-68c752236185" />
-        <destination type="sensor" item="NX-MEP3-WB" nxType="fullinterlocking" uniqueid="IN:65816fdd-9d85-4df3-abb1-de720e4148d5" />
       </source>
       <source type="sensor" item="NX-GM-WB">
         <destination type="sensor" item="NX-GM-EB" nxType="fullinterlocking" uniqueid="IN:b63386d9-2a49-4df2-9af1-dffe158843d3" />
@@ -11256,7 +11283,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="428" y="243" windowheight="970" windowwidth="1875" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="291" y="177" windowheight="970" windowwidth="1875" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -11460,13 +11487,13 @@
     <memoryicon memory="IM7" x="451" y="269" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM7</tooltip>
     </memoryicon>
-    <memoryicon memory="IM8" x="341" y="307" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM8" x="341" y="303" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM8</tooltip>
     </memoryicon>
     <memoryicon memory="IM9" x="275" y="299" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM9</tooltip>
     </memoryicon>
-    <memoryicon memory="IM10" x="357" y="252" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
+    <memoryicon memory="IM10" x="365" y="238" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
       <tooltip>IM10</tooltip>
     </memoryicon>
     <memoryicon memory="IM11" x="275" y="250" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" fontFamily="Dialog" fontname="Dialog" size="12" style="3" red="0" green="255" blue="0" hasBackground="no" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif">
@@ -13570,21 +13597,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OS-EB" x="332" y="268" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="90" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-HM-EB" x="1114" y="174" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
@@ -14413,21 +14425,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-OM-EB" x="335" y="288" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="89" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="89" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="89" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="89" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="89" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <signalheadicon signalhead="E Redcliff Sem" x="1229" y="386" level="9" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" clickmode="3" litmode="false" class="jmri.jmrit.display.configurexml.SignalHeadIconXml">
       <icons>
         <held url="program:resources/icons/smallschematics/searchlights/left-held-short.gif" degrees="0" scale="1.0">
@@ -14660,6 +14657,36 @@
       </icons>
       <iconmaps />
     </signalheadicon>
+    <sensoricon sensor="NX-OM-EB" x="330" y="289" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="NX-OS-EB" x="343" y="266" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1113.0" ycen="323.0" xa="1133.0" ya="323.0" xb="1093.0" yb="323.0" xc="1093.0" yc="313.0" xd="1133.0" yd="323.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E F" blockname="MEF" connectaname="T1" connectbname="T16" connectcname="T4">
       <sensorB>NX-MEF-WB</sensorB>
     </layoutturnout>
@@ -14750,11 +14777,11 @@
       <sensorB>NX-XeroxM-EB</sensorB>
       <sensorC>NX-XeroxS-EB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="238.0" ycen="294.0" xa="218.0" ya="294.0" xb="258.0" yb="294.0" xc="257.0" yc="272.0" xd="218.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT63" blockname="O-P" connectaname="T7" connectbname="T11" connectcname="T12">
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="238.0" ycen="294.0" xa="218.0" ya="294.0" xb="258.0" yb="294.0" xc="257.0" yc="272.0" xd="218.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT63" blockname="O-P" connectaname="T7" connectbname="T11" connectcname="T2">
       <sensorB>NX-OM-WB</sensorB>
       <sensorC>NX-OS-WB</sensorC>
     </layoutturnout>
-    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="420.0" ycen="295.0" xa="440.0" ya="295.0" xb="400.0" yb="295.0" xc="406.0" yc="273.0" xd="440.0" yd="295.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage pocket" blockname="Narrows, Upper" connectaname="T9" connectbname="T10" connectcname="T30" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="407.0" ycen="294.0" xa="422.0" ya="294.0" xb="392.0" yb="294.0" xc="380.0" yc="256.0" xd="422.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage pocket" blockname="Narrows, Upper" connectaname="T9" connectbname="T10" connectcname="T30" />
     <layoutturnout ident="TO19" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="352.0" ycen="417.0" xa="372.0" ya="417.0" xb="332.0" yb="417.0" xc="332.0" yc="407.0" xd="372.0" yd="417.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" blockname="U-Vw" connectaname="T135" connectbname="T32" connectcname="T34">
       <sensorC>NX-VistaS-EB</sensorC>
     </layoutturnout>
@@ -14769,10 +14796,6 @@
     <layoutturnout ident="TO33" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="79.0" ycen="201.0" xa="59.0" ya="201.0" xb="99.0" yb="201.0" xc="99.0" yc="211.0" xd="59.0" yd="201.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Pocket crossover" />
     <layoutturnout ident="TO42" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="161.0" ycen="330.0" xa="181.0" ya="330.0" xb="141.0" yb="330.0" xc="141.0" yc="339.0" xd="181.0" yd="330.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT64" />
     <layoutturnout ident="TO43" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="161.0" ycen="353.0" xa="181.0" ya="353.0" xb="141.0" yb="353.0" xc="141.0" yc="362.0" xd="181.0" yd="353.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket" />
-    <layoutturnout ident="TO17" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="366.0" ycen="283.0" xa="345.5859375" ya="272.4779052734375" xb="373.0272106612803" yb="272.9275816065523" xc="386.4140625" yc="293.5220947265625" xd="358.9727893387197" yd="293.0724183934477" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Osage crossover" blockname="Osage Siding" blockbname="Osage Pocket" blockcname="Osage Approach" blockdname="Osage Approach" connectaname="T12" connectbname="T30" connectcname="T10" connectdname="T11">
-      <sensorA>NX-OS-EB</sensorA>
-      <sensorD>NX-OM-EB</sensorD>
-    </layoutturnout>
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="917.0" ycen="43.0" xa="937.0" ya="43.0" xb="897.0" yb="43.0" xc="897.0" yc="33.0" xd="937.0" yd="43.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT10" blockname="Bend 1" connectaname="T91" connectbname="T73" />
     <layoutturnout ident="TO51" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="898.0" ycen="102.0" xa="918.0" ya="102.0" xb="878.0" yb="102.0" xc="878.0" yc="112.0" xd="918.0" yd="102.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT11" blockname="Bend 4" connectaname="T94" connectbname="T74" />
     <layoutturnout ident="TO52" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="873.0" ycen="53.0" xa="863.0335693359375" ya="42.90022659301758" xb="902.9998967418957" yb="43.000000046963514" xc="882.9664306640625" yc="63.09977340698242" xd="843.0001032581043" yd="62.999999953036486" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Colton E 1 to 2" blockname="Colton CP1-R" blockcname="Colton CP2" blockdname="Colton CP2" connectaname="T138" connectbname="T73" connectcname="T92" connectdname="T39">
@@ -14873,6 +14896,11 @@
     </layoutturnout>
     <layoutturnout ident="TO18" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1284.0" ycen="53.0" xa="1274.0" ya="43.0" xb="1314.0" yb="43.0" xc="1294.0" yc="63.0" xd="1254.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="A B straight" blockname="Bend CP1-R" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T140" connectbname="T85" connectcname="T86" connectdname="T83" />
     <layoutturnout ident="TO45" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1306.0" ycen="73.0" xa="1296.0" ya="63.0" xb="1336.0" yb="63.0" xc="1316.0" yc="83.0" xd="1276.0" yd="83.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="B C Straight" blockname="Bend CP2" blockcname="Bend CP3-R" blockdname="Bend CP3-R" connectaname="T86" connectbname="T90" connectcname="T136" connectdname="T72" />
+    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="366.0" ycen="294.0" xa="380.0" ya="294.0" xb="352.0" yb="294.0" xc="357.0" yc="271.0" xd="380.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Osage crossover" secondturnoutname="Osage Pocket Upper" secondturnoutinverted="true" blockname="Osage Approach" connectaname="T10" connectbname="T11" connectcname="T12">
+      <sensorB>NX-OM-EB</sensorB>
+      <sensorC>NX-OS-EB</sensorC>
+    </layoutturnout>
+    <layoutturnout ident="TO83" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="306.0" ycen="272.0" xa="286.0" ya="272.0" xb="326.0" yb="272.0" xc="341.0" yc="256.0" xd="286.0" yd="272.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Osage Pocket Upper" blockname="Osage Siding" connectaname="T2" connectbname="T12" connectcname="T30" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -14934,10 +14962,10 @@
     </tracksegment>
     <tracksegment ident="T7" blockname="O-P" connect1name="TO21" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T9" blockname="Narrows, Upper" connect1name="A4" type1="POS_POINT" connect2name="TO7" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T10" blockname="Osage Approach" connect1name="TO7" type1="TURNOUT_B" connect2name="TO17" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T11" blockname="Osage Main" connect1name="TO17" type1="TURNOUT_D" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T12" blockname="Osage Siding" connect1name="TO17" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T30" blockname="Osage Pocket" connect1name="TO7" type1="TURNOUT_C" connect2name="TO17" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" blockname="Osage Approach" connect1name="TO7" type1="TURNOUT_B" connect2name="TO17" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" blockname="Osage Main" connect1name="TO17" type1="TURNOUT_B" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" blockname="Osage Siding" connect1name="TO17" type1="TURNOUT_C" connect2name="TO83" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T30" blockname="Osage Pocket" connect1name="TO7" type1="TURNOUT_C" connect2name="TO83" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T31" blockname="U-Ve" connect1name="TO32" type1="TURNOUT_A" connect2name="A12" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T32" blockname="U-Vw" connect1name="TO19" type1="TURNOUT_B" connect2name="TO8" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T33" blockname="V-W" connect1name="TO36" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -15009,6 +15037,7 @@
     <tracksegment ident="T138" blockname="Colton CP1-R" connect1name="A15" type1="POS_POINT" connect2name="TO52" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T139" blockname="Colton CP4" connect1name="A16" type1="POS_POINT" connect2name="TO53" type2="TURNOUT_D" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T140" blockname="Bend CP1-R" connect1name="A17" type1="POS_POINT" connect2name="TO18" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" blockname="Osage Siding" connect1name="TO83" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1133.0" y="304.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A3" type="ANCHOR" x="646.0" y="323.0" connect1name="T22" connect2name="T23" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="510.0" y="295.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -15132,9 +15161,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon May 05 17:43:53 EDT 2025</date>
+      <date>Mon May 05 19:16:19 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.10plus+jake+20250505T1747Z+Rb7f4eb40901 on Mon May 05 17:43:53 EDT 2025-->
+  <!--Written by JMRI version 5.10plus+jake+20250505T1747Z+Rb7f4eb40901 on Mon May 05 19:16:19 EDT 2025-->
 </layout-config>
