@@ -3,8 +3,8 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>11</minor>
-    <test>5</test>
+    <minor>10</minor>
+    <test>0</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -6340,7 +6340,7 @@
     <memory>
       <systemName>IM62</systemName>
     </memory>
-    <memory value="1:33 PM">
+    <memory value="5:43 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -11256,7 +11256,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="566" y="242" windowheight="970" windowwidth="1875" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="428" y="243" windowheight="970" windowwidth="1875" panelheight="677" panelwidth="1424" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -14746,7 +14746,7 @@
     <layoutturnout ident="TO40" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1085.0" ycen="554.0" xa="1070.0" ya="554.0" xb="1100.0" yb="554.0" xc="1101.0" yc="567.0" xd="1070.0" yd="554.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT98" blockname="W-X" connectaname="T67" connectbname="T66" connectcname="T68">
       <sensorB>NX-WhiskeyS-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="922.0" ycen="527.0" xa="942.0" ya="527.0" xb="902.0" yb="527.0" xc="905.0" yc="548.0" xd="942.0" yd="527.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="W-X" connectaname="T69" connectbname="T70" connectcname="T71">
+    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="922.0" ycen="527.0" xa="942.0" ya="527.0" xb="902.0" yb="527.0" xc="905.0" yc="548.0" xd="942.0" yd="527.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox E" blockname="W-X" connectaname="T69" connectbname="T70" connectcname="T71">
       <sensorB>NX-XeroxM-EB</sensorB>
       <sensorC>NX-XeroxS-EB</sensorC>
     </layoutturnout>
@@ -14873,7 +14873,7 @@
     </layoutturnout>
     <layoutturnout ident="TO18" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1284.0" ycen="53.0" xa="1274.0" ya="43.0" xb="1314.0" yb="43.0" xc="1294.0" yc="63.0" xd="1254.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="A B straight" blockname="Bend CP1-R" blockcname="Bend CP2" blockdname="Bend CP2" connectaname="T140" connectbname="T85" connectcname="T86" connectdname="T83" />
     <layoutturnout ident="TO45" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1306.0" ycen="73.0" xa="1296.0" ya="63.0" xb="1336.0" yb="63.0" xc="1316.0" yc="83.0" xd="1276.0" yd="83.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="B C Straight" blockname="Bend CP2" blockcname="Bend CP3-R" blockdname="Bend CP3-R" connectaname="T86" connectbname="T90" connectcname="T136" connectdname="T72" />
-    <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" connect1name="TO5" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -14887,12 +14887,12 @@
     <tracksegment ident="T18" connect1name="TO12" type1="TURNOUT_C" connect2name="TO13" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T19" connect1name="TO13" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T21" blockname="MWP" connect1name="TO14" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T22" blockname="MWF" connect1name="A3" type1="POS_POINT" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T23" blockname="MWF" connect1name="TO14" type1="TURNOUT_C" connect2name="A3" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T24" blockname="Midway P3" connect1name="TO16" type1="TURNOUT_C" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T25" blockname="Midway P2" connect1name="TO16" type1="TURNOUT_B" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" blockname="MWP" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" blockname="MEP" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" blockname="MWF" connect1name="A3" type1="POS_POINT" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T23" blockname="MWF" connect1name="TO14" type1="TURNOUT_C" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" blockname="Midway P3" connect1name="TO16" type1="TURNOUT_C" connect2name="TO15" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" blockname="Midway P2" connect1name="TO16" type1="TURNOUT_B" connect2name="TO15" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" blockname="MWP" connect1name="TO16" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" blockname="MEP" connect1name="TO15" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_C" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T28" blockname="Narrows, Lower" connect1name="TO14" type1="TURNOUT_A" connect2name="A4" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T37" blockname="Powderhorn M" connect1name="TO21" type1="TURNOUT_B" connect2name="TO22" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T38" blockname="Powderhorn S" connect1name="TO21" type1="TURNOUT_C" connect2name="TO22" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -15037,104 +15037,104 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri May 02 13:25:29 EDT 2025</date>
-      <filename>PanelPro (v5.11.5)</filename>
+      <date>Mon May 05 13:47:04 EDT 2025</date>
+      <filename>PanelPro (v5.10.0)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri May 02 13:25:33 EDT 2025</date>
+      <date>Mon May 05 13:47:08 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
       <filehistory>
         <operation>
           <type>app</type>
-          <date>Fri May 02 12:52:17 EDT 2025</date>
+          <date>Fri May 02 13:25:29 EDT 2025</date>
           <filename>PanelPro (v5.11.5)</filename>
         </operation>
         <operation>
           <type>Load OK</type>
-          <date>Fri May 02 12:52:20 EDT 2025</date>
+          <date>Fri May 02 13:25:33 EDT 2025</date>
           <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
           <filehistory>
             <operation>
               <type>app</type>
-              <date>Fri Apr 25 06:27:41 EDT 2025</date>
+              <date>Fri May 02 12:52:17 EDT 2025</date>
               <filename>PanelPro (v5.11.5)</filename>
             </operation>
             <operation>
               <type>Load OK</type>
-              <date>Fri Apr 25 06:27:44 EDT 2025</date>
+              <date>Fri May 02 12:52:20 EDT 2025</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
               <filehistory>
                 <operation>
                   <type>app</type>
-                  <date>Fri Apr 25 06:25:54 EDT 2025</date>
+                  <date>Fri Apr 25 06:27:41 EDT 2025</date>
                   <filename>PanelPro (v5.11.5)</filename>
                 </operation>
                 <operation>
                   <type>Load OK</type>
-                  <date>Fri Apr 25 06:25:58 EDT 2025</date>
+                  <date>Fri Apr 25 06:27:44 EDT 2025</date>
                   <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                   <filehistory>
                     <operation>
                       <type>app</type>
-                      <date>Mon Apr 21 13:58:09 EDT 2025</date>
+                      <date>Fri Apr 25 06:25:54 EDT 2025</date>
                       <filename>PanelPro (v5.11.5)</filename>
                     </operation>
                     <operation>
                       <type>Load OK</type>
-                      <date>Mon Apr 21 13:58:12 EDT 2025</date>
-                      <filename>/Users/jake/Library/Preferences/JMRI/Dispatch_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+                      <date>Fri Apr 25 06:25:58 EDT 2025</date>
+                      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                       <filehistory>
                         <operation>
                           <type>app</type>
-                          <date>Mon Apr 21 13:22:15 EDT 2025</date>
+                          <date>Mon Apr 21 13:58:09 EDT 2025</date>
                           <filename>PanelPro (v5.11.5)</filename>
                         </operation>
                         <operation>
                           <type>Load OK</type>
-                          <date>Mon Apr 21 13:22:19 EDT 2025</date>
+                          <date>Mon Apr 21 13:58:12 EDT 2025</date>
                           <filename>/Users/jake/Library/Preferences/JMRI/Dispatch_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                         </operation>
                         <operation>
                           <type>Store</type>
-                          <date>Mon Apr 21 13:28:31 EDT 2025</date>
+                          <date>Mon Apr 21 14:08:40 EDT 2025</date>
                           <filename>/Users/jake/Library/Preferences/JMRI/Dispatch_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                         </operation>
                       </filehistory>
                     </operation>
                     <operation>
                       <type>Store</type>
-                      <date>Mon Apr 21 14:08:40 EDT 2025</date>
-                      <filename>/Users/jake/Library/Preferences/JMRI/Dispatch_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+                      <date>Fri Apr 25 06:26:21 EDT 2025</date>
+                      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                     </operation>
                   </filehistory>
                 </operation>
                 <operation>
                   <type>Store</type>
-                  <date>Fri Apr 25 06:26:21 EDT 2025</date>
+                  <date>Fri Apr 25 06:38:21 EDT 2025</date>
                   <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
                 </operation>
               </filehistory>
             </operation>
             <operation>
               <type>Store</type>
-              <date>Fri Apr 25 06:38:21 EDT 2025</date>
+              <date>Fri May 02 13:20:22 EDT 2025</date>
               <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
             </operation>
           </filehistory>
         </operation>
         <operation>
           <type>Store</type>
-          <date>Fri May 02 13:20:22 EDT 2025</date>
+          <date>Fri May 02 13:33:19 EDT 2025</date>
           <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
         </operation>
       </filehistory>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri May 02 13:33:19 EDT 2025</date>
+      <date>Mon May 05 17:43:53 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.5plus+jake+20250502T1725Z+R1d996f76bf6 on Fri May 02 13:33:19 EDT 2025-->
+  <!--Written by JMRI version 5.10plus+jake+20250505T1747Z+Rb7f4eb40901 on Mon May 05 17:43:53 EDT 2025-->
 </layout-config>
