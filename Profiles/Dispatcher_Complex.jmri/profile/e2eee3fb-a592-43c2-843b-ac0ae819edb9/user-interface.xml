@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <settings xmlns="http://jmri.org/xml/schema/auxiliary-configuration/settings-4-3-5.xsd">
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher.antialiasingOn</setting>
+        <setting xmlns="">jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher.toolBarThin</setting>
+    </settings>
+    <windowDetails xmlns="http://jmri.org/xml/schema/auxiliary-configuration/window-details-4-3-5.xsd">
+        <window xmlns="" class="jmri.jmrit.roster.Roster"/>
+        <window xmlns="" class="PanelPro" height="266.0" locX="668.0" locY="407.0" width="584.0"/>
+        <window xmlns="" class="jmri.jmrit.display.layoutEditor.LayoutEditor:PMRRM Dispatcher" height="970.0" locX="0.0" locY="25.0" width="1875.0"/>
+        <window xmlns="" class="Midway Yard" height="355.0" locX="-1111.0" locY="29.0" width="1079.0"/>
+    </windowDetails>
+</auxiliary-configuration>
