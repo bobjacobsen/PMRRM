@@ -32,8 +32,25 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
     def handle(self):
         self.waitMsec(8000)
 
+        # start with the PanelPro window
+        
         # find the frame containing the menus to disable
         frame = jmri.util.JmriJFrame.getFrame("PanelPro")
+        
+        fileMenu = findMenu(frame, "File")      
+        fileMenu.disable()
+        
+        rosterMenu = findMenu(frame, "Roster")      
+        rosterMenu.disable()
+        
+        panelMenu = findMenu(frame, "Panels")      
+        panelMenu.disable()
+        
+        scriptMenu = findMenu(frame, "Scripting")      
+        scriptMenu.disable()
+        
+        debugMenu = findMenu(frame, "Debug")      
+        debugMenu.disable()
         
         # find the menu in the menu bar
         loconetMenu = findMenu(frame, "LocoNet")
@@ -64,6 +81,19 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             print "Did not find Tools menu"
         
+
+        # Now proceed to the Layout Editor "Dispatcher" window
+        frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher")
+        
+        fileMenu = findMenu(frame, "File")      
+        fileMenu.disable()
+
+        optMenu = findMenu(frame, "Options")      
+        optMenu.disable()
+
+        toolsMenu = findMenu(frame, "Tools")      
+        toolsMenu.disable()
+
 
 # create one of these
 a = MenuItemDisable()
