@@ -12,6 +12,8 @@ session.log
 backupPanels/
 *.bak
 
+# local profiles
+user-interface.xml
 
 ### Ignorable LaTex files
 *.aux
