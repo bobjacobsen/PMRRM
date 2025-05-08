@@ -156,6 +156,7 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
 
         optMenu = findMenu(frame, "Options")      
         optMenu.disable()
+        optMenu.setEnabled(False)  # defeats the accelerator cmd-E
 
         toolsMenu = findMenu(frame, "Tools")      
         toolsMenu.disable()
