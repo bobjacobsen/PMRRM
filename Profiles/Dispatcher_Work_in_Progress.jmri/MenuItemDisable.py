@@ -7,28 +7,35 @@
 # an accessible menu bar
 
 import jmri
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory
 
 def findMenu(frame, menuName) :
     bar = frame.getMenuBar()
     if bar is None:
-        print "No menu bar on frame"
+        org.slf4j.LoggerFactory.getLogger(
+                "jmri.jmrit.jython.exec.script.MenuItemDisable"
+        ).error("No menu bar on frame")
         return None
     for i in range(0,bar.getMenuCount()-1) :
         menu = bar.getMenu(i)
         if menuName == menu.getLabel() : return menu
-    print "Did not find menu", menuName
+    org.slf4j.LoggerFactory.getLogger(
+            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+    ).error("Did not find menu {}", menuName)
     return None # error
 
 def findItem(menu, itemName) :
     for i in range(0, menu.getItemCount()) :
         item = menu.getItem(i)
         if itemName == item.getLabel() : return item
-    print "Did not find item", itemName
+    org.slf4j.LoggerFactory.getLogger(
+            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+    ).error("Did not find item {}", itemName)
     return None # error
 
 # this includes a delay to make sure the window is created if run during startup
 class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
-    # handle() is called repeatedly until it returns false.
     def handle(self):
         self.waitMsec(8000)
 
@@ -38,33 +45,19 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         frame = jmri.util.JmriJFrame.getFrame("PanelPro")
         
         fileMenu = findMenu(frame, "File")      
-        fileMenu.disable()
+        #fileMenu.disable()
         
-        rosterMenu = findMenu(frame, "Roster")      
-        rosterMenu.disable()
-        
-        panelMenu = findMenu(frame, "Panels")      
-        panelMenu.disable()
-        
-        scriptMenu = findMenu(frame, "Scripting")      
-        scriptMenu.disable()
-        
-        debugMenu = findMenu(frame, "Debug")      
-        debugMenu.disable()
-        
-        # find the menu in the menu bar
-        loconetMenu = findMenu(frame, "LocoNet")
-        
-        if loconetMenu is not None: # skip if run on some other connection
-           
-            # Find an item within that menu and disable it
-            monitorSlots = findItem(loconetMenu, "Monitor Slots")
-            monitorSlots.disable()
-            
-            configureCS = findItem(loconetMenu, "Configure Command Station")
-            configureCS.disable()
+        if fileMenu is not None:
+
+            # Find items within that menu and disable it
+            item = findItem(fileMenu, "Load table content and panels...")
+            item.disable()
+
+            item = findItem(fileMenu, "Store ALL table content and panels...")
+            item.disable()
+
         else :
-            print "Did not find LocoNet menu"
+            print "Did not find File menu"
             
         toolsMenu = findMenu(frame, "Tools")
 
@@ -78,8 +71,81 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
             throttles = findItem(toolsMenu, "Throttles")
             startWiThrottle = findItem(throttles, "Start WiThrottle Server")
             startWiThrottle.disable()
+            
         else :
             print "Did not find Tools menu"
+        
+
+        rosterMenu = findMenu(frame, "Roster")      
+        rosterMenu.disable()
+        
+        panelMenu = findMenu(frame, "Panels")      
+        panelMenu.disable()
+        
+        scriptMenu = findMenu(frame, "Scripting")      
+        scriptMenu.disable()
+        
+        # find the menu in the menu bar
+        loconetMenu = findMenu(frame, "LocoNet")
+        if loconetMenu is not None: # skip if run on some other connection
+           
+            # Find items within that menu and disable it
+            monitorSlots = findItem(loconetMenu, "Monitor Slots")
+            monitorSlots.disable()
+            
+            configure = findItem(loconetMenu, "Configure BDL16/BDL162/BDL168")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure PM4/PM42")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure SE8C")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure DS64")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure Command Station")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure LocoNet ID")
+            configure.disable()
+            
+            configure = findItem(loconetMenu, "Configure Duplex Group")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Manage LocoIO (LNSV1) Modules")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Manage LNCV Modules")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Send Throttle Messages")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Send LocoNet Packet")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Select PR3 Mode")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Download Firmware")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Download Sounds")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "Edit SPJ Sound File")
+            configure.disable()
+
+            configure = findItem(loconetMenu, "LocoNet over TCP Server")
+            configure.disable()
+
+        else :
+            print "Did not find LocoNet menu"
+            
+        debugMenu = findMenu(frame, "Debug")      
+        debugMenu.disable()
         
 
         # Now proceed to the Layout Editor "Dispatcher" window
@@ -94,6 +160,9 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         toolsMenu = findMenu(frame, "Tools")      
         toolsMenu.disable()
 
+        org.slf4j.LoggerFactory.getLogger(
+            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+        ).info("Menu update complete")
 
 # create one of these
 a = MenuItemDisable()
