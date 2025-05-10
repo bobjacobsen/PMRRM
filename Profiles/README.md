@@ -17,7 +17,8 @@ There are three profiles here:
   - Tag the repository with the date, e.v. 2025-05-23-some-comment
   
   - Update the ~electricalcrew/PMRRM-snapshot sub-repository to that tag. This updates the WIP profile in the dispatch account
-    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.xml to disable "check files at end" and to enable starting "DisableSomeMenus.py"
+    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.xml to disable "check files at end" 
+    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have `jmri-configurexml.enableStoreCheck=false`
   
   - Back in the ~electricalcrew/PMRRM repository, move files down through the directories:
   
@@ -31,3 +32,4 @@ There are three profiles here:
     - proper steps in startup
     - none have "check files on shutdown" configured
     - LT100 at Xerox behaving as required for the profile
+    
