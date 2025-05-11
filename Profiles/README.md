@@ -22,7 +22,6 @@ There are three profiles here:
  
   - If development has accidentally checked in its extra options, edit them out, commit and push:
     - In profile.xml, enable the "DisableMenuItems.py" script loading
-    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.xml to disable "check files at end" 
     - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have "jmri-configurexml.enableStoreCheck=false"
     
   - Tag the repository with the date, e.v. 2025-05-23-some-comment
