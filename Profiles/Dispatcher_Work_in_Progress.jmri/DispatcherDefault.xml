@@ -6377,7 +6377,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="9:04 AM">
+    <memory value="10:32 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -7870,7 +7870,7 @@
           <turnout systemName="McSweeney" />
         </beansetting>
       </path>
-      <path todir="128" fromdir="64" block="IB22">
+      <path todir="144" fromdir="96" block="IB22">
         <beansetting setting="4">
           <turnout systemName="Powderhorn E" />
         </beansetting>
@@ -7948,14 +7948,28 @@
           <turnout systemName="Pocket crossover" />
         </beansetting>
       </path>
-      <path todir="64" fromdir="128" block="IB20">
+      <path todir="96" fromdir="144" block="IB20">
         <beansetting setting="4">
           <turnout systemName="Powderhorn E" />
+        </beansetting>
+        <beansetting setting="4">
+          <turnout systemName="LT168" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Pocket crossover" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB21">
         <beansetting setting="4">
           <turnout systemName="Powderhorn crossover" />
+        </beansetting>
+      </path>
+      <path todir="64" fromdir="128" block="IB94">
+        <beansetting setting="2">
+          <turnout systemName="LT168" />
+        </beansetting>
+        <beansetting setting="2">
+          <turnout systemName="Pocket crossover" />
         </beansetting>
       </path>
     </block>
@@ -9158,6 +9172,11 @@
       <systemName>IB94</systemName>
       <userName>AUTOBLK:111</userName>
       <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB22">
+        <beansetting setting="2">
+          <turnout systemName="LT168" />
+        </beansetting>
+      </path>
     </block>
     <block systemName="IB:AUTO:0004" length="0.0" curve="0">
       <systemName>IB:AUTO:0004</systemName>
@@ -11986,7 +12005,7 @@
     <positionablelabel x="648" y="445" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="73" fontFamily="Dialog" fontname="Dialog" size="13" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
-    <positionablelabel x="1256" y="367" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="67 pocket xover" fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="1256" y="367" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="67 pocket xover" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="28" y="282" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="64 McSweeney" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -12710,7 +12729,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-PDS-EB" x="1288" y="421" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="NX-PDS-EB" x="1292" y="412" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" degrees="90" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <tooltip>NX-PDS-EB (IS50)</tooltip>
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="90" scale="1.0">
         <rotation>0</rotation>
@@ -15403,7 +15422,7 @@
     <layoutturnout ident="TO81" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="474.0" ycen="187.0" xa="494.0" ya="187.0" xb="454.0" yb="187.0" xc="454.0" yc="197.0" xd="494.0" yd="187.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT40" blockname="Kelso" connectaname="T124" connectbname="T128" connectcname="T126" />
     <layoutturnout ident="TO56" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="466.0" ycen="441.0" xa="486.0" ya="441.0" xb="446.0" yb="441.0" xc="446.0" yc="431.0" xd="486.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Troy station" blockname="Troy Main" connectaname="T48" connectbname="T80" connectcname="T87" />
     <layoutturnout ident="TO58" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1250.0" ycen="441.0" xa="1238.0" ya="441.0" xb="1262.0" yb="441.0" xc="1263.0" yc="453.0" xd="1238.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Powderhorn house" blockname="Powderhorn M" connectaname="T161" connectbname="T37" connectcname="T159" />
-    <layoutturnout ident="TO67" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1309.0" ycen="417.0" xa="1297.0" ya="417.0" xb="1321.0" yb="417.0" xc="1319.0" yc="426.0" xd="1297.0" yd="417.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT168" connectaname="T170" connectbname="T171" connectcname="T38" />
+    <layoutturnout ident="TO67" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1309.0" ycen="417.0" xa="1297.0" ya="417.0" xb="1321.0" yb="417.0" xc="1319.0" yc="426.0" xd="1297.0" yd="417.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT168" blockname="Powderhorn S" connectaname="T170" connectbname="T171" connectcname="T38" />
     <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1275.0" ycen="550.0" xa="1294.0" ya="550.0" xb="1256.0" yb="550.0" xc="1250.0" yc="582.0" xd="1294.0" yd="550.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2" blockname="U-Vw" connectaname="T32" connectbname="T59" connectcname="T60">
       <sensorB>NX-VistaM-EB</sensorB>
     </layoutturnout>
@@ -15435,8 +15454,8 @@
     </layoutturnout>
     <layoutturnout ident="TO83" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="234.0" ycen="284.0" xa="214.0" ya="284.0" xb="254.0" yb="284.0" xc="269.0" yc="268.0" xd="214.0" yd="284.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Osage Pocket Upper" blockname="Osage Siding" connectaname="T2" connectbname="T12" connectcname="T30" />
     <layoutturnout ident="TO84" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="726.0" ycen="397.0" xa="715.0" ya="397.0" xb="737.0" yb="397.0" xc="746.0" yc="387.0" xd="715.0" yd="397.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="AUTOBLK:81" connectaname="T111" connectbname="T131" connectcname="T132" />
-    <layoutturnout ident="TO23" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1203.0" ycen="429.0" xa="1196.9067280407987" ya="415.89921863703563" xb="1221.6225347662553" yb="416.06135407201083" xc="1209.0932719592013" yc="442.10078136296437" xd="1184.3774652337447" yd="441.93864592798917" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn crossover" blockname="Powderhorn S" blockcname="Powderhorn M" blockdname="Powderhorn M" connectaname="T158" connectbname="T163" connectcname="T161" connectdname="T160" />
-    <layoutturnout ident="TO33" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1260.0" ycen="401.0" xa="1254.4146138006695" ya="385.76609906509174" xb="1276.3307762072977" yb="385.6134878035059" xc="1265.5853861993305" yc="416.23390093490826" xd="1243.6692237927023" yd="416.3865121964941" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Pocket crossover" blockname="AUTOBLK:34" blockcname="Powderhorn S" blockdname="Powderhorn S" connectaname="T165" connectbname="T162" connectcname="T170" connectdname="T163" />
+    <layoutturnout ident="TO23" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1203.0" ycen="429.0" xa="1196.90673828125" ya="415.89923095703125" xb="1221.6224317769888" yb="416.0613403008995" xc="1209.09326171875" yc="442.10076904296875" xd="1184.3775682230112" yd="441.9386596991005" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn crossover" blockname="Powderhorn S" blockcname="Powderhorn M" blockdname="Powderhorn M" connectaname="T158" connectbname="T163" connectcname="T161" connectdname="T160" />
+    <layoutturnout ident="TO33" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1260.0" ycen="401.0" xa="1254.4146728515625" ya="385.76611328125" xb="1276.3305742616785" yb="385.61349481834304" xc="1265.5853271484375" yc="416.23388671875" xd="1243.6694257383215" yd="416.38650518165696" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Pocket crossover" blockname="AUTOBLK:34" blockcname="Powderhorn S" blockdname="Powderhorn S" connectaname="T165" connectbname="T162" connectcname="T170" connectdname="T163" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="MEP" connect1name="TO3" type1="TURNOUT_B" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -15676,19 +15695,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun May 11 08:50:29 EDT 2025</date>
+      <date>Sun May 11 10:27:42 EDT 2025</date>
       <filename>PanelPro (v5.11.6)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun May 11 08:50:32 EDT 2025</date>
+      <date>Sun May 11 10:27:46 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun May 11 09:04:41 EDT 2025</date>
+      <date>Sun May 11 10:32:17 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250511T1250Z+R68eef8937be on Sun May 11 09:04:41 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250511T1427Z+R68eef8937be on Sun May 11 10:32:17 EDT 2025-->
 </layout-config>
