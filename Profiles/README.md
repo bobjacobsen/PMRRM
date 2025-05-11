@@ -10,15 +10,24 @@ There are three profiles here:
  
  Images, configuration (panel) files and script files are stored at the top level in each profile.  There's no cross-loading between profiles so that they can be independently updated.
  
+ ## Repository Deplpoyment at PMRRM
+ 
+ At the Museum, there are two checkouts of this repository under the electricalcrew account:
+ - ~electricalcrew/PMRRM - This is the checkout for development and alpha testing
+ - ~electricalcrew/PMRRM-snapshot - Contains the specific checked-out tag used for beta testing (the WIP profile) and operations (the Simple and Complex profiles)
+     
  ## Process for updating
  
  These are the steps for updating WIP to Complex and Simple. These steps are done from the electricalcrew account which has write access to the relevant files
  
+  - If development has accidentally checked in its extra options, edit them out, commit and push:
+    - In profile.xml, enable the "DisableMenuItems.py" script loading
+    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.xml to disable "check files at end" 
+    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have "jmri-configurexml.enableStoreCheck=false"
+    
   - Tag the repository with the date, e.v. 2025-05-23-some-comment
   
-  - Update the ~electricalcrew/PMRRM-snapshot sub-repository to that tag. This updates the WIP profile in the dispatch account
-    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.xml to disable "check files at end" 
-    - Directly edit Dispatcher_Work_in_Progress.jmri/profile/profile.properties to have `jmri-configurexml.enableStoreCheck=false`
+  - Update the ~electricalcrew/PMRRM-snapshot sub-repository to that tag. This updates all three profiles in the dispatch account. 
   
   - Back in the ~electricalcrew/PMRRM repository, move files down through the directories:
   
