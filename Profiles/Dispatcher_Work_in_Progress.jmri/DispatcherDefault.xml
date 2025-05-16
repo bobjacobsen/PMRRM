@@ -6403,7 +6403,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="9:43 AM">
+    <memory value="9:49 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -12160,7 +12160,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2672" y="0" windowheight="1072" windowwidth="2105" panelheight="698" panelwidth="1461" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="135" y="166" windowheight="1072" windowwidth="2105" panelheight="698" panelwidth="1461" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="128" greenBackground="128" blueBackground="128" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRC NX DS 4a mod update" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -15759,11 +15759,11 @@
     <layoutturnout ident="TO34" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1012.0" ycen="441.0" xa="1024.0" ya="441.0" xb="1000.0" yb="441.0" xc="1002.0" yc="428.0" xd="1024.0" yd="441.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Staging" blockname="Redcliff Main" connectaname="T41" connectbname="T133" connectcname="T134" />
     <layoutturnout ident="TO44" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="775.0" ycen="419.0" xa="786.0" ya="419.0" xb="764.0" yb="419.0" xc="757.0" yc="397.0" xd="786.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Sierra E 2" blockname="Sierra Siding" connectaname="T45" connectbname="T127" connectcname="T131" />
     <layoutturnout ident="TO68" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="684.0" ycen="418.0" xa="673.0" ya="418.0" xb="695.0" yb="418.0" xc="705.0" yc="397.0" xd="673.0" yd="418.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Sierra W 2" blockname="Sierra Siding" connectaname="T112" connectbname="T127" connectcname="T111" />
-    <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="796.0" ycen="263.0" xa="789.0" ya="263.0" xb="803.0" yb="263.0" xc="812.0" yc="250.0" xd="789.0" yd="263.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 1" blockname="Midway P3" connectaname="T24" connectbname="T145" connectcname="T146" />
+    <layoutturnout ident="TO82" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="796.0" ycen="263.0" xa="789.0" ya="263.0" xb="803.0" yb="263.0" xc="806.0" yc="254.0" xd="789.0" yd="263.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 1" blockname="Midway P3" connectaname="T24" connectbname="T145" connectcname="T146" />
     <layoutturnout ident="TO88" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="424.0" ycen="487.0" xa="408.0" ya="487.0" xb="440.0" yb="487.0" xc="438.0" yc="500.0" xd="408.0" yd="487.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT184" blockname="Troy 3" connectaname="T52" connectbname="T62" connectcname="T79" />
     <layoutturnout ident="TO91" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="970.0" ycen="262.0" xa="981.0" ya="262.0" xb="959.0" yb="262.0" xc="960.0" yc="250.0" xd="981.0" yd="262.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="ME Team 1" blockname="Midway P3" connectaname="T144" connectbname="T145" connectcname="T147" />
     <layoutturnout ident="TO92" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="940.0" ycen="239.0" xa="952.0" ya="239.0" xb="928.0" yb="239.0" xc="930.0" yc="228.0" xd="952.0" yd="239.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="ME Team 2" blockname="AUTOBLK:74" connectaname="T147" connectbname="T151" connectcname="T150" />
-    <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="837.0" ycen="238.0" xa="826.0" ya="238.0" xb="848.0" yb="238.0" xc="846.0" yc="228.0" xd="826.0" yd="238.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
+    <layoutturnout ident="TO90" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="825.0" ycen="239.0" xa="812.0" ya="249.0" xb="838.0" yb="229.0" xc="839.0" yc="239.0" xd="812.0" yd="249.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MW Team 2" blockname="AUTOBLK:75" connectaname="T146" connectbname="T149" connectcname="T148" />
     <layoutturnout ident="TO73" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1080.0" ycen="201.0" xa="1068.0" ya="201.0" xb="1092.0" yb="201.0" xc="1104.0" yc="214.0" xd="1068.0" yd="201.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Hudson tanks" blockname="Hudson 2" connectaname="T117" connectbname="T156" connectcname="T155" />
     <layoutturnout ident="TO76" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1149.0" ycen="179.0" xa="1164.0" ya="179.0" xb="1134.0" yb="179.0" xc="1129.0" yc="169.0" xd="1164.0" yd="179.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Tyson Steel" blockname="Gary 2" connectaname="T113" connectbname="T154" connectcname="T153" />
     <layoutturnout ident="TO46" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1206.0" ycen="94.0" xa="1184.0" ya="84.0" xb="1213.333326" yb="84.0" xc="1228.0" yc="104.0" xd="1198.666674" yd="104.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Bend 4 to 3" blockname="Bend CP3-R" blockcname="Bend CP4" blockdname="Bend CP4" connectaname="T57" connectbname="T72" connectcname="T88" connectdname="T84" />
@@ -16021,8 +16021,8 @@
     <positionablepoint ident="A11" type="ANCHOR" x="988.0" y="428.0" connect1name="T134" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A13" type="ANCHOR" x="1410.5" y="441.0" connect1name="T157" connect2name="T141" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A18" type="ANCHOR" x="36.75" y="305.0" connect1name="T141" connect2name="T142" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB15" type="END_BUMPER" x="863.0" y="228.0" connect1name="T148" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB16" type="END_BUMPER" x="863.0" y="238.0" connect1name="T149" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB15" type="END_BUMPER" x="858.0" y="239.0" connect1name="T148" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB16" type="END_BUMPER" x="858.0" y="229.0" connect1name="T149" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB17" type="END_BUMPER" x="916.0" y="228.0" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB18" type="END_BUMPER" x="916.0" y="239.0" connect1name="T151" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB19" type="END_BUMPER" x="666.0" y="355.0" connect1name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -16054,9 +16054,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri May 16 09:43:07 EDT 2025</date>
+      <date>Fri May 16 09:49:38 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250516T1340Z+Rbe7d265be8d on Fri May 16 09:43:07 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250516T1340Z+Rbe7d265be8d on Fri May 16 09:49:38 EDT 2025-->
 </layout-config>
