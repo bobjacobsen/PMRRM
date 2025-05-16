@@ -6403,7 +6403,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="9:49 AM">
+    <memory value="9:52 AM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -15786,9 +15786,9 @@
     <layoutturnout ident="TO84" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="726.0" ycen="397.0" xa="715.0" ya="397.0" xb="737.0" yb="397.0" xc="746.0" yc="387.0" xd="715.0" yd="397.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT273" blockname="AUTOBLK:81" connectaname="T111" connectbname="T131" connectcname="T132" />
     <layoutturnout ident="TO23" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1203.0" ycen="429.0" xa="1196.90673828125" ya="415.89923095703125" xb="1221.6224317769888" yb="416.0613403008995" xc="1209.09326171875" yc="442.10076904296875" xd="1184.3775682230112" yd="441.9386596991005" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Powderhorn crossover" blockname="Powderhorn S" blockcname="Powderhorn M" blockdname="Powderhorn M" connectaname="T158" connectbname="T163" connectcname="T161" connectdname="T160" />
     <layoutturnout ident="TO33" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1260.0" ycen="401.0" xa="1254.4146728515625" ya="385.76611328125" xb="1276.3305742616785" yb="385.61349481834304" xc="1265.5853271484375" yc="416.23388671875" xd="1243.6694257383215" yd="416.38650518165696" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Pocket crossover" blockname="AUTOBLK:34" blockcname="Powderhorn S" blockdname="Powderhorn S" connectaname="T165" connectbname="T162" connectcname="T170" connectdname="T163" />
-    <layoutturnout ident="TO85" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="560.0" ycen="550.0" xa="580.0997476732307" ya="551.0293811185788" xb="540.3619670558825" yb="539.9551537784673" xc="539.4385375976562" yc="557.986083984375" xd="579.6380329441175" yd="560.0448462215327" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Xerox 1 Wye" blockname="AUTOBLK:112" connectaname="T70" connectbname="T176" connectcname="T172" />
-    <layoutturnout ident="TO86" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="561.0" ycen="586.0" xa="578.0192898658086" ya="585.8973096351158" xb="543.9320623582266" yb="578.0400975266435" xc="544.0293579101562" yc="594.165283203125" xd="578.0679376417734" yd="593.9599024733565" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Xerox 2 Wye" blockname="AUTOBLK:113" connectaname="T71" connectbname="T173" connectcname="T177" />
-    <layoutturnout ident="TO87" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="514.0" ycen="567.0" xa="505.0" ya="567.0" xb="523.0" yb="569.25" xc="523.0" yc="564.75" xd="505.0" yd="564.75" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo Center Wye" blockname="AUTOBLK:114" connectaname="T174" connectbname="T173" connectcname="T172" />
+    <layoutturnout ident="TO85" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="560.0" ycen="550.0" xa="581.9416829799767" ya="550.5369569753791" xb="538.2862897113639" yb="540.147390652372" xc="537.8303443286828" yc="558.7786953968697" xd="581.7137102886361" yd="559.852609347628" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Xerox 1 Wye" blockname="AUTOBLK:112" connectaname="T70" connectbname="T176" connectcname="T172" />
+    <layoutturnout ident="TO86" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="561.0" ycen="586.0" xa="577.8328150399116" ya="586.3103441528747" xb="544.3050120100206" yb="578.2140284911255" xc="544.0293579101562" yc="593.165283203125" xd="577.6949879899794" yd="593.7859715088745" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Xerox 2 Wye" blockname="AUTOBLK:113" connectaname="T71" connectbname="T173" connectcname="T177" />
+    <layoutturnout ident="TO87" type="WYE_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="514.0" ycen="568.0" xa="504.9129886404193" ya="567.5323185049871" xb="522.943813686933" yb="571.25" xc="523.2302090322283" yc="565.6853629900259" xd="505.0561863130669" yd="564.75" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo Center Wye" blockname="AUTOBLK:114" connectaname="T174" connectbname="T173" connectcname="T172" />
     <layoutturnout ident="TO93" type="LH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="456.0" ycen="580.0" xa="451.9275207519531" ya="567.9773559570312" xb="466.74013482913176" yb="567.5265505362308" xc="460.0724792480469" yc="592.0226440429688" xd="445.25986517086824" yd="592.4734494637692" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo Lower XOver" blockname="AUTOBLK:118" connectaname="T179" connectbname="T175" connectcname="T177" connectdname="T180" />
     <layoutturnout ident="TO89" type="RH_XOVER" hidden="no" disabled="yes" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="483.0" ycen="554.0" xa="469.2840270996094" ya="540.0184326171875" xb="487.96106185315335" yb="540.41674809556" xc="496.7159729003906" yc="567.9815673828125" xd="478.03893814684665" yd="567.58325190444" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo Upper XOver" blockname="AUTOBLK:126" connectaname="T178" connectbname="T176" connectcname="T174" connectdname="T175" />
     <tracksegment ident="T1" blockname="MEF" connect1name="TO3" type1="TURNOUT_C" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -16037,7 +16037,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="1341.0" y="466.125" connect1name="T169" connect2name="T168" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A21" type="ANCHOR" x="1254.0" y="466.1875" connect1name="T167" connect2name="T169" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB25" type="END_BUMPER" x="1343.0" y="417.0" connect1name="T171" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB9" type="END_BUMPER" x="380.0" y="540.0" connect1name="T178" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB9" type="END_BUMPER" x="381.0" y="539.0" connect1name="T178" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB12" type="END_BUMPER" x="380.0" y="567.0" connect1name="T179" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB26" type="END_BUMPER" x="380.0" y="592.0" connect1name="T180" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
@@ -16054,9 +16054,9 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri May 16 09:49:38 EDT 2025</date>
+      <date>Fri May 16 09:52:25 EDT 2025</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM_Work_Dir/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.11.6plus+jake+20250516T1340Z+Rbe7d265be8d on Fri May 16 09:49:38 EDT 2025-->
+  <!--Written by JMRI version 5.11.6plus+jake+20250516T1340Z+Rbe7d265be8d on Fri May 16 09:52:25 EDT 2025-->
 </layout-config>
