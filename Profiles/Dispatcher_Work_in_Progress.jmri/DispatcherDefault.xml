@@ -170,10 +170,6 @@
     <sensor inverted="false">
       <systemName>LS48</systemName>
       <userName>V-W</userName>
-      <debounceTimers>
-        <goingActive>3000</goingActive>
-        <goingInActive>3000</goingInActive>
-      </debounceTimers>
     </sensor>
     <sensor inverted="false">
       <systemName>LS49</systemName>
@@ -232,7 +228,6 @@
     <sensor inverted="false">
       <systemName>LS65</systemName>
       <userName>Narrows Lower</userName>
-      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS66</systemName>
@@ -329,7 +324,6 @@
     <sensor inverted="false">
       <systemName>LS94</systemName>
       <userName>Whiskey 3</userName>
-      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS95</systemName>
@@ -388,7 +382,6 @@
     <sensor inverted="false">
       <systemName>LS110</systemName>
       <userName>Narrows Upper</userName>
-      <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS111</systemName>
