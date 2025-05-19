@@ -14,7 +14,6 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
     self.savedColor = block.getBlockTrackColor()
     return
   def propertyChange(self, event):
-    print("propertyChange")
     if self.sensor.getKnownState() == UNKNOWN :
         self.block.setBlockTrackColor(java.awt.Color(190, 190, 255))
     else :
@@ -32,6 +31,7 @@ for sensor in sensors.getNamedBeanSet():
         if block != None :
             # have to deal with this one
             foundSome = True
+            print ("Found sensor in UNKNOWN state:", sensor, "for layout block:", block)
             listener = ResetBlockColorListener()
             listener.set(sensor, block)
             sensor.addPropertyChangeListener(listener)
