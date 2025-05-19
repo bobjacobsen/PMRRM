@@ -52,7 +52,8 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
             if turnout.state != CLOSED :
                 local = RED
                             
-        self.local.setAppearance(local)
+        if local != self.local.getAppearance() :
+            self.local.setAppearance(local)
         
         self.waitChange(self.beans)  # run again when something changes
         

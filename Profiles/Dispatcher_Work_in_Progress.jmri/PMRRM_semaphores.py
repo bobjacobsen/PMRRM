@@ -42,7 +42,8 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
             if turnout.state != CLOSED :
                 upper = RED
                 
-        self.upper.setAppearance(upper)
+        if upper != self.upper.getAppearance() :
+            self.upper.setAppearance(upper)
         
         lower = RED             # might not have next signal, in which case show Approach
         if self.next and self.next != False :
@@ -50,7 +51,9 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
                 lower = GREEN
         if upper == RED : 
             lower = RED
-        self.lower.setAppearance(lower)
+
+        if lower != self.lower.getAppearance() :
+            self.lower.setAppearance(lower)
         
         self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
         
