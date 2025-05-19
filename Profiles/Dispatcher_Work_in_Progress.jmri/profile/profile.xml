@@ -41,9 +41,9 @@
         <perform xmlns="" class="apps.configurexml.CreateButtonModelXml" enabled="yes" name="jmri.jmrit.beantable.BlockTableAction" type="Button">
             <property name="systemPrefix" value=""/>
         </perform>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:DontListenDoubleHead.py" type="ScriptFile"/> 
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_semaphores.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_searchlights.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:DontListenDoubleHead.py" type="ScriptFile"/> 
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:MenuItemDisable.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HighlightUnknownBlockSensors.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="scripts:ClearFileHistory.py" type="ScriptFile"/>
