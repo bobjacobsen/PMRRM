@@ -37,7 +37,7 @@ for sensor in sensors.getNamedBeanSet():
             sensor.addPropertyChangeListener(listener)
             listener.propertyChange(None)
             
-if foundSome :
-    JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
+# if foundSome :
+#    JOptionPane.showMessageDialog(None,"Light blue lines are occupancy sensors that didn't report status","Some sensor states unknown",JOptionPane.INFORMATION_MESSAGE)
             
     
