@@ -3674,9 +3674,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT162</systemName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT164</systemName>
+      <comment>Will eventually be Osage siding to pocket</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT167</systemName>
@@ -6406,7 +6404,7 @@
       <systemName>IM64</systemName>
       <userName>Vista 3</userName>
     </memory>
-    <memory value="12:53 PM">
+    <memory value="1:42 PM">
       <systemName>IMCURRENTTIME</systemName>
     </memory>
     <memory value="1.0">
@@ -9276,12 +9274,12 @@
       <path todir="64" fromdir="128" block="IB28" />
       <path todir="160" fromdir="80" block="IB98">
         <beansetting setting="4">
-          <turnout systemName="Xerox 1 Wye" />
+          <turnout systemName="Zion pass approach" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB104">
         <beansetting setting="2">
-          <turnout systemName="Xerox 1 Wye" />
+          <turnout systemName="Zion pass approach" />
         </beansetting>
       </path>
     </block>
@@ -9292,12 +9290,12 @@
       <path todir="64" fromdir="128" block="IB27" />
       <path todir="128" fromdir="64" block="IB99">
         <beansetting setting="2">
-          <turnout systemName="Xerox 2 Wye" />
+          <turnout systemName="Zion freight xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB105">
         <beansetting setting="4">
-          <turnout systemName="Xerox 2 Wye" />
+          <turnout systemName="Zion freight xover" />
         </beansetting>
       </path>
     </block>
@@ -9307,12 +9305,12 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB98">
         <beansetting setting="4">
-          <turnout systemName="Yazoo Center Wye" />
+          <turnout systemName="Zion middle wye" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB99">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Center Wye" />
+          <turnout systemName="Zion middle wye" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB109" />
@@ -9323,12 +9321,12 @@
       <permissive>no</permissive>
       <path todir="80" fromdir="160" block="IB95">
         <beansetting setting="4">
-          <turnout systemName="Xerox 1 Wye" />
+          <turnout systemName="Zion pass approach" />
         </beansetting>
       </path>
       <path todir="160" fromdir="80" block="IB97">
         <beansetting setting="4">
-          <turnout systemName="Yazoo Center Wye" />
+          <turnout systemName="Zion middle wye" />
         </beansetting>
       </path>
     </block>
@@ -9338,12 +9336,12 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB96">
         <beansetting setting="2">
-          <turnout systemName="Xerox 2 Wye" />
+          <turnout systemName="Zion freight xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB97">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Center Wye" />
+          <turnout systemName="Zion middle wye" />
         </beansetting>
       </path>
     </block>
@@ -9354,7 +9352,7 @@
       <path todir="128" fromdir="64" block="IB101" />
       <path todir="64" fromdir="128" block="IB109">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Upper XOver" />
+          <turnout systemName="Zion pass xover" />
         </beansetting>
       </path>
     </block>
@@ -9404,12 +9402,12 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB95">
         <beansetting setting="2">
-          <turnout systemName="Xerox 1 Wye" />
+          <turnout systemName="Zion pass approach" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB109">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Upper XOver" />
+          <turnout systemName="Zion pass xover" />
         </beansetting>
       </path>
     </block>
@@ -9419,7 +9417,7 @@
       <permissive>no</permissive>
       <path todir="64" fromdir="128" block="IB96">
         <beansetting setting="4">
-          <turnout systemName="Xerox 2 Wye" />
+          <turnout systemName="Zion freight xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB101">
@@ -9457,12 +9455,12 @@
       <path todir="64" fromdir="128" block="IB97" />
       <path todir="128" fromdir="64" block="IB100">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Upper XOver" />
+          <turnout systemName="Zion pass xover" />
         </beansetting>
       </path>
       <path todir="64" fromdir="128" block="IB104">
         <beansetting setting="2">
-          <turnout systemName="Yazoo Upper XOver" />
+          <turnout systemName="Zion pass xover" />
         </beansetting>
       </path>
       <path todir="128" fromdir="64" block="IB106" />
@@ -16107,19 +16105,19 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue May 20 11:26:21 PDT 2025</date>
+      <date>Tue May 20 13:38:03 PDT 2025</date>
       <filename>PanelPro (v5.8.0)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue May 20 11:26:31 PDT 2025</date>
+      <date>Tue May 20 13:38:12 PDT 2025</date>
       <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue May 20 12:53:39 PDT 2025</date>
+      <date>Tue May 20 13:42:59 PDT 2025</date>
       <filename>/Users/electricalcrew/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
-  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue May 20 12:53:39 PDT 2025-->
+  <!--Written by JMRI version 5.8+Rbc21ce2ce7 on Tue May 20 13:42:59 PDT 2025-->
 </layout-config>
