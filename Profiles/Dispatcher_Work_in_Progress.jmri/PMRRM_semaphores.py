@@ -33,7 +33,10 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
         
         # Remember the current state of the beans for a later waitCheck
         self.waitChangePrecheck(self.beans)
+        
         self.lastTime = self.current_milli_time() - self.minAcceptableTime # subtract to skip warning on 1st cycle
+        self.priorBeans = []
+        self.lastBeans = []
         self.log = LoggerFactory.getLogger("PMRRM_semaphores");
         
         # Printing the equivalent STL goes here
@@ -41,46 +44,64 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
         return
         
     def handle(self) :
+        # this defers to immediately run on Layout Thread
+
         # check for running too quickly
         delta = self.current_milli_time() - self.lastTime 
         if delta < self.minAcceptableTime :
             # ran abnormally quickly
             self.log.info("Semaphore logic {} ran in {} msec", self.getName(), delta)
-            self.log.info("last time {}", str(self.lastBeans))
+            self.log.info("prior time {}", str(self.priorBeans))
+            self.log.info("last time  {}", str(self.lastBeans))
             beansNow = []
             for bean in self.beans:
                 beansNow.append(bean.describeState(bean.state))
-            self.log.info("     now  {}", str(beansNow))
+            self.log.info("     now   {}", str(beansNow))
             
         self.lastTime = self.current_milli_time()
+        self.priorBeans = self.lastBeans
         self.lastBeans = []
         for bean in self.beans:
             self.lastBeans.append(bean.describeState(bean.state))
         
-        # calculate the semaphore positions and write if needed
-        upper = GREEN
+        class workOnLayout(jmri.util.ThreadingUtil.ThreadAction):
+            def __init__(self, blocks, turnouts, upper, lower, next):
+                self.blocks = blocks
+                self.turnouts = turnouts
+                self.upper = upper
+                self.lower = lower
+                self.next = next
 
-        for sensor in self.blocks :
-            if sensor.state != INACTIVE :
-                upper = RED
-                
-        for turnout in self.turnouts :
-            if turnout.state != CLOSED :
-                upper = RED
-                
-        if upper != self.upper.getAppearance() :
-            self.upper.setAppearance(upper)
+            def run(self):
+                # do the work that needs to access the GUI
+                        
+                # calculate the semaphore positions and write if needed
+                upper = GREEN
         
-        lower = RED             # might not have next signal, in which case show Approach
-        if self.next and self.next != False :
-            if self.next.getAppearance() != RED :
-                lower = GREEN
-        if upper == RED : 
-            lower = RED
+                for sensor in self.blocks :
+                    if sensor.state != INACTIVE :
+                        upper = RED
+                        
+                for turnout in self.turnouts :
+                    if turnout.state != CLOSED :
+                        upper = RED
+                        
+                if upper != self.upper.getAppearance() :
+                    self.upper.setAppearance(upper)
+                
+                lower = RED             # might not have next signal, in which case show Approach
+                if self.next and self.next != False :
+                    if self.next.getAppearance() != RED :
+                        lower = GREEN
+                if upper == RED : 
+                    lower = RED
+        
+                if lower != self.lower.getAppearance() :
+                    self.lower.setAppearance(lower)
+        
+        # invoke on layout thread
+        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.upper, self.lower, self.next))
 
-        if lower != self.lower.getAppearance() :
-            self.lower.setAppearance(lower)
-        
         self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
         
         return True

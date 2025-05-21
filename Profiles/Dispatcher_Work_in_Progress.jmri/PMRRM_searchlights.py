@@ -14,10 +14,17 @@
 # You must specify _all_ of these.  Store [] if the lists have no content
 
 import jmri
+import time
+from org.slf4j import LoggerFactory
 
 class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
+    def current_milli_time(self):
+        return int(time.time() * 1000)
+        
     def init(self) :
         
+        self.minAcceptableTime = 200
+
         # create a list of inputs to watch
         self.beans = []
         self.beans.extend(self.blocks)
@@ -28,34 +35,72 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
         # Remember the current state of the beans for a later waitCheck
         self.waitChangePrecheck(self.beans)
         
+        self.lastTime = self.current_milli_time() - self.minAcceptableTime # subtract to skip warning on 1st cycle
+        self.lastBeans = []
+        self.log = LoggerFactory.getLogger("PMRRM_searchlights");
+
         # Printing the equivalent STL goes here
         
         return
         
     def handle(self) :
-        local = GREEN
+        # check for running too quickly
+        delta = self.current_milli_time() - self.lastTime 
+        if delta < self.minAcceptableTime :
+            # ran abnormally quickly
+            self.log.info("Searchlight logic {} ran in {} msec", self.getName(), delta)
+            self.log.info("prior time {}", str(self.priorBeans))
+            self.log.info("last time  {}", str(self.lastBeans))
+            beansNow = []
+            for bean in self.beans:
+                beansNow.append(bean.describeState(bean.state))
+            self.log.info("     now   {}", str(beansNow))
+            
+        self.lastTime = self.current_milli_time()
+        self.priorBeans = self.lastBeans
+        self.lastBeans = []
+        for bean in self.beans:
+            self.lastBeans.append(bean.describeState(bean.state))
 
-        nextRed = True
-        if self.next != False :
-            if self.next.getAppearance() != RED :
-                nextRed = False
-        if self.next2 != False :
-            if self.next2.getAppearance() != RED :
-                nextRed = False
-        if nextRed : local = YELLOW
+        class workOnLayout(jmri.util.ThreadingUtil.ThreadAction):
+            def __init__(self, blocks, turnouts, local, next, next2):
+                self.blocks = blocks
+                self.turnouts = turnouts
+                self.local = local
+                self.next = next
+                self.next2 = next2
 
-        for sensor in self.blocks :
-            if sensor.state != INACTIVE :
-                local = RED
-                
-        for turnout in self.turnouts :
-            if turnout.state != CLOSED :
-                local = RED
-                            
-        if local != self.local.getAppearance() :
-            self.local.setAppearance(local)
+            def run(self):
+                # do the work that needs to access the GUI
+                        
+                # calculate the searchlight appearances and write if needed
+
+                local = GREEN
         
-        self.waitChange(self.beans)  # run again when something changes
+                nextRed = True
+                if self.next != False :
+                    if self.next.getAppearance() != RED :
+                        nextRed = False
+                if self.next2 != False :
+                    if self.next2.getAppearance() != RED :
+                        nextRed = False
+                if nextRed : local = YELLOW
+        
+                for sensor in self.blocks :
+                    if sensor.state != INACTIVE :
+                        local = RED
+                        
+                for turnout in self.turnouts :
+                    if turnout.state != CLOSED :
+                        local = RED
+                                    
+                if local != self.local.getAppearance() :
+                    self.local.setAppearance(local)
+                
+        # invoke on layout thread
+        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.local, self.next, self.next2))
+
+        self.waitChange(self.beans)  # run again when something changes or after a delay (just in case)?
         
         return True
 
