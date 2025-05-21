@@ -14,9 +14,16 @@
 # You must specify _all_ of these.  Store [] if the lists have no content
 
 import jmri
+import time
+from org.slf4j import LoggerFactory
 
 class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
+    def current_milli_time(self):
+        return int(time.time() * 1000)
+        
     def init(self) :
+        
+        self.minAcceptableTime = 200
         
         # create a list of inputs to watch
         self.beans = []
@@ -26,12 +33,31 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
         
         # Remember the current state of the beans for a later waitCheck
         self.waitChangePrecheck(self.beans)
+        self.lastTime = self.current_milli_time() - self.minAcceptableTime # subtract to skip warning on 1st cycle
+        self.log = LoggerFactory.getLogger("PMRRM_semaphores");
         
         # Printing the equivalent STL goes here
         
         return
         
     def handle(self) :
+        # check for running too quickly
+        delta = self.current_milli_time() - self.lastTime 
+        if delta < self.minAcceptableTime :
+            # ran abnormally quickly
+            self.log.info("Semaphore logic {} ran in {} msec", self.getName(), delta)
+            self.log.info("last time {}", str(self.lastBeans))
+            beansNow = []
+            for bean in self.beans:
+                beansNow.append(bean.describeState(bean.state))
+            self.log.info("     now  {}", str(beansNow))
+            
+        self.lastTime = self.current_milli_time()
+        self.lastBeans = []
+        for bean in self.beans:
+            self.lastBeans.append(bean.describeState(bean.state))
+        
+        # calculate the semaphore positions and write if needed
         upper = GREEN
 
         for sensor in self.blocks :
