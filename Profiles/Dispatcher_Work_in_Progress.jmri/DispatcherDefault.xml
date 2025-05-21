@@ -10721,6 +10721,7 @@
       <routeOutputTurnout systemName="Midway W Eng Svc" state="CLOSED" />
       <routeOutputTurnout systemName="Narrows" state="CLOSED" />
       <routeOutputTurnout systemName="Osage pocket" state="CLOSED" />
+      <routeOutputTurnout systemName="Osage Pocket Upper" state="CLOSED" />
       <routeOutputTurnout systemName="Osage crossover" state="CLOSED" />
       <routeOutputTurnout systemName="Osage W" state="CLOSED" />
       <routeOutputTurnout systemName="McSweeney" state="CLOSED" />
