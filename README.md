@@ -1,4 +1,4 @@
-This contains configuration files for the Pasadena Model Railroad Club (PMRRC)
+This contains configuration files for the Pasadena Model Railroad Museum (PMRRM)
 
 Git tags are used to capture the contents after various work efforts. Note that tags start with the date tagged. See notebooks for more info about what dates are what. 
 
