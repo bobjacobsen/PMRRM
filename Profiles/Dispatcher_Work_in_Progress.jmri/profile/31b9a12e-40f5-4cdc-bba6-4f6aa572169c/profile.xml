@@ -13,7 +13,7 @@
                 </option>
                 <option>
                     <name>LoconetProtocolAutoDetect</name>
-                    <value>Auto Detect</value>
+                    <value>No</value>
                 </option>
                 <option>
                     <name>PacketizerType</name>
@@ -36,16 +36,6 @@
                     <value>OpenLCB</value>
                 </option>
             </options>
-            <node name="Ident">
-                <parameter name="UserName">Dispatcher JMRI</parameter>
-                <parameter name="NodeId"/>
-                <parameter name="UserDescription"/>
-            </node>
-            <node name="FastClock">
-                <parameter name="EnableMode">disabled</parameter>
-                <parameter name="ClockCustomId"/>
-                <parameter name="ClockId">default</parameter>
-            </node>
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">

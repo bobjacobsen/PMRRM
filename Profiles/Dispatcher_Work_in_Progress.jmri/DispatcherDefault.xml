@@ -15444,7 +15444,7 @@
       <systemName>ILB32</systemName>
       <userName>Midway West main passenger</userName>
     </layoutblock>
-    <layoutblock systemName="ILB33" occupancysensor="Midway West LS6 LT58 track 1 stop block " occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West Main 1">
+    <layoutblock systemName="ILB33" occupancysensor="Midway West LS6 LT58 track 1 stop block " occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Midway West Main 1">
       <systemName>ILB33</systemName>
       <userName>Midway West track 1 LT58 stopping block</userName>
     </layoutblock>
@@ -15643,7 +15643,7 @@
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
     </layoutblock>
-    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB83</systemName>
       <userName>Midway West station 3 stop block</userName>
     </layoutblock>
@@ -15655,7 +15655,7 @@
       <systemName>ILB86</systemName>
       <userName>AUTOBLK:86</userName>
     </layoutblock>
-    <layoutblock systemName="ILB88" occupancysensor="LS138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB88" occupancysensor="LS138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB88</systemName>
       <userName>Colton CP2</userName>
     </layoutblock>
@@ -15663,7 +15663,7 @@
       <systemName>ILB89</systemName>
       <userName>CP D3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB91</systemName>
       <userName>Colton CP1-L</userName>
     </layoutblock>
@@ -15695,11 +15695,11 @@
       <systemName>ILB100</systemName>
       <userName>Bend CP4</userName>
     </layoutblock>
-    <layoutblock systemName="ILB101" occupancysensor="Midway West station 2 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Midway West Station 2 stop block">
+    <layoutblock systemName="ILB101" occupancysensor="Midway West station 2 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Midway West Station 2 stop block">
       <systemName>ILB101</systemName>
       <userName>Midway West station 2 stop block</userName>
     </layoutblock>
-    <layoutblock systemName="ILB102" occupancysensor="LS137" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB102" occupancysensor="LS137" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB102</systemName>
       <userName>Colton CP3-L</userName>
     </layoutblock>
@@ -15767,7 +15767,7 @@
       <systemName>ILB118</systemName>
       <userName>AUTOBLK:118</userName>
     </layoutblock>
-    <layoutblock systemName="ILB119" occupancysensor="Midway West Passenger Throat" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB119" occupancysensor="Midway West Passenger Throat" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB119</systemName>
       <userName>Midway West passenger throat</userName>
     </layoutblock>
@@ -25352,17 +25352,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Jul 02 14:10:32 PDT 2026</date>
+      <date>Thu Jul 02 14:42:21 PDT 2026</date>
       <filename>PanelPro (v5.15.9)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Jul 02 14:10:43 PDT 2026</date>
+      <date>Thu Jul 02 14:42:31 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 02 14:12:57 PDT 2026</date>
+      <date>Thu Jul 02 14:43:02 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>

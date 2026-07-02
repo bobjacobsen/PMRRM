@@ -2,82 +2,49 @@
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
   <roster>
-    <locomotive id="Signalman Testing" fileName="Signalman_Testing.xml" roadNumber="" roadName="" mfg="" owner="PMRRM" model="" dccAddress="11000" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2019-02-13T21:31:42.000+00:00</dateUpdated>
-      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="11000" longaddress="yes" />
-        <number>11000</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
-    <locomotive id="Switchman" fileName="Switchman.xml" roadNumber="" roadName="" mfg="" owner="PMRRM" model="" dccAddress="9999" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-11-15T20:30:56.887+00:00</dateUpdated>
-      <decoder model="SwitchMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
-    <locomotive id="Switchman Bend" fileName="Switchman_Bend.xml" roadNumber="" roadName="" mfg="" owner="PMRRM" model="" dccAddress="9999" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-11-15T20:31:03.693+00:00</dateUpdated>
-      <decoder model="SwitchMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
-    <locomotive id="Watchman default" fileName="Watchman_default.xml" roadNumber="" roadName="" mfg="" owner="PMRRM" model="" dccAddress="9999" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2023-11-15T20:31:10.208+00:00</dateUpdated>
+    <locomotive id="10,000 Watchman Midway West" fileName="10_000_Watchman_Midway_West__2x8_.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="Watchman" dccAddress="10000" comment="Addresses 5,6,7,8 and 4,3,2,8 NOTE 2x8" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-02T21:32:32.444+00:00</dateUpdated>
       <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
+        <dcclocoaddress number="10000" longaddress="yes" />
+        <number>10000</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="10,002 Watchman Narrows Upper" fileName="10_002_Watchman_candidate.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923, 110 &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-02T21:38:18.745+00:00</dateUpdated>
+      <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="10002" longaddress="yes" />
+        <number>10002</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="10,003 Watchman Fox" fileName="10_003_Watchman_candidate.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="9500" comment="1020,1021,255,,141 &amp; 934,933,256,141 9500 address ?" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-02T21:07:23.510+00:00</dateUpdated>
+      <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="9500" longaddress="yes" />
+        <number>9500</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="10003B" fileName="10003B.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="10003" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-02T21:42:08.371+00:00</dateUpdated>
+      <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="10003" longaddress="yes" />
+        <number>10003</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
     </locomotive>
   </roster>
-  <rosterGroup>
-    <group>BNSF</group>
-    <group>NP</group>
-    <group>BM</group>
-    <group>BN</group>
-    <group>CNW</group>
-    <group>NH&amp;W</group>
-    <group>PRR</group>
-    <group>DW</group>
-    <group>CBQ</group>
-    <group>SBD</group>
-    <group>CB&amp;Q</group>
-    <group>ATSF</group>
-    <group>NYC</group>
-    <group>WP</group>
-    <group>SM</group>
-    <group>UP</group>
-    <group>SP</group>
-    <group>DRGW</group>
-    <group>Milw</group>
-    <group>ON LAYOUT</group>
-    <group>FEC</group>
-    <group>GN</group>
-    <group>AMT</group>
-    <group>CSX</group>
-    <group>B&amp;O</group>
-    <group>C&amp;O</group>
-    <group>CP</group>
-    <group>CR</group>
-    <group>PC</group>
-    <group>Caboose</group>
-    <group>NH</group>
-  </rosterGroup>
 </roster-config>

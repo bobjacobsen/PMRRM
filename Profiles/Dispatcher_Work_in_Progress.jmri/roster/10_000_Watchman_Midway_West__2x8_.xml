@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="10,000 Watchman Midway West (2x8)" fileName="10_000_Watchman_candidate.xml" roadNumber="10000" roadName="Electrical Crew" mfg="RR-CirKits" owner="Electrical Crew" model="Watchman" dccAddress="10000" comment="Addresses 5,6,7,8 and 4,3,2,8 NOTE 2x8&#xA;&#xA;" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-02T20:27:52.178+00:00</dateUpdated>
+  <locomotive id="10,000 Watchman Midway West" fileName="10_000_Watchman_Midway_West__2x8_.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="Watchman" dccAddress="10000" comment="Addresses 5,6,7,8 and 4,3,2,8 NOTE 2x8" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-02T21:32:32.444+00:00</dateUpdated>
     <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="10000" longaddress="yes" />
