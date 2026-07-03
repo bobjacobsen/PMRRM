@@ -1,7 +1,7 @@
 
 # Background Information on this JMRI Profile #
 
-This is the development profile for the PMRRM dispatcher system.
+This is a profile for the PMRRM dispatcher system.
 
 ## Startup ##
 
@@ -26,6 +26,18 @@ It also
  - Starts the JMRI web server to display on the secondary screens.
  - Sets the "compare files on shutdown" option to "no"
  
-Note that when working on the panel, you might want to _temporarily_ turn on the "don't compare files on shutdown" option.  Don't commit that change!
+Note that when working on the panel, you might want to _temporarily_ turn off the "don't compare files on shutdown" option.  Don't commit that change!
+
+When configuring the LCC connection, select protocol settings:
+
+ - User Name: Dispatcher JMRI
+
+When configuring the LocoNet connection, select additional connection settings:
+
+ - Interrogate Sensors/Turnouts On Start: Yes
+ - Expanded Protocol (XP Slots): Auto Detect
+ - Packetizer type: Normal (recommended)
+ - Transponding present: No
+ - Turnout command handling: Spread
 
 
