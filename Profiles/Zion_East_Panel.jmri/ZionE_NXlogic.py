@@ -68,11 +68,14 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
 	self.waitMsec(200)
 	global E2W23state, E1W12state, E12W2state
 	global X23state, X12state
-	E2W23state = turnouts.getTurnout("Yazoo E2 to W2-W3").state
-	E1W12state = turnouts.getTurnout("Yazoo E1 to W1-W2").state
-	E12W2state = turnouts.getTurnout("Yazoo W2 to E1-E2").state
-	X23state = turnouts.getTurnout("Yazoo 2-3 XOver D-N").state
-	X12state = turnouts.getTurnout("Yazoo 1-2 XOver D-N").state
+
+    # set initial states, should be kept consistent with NXInit below
+	E2W23state = CLOSED
+	E1W12state = THROWN
+	E12W2state = CLOSED # empirical setting?
+	X23state = CLOSED
+	X12state = CLOSED
+
 	return
         
     def handle(self):
@@ -109,7 +112,7 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(20)  # to simulate -Q node
         self.cycles = self.cycles + 1
 
-        # cancel all lights if any turnouts are inconsistent
+        # darken all selection lights if any turnouts are set differently after an initial delay
         if ( (
                 E2W23state != E2W23.state or 
                 E1W12state != E1W12.state or 
@@ -119,6 +122,14 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
                 )
 		and self.cycles > 500) :
                 
+            print "Cancelling Yazoo NX settings due to turnout change after", self.cycles, "cycles"
+            print "Expected      Found"
+            print E2W23.describeState(E2W23state), "  ", E2W23.describeState(E2W23.state)
+            print E1W12.describeState(E1W12state), "  ", E1W12.describeState(E1W12.state)
+            print E12W2.describeState(E12W2state), "  ", E12W2.describeState(E12W2.state)
+            print X23.describeState(X23state), "  ", X23.describeState(X23.state)
+            print X12.describeState(X12state), "  ", X12.describeState(X12.state)
+                        
             X1On = False 
             X1Allocated = False
             X1Off = True
@@ -414,7 +425,6 @@ class NXInit(jmri.jmrit.automat.AbstractAutomaton) :
         
         self.waitMsec(step)
         
-        print ("Y1 cycle")
         turnouts.getTurnout("ZE NX Y3 request").commandedState = THROWN
         self.waitMsec(step)
         turnouts.getTurnout("ZE NX Y3 request").commandedState = CLOSED
