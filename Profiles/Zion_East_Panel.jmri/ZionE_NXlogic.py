@@ -72,9 +72,16 @@ class NXdriver(jmri.jmrit.automat.AbstractAutomaton) :
     # set initial states, should be kept consistent with NXInit below
 	E2W23state = CLOSED
 	E1W12state = THROWN
-	E12W2state = CLOSED # empirical setting?
+	E12W2state = CLOSED
 	X23state = CLOSED
 	X12state = CLOSED
+	
+	turnouts.getTurnout("Yazoo E2 to W2-W3").state = E2W23state
+	turnouts.getTurnout("Yazoo E1 to W1-W2").state = E1W12state
+	turnouts.getTurnout("Yazoo W2 to E1-E2").state = E12W2state
+	turnouts.getTurnout("Yazoo 2-3 XOver D-N").state = X23state
+	turnouts.getTurnout("Yazoo 1-2 XOver D-N").state = X12state
+
 
 	return
         
