@@ -16525,6 +16525,12 @@
   </signalmastlogics>
   <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
     <meter>
+      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDB210(s/n211)Voltage</systemName>
+    </meter>
+    <meter>
       <systemName>LVDB210(s/n37)InputCurrent</systemName>
     </meter>
     <meter>
@@ -25347,17 +25353,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Jul 05 15:02:43 PDT 2026</date>
+      <date>Sun Jul 05 15:31:22 PDT 2026</date>
       <filename>PanelPro (v5.15.9)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Jul 05 15:02:54 PDT 2026</date>
+      <date>Sun Jul 05 15:31:32 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Jul 05 15:29:45 PDT 2026</date>
+      <date>Sun Jul 05 15:33:12 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
