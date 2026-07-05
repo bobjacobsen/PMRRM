@@ -9,8 +9,8 @@
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName"/>
-                <parameter name="NodeId">Zion East RPi JMRI</parameter>
+                <parameter name="UserName">Zion East RPi</parameter>
+                <parameter name="NodeId"/>
                 <parameter name="UserDescription"/>
             </node>
             <node name="FastClock">
