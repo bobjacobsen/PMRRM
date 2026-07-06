@@ -17462,6 +17462,11 @@
     <positionablelabel x="777" y="559" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="776" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="342" y="156" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1350" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="219" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1275" y="385" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="850" y="493" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS651" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="850" y="559" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS649" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="850" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="No responding LS" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1410" y="426" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MESL1" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1410" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MESL2" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="226.0" ycen="63.0" xa="186.0" ya="63.0" xb="266.0" yb="63.0" xc="252.0" yc="90.0" xd="186.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Eng Svc" secondturnoutname="Midway LT59 partner" connectaname="T1" connectbname="T36" connectcname="T4" />
@@ -25334,17 +25339,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Mon Jul 06 12:42:30 PDT 2026</date>
+      <date>Mon Jul 06 13:26:52 PDT 2026</date>
       <filename>PanelPro (v5.15.10)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Mon Jul 06 12:42:55 PDT 2026</date>
+      <date>Mon Jul 06 13:27:04 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Mon Jul 06 12:56:01 PDT 2026</date>
+      <date>Mon Jul 06 13:37:41 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
