@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>15</minor>
-    <test>6</test>
+    <test>10</test>
     <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.openlcb.configurexml.OlcbSensorManagerXml">
@@ -240,6 +240,42 @@
     <sensor inverted="false">
       <systemName>MS02.01.57.40.00.07.06.0A;02.01.57.40.00.07.06.0B</systemName>
       <userName>ZE NX Debug B2 set</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.60;02.01.57.40.00.07.06.61</systemName>
+      <userName>Yazoo indicators 1</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.62;02.01.57.40.00.07.06.63</systemName>
+      <userName>Yazoo indicators 2</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.64;02.01.57.40.00.07.06.65</systemName>
+      <userName>Yazoo indicators 3</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.66;02.01.57.40.00.07.06.67</systemName>
+      <userName>Yazoo indicators 4</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.68;02.01.57.40.00.07.06.69</systemName>
+      <userName>Yazoo indicators 5</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.6A;02.01.57.40.00.07.06.6B</systemName>
+      <userName>Yazoo indicators 6</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.6C;02.01.57.40.00.07.06.6D</systemName>
+      <userName>Yazoo indicators 7</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.6E;02.01.57.40.00.07.06.6F</systemName>
+      <userName>Yazoo indicators 8</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.40.00.07.06.70;02.01.57.40.00.07.06.71</systemName>
+      <userName>Yazoo indicators 9</userName>
     </sensor>
   </sensors>
   <sensors class="jmri.jmrix.internal.configurexml.InternalSensorManagerXml">
@@ -3857,7 +3893,7 @@
       <iconmaps />
     </sensoricon>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Zion East Track Diagram" x="40" y="30" windowheight="964" windowwidth="2520" panelheight="813" panelwidth="2870" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Zion East Track Diagram" x="0" y="32" windowheight="1000" windowwidth="2553" panelheight="813" panelwidth="2870" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Zion East Track Diagram" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -4806,6 +4842,186 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
+    <sensoricon sensor="Yazoo indicators 1" x="1644" y="540" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 2" x="1756" y="541" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 2" x="1799" y="547" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 3" x="1706" y="565" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 4" x="1805" y="575" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 5" x="1611" y="588" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 6" x="1761" y="592" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 7" x="1806" y="605" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 8" x="1619" y="620" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 9" x="1656" y="650" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 9" x="1710" y="649" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
+    <sensoricon sensor="Yazoo indicators 9" x="1799" y="640" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </active>
+      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inactive>
+      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </unknown>
+      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="0" scale="1.0">
+        <rotation>0</rotation>
+      </inconsistent>
+      <iconmaps />
+    </sensoricon>
     <layoutturnout ident="TO1" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="913.5" ycen="282.5" xa="920.5" ya="300.5" xb="906.5" yb="264.5" xc="893.5" yc="282.5" xd="920.5" yd="300.5" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT23-PT1" connectaname="T5" connectbname="T4" connectcname="T1" />
     <layoutturnout ident="TO2" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="852.5" ycen="262.5" xa="861.65" ya="282.79" xb="843.35" yb="242.21" xc="808.21" yc="262.79" xd="861.65" yd="282.79" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Port PT2-PT3" connectaname="T1" connectbname="T3" connectcname="T2" />
     <layoutturnout ident="TO3" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="980.0" ycen="398.0" xa="968.53" ya="381.62" xb="991.47" yb="414.38" xc="999.66" yc="408.65" xd="968.53" yd="381.62" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion East Branch East Port-Zion Mirror" secondturnoutname="Zion Branch East Port-Zion" secondturnoutinverted="true" connectaname="T5" connectbname="T6" connectcname="T8" />
@@ -4836,11 +5052,11 @@
     <layoutturnout ident="TO39" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1180.0" ycen="570.0" xa="1131.33" ya="545.6" xb="1196.4" yb="545.95" xc="1228.67" yc="594.4" xd="1163.6" yd="594.05" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Zion East W 2 3 Cross" connectaname="T83" connectbname="T86" connectcname="T81" connectdname="T82" />
     <layoutturnout ident="TO40" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1304.0" ycen="625.0" xa="1241.4" ya="595.08" xb="1324.63" yb="594.59" xc="1366.6" yc="654.92" xd="1283.37" yd="655.41" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Zion East Z1 to Z2 East Xover - Straight" connectaname="T81" connectbname="T87" connectcname="T88" connectdname="T84" />
     <layoutturnout ident="TO41" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1711.0" ycen="571.0" xa="1657.92" ya="545.16" xb="1729.23" yb="546.32" xc="1764.08" yc="596.84" xd="1692.77" yd="595.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Yazoo 2-3 XOver D-N" connectaname="T86" connectbname="T89" connectcname="T90" connectdname="T85" />
-    <layoutturnout ident="TO42" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1623.0" ycen="625.0" xa="1602.83" ya="594.68" xb="1683.91" yb="594.95" xc="1643.17" yc="655.32" xd="1562.09" yd="655.05" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 1-2 XOver D-N" connectaname="T87" connectbname="T85" connectcname="T97" connectdname="T88" />
+    <layoutturnout ident="TO42" type="LH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1623.0" ycen="625.0" xa="1605.83" ya="594.68" xb="1675.02" yb="594.97" xc="1640.17" yc="655.32" xd="1570.98" yd="655.03" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHXOverXml" turnoutname="Yazoo 1-2 XOver D-N" connectaname="T87" connectbname="T85" connectcname="T97" connectdname="T88" />
     <layoutturnout ident="TO43" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1831.0" ycen="566.0" xa="1846.4" ya="565.13" xb="1815.09" yb="557.71" xc="1816.12" yc="576.03" xd="1846.91" yd="574.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo E2 to W2-W3" connectaname="T93" connectbname="T96" connectcname="T95" />
-    <layoutturnout ident="TO44" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1833.0" ycen="625.0" xa="1852.03" ya="625.98" xb="1814.65" yb="610.81" xc="1813.29" yc="637.22" xd="1851.35" yd="639.19" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo E1 to W1-W2" connectaname="T92" connectbname="T94" connectcname="T91" />
+    <layoutturnout ident="TO44" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1833.0" ycen="625.0" xa="1849.59" ya="625.37" xb="1816.65" yb="613.81" xc="1816.17" yc="635.44" xd="1849.35" yd="636.19" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo E1 to W1-W2" connectaname="T92" connectbname="T94" connectcname="T91" />
     <layoutturnout ident="TO46" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2092.0" ycen="564.0" xa="2112.0" ya="564.0" xb="2072.0" yb="564.0" xc="2076.0" yc="579.0" xd="2112.0" yd="564.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Xerox 1-2" connectaname="T101" connectbname="T93" connectcname="T98" />
-    <layoutturnout ident="TO47" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1786.0" ycen="596.0" xa="1764.64" ya="596.9" xb="1807.85" yb="606.69" xc="1806.87" yc="583.5" xd="1764.15" yd="585.31" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo W2 to E1-E2" connectaname="T90" connectbname="T94" connectcname="T95" />
+    <layoutturnout ident="TO47" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1786.0" ycen="596.0" xa="1768.36" ya="596.37" xb="1803.85" yb="605.69" xc="1803.43" yc="585.56" xd="1768.15" yd="586.31" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="Yazoo W2 to E1-E2" connectaname="T90" connectbname="T94" connectcname="T95" />
     <layoutturnout ident="TO48" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2662.0" ycen="565.0" xa="2682.0" ya="565.0" xb="2642.0" yb="565.0" xc="2649.0" yc="586.0" xd="2682.0" yd="565.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Whiskey E 12-Main" connectaname="T108" connectbname="T102" connectcname="T100" />
     <layoutturnout ident="TO50" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="2283.0" ycen="565.0" xa="2263.0" ya="565.0" xb="2303.0" yb="565.0" xc="2301.0" yc="591.0" xd="2263.0" yd="565.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Whiskey W 12-Main" connectaname="T101" connectbname="T102" connectcname="T99" />
     <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1151.0" ycen="486.0" xa="1186.0" ya="493.0" xb="1116.0" yb="479.0" xc="1101.0" yc="486.0" xd="1186.0" yd="493.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Zion Branch East Port-Zion" secondturnoutname="Zion East Branch East Port-Zion Mirror" secondturnoutinverted="true" connectaname="T28" connectbname="T8" connectcname="T7" />
