@@ -7147,83 +7147,83 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.00;02.01.57.00.01.11.00.01</systemName>
-      <userName>MidwayES Line1 Turnout</userName>
-      <comment>1</comment>
+      <userName>MidwayES 01 L2-R4,R5R6</userName>
+      <comment>Mes01</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.0C;02.01.57.00.01.11.00.0D</systemName>
-      <userName>MidwayES Line2 NO KNOWN Turnout</userName>
-      <comment>2</comment>
+      <userName>MidwayES 02 Line2 NO KNOWN Turnout</userName>
+      <comment>Mes02</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.18;02.01.57.00.01.11.00.19</systemName>
-      <userName>MidwayES Line3 Turnout</userName>
-      <comment>3</comment>
+      <userName>MidwayES 03 L2-R2,L2R3</userName>
+      <comment>Mes03</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.24;02.01.57.00.01.11.00.25</systemName>
-      <userName>MidwayES Line4 S1S2-S3R1</userName>
-      <comment>4</comment>
+      <userName>MidwayES 04 L2-S2S1,R1</userName>
+      <comment>Mes04</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.30;02.01.57.00.01.11.00.31</systemName>
-      <userName>MidwayES Line5 Turnout</userName>
-      <comment>5</comment>
+      <userName>MidwayES 05 L2-R5,R6</userName>
+      <comment>Mes05</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.3C;02.01.57.00.01.11.00.3D</systemName>
-      <userName>MidwayES Line6 Turnout</userName>
-      <comment>6</comment>
+      <userName>MidwayES 06 L2-S4,R1</userName>
+      <comment>Mes06</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.48;02.01.57.00.01.11.00.49</systemName>
-      <userName>MidwayES Line7 Turnout</userName>
-      <comment>7</comment>
+      <userName>MidwayES 07 L2-S1,S2</userName>
+      <comment>Mes07</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.54;02.01.57.00.01.11.00.55</systemName>
-      <userName>MidwayES Line8 Turnout</userName>
-      <comment>8</comment>
+      <userName>MidwayES 08 L2-S3,R1</userName>
+      <comment>Mes08</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.60;02.01.57.00.01.11.00.61</systemName>
-      <userName>MidwayES Line9 Turnout</userName>
-      <comment>9</comment>
+      <userName>MidwayES 09 RLoop-Clock,CNTRclock</userName>
+      <comment>Mes09</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.6C;02.01.57.00.01.11.00.6D</systemName>
-      <userName>MidwayES Line10 Turnout</userName>
-      <comment>1o unknown</comment>
+      <userName>MidwayES 10 Line10 Turnout</userName>
+      <comment>10 unknown</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.78;02.01.57.00.01.11.00.79</systemName>
-      <userName>MidwayES Line11 Turnout</userName>
-      <comment>11</comment>
+      <userName>MidwayES 11 WLead-R1,R2</userName>
+      <comment>Mes11</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.84;02.01.57.00.01.11.00.85</systemName>
-      <userName>MidwayES Line12 Turnout</userName>
-      <comment>12</comment>
+      <userName>MidwayES 12 WLead-R2R1,R3</userName>
+      <comment>Mes12</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.90;02.01.57.00.01.11.00.91</systemName>
-      <userName>MidwayES Line13 Turnout</userName>
-      <comment>13 unnown</comment>
+      <userName>MidwayES 13 Line13 unknown</userName>
+      <comment>13 unknown</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.9C;02.01.57.00.01.11.00.9D</systemName>
-      <userName>MidwayES Line14 Turnout</userName>
-      <comment>14</comment>
+      <userName>MidwayES 14 WLead-R5,R6</userName>
+      <comment>Mes14</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.A8;02.01.57.00.01.11.00.A9</systemName>
-      <userName>MidwayES Line15 Turnout</userName>
-      <comment>15</comment>
+      <userName>MidwayES 15 WLead-R4,R5R6</userName>
+      <comment>Mes15</comment>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.B4;02.01.57.00.01.11.00.B5</systemName>
-      <userName>MidwayES Line16 Turnout</userName>
-      <comment>16</comment>
+      <userName>MidwayES 16 WLead-R1,R6</userName>
+      <comment>Mes16</comment>
     </turnout>
   </turnouts>
   <memories class="jmri.managers.configurexml.DefaultMemoryManagerXml">
@@ -25393,17 +25393,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Jul 07 14:15:21 PDT 2026</date>
+      <date>Tue Jul 07 14:24:17 PDT 2026</date>
       <filename>PanelPro (v5.15.10)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Jul 07 14:15:32 PDT 2026</date>
+      <date>Tue Jul 07 14:24:28 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Jul 07 14:21:41 PDT 2026</date>
+      <date>Tue Jul 07 16:35:30 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
