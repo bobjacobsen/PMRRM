@@ -13,23 +13,23 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="10,002 Watchman Quartz POD" fileName="10_002_Watchman_candidate.xml" roadNumber="10,002 " roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-07T21:20:59.807+00:00</dateUpdated>
-      <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="10002" longaddress="yes" />
-        <number>10002</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
     <locomotive id="10,003 Watchman Fox" fileName="10_003_Watchman_candidate.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="9500" comment="1020,1021,255,,141 &amp; 934,933,256,141 9500 address ?" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-02T21:07:23.510+00:00</dateUpdated>
       <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9500" longaddress="yes" />
         <number>9500</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="10002 Watchman Quartz POD" fileName="10_002_Watchman_candidate.xml" roadNumber="10002 " roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-07T21:40:59.363+00:00</dateUpdated>
+      <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="10002" longaddress="yes" />
+        <number>10002</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
