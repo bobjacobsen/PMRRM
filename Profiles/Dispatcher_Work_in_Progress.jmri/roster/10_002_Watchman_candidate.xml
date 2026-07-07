@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <!--Written by JMRI version 5.15.8+R0f6e5379d8 on Sun Jul 05 17:09:37 PDT 2026-->
-  <locomotive id="10,002 Watchman Quartz POD" fileName="10_002_Watchman_candidate.xml" roadNumber="10,002 " roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923, 110 &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-06T00:09:37.629+00:00</dateUpdated>
+  <locomotive id="10,002 Watchman Quartz POD" fileName="10_002_Watchman_candidate.xml" roadNumber="10,002 " roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-07T21:20:59.807+00:00</dateUpdated>
     <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="10002" longaddress="yes" />
@@ -109,7 +108,7 @@
         <varValue item="PA3 Secondary 2 Address" value="1" />
         <varValue item="PA3 Secondary 2 Polarity" value="0" />
         <varValue item="PA3 Secondary 2 Type" value="0" />
-        <varValue item="PA4 Base Address" value="110" />
+        <varValue item="PA4 Base Address" value="113" />
         <varValue item="PA4 Mode" value="2" />
         <varValue item="PA4 Output-Input" value="1" />
         <varValue item="PA4 Input Direction" value="1" />
@@ -1343,7 +1342,7 @@
       <CVvalue name="150" value="0" />
       <CVvalue name="151" value="0" />
       <CVvalue name="152" value="0" />
-      <CVvalue name="153" value="109" />
+      <CVvalue name="153" value="112" />
       <CVvalue name="154" value="32" />
       <CVvalue name="155" value="195" />
       <CVvalue name="156" value="0" />
