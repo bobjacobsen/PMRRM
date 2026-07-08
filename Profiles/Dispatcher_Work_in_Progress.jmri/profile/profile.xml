@@ -46,6 +46,6 @@
             <property name="systemPrefix" value=""/>
         </perform>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:GatewayPongGame.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:GatewayPongGame.py" type="ScriptFile"/>
     </startup>
 </auxiliary-configuration>
