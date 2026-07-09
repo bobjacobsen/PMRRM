@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.can.adapters.gridconnect.lccbuffer.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="cu.usbmodemCC57000CF1" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
+                </option>
+            </options>
+            <node name="Ident">
+                <parameter name="UserName">Zion East RPi</parameter>
+                <parameter name="NodeId"/>
+                <parameter name="UserDescription"/>
+            </node>
+            <node name="FastClock">
+                <parameter name="EnableMode">disabled</parameter>
+                <parameter name="ClockCustomId"/>
+                <parameter name="ClockId">default</parameter>
+            </node>
+        </connection>
+    </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="no" name="apps.SystemConsoleAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="apps.startup.configurexml.ScriptButtonModelXml" enabled="yes" name="Restart RPi" type="Button">
+            <property name="script" value="scripts:RaspberryPiRestart.py"/>
+        </perform>
+        <perform xmlns="" class="apps.startup.configurexml.ScriptButtonModelXml" enabled="yes" name="Shutdown RPi" type="Button">
+            <property name="script" value="scripts:RaspberryPiShutdown.py"/>
+        </perform>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:ZionE-Development.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ZionE-Setup.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ZionE_NXlogic.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ZionE_WLadder.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MainWindowToBack.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:ZionE_PortLadder.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ZionE_TSLLadder.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ZionE-HideDebug.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="scripts:ClearFileHistory.py" type="ScriptFile"/>
+    </startup>
+</auxiliary-configuration>
