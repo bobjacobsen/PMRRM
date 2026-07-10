@@ -16,41 +16,39 @@
       <systemName>LS1</systemName>
     </sensor>
     <sensor inverted="false">
-      <systemName>LS2</systemName>
-    </sensor>
-    <sensor inverted="false">
       <systemName>LS3</systemName>
       <userName>Midway West station 3 stop block</userName>
-      <comment>Just between LS8 and LS30, stopping block on track 3 west</comment>
+      <comment>Watchman 100003 Just between LS8 and LS30, stopping block on track west</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS4</systemName>
       <userName>Midway West Frt approach</userName>
+      <comment>Watchman 100003</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS5</systemName>
       <userName>Midway West Psg approach</userName>
-      <comment>Ends between x over and p ladder</comment>
+      <comment>Watchman 100003 Ends between x over and p ladder</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS6</systemName>
       <userName>Midway West LS6 LT58 track 1 stop block</userName>
-      <comment>"Bastard Coil Sensor" really only LT58 on main. May include some freight yard !!</comment>
+      <comment>Watchman 100003 "Bastard Coil Sensor" really only LT58 on main. May include some freight yard !!</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS7</systemName>
       <userName>Midway West station 2 stop block</userName>
-      <comment>!!West P2 stopping block</comment>
+      <comment>Watchman 100003 !!West P2 stopping block</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS8</systemName>
       <userName>Midway West Passenger Throat</userName>
-      <comment>"Bastard Coil Sensor": Starts 1/2 way between 59 and 57 &amp; includes 56</comment>
+      <comment>Watchman 100003 "Bastard Coil Sensor": Starts 1/2 way between 59 and 57 &amp; includes 56</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
@@ -25522,7 +25520,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 09 19:52:14 PDT 2026</date>
+      <date>Thu Jul 09 20:07:18 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
