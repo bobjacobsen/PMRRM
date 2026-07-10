@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=Bend GW 25-06-14 Known DCC Switch on
-NODE ID.Your name and description for this node.Node Description=GW Add of AFW and APW A,B,C,D lead turnouts to DCC LT6 manual k
+NODE ID.Your name and description for this node.Node Name=Bend GW 26-05-23 Known DCC Switch on
+NODE ID.Your name and description for this node.Node Description=
 Special Options.Node Power Monitor.Message Options=2
 Special Options.Node Power Monitor.Power OK=02.01.57.20.00.1B.00.00
 Special Options.Node Power Monitor.Power Not OK=02.01.57.20.00.1B.00.01
@@ -110,9 +110,9 @@ Sections, Groups and Lines.Section(0).Group(0).Line (Channel)(15).LocoNet (input
 Sections, Groups and Lines.Section(0).Group(0).Line (Channel)(15).LocoNet (input/output).Message type=0
 Sections, Groups and Lines.Section(0).Group(0).Line (Channel)(15).LCC.child1=02.01.57.20.00.1B.00.24
 Sections, Groups and Lines.Section(0).Group(0).Line (Channel)(15).LCC.child2=02.01.57.20.00.1B.00.25
-Sections, Groups and Lines.Section(0).Group(1).Group name=DCC 800-815
+Sections, Groups and Lines.Section(0).Group(1).Group name=DCC 800-815 (and 1800)
 Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).Line name=DCC 800 no Midway yet
-Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).LocoNet (input/output).Address=800
+Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).LocoNet (input/output).Address=1800
 Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).LocoNet (input/output).Message type=0
 Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).LCC.child1=02.01.57.00.02.A8.00.63
 Sections, Groups and Lines.Section(0).Group(1).Line (Channel)(0).LCC.child2=02.01.57.00.02.A8.00.62
