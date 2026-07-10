@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="10,003 Watchman Fox" fileName="10_003_Watchman_candidate.xml" roadNumber="" roadName="" mfg="" owner="" model="" dccAddress="9500" comment="1020,1021,255,,141 &amp; 934,933,256,141 9500 address ?" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-02T21:07:23.510+00:00</dateUpdated>
+  <locomotive id="10,003 Watchman Fox" fileName="10_003_Watchman_candidate.xml" roadNumber="10,003" roadName="" mfg="" owner="" model="" dccAddress="10003" comment="1020,1021,255,,141 &amp; 934,933,256,141" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-10T03:21:56.833+00:00</dateUpdated>
     <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="9500" longaddress="yes" />
-      <number>9500</number>
+      <dcclocoaddress number="10003" longaddress="yes" />
+      <number>10003</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels />
@@ -17,7 +17,7 @@
         <varValue item="Firmware Version" value="13" />
         <varValue item="Manufacturer ID" value="87" />
         <varValue item="Hardware ID" value="23" />
-        <varValue item="Long Address" value="9500" />
+        <varValue item="Long Address" value="10003" />
         <varValue item="Reserved" value="0" />
         <varValue item="Address Format" value="1" />
         <varValue item="Port State Memory" value="1" />
@@ -26,7 +26,7 @@
         <varValue item="Input Interrogate" value="1" />
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="2982" />
+        <varValue item="Flash Write Value" value="2987" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="BOD 1 Sensitivity" value="128" />
         <varValue item="BOD 2 Sensitivity" value="128" />
@@ -171,7 +171,7 @@
         <varValue item="PA6 Secondary 2 Address" value="1" />
         <varValue item="PA6 Secondary 2 Polarity" value="0" />
         <varValue item="PA6 Secondary 2 Type" value="0" />
-        <varValue item="PA7 Base Address" value="932" />
+        <varValue item="PA7 Base Address" value="256" />
         <varValue item="PA7 Mode" value="2" />
         <varValue item="PA7 Output-Input" value="1" />
         <varValue item="PA7 Input Direction" value="1" />
@@ -183,9 +183,9 @@
         <varValue item="PA7 Paired-I" value="0" />
         <varValue item="PA7 Type" value="0" />
         <varValue item="PA7 Length" value="0" />
-        <varValue item="PA7 Timing" value="0" />
-        <varValue item="PA7 TimingA" value="0" />
-        <varValue item="PA7 TimingB" value="0" />
+        <varValue item="PA7 Timing" value="11" />
+        <varValue item="PA7 TimingA" value="11" />
+        <varValue item="PA7 TimingB" value="11" />
         <varValue item="PA7 Secondary 1 Address" value="1" />
         <varValue item="PA7 Secondary 1 Polarity" value="0" />
         <varValue item="PA7 Secondary 1 Type" value="0" />
@@ -1300,12 +1300,12 @@
       <CVvalue name="7" value="13" />
       <CVvalue name="8" value="87" />
       <CVvalue name="9" value="23" />
-      <CVvalue name="17" value="229" />
-      <CVvalue name="18" value="28" />
+      <CVvalue name="17" value="231" />
+      <CVvalue name="18" value="19" />
       <CVvalue name="20" value="0" />
       <CVvalue name="29" value="224" />
       <CVvalue name="112" value="31" />
-      <CVvalue name="113" value="166" />
+      <CVvalue name="113" value="171" />
       <CVvalue name="114" value="11" />
       <CVvalue name="115" value="0" />
       <CVvalue name="117" value="128" />
@@ -1366,10 +1366,10 @@
       <CVvalue name="174" value="0" />
       <CVvalue name="175" value="0" />
       <CVvalue name="176" value="0" />
-      <CVvalue name="177" value="163" />
-      <CVvalue name="178" value="35" />
+      <CVvalue name="177" value="255" />
+      <CVvalue name="178" value="32" />
       <CVvalue name="179" value="195" />
-      <CVvalue name="180" value="0" />
+      <CVvalue name="180" value="11" />
       <CVvalue name="181" value="0" />
       <CVvalue name="182" value="0" />
       <CVvalue name="183" value="0" />
