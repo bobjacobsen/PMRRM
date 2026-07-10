@@ -15621,7 +15621,7 @@
       <systemName>ILB44</systemName>
       <userName>Delta 2</userName>
     </layoutblock>
-    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 3">
+    <layoutblock systemName="ILB45" occupancysensor="Delta 3" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 3">
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
@@ -15783,7 +15783,7 @@
       <systemName>ILB86</systemName>
       <userName>AUTOBLK:86</userName>
     </layoutblock>
-    <layoutblock systemName="ILB88" occupancysensor="LS138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB88" occupancysensor="LS138" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB88</systemName>
       <userName>Colton CP2</userName>
     </layoutblock>
@@ -15791,7 +15791,7 @@
       <systemName>ILB89</systemName>
       <userName>CP D3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB91</systemName>
       <userName>Colton CP1-L</userName>
     </layoutblock>
@@ -17626,7 +17626,7 @@
     <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="582.78" ycen="228.89" xa="547.01" ya="211.0" xb="618.55" yb="246.78" xc="605.61" yc="264.67" xd="547.01" yd="211.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 12 WLead-R2R1,R3" connectaname="T14" connectbname="T17" connectcname="T18" />
     <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1035.0" ycen="224.0" xa="1067.25" ya="238.9" xb="1002.75" yb="209.1" xc="990.3" yc="225.22" xd="1067.25" yd="238.9" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 05 L2-R5,R6" connectaname="T41" connectbname="T25" connectcname="T21" />
     <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1101.0" ycen="254.0" xa="1133.25" ya="268.9" xb="1068.75" yb="239.1" xc="1056.3" yc="255.22" xd="1133.25" yd="268.9" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 01 L2-R4,R5R6" connectaname="T20" connectbname="T41" connectcname="T22" />
-    <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1170.01" ycen="286.97" xa="1200.77" ya="301.04" xb="1139.25" yb="272.9" xc="1125.37" yc="287.21" xd="1200.77" yd="301.04" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 02 Line2 YES GUESS L2-R3,R6 " connectaname="T31" connectbname="T20" connectcname="T23" />
+    <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1170.01" ycen="286.97" xa="1200.77" ya="301.04" xb="1139.25" yb="272.9" xc="1125.37" yc="287.21" xd="1200.77" yd="301.04" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T31" connectbname="T20" connectcname="T23" />
     <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1117.0" ycen="352.0" xa="1157.0" ya="352.0" xb="1077.0" yb="352.0" xc="1077.0" yc="372.0" xd="1157.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 08 L2-S3,R1" connectaname="T27" connectbname="T26" connectcname="T33" />
     <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1197.0" ycen="352.0" xa="1237.0" ya="352.0" xb="1157.0" yb="352.0" xc="1158.0" yc="373.0" xd="1237.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 04 L2-S2S1,R1" connectaname="T29" connectbname="T27" connectcname="T28" />
     <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1120.22" ycen="388.89" xa="1157.99" ya="373.0" xb="1082.45" yb="404.78" xc="1096.39" yc="427.67" xd="1157.99" yd="373.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 07 L2-S1,S2" connectaname="T28" connectbname="T34" connectcname="T35" />
@@ -25485,17 +25485,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Jul 09 22:00:54 PDT 2026</date>
+      <date>Thu Jul 09 22:20:48 PDT 2026</date>
       <filename>PanelPro (v5.15.10)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Jul 09 22:01:21 PDT 2026</date>
+      <date>Thu Jul 09 22:21:16 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 09 22:18:05 PDT 2026</date>
+      <date>Thu Jul 09 22:27:10 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
