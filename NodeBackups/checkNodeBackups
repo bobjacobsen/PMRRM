@@ -1,0 +1,34 @@
+#! /bin/bash
+#
+# A script to find fresh node backups that differ from the git-resident backup file
+#
+#
+# The -d option will result in `git rm` of matching (i.e. duplicative) backup files
+#
+# Fresh backups have a '+' before the date in their file names.
+# Note that the git-resident file may be shortened from the current node name,
+# e.g. a date in the node name may have been removed from the file name.
+
+# get the list of original files and iterate
+for original in `ls config*.txt | grep -v '+'`
+do
+    #echo $original
+    
+    backup=`ls ${original%".txt"}* | grep -v $original`
+    
+    if [[ -n $backup ]]; then
+        #echo $original "->" $backup
+        
+        # compare two files and check exit code
+        output=`cmp $original $backup`
+        if [ $? -ne 0 ]; then 
+            echo $original "does not match" $backup
+            echo "   diff" $backup $original   # for cut and paste execution
+        else
+            echo $original "does match" $backup
+            git rm $backup
+        fi
+    fi
+
+done
+    
