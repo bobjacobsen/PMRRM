@@ -1,4 +1,4 @@
-NODE ID.Your name and description for this node.Node Name=MidwayES Turnout owner 2026-07-07
+NODE ID.Your name and description for this node.Node Name=MidwayES Turnout owner 2026-07-09
 NODE ID.Your name and description for this node.Node Description=Homing point for turnouts. Under west approach
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.00.01.11.02.40
@@ -38,7 +38,7 @@ Port I/O.Line(0).Actions/Producers(4).Upon this action=0
 Port I/O.Line(0).Actions/Producers(4).Indicator=02.01.57.00.01.11.00.0A
 Port I/O.Line(0).Actions/Producers(5).Upon this action=0
 Port I/O.Line(0).Actions/Producers(5).Indicator=02.01.57.00.01.11.00.0B
-Port I/O.Line(1).Line Description=Mes02 No known turnout
+Port I/O.Line(1).Line Description=Mes02 L2-R3,R6
 Port I/O.Line(1).Output Function=1
 Port I/O.Line(1).Receiving the configured Command (C) event(s) will drive or pulse the line:=1
 Port I/O.Line(1).Input Function=0
