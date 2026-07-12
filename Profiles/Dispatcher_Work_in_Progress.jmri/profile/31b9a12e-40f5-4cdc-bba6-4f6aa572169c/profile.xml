@@ -36,16 +36,26 @@
                     <value>OpenLCB</value>
                 </option>
             </options>
+            <node name="Ident">
+                <parameter name="UserName">Dispatcher JMRI</parameter>
+                <parameter name="NodeId"/>
+                <parameter name="UserDescription"/>
+            </node>
+            <node name="FastClock">
+                <parameter name="EnableMode">disabled</parameter>
+                <parameter name="ClockCustomId"/>
+                <parameter name="ClockId">default</parameter>
+            </node>
         </connection>
     </connections>
     <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault.xml" type="XmlFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:CommonInitializationScript.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:BasicInitializationScript.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:DispatcherInitializationScript.py" type="ScriptFile"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" enabled="yes" name="Hide Blue Text" type="Action"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>
         </perform>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:GatewayPongGame.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:GatewayPongGame.py" type="ScriptFile"/>
     </startup>
 </auxiliary-configuration>
