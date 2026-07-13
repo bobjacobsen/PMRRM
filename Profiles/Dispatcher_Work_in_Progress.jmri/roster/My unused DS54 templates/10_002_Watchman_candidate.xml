@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="10,002 Watchman Quartz POD" fileName="10_002_Watchman_candidate.xml" roadNumber="10,002" roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+  <locomotive id="Watchman 10002 Quartz POD" fileName="Watchman_10002_Quartz_POD.xml" roadNumber="10,002" roadName="" mfg="" owner="" model="" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-07-10T03:24:08.242+00:00</dateUpdated>
     <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
