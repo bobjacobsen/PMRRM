@@ -4,7 +4,7 @@ The files are named from the node name, not including any date information inclu
 
 Note there are several special cases:
 
-These are nodes being developed for future Zion East hard panel use, and will replace the node contents with simialar names:
+These are nodes being developed for future Zion East hard panel use, and will replace the node contents with similar names:
 
     - config-ZionE_turnouts_HP_1st.txt	
     - config-ZionE_turnouts_HP_2nd.txt
