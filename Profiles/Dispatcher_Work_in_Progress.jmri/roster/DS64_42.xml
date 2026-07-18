@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="DS64 42" fileName="DS64_42.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="42" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-18T05:05:52.065+00:00</dateUpdated>
+    <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="42" longaddress="no" />
+      <number>42</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="42" />
+        <varValue item="Output Type" value="0" />
+        <varValue item="Pulse or blink rate1" value="0" />
+        <varValue item="Pulse or blink rate2" value="0" />
+        <varValue item="Pulse or blink rate3" value="0" />
+        <varValue item="Pulse or blink rate4" value="0" />
+        <varValue item="Output Auto Power-up" value="0" />
+        <varValue item="Start-Up Delay" value="0" />
+        <varValue item="Static Output Shutoff" value="0" />
+        <varValue item="Command Source" value="0" />
+        <varValue item="Route Command Source" value="0" />
+        <varValue item="Sensor Actions" value="0" />
+        <varValue item="Input Signals" value="0" />
+        <varValue item="Controls From" value="0" />
+        <varValue item="Inputs Control Outputs" value="0" />
+        <varValue item="Routes Enable" value="0" />
+        <varValue item="Crossing Gate 1" value="0" />
+        <varValue item="Crossing Gate 2" value="0" />
+        <varValue item="Crossing Gate 3" value="0" />
+        <varValue item="Crossing Gate 4" value="0" />
+        <varValue item="Input LocoNet Message" value="0" />
+        <varValue item="Output Pulse or Blink Time" value="0" />
+        <varValue item="Routes trigger" value="0" />
+        <varValue item="Local Input Effects" value="0" />
+        <varValue item="Input Messages" value="0" />
+      </decoderDef>
+      <CVvalue name="1" value="42" />
+      <CVvalue name="115.01" value="0" />
+      <CVvalue name="115.02" value="0" />
+      <CVvalue name="115.03" value="0" />
+      <CVvalue name="115.04" value="0" />
+      <CVvalue name="115.05" value="0" />
+      <CVvalue name="115.06" value="0" />
+      <CVvalue name="115.08" value="0" />
+      <CVvalue name="115.09" value="0" />
+      <CVvalue name="115.10" value="0" />
+      <CVvalue name="115.11" value="0" />
+      <CVvalue name="115.12" value="0" />
+      <CVvalue name="115.13" value="0" />
+      <CVvalue name="115.14" value="0" />
+      <CVvalue name="115.15" value="0" />
+      <CVvalue name="115.16" value="0" />
+      <CVvalue name="115.17" value="0" />
+      <CVvalue name="115.18" value="0" />
+      <CVvalue name="115.19" value="0" />
+      <CVvalue name="115.20" value="0" />
+      <CVvalue name="115.21" value="0" />
+    </values>
+  </locomotive>
+</locomotive-config>

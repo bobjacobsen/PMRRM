@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="BDL168 template 111" fileName="BDL168_template_111.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="111" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+  <locomotive id="BDL168 07" fileName="BDL168_07.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="7" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
     <dateUpdated>2026-07-18T05:06:10.309+00:00</dateUpdated>
     <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="111" longaddress="no" />
-      <number>111</number>
+      <dcclocoaddress number="7" longaddress="no" />
+      <number>7</number>
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels />
     <soundlabels />
     <values>
       <decoderDef>
-        <varValue item="Short Address" value="111" />
+        <varValue item="Short Address" value="7" />
         <varValue item="Wiring Type" value="0" />
         <varValue item="Swap RailSync sensitivity" value="0" />
         <varValue item="Transponding Enable1" value="1" />
@@ -45,7 +44,7 @@
         <varValue item="Anti-Chatter Filtering" value="0" />
         <varValue item="Transponding Messages at GPOFF" value="0" />
       </decoderDef>
-      <CVvalue name="1" value="111" />
+      <CVvalue name="1" value="7" />
       <CVvalue name="113.01" value="0" />
       <CVvalue name="113.03" value="0" />
       <CVvalue name="113.05" value="1" />
