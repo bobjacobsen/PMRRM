@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="DS64 85" fileName="DS64_85.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="85" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-18T05:05:52.065+00:00</dateUpdated>
+    <dateUpdated>2026-07-18T22:46:02.627+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="85" longaddress="no" />
@@ -14,7 +14,7 @@
     <values>
       <decoderDef>
         <varValue item="Short Address" value="85" />
-        <varValue item="Output Type" value="0" />
+        <varValue item="Output Type" value="1" />
         <varValue item="Pulse or blink rate1" value="0" />
         <varValue item="Pulse or blink rate2" value="0" />
         <varValue item="Pulse or blink rate3" value="0" />
@@ -25,7 +25,7 @@
         <varValue item="Command Source" value="0" />
         <varValue item="Route Command Source" value="0" />
         <varValue item="Sensor Actions" value="0" />
-        <varValue item="Input Signals" value="0" />
+        <varValue item="Input Signals" value="1" />
         <varValue item="Controls From" value="0" />
         <varValue item="Inputs Control Outputs" value="0" />
         <varValue item="Routes Enable" value="0" />
@@ -37,10 +37,10 @@
         <varValue item="Output Pulse or Blink Time" value="0" />
         <varValue item="Routes trigger" value="0" />
         <varValue item="Local Input Effects" value="0" />
-        <varValue item="Input Messages" value="0" />
+        <varValue item="Input Messages" value="2" />
       </decoderDef>
       <CVvalue name="1" value="85" />
-      <CVvalue name="115.01" value="0" />
+      <CVvalue name="115.01" value="1" />
       <CVvalue name="115.02" value="0" />
       <CVvalue name="115.03" value="0" />
       <CVvalue name="115.04" value="0" />
@@ -51,7 +51,7 @@
       <CVvalue name="115.10" value="0" />
       <CVvalue name="115.11" value="0" />
       <CVvalue name="115.12" value="0" />
-      <CVvalue name="115.13" value="0" />
+      <CVvalue name="115.13" value="1" />
       <CVvalue name="115.14" value="0" />
       <CVvalue name="115.15" value="0" />
       <CVvalue name="115.16" value="0" />

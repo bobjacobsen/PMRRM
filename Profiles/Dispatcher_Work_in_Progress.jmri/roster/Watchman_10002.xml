@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="Watchman 10002" fileName="Watchman_10002.xml" roadNumber="10,002" roadName="POD 11 OSAGE" mfg="RR-CirKits" owner="Electrical Crew" model="Watchman" dccAddress="10002" comment="921,922,923,113 (was 110)  &amp; 925,926,927,928" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-13T01:03:10.265+00:00</dateUpdated>
+    <dateUpdated>2026-07-18T22:57:22.077+00:00</dateUpdated>
     <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="10002" longaddress="yes" />
@@ -26,7 +26,7 @@
         <varValue item="Input Interrogate" value="1" />
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="3118" />
+        <varValue item="Flash Write Value" value="3122" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="BOD 1 Sensitivity" value="128" />
         <varValue item="BOD 2 Sensitivity" value="128" />
@@ -1305,7 +1305,7 @@
       <CVvalue name="20" value="0" />
       <CVvalue name="29" value="224" />
       <CVvalue name="112" value="31" />
-      <CVvalue name="113" value="46" />
+      <CVvalue name="113" value="50" />
       <CVvalue name="114" value="12" />
       <CVvalue name="115" value="0" />
       <CVvalue name="117" value="128" />
