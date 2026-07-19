@@ -641,7 +641,18 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 Bob AFTER" fileName="DS64_Bob_BEFORE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-19T18:15:38.747+00:00</dateUpdated>
+      <dateUpdated>2026-07-19T18:19:09.968+00:00</dateUpdated>
+      <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="99" longaddress="no" />
+        <number>99</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="DS64 Bob Duplicate" fileName="DS64_Bob_Duplicate.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-19T18:19:09.969+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="99" longaddress="no" />
