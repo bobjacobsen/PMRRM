@@ -640,6 +640,17 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
+    <locomotive id="DS64 Bob BEFORE" fileName="DS64_Bob_BEFORE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-19T18:11:56.146+00:00</dateUpdated>
+      <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="99" longaddress="no" />
+        <number>99</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="Signalman template 9090" fileName="Signalman_template_9090.xml" roadNumber="9090 example" roadName="POD NAME" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9090" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-13T01:15:28.385+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
