@@ -640,7 +640,7 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 Bob AFTER" fileName="DS64_Bob_BEFORE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="DS64 Bob AFTER" fileName="DS64_Bob_EXTERNAL_DUPLICATE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-19T18:15:26.937+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
@@ -651,7 +651,7 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 Bob AFTER" fileName="DS64_Bob_EXTERNAL_DUPLICATE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <locomotive id="DS64 Bob AFTER" fileName="DS64_Bob_BEFORE.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew" model="" dccAddress="99" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-19T18:15:26.937+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
@@ -673,12 +673,78 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
+    <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="12001" longaddress="yes" />
+        <number>12001</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Signalman E Whiskey Vista" fileName="Signalman_E_Whiskey_Vista.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12000" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="12000" longaddress="yes" />
+        <number>12000</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="Signalman template 9090" fileName="Signalman_template_9090.xml" roadNumber="9090 example" roadName="POD NAME" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9090" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-13T01:15:28.385+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="9090" longaddress="yes" />
         <number>9090</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Signalman Upton" fileName="Signalman_Upton.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9999" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="9999" longaddress="yes" />
+        <number>9999</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="1106" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="1106" longaddress="yes" />
+        <number>1106</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Signalman W Vista Whiskey" fileName="Signalman_W_Vista_Whiskey.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11005" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="11005" longaddress="yes" />
+        <number>11005</number>
+        <protocol>dcc_long</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="Signalman Xerox" fileName="Signalman_Xerox.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9999" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:31:53.895+00:00</dateUpdated>
+      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="9999" longaddress="yes" />
+        <number>9999</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
@@ -706,8 +772,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Watchman 10003" fileName="Watchman_10003.xml" roadNumber="10,003 (10,001?)" roadName="POD 04 COLTON " mfg="RR-CirKits" owner="Electrical Crew" model="Watchman" dccAddress="10003" comment="1020,1021,255,,141 &amp; 934,933,256,141" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-18T22:59:51.453+00:00</dateUpdated>
+    <locomotive id="Watchman 10003" fileName="Watchman_10003.xml" roadNumber="10,003" roadName="POD 04 COLTON " mfg="RR-CirKits" owner="Electrical Crew" model="Watchman" dccAddress="10003" comment="1020,1021,255,,141 &amp; 934,933,256,141" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-21T02:30:40.456+00:00</dateUpdated>
       <decoder model="WatchMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="10003" longaddress="yes" />
