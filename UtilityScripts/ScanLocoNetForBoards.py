@@ -24,7 +24,7 @@ class Scanner (jmri.jmrit.automat.AbstractAutomaton) :
 	def handle(self) :
 		self.locoNumber = self.locoNumber + 1
 		programmer = jmri.InstanceManager.getDefault(jmri.AddressedProgrammerManager).getAddressedProgrammer(True, self.locoNumber)
-		programmer.readCV("1", None)
+		programmer.readCV("8", None)
 		print self.locoNumber
 		self.waitMsec(200)
 		return True
