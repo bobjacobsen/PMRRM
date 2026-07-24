@@ -2,8 +2,8 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
 <locomotive-config>
-  <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-21T02:31:46.056+00:00</dateUpdated>
+  <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="No response" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-24T04:58:31.632+00:00</dateUpdated>
     <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="12001" longaddress="yes" />

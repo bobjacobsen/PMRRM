@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 71" fileName="DS64_71.xml" roadNumber="" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="71" comment="No routes. 733,734,735,736" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T03:16:22.433+00:00</dateUpdated>
+  <locomotive id="DS64 75" fileName="DS64_75.xml" roadNumber="Nothing actively wired" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="75" comment="No routes 749,750,751,752" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-24T03:14:09.988+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="71" longaddress="no" />
-      <number>71</number>
+      <dcclocoaddress number="75" longaddress="no" />
+      <number>75</number>
       <protocol>dcc_short</protocol>
     </locoaddress>
     <functionlabels />
     <soundlabels />
     <values>
       <decoderDef>
-        <varValue item="Short Address" value="71" />
+        <varValue item="Short Address" value="75" />
         <varValue item="Output Type" value="1" />
         <varValue item="Pulse or blink rate1" value="0" />
         <varValue item="Pulse or blink rate2" value="0" />
@@ -38,10 +38,10 @@
         <varValue item="Routes trigger" value="0" />
         <varValue item="Local Input Effects" value="0" />
         <varValue item="Input Messages" value="2" />
-        <varValue item="Output 1 Address" value="733" />
-        <varValue item="Output 2 Address" value="734" />
-        <varValue item="Output 3 Address" value="735" />
-        <varValue item="Output 4 Address" value="736" />
+        <varValue item="Output 1 Address" value="749" />
+        <varValue item="Output 2 Address" value="750" />
+        <varValue item="Output 3 Address" value="751" />
+        <varValue item="Output 4 Address" value="752" />
         <varValue item="Turnout 1 Address Route 1" value="0" />
         <varValue item="Turnout 1    Mode Route 1" value="7" />
         <varValue item="Turnout 2 Address Route 1" value="0" />
@@ -171,7 +171,7 @@
         <varValue item="Turnout 8 Address Route 8" value="0" />
         <varValue item="Turnout 8    Mode Route 8" value="7" />
       </decoderDef>
-      <CVvalue name="1" value="71" />
+      <CVvalue name="1" value="75" />
       <CVvalue name="115.01" value="1" />
       <CVvalue name="115.02" value="0" />
       <CVvalue name="115.03" value="0" />
@@ -192,10 +192,10 @@
       <CVvalue name="115.19" value="0" />
       <CVvalue name="115.20" value="0" />
       <CVvalue name="115.21" value="0" />
-      <CVvalue name="115.25.00" value="895300956" />
-      <CVvalue name="115.25.0" value="895300956" />
-      <CVvalue name="115.25.01" value="358552926" />
-      <CVvalue name="115.25.1" value="358552926" />
+      <CVvalue name="115.25.00" value="359478636" />
+      <CVvalue name="115.25.0" value="359478636" />
+      <CVvalue name="115.25.01" value="896480622" />
+      <CVvalue name="115.25.1" value="896480622" />
       <CVvalue name="115.25.016" value="-1" />
       <CVvalue name="115.25.16" value="-1" />
       <CVvalue name="115.25.017" value="-1" />
