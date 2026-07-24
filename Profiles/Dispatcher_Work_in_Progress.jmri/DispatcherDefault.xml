@@ -7169,12 +7169,8 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT553</systemName>
-      <comment>Delta shortline, TBC</comment>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT554</systemName>
-      <userName>DS64 (64,3)</userName>
+      <userName>DS64 (64,4)</userName>
       <comment>Delta shortline, TBC</comment>
       <properties>
         <property>
@@ -26670,7 +26666,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 23 19:31:34 PDT 2026</date>
+      <date>Thu Jul 23 19:53:14 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
