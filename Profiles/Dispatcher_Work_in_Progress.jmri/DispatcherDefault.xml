@@ -4781,6 +4781,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT101</systemName>
+      <userName>Unused 101 Former route</userName>
+      <comment>Was a route in DS64 58</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4790,6 +4792,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT102</systemName>
+      <userName>Unused 102 Former route</userName>
+      <comment>Noted in book. Not found</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7114,6 +7118,7 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT538</systemName>
       <userName>DS64,43,4)</userName>
+      <comment>Heine. Not sure if used</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7132,6 +7137,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT550</systemName>
+      <userName>DS63 (63,3)</userName>
+      <comment>Echo shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7141,6 +7148,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT551</systemName>
+      <userName>DS63 (63,2)</userName>
+      <comment>Echo shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7150,6 +7159,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT552</systemName>
+      <userName>DS63 (63,1)</userName>
+      <comment>Echo shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7158,7 +7169,13 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT553</systemName>
+      <comment>Delta shortline, TBC</comment>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT554</systemName>
+      <userName>DS64 (64,3)</userName>
+      <comment>Delta shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7179,6 +7196,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT556</systemName>
+      <userName>DS64 (64,2)</userName>
+      <comment>Delta shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7188,6 +7207,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT557</systemName>
+      <userName>DS64 (64,1)</userName>
+      <comment>Delta shortline, TBC</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7285,6 +7306,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT588</systemName>
+      <userName>DS64 (54,1)</userName>
+      <comment>Troy ? Use, if any, and location</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7294,6 +7317,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT589</systemName>
+      <userName>DS64 (54,2)</userName>
+      <comment>Troy ? Use, if any, and location</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7303,6 +7328,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT590</systemName>
+      <userName>DS64 (54,3)</userName>
+      <comment>Troy ? Use, if any, and location</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7312,6 +7339,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT591</systemName>
+      <userName>DS64 (54,4)</userName>
+      <comment>Troy ? Use, if any, and location</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7321,6 +7350,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT592</systemName>
+      <userName>DS64 (55,1)</userName>
+      <comment>Troy ? Use, if any, and location</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -26639,7 +26670,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Jul 23 18:09:41 PDT 2026</date>
+      <date>Thu Jul 23 19:31:34 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
