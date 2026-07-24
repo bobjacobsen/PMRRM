@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 25" fileName="DS64_25.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="25" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-18T23:14:52.506+00:00</dateUpdated>
+  <locomotive id="DS64 25" fileName="DS64_25.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="25" comment="No routes 183, 81,184,73" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-23T23:20:15.569+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="25" longaddress="no" />
@@ -20,7 +20,7 @@
         <varValue item="Pulse or blink rate3" value="0" />
         <varValue item="Pulse or blink rate4" value="0" />
         <varValue item="Output Auto Power-up" value="0" />
-        <varValue item="Start-Up Delay" value="0" />
+        <varValue item="Start-Up Delay" value="1" />
         <varValue item="Static Output Shutoff" value="0" />
         <varValue item="Command Source" value="0" />
         <varValue item="Route Command Source" value="0" />
@@ -38,6 +38,138 @@
         <varValue item="Routes trigger" value="0" />
         <varValue item="Local Input Effects" value="0" />
         <varValue item="Input Messages" value="2" />
+        <varValue item="Output 1 Address" value="183" />
+        <varValue item="Output 2 Address" value="81" />
+        <varValue item="Output 3 Address" value="184" />
+        <varValue item="Output 4 Address" value="73" />
+        <varValue item="Turnout 1 Address Route 1" value="0" />
+        <varValue item="Turnout 1    Mode Route 1" value="7" />
+        <varValue item="Turnout 2 Address Route 1" value="0" />
+        <varValue item="Turnout 2    Mode Route 1" value="7" />
+        <varValue item="Turnout 3 Address Route 1" value="0" />
+        <varValue item="Turnout 3    Mode Route 1" value="7" />
+        <varValue item="Turnout 4 Address Route 1" value="0" />
+        <varValue item="Turnout 4    Mode Route 1" value="7" />
+        <varValue item="Turnout 5 Address Route 1" value="0" />
+        <varValue item="Turnout 5    Mode Route 1" value="7" />
+        <varValue item="Turnout 6 Address Route 1" value="0" />
+        <varValue item="Turnout 6    Mode Route 1" value="7" />
+        <varValue item="Turnout 7 Address Route 1" value="0" />
+        <varValue item="Turnout 7    Mode Route 1" value="7" />
+        <varValue item="Turnout 8 Address Route 1" value="0" />
+        <varValue item="Turnout 8    Mode Route 1" value="7" />
+        <varValue item="Turnout 1 Address Route 2" value="0" />
+        <varValue item="Turnout 1    Mode Route 2" value="7" />
+        <varValue item="Turnout 2 Address Route 2" value="0" />
+        <varValue item="Turnout 2    Mode Route 2" value="7" />
+        <varValue item="Turnout 3 Address Route 2" value="0" />
+        <varValue item="Turnout 3    Mode Route 2" value="7" />
+        <varValue item="Turnout 4 Address Route 2" value="0" />
+        <varValue item="Turnout 4    Mode Route 2" value="7" />
+        <varValue item="Turnout 5 Address Route 2" value="0" />
+        <varValue item="Turnout 5    Mode Route 2" value="7" />
+        <varValue item="Turnout 6 Address Route 2" value="0" />
+        <varValue item="Turnout 6    Mode Route 2" value="7" />
+        <varValue item="Turnout 7 Address Route 2" value="0" />
+        <varValue item="Turnout 7    Mode Route 2" value="7" />
+        <varValue item="Turnout 8 Address Route 2" value="0" />
+        <varValue item="Turnout 8    Mode Route 2" value="7" />
+        <varValue item="Turnout 1 Address Route 3" value="0" />
+        <varValue item="Turnout 1    Mode Route 3" value="7" />
+        <varValue item="Turnout 2 Address Route 3" value="0" />
+        <varValue item="Turnout 2    Mode Route 3" value="7" />
+        <varValue item="Turnout 3 Address Route 3" value="0" />
+        <varValue item="Turnout 3    Mode Route 3" value="7" />
+        <varValue item="Turnout 4 Address Route 3" value="0" />
+        <varValue item="Turnout 4    Mode Route 3" value="7" />
+        <varValue item="Turnout 5 Address Route 3" value="0" />
+        <varValue item="Turnout 5    Mode Route 3" value="7" />
+        <varValue item="Turnout 6 Address Route 3" value="0" />
+        <varValue item="Turnout 6    Mode Route 3" value="7" />
+        <varValue item="Turnout 7 Address Route 3" value="0" />
+        <varValue item="Turnout 7    Mode Route 3" value="7" />
+        <varValue item="Turnout 8 Address Route 3" value="0" />
+        <varValue item="Turnout 8    Mode Route 3" value="7" />
+        <varValue item="Turnout 1 Address Route 4" value="0" />
+        <varValue item="Turnout 1    Mode Route 4" value="7" />
+        <varValue item="Turnout 2 Address Route 4" value="0" />
+        <varValue item="Turnout 2    Mode Route 4" value="7" />
+        <varValue item="Turnout 3 Address Route 4" value="0" />
+        <varValue item="Turnout 3    Mode Route 4" value="7" />
+        <varValue item="Turnout 4 Address Route 4" value="0" />
+        <varValue item="Turnout 4    Mode Route 4" value="7" />
+        <varValue item="Turnout 5 Address Route 4" value="0" />
+        <varValue item="Turnout 5    Mode Route 4" value="7" />
+        <varValue item="Turnout 6 Address Route 4" value="0" />
+        <varValue item="Turnout 6    Mode Route 4" value="7" />
+        <varValue item="Turnout 7 Address Route 4" value="0" />
+        <varValue item="Turnout 7    Mode Route 4" value="7" />
+        <varValue item="Turnout 8 Address Route 4" value="0" />
+        <varValue item="Turnout 8    Mode Route 4" value="7" />
+        <varValue item="Turnout 1 Address Route 5" value="0" />
+        <varValue item="Turnout 1    Mode Route 5" value="7" />
+        <varValue item="Turnout 2 Address Route 5" value="0" />
+        <varValue item="Turnout 2    Mode Route 5" value="7" />
+        <varValue item="Turnout 3 Address Route 5" value="0" />
+        <varValue item="Turnout 3    Mode Route 5" value="7" />
+        <varValue item="Turnout 4 Address Route 5" value="0" />
+        <varValue item="Turnout 4    Mode Route 5" value="7" />
+        <varValue item="Turnout 5 Address Route 5" value="0" />
+        <varValue item="Turnout 5    Mode Route 5" value="7" />
+        <varValue item="Turnout 6 Address Route 5" value="0" />
+        <varValue item="Turnout 6    Mode Route 5" value="7" />
+        <varValue item="Turnout 7 Address Route 5" value="0" />
+        <varValue item="Turnout 7    Mode Route 5" value="7" />
+        <varValue item="Turnout 8 Address Route 5" value="0" />
+        <varValue item="Turnout 8    Mode Route 5" value="7" />
+        <varValue item="Turnout 1 Address Route 6" value="0" />
+        <varValue item="Turnout 1    Mode Route 6" value="7" />
+        <varValue item="Turnout 2 Address Route 6" value="0" />
+        <varValue item="Turnout 2    Mode Route 6" value="7" />
+        <varValue item="Turnout 3 Address Route 6" value="0" />
+        <varValue item="Turnout 3    Mode Route 6" value="7" />
+        <varValue item="Turnout 4 Address Route 6" value="0" />
+        <varValue item="Turnout 4    Mode Route 6" value="7" />
+        <varValue item="Turnout 5 Address Route 6" value="0" />
+        <varValue item="Turnout 5    Mode Route 6" value="7" />
+        <varValue item="Turnout 6 Address Route 6" value="0" />
+        <varValue item="Turnout 6    Mode Route 6" value="7" />
+        <varValue item="Turnout 7 Address Route 6" value="0" />
+        <varValue item="Turnout 7    Mode Route 6" value="7" />
+        <varValue item="Turnout 8 Address Route 6" value="0" />
+        <varValue item="Turnout 8    Mode Route 6" value="7" />
+        <varValue item="Turnout 1 Address Route 7" value="0" />
+        <varValue item="Turnout 1    Mode Route 7" value="7" />
+        <varValue item="Turnout 2 Address Route 7" value="0" />
+        <varValue item="Turnout 2    Mode Route 7" value="7" />
+        <varValue item="Turnout 3 Address Route 7" value="0" />
+        <varValue item="Turnout 3    Mode Route 7" value="7" />
+        <varValue item="Turnout 4 Address Route 7" value="0" />
+        <varValue item="Turnout 4    Mode Route 7" value="7" />
+        <varValue item="Turnout 5 Address Route 7" value="0" />
+        <varValue item="Turnout 5    Mode Route 7" value="7" />
+        <varValue item="Turnout 6 Address Route 7" value="0" />
+        <varValue item="Turnout 6    Mode Route 7" value="7" />
+        <varValue item="Turnout 7 Address Route 7" value="0" />
+        <varValue item="Turnout 7    Mode Route 7" value="7" />
+        <varValue item="Turnout 8 Address Route 7" value="0" />
+        <varValue item="Turnout 8    Mode Route 7" value="7" />
+        <varValue item="Turnout 1 Address Route 8" value="0" />
+        <varValue item="Turnout 1    Mode Route 8" value="7" />
+        <varValue item="Turnout 2 Address Route 8" value="0" />
+        <varValue item="Turnout 2    Mode Route 8" value="7" />
+        <varValue item="Turnout 3 Address Route 8" value="0" />
+        <varValue item="Turnout 3    Mode Route 8" value="7" />
+        <varValue item="Turnout 4 Address Route 8" value="0" />
+        <varValue item="Turnout 4    Mode Route 8" value="7" />
+        <varValue item="Turnout 5 Address Route 8" value="0" />
+        <varValue item="Turnout 5    Mode Route 8" value="7" />
+        <varValue item="Turnout 6 Address Route 8" value="0" />
+        <varValue item="Turnout 6    Mode Route 8" value="7" />
+        <varValue item="Turnout 7 Address Route 8" value="0" />
+        <varValue item="Turnout 7    Mode Route 8" value="7" />
+        <varValue item="Turnout 8 Address Route 8" value="0" />
+        <varValue item="Turnout 8    Mode Route 8" value="7" />
       </decoderDef>
       <CVvalue name="1" value="25" />
       <CVvalue name="115.01" value="1" />
@@ -46,7 +178,7 @@
       <CVvalue name="115.04" value="0" />
       <CVvalue name="115.05" value="0" />
       <CVvalue name="115.06" value="0" />
-      <CVvalue name="115.08" value="0" />
+      <CVvalue name="115.08" value="1" />
       <CVvalue name="115.09" value="0" />
       <CVvalue name="115.10" value="0" />
       <CVvalue name="115.11" value="0" />
@@ -60,6 +192,74 @@
       <CVvalue name="115.19" value="0" />
       <CVvalue name="115.20" value="0" />
       <CVvalue name="115.21" value="0" />
+      <CVvalue name="115.25.00" value="273682742" />
+      <CVvalue name="115.25.0" value="273682742" />
+      <CVvalue name="115.25.01" value="810037559" />
+      <CVvalue name="115.25.1" value="810037559" />
+      <CVvalue name="115.25.016" value="-1" />
+      <CVvalue name="115.25.16" value="-1" />
+      <CVvalue name="115.25.017" value="-1" />
+      <CVvalue name="115.25.17" value="-1" />
+      <CVvalue name="115.25.018" value="-1" />
+      <CVvalue name="115.25.18" value="-1" />
+      <CVvalue name="115.25.019" value="-1" />
+      <CVvalue name="115.25.19" value="-1" />
+      <CVvalue name="115.25.020" value="-1" />
+      <CVvalue name="115.25.20" value="-1" />
+      <CVvalue name="115.25.021" value="-1" />
+      <CVvalue name="115.25.21" value="-1" />
+      <CVvalue name="115.25.022" value="-1" />
+      <CVvalue name="115.25.22" value="-1" />
+      <CVvalue name="115.25.023" value="-1" />
+      <CVvalue name="115.25.23" value="-1" />
+      <CVvalue name="115.25.024" value="-1" />
+      <CVvalue name="115.25.24" value="-1" />
+      <CVvalue name="115.25.025" value="-1" />
+      <CVvalue name="115.25.25" value="-1" />
+      <CVvalue name="115.25.026" value="-1" />
+      <CVvalue name="115.25.26" value="-1" />
+      <CVvalue name="115.25.027" value="-1" />
+      <CVvalue name="115.25.27" value="-1" />
+      <CVvalue name="115.25.028" value="-1" />
+      <CVvalue name="115.25.28" value="-1" />
+      <CVvalue name="115.25.029" value="-1" />
+      <CVvalue name="115.25.29" value="-1" />
+      <CVvalue name="115.25.030" value="-1" />
+      <CVvalue name="115.25.30" value="-1" />
+      <CVvalue name="115.25.031" value="-1" />
+      <CVvalue name="115.25.31" value="-1" />
+      <CVvalue name="115.25.032" value="-1" />
+      <CVvalue name="115.25.32" value="-1" />
+      <CVvalue name="115.25.033" value="-1" />
+      <CVvalue name="115.25.33" value="-1" />
+      <CVvalue name="115.25.034" value="-1" />
+      <CVvalue name="115.25.34" value="-1" />
+      <CVvalue name="115.25.035" value="-1" />
+      <CVvalue name="115.25.35" value="-1" />
+      <CVvalue name="115.25.036" value="-1" />
+      <CVvalue name="115.25.36" value="-1" />
+      <CVvalue name="115.25.037" value="-1" />
+      <CVvalue name="115.25.37" value="-1" />
+      <CVvalue name="115.25.038" value="-1" />
+      <CVvalue name="115.25.38" value="-1" />
+      <CVvalue name="115.25.039" value="-1" />
+      <CVvalue name="115.25.39" value="-1" />
+      <CVvalue name="115.25.040" value="-1" />
+      <CVvalue name="115.25.40" value="-1" />
+      <CVvalue name="115.25.041" value="-1" />
+      <CVvalue name="115.25.41" value="-1" />
+      <CVvalue name="115.25.042" value="-1" />
+      <CVvalue name="115.25.42" value="-1" />
+      <CVvalue name="115.25.043" value="-1" />
+      <CVvalue name="115.25.43" value="-1" />
+      <CVvalue name="115.25.044" value="-1" />
+      <CVvalue name="115.25.44" value="-1" />
+      <CVvalue name="115.25.045" value="-1" />
+      <CVvalue name="115.25.45" value="-1" />
+      <CVvalue name="115.25.046" value="-1" />
+      <CVvalue name="115.25.46" value="-1" />
+      <CVvalue name="115.25.047" value="-1" />
+      <CVvalue name="115.25.47" value="-1" />
     </values>
   </locomotive>
 </locomotive-config>
