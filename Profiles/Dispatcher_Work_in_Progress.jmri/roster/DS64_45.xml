@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 45" fileName="DS64_45.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="45" comment="No routes. 31,34,33,32" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T01:15:35.564+00:00</dateUpdated>
+  <locomotive id="DS64 45" fileName="DS64_45.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="45" comment="31,34,33,32" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T20:30:59.317+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="45" longaddress="no" />
@@ -192,10 +192,10 @@
       <CVvalue name="115.19" value="0" />
       <CVvalue name="115.20" value="0" />
       <CVvalue name="115.21" value="0" />
-      <CVvalue name="115.25.00" value="807473182" />
-      <CVvalue name="115.25.0" value="807473182" />
-      <CVvalue name="115.25.01" value="807342112" />
-      <CVvalue name="115.25.1" value="807342112" />
+      <CVvalue name="115.25.00" value="270610462" />
+      <CVvalue name="115.25.0" value="270610462" />
+      <CVvalue name="115.25.01" value="807350304" />
+      <CVvalue name="115.25.1" value="807350304" />
       <CVvalue name="115.25.016" value="-1" />
       <CVvalue name="115.25.16" value="-1" />
       <CVvalue name="115.25.017" value="-1" />

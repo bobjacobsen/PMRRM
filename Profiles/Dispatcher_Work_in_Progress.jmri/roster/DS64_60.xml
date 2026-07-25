@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="NOT READ" roadName="Doering/Vista TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="Should *NOT* be 530,531,532,533" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-25T07:01:05.678+00:00</dateUpdated>
+  <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="" roadName="Doering/Vista TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T20:58:56.626+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="60" longaddress="no" />
@@ -38,15 +38,15 @@
         <varValue item="Routes trigger" value="0" />
         <varValue item="Local Input Effects" value="0" />
         <varValue item="Input Messages" value="2" />
-        <varValue item="Output 1 Address" value="103" />
-        <varValue item="Output 2 Address" value="104" />
-        <varValue item="Output 3 Address" value="105" />
-        <varValue item="Output 4 Address" value="999" />
-        <varValue item="Turnout 1 Address Route 1" value="101" />
+        <varValue item="Output 1 Address" value="535" />
+        <varValue item="Output 2 Address" value="536" />
+        <varValue item="Output 3 Address" value="537" />
+        <varValue item="Output 4 Address" value="538" />
+        <varValue item="Turnout 1 Address Route 1" value="0" />
         <varValue item="Turnout 1    Mode Route 1" value="7" />
-        <varValue item="Turnout 2 Address Route 1" value="105" />
+        <varValue item="Turnout 2 Address Route 1" value="0" />
         <varValue item="Turnout 2    Mode Route 1" value="7" />
-        <varValue item="Turnout 3 Address Route 1" value="104" />
+        <varValue item="Turnout 3 Address Route 1" value="0" />
         <varValue item="Turnout 3    Mode Route 1" value="7" />
         <varValue item="Turnout 4 Address Route 1" value="0" />
         <varValue item="Turnout 4    Mode Route 1" value="7" />
@@ -192,14 +192,14 @@
       <CVvalue name="115.19" value="0" />
       <CVvalue name="115.20" value="0" />
       <CVvalue name="115.21" value="0" />
-      <CVvalue name="115.25.00" value="275189862" />
-      <CVvalue name="115.25.0" value="275189862" />
-      <CVvalue name="115.25.01" value="392564840" />
-      <CVvalue name="115.25.1" value="392564840" />
-      <CVvalue name="115.25.016" value="275255396" />
-      <CVvalue name="115.25.16" value="-261558172" />
-      <CVvalue name="115.25.017" value="-61337" />
-      <CVvalue name="115.25.17" value="-3993" />
+      <CVvalue name="115.25.00" value="337064982" />
+      <CVvalue name="115.25.0" value="337064982" />
+      <CVvalue name="115.25.01" value="874066968" />
+      <CVvalue name="115.25.1" value="874066968" />
+      <CVvalue name="115.25.016" value="-1" />
+      <CVvalue name="115.25.16" value="-1" />
+      <CVvalue name="115.25.017" value="-1" />
+      <CVvalue name="115.25.17" value="-1" />
       <CVvalue name="115.25.018" value="-1" />
       <CVvalue name="115.25.18" value="-1" />
       <CVvalue name="115.25.019" value="-1" />

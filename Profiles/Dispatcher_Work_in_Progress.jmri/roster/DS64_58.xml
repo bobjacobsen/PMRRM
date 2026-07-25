@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="DS64 58" fileName="DS64_58.xml" roadNumber="" roadName="Yazoo" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="58" comment="Former rte 101;. 103,104,105,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T02:15:31.110+00:00</dateUpdated>
+    <dateUpdated>2026-07-25T20:56:23.131+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="58" longaddress="no" />
@@ -194,11 +194,11 @@
       <CVvalue name="115.21" value="0" />
       <CVvalue name="115.25.00" value="275189862" />
       <CVvalue name="115.25.0" value="275189862" />
-      <CVvalue name="115.25.01" value="392564840" />
-      <CVvalue name="115.25.1" value="392564840" />
-      <CVvalue name="115.25.016" value="275255396" />
+      <CVvalue name="115.25.01" value="929435752" />
+      <CVvalue name="115.25.1" value="929435752" />
+      <CVvalue name="115.25.016" value="-261558172" />
       <CVvalue name="115.25.16" value="-261558172" />
-      <CVvalue name="115.25.017" value="-61337" />
+      <CVvalue name="115.25.017" value="-3993" />
       <CVvalue name="115.25.17" value="-3993" />
       <CVvalue name="115.25.018" value="-1" />
       <CVvalue name="115.25.18" value="-1" />
@@ -236,14 +236,14 @@
       <CVvalue name="115.25.34" value="-1" />
       <CVvalue name="115.25.035" value="-1" />
       <CVvalue name="115.25.35" value="-1" />
-      <CVvalue name="115.25.036" value="-1" />
-      <CVvalue name="115.25.36" value="-1" />
-      <CVvalue name="115.25.037" value="-1" />
-      <CVvalue name="115.25.37" value="-1" />
-      <CVvalue name="115.25.038" value="-1" />
-      <CVvalue name="115.25.38" value="-1" />
-      <CVvalue name="115.25.039" value="-1" />
-      <CVvalue name="115.25.39" value="-1" />
+      <CVvalue name="115.25.036" value="-129" />
+      <CVvalue name="115.25.36" value="-129" />
+      <CVvalue name="115.25.037" value="-129" />
+      <CVvalue name="115.25.37" value="-129" />
+      <CVvalue name="115.25.038" value="-129" />
+      <CVvalue name="115.25.38" value="-129" />
+      <CVvalue name="115.25.039" value="-129" />
+      <CVvalue name="115.25.39" value="-129" />
       <CVvalue name="115.25.040" value="-1" />
       <CVvalue name="115.25.40" value="-1" />
       <CVvalue name="115.25.041" value="-1" />
