@@ -57,8 +57,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="BDL168 07" fileName="BDL168_07.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="7" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-18T21:22:14.106+00:00</dateUpdated>
+    <locomotive id="BDL168 07" fileName="BDL168_07.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="7" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-25T00:03:11.407+00:00</dateUpdated>
       <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7" longaddress="no" />
@@ -112,8 +112,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 20" fileName="DS64_20.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="20" comment="No routes 63,61,162,63" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-23T23:02:09.730+00:00</dateUpdated>
+    <locomotive id="DS64 20" fileName="DS64_20.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="20" comment="No routes 63,61,162,63" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-25T00:04:30.846+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="20" longaddress="no" />
