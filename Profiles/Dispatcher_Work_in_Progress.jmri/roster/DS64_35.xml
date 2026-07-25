@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 35" fileName="DS64_35.xml" roadNumber="NOT READ" roadName="Standalone Upton cabs" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="35" comment="Should be no rt 170,84,83,70" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-25T06:20:30.113+00:00</dateUpdated>
+  <locomotive id="DS64 35" fileName="DS64_35.xml" roadNumber="" roadName="Standalone Upton cabs" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="35" comment="170,84,83,70" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T20:05:51.987+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="35" longaddress="no" />
@@ -20,12 +20,12 @@
         <varValue item="Pulse or blink rate3" value="0" />
         <varValue item="Pulse or blink rate4" value="0" />
         <varValue item="Output Auto Power-up" value="0" />
-        <varValue item="Start-Up Delay" value="1" />
+        <varValue item="Start-Up Delay" value="0" />
         <varValue item="Static Output Shutoff" value="0" />
         <varValue item="Command Source" value="0" />
         <varValue item="Route Command Source" value="0" />
         <varValue item="Sensor Actions" value="0" />
-        <varValue item="Input Signals" value="1" />
+        <varValue item="Input Signals" value="0" />
         <varValue item="Controls From" value="0" />
         <varValue item="Inputs Control Outputs" value="0" />
         <varValue item="Routes Enable" value="0" />
@@ -37,11 +37,11 @@
         <varValue item="Output Pulse or Blink Time" value="0" />
         <varValue item="Routes trigger" value="0" />
         <varValue item="Local Input Effects" value="0" />
-        <varValue item="Input Messages" value="2" />
-        <varValue item="Output 1 Address" value="999" />
-        <varValue item="Output 2 Address" value="66" />
-        <varValue item="Output 3 Address" value="71" />
-        <varValue item="Output 4 Address" value="69" />
+        <varValue item="Input Messages" value="0" />
+        <varValue item="Output 1 Address" value="170" />
+        <varValue item="Output 2 Address" value="84" />
+        <varValue item="Output 3 Address" value="83" />
+        <varValue item="Output 4 Address" value="70" />
         <varValue item="Turnout 1 Address Route 1" value="0" />
         <varValue item="Turnout 1    Mode Route 1" value="7" />
         <varValue item="Turnout 2 Address Route 1" value="0" />
@@ -178,12 +178,12 @@
       <CVvalue name="115.04" value="0" />
       <CVvalue name="115.05" value="0" />
       <CVvalue name="115.06" value="0" />
-      <CVvalue name="115.08" value="1" />
+      <CVvalue name="115.08" value="0" />
       <CVvalue name="115.09" value="0" />
       <CVvalue name="115.10" value="0" />
       <CVvalue name="115.11" value="0" />
       <CVvalue name="115.12" value="0" />
-      <CVvalue name="115.13" value="1" />
+      <CVvalue name="115.13" value="0" />
       <CVvalue name="115.14" value="0" />
       <CVvalue name="115.15" value="0" />
       <CVvalue name="115.16" value="0" />
@@ -192,10 +192,10 @@
       <CVvalue name="115.19" value="0" />
       <CVvalue name="115.20" value="0" />
       <CVvalue name="115.21" value="0" />
-      <CVvalue name="115.25.00" value="272701286" />
-      <CVvalue name="115.25.0" value="272701286" />
-      <CVvalue name="115.25.01" value="272896070" />
-      <CVvalue name="115.25.1" value="272896070" />
+      <CVvalue name="115.25.00" value="810758441" />
+      <CVvalue name="115.25.0" value="810758441" />
+      <CVvalue name="115.25.01" value="809840722" />
+      <CVvalue name="115.25.1" value="809840722" />
       <CVvalue name="115.25.016" value="-1" />
       <CVvalue name="115.25.16" value="-1" />
       <CVvalue name="115.25.017" value="-1" />
