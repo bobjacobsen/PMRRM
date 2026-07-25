@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 54" fileName="DS64_54.xml" roadNumber="" roadName="Troy West end" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="54" comment="No routes. 588,589,590,591" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T01:47:22.849+00:00</dateUpdated>
+  <locomotive id="DS64 54" fileName="DS64_54.xml" roadNumber="" roadName="Troy West" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="54" comment="588,589,590,591" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T05:56:24.909+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="54" longaddress="no" />

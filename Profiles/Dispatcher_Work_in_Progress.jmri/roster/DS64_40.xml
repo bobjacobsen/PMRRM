@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="DS64 40" fileName="DS64_40.xml" roadNumber="Check . Uses PB" roadName="Heine" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="40" comment="Routes 525 thrown=526 closed; 525 closed=526 thrown. Donme twice, routes 1,2,3,4.  522,523,524,525" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T01:05:12.260+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="DS64 40" fileName="DS64_40.xml" roadNumber="Check . Uses PB" roadName="Heine" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="40" comment="Rte yes. See book. 522,523,524,525" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T02:11:38.137+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="40" longaddress="no" />

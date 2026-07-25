@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
-<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
-<locomotive-config>
-  <locomotive id="DS64 74" fileName="DS64_74.xml" roadNumber="" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="74" comment="No routes 745,746,747,748" developerID="" manufacturerID="" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T03:10:05.084+00:00</dateUpdated>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="DS64 74" fileName="DS64_74.xml" roadNumber="" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="74" comment="745,746,747,748" developerID="" manufacturerID="" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T07:37:11.971+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="74" longaddress="no" />

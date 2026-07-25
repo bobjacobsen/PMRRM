@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="BDL168 05" fileName="BDL168_05.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="5" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-18T21:20:58.917+00:00</dateUpdated>
+  <locomotive id="BDL168 05" fileName="BDL168_05.xml" roadNumber="" roadName="Pod 11 E Narrows/E Powderhorn (1)" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="5" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T08:12:27.013+00:00</dateUpdated>
     <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="5" longaddress="no" />

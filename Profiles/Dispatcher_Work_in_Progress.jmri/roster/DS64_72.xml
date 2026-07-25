@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 72" fileName="DS64_72.xml" roadNumber="" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="72" comment="No routes. 737,738,739,740" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T03:29:30.184+00:00</dateUpdated>
+  <locomotive id="DS64 72" fileName="DS64_72.xml" roadNumber="" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="72" comment="737,738,739,740" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T07:36:44.994+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="72" longaddress="no" />

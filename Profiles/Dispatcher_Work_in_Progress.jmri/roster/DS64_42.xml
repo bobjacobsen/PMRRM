@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 42" fileName="DS64_42.xml" roadNumber="" roadName="McSweeny" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="42" comment="No routes. 528,529,530,2023" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T01:44:09.635+00:00</dateUpdated>
+  <locomotive id="DS64 42" fileName="DS64_42.xml" roadNumber="" roadName="McSweeny" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="42" comment="528,529,530,2023  &lt;- remove" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T06:39:09.091+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="42" longaddress="no" />

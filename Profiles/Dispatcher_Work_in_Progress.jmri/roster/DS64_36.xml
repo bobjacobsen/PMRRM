@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="DS64 36" fileName="DS64_36.xml" roadNumber="" roadName="" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="36" comment="No routes. 999,66,71,69" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-24T00:19:21.098+00:00</dateUpdated>
+  <locomotive id="DS64 36" fileName="DS64_36.xml" roadNumber="" roadName="Standalone Phorn obs" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="36" comment="999,66,71,69" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-07-25T06:20:19.665+00:00</dateUpdated>
     <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="36" longaddress="no" />
