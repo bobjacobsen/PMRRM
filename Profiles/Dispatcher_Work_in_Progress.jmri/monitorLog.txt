@@ -92488,3 +92488,243 @@
 17:57:38.916: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
 17:57:39.113: [EF 0E 7C 2F 00 42 4D 00 00 07 00 7F 7F 45]  Byte Read on Main Track (Ops Mode): Decoder address 8525: CV8.
 17:57:39.116: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:39.314: [EF 0E 7C 2F 00 42 4E 00 00 07 00 7F 7F 46]  Byte Read on Main Track (Ops Mode): Decoder address 8526: CV8.
+17:57:39.317: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:39.515: [EF 0E 7C 2F 00 42 4F 00 00 07 00 7F 7F 47]  Byte Read on Main Track (Ops Mode): Decoder address 8527: CV8.
+17:57:39.518: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:39.715: [EF 0E 7C 2F 00 42 50 00 00 07 00 7F 7F 58]  Byte Read on Main Track (Ops Mode): Decoder address 8528: CV8.
+17:57:39.718: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:39.916: [EF 0E 7C 2F 00 42 51 00 00 07 00 7F 7F 59]  Byte Read on Main Track (Ops Mode): Decoder address 8529: CV8.
+17:57:39.918: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:40.117: [EF 0E 7C 2F 00 42 52 00 00 07 00 7F 7F 5A]  Byte Read on Main Track (Ops Mode): Decoder address 8530: CV8.
+17:57:40.120: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:40.318: [EF 0E 7C 2F 00 42 53 00 00 07 00 7F 7F 5B]  Byte Read on Main Track (Ops Mode): Decoder address 8531: CV8.
+17:57:40.321: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:40.519: [EF 0E 7C 2F 00 42 54 00 00 07 00 7F 7F 5C]  Byte Read on Main Track (Ops Mode): Decoder address 8532: CV8.
+17:57:40.522: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:40.719: [EF 0E 7C 2F 00 42 55 00 00 07 00 7F 7F 5D]  Byte Read on Main Track (Ops Mode): Decoder address 8533: CV8.
+17:57:40.722: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:40.920: [EF 0E 7C 2F 00 42 56 00 00 07 00 7F 7F 5E]  Byte Read on Main Track (Ops Mode): Decoder address 8534: CV8.
+17:57:40.922: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:41.120: [EF 0E 7C 2F 00 42 57 00 00 07 00 7F 7F 5F]  Byte Read on Main Track (Ops Mode): Decoder address 8535: CV8.
+17:57:41.124: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:41.322: [EF 0E 7C 2F 00 42 58 00 00 07 00 7F 7F 50]  Byte Read on Main Track (Ops Mode): Decoder address 8536: CV8.
+17:57:41.325: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:41.523: [EF 0E 7C 2F 00 42 59 00 00 07 00 7F 7F 51]  Byte Read on Main Track (Ops Mode): Decoder address 8537: CV8.
+17:57:41.526: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:41.724: [EF 0E 7C 2F 00 42 5A 00 00 07 00 7F 7F 52]  Byte Read on Main Track (Ops Mode): Decoder address 8538: CV8.
+17:57:41.727: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:41.925: [EF 0E 7C 2F 00 42 5B 00 00 07 00 7F 7F 53]  Byte Read on Main Track (Ops Mode): Decoder address 8539: CV8.
+17:57:41.928: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:42.126: [EF 0E 7C 2F 00 42 5C 00 00 07 00 7F 7F 54]  Byte Read on Main Track (Ops Mode): Decoder address 8540: CV8.
+17:57:42.129: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:42.327: [EF 0E 7C 2F 00 42 5D 00 00 07 00 7F 7F 55]  Byte Read on Main Track (Ops Mode): Decoder address 8541: CV8.
+17:57:42.330: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:42.527: [EF 0E 7C 2F 00 42 5E 00 00 07 00 7F 7F 56]  Byte Read on Main Track (Ops Mode): Decoder address 8542: CV8.
+17:57:42.531: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:42.730: [EF 0E 7C 2F 00 42 5F 00 00 07 00 7F 7F 57]  Byte Read on Main Track (Ops Mode): Decoder address 8543: CV8.
+17:57:42.733: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:42.931: [EF 0E 7C 2F 00 42 60 00 00 07 00 7F 7F 68]  Byte Read on Main Track (Ops Mode): Decoder address 8544: CV8.
+17:57:42.934: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:43.133: [EF 0E 7C 2F 00 42 61 00 00 07 00 7F 7F 69]  Byte Read on Main Track (Ops Mode): Decoder address 8545: CV8.
+17:57:43.136: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:43.333: [EF 0E 7C 2F 00 42 62 00 00 07 00 7F 7F 6A]  Byte Read on Main Track (Ops Mode): Decoder address 8546: CV8.
+17:57:43.336: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:43.534: [EF 0E 7C 2F 00 42 63 00 00 07 00 7F 7F 6B]  Byte Read on Main Track (Ops Mode): Decoder address 8547: CV8.
+17:57:43.537: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:43.542: [B0 64 1F 34]  Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+17:57:43.735: [EF 0E 7C 2F 00 42 64 00 00 07 00 7F 7F 6C]  Byte Read on Main Track (Ops Mode): Decoder address 8548: CV8.
+17:57:43.738: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:43.936: [EF 0E 7C 2F 00 42 65 00 00 07 00 7F 7F 6D]  Byte Read on Main Track (Ops Mode): Decoder address 8549: CV8.
+17:57:43.938: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:44.137: [EF 0E 7C 2F 00 42 66 00 00 07 00 7F 7F 6E]  Byte Read on Main Track (Ops Mode): Decoder address 8550: CV8.
+17:57:44.140: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:44.351: [EF 0E 7C 2F 00 42 67 00 00 07 00 7F 7F 6F]  Byte Read on Main Track (Ops Mode): Decoder address 8551: CV8.
+17:57:44.354: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:44.551: [EF 0E 7C 2F 00 42 68 00 00 07 00 7F 7F 60]  Byte Read on Main Track (Ops Mode): Decoder address 8552: CV8.
+17:57:44.554: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:44.753: [EF 0E 7C 2F 00 42 69 00 00 07 00 7F 7F 61]  Byte Read on Main Track (Ops Mode): Decoder address 8553: CV8.
+17:57:44.755: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:44.954: [EF 0E 7C 2F 00 42 6A 00 00 07 00 7F 7F 62]  Byte Read on Main Track (Ops Mode): Decoder address 8554: CV8.
+17:57:44.957: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:45.155: [EF 0E 7C 2F 00 42 6B 00 00 07 00 7F 7F 63]  Byte Read on Main Track (Ops Mode): Decoder address 8555: CV8.
+17:57:45.159: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:45.357: [EF 0E 7C 2F 00 42 6C 00 00 07 00 7F 7F 64]  Byte Read on Main Track (Ops Mode): Decoder address 8556: CV8.
+17:57:45.359: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:45.558: [EF 0E 7C 2F 00 42 6D 00 00 07 00 7F 7F 65]  Byte Read on Main Track (Ops Mode): Decoder address 8557: CV8.
+17:57:45.560: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:45.758: [EF 0E 7C 2F 00 42 6E 00 00 07 00 7F 7F 66]  Byte Read on Main Track (Ops Mode): Decoder address 8558: CV8.
+17:57:45.761: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:45.960: [EF 0E 7C 2F 00 42 6F 00 00 07 00 7F 7F 67]  Byte Read on Main Track (Ops Mode): Decoder address 8559: CV8.
+17:57:45.963: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:46.160: [EF 0E 7C 2F 00 42 70 00 00 07 00 7F 7F 78]  Byte Read on Main Track (Ops Mode): Decoder address 8560: CV8.
+17:57:46.162: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:46.369: [EF 0E 7C 2F 00 42 71 00 00 07 00 7F 7F 79]  Byte Read on Main Track (Ops Mode): Decoder address 8561: CV8.
+17:57:46.370: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:46.563: [EF 0E 7C 2F 00 42 72 00 00 07 00 7F 7F 7A]  Byte Read on Main Track (Ops Mode): Decoder address 8562: CV8.
+17:57:46.565: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:46.764: [EF 0E 7C 2F 00 42 73 00 00 07 00 7F 7F 7B]  Byte Read on Main Track (Ops Mode): Decoder address 8563: CV8.
+17:57:46.768: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:46.966: [EF 0E 7C 2F 00 42 74 00 00 07 00 7F 7F 7C]  Byte Read on Main Track (Ops Mode): Decoder address 8564: CV8.
+17:57:46.969: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:47.167: [EF 0E 7C 2F 00 42 75 00 00 07 00 7F 7F 7D]  Byte Read on Main Track (Ops Mode): Decoder address 8565: CV8.
+17:57:47.170: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:47.368: [EF 0E 7C 2F 00 42 76 00 00 07 00 7F 7F 7E]  Byte Read on Main Track (Ops Mode): Decoder address 8566: CV8.
+17:57:47.371: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:47.570: [EF 0E 7C 2F 00 42 77 00 00 07 00 7F 7F 7F]  Byte Read on Main Track (Ops Mode): Decoder address 8567: CV8.
+17:57:47.573: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:47.771: [EF 0E 7C 2F 00 42 78 00 00 07 00 7F 7F 70]  Byte Read on Main Track (Ops Mode): Decoder address 8568: CV8.
+17:57:47.774: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:47.971: [EF 0E 7C 2F 00 42 79 00 00 07 00 7F 7F 71]  Byte Read on Main Track (Ops Mode): Decoder address 8569: CV8.
+17:57:47.973: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:48.172: [EF 0E 7C 2F 00 42 7A 00 00 07 00 7F 7F 72]  Byte Read on Main Track (Ops Mode): Decoder address 8570: CV8.
+17:57:48.175: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:48.375: [EF 0E 7C 2F 00 42 7B 00 00 07 00 7F 7F 73]  Byte Read on Main Track (Ops Mode): Decoder address 8571: CV8.
+17:57:48.378: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:48.576: [EF 0E 7C 2F 00 42 7C 00 00 07 00 7F 7F 74]  Byte Read on Main Track (Ops Mode): Decoder address 8572: CV8.
+17:57:48.579: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:48.777: [EF 0E 7C 2F 00 42 7D 00 00 07 00 7F 7F 75]  Byte Read on Main Track (Ops Mode): Decoder address 8573: CV8.
+17:57:48.780: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:48.978: [EF 0E 7C 2F 00 42 7E 00 00 07 00 7F 7F 76]  Byte Read on Main Track (Ops Mode): Decoder address 8574: CV8.
+17:57:48.981: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:49.179: [EF 0E 7C 2F 00 42 7F 00 00 07 00 7F 7F 77]  Byte Read on Main Track (Ops Mode): Decoder address 8575: CV8.
+17:57:49.182: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:49.380: [EF 0E 7C 2F 00 43 00 00 00 07 00 7F 7F 09]  Byte Read on Main Track (Ops Mode): Decoder address 8576: CV8.
+17:57:49.383: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:49.573: [B0 65 3F 15]  Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+17:57:49.584: [EF 0E 7C 2F 00 43 01 00 00 07 00 7F 7F 08]  Byte Read on Main Track (Ops Mode): Decoder address 8577: CV8.
+17:57:49.588: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:49.784: [EF 0E 7C 2F 00 43 02 00 00 07 00 7F 7F 0B]  Byte Read on Main Track (Ops Mode): Decoder address 8578: CV8.
+17:57:49.787: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:49.984: [EF 0E 7C 2F 00 43 03 00 00 07 00 7F 7F 0A]  Byte Read on Main Track (Ops Mode): Decoder address 8579: CV8.
+17:57:49.987: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:50.184: [EF 0E 7C 2F 00 43 04 00 00 07 00 7F 7F 0D]  Byte Read on Main Track (Ops Mode): Decoder address 8580: CV8.
+17:57:50.188: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:50.386: [EF 0E 7C 2F 00 43 05 00 00 07 00 7F 7F 0C]  Byte Read on Main Track (Ops Mode): Decoder address 8581: CV8.
+17:57:50.389: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:50.587: [EF 0E 7C 2F 00 43 06 00 00 07 00 7F 7F 0F]  Byte Read on Main Track (Ops Mode): Decoder address 8582: CV8.
+17:57:50.590: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:50.789: [EF 0E 7C 2F 00 43 07 00 00 07 00 7F 7F 0E]  Byte Read on Main Track (Ops Mode): Decoder address 8583: CV8.
+17:57:50.791: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:50.989: [EF 0E 7C 2F 00 43 08 00 00 07 00 7F 7F 01]  Byte Read on Main Track (Ops Mode): Decoder address 8584: CV8.
+17:57:50.991: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:51.190: [EF 0E 7C 2F 00 43 09 00 00 07 00 7F 7F 00]  Byte Read on Main Track (Ops Mode): Decoder address 8585: CV8.
+17:57:51.193: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:51.391: [EF 0E 7C 2F 00 43 0A 00 00 07 00 7F 7F 03]  Byte Read on Main Track (Ops Mode): Decoder address 8586: CV8.
+17:57:51.393: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:51.591: [EF 0E 7C 2F 00 43 0B 00 00 07 00 7F 7F 02]  Byte Read on Main Track (Ops Mode): Decoder address 8587: CV8.
+17:57:51.594: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:51.791: [EF 0E 7C 2F 00 43 0C 00 00 07 00 7F 7F 05]  Byte Read on Main Track (Ops Mode): Decoder address 8588: CV8.
+17:57:51.795: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:51.993: [EF 0E 7C 2F 00 43 0D 00 00 07 00 7F 7F 04]  Byte Read on Main Track (Ops Mode): Decoder address 8589: CV8.
+17:57:51.997: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:52.195: [EF 0E 7C 2F 00 43 0E 00 00 07 00 7F 7F 07]  Byte Read on Main Track (Ops Mode): Decoder address 8590: CV8.
+17:57:52.198: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:52.396: [EF 0E 7C 2F 00 43 0F 00 00 07 00 7F 7F 06]  Byte Read on Main Track (Ops Mode): Decoder address 8591: CV8.
+17:57:52.399: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:52.765: [EF 0E 7C 2F 00 43 10 00 00 07 00 7F 7F 19]  Byte Read on Main Track (Ops Mode): Decoder address 8592: CV8.
+17:57:52.767: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:52.797: [EF 0E 7C 2F 00 43 11 00 00 07 00 7F 7F 18]  Byte Read on Main Track (Ops Mode): Decoder address 8593: CV8.
+17:57:52.800: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:52.998: [EF 0E 7C 2F 00 43 12 00 00 07 00 7F 7F 1B]  Byte Read on Main Track (Ops Mode): Decoder address 8594: CV8.
+17:57:53.001: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:53.199: [EF 0E 7C 2F 00 43 13 00 00 07 00 7F 7F 1A]  Byte Read on Main Track (Ops Mode): Decoder address 8595: CV8.
+17:57:53.203: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:53.401: [EF 0E 7C 2F 00 43 14 00 00 07 00 7F 7F 1D]  Byte Read on Main Track (Ops Mode): Decoder address 8596: CV8.
+17:57:53.403: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:53.602: [EF 0E 7C 2F 00 43 15 00 00 07 00 7F 7F 1C]  Byte Read on Main Track (Ops Mode): Decoder address 8597: CV8.
+17:57:53.605: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:53.803: [EF 0E 7C 2F 00 43 16 00 00 07 00 7F 7F 1F]  Byte Read on Main Track (Ops Mode): Decoder address 8598: CV8.
+17:57:53.806: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:54.004: [EF 0E 7C 2F 00 43 17 00 00 07 00 7F 7F 1E]  Byte Read on Main Track (Ops Mode): Decoder address 8599: CV8.
+17:57:54.007: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:54.205: [EF 0E 7C 2F 00 43 18 00 00 07 00 7F 7F 11]  Byte Read on Main Track (Ops Mode): Decoder address 8600: CV8.
+17:57:54.208: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:54.405: [EF 0E 7C 2F 00 43 19 00 00 07 00 7F 7F 10]  Byte Read on Main Track (Ops Mode): Decoder address 8601: CV8.
+17:57:54.409: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:54.606: [EF 0E 7C 2F 00 43 1A 00 00 07 00 7F 7F 13]  Byte Read on Main Track (Ops Mode): Decoder address 8602: CV8.
+17:57:54.609: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:54.807: [EF 0E 7C 2F 00 43 1B 00 00 07 00 7F 7F 12]  Byte Read on Main Track (Ops Mode): Decoder address 8603: CV8.
+17:57:54.810: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:55.008: [EF 0E 7C 2F 00 43 1C 00 00 07 00 7F 7F 15]  Byte Read on Main Track (Ops Mode): Decoder address 8604: CV8.
+17:57:55.011: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:55.209: [EF 0E 7C 2F 00 43 1D 00 00 07 00 7F 7F 14]  Byte Read on Main Track (Ops Mode): Decoder address 8605: CV8.
+17:57:55.212: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:55.410: [EF 0E 7C 2F 00 43 1E 00 00 07 00 7F 7F 17]  Byte Read on Main Track (Ops Mode): Decoder address 8606: CV8.
+17:57:55.413: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:55.548: [B0 64 3F 14]  Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+17:57:55.611: [EF 0E 7C 2F 00 43 1F 00 00 07 00 7F 7F 16]  Byte Read on Main Track (Ops Mode): Decoder address 8607: CV8.
+17:57:55.614: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:55.811: [EF 0E 7C 2F 00 43 20 00 00 07 00 7F 7F 29]  Byte Read on Main Track (Ops Mode): Decoder address 8608: CV8.
+17:57:55.815: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:56.020: [EF 0E 7C 2F 00 43 21 00 00 07 00 7F 7F 28]  Byte Read on Main Track (Ops Mode): Decoder address 8609: CV8.
+17:57:56.022: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:56.283: [EF 0E 7C 2F 00 43 22 00 00 07 00 7F 7F 2B]  Byte Read on Main Track (Ops Mode): Decoder address 8610: CV8.
+17:57:56.285: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:56.442: [EF 0E 7C 2F 00 43 23 00 00 07 00 7F 7F 2A]  Byte Read on Main Track (Ops Mode): Decoder address 8611: CV8.
+17:57:56.444: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:56.619: [EF 0E 7C 2F 00 43 24 00 00 07 00 7F 7F 2D]  Byte Read on Main Track (Ops Mode): Decoder address 8612: CV8.
+17:57:56.621: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:56.818: [EF 0E 7C 2F 00 43 25 00 00 07 00 7F 7F 2C]  Byte Read on Main Track (Ops Mode): Decoder address 8613: CV8.
+17:57:56.819: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:57.023: [EF 0E 7C 2F 00 43 26 00 00 07 00 7F 7F 2F]  Byte Read on Main Track (Ops Mode): Decoder address 8614: CV8.
+17:57:57.025: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:57.221: [EF 0E 7C 2F 00 43 27 00 00 07 00 7F 7F 2E]  Byte Read on Main Track (Ops Mode): Decoder address 8615: CV8.
+17:57:57.221: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:57.419: [EF 0E 7C 2F 00 43 28 00 00 07 00 7F 7F 21]  Byte Read on Main Track (Ops Mode): Decoder address 8616: CV8.
+17:57:57.421: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:57.635: [EF 0E 7C 2F 00 43 29 00 00 07 00 7F 7F 20]  Byte Read on Main Track (Ops Mode): Decoder address 8617: CV8.
+17:57:57.636: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:57.817: [EF 0E 7C 2F 00 43 2A 00 00 07 00 7F 7F 23]  Byte Read on Main Track (Ops Mode): Decoder address 8618: CV8.
+17:57:57.828: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:58.017: [EF 0E 7C 2F 00 43 2B 00 00 07 00 7F 7F 22]  Byte Read on Main Track (Ops Mode): Decoder address 8619: CV8.
+17:57:58.029: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:58.221: [EF 0E 7C 2F 00 43 2C 00 00 07 00 7F 7F 25]  Byte Read on Main Track (Ops Mode): Decoder address 8620: CV8.
+17:57:58.222: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:58.427: [EF 0E 7C 2F 00 43 2D 00 00 07 00 7F 7F 24]  Byte Read on Main Track (Ops Mode): Decoder address 8621: CV8.
+17:57:58.428: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:58.625: [EF 0E 7C 2F 00 43 2E 00 00 07 00 7F 7F 27]  Byte Read on Main Track (Ops Mode): Decoder address 8622: CV8.
+17:57:58.627: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:58.827: [EF 0E 7C 2F 00 43 2F 00 00 07 00 7F 7F 26]  Byte Read on Main Track (Ops Mode): Decoder address 8623: CV8.
+17:57:58.828: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:59.022: [EF 0E 7C 2F 00 43 30 00 00 07 00 7F 7F 39]  Byte Read on Main Track (Ops Mode): Decoder address 8624: CV8.
+17:57:59.024: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:59.224: [EF 0E 7C 2F 00 43 31 00 00 07 00 7F 7F 38]  Byte Read on Main Track (Ops Mode): Decoder address 8625: CV8.
+17:57:59.234: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:59.430: [EF 0E 7C 2F 00 43 32 00 00 07 00 7F 7F 3B]  Byte Read on Main Track (Ops Mode): Decoder address 8626: CV8.
+17:57:59.432: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:59.655: [EF 0E 7C 2F 00 43 33 00 00 07 00 7F 7F 3A]  Byte Read on Main Track (Ops Mode): Decoder address 8627: CV8.
+17:57:59.657: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:57:59.850: [EF 0E 7C 2F 00 43 34 00 00 07 00 7F 7F 3D]  Byte Read on Main Track (Ops Mode): Decoder address 8628: CV8.
+17:57:59.851: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:00.053: [EF 0E 7C 2F 00 43 35 00 00 07 00 7F 7F 3C]  Byte Read on Main Track (Ops Mode): Decoder address 8629: CV8.
+17:58:00.068: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:00.258: [EF 0E 7C 2F 00 43 36 00 00 07 00 7F 7F 3F]  Byte Read on Main Track (Ops Mode): Decoder address 8630: CV8.
+17:58:00.259: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:00.454: [EF 0E 7C 2F 00 43 37 00 00 07 00 7F 7F 3E]  Byte Read on Main Track (Ops Mode): Decoder address 8631: CV8.
+17:58:00.463: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:00.659: [EF 0E 7C 2F 00 43 38 00 00 07 00 7F 7F 31]  Byte Read on Main Track (Ops Mode): Decoder address 8632: CV8.
+17:58:00.661: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:00.857: [EF 0E 7C 2F 00 43 39 00 00 07 00 7F 7F 30]  Byte Read on Main Track (Ops Mode): Decoder address 8633: CV8.
+17:58:00.858: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:01.064: [EF 0E 7C 2F 00 43 3A 00 00 07 00 7F 7F 33]  Byte Read on Main Track (Ops Mode): Decoder address 8634: CV8.
+17:58:01.065: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:01.260: [EF 0E 7C 2F 00 43 3B 00 00 07 00 7F 7F 32]  Byte Read on Main Track (Ops Mode): Decoder address 8635: CV8.
+17:58:01.261: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:01.463: [EF 0E 7C 2F 00 43 3C 00 00 07 00 7F 7F 35]  Byte Read on Main Track (Ops Mode): Decoder address 8636: CV8.
+17:58:01.464: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:01.587: [B0 65 1F 35]  Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Thrown (Output On).
+17:58:01.659: [EF 0E 7C 2F 00 43 3D 00 00 07 00 7F 7F 34]  Byte Read on Main Track (Ops Mode): Decoder address 8637: CV8.
+17:58:01.670: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:01.861: [EF 0E 7C 2F 00 43 3E 00 00 07 00 7F 7F 37]  Byte Read on Main Track (Ops Mode): Decoder address 8638: CV8.
+17:58:01.863: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:02.066: [EF 0E 7C 2F 00 43 3F 00 00 07 00 7F 7F 36]  Byte Read on Main Track (Ops Mode): Decoder address 8639: CV8.
+17:58:02.067: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:02.270: [EF 0E 7C 2F 00 43 40 00 00 07 00 7F 7F 49]  Byte Read on Main Track (Ops Mode): Decoder address 8640: CV8.
+17:58:02.271: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:02.461: [EF 0E 7C 2F 00 43 41 00 00 07 00 7F 7F 48]  Byte Read on Main Track (Ops Mode): Decoder address 8641: CV8.
+17:58:02.470: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:02.663: [EF 0E 7C 2F 00 43 42 00 00 07 00 7F 7F 4B]  Byte Read on Main Track (Ops Mode): Decoder address 8642: CV8.
+17:58:02.664: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
+17:58:02.870: [EF 0E 7C 2F 00 43 43 00 00 07 00 7F 7F 4A]  Byte Read on Main Track (Ops Mode): Decoder address 8643: CV8.
+17:58:02.871: [B4 6F 40 64]  LONG_ACK: The Slot Write command was accepted blind (no response will be sent).
