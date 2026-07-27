@@ -26607,7 +26607,7 @@
     <positionablepoint ident="A39" type="ANCHOR" x="1040.0" y="535.0" connect1name="T14" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista / Doering Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1360" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista / Doering Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1360" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26635,29 +26635,34 @@
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
     <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EoW" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="40" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1147.0" ycen="246.0" xa="1167.0" ya="246.0" xb="1127.0" yb="246.0" xc="1127.0" yc="236.0" xd="1167.0" yd="246.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1070.0" ycen="206.0" xa="1087.32" ya="216.0" xb="1052.68" yb="196.0" xc="1047.68" yc="204.66" xd="1087.32" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
-    <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="985.0" ycen="254.0" xa="1005.0" ya="254.0" xb="965.0" yb="254.0" xc="965.0" yc="264.0" xd="1005.0" yd="254.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
-    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="899.0" ycen="292.0" xa="916.32" ya="282.0" xb="881.68" yb="302.0" xc="876.68" yc="293.34" xd="916.32" yd="282.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="830.0" ycen="294.0" xa="850.0" ya="294.0" xb="810.0" yb="294.0" xc="810.0" yc="284.0" xd="850.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="829.0" ycen="340.0" xa="846.32" ya="330.0" xb="811.68" yb="350.0" xc="806.68" yc="341.34" xd="846.32" yd="330.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="827.0" ycen="47.0" xa="827.0" ya="27.0" xb="827.0" yb="67.0" xc="837.0" yc="67.0" xd="827.0" yd="27.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="822.0" ycen="120.0" xa="822.0" ya="100.0" xb="822.0" yb="140.0" xc="812.0" yc="140.0" xd="822.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <positionablelabel x="562" y="456" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="TEST" fontFamily="Dialog" fontname="Dialog" size="20" style="1" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="255" blueBack="0" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="562" y="427" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="TEST" fontFamily="Dialog" fontname="Dialog" size="20" style="1" red="0" green="0" blue="0" hasBackground="yes" redBack="255" greenBack="225" blueBack="0" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1150.0" ycen="245.0" xa="1170.0" ya="245.0" xb="1130.0" yb="245.0" xc="1130.0" yc="235.0" xd="1170.0" yd="245.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T2" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1075.0" ycen="205.0" xa="1092.32" ya="215.0" xb="1057.68" yb="195.0" xc="1052.68" yc="203.66" xd="1092.32" yd="215.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T1" />
+    <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1005.0" ycen="245.0" xa="1025.0" ya="245.0" xb="985.0" yb="245.0" xc="985.0" yc="255.0" xd="1025.0" yd="245.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="901.0" ycen="295.0" xa="918.32" ya="285.0" xb="883.68" yb="305.0" xc="878.68" yc="296.34" xd="918.32" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="832.0" ycen="297.0" xa="852.0" ya="297.0" xb="812.0" yb="297.0" xc="812.0" yc="287.0" xd="852.0" yd="297.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="831.0" ycen="343.0" xa="848.32" ya="333.0" xb="813.68" yb="353.0" xc="808.68" yc="344.34" xd="848.32" yd="333.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="829.0" ycen="50.0" xa="819.0" ya="32.68" xb="839.0" yb="67.32" xc="847.66" yc="62.32" xd="819.0" yd="32.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectcname="T1" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="885.0" ycen="105.0" xa="867.68" ya="95.0" xb="902.32" yb="115.0" xc="897.32" yc="123.66" xd="867.68" yd="95.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <tracksegment ident="T1" connect1name="TO5" type1="TURNOUT_B" connect2name="TO10" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="TO4" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="1036.0" y="208.0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Jul 26 23:00:41 PDT 2026</date>
+      <date>Mon Jul 27 13:05:52 PDT 2026</date>
       <filename>PanelPro (v5.17.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Jul 26 23:00:55 PDT 2026</date>
+      <date>Mon Jul 27 13:06:07 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Jul 26 23:49:24 PDT 2026</date>
+      <date>Mon Jul 27 13:41:35 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
