@@ -17788,56 +17788,6 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
-  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
-    <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)Voltage</systemName>
-    </meter>
-  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -18698,7 +18648,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="302" y="319" windowheight="726" windowwidth="1550" panelheight="640" panelwidth="1625" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="63" y="146" windowheight="658" windowwidth="1442" panelheight="640" panelwidth="1625" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -18918,7 +18868,7 @@
       <raytrack angle="15.0" index="16" />
     </layoutturntable>
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="154" y="191" windowheight="431" windowwidth="1312" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="105" y="144" windowheight="410" windowwidth="1298" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19138,7 +19088,7 @@
     </layoutTrackDrawingOptions>
     <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="900.0" ycen="100.0" xa="910.0" ya="82.68" xb="890.0" yb="117.32" xc="881.34" yc="112.32" xd="910.0" yd="82.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="322" y="171" windowheight="558" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="157" y="136" windowheight="558" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Port Area" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19376,7 +19326,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="190.0" y="221.0" connect1name="T3" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="24.0" y="260.0" connect1name="T6" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="0" windowheight="974" windowwidth="1550" panelheight="807" panelwidth="1450" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="807" panelwidth="1450" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -22979,7 +22929,7 @@
     <positionablepoint ident="A43" type="ANCHOR" x="990.0" y="335.0" connect1name="T245" connect2name="T248" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-7" y="-7" windowheight="974" windowwidth="1550" panelheight="1404" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="1404" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclethrowncolor="orange" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26657,20 +26607,57 @@
     <positionablepoint ident="A39" type="ANCHOR" x="1040.0" y="535.0" connect1name="T14" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista / Doering Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1360" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="no" antialiasing="no" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="darkGray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#404040</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>2</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#404040</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>1</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EoW" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="40" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO4" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1147.0" ycen="246.0" xa="1167.0" ya="246.0" xb="1127.0" yb="246.0" xc="1127.0" yc="236.0" xd="1167.0" yd="246.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1070.0" ycen="206.0" xa="1087.32" ya="216.0" xb="1052.68" yb="196.0" xc="1047.68" yc="204.66" xd="1087.32" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
+    <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="985.0" ycen="254.0" xa="1005.0" ya="254.0" xb="965.0" yb="254.0" xc="965.0" yc="264.0" xd="1005.0" yd="254.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="899.0" ycen="292.0" xa="916.32" ya="282.0" xb="881.68" yb="302.0" xc="876.68" yc="293.34" xd="916.32" yd="282.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="830.0" ycen="294.0" xa="850.0" ya="294.0" xb="810.0" yb="294.0" xc="810.0" yc="284.0" xd="850.0" yd="294.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="829.0" ycen="340.0" xa="846.32" ya="330.0" xb="811.68" yb="350.0" xc="806.68" yc="341.34" xd="846.32" yd="330.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="827.0" ycen="47.0" xa="827.0" ya="27.0" xb="827.0" yb="67.0" xc="837.0" yc="67.0" xd="827.0" yd="27.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="822.0" ycen="120.0" xa="822.0" ya="100.0" xb="822.0" yb="140.0" xc="812.0" yc="140.0" xd="822.0" yd="100.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+  </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Jul 25 20:45:46 PDT 2026</date>
+      <date>Sun Jul 26 23:00:41 PDT 2026</date>
       <filename>PanelPro (v5.17.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Jul 25 20:46:06 PDT 2026</date>
+      <date>Sun Jul 26 23:00:55 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Jul 25 20:53:01 PDT 2026</date>
+      <date>Sun Jul 26 23:44:56 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
