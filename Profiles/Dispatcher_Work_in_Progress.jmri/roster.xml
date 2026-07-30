@@ -36,7 +36,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="BDL168 05" fileName="BDL168_05.xml" roadNumber="" roadName="Pod 11 E Narrows/E Powderhorn (1)" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="5" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T08:12:27.013+00:00</dateUpdated>
+      <dateUpdated>2026-07-30T20:57:40.879+00:00</dateUpdated>
       <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5" longaddress="no" />
@@ -58,7 +58,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="BDL168 07" fileName="BDL168_07.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="7" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T00:03:11.407+00:00</dateUpdated>
+      <dateUpdated>2026-07-30T20:54:06.823+00:00</dateUpdated>
       <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7" longaddress="no" />
@@ -102,7 +102,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 20" fileName="DS64_20.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="20" comment="63,61,162,63" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T05:34:46.105+00:00</dateUpdated>
+      <dateUpdated>2026-07-30T20:57:06.150+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="20" longaddress="no" />
