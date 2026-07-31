@@ -706,17 +706,6 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman template 9090" fileName="Signalman_template_9090.xml" roadNumber="9090 example" roadName="POD NAME" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9090" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-13T01:15:28.385+00:00</dateUpdated>
-      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="9090" longaddress="yes" />
-        <number>9090</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
     <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11006" comment="1/2 brite 420,421,422,423/424,425,426,427" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-07-31T03:29:02.790+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
@@ -739,12 +728,12 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman Xerox" fileName="Signalman_Xerox.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9999" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-21T02:31:12.507+00:00</dateUpdated>
+    <locomotive id="Signalman Xerox" fileName="Signalman_Xerox.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11007" comment="1/2 brite 436,437,438,439/440,441,442,443" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-31T04:01:14.832+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
+        <dcclocoaddress number="11007" longaddress="yes" />
+        <number>11007</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
