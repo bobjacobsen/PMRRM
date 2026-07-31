@@ -26394,8 +26394,8 @@ Group TE: 44 / 37 / 31</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
+    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
@@ -26431,8 +26431,8 @@ Group TE: 44 / 37 / 31</value>
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
+    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
