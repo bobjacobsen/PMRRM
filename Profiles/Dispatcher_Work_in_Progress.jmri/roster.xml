@@ -684,8 +684,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="No response" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-24T04:58:31.632+00:00</dateUpdated>
+    <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="Location TBC." roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="1/2 brite. LT408,409,410,411 Mast A" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-31T03:06:44.246+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="12001" longaddress="yes" />
@@ -695,8 +695,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman E Whiskey Vista" fileName="Signalman_E_Whiskey_Vista.xml" roadNumber="No response" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12000" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-24T04:58:45.330+00:00</dateUpdated>
+    <locomotive id="Signalman E Whiskey Vista" fileName="Signalman_E_Whiskey_Vista.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12000" comment="1/2 brite 400,401,402,403" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-31T03:08:31.987+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="12000" longaddress="yes" />
@@ -717,30 +717,19 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman Upton" fileName="Signalman_Upton.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="9999" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-21T02:31:28.766+00:00</dateUpdated>
+    <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11006" comment="1/2 brite 420,421,422,423/424,425,426,427" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-31T03:29:02.790+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
-        <dcclocoaddress number="9999" longaddress="yes" />
-        <number>9999</number>
+        <dcclocoaddress number="11006" longaddress="yes" />
+        <number>11006</number>
         <protocol>dcc_long</protocol>
       </locoaddress>
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="1106" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-21T02:31:22.799+00:00</dateUpdated>
-      <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
-      <locoaddress>
-        <dcclocoaddress number="1106" longaddress="yes" />
-        <number>1106</number>
-        <protocol>dcc_long</protocol>
-      </locoaddress>
-      <functionlabels />
-      <soundlabels />
-    </locomotive>
-    <locomotive id="Signalman W Vista Whiskey" fileName="Signalman_W_Vista_Whiskey.xml" roadNumber="" roadName="Not yet READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11005" comment="" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-21T02:31:20.013+00:00</dateUpdated>
+    <locomotive id="Signalman W Vista Whiskey" fileName="Signalman_W_Vista_Whiskey.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11005" comment="1/2 brite 412,413,414,415/416,417,418,419.H2 was/is a brite 5" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-07-31T03:19:39.301+00:00</dateUpdated>
       <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="11005" longaddress="yes" />

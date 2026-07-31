@@ -20,7 +20,7 @@
 import jmri
 class Scanner (jmri.jmrit.automat.AbstractAutomaton) : 
 	def init(self) :
-		self.locoNumber = 0  # change this if you want to start at other than one
+		self.locoNumber = 9000  # change this if you want to start at other than one
 	def handle(self) :
 		self.locoNumber = self.locoNumber + 1
 		programmer = jmri.InstanceManager.getDefault(jmri.AddressedProgrammerManager).getAddressedProgrammer(True, self.locoNumber)
