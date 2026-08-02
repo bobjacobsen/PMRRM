@@ -26580,7 +26580,7 @@
     <positionablepoint ident="A39" type="ANCHOR" x="1040.0" y="535.0" connect1name="T14" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-    <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="465" panelwidth="1300" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="465" panelwidth="1300" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26630,7 +26630,7 @@
     <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="776.0" ycen="418.0" xa="761.0" ya="423.0" xb="791.0" yb="413.0" xc="796.0" yc="428.0" xd="761.0" yd="423.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T54" connectbname="T58" connectcname="T57" />
     <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="136.0" ycen="363.0" xa="145.16" ya="365.77" xb="127.68" yb="357.45" xc="126.0" yc="363.0" xd="144.32" yd="368.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectaname="T48" connectbname="T39" connectcname="T41" />
     <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="96.0" ycen="283.0" xa="101.3" ya="270.2" xb="85.39" yb="293.61" xc="96.0" yc="298.0" xd="106.61" yd="272.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T40" connectcname="T39" />
-    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="21.0" ycen="363.0" xa="12.46" ya="366.54" xb="31.0" yb="363.0" xc="28.07" yc="355.93" xd="11.0" yd="363.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T41" connectcname="T40" />
+    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="21.0" ycen="363.0" xa="12.47" ya="366.54" xb="31.0" yb="363.0" xc="28.07" yc="355.93" xd="11.0" yd="363.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T41" connectcname="T40" />
     <tracksegment ident="T1" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="A20" type1="POS_POINT" connect2name="A37" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" connect1name="A19" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -26757,7 +26757,7 @@
     <positionablepoint ident="A38" type="ANCHOR" x="977.0" y="195.0" connect1name="T17" connect2name="T62" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A1" type="ANCHOR" x="914.5" y="336.0" connect1name="T52" connect2name="T63" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Doering Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="465" panelwidth="1300" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="yes" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Doering Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="465" panelwidth="1300" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26807,7 +26807,7 @@
     <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="776.0" ycen="418.0" xa="761.0" ya="423.0" xb="791.0" yb="413.0" xc="796.0" yc="428.0" xd="761.0" yd="423.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T54" connectbname="T58" connectcname="T57" />
     <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="136.0" ycen="363.0" xa="145.16" ya="365.77" xb="127.68" yb="357.45" xc="126.0" yc="363.0" xd="144.32" yd="368.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectaname="T48" connectbname="T39" connectcname="T41" />
     <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="96.0" ycen="283.0" xa="101.3" ya="270.2" xb="85.39" yb="293.61" xc="96.0" yc="298.0" xd="106.61" yd="272.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T40" connectcname="T39" />
-    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="21.0" ycen="363.0" xa="12.46" ya="366.54" xb="31.0" yb="363.0" xc="28.07" yc="355.93" xd="11.0" yd="363.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T41" connectcname="T40" />
+    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="21.0" ycen="363.0" xa="12.47" ya="366.54" xb="31.0" yb="363.0" xc="28.07" yc="355.93" xd="11.0" yd="363.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" connectbname="T41" connectcname="T40" />
     <tracksegment ident="T1" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" connect1name="A20" type1="POS_POINT" connect2name="A37" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T5" connect1name="A19" type1="POS_POINT" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -26937,17 +26937,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Aug 02 15:46:31 PDT 2026</date>
+      <date>Sun Aug 02 16:56:53 PDT 2026</date>
       <filename>PanelPro (v5.17.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Aug 02 15:46:44 PDT 2026</date>
+      <date>Sun Aug 02 16:57:06 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Aug 02 16:48:56 PDT 2026</date>
+      <date>Sun Aug 02 16:57:28 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
