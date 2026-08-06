@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="Signalman E Whiskey Vista" fileName="Signalman_E_Whiskey_Vista.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12000" comment="1/2 brite 400,401,402,403" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-31T03:08:31.987+00:00</dateUpdated>
+    <dateUpdated>2026-08-06T20:35:22.634+00:00</dateUpdated>
     <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="12000" longaddress="yes" />
@@ -22,7 +22,7 @@
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Bi-polar Mode" value="0" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="1653" />
+        <varValue item="Flash Write Value" value="1660" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="Strobe Length" value="10" />
         <varValue item="Reserved" value="0" />
@@ -1719,7 +1719,7 @@
       <CVvalue name="17" value="238" />
       <CVvalue name="18" value="224" />
       <CVvalue name="112" value="27" />
-      <CVvalue name="113" value="117" />
+      <CVvalue name="113" value="124" />
       <CVvalue name="114" value="6" />
       <CVvalue name="115" value="0" />
       <CVvalue name="116" value="10" />

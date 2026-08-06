@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="Signalman W Vista Whiskey" fileName="Signalman_W_Vista_Whiskey.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11005" comment="1/2 brite 412,413,414,415/416,417,418,419.H2 was/is a brite 5" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-08-06T19:46:04.457+00:00</dateUpdated>
+  <locomotive id="Signalman Upton" fileName="Signalman_Upton.xml" roadNumber="Upton on Semaphore power" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11006" comment="1/2 brite 428,429,430,431 / 432,433,434,435" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-08-06T21:34:49.637+00:00</dateUpdated>
     <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="11005" longaddress="yes" />
-      <number>11005</number>
+      <dcclocoaddress number="11006" longaddress="yes" />
+      <number>11006</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels />
@@ -14,7 +14,7 @@
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="19" />
-        <varValue item="Long Address" value="11005" />
+        <varValue item="Long Address" value="11006" />
         <varValue item="Port State Memory" value="1" />
         <varValue item="OPS Mode Programing" value="1" />
         <varValue item="GPON Interrogate" value="1" />
@@ -22,7 +22,7 @@
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Bi-polar Mode" value="0" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="1121" />
+        <varValue item="Flash Write Value" value="1061" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="Strobe Length" value="10" />
         <varValue item="Reserved" value="0" />
@@ -33,15 +33,15 @@
         <varValue item="MA1 Address Mode" value="0" />
         <varValue item="MA1 Transition" value="0" />
         <varValue item="MA1 Type" value="0" />
-        <varValue item="MA1 Effect" value="1" />
+        <varValue item="MA1 Effect" value="0" />
         <varValue item="MA2 Address Mode" value="0" />
         <varValue item="MA2 Transition" value="0" />
         <varValue item="MA2 Type" value="0" />
-        <varValue item="MA2 Effect" value="1" />
+        <varValue item="MA2 Effect" value="0" />
         <varValue item="MA3 Address Mode" value="0" />
         <varValue item="MA3 Transition" value="0" />
         <varValue item="MA3 Type" value="0" />
-        <varValue item="MA3 Effect" value="1" />
+        <varValue item="MA3 Effect" value="0" />
         <varValue item="MA4 Address Mode" value="0" />
         <varValue item="MA4 Transition" value="0" />
         <varValue item="MA4 Type" value="0" />
@@ -49,15 +49,15 @@
         <varValue item="MA5 Address Mode" value="0" />
         <varValue item="MA5 Transition" value="0" />
         <varValue item="MA5 Type" value="0" />
-        <varValue item="MA5 Effect" value="1" />
+        <varValue item="MA5 Effect" value="0" />
         <varValue item="MA6 Address Mode" value="0" />
         <varValue item="MA6 Transition" value="0" />
         <varValue item="MA6 Type" value="0" />
-        <varValue item="MA6 Effect" value="1" />
+        <varValue item="MA6 Effect" value="0" />
         <varValue item="MA7 Address Mode" value="0" />
         <varValue item="MA7 Transition" value="0" />
         <varValue item="MA7 Type" value="0" />
-        <varValue item="MA7 Effect" value="1" />
+        <varValue item="MA7 Effect" value="0" />
         <varValue item="MA8 Address Mode" value="0" />
         <varValue item="MA8 Transition" value="0" />
         <varValue item="MA8 Type" value="0" />
@@ -162,10 +162,10 @@
         <varValue item="Lamp Y-H1 Brightness" value="24" />
         <varValue item="Lamp R-H1 Brightness" value="24" />
         <varValue item="Lamp L-H1 Brightness" value="24" />
-        <varValue item="Lamp G-H2 Brightness" value="5" />
-        <varValue item="Lamp Y-H2 Brightness" value="5" />
-        <varValue item="Lamp R-H2 Brightness" value="5" />
-        <varValue item="Lamp L-H2 Brightness" value="5" />
+        <varValue item="Lamp G-H2 Brightness" value="24" />
+        <varValue item="Lamp Y-H2 Brightness" value="24" />
+        <varValue item="Lamp R-H2 Brightness" value="24" />
+        <varValue item="Lamp L-H2 Brightness" value="24" />
         <varValue item="Lamp G-H3 Brightness" value="24" />
         <varValue item="Lamp Y-H3 Brightness" value="24" />
         <varValue item="Lamp R-H3 Brightness" value="24" />
@@ -174,9 +174,9 @@
         <varValue item="Lamp Y-H4 Brightness" value="24" />
         <varValue item="Lamp R-H4 Brightness" value="24" />
         <varValue item="Lamp L-H4 Brightness" value="24" />
-        <varValue item="MA1a Address" value="412" />
+        <varValue item="MA1a Address" value="428" />
         <varValue item="MA1 Aspect" value="0" />
-        <varValue item="MA1b Address" value="412" />
+        <varValue item="MA1b Address" value="428" />
         <varValue item="MA1 CT" value="0" />
         <varValue item="MA1 Group" value="0" />
         <varValue item="MA1 A" value="2" />
@@ -192,9 +192,9 @@
         <varValue item="MA1 Secondary Address" value="1" />
         <varValue item="MA1 Secondary Polarity" value="0" />
         <varValue item="MA1 Secondary Type" value="3" />
-        <varValue item="MA2a Address" value="413" />
+        <varValue item="MA2a Address" value="429" />
         <varValue item="MA2 Aspect" value="0" />
-        <varValue item="MA2b Address" value="413" />
+        <varValue item="MA2b Address" value="429" />
         <varValue item="MA2 CT" value="0" />
         <varValue item="MA2 Group" value="0" />
         <varValue item="MA2 A" value="1" />
@@ -210,9 +210,9 @@
         <varValue item="MA2 Secondary Address" value="1" />
         <varValue item="MA2 Secondary Polarity" value="0" />
         <varValue item="MA2 Secondary Type" value="3" />
-        <varValue item="MA3a Address" value="412" />
+        <varValue item="MA3a Address" value="428" />
         <varValue item="MA3 Aspect" value="1" />
-        <varValue item="MA3b Address" value="412" />
+        <varValue item="MA3b Address" value="428" />
         <varValue item="MA3 CT" value="1" />
         <varValue item="MA3 Group" value="0" />
         <varValue item="MA3 A" value="0" />
@@ -228,9 +228,9 @@
         <varValue item="MA3 Secondary Address" value="1" />
         <varValue item="MA3 Secondary Polarity" value="0" />
         <varValue item="MA3 Secondary Type" value="3" />
-        <varValue item="MA4a Address" value="413" />
+        <varValue item="MA4a Address" value="429" />
         <varValue item="MA4 Aspect" value="1" />
-        <varValue item="MA4b Address" value="413" />
+        <varValue item="MA4b Address" value="429" />
         <varValue item="MA4 CT" value="1" />
         <varValue item="MA4 Group" value="0" />
         <varValue item="MA4 A" value="3" />
@@ -246,9 +246,9 @@
         <varValue item="MA4 Secondary Address" value="1" />
         <varValue item="MA4 Secondary Polarity" value="0" />
         <varValue item="MA4 Secondary Type" value="3" />
-        <varValue item="MA5a Address" value="414" />
+        <varValue item="MA5a Address" value="430" />
         <varValue item="MA5 Aspect" value="2" />
-        <varValue item="MA5b Address" value="414" />
+        <varValue item="MA5b Address" value="430" />
         <varValue item="MA5 CT" value="0" />
         <varValue item="MA5 Group" value="1" />
         <varValue item="MA5 A" value="6" />
@@ -264,9 +264,9 @@
         <varValue item="MA5 Secondary Address" value="1" />
         <varValue item="MA5 Secondary Polarity" value="0" />
         <varValue item="MA5 Secondary Type" value="3" />
-        <varValue item="MA6a Address" value="415" />
+        <varValue item="MA6a Address" value="431" />
         <varValue item="MA6 Aspect" value="2" />
-        <varValue item="MA6b Address" value="415" />
+        <varValue item="MA6b Address" value="431" />
         <varValue item="MA6 CT" value="0" />
         <varValue item="MA6 Group" value="1" />
         <varValue item="MA6 A" value="5" />
@@ -282,9 +282,9 @@
         <varValue item="MA6 Secondary Address" value="1" />
         <varValue item="MA6 Secondary Polarity" value="0" />
         <varValue item="MA6 Secondary Type" value="3" />
-        <varValue item="MA7a Address" value="414" />
+        <varValue item="MA7a Address" value="430" />
         <varValue item="MA7 Aspect" value="3" />
-        <varValue item="MA7b Address" value="414" />
+        <varValue item="MA7b Address" value="430" />
         <varValue item="MA7 CT" value="1" />
         <varValue item="MA7 Group" value="1" />
         <varValue item="MA7 A" value="4" />
@@ -300,9 +300,9 @@
         <varValue item="MA7 Secondary Address" value="1" />
         <varValue item="MA7 Secondary Polarity" value="0" />
         <varValue item="MA7 Secondary Type" value="3" />
-        <varValue item="MA8a Address" value="415" />
+        <varValue item="MA8a Address" value="431" />
         <varValue item="MA8 Aspect" value="3" />
-        <varValue item="MA8b Address" value="415" />
+        <varValue item="MA8b Address" value="431" />
         <varValue item="MA8 CT" value="1" />
         <varValue item="MA8 Group" value="1" />
         <varValue item="MA8 A" value="7" />
@@ -318,146 +318,146 @@
         <varValue item="MA8 Secondary Address" value="1" />
         <varValue item="MA8 Secondary Polarity" value="0" />
         <varValue item="MA8 Secondary Type" value="3" />
-        <varValue item="MA9a Address" value="416" />
+        <varValue item="MA9a Address" value="432" />
         <varValue item="MA9 Aspect" value="4" />
-        <varValue item="MA9b Address" value="416" />
+        <varValue item="MA9b Address" value="432" />
         <varValue item="MA9 CT" value="0" />
         <varValue item="MA9 Group" value="2" />
         <varValue item="MA9 A" value="10" />
         <varValue item="MA9 Bipolar AB" value="0" />
         <varValue item="MA9 A PR" value="0" />
-        <varValue item="MA9 B" value="10" />
+        <varValue item="MA9 B" value="6" />
         <varValue item="MA9 B PR" value="4" />
-        <varValue item="MA9 C" value="10" />
+        <varValue item="MA9 C" value="6" />
         <varValue item="MA9 Bipolar CD" value="0" />
         <varValue item="MA9 C PR" value="4" />
-        <varValue item="MA9 D" value="10" />
+        <varValue item="MA9 D" value="6" />
         <varValue item="MA9 D PR" value="4" />
         <varValue item="MA9 Secondary Address" value="1" />
         <varValue item="MA9 Secondary Polarity" value="0" />
         <varValue item="MA9 Secondary Type" value="3" />
-        <varValue item="MA10a Address" value="417" />
+        <varValue item="MA10a Address" value="433" />
         <varValue item="MA10 Aspect" value="4" />
-        <varValue item="MA10b Address" value="417" />
+        <varValue item="MA10b Address" value="433" />
         <varValue item="MA10 CT" value="0" />
         <varValue item="MA10 Group" value="2" />
         <varValue item="MA10 A" value="9" />
         <varValue item="MA10 Bipolar AB" value="0" />
         <varValue item="MA10 A PR" value="0" />
-        <varValue item="MA10 B" value="9" />
+        <varValue item="MA10 B" value="5" />
         <varValue item="MA10 B PR" value="4" />
-        <varValue item="MA10 C" value="9" />
+        <varValue item="MA10 C" value="5" />
         <varValue item="MA10 Bipolar CD" value="0" />
         <varValue item="MA10 C PR" value="4" />
-        <varValue item="MA10 D" value="9" />
+        <varValue item="MA10 D" value="5" />
         <varValue item="MA10 D PR" value="4" />
         <varValue item="MA10 Secondary Address" value="1" />
         <varValue item="MA10 Secondary Polarity" value="0" />
         <varValue item="MA10 Secondary Type" value="3" />
-        <varValue item="MA11a Address" value="416" />
+        <varValue item="MA11a Address" value="432" />
         <varValue item="MA11 Aspect" value="5" />
-        <varValue item="MA11b Address" value="416" />
+        <varValue item="MA11b Address" value="432" />
         <varValue item="MA11 CT" value="1" />
         <varValue item="MA11 Group" value="2" />
         <varValue item="MA11 A" value="8" />
         <varValue item="MA11 Bipolar AB" value="0" />
         <varValue item="MA11 A PR" value="0" />
-        <varValue item="MA11 B" value="8" />
+        <varValue item="MA11 B" value="4" />
         <varValue item="MA11 B PR" value="4" />
-        <varValue item="MA11 C" value="8" />
+        <varValue item="MA11 C" value="4" />
         <varValue item="MA11 Bipolar CD" value="0" />
         <varValue item="MA11 C PR" value="4" />
-        <varValue item="MA11 D" value="8" />
+        <varValue item="MA11 D" value="4" />
         <varValue item="MA11 D PR" value="4" />
         <varValue item="MA11 Secondary Address" value="1" />
         <varValue item="MA11 Secondary Polarity" value="0" />
         <varValue item="MA11 Secondary Type" value="3" />
-        <varValue item="MA12a Address" value="417" />
+        <varValue item="MA12a Address" value="433" />
         <varValue item="MA12 Aspect" value="5" />
-        <varValue item="MA12b Address" value="417" />
+        <varValue item="MA12b Address" value="433" />
         <varValue item="MA12 CT" value="1" />
         <varValue item="MA12 Group" value="2" />
         <varValue item="MA12 A" value="11" />
         <varValue item="MA12 Bipolar AB" value="0" />
-        <varValue item="MA12 A PR" value="4" />
-        <varValue item="MA12 B" value="11" />
+        <varValue item="MA12 A PR" value="0" />
+        <varValue item="MA12 B" value="7" />
         <varValue item="MA12 B PR" value="4" />
-        <varValue item="MA12 C" value="11" />
+        <varValue item="MA12 C" value="7" />
         <varValue item="MA12 Bipolar CD" value="0" />
         <varValue item="MA12 C PR" value="4" />
-        <varValue item="MA12 D" value="11" />
+        <varValue item="MA12 D" value="7" />
         <varValue item="MA12 D PR" value="4" />
         <varValue item="MA12 Secondary Address" value="1" />
         <varValue item="MA12 Secondary Polarity" value="0" />
         <varValue item="MA12 Secondary Type" value="3" />
-        <varValue item="MA13a Address" value="418" />
+        <varValue item="MA13a Address" value="434" />
         <varValue item="MA13 Aspect" value="6" />
-        <varValue item="MA13b Address" value="418" />
+        <varValue item="MA13b Address" value="434" />
         <varValue item="MA13 CT" value="0" />
         <varValue item="MA13 Group" value="3" />
         <varValue item="MA13 A" value="14" />
         <varValue item="MA13 Bipolar AB" value="0" />
         <varValue item="MA13 A PR" value="0" />
-        <varValue item="MA13 B" value="14" />
+        <varValue item="MA13 B" value="6" />
         <varValue item="MA13 B PR" value="4" />
-        <varValue item="MA13 C" value="14" />
+        <varValue item="MA13 C" value="6" />
         <varValue item="MA13 Bipolar CD" value="0" />
         <varValue item="MA13 C PR" value="4" />
-        <varValue item="MA13 D" value="14" />
+        <varValue item="MA13 D" value="6" />
         <varValue item="MA13 D PR" value="4" />
         <varValue item="MA13 Secondary Address" value="1" />
         <varValue item="MA13 Secondary Polarity" value="0" />
         <varValue item="MA13 Secondary Type" value="3" />
-        <varValue item="MA14a Address" value="419" />
+        <varValue item="MA14a Address" value="435" />
         <varValue item="MA14 Aspect" value="6" />
-        <varValue item="MA14b Address" value="419" />
+        <varValue item="MA14b Address" value="435" />
         <varValue item="MA14 CT" value="0" />
         <varValue item="MA14 Group" value="3" />
         <varValue item="MA14 A" value="13" />
         <varValue item="MA14 Bipolar AB" value="0" />
         <varValue item="MA14 A PR" value="0" />
-        <varValue item="MA14 B" value="13" />
+        <varValue item="MA14 B" value="5" />
         <varValue item="MA14 B PR" value="4" />
-        <varValue item="MA14 C" value="13" />
+        <varValue item="MA14 C" value="5" />
         <varValue item="MA14 Bipolar CD" value="0" />
         <varValue item="MA14 C PR" value="4" />
-        <varValue item="MA14 D" value="13" />
+        <varValue item="MA14 D" value="5" />
         <varValue item="MA14 D PR" value="4" />
         <varValue item="MA14 Secondary Address" value="1" />
         <varValue item="MA14 Secondary Polarity" value="0" />
         <varValue item="MA14 Secondary Type" value="3" />
-        <varValue item="MA15a Address" value="418" />
+        <varValue item="MA15a Address" value="434" />
         <varValue item="MA15 Aspect" value="7" />
-        <varValue item="MA15b Address" value="418" />
+        <varValue item="MA15b Address" value="434" />
         <varValue item="MA15 CT" value="1" />
         <varValue item="MA15 Group" value="3" />
         <varValue item="MA15 A" value="12" />
         <varValue item="MA15 Bipolar AB" value="0" />
         <varValue item="MA15 A PR" value="0" />
-        <varValue item="MA15 B" value="12" />
+        <varValue item="MA15 B" value="4" />
         <varValue item="MA15 B PR" value="4" />
-        <varValue item="MA15 C" value="12" />
+        <varValue item="MA15 C" value="4" />
         <varValue item="MA15 Bipolar CD" value="0" />
         <varValue item="MA15 C PR" value="4" />
-        <varValue item="MA15 D" value="12" />
+        <varValue item="MA15 D" value="4" />
         <varValue item="MA15 D PR" value="4" />
         <varValue item="MA15 Secondary Address" value="1" />
         <varValue item="MA15 Secondary Polarity" value="0" />
         <varValue item="MA15 Secondary Type" value="3" />
-        <varValue item="MA16a Address" value="419" />
+        <varValue item="MA16a Address" value="435" />
         <varValue item="MA16 Aspect" value="7" />
-        <varValue item="MA16b Address" value="419" />
+        <varValue item="MA16b Address" value="435" />
         <varValue item="MA16 CT" value="1" />
         <varValue item="MA16 Group" value="3" />
         <varValue item="MA16 A" value="15" />
         <varValue item="MA16 Bipolar AB" value="0" />
-        <varValue item="MA16 A PR" value="4" />
-        <varValue item="MA16 B" value="15" />
+        <varValue item="MA16 A PR" value="0" />
+        <varValue item="MA16 B" value="7" />
         <varValue item="MA16 B PR" value="4" />
-        <varValue item="MA16 C" value="15" />
+        <varValue item="MA16 C" value="7" />
         <varValue item="MA16 Bipolar CD" value="0" />
         <varValue item="MA16 C PR" value="4" />
-        <varValue item="MA16 D" value="15" />
+        <varValue item="MA16 D" value="7" />
         <varValue item="MA16 D PR" value="4" />
         <varValue item="MA16 Secondary Address" value="1" />
         <varValue item="MA16 Secondary Polarity" value="0" />
@@ -1717,9 +1717,9 @@
       </decoderDef>
       <CVvalue name="1" value="19" />
       <CVvalue name="17" value="234" />
-      <CVvalue name="18" value="253" />
+      <CVvalue name="18" value="254" />
       <CVvalue name="112" value="31" />
-      <CVvalue name="113" value="97" />
+      <CVvalue name="113" value="37" />
       <CVvalue name="114" value="4" />
       <CVvalue name="115" value="0" />
       <CVvalue name="116" value="10" />
@@ -1728,13 +1728,13 @@
       <CVvalue name="8" value="87" />
       <CVvalue name="9" value="21" />
       <CVvalue name="29" value="224" />
-      <CVvalue name="33" value="1" />
-      <CVvalue name="34" value="1" />
-      <CVvalue name="35" value="1" />
+      <CVvalue name="33" value="0" />
+      <CVvalue name="34" value="0" />
+      <CVvalue name="35" value="0" />
       <CVvalue name="36" value="0" />
-      <CVvalue name="37" value="1" />
-      <CVvalue name="38" value="1" />
-      <CVvalue name="39" value="1" />
+      <CVvalue name="37" value="0" />
+      <CVvalue name="38" value="0" />
+      <CVvalue name="39" value="0" />
       <CVvalue name="40" value="0" />
       <CVvalue name="41" value="1" />
       <CVvalue name="42" value="1" />
@@ -1764,10 +1764,10 @@
       <CVvalue name="130" value="24" />
       <CVvalue name="131" value="24" />
       <CVvalue name="132" value="24" />
-      <CVvalue name="133" value="5" />
-      <CVvalue name="134" value="5" />
-      <CVvalue name="135" value="5" />
-      <CVvalue name="136" value="5" />
+      <CVvalue name="133" value="24" />
+      <CVvalue name="134" value="24" />
+      <CVvalue name="135" value="24" />
+      <CVvalue name="136" value="24" />
       <CVvalue name="137" value="24" />
       <CVvalue name="138" value="24" />
       <CVvalue name="139" value="24" />
@@ -1776,7 +1776,7 @@
       <CVvalue name="142" value="24" />
       <CVvalue name="143" value="24" />
       <CVvalue name="144" value="24" />
-      <CVvalue name="513" value="155" />
+      <CVvalue name="513" value="171" />
       <CVvalue name="514" value="1" />
       <CVvalue name="515" value="2" />
       <CVvalue name="516" value="130" />
@@ -1784,7 +1784,7 @@
       <CVvalue name="518" value="130" />
       <CVvalue name="519" value="0" />
       <CVvalue name="520" value="48" />
-      <CVvalue name="521" value="156" />
+      <CVvalue name="521" value="172" />
       <CVvalue name="522" value="1" />
       <CVvalue name="523" value="1" />
       <CVvalue name="524" value="129" />
@@ -1792,7 +1792,7 @@
       <CVvalue name="526" value="129" />
       <CVvalue name="527" value="0" />
       <CVvalue name="528" value="48" />
-      <CVvalue name="529" value="155" />
+      <CVvalue name="529" value="171" />
       <CVvalue name="530" value="9" />
       <CVvalue name="531" value="0" />
       <CVvalue name="532" value="128" />
@@ -1800,7 +1800,7 @@
       <CVvalue name="534" value="128" />
       <CVvalue name="535" value="0" />
       <CVvalue name="536" value="48" />
-      <CVvalue name="537" value="156" />
+      <CVvalue name="537" value="172" />
       <CVvalue name="538" value="9" />
       <CVvalue name="539" value="3" />
       <CVvalue name="540" value="131" />
@@ -1808,7 +1808,7 @@
       <CVvalue name="542" value="131" />
       <CVvalue name="543" value="0" />
       <CVvalue name="544" value="48" />
-      <CVvalue name="545" value="157" />
+      <CVvalue name="545" value="173" />
       <CVvalue name="546" value="17" />
       <CVvalue name="547" value="6" />
       <CVvalue name="548" value="130" />
@@ -1816,7 +1816,7 @@
       <CVvalue name="550" value="130" />
       <CVvalue name="551" value="0" />
       <CVvalue name="552" value="48" />
-      <CVvalue name="553" value="158" />
+      <CVvalue name="553" value="174" />
       <CVvalue name="554" value="17" />
       <CVvalue name="555" value="5" />
       <CVvalue name="556" value="129" />
@@ -1824,7 +1824,7 @@
       <CVvalue name="558" value="129" />
       <CVvalue name="559" value="0" />
       <CVvalue name="560" value="48" />
-      <CVvalue name="561" value="157" />
+      <CVvalue name="561" value="173" />
       <CVvalue name="562" value="25" />
       <CVvalue name="563" value="4" />
       <CVvalue name="564" value="128" />
@@ -1832,7 +1832,7 @@
       <CVvalue name="566" value="128" />
       <CVvalue name="567" value="0" />
       <CVvalue name="568" value="48" />
-      <CVvalue name="569" value="158" />
+      <CVvalue name="569" value="174" />
       <CVvalue name="570" value="25" />
       <CVvalue name="571" value="7" />
       <CVvalue name="572" value="131" />
@@ -1840,68 +1840,68 @@
       <CVvalue name="574" value="131" />
       <CVvalue name="575" value="0" />
       <CVvalue name="576" value="48" />
-      <CVvalue name="577" value="159" />
+      <CVvalue name="577" value="175" />
       <CVvalue name="578" value="33" />
       <CVvalue name="579" value="10" />
-      <CVvalue name="580" value="138" />
-      <CVvalue name="581" value="138" />
-      <CVvalue name="582" value="138" />
+      <CVvalue name="580" value="134" />
+      <CVvalue name="581" value="134" />
+      <CVvalue name="582" value="134" />
       <CVvalue name="583" value="0" />
       <CVvalue name="584" value="48" />
-      <CVvalue name="585" value="160" />
+      <CVvalue name="585" value="176" />
       <CVvalue name="586" value="33" />
       <CVvalue name="587" value="9" />
-      <CVvalue name="588" value="137" />
-      <CVvalue name="589" value="137" />
-      <CVvalue name="590" value="137" />
+      <CVvalue name="588" value="133" />
+      <CVvalue name="589" value="133" />
+      <CVvalue name="590" value="133" />
       <CVvalue name="591" value="0" />
       <CVvalue name="592" value="48" />
-      <CVvalue name="593" value="159" />
+      <CVvalue name="593" value="175" />
       <CVvalue name="594" value="41" />
       <CVvalue name="595" value="8" />
-      <CVvalue name="596" value="136" />
-      <CVvalue name="597" value="136" />
-      <CVvalue name="598" value="136" />
+      <CVvalue name="596" value="132" />
+      <CVvalue name="597" value="132" />
+      <CVvalue name="598" value="132" />
       <CVvalue name="599" value="0" />
       <CVvalue name="600" value="48" />
-      <CVvalue name="601" value="160" />
+      <CVvalue name="601" value="176" />
       <CVvalue name="602" value="41" />
-      <CVvalue name="603" value="139" />
-      <CVvalue name="604" value="139" />
-      <CVvalue name="605" value="139" />
-      <CVvalue name="606" value="139" />
+      <CVvalue name="603" value="11" />
+      <CVvalue name="604" value="135" />
+      <CVvalue name="605" value="135" />
+      <CVvalue name="606" value="135" />
       <CVvalue name="607" value="0" />
       <CVvalue name="608" value="48" />
-      <CVvalue name="609" value="161" />
+      <CVvalue name="609" value="177" />
       <CVvalue name="610" value="49" />
       <CVvalue name="611" value="14" />
-      <CVvalue name="612" value="142" />
-      <CVvalue name="613" value="142" />
-      <CVvalue name="614" value="142" />
+      <CVvalue name="612" value="134" />
+      <CVvalue name="613" value="134" />
+      <CVvalue name="614" value="134" />
       <CVvalue name="615" value="0" />
       <CVvalue name="616" value="48" />
-      <CVvalue name="617" value="162" />
+      <CVvalue name="617" value="178" />
       <CVvalue name="618" value="49" />
       <CVvalue name="619" value="13" />
-      <CVvalue name="620" value="141" />
-      <CVvalue name="621" value="141" />
-      <CVvalue name="622" value="141" />
+      <CVvalue name="620" value="133" />
+      <CVvalue name="621" value="133" />
+      <CVvalue name="622" value="133" />
       <CVvalue name="623" value="0" />
       <CVvalue name="624" value="48" />
-      <CVvalue name="625" value="161" />
+      <CVvalue name="625" value="177" />
       <CVvalue name="626" value="57" />
       <CVvalue name="627" value="12" />
-      <CVvalue name="628" value="140" />
-      <CVvalue name="629" value="140" />
-      <CVvalue name="630" value="140" />
+      <CVvalue name="628" value="132" />
+      <CVvalue name="629" value="132" />
+      <CVvalue name="630" value="132" />
       <CVvalue name="631" value="0" />
       <CVvalue name="632" value="48" />
-      <CVvalue name="633" value="162" />
+      <CVvalue name="633" value="178" />
       <CVvalue name="634" value="57" />
-      <CVvalue name="635" value="143" />
-      <CVvalue name="636" value="143" />
-      <CVvalue name="637" value="143" />
-      <CVvalue name="638" value="143" />
+      <CVvalue name="635" value="15" />
+      <CVvalue name="636" value="135" />
+      <CVvalue name="637" value="135" />
+      <CVvalue name="638" value="135" />
       <CVvalue name="639" value="0" />
       <CVvalue name="640" value="48" />
       <CVvalue name="641" value="0" />

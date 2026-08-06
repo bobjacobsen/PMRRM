@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="Location TBC." roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="1/2 brite. LT408,409,410,411 Mast A" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-31T03:06:44.246+00:00</dateUpdated>
+  <locomotive id="Signalman E Troy" fileName="Signalman_East_Troy.xml" roadNumber="Location TBC." roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="12001" comment="1/2 brite. 408,409,410,411 Mast A" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-08-06T21:35:23.411+00:00</dateUpdated>
     <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="12001" longaddress="yes" />
@@ -22,7 +22,7 @@
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Bi-polar Mode" value="0" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="1630" />
+        <varValue item="Flash Write Value" value="1637" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="Strobe Length" value="10" />
         <varValue item="Reserved" value="0" />
@@ -1719,7 +1719,7 @@
       <CVvalue name="17" value="238" />
       <CVvalue name="18" value="225" />
       <CVvalue name="112" value="27" />
-      <CVvalue name="113" value="94" />
+      <CVvalue name="113" value="101" />
       <CVvalue name="114" value="6" />
       <CVvalue name="115" value="0" />
       <CVvalue name="116" value="10" />

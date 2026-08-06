@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
-  <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11006" comment="1/2 brite 420,421,422,423/424,425,426,427" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-31T03:29:02.790+00:00</dateUpdated>
+  <locomotive id="Signalman W Sierra Troy" fileName="Signalman_W_Sierra_Troy.xml" roadNumber="Location TBC" roadName="READ" mfg="RR-CirKits" owner="Electrical Crew" model="Signalman" dccAddress="11010" comment="1/2 brite 420,421,422,423/424,425,426,427 (was 11006)" developerID="-1" manufacturerID="87" productID="" decoderModes="LOCONETOPSBOARD" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-08-06T21:08:09.768+00:00</dateUpdated>
     <decoder model="SignalMan" family="Decoders" comment="" maxFnNum="28" />
     <locoaddress>
-      <dcclocoaddress number="11006" longaddress="yes" />
-      <number>11006</number>
+      <dcclocoaddress number="11010" longaddress="yes" />
+      <number>11010</number>
       <protocol>dcc_long</protocol>
     </locoaddress>
     <functionlabels />
@@ -14,7 +14,7 @@
     <values>
       <decoderDef>
         <varValue item="Primary Address" value="19" />
-        <varValue item="Long Address" value="11006" />
+        <varValue item="Long Address" value="11010" />
         <varValue item="Port State Memory" value="1" />
         <varValue item="OPS Mode Programing" value="1" />
         <varValue item="GPON Interrogate" value="1" />
@@ -22,7 +22,7 @@
         <varValue item="Output Interrogate" value="1" />
         <varValue item="Bi-polar Mode" value="0" />
         <varValue item="Master Mode" value="0" />
-        <varValue item="Flash Write Value" value="1120" />
+        <varValue item="Flash Write Value" value="1125" />
         <varValue item="Flash Write MSB" value="0" />
         <varValue item="Strobe Length" value="10" />
         <varValue item="Reserved" value="0" />
@@ -1716,10 +1716,10 @@
         <varValue item="MAD Type" value="0" />
       </decoderDef>
       <CVvalue name="1" value="19" />
-      <CVvalue name="17" value="234" />
-      <CVvalue name="18" value="254" />
+      <CVvalue name="17" value="235" />
+      <CVvalue name="18" value="2" />
       <CVvalue name="112" value="31" />
-      <CVvalue name="113" value="96" />
+      <CVvalue name="113" value="101" />
       <CVvalue name="114" value="4" />
       <CVvalue name="115" value="0" />
       <CVvalue name="116" value="10" />
