@@ -26635,7 +26635,7 @@
     <positionablelabel x="490" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Vista Yard 2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="495" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Vista Yard 3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="495" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Vista Yard 4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T52" connectbname="T25" connectcname="T45" />
+    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" connectaname="T52" connectbname="T25" connectcname="T45" />
     <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="890.0" ycen="120.0" xa="905.0" ya="120.0" xb="875.0" yb="120.0" xc="875.0" yc="130.0" xd="905.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T25" connectbname="T37" connectcname="T21" />
     <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="815.0" ycen="160.0" xa="830.0" ya="160.0" xb="800.0" yb="160.0" xc="800.0" yc="170.0" xd="830.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T22" connectbname="T26" connectcname="T27" />
     <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="860.0" ycen="140.0" xa="847.52" ya="148.32" xb="872.48" yb="131.68" xc="878.03" yc="140.0" xd="847.52" yd="148.32" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T22" connectbname="T21" connectcname="T56" />
@@ -26860,17 +26860,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Aug 05 22:03:54 PDT 2026</date>
+      <date>Wed Aug 05 23:26:32 PDT 2026</date>
       <filename>PanelPro (v5.17.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Aug 05 22:04:07 PDT 2026</date>
+      <date>Wed Aug 05 23:26:45 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Aug 05 23:14:28 PDT 2026</date>
+      <date>Wed Aug 05 23:30:18 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
