@@ -16642,23 +16642,23 @@
       <systemName>ILB2</systemName>
       <userName>Narrows, Upper</userName>
     </layoutblock>
-    <layoutblock systemName="ILB3" occupancysensor="Osage main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage main">
+    <layoutblock systemName="ILB3" occupancysensor="Osage main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Osage main">
       <systemName>ILB3</systemName>
       <userName>Osage main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB4" occupancysensor="Osage siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage siding west">
+    <layoutblock systemName="ILB4" occupancysensor="Osage siding west" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Osage siding west">
       <systemName>ILB4</systemName>
       <userName>Osage siding West</userName>
     </layoutblock>
-    <layoutblock systemName="ILB5" occupancysensor="Quartz" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Redcliff - Powderhorn">
+    <layoutblock systemName="ILB5" occupancysensor="Quartz" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Redcliff - Powderhorn">
       <systemName>ILB5</systemName>
       <userName>Powderhorn-Redcliff (Quartz)</userName>
     </layoutblock>
-    <layoutblock systemName="ILB6" occupancysensor="Redcliff main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Redcliff main">
+    <layoutblock systemName="ILB6" occupancysensor="Redcliff main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Redcliff main">
       <systemName>ILB6</systemName>
       <userName>Redcliff main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB7" occupancysensor="Redcliff siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Redcliff siding">
+    <layoutblock systemName="ILB7" occupancysensor="Redcliff siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Redcliff siding">
       <systemName>ILB7</systemName>
       <userName>Redcliff siding</userName>
     </layoutblock>
@@ -16682,11 +16682,11 @@
       <systemName>ILB12</systemName>
       <userName>Troy siding 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB13" occupancysensor="Upton main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Upton main">
+    <layoutblock systemName="ILB13" occupancysensor="Upton main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Upton main">
       <systemName>ILB13</systemName>
       <userName>Upton main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB14" occupancysensor="Upton siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Upton siding">
+    <layoutblock systemName="ILB14" occupancysensor="Upton siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Upton siding">
       <systemName>ILB14</systemName>
       <userName>Upton siding</userName>
     </layoutblock>
@@ -16710,15 +16710,15 @@
       <systemName>ILB19</systemName>
       <userName>Whiskey siding 1</userName>
     </layoutblock>
-    <layoutblock systemName="ILB20" occupancysensor="Osage-Powderhorn" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Powderhorn - Osage">
+    <layoutblock systemName="ILB20" occupancysensor="Osage-Powderhorn" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Powderhorn - Osage">
       <systemName>ILB20</systemName>
       <userName>Osage-Powderhorn</userName>
     </layoutblock>
-    <layoutblock systemName="ILB21" occupancysensor="Powderhorn main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Powderhorn main">
+    <layoutblock systemName="ILB21" occupancysensor="Powderhorn main" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Powderhorn main">
       <systemName>ILB21</systemName>
       <userName>Powderhorn main</userName>
     </layoutblock>
-    <layoutblock systemName="ILB22" occupancysensor="Powderhorn siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Powderhorn siding">
+    <layoutblock systemName="ILB22" occupancysensor="Powderhorn siding" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Powderhorn siding">
       <systemName>ILB22</systemName>
       <userName>Powderhorn siding</userName>
     </layoutblock>
@@ -16772,12 +16772,12 @@
       <systemName>ILB34</systemName>
       <userName>AUTOBLK:34</userName>
     </layoutblock>
-    <layoutblock systemName="ILB35" occupancysensor="Osage pocket" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage helper pocket">
+    <layoutblock systemName="ILB35" occupancysensor="Osage pocket" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Osage helper pocket">
       <systemName>ILB35</systemName>
       <userName>Osage pocket</userName>
       <metric>20000</metric>
     </layoutblock>
-    <layoutblock systemName="ILB36" occupancysensor="Osage approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Osage east approach">
+    <layoutblock systemName="ILB36" occupancysensor="Osage approach" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Osage east approach">
       <systemName>ILB36</systemName>
       <userName>Osage approach</userName>
     </layoutblock>
@@ -16939,7 +16939,7 @@
       <systemName>ILB75</systemName>
       <userName>AUTOBLK:75</userName>
     </layoutblock>
-    <layoutblock systemName="ILB76" occupancysensor="Osage siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB76" occupancysensor="Osage siding east" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB76</systemName>
       <userName>Osage siding East</userName>
     </layoutblock>
@@ -16967,7 +16967,7 @@
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
     </layoutblock>
-    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB83</systemName>
       <userName>Midway West station 3 stop block</userName>
     </layoutblock>
@@ -18752,7 +18752,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="9" y="276" windowheight="726" windowwidth="1719" panelheight="640" panelwidth="1625" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="302" y="319" windowheight="726" windowwidth="1550" panelheight="640" panelwidth="1625" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -18972,7 +18972,7 @@
       <raytrack angle="15.0" index="16" />
     </layoutturntable>
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="0" y="346" windowheight="668" windowwidth="1728" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="154" y="191" windowheight="431" windowwidth="1312" panelheight="533" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="no" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19163,7 +19163,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="1652.0" y="64.0" connect1name="T52" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A10" type="ANCHOR" x="900.0" y="460.5" connect1name="T29" connect2name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="539" y="559" windowheight="558" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="322" y="171" windowheight="558" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Port Area" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19401,7 +19401,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="190.0" y="221.0" connect1name="T3" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="24.0" y="260.0" connect1name="T6" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="807" panelwidth="1451" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="0" windowheight="974" windowwidth="1550" panelheight="807" panelwidth="1451" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -23004,7 +23004,7 @@
     <positionablepoint ident="A43" type="ANCHOR" x="990.0" y="335.0" connect1name="T245" connect2name="T248" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-8" y="-8" windowheight="1408" windowwidth="2576" panelheight="1402" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-7" y="-7" windowheight="974" windowwidth="1550" panelheight="1402" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26682,7 +26682,7 @@
     <positionablepoint ident="A39" type="ANCHOR" x="1040.0" y="535.0" connect1name="T14" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista" x="1300" y="130" windowheight="463" windowwidth="1151" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista" x="289" y="167" windowheight="463" windowwidth="1151" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -26725,22 +26725,22 @@
     <positionablelabel x="490" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="495" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="495" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" connectaname="T52" connectbname="T25" connectcname="T45" />
-    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="890.0" ycen="120.0" xa="905.0" ya="120.0" xb="875.0" yb="120.0" xc="875.0" yc="130.0" xd="905.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" secondturnoutinverted="true" connectaname="T25" connectbname="T37" connectcname="T21" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="815.0" ycen="160.0" xa="830.0" ya="160.0" xb="800.0" yb="160.0" xc="800.0" yc="170.0" xd="830.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T22" connectbname="T26" connectcname="T27" />
-    <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="860.0" ycen="140.0" xa="847.52" ya="148.32" xb="872.48" yb="131.68" xc="878.03" yc="140.0" xd="847.52" yd="148.32" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" connectaname="T22" connectbname="T21" connectcname="T56" />
-    <layoutturnout ident="TO27" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="785.0" ycen="160.0" xa="800.0" ya="160.0" xb="770.0" yb="160.0" xc="770.0" yc="150.0" xd="800.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T26" connectbname="T33" connectcname="T35" />
-    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="785.0" ycen="180.0" xa="797.48" ya="171.68" xb="772.52" yb="188.32" xc="766.97" yc="180.0" xd="797.48" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="VistaYd E 3 LT198 partner" secondturnoutname="VistaYd E 3" connectaname="T27" connectbname="T28" connectcname="T32" />
-    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="755.0" ycen="200.0" xa="740.0" ya="200.0" xb="770.0" yb="200.0" xc="770.0" yc="190.0" xd="740.0" yd="200.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="VistaYd E 3" secondturnoutname="VistaYd E 3 LT198 partner" connectaname="T29" connectbname="T55" connectcname="T28" />
-    <layoutturnout ident="TO31" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="370.0" ycen="140.0" xa="355.0" ya="140.0" xb="385.0" yb="140.0" xc="385.0" yc="150.0" xd="355.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard W 1" connectaname="T38" connectbname="T34" connectcname="T30" />
-    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="400.0" ycen="160.0" xa="387.52" ya="151.68" xb="412.48" yb="168.32" xc="418.03" yc="160.0" xd="387.52" yd="151.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard W 2" connectaname="T30" connectbname="T31" connectcname="T33" />
-    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="430.0" ycen="180.0" xa="417.52" ya="171.68" xb="442.48" yb="188.32" xc="448.03" yc="180.0" xd="417.52" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yd W 3" connectaname="T31" connectbname="T36" connectcname="T32" />
-    <layoutturnout ident="TO36" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="280.0" ycen="130.0" xa="250.0" ya="120.0" xb="290.0" yb="120.0" xc="310.0" yc="140.0" xd="270.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T42" connectbname="T37" connectcname="T38" connectdname="T48" />
-    <layoutturnout ident="TO44" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="235.0" ycen="120.0" xa="220.0" ya="120.0" xb="250.0" yb="120.0" xc="255.0" yc="105.0" xd="220.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T46" connectbname="T42" connectcname="T44" />
-    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="815.0" ycen="190.0" xa="800.0" ya="195.0" xb="830.0" yb="185.0" xc="835.0" yc="200.0" xd="800.0" yd="195.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T54" connectbname="T58" connectcname="T57" />
-    <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="4" xcen="175.0" ycen="135.0" xa="184.16" ya="137.77" xb="166.68" yb="129.45" xc="165.0" yc="135.0" xd="183.32" yd="140.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye asile turnouts" secondturnoutname="VistaYd Wye LT196 asile turnouts partner" connectaname="T48" connectbname="T39" connectcname="T41" />
-    <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="135.0" ycen="55.0" xa="140.3" ya="42.2" xb="124.39" yb="65.61" xc="135.0" yc="70.0" xd="145.61" yd="44.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye mine end" connectaname="T2" connectbname="T40" connectcname="T39" />
-    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="60.0" ycen="135.0" xa="51.47" ya="138.53" xb="70.0" yb="135.0" xc="67.07" yc="127.93" xd="50.0" yd="135.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye LT196 asile turnouts partner" secondturnoutname="VistaYd Wye asile turnouts" connectaname="T1" connectbname="T41" connectcname="T40" />
+    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" connectaname="T52" connectbname="T25" connectcname="T45" />
+    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="890.0" ycen="120.0" xa="905.0" ya="120.0" xb="875.0" yb="120.0" xc="875.0" yc="130.0" xd="905.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" secondturnoutinverted="true" connectaname="T25" connectbname="T37" connectcname="T21" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="815.0" ycen="160.0" xa="830.0" ya="160.0" xb="800.0" yb="160.0" xc="800.0" yc="170.0" xd="830.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T22" connectbname="T26" connectcname="T27" />
+    <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="860.0" ycen="140.0" xa="847.52" ya="148.32" xb="872.48" yb="131.68" xc="878.03" yc="140.0" xd="847.52" yd="148.32" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" connectaname="T22" connectbname="T21" connectcname="T56" />
+    <layoutturnout ident="TO27" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="785.0" ycen="160.0" xa="800.0" ya="160.0" xb="770.0" yb="160.0" xc="770.0" yc="150.0" xd="800.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T26" connectbname="T33" connectcname="T35" />
+    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="785.0" ycen="180.0" xa="797.48" ya="171.68" xb="772.52" yb="188.32" xc="766.97" yc="180.0" xd="797.48" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="VistaYd E 3 LT198 partner" secondturnoutname="VistaYd E 3" connectaname="T27" connectbname="T28" connectcname="T32" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="755.0" ycen="200.0" xa="740.0" ya="200.0" xb="770.0" yb="200.0" xc="770.0" yc="190.0" xd="740.0" yd="200.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="VistaYd E 3" secondturnoutname="VistaYd E 3 LT198 partner" connectaname="T29" connectbname="T55" connectcname="T28" />
+    <layoutturnout ident="TO31" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="370.0" ycen="140.0" xa="355.0" ya="140.0" xb="385.0" yb="140.0" xc="385.0" yc="150.0" xd="355.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard W 1" connectaname="T38" connectbname="T34" connectcname="T30" />
+    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="400.0" ycen="160.0" xa="387.52" ya="151.68" xb="412.48" yb="168.32" xc="418.03" yc="160.0" xd="387.52" yd="151.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard W 2" connectaname="T30" connectbname="T31" connectcname="T33" />
+    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="430.0" ycen="180.0" xa="417.52" ya="171.68" xb="442.48" yb="188.32" xc="448.03" yc="180.0" xd="417.52" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yd W 3" connectaname="T31" connectbname="T36" connectcname="T32" />
+    <layoutturnout ident="TO36" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="280.0" ycen="130.0" xa="250.0" ya="120.0" xb="290.0" yb="120.0" xc="310.0" yc="140.0" xd="270.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T42" connectbname="T37" connectcname="T38" connectdname="T48" />
+    <layoutturnout ident="TO44" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="235.0" ycen="120.0" xa="220.0" ya="120.0" xb="250.0" yb="120.0" xc="255.0" yc="105.0" xd="220.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T46" connectbname="T42" connectcname="T44" />
+    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="815.0" ycen="190.0" xa="800.0" ya="195.0" xb="830.0" yb="185.0" xc="835.0" yc="200.0" xd="800.0" yd="195.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T54" connectbname="T58" connectcname="T57" />
+    <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="175.0" ycen="135.0" xa="184.16" ya="137.77" xb="166.68" yb="129.45" xc="165.0" yc="135.0" xd="183.32" yd="140.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye asile turnouts" secondturnoutname="VistaYd Wye LT196 asile turnouts partner" connectaname="T48" connectbname="T39" connectcname="T41" />
+    <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="135.0" ycen="55.0" xa="140.3" ya="42.2" xb="124.39" yb="65.61" xc="135.0" yc="70.0" xd="145.61" yd="44.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye mine end" connectaname="T2" connectbname="T40" connectcname="T39" />
+    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="60.0" ycen="135.0" xa="51.47" ya="138.53" xb="70.0" yb="135.0" xc="67.07" yc="127.93" xd="50.0" yd="135.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye LT196 asile turnouts partner" secondturnoutname="VistaYd Wye asile turnouts" connectaname="T1" connectbname="T41" connectcname="T40" />
     <tracksegment ident="T21" connect1name="TO26" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T22" connect1name="TO23" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" connect1name="TO18" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -26950,18 +26950,18 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Aug 06 15:36:04 PDT 2026</date>
+      <date>Thu Aug 06 17:44:46 PDT 2026</date>
       <filename>PanelPro (v5.17.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Aug 06 15:36:15 PDT 2026</date>
-      <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Thu Aug 06 17:45:02 PDT 2026</date>
+      <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Aug 06 16:23:27 PDT 2026</date>
-      <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+      <date>Thu Aug 06 17:51:38 PDT 2026</date>
+      <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
 </layout-config>
