@@ -4,8 +4,8 @@
   <jmriversion>
     <major>5</major>
     <minor>17</minor>
-    <test>1</test>
-    <modifier>plus</modifier>
+    <test>2</test>
+    <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -22251,9 +22251,11 @@
     <memoryicon memory="IMLABEL$76" x="293" y="533" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <memoryicon memory="IMLABEL$6" x="1058" y="23" level="4" forcecontroloff="false" hidden="no" valueEditDisabled="yes" positionable="true" showtooltip="false" editable="false" fontFamily="Dialog" fontname="Dialog" size="10" style="0" red="0" green="0" blue="255" hasBackground="no" fixedHeight="12" justification="left" selectable="no" updateBlockValue="yes" class="jmri.jmrit.display.configurexml.MemoryIconXml" defaulticon="program:resources/icons/misc/X-red.gif" />
     <positionablelabel x="530" y="695" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Grain spurs Out of Service No power" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="720" y="237" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Tank farm spur no power - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="860" y="220" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Lap has no power - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="860" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Use Gary or Hudson siding" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="675" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Tank farm spur no power - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="860" y="220" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Lap has no power - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="780" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="90" text="----" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="20" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="831" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="90" text="----" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="20" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="860" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Use Gary or Hudson siding" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="720" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Doering Branch - Wiring issue - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="900" y="287" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Midway E spurs no power OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="755" y="287" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Midway W spurs ladder short OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="135" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -26906,17 +26908,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Aug 08 10:43:53 PDT 2026</date>
-      <filename>PanelPro (v5.17.1)</filename>
+      <date>Sat Aug 08 17:37:46 PDT 2026</date>
+      <filename>PanelPro (v5.17.2)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Aug 08 10:44:06 PDT 2026</date>
+      <date>Sat Aug 08 17:37:59 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Aug 08 10:55:56 PDT 2026</date>
+      <date>Sat Aug 08 17:40:28 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
