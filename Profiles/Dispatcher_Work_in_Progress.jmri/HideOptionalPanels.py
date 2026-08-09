@@ -32,6 +32,10 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         frame.setVisible(False)         
         self.log.info("Set the Midway Yard panel invisible")
 
+        frame = jmri.util.JmriJFrame.getFrame("PanelPro")
+        frame.setVisible(False)         
+        self.log.info("Set the main PanelPro window invisible")
+
         # and set some Window menu entries disabled
         try :
             targets = ["Port Area", "Midway Freight", "Midway Engine Service", "Vista", "Vista Doering Branch"]
