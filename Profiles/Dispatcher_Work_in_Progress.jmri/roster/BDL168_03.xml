@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="BDL168 03" fileName="BDL168_03.xml" roadNumber="" roadName="Pod 15 TWVS West (5B)" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="3" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-25T08:13:21.219+00:00</dateUpdated>
+    <dateUpdated>2026-08-09T01:14:34.039+00:00</dateUpdated>
     <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="3" longaddress="no" />
@@ -25,7 +25,7 @@
         <varValue item="BDL as LocoNet Master" value="1" />
         <varValue item="BDL as LocoNet Termination" value="1" />
         <varValue item="Power-up delay" value="0" />
-        <varValue item="Detection threshold" value="0" />
+        <varValue item="Detection threshold" value="1" />
         <varValue item="LED Output Mode" value="0" />
         <varValue item="Switch Mode LEDs source" value="1" />
         <varValue item="RailSync Sample Delay1" value="0" />
@@ -55,7 +55,7 @@
       <CVvalue name="113.11" value="1" />
       <CVvalue name="113.12" value="1" />
       <CVvalue name="113.13" value="0" />
-      <CVvalue name="113.19" value="0" />
+      <CVvalue name="113.19" value="1" />
       <CVvalue name="113.25" value="0" />
       <CVvalue name="113.26" value="1" />
       <CVvalue name="113.30" value="0" />

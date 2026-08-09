@@ -2,7 +2,7 @@
 <?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
 <locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
   <locomotive id="BDL168 07" fileName="BDL168_07.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="BDL168" dccAddress="7" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-    <dateUpdated>2026-07-30T20:54:06.823+00:00</dateUpdated>
+    <dateUpdated>2026-08-09T01:16:35.369+00:00</dateUpdated>
     <decoder model="BDL168" family="BDL16x" comment="" maxFnNum="28" />
     <locoaddress>
       <dcclocoaddress number="7" longaddress="no" />
@@ -18,7 +18,7 @@
         <varValue item="Swap RailSync sensitivity" value="0" />
         <varValue item="Transponding Enable1" value="0" />
         <varValue item="Transponding Enable2" value="1" />
-        <varValue item="Transponding Enable3" value="0" />
+        <varValue item="Transponding Enable3" value="1" />
         <varValue item="Transponding Enable" value="0" />
         <varValue item="Occupancy Force when Zone Power Off" value="0" />
         <varValue item="Detection section 16" value="0" />
@@ -49,7 +49,7 @@
       <CVvalue name="113.03" value="0" />
       <CVvalue name="113.05" value="0" />
       <CVvalue name="113.06" value="1" />
-      <CVvalue name="113.07" value="0" />
+      <CVvalue name="113.07" value="1" />
       <CVvalue name="113.09" value="0" />
       <CVvalue name="113.10" value="0" />
       <CVvalue name="113.11" value="1" />
