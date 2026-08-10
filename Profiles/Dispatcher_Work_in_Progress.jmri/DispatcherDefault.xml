@@ -26948,10 +26948,18 @@
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="75.0" ycen="125.0" xa="60.0" ya="125.0" xb="90.0" yb="125.0" xc="90.0" yc="135.0" xd="60.0" yd="125.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
     <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="105.0" ycen="145.0" xa="92.52" ya="136.68" xb="117.48" yb="153.32" xc="123.03" yc="145.0" xd="92.52" yd="136.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
     <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="135.0" ycen="165.0" xa="122.52" ya="156.68" xb="147.48" yb="173.32" xc="153.03" yc="165.0" xd="122.52" yd="156.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="165.0" ycen="185.0" xa="180.0" ya="185.0" xb="150.0" yb="185.0" xc="150.0" yc="175.0" xd="180.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T3" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="165.0" ycen="185.0" xa="180.0" ya="185.0" xb="150.0" yb="185.0" xc="150.0" yc="175.0" xd="180.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="195.0" ycen="185.0" xa="180.0" ya="185.0" xb="210.0" yb="185.0" xc="210.0" yc="195.0" xd="180.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="400.0" ycen="185.0" xa="385.0" ya="185.0" xb="415.0" yb="185.0" xc="415.0" yc="175.0" xd="385.0" yd="185.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="995.0" ycen="180.0" xa="1007.45" ya="171.64" xb="982.55" yb="188.36" xc="976.97" yc="180.06" xd="1007.45" yd="171.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1026.0" ycen="150.0" xa="1036.2" ya="139.0" xb="1015.8" yb="161.0" xc="1008.47" yc="154.2" xd="1036.2" yd="139.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1050.0" ycen="115.0" xa="1057.4" ya="101.95" xb="1042.6" yb="128.05" xc="1033.9" yc="123.12" xd="1057.4" yd="101.95" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1065.0" ycen="75.0" xa="1069.2" ya="60.6" xb="1060.8" yb="89.4" xc="1051.2" yc="86.6" xd="1069.2" yd="60.6" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
     <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
@@ -26966,7 +26974,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Aug 09 23:45:36 PDT 2026</date>
+      <date>Mon Aug 10 00:02:30 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
