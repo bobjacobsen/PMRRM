@@ -38,7 +38,8 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
 
         # and set some Window menu entries disabled
         try :
-            targets = ["Port Area", "Midway Freight", "Midway Engine Service", "Vista", "Vista Doering Branch"]
+            targets = ["Port Area", "Midway Freight", "Midway Engine Service", 
+                        "Vista", "Vista Doering Branch", "Troy Industrial Zone"]
             jmri.util.WindowMenu.setIgnoredFrames(targets)
             for target in targets :
                 self.log.info("Set the {} fully panel hidden", target)
