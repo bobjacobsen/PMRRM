@@ -26905,20 +26905,61 @@
     <positionablepoint ident="EB11" type="END_BUMPER" x="455.0" y="265.0" connect1name="T49" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB12" type="END_BUMPER" x="50.0" y="45.0" connect1name="T50" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Troy Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1374" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="170" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS204" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="115" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="350" y="833" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS210" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="380" y="853" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS224" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="405" y="873" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS222" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="705" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS184" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="730" y="808" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS178" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="760" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="815" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS182" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="875" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS180" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+  </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sun Aug 09 22:34:10 PDT 2026</date>
+      <date>Sun Aug 09 23:19:10 PDT 2026</date>
       <filename>PanelPro (v5.17.2)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sun Aug 09 22:34:25 PDT 2026</date>
+      <date>Sun Aug 09 23:19:24 PDT 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sun Aug 09 22:35:46 PDT 2026</date>
+      <date>Sun Aug 09 23:33:12 PDT 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
