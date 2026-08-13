@@ -12,31 +12,20 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(4000)
 
         thisUser = java.lang.System.getProperty("user.name").lower()
-        #thisUser = "dispatch"  # here for debugging, comment out for normal operation
+        thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip hiding panels because user '{}' is not '{}'", thisUser, desiredUser)
             return False # done early
             
         # Now proceed to windows that are to be hidden, but left in Windows menu
-        
-        #frame = jmri.util.JmriJFrame.getFrame("PMRRM Dispatcher HiRes")
-        #frame.setVisible(False)         
-        #self.log.info("Set the HiRes panel invisible")
+        targets = ["LCC Node Status", "Midway Yard", "PanelPro"]
+        for target in targets:
+            frame = jmri.util.JmriJFrame.getFrame(target)
+            frame.setVisible(False)         
+            self.log.info("Set the "+target+" panel invisible")
 
-        frame = jmri.util.JmriJFrame.getFrame("LCC Node Status")
-        frame.setVisible(False)         
-        self.log.info("Set the LCC Node Status panel invisible")
-
-        frame = jmri.util.JmriJFrame.getFrame("Midway Yard")
-        frame.setVisible(False)         
-        self.log.info("Set the Midway Yard panel invisible")
-
-        frame = jmri.util.JmriJFrame.getFrame("PanelPro")
-        frame.setVisible(False)         
-        self.log.info("Set the main PanelPro window invisible")
-
-        # and set some Window menu entries disabled
+        # and set some Window menu entries disabled and windows invisible
         try :
             targets = ["Port Area", "Midway Freight", "Midway Engine Service", 
                         "Vista Area", "Doering Branch", "Troy Industrial Zone", "McSweeny Branch", "Colton Industrial Zone"]
