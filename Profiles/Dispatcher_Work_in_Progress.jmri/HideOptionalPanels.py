@@ -12,7 +12,7 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
         self.waitMsec(4000)
 
         thisUser = java.lang.System.getProperty("user.name").lower()
-        thisUser = "dispatch"  # here for debugging, comment out for normal operation
+        #thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip hiding panels because user '{}' is not '{}'", thisUser, desiredUser)
