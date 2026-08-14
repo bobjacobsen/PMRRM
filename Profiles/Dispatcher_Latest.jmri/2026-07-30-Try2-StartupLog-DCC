@@ -1,0 +1,1435 @@
+18:19:16.007: Request Command Station OpSwitches (or DCS210/DCS210+/DCS240/DCS240+/DCS52 check for multiple command stations on LocoNet).
+18:19:16.243: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+18:19:16.559: Request Command Station OpSwitches (or DCS210/DCS210+/DCS240/DCS240+/DCS52 check for multiple command stations on LocoNet).
+18:19:16.598: Report of current Command Station OpSw values:
+	OpSw1=Thrown, OpSw2=Thrown, OpSw3=Thrown, OpSw4=Thrown, OpSw5=Thrown, OpSw6=Thrown, OpSw7=Thrown, OpSw8=Thrown,
+	OpSw9=Closed, OpSw10=Closed, OpSw11=Thrown, OpSw12=Thrown, OpSw13=Closed, OpSw14=Thrown, OpSw15=Closed, OpSw16=Thrown,
+	OpSw17=Thrown, OpSw18=Closed, OpSw19=Thrown, OpSw20=Closed, OpSw21=Closed, OpSw22=Closed, OpSw23=Thrown, OpSw24=Thrown,
+	OpSw25=Thrown, OpSw26=Thrown, OpSw27=Thrown, OpSw28=Thrown, OpSw29=Thrown, OpSw30=Thrown, OpSw31=Closed, OpSw32=Thrown,
+	OpSw33=Closed, OpSw34=Closed, OpSw35=Closed, OpSw36=Thrown, OpSw37=Thrown, OpSw38=Thrown, OpSw39=Thrown, OpSw40=Thrown,
+	OpSw41=Thrown, OpSw42=Thrown, OpSw43=Closed, OpSw44=Thrown, OpSw45=Thrown, OpSw46=Thrown, OpSw47=Thrown, OpSw48=Thrown,
+	OpSw49=Thrown, OpSw50=Thrown, OpSw51=Thrown, OpSw52=Thrown, OpSw53=Thrown, OpSw54=Thrown, OpSw55=Thrown, OpSw56=Thrown,
+	OpSw57=Thrown, OpSw58=Thrown, OpSw59=Closed, OpSw60=Closed, OpSw61=Closed, OpSw62=Thrown, OpSw63=Thrown, OpSw64=Thrown.
+18:19:18.076: Request Command Station OpSwitches (or DCS210/DCS210+/DCS240/DCS240+/DCS52 check for multiple command stations on LocoNet).
+18:19:18.076: Report of current Command Station OpSw values:
+	OpSw1=Thrown, OpSw2=Thrown, OpSw3=Thrown, OpSw4=Thrown, OpSw5=Thrown, OpSw6=Thrown, OpSw7=Thrown, OpSw8=Thrown,
+	OpSw9=Closed, OpSw10=Closed, OpSw11=Thrown, OpSw12=Thrown, OpSw13=Closed, OpSw14=Thrown, OpSw15=Closed, OpSw16=Thrown,
+	OpSw17=Thrown, OpSw18=Closed, OpSw19=Thrown, OpSw20=Closed, OpSw21=Closed, OpSw22=Closed, OpSw23=Thrown, OpSw24=Thrown,
+	OpSw25=Thrown, OpSw26=Thrown, OpSw27=Thrown, OpSw28=Thrown, OpSw29=Thrown, OpSw30=Thrown, OpSw31=Closed, OpSw32=Thrown,
+	OpSw33=Closed, OpSw34=Closed, OpSw35=Closed, OpSw36=Thrown, OpSw37=Thrown, OpSw38=Thrown, OpSw39=Thrown, OpSw40=Thrown,
+	OpSw41=Thrown, OpSw42=Thrown, OpSw43=Closed, OpSw44=Thrown, OpSw45=Thrown, OpSw46=Thrown, OpSw47=Thrown, OpSw48=Thrown,
+	OpSw49=Thrown, OpSw50=Thrown, OpSw51=Thrown, OpSw52=Thrown, OpSw53=Thrown, OpSw54=Thrown, OpSw55=Thrown, OpSw56=Thrown,
+	OpSw57=Thrown, OpSw58=Thrown, OpSw59=Closed, OpSw60=Closed, OpSw61=Closed, OpSw62=Thrown, OpSw63=Thrown, OpSw64=Thrown.
+18:19:18.412: Request data/status for slot 896 in Expanded slot format.
+18:19:18.440: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:18.603: Device type report - BDL16x Board ID 5 Version 1 is present.
+18:19:18.779: Sensor LS65 (Narrows Lower) is Low
+18:19:18.779: Sensor LS66 (Powderhorn main) is Low
+18:19:18.806: Sensor LS67 (Powderhorn siding) is Low
+18:19:18.806: Sensor LS68 (Osage-Powderhorn) is Low
+18:19:18.968: Reported Duplex Group Name="PMRRMjan", Password=00000000, Channel=21, ID=0.
+18:19:18.968: Sensor LS69 (LS69 BDL (5,DS05)) is High
+18:19:18.968: Sensor LS70 (LS70 BDL (5,DS06)) is High
+18:19:18.968: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:18.996: Sensor LS71 (LS71 BDL (5,DS07)) is High
+18:19:18.996: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:18.996: Sensor LS72 (LS72 BDL (5,DS08)) is High
+18:19:19.026: Requesting Switch at LT159 (Midway W approach to ES Engine Service) to Closed (Output On).
+18:19:19.026: Sensor LS73 (LS73 BDL (5,DS09)) is High
+18:19:19.055: Sensor LS74 (LS74 BDL (5,DS10)) is High
+18:19:19.055: Sensor LS75 (LS75 BDL (5,DS11)) is High
+18:19:19.085: Sensor LS76 (LS76 BDL (5,DS12)) is High
+18:19:19.085: Sensor LS77 (LS77 BDL (5,DS13)) is High
+18:19:19.113: Sensor LS78 (LS78 BDL (5,DS14)) is High
+18:19:19.116: Sensor LS79 (LS79 BDL (5,DS15)) is High
+18:19:19.146: Sensor LS80 (LS80 BDL (5,DS16)) is High
+18:19:19.295: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:19.322: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:19.361: Sensor LS141 (Fox) is Low
+18:19:19.362: Sensor LS142 (Irvine W) is Low
+18:19:19.394: Sensor LS122 (Hudson main) is Low
+18:19:19.395: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:19.462: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:19.495: Sensor LS143 (Irvine E) is Low
+18:19:19.496: Sensor LS142 (Irvine W) is Low
+18:19:19.496: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:19.528: Sensor LS141 (Fox) is Low
+18:19:19.529: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:19.560: Requesting Switch at LT21 (Delta 2 to 1) to Closed (Output On).
+18:19:19.560: Sensor LS142 (Irvine W) is Low
+18:19:19.591: Sensor LS124 (Gary main) is Low
+18:19:19.594: Sensor LS141 (Fox) is Low
+18:19:19.624: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:19.655: Sensor LS141 (Fox) is Low
+18:19:19.655: Requesting Switch at LT22 (Delta 3 to 2) to Closed (Output On).
+18:19:19.686: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:19:19.689: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:19.718: Requesting Switch at LT24 (Delta 1 to 2) to Closed (Output On).
+18:19:19.749: Sensor LS121 (Hudson siding) is Low
+18:19:19.750: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:19.781: Sensor LS124 (Gary main) is Low
+18:19:19.784: Sensor LS152 (Echo 1) is High
+18:19:19.816: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:19.849: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:19:19.849: Sensor LS151 (Echo 2) is Low
+18:19:19.887: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:19.889: Sensor LS143 (Irvine E) is Low
+18:19:19.922: Sensor LS141 (Fox) is Low
+18:19:19.924: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:19.957: Sensor LS141 (Fox) is Low
+18:19:19.993: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:19.993: Requesting Switch at LT1201 (W Xerox Main is at Stop) to Closed (Output On).
+18:19:20.064: Requesting Switch at LT2 (Bend East A to B) to Closed (Output On).
+18:19:20.065: Requesting Switch at LT1202 (W Xerox Siding is at Stop) to Closed (Output On).
+18:19:20.068: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:19:20.101: Requesting Switch at LT4 (Bend East 4 to 3) to Closed (Output On).
+18:19:20.102: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:19:20.102: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:19:20.110: Device type report - BDL16x Board ID 84 Version 1 is present.
+18:19:20.144: Requesting Switch at LT5 (Bend West 3 to 2) to Closed (Output On).
+18:19:20.144: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:19:20.186: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:19:20.186: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:20.196: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:20.226: Requesting Switch at LT7 (Bend West 3 to 4) to Closed (Output On).
+18:19:20.232: Sensor LS120 (Jackson main) is Low
+18:19:20.267: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:19:20.273: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:19:20.305: Requesting Switch at LT8 (Bend West 2 to 1) to Closed (Output On).
+18:19:20.313: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:19:20.353: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:20.353: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:19:20.396: Requesting Switch at LT10 (Colton Ind E) to Closed (Output On).
+18:19:20.397: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:19:20.408: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:20.440: Requesting Switch at LT11 (Colton Power plant) to Closed (Output On).
+18:19:20.454: Requesting Switch at LT12 (Colton E 1 to 2) to Closed (Output On).
+18:19:20.493: Sensor LS119 (Jackson siding) is Low
+18:19:20.493: Requesting Switch at LT13 (Colton E 4 to 3) to Closed (Output On).
+18:19:20.508: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:20.544: Sensor LS143 (Irvine E) is Low
+18:19:20.557: Requesting Switch at LT14 (Colton E 2 to 3) to Closed (Output On).
+18:19:20.595: Sensor LS152 (Echo 1) is High
+18:19:20.595: Requesting Switch at LT15 (Colton W 3 to 2) to Closed (Output On).
+18:19:20.615: Requesting Switch at LT16 (Colton W 2 to 1) to Closed (Output On).
+18:19:20.700: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:20.700: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:20.730: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:20.738: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:20.776: Requesting Switch at LT6 (Bend to Intermodal) to Closed (Output On).
+18:19:20.810: Sensor LS122 (Hudson main) is Low
+18:19:20.885: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:20.977: Sensor LS151 (Echo 2) is Low
+18:19:20.990: Sensor LS5 (Midway West Psg approach) is Low
+18:19:21.038: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:21.073: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:21.087: Sensor LS122 (Hudson main) is Low
+18:19:21.152: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:21.165: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:21.288: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:21.332: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:21.383: Sensor LS150 (Echo 3) is Low
+18:19:21.414: Sensor LS32 (Midway Main 1 at Station) is Low
+18:19:21.470: Reported Duplex Group Name="PMRRMjan", Password=00000000, Channel=21, ID=0.
+18:19:21.476: Sensor LS31 (Midway Main 2 at Station) is Low
+18:19:21.568: Sensor LS30 (Midway Main 3 at Station) is High
+18:19:21.680: Sensor LS5 (Midway West Psg approach) is Low
+18:19:21.815: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:21.849: Sensor LS4 (Midway West Frt approach) is Low
+18:19:21.904: Requesting Switch at LT51 (MidwayYd E F approach) to Closed (Output On).
+18:19:21.995: Requesting Switch at LT52 (MidwayYd E Engine pocket) to Closed (Output On).
+18:19:21.995: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:22.032: Requesting Switch at LT53 (Midway E P approach) to Closed (Output On).
+18:19:22.122: Sensor LS29 (Midway East Psg approach) is Low
+18:19:22.188: Sensor LS18 (Midway East Frt approach) is Low
+18:19:22.189: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:22.273: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:19:22.389: Requesting Switch at LT55 (Midway E P2) to Thrown (Output On).
+18:19:22.389: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:22.434: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:22.434: Sensor LS5 (Midway West Psg approach) is Low
+18:19:22.474: Sensor LS4 (Midway West Frt approach) is Low
+18:19:22.575: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:22.617: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:22.617: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:22.673: Sensor LS120 (Jackson main) is Low
+18:19:22.697: Sensor LS119 (Jackson siding) is Low
+18:19:22.698: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:22.698: Device type report - BDL16x Board ID 84 Version 64 is present.
+18:19:22.850: Sensor LS133 (Lake) is Low
+18:19:22.894: Sensor LS5 (Midway West Psg approach) is Low
+18:19:22.936: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 1/0/0; addresses...
+	33-40, 97-104, 161-168, 225-232, 289-296, 353-360, 417-424, 481-488,
+	545-552, 609-616, 673-680, 737-744, 801-808, 865-872, 929-936, 993-1000,
+	1057-1064, 1121-1128, 1185-1192, 1249-1256, 1313-1320, 1377-1384, 1441-1448, 1505-1512,
+	1569-1576, 1633-1640, 1697-1704, 1761-1768, 1825-1832, 1889-1896, 1953-1960, 2017-2024.
+18:19:22.936: Sensor LS353 (LS353 DS64 (45,A1)) is Low
+18:19:23.022: Sensor LS481 (LS481 DS64 (61,A1)) is Low
+18:19:23.023: Sensor LS289 (LS289 DS64 (37,A1)) is Low
+18:19:23.023: Sensor LS161 (LS161 DS64 (21,A1)) is Low
+18:19:23.023: Sensor LS673 (LS673 DS64 (85,A1)) is Low
+18:19:23.023: Sensor LS482 (Doering panel LS482 DS64 (61,S1)) is Low
+18:19:23.023: Sensor LS354 (LS354 DS64 (45,S1)) is Low
+18:19:23.023: Sensor LS290 (LS290 DS64 (37,S1)) is Low
+18:19:23.023: Sensor LS162 (LS162 DS64 (21,S1)) is Low
+18:19:23.023: Sensor LS674 (LS674 DS64 (85,S1)) is Low
+18:19:23.023: Sensor LS483 (LS483 DS64 (61,A2)) is Low
+18:19:23.024: Sensor LS355 (LS355 DS64 (45,A2)) is Low
+18:19:23.065: Sensor LS291 (LS291 DS64 (37,A2)) is Low
+18:19:23.065: Sensor LS163 (LS163 DS64 (21,A2)) is Low
+18:19:23.065: Sensor LS675 (LS675 DS64 (85,A2)) is Low
+18:19:23.065: Sensor LS484 (Doering panel LS484 DS64 (61,S2)) is Low
+18:19:23.065: Sensor LS676 (LS676 DS64 (85,S2)) is Low
+18:19:23.065: Sensor LS485 (LS485 DS64 (61,A3)) is Low
+18:19:23.065: Sensor LS292 (LS292 DS64 (37,S2)) is Low
+18:19:23.065: Sensor LS356 (LS356 DS64 (45,S2)) is Low
+18:19:23.065: Sensor LS677 (LS677 DS64 (85,A3)) is Low
+18:19:23.066: Sensor LS164 (LS164 DS64 (21,S2)) is Low
+18:19:23.066: Sensor LS486 (Doering panel LS486 DS64 (61,S3)) is Low
+18:19:23.066: Sensor LS357 (LS357 DS64 (45,A3)) is Low
+18:19:23.092: Sensor LS293 (LS293 DS64 (37,A3)) is Low
+18:19:23.094: Sensor LS678 (LS678 DS64 (85,S3)) is Low
+18:19:23.094: Sensor LS358 (LS358 DS64 (45,S3)) is Low
+18:19:23.095: Sensor LS294 (LS294 DS64 (37,S3)) is Low
+18:19:23.095: Sensor LS679 (LS679 DS64 (85,A4)) is Low
+18:19:23.095: Sensor LS488 (Doering panel LS488 DS64 (61,S4)) is Low
+18:19:23.095: Sensor LS359 (LS359 DS64 (45,A4)) is Low
+18:19:23.095: Sensor LS295 (LS295 DS64 (37,A4)) is Low
+18:19:23.124: Sensor LS680 (LS680 DS64 (85,S4)) is Low
+18:19:23.128: Sensor LS166 (LS166 DS64 (21,S3)) is Low
+18:19:23.130: Sensor LS360 (LS360 DS64 (45,S4)) is Low
+18:19:23.130: Sensor LS296 (LS296 DS64 (37,S4)) is Low
+18:19:23.130: Sensor LS167 (LS167 DS64 (21,A4)) is Low
+18:19:23.130: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:19:23.130: Sensor LS168 (LS168 DS64 (21,S4)) is Low
+18:19:23.130: Sensor LS65 (Narrows Lower) is Low
+18:19:23.130: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:19:23.130: Sensor LS66 (Powderhorn main) is Low
+18:19:23.131: Sensor LS934 is Low
+18:19:23.131: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:19:23.131: Sensor LS67 (Powderhorn siding) is Low
+18:19:23.131: Sensor LS68 (Osage-Powderhorn) is Low
+18:19:23.131: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:19:23.131: Sensor LS933 is Low
+18:19:23.132: Sensor LS144 (Kelso) is Low
+18:19:23.244: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:19:23.287: Sensor LS69 (LS69 BDL (5,DS05)) is High
+18:19:23.287: Sensor LS70 (LS70 BDL (5,DS06)) is High
+18:19:23.288: Sensor LS71 (LS71 BDL (5,DS07)) is High
+18:19:23.364: Sensor LS72 (LS72 BDL (5,DS08)) is High
+18:19:23.395: Sensor LS73 (LS73 BDL (5,DS09)) is High
+18:19:23.400: Sensor LS74 (LS74 BDL (5,DS10)) is High
+18:19:23.400: Sensor LS75 (LS75 BDL (5,DS11)) is High
+18:19:23.401: Sensor LS76 (LS76 BDL (5,DS12)) is High
+18:19:23.401: Sensor LS77 (LS77 BDL (5,DS13)) is High
+18:19:23.401: Sensor LS78 (LS78 BDL (5,DS14)) is High
+18:19:23.402: Sensor LS79 (LS79 BDL (5,DS15)) is High
+18:19:23.402: Sensor LS80 (LS80 BDL (5,DS16)) is High
+18:19:23.402: Requesting Switch at LT1203 (E UN Sem is at Stop) to Closed (Output On).
+18:19:23.594: Sensor LS133 (Lake) is Low
+18:19:23.768: Sensor LS144 (Kelso) is Low
+18:19:23.890: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:24.008: Sensor LS65 (Narrows Lower) is Low
+18:19:24.009: Request data/status for slot 896 in Expanded slot format.
+18:19:24.031: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:24.046: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:24.051: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:24.051: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:24.051: Requesting Switch at LT40 (Kelso Woodworking) to Closed (Output On).
+18:19:24.053: Sensor LS144 (Kelso) is High
+18:19:24.232: Device type report - BDL16x Board ID 2 Version 97 is present.
+18:19:24.357: Sensor LS133 (Lake) is Low
+18:19:24.440: Requesting Switch at LT1203 (E UN Sem is at Stop) to Closed (Output On).
+18:19:24.749: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 1/0/1; addresses...
+	41-48, 105-112, 169-176, 233-240, 297-304, 361-368, 425-432, 489-496,
+	553-560, 617-624, 681-688, 745-752, 809-816, 873-880, 937-944, 1001-1008,
+	1065-1072, 1129-1136, 1193-1200, 1257-1264, 1321-1328, 1385-1392, 1449-1456, 1513-1520,
+	1577-1584, 1641-1648, 1705-1712, 1769-1776, 1833-1840, 1897-1904, 1961-1968, 2025-2032.
+18:19:24.749: Sensor LS233 (LS233 DS64 (30,A1)) is Low
+18:19:24.749: Sensor LS169 (LS169 DS64 (22,A1)) is Low
+18:19:24.749: Sensor LS425 (LS425 DS64 (54,A1)) is Low
+18:19:24.750: Sensor LS361 (LS361 DS64 (46,A1)) is Low
+18:19:24.750: Sensor LS681 (LS681 DS64 (86,A1)) is Low
+18:19:24.750: Sensor LS553 (LS553 DS64 (70,A1)) is Low
+18:19:24.750: Sensor LS234 (LS234 DS64 (30,S1)) is Low
+18:19:24.750: Sensor LS170 (LS170 DS64 (22,S1)) is Low
+18:19:24.750: Sensor LS426 (LS426 DS64 (54,S1)) is Low
+18:19:24.750: Sensor LS362 (LS362 DS64 (46,S1)) is Low
+18:19:24.819: Sensor LS682 (LS682 DS64 (86,S1)) is Low
+18:19:24.819: Sensor LS554 (LS554 DS64 (70,S1)) is Low
+18:19:24.819: Sensor LS171 (LS171 DS64 (22,A2)) is Low
+18:19:24.820: Sensor LS363 (LS363 DS64 (46,A2)) is Low
+18:19:24.820: Sensor LS683 (LS683 DS64 (86,A2)) is Low
+18:19:24.820: Sensor LS555 (LS555 DS64 (70,A2)) is Low
+18:19:24.820: Sensor LS235 (LS235 DS64 (30,A2)) is Low
+18:19:24.820: Sensor LS297 (LS297 DS64 (38,A1)) is Low
+18:19:24.820: Sensor LS172 (LS172 DS64 (22,S2)) is Low
+18:19:24.820: Sensor LS427 (LS427 DS64 (54,A2)) is Low
+18:19:24.820: Sensor LS364 (LS364 DS64 (46,S2)) is Low
+18:19:24.820: Sensor LS684 (LS684 DS64 (86,S2)) is Low
+18:19:24.820: Sensor LS556 (LS556 DS64 (70,S2)) is Low
+18:19:24.820: Sensor LS236 (LS236 DS64 (30,S2)) is Low
+18:19:24.879: Sensor LS298 (LS298 DS64 (38,S1)) is Low
+18:19:24.879: Sensor LS173 (LS173 DS64 (22,A3)) is Low
+18:19:24.879: Sensor LS428 (LS428 DS64 (54,S2)) is Low
+18:19:24.879: Sensor LS685 (LS685 DS64 (86,A3)) is Low
+18:19:24.879: Sensor LS365 (LS365 DS64 (46,A3)) is Low
+18:19:24.880: Sensor LS557 (LS557 DS64 (70,A3)) is Low
+18:19:24.880: Sensor LS299 (LS299 DS64 (38,A2)) is Low
+18:19:24.880: Sensor LS174 (LS174 DS64 (22,S3)) is Low
+18:19:24.880: Sensor LS237 (LS237 DS64 (30,A3)) is Low
+18:19:24.880: Sensor LS429 (LS429 DS64 (54,A3)) is Low
+18:19:24.880: Sensor LS686 (LS686 DS64 (86,S3)) is Low
+18:19:24.880: Sensor LS366 (LS366 DS64 (46,S3)) is Low
+18:19:24.880: Sensor LS558 (LS558 DS64 (70,S3)) is Low
+18:19:24.880: Sensor LS300 (LS300 DS64 (38,S2)) is Low
+18:19:24.880: Sensor LS175 (LS175 DS64 (22,A4)) is Low
+18:19:24.880: Sensor LS430 (LS430 DS64 (54,S3)) is Low
+18:19:24.880: Sensor LS238 (LS238 DS64 (30,S3)) is Low
+18:19:24.880: Sensor LS687 (LS687 DS64 (86,A4)) is Low
+18:19:24.880: Sensor LS367 (LS367 DS64 (46,A4)) is Low
+18:19:24.881: Sensor LS559 (LS559 DS64 (70,A4)) is Low
+18:19:25.028: Sensor LS176 (LS176 DS64 (22,S4)) is Low
+18:19:25.028: Sensor LS431 (LS431 DS64 (54,A4)) is Low
+18:19:25.028: Sensor LS688 (LS688 DS64 (86,S4)) is Low
+18:19:25.028: Sensor LS239 (LS239 DS64 (30,A4)) is Low
+18:19:25.028: Sensor LS368 (LS368 DS64 (46,S4)) is Low
+18:19:25.028: Sensor LS301 (LS301 DS64 (38,A3)) is Low
+18:19:25.028: Sensor LS560 (LS560 DS64 (70,S4)) is Low
+18:19:25.029: Sensor LS432 (LS432 DS64 (54,S4)) is Low
+18:19:25.029: Sensor LS240 (LS240 DS64 (30,S4)) is Low
+18:19:25.029: Sensor LS302 (LS302 DS64 (38,S3)) is Low
+18:19:25.029: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:25.029: Sensor LS303 (LS303 DS64 (38,A4)) is Low
+18:19:25.029: Sensor LS304 (LS304 DS64 (38,S4)) is Low
+18:19:25.029: Request data/status for slot 896 in Expanded slot format.
+18:19:25.029: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.030: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:25.030: Sensor LS29 (Midway East Psg approach) is Low
+18:19:25.030: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:25.156: Sensor LS144 (Kelso) is Low
+18:19:25.157: Device type report - BDL16x Board ID 7 Version 97 is present.
+18:19:25.157: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:25.157: Request data/status for slot 896 in Expanded slot format.
+18:19:25.157: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.159: Sensor LS133 (Lake) is High
+18:19:25.244: Request data/status for slot 896 in Expanded slot format.
+18:19:25.245: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.245: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:25.245: Request data/status for slot 896 in Expanded slot format.
+18:19:25.245: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.345: Request data/status for slot 896 in Expanded slot format.
+18:19:25.352: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.352: Request data/status for slot 896 in Expanded slot format.
+18:19:25.400: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.400: Sensor LS97 (LS97 BDL (7,DS01)) is Low
+18:19:25.416: Request data/status for slot 896 in Expanded slot format.
+18:19:25.427: Report of slot 384 information:
+	Loco 0 (short) is Not Consisted, Free, operating in 28 SS mode, and is moving Forward at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:25.427: Sensor LS98 (LS98 BDL (7,DS02)) is Low
+18:19:25.427: Sensor LS99 (LS99 BDL (7,DS03)) is Low
+18:19:25.427: Sensor LS100 (LS100 BDL (7,DS04)) is Low
+18:19:25.428: Sensor LS101 (LS101 BDL (7,DS05)) is Low
+18:19:25.428: Device type report - BDL16x Board ID 9 Version 1 is present.
+18:19:25.428: Sensor LS102 (Osage siding east) is Low
+18:19:25.428: Device type report - BDL16x Board ID 4 Version 97 is present.
+18:19:25.428: Device type report - BDL16x Board ID 6 Version 97 is present.
+18:19:25.428: Device type report - BDL16x Board ID 8 Version 97 is present.
+18:19:25.429: Device type report - BDL16x Board ID 10 Version 97 is present.
+18:19:25.429: Sensor LS103 (Osage pocket) is Low
+18:19:25.429: Sensor LS104 (Osage approach) is Low
+18:19:25.429: Sensor LS18 (Midway East Frt approach) is Low
+18:19:25.429: Sensor LS105 (Upton siding) is Low
+18:19:25.429: Sensor LS106 (Upton main) is Low
+18:19:25.429: Device type report - BDL16x Board ID 3 Version 1 is present.
+18:19:25.430: Sensor LS107 (Redcliff siding) is Low
+18:19:25.430: Sensor LS108 (Redcliff main) is Low
+18:19:25.607: Sensor LS109 (Quartz) is Low
+18:19:25.607: Sensor LS110 (Quartz-new-block) is Low
+18:19:25.607: Sensor LS129 (LS129 BDL (9,DS01)) is Low
+18:19:25.607: Sensor LS111 (Osage siding west) is Low
+18:19:25.608: Sensor LS130 (LS130 BDL (9,DS02)) is Low
+18:19:25.608: Sensor LS145 (Bend 4) is Low
+18:19:25.608: Sensor LS112 (Osage main) is Low
+18:19:25.608: Sensor LS131 (LS131 BDL (9,DS03)) is Low
+18:19:25.608: Sensor LS146 (Bend 3) is Low
+18:19:25.608: Sensor LS132 (LS132 BDL (9,DS04)) is Low
+18:19:25.608: Sensor LS147 (Bend 2) is Low
+18:19:25.609: Sensor LS133 (Lake) is Low
+18:19:25.609: Sensor LS149 (LS149 BDL (10,DS05)) is Low
+18:19:25.609: Sensor LS134 (LS134 BDL (9,DS06)) is Low
+18:19:25.609: Sensor LS150 (Echo 3) is Low
+18:19:25.788: Sensor LS135 (LS135 BDL (9,DS07)) is Low
+18:19:25.788: Sensor LS151 (Echo 2) is Low
+18:19:25.788: Sensor LS137 (Colton CP 3) is Low
+18:19:25.788: Sensor LS138 (Colton CP 2) is Low
+18:19:25.788: Sensor LS139 (Colton CP 1) is Low
+18:19:25.789: Sensor LS17 (LS17 BDL (2,DS01)) is Low
+18:19:25.789: Sensor LS140 (LS129 BDL (9,DS12)) is Low
+18:19:25.789: Sensor LS81 (LS81 BDL (6,DS01)) is High
+18:19:25.884: Sensor LS18 (Midway East Frt approach) is Low
+18:19:25.884: Sensor LS141 (Fox) is Low
+18:19:25.884: Sensor LS82 (LS82 BDL (6,DS02)) is High
+18:19:25.892: Sensor LS142 (Irvine W) is Low
+18:19:25.892: Sensor LS19 (LS19 BDL (2,DS03)) is Low
+18:19:25.892: Sensor LS148 (Bend 1) is High
+18:19:25.893: Sensor LS83 (LS83 BDL (6,DS03)) is High
+18:19:25.893: Sensor LS143 (Irvine E) is Low
+18:19:25.948: Sensor LS84 (LS84 BDL (6,DS04)) is High
+18:19:25.959: Sensor LS20 (LS20 BDL (2,DS04)) is Low
+18:19:25.959: Sensor LS144 (Kelso) is Low
+18:19:25.959: Sensor LS21 (LS21 BDL (2,DS05)) is Low
+18:19:25.959: Sensor LS152 (Echo 1) is High
+18:19:25.984: Sensor LS136 (Colton CP 4) is High
+18:19:25.984: Sensor LS153 (LS153 DS64 (20,A1) & BDL (10,DS09)) is High
+18:19:25.984: Sensor LS22 (Midway LS22 LT53 passenger 1 2 3 east ladder plus 153) is Low
+18:19:25.984: Sensor LS23 (Midway LS23 below LT52) is Low
+18:19:25.984: Sensor LS90 (LS90 BDL (6,DS10)) is High
+18:19:25.984: Sensor LS24 (Midway LS24 power spur plus turnout) is Low
+18:19:25.985: Sensor LS155 (LS155 DS64 (20,A2) & BDL (10,DS11)) is High
+18:19:25.985: Sensor LS25 (Midway LS25 track 3 east stopping block) is Low
+18:19:25.985: Sensor LS156 (LS156 DS64 (20,S2) & BDL (10,DS12)) is High
+18:19:25.985: Sensor LS26 (Midway LS26 East passenger approach stopping block) is Low
+18:19:25.985: Sensor LS157 (LS157 DS64 (20,A3) & BDL (10,DS13)) is High
+18:19:25.985: Sensor LS27 (Midway LS27 track 1 east stopping block) is Low
+18:19:25.986: Sensor LS158 (LS158 DS64 (20,S3) & BDL (10,DS14)) is High
+18:19:25.986: Sensor LS43 (LS43 BDL (3,DS11)) is High
+18:19:25.986: Sensor LS159 (LS159 DS64 (20,A4) & BDL (10,DS15)) is High
+18:19:25.986: Sensor LS28 (Midway LS28 track 2 east stopping block) is Low
+18:19:25.986: Sensor LS160 (LS160 DS64 (20,S4) & BDL (10,DS16)) is High
+18:19:25.986: Sensor LS29 (Midway East Psg approach) is Low
+18:19:25.986: Sensor LS31 (Midway Main 2 at Station) is Low
+18:19:25.986: Sensor LS117 (Gary Hudson overlap main) is Low
+18:19:25.986: Sensor LS32 (Midway Main 1 at Station) is Low
+18:19:25.987: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:26.311: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:26.312: Sensor LS124 (Gary main) is Low
+18:19:26.313: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:26.401: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:26.623: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 1/1/0; addresses...
+	49-56, 113-120, 177-184, 241-248, 305-312, 369-376, 433-440, 497-504,
+	561-568, 625-632, 689-696, 753-760, 817-824, 881-888, 945-952, 1009-1016,
+	1073-1080, 1137-1144, 1201-1208, 1265-1272, 1329-1336, 1393-1400, 1457-1464, 1521-1528,
+	1585-1592, 1649-1656, 1713-1720, 1777-1784, 1841-1848, 1905-1912, 1969-1976, 2033-2040.
+18:19:26.623: Sensor LS177 (LS177 DS64 (23,A1)) is Low
+18:19:26.624: Sensor LS369 (LS369 DS64 (47,A1)) is Low
+18:19:26.624: Sensor LS689 (LS689 DS64 (87,A1)) is Low
+18:19:26.624: Sensor LS241 (LS241 DS64 (31,A1)) is Low
+18:19:26.624: Sensor LS561 (LS561 DS64 (71,A1)) is Low
+18:19:26.624: Sensor LS497 (LS497 DS64 (63,A1)) is Low
+18:19:26.624: Sensor LS370 (LS370 DS64 (47,S1)) is Low
+18:19:26.624: Sensor LS178 (LS178 DS64 (23,S1)) is Low
+18:19:26.624: Sensor LS690 (LS690 DS64 (87,S1)) is Low
+18:19:26.624: Sensor LS498 (LS498 DS64 (63,S1)) is Low
+18:19:26.624: Sensor LS242 (LS242 DS64 (31,S1)) is Low
+18:19:26.624: Sensor LS499 (LS499 DS64 (63,A2)) is Low
+18:19:26.624: Sensor LS243 (LS243 DS64 (31,A2)) is Low
+18:19:26.625: Sensor LS562 (LS562 DS64 (71,S1)) is Low
+18:19:26.625: Sensor LS433 (LS433 DS64 (55,A1)) is Low
+18:19:26.625: Sensor LS371 (LS371 DS64 (47,A2)) is Low
+18:19:26.625: Sensor LS179 (LS179 DS64 (23,A2)) is Low
+18:19:26.625: Sensor LS244 (LS244 DS64 (31,S2)) is Low
+18:19:26.625: Sensor LS500 (LS500 DS64 (63,S2)) is Low
+18:19:26.625: Sensor LS563 (LS563 DS64 (71,A2)) is Low
+18:19:26.625: Sensor LS691 (LS691 DS64 (87,A2)) is Low
+18:19:26.625: Sensor LS434 (LS434 DS64 (55,S1)) is Low
+18:19:26.625: Sensor LS372 (LS372 DS64 (47,S2)) is Low
+18:19:26.625: Sensor LS180 (LS180 DS64 (23,S2)) is Low
+18:19:26.625: Sensor LS245 (LS245 DS64 (31,A3)) is Low
+18:19:26.625: Sensor LS501 (LS501 DS64 (63,A3)) is Low
+18:19:26.625: Sensor LS564 (LS564 DS64 (71,S2)) is Low
+18:19:26.625: Sensor LS435 (LS35 DS64 (55,A2)) is Low
+18:19:26.625: Sensor LS373 (LS373 DS64 (47,A3)) is Low
+18:19:26.625: Sensor LS181 (LS181 DS64 (23,A3)) is Low
+18:19:26.626: Sensor LS436 (LS36 DS64 (55,S2)) is Low
+18:19:26.626: Sensor LS565 (LS565 DS64 (71,A3)) is Low
+18:19:26.626: Sensor LS692 (LS692 DS64 (87,S2)) is Low
+18:19:26.626: Sensor LS374 (LS374 DS64 (47,S3)) is Low
+18:19:26.626: Sensor LS182 (LS182 DS64 (23,S3)) is Low
+18:19:26.827: Sensor LS375 (LS375 DS64 (47,A4)) is Low
+18:19:26.833: Sensor LS183 (LS183 DS64 (23,A4)) is Low
+18:19:26.833: Sensor LS246 (LS246 DS64 (31,S3)) is Low
+18:19:26.833: Sensor LS503 (LS503 DS64 (63,A4)) is Low
+18:19:26.833: Sensor LS437 (LS37 DS64 (55,A3)) is Low
+18:19:26.833: Sensor LS693 (LS693 DS64 (87,A3)) is Low
+18:19:26.834: Sensor LS376 (LS376 DS64 (47,S4)) is Low
+18:19:26.834: Sensor LS247 (LS247 DS64 (31,A4)) is Low
+18:19:26.834: Sensor LS438 (LS38 DS64 (55,S3)) is Low
+18:19:26.834: Sensor LS184 (LS184 DS64 (23,S4)) is Low
+18:19:26.834: Sensor LS504 (LS504 DS64 (63,S4)) is Low
+18:19:26.834: Sensor LS566 (LS566 DS64 (71,S3)) is Low
+18:19:26.834: Sensor LS694 (LS694 DS64 (87,S3)) is Low
+18:19:26.834: Sensor LS248 (LS248 DS64 (31,S4)) is Low
+18:19:26.834: Sensor LS439 (LS39 DS64 (55,A4)) is Low
+18:19:26.834: Sensor LS567 (LS567 DS64 (71,A4)) is Low
+18:19:26.834: Sensor LS695 (LS695 DS64 (87,A4)) is Low
+18:19:26.834: Sensor LS440 (LS40 DS64 (55,S4)) is Low
+18:19:26.834: Sensor LS568 (LS568 DS64 (71,S4)) is Low
+18:19:26.834: Sensor LS696 (LS696 DS64 (87,S4)) is Low
+18:19:26.835: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:26.835: Sensor LS97 (LS97 BDL (7,DS01)) is Low
+18:19:26.835: Sensor LS98 (LS98 BDL (7,DS02)) is Low
+18:19:26.835: Requesting Switch at LT31 (Gary Tyson Steel) to Thrown (Output On).
+18:19:26.835: Sensor LS99 (LS99 BDL (7,DS03)) is Low
+18:19:26.835: Sensor LS113 (Narrows Upper) is Low
+18:19:26.835: Sensor LS100 (LS100 BDL (7,DS04)) is Low
+18:19:26.836: Sensor LS123 (Gary siding) is Low
+18:19:26.995: Sensor LS101 (LS101 BDL (7,DS05)) is Low
+18:19:27.004: Sensor LS123 (Gary siding) is Low
+18:19:27.004: Sensor LS102 (Osage siding east) is Low
+18:19:27.004: Sensor LS103 (Osage pocket) is Low
+18:19:27.005: Sensor LS104 (Osage approach) is Low
+18:19:27.005: Sensor LS105 (Upton siding) is Low
+18:19:27.005: Sensor LS106 (Upton main) is Low
+18:19:27.108: Sensor LS107 (Redcliff siding) is Low
+18:19:27.108: Sensor LS108 (Redcliff main) is Low
+18:19:27.108: Sensor LS49 (Whiskey-Xerox) is Low
+18:19:27.108: Sensor LS109 (Quartz) is Low
+18:19:27.109: Sensor LS50 (Troy-Upton) is Low
+18:19:27.109: Sensor LS113 (Narrows Upper) is Low
+18:19:27.109: Sensor LS110 (Quartz-new-block) is Low
+18:19:27.109: Sensor LS114 (LS114 BDL (8,DS02)) is Low
+18:19:27.109: Sensor LS111 (Osage siding west) is Low
+18:19:27.109: Sensor LS52 (Xerox Main 2) is Low
+18:19:27.109: Sensor LS115 (LS115 BDL (8,DS03)) is Low
+18:19:27.278: Sensor LS116 (LS116 BDL (8,DS03)) is Low
+18:19:27.289: Sensor LS53 (Upton-Vista East) is Low
+18:19:27.289: Sensor LS85 (LS85 BDL (6,DS05)) is Low
+18:19:27.290: Sensor LS117 (Gary Hudson overlap main) is Low
+18:19:27.290: Sensor LS54 (Redcliff-Sierra) is Low
+18:19:27.290: Sensor LS112 (Osage main) is Low
+18:19:27.290: Sensor LS55 (LS55 BDL (4,DS07)) is Low
+18:19:27.337: Sensor LS86 (Troy siding 2) is Low
+18:19:27.337: Sensor LS56 (LS56 BDL (4,DS08)) is Low
+18:19:27.337: Sensor LS87 (Troy siding 1) is Low
+18:19:27.351: Sensor LS118 (Delta 1) is Low
+18:19:27.358: Sensor LS33 (Upton-Vista West) is Low
+18:19:27.358: Sensor LS119 (Jackson siding) is Low
+18:19:27.377: Sensor LS120 (Jackson main) is Low
+18:19:27.378: Sensor LS121 (Hudson siding) is Low
+18:19:27.378: Sensor LS89 (LS89 BDL (6,DS09)) is Low
+18:19:27.378: Sensor LS57 (LS57 BDL (4,DS09)) is Low
+18:19:27.378: Sensor LS91 (Vista siding) is Low
+18:19:27.378: Sensor LS58 (LS58 BDL (4,DS10)) is Low
+18:19:27.378: Sensor LS59 (LS59 BDL (4,DS11)) is Low
+18:19:27.378: Sensor LS92 (Vista main) is Low
+18:19:27.378: Sensor LS122 (Hudson main) is Low
+18:19:27.378: Sensor LS34 (LS34 BDL (3,DS02)) is Low
+18:19:27.378: Sensor LS123 (Gary siding) is Low
+18:19:27.379: Sensor LS35 (LS35 BDL (3,DS03)) is Low
+18:19:27.379: Sensor LS124 (Gary main) is Low
+18:19:27.379: Sensor LS36 (LS35 BDL (3,DS04)) is Low
+18:19:27.379: Sensor LS60 (LS60 BDL (4,DS12)) is Low
+18:19:27.379: Sensor LS37 (Sierra-Troy) is Low
+18:19:27.379: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:19:27.379: Sensor LS61 (LS61 BDL (4,DS013)) is Low
+18:19:27.380: Sensor LS62 (LS62 BDL (4,DS14)) is Low
+18:19:27.380: Sensor LS93 (LS93 BDL (6,DS13)) is Low
+18:19:27.380: Sensor LS38 (LS37 BDL (3,DS06)) is Low
+18:19:27.380: Sensor LS94 (Whiskey siding 2) is Low
+18:19:27.380: Sensor LS63 (LS63 BDL (4,DS15)) is Low
+18:19:27.380: Sensor LS125 (Delta 4) is Low
+18:19:27.381: Sensor LS39 (LS39 BDL (3,DS07)) is Low
+18:19:27.384: Sensor LS64 (LS64 BDL (4,DS16)) is Low
+18:19:27.670: Sensor LS95 (Whiskey siding 1) is Low
+18:19:27.670: Sensor LS40 (LS40 BDL (3,DS08)) is Low
+18:19:27.670: Sensor LS32 (Midway Main 1 at Station) is Low
+18:19:27.670: Sensor LS126 (Delta 3) is Low
+18:19:27.670: Sensor LS41 (Sierra main) is Low
+18:19:27.670: Sensor LS127 (Delta 2) is Low
+18:19:27.671: Sensor LS42 (LS42 BDL (3,DS10)) is Low
+18:19:27.671: Sensor LS128 (Delta CP) is Low
+18:19:27.671: Sensor LS44 (LS44 BDL (3,DS12)) is Low
+18:19:27.671: Sensor LS96 (Whiskey main) is Low
+18:19:27.672: Sensor LS45 (Sierra siding east) is Low
+18:19:27.672: Sensor LS46 (Sierra siding west) is Low
+18:19:27.672: Sensor LS47 (LS47 BDL (3,DS16)) is Low
+18:19:27.672: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:19:27.672: Sensor LS48 (Vista-Whiskey) is Low
+18:19:27.934: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:19:28.194: Requesting Switch at LT55 (Midway E P2) to Thrown (Output On).
+18:19:28.195: Sensor LS31 (Midway Main 2 at Station) is Low
+18:19:28.197: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 1/1/1; addresses...
+	57-64, 121-128, 185-192, 249-256, 313-320, 377-384, 441-448, 505-512,
+	569-576, 633-640, 697-704, 761-768, 825-832, 889-896, 953-960, 1017-1024,
+	1081-1088, 1145-1152, 1209-1216, 1273-1280, 1337-1344, 1401-1408, 1465-1472, 1529-1536,
+	1593-1600, 1657-1664, 1721-1728, 1785-1792, 1849-1856, 1913-1920, 1977-1984, 2041-2048.
+18:19:28.197: Sensor LS185 (LS185 DS64 (24,A1)) is Low
+18:19:28.197: Sensor LS377 (LS377 DS64 (48,A1)) is Low
+18:19:28.197: Sensor LS313 (LS313 DS64 (40,A1)) is Low
+18:19:28.197: Sensor LS697 (LS697 DS64 (88,A1)) is Low
+18:19:28.197: Sensor LS441 (LS441 DS64 (56,A1)) is Low
+18:19:28.197: Sensor LS505 (LS505 DS64 (64,A1)) is Low
+18:19:28.197: Sensor LS249 (LS249 DS64 (32,A1)) is Low
+18:19:28.197: Sensor LS569 (LS569 DS64 (72,A1)) is Low
+18:19:28.197: Sensor LS186 (LS186 DS64 (24,S1)) is Low
+18:19:28.479: Sensor LS698 (LS698 DS64 (88,S1)) is Low
+18:19:28.479: Sensor LS570 (LS570 DS64 (72,S1)) is Low
+18:19:28.479: Sensor LS506 (LS506 DS64 (64,S1)) is Low
+18:19:28.479: Sensor LS187 (LS187 DS64 (24,A2)) is Low
+18:19:28.479: Sensor LS442 (LS442 DS64 (56,S1)) is Low
+18:19:28.479: Sensor LS633 (LS633 DS64 (80,A1)) is Low
+18:19:28.479: Sensor LS379 (LS379 DS64 (48,A2)) is Low
+18:19:28.479: Sensor LS314 (LS314 DS64 (40,S1)) is Low
+18:19:28.480: Sensor LS250 (LS250DS64 (32,S1)) is Low
+18:19:28.480: Sensor LS699 (LS699 DS64 (88,A2)) is Low
+18:19:28.480: Sensor LS507 (LS507 DS64 (64,A2)) is Low
+18:19:28.480: Sensor LS571 (LS571 DS64 (72,A2)) is Low
+18:19:28.480: Sensor LS443 (LS443 DS64 (56,A2)) is Low
+18:19:28.543: Sensor LS188 (LS188 DS64 (24,S2)) is Low
+18:19:28.543: Sensor LS380 (LS380 DS64 (48,S2)) is Low
+18:19:28.543: Sensor LS315 (LS315 DS64 (40,A2)) is Low
+18:19:28.543: Sensor LS251 (LS251 DS64 (32,A2)) is Low
+18:19:28.543: Sensor LS572 (LS572 DS64 (72,S2)) is Low
+18:19:28.544: Sensor LS508 (LS508 DS64 (64,S2)) is Low
+18:19:28.544: Sensor LS700 (LS700 DS64 (88,S2)) is Low
+18:19:28.599: Sensor LS444 (LS444 DS64 (56,S2)) is Low
+18:19:28.599: Sensor LS634 (LS634 DS64 (80,S1)) is Low
+18:19:28.605: Sensor LS189 (LS189 DS64 (24,A3)) is Low
+18:19:28.610: Sensor LS381 (LS381 DS64 (48,A3)) is Low
+18:19:28.619: Sensor LS316 (LS316 DS64 (40,S2)) is Low
+18:19:28.619: Sensor LS252 (LS252 DS64 (32,S2)) is Low
+18:19:28.619: Sensor LS573 (LS573 DS64 (72,A3)) is Low
+18:19:28.619: Sensor LS509 (LS509 DS64 (64,A3)) is Low
+18:19:28.670: Sensor LS701 (LS701 DS64 (88,A3)) is Low
+18:19:28.670: Sensor LS635 (LS635 DS64 (80,A2)) is Low
+18:19:28.670: Sensor LS445 (LS445 DS64 (56,A3)) is Low
+18:19:28.670: Sensor LS382 (LS382 DS64 (48,S3)) is Low
+18:19:28.670: Sensor LS317 (LS317 DS64 (40,A3)) is Low
+18:19:28.670: Sensor LS574 (LS574 DS64 (72,S3)) is Low
+18:19:28.670: Sensor LS253 (LS253 DS64 (32,A3)) is Low
+18:19:28.670: Sensor LS510 (LS510 DS64 (64,S3)) is Low
+18:19:28.670: Sensor LS318 (LS318 DS64 (40,S3)) is Low
+18:19:28.671: Sensor LS702 (LS702 DS64 (88,S3)) is Low
+18:19:28.671: Sensor LS636 (LS636 DS64 (80,S2)) is Low
+18:19:28.671: Sensor LS446 (LS446 DS64 (56,S3)) is Low
+18:19:28.671: Sensor LS190 (LS190 DS64 (24,S3)) is Low
+18:19:28.671: Sensor LS383 (LS383 DS64 (48,A4)) is Low
+18:19:28.671: Sensor LS254 (LS254 DS64 (32,S3)) is Low
+18:19:28.671: Sensor LS511 (LS511 DS64 (64,A4)) is Low
+18:19:28.671: Sensor LS575 (LS575 DS64 (72,A4)) is Low
+18:19:28.671: Sensor LS703 (LS703 DS64 (88,A4)) is Low
+18:19:28.671: Sensor LS637 (LS637 DS64 (80,A3)) is Low
+18:19:28.671: Sensor LS191 (LS191 DS64 (24,A4)) is Low
+18:19:28.671: Sensor LS319 (LS319 DS64 (40,A4)) is Low
+18:19:28.671: Sensor LS255 (LS255 DS64 (32,A4)) is Low
+18:19:28.671: Sensor LS576 (LS576 DS64 (72,S4)) is Low
+18:19:28.671: Sensor LS512 (LS512 DS64 (64,S4)) is Low
+18:19:28.671: Sensor LS638 (LS638 DS64 (80,S3)) is Low
+18:19:28.671: Sensor LS704 (LS704 DS64 (88,S4)) is Low
+18:19:28.671: Sensor LS384 (LS384 DS64 (48,S4)) is Low
+18:19:28.781: Sensor LS447 (LS447 DS64 (56,A4)) is Low
+18:19:28.781: Sensor LS256 (LS256 DS64 (32,S4)) is Low
+18:19:28.781: Sensor LS320 (LS320 DS64 (40,S4)) is Low
+18:19:28.781: Sensor LS639 (LS639 DS64 (80,A4)) is Low
+18:19:28.781: Sensor LS448 (LS448 DS64 (56,S4)) is Low
+18:19:28.781: Sensor LS192 (LS192 DS64 (24,S4)) is Low
+18:19:28.781: Sensor LS640 (LS640 DS64 (80,S4)) is Low
+18:19:28.781: Requesting Switch at LT55 (Midway E P2) to Thrown (Output On).
+18:19:28.781: Sensor LS1020 is Low
+18:19:28.782: Requesting Switch at LT55 (Midway E P2) to Closed (Output On).
+18:19:28.782: Sensor LS1021 is Low
+18:19:28.782: Sensor LS255 (LS255 DS64 (32,A4)) is Low
+18:19:28.782: Sensor LS256 (LS256 DS64 (32,S4)) is Low
+18:19:29.369: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:19:29.606: Sensor LS117 (Gary Hudson overlap main) is Low
+18:19:29.773: Sensor LS148 (Bend 1) is High
+18:19:29.773: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:19:29.774: Sensor LS147 (Bend 2) is Low
+18:19:29.775: Sensor LS146 (Bend 3) is Low
+18:19:29.775: Sensor LS113 (Narrows Upper) is Low
+18:19:29.775: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:19:29.999: Sensor LS114 (LS114 BDL (8,DS02)) is Low
+18:19:30.017: Sensor LS115 (LS115 BDL (8,DS03)) is Low
+18:19:30.017: Sensor LS145 (Bend 4) is Low
+18:19:30.018: Sensor LS116 (LS116 BDL (8,DS03)) is Low
+18:19:30.018: Sensor LS117 (Gary Hudson overlap main) is Low
+18:19:30.100: Sensor LS118 (Delta 1) is Low
+18:19:30.150: Sensor LS119 (Jackson siding) is Low
+18:19:30.157: Sensor LS118 (Delta 1) is Low
+18:19:30.157: Sensor LS120 (Jackson main) is Low
+18:19:30.191: Sensor LS121 (Hudson siding) is Low
+18:19:30.191: Sensor LS127 (Delta 2) is Low
+18:19:30.191: Sensor LS122 (Hudson main) is Low
+18:19:30.192: Sensor LS123 (Gary siding) is Low
+18:19:30.192: Sensor LS124 (Gary main) is Low
+18:19:30.192: Sensor LS125 (Delta 4) is Low
+18:19:30.192: Sensor LS126 (Delta 3) is Low
+18:19:30.192: Sensor LS126 (Delta 3) is Low
+18:19:30.193: Sensor LS127 (Delta 2) is Low
+18:19:30.193: Sensor LS128 (Delta CP) is Low
+18:19:30.193: Sensor LS125 (Delta 4) is Low
+18:19:30.193: Sensor LS121 (Hudson siding) is Low
+18:19:30.193: Requesting Switch at LT17 (Colton W 3 to 4) to Closed (Output On).
+18:19:30.194: Requesting Switch at LT19 (Colton Oil Cans unload) to Closed (Output On).
+18:19:30.195: Sensor LS170 (LS170 DS64 (22,S1)) is High
+18:19:30.195: Requesting Switch at LT195 (Whiskey Grain silo) to Closed (Output On).
+18:19:30.196: Requesting Switch at LT20 (Colton Ind W) to Closed (Output On).
+18:19:30.562: Requesting Switch at LT21 (Delta 2 to 1) to Closed (Output On).
+18:19:30.564: Requesting Switch at LT22 (Delta 3 to 2) to Closed (Output On).
+18:19:30.564: Requesting Switch at LT23 (Delta 4 to 3) to Closed (Output On).
+18:19:30.565: Requesting Switch at LT24 (Delta 1 to 2) to Closed (Output On).
+18:19:31.197: Requesting Switch at LT6 (Bend to Intermodal) to Closed (Output On).
+18:19:35.068: Requesting Switch at LT1201 (W Xerox Main is at Stop) to Closed (Output On).
+18:19:35.069: Requesting Switch at LT1202 (W Xerox Siding is at Stop) to Closed (Output On).
+18:19:35.069: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:19:35.070: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:19:35.076: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:19:35.077: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:19:35.080: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:19:35.083: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:35.083: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:35.090: Sensor LS32 (Midway Main 1 at Station) is Low
+18:19:35.091: Sensor LS31 (Midway Main 2 at Station) is Low
+18:19:35.091: Sensor LS30 (Midway Main 3 at Station) is High
+18:19:35.092: Requesting Switch at LT51 (MidwayYd E F approach) to Closed (Output On).
+18:19:35.092: Requesting Switch at LT52 (MidwayYd E Engine pocket) to Closed (Output On).
+18:19:35.092: Requesting Switch at LT53 (Midway E P approach) to Closed (Output On).
+18:19:35.093: Sensor LS29 (Midway East Psg approach) is Low
+18:19:35.093: Sensor LS18 (Midway East Frt approach) is Low
+18:19:35.094: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:35.094: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:19:35.094: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:19:35.095: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:19:35.095: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:19:35.096: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:19:35.096: Requesting Switch at LT21 (Delta 2 to 1) to Closed (Output On).
+18:19:35.096: Requesting Switch at LT22 (Delta 3 to 2) to Closed (Output On).
+18:19:35.097: Requesting Switch at LT24 (Delta 1 to 2) to Closed (Output On).
+18:19:35.097: Sensor LS152 (Echo 1) is High
+18:19:35.097: Sensor LS151 (Echo 2) is Low
+18:19:35.143: Requesting Switch at LT2 (Bend East A to B) to Closed (Output On).
+18:19:35.144: Requesting Switch at LT4 (Bend East 4 to 3) to Closed (Output On).
+18:19:35.144: Requesting Switch at LT5 (Bend West 3 to 2) to Closed (Output On).
+18:19:35.144: Requesting Switch at LT7 (Bend West 3 to 4) to Closed (Output On).
+18:19:35.145: Requesting Switch at LT8 (Bend West 2 to 1) to Closed (Output On).
+18:19:35.145: Requesting Switch at LT10 (Colton Ind E) to Closed (Output On).
+18:19:35.146: Requesting Switch at LT11 (Colton Power plant) to Closed (Output On).
+18:19:35.146: Requesting Switch at LT12 (Colton E 1 to 2) to Closed (Output On).
+18:19:35.146: Requesting Switch at LT13 (Colton E 4 to 3) to Closed (Output On).
+18:19:35.147: Requesting Switch at LT14 (Colton E 2 to 3) to Closed (Output On).
+18:19:35.147: Requesting Switch at LT15 (Colton W 3 to 2) to Closed (Output On).
+18:19:35.147: Requesting Switch at LT16 (Colton W 2 to 1) to Closed (Output On).
+18:19:35.148: Sensor LS148 (Bend 1) is High
+18:19:35.148: Sensor LS147 (Bend 2) is Low
+18:19:35.149: Sensor LS146 (Bend 3) is Low
+18:19:35.149: Sensor LS145 (Bend 4) is Low
+18:19:35.149: Sensor LS118 (Delta 1) is Low
+18:19:35.149: Requesting Switch at LT23 (Delta 4 to 3) to Closed (Output On).
+18:19:35.150: Requesting Switch at LT6 (Bend to Intermodal) to Closed (Output On).
+18:19:35.255: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:35.256: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:35.256: Requesting Switch at LT159 (Midway W approach to ES Engine Service) to Closed (Output On).
+18:19:35.804: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 0/0/0; addresses...
+	1-8, 65-72, 129-136, 193-200, 257-264, 321-328, 385-392, 449-456,
+	513-520, 577-584, 641-648, 705-712, 769-776, 833-840, 897-904, 961-968,
+	1025-1032, 1089-1096, 1153-1160, 1217-1224, 1281-1288, 1345-1352, 1409-1416, 1473-1480,
+	1537-1544, 1601-1608, 1665-1672, 1729-1736, 1793-1800, 1857-1864, 1921-1928, 1985-1992.
+18:19:35.805: Sensor LS321 (LS321 DS64 (41,A1)) is Low
+18:19:35.805: Sensor LS257 (LS257 DS64 (33,A1)) is Low
+18:19:35.805: Sensor LS641 (LS641 DS64 (81,A1)) is Low
+18:19:35.805: Sensor LS385 (LS385 DS64 (49,A1)) is Low
+18:19:35.805: Sensor LS193 (LS193 DS64 (25,A1)) is Low
+18:19:35.805: Turnout LT106 (Yazoo 2-3 xover upper) Switch input is Thrown (input on).
+18:19:35.805: Sensor LS513 (LS513 DS64 (65,A1)) is Low
+18:19:35.805: Sensor LS577 (LS577 DS64 (73,A1)) is Low
+18:19:35.805: Sensor LS322 (LS322 DS64 (41,S1)) is Low
+18:19:35.805: Sensor LS258 (LS258 DS64 (33,S1)) is Low
+18:19:35.805: Sensor LS642 (LS642 DS64 (81,S1)) is Low
+18:19:35.806: Sensor LS386 (LS386 DS64 (49,S1)) is Low
+18:19:35.806: Turnout LT106 (Yazoo 2-3 xover upper) Switch input is Thrown (input on).
+18:19:35.806: Sensor LS194 (LS194 DS64 (25,S1)) is Low
+18:19:35.806: Sensor LS578 (LS578 DS64 (73,S1)) is Low
+18:19:35.806: Sensor LS514 (LS514DS64 (65,S1)) is Low
+18:19:35.806: Sensor LS323 (LS323 DS64 (40,A2)) is Low
+18:19:35.806: Sensor LS259 (LS259 DS64 (33,A2)) is Low
+18:19:35.806: Sensor LS643 (LS643 DS64 (81,A2)) is Low
+18:19:35.806: Sensor LS387 (LS387 DS64 (49,A2)) is Low
+18:19:35.806: Sensor LS195 (LS195 DS64 (25,A2)) is Low
+18:19:35.806: Turnout LT999 () Switch input is Thrown (input on).
+18:19:35.806: Sensor LS515 (LS515 DS64 (65,A2)) is Low
+18:19:35.806: Sensor LS324 (LS324 DS64 (40,S2)) is Low
+18:19:35.807: Sensor LS260 (LS260 DS64 (33,S2)) is Low
+18:19:35.807: Sensor LS644 (LS644 DS64 (81,S2)) is Low
+18:19:35.807: Sensor LS388 (LS388 DS64 (49,S2)) is Low
+18:19:35.807: Turnout LT999 () Switch input is Thrown (input on).
+18:19:35.807: Sensor LS516 (LS516 DS64 (65,S2)) is Low
+18:19:35.807: Sensor LS325 (LS325 DS64 (40,A3)) is Low
+18:19:35.807: Sensor LS261 (LS261 DS64 (33,A3)) is Low
+18:19:35.807: Sensor LS579 (LS579 DS64 (73,A2)) is Low
+18:19:35.807: Sensor LS645 (LS645 DS64 (81,A3)) is Low
+18:19:35.807: Sensor LS389 (LS389 DS64 (49,A3)) is Low
+18:19:35.807: Turnout LT107 (Yazoo 2-1 xover lower) Switch input is Thrown (input on).
+18:19:35.807: Sensor LS517 (LS517 DS64 (65,A3)) is Low
+18:19:35.807: Sensor LS196 (LS196 DS64 (25,S2)) is Low
+18:19:35.807: Sensor LS262 (LS262 DS64 (33,S3)) is Low
+18:19:35.807: Sensor LS580 (LS580 DS64 (73,S2)) is Low
+18:19:35.808: Sensor LS326 (LS326 DS64 (40,S3)) is Low
+18:19:35.857: Sensor LS646 (LS646 DS64 (81,S3)) is Low
+18:19:35.858: Sensor LS390 (LS390 DS64 (49,S3)) is Low
+18:19:35.858: Turnout LT107 (Yazoo 2-1 xover lower) Switch input is Thrown (input on).
+18:19:35.858: Sensor LS518 (LS518 DS64 (65,S3)) is Low
+18:19:35.858: Sensor LS263 (LS263 DS64 (33,A4)) is Low
+18:19:35.866: Sensor LS197 (LS197 DS64 (25,A3)) is Low
+18:19:35.870: Sensor LS581 (LS581 DS64 (73,A3)) is Low
+18:19:35.872: Sensor LS647 (LS647 DS64 (81,A4)) is Low
+18:19:35.876: Sensor LS391 (LS391 DS64 (49,A4)) is Low
+18:19:35.883: Sensor LS519 (LS519 DS64 (65,A4)) is Low
+18:19:35.884: Turnout LT999 () Switch input is Thrown (input on).
+18:19:35.884: Sensor LS264 (LS264 DS64 (33,S4)) is Low
+18:19:35.885: Sensor LS327 (LS327 DS64 (40,A4)) is Low
+18:19:35.885: Sensor LS198 (LS198 DS64 (25,S3)) is Low
+18:19:35.885: Sensor LS582 (LS582 DS64 (73,S3)) is Low
+18:19:35.885: Sensor LS648 (LS648 DS64 (81,S4)) is Low
+18:19:35.885: Sensor LS392 (LS392 DS64 (49,S4)) is Low
+18:19:35.885: Sensor LS520 (LS520 DS64 (65,S4)) is Low
+18:19:35.885: Turnout LT999 () Switch input is Thrown (input on).
+18:19:35.885: Sensor LS328 (LS328 DS64 (40,S4)) is Low
+18:19:35.885: Sensor LS583 (LS583 DS64 (73,A4)) is Low
+18:19:35.885: Sensor LS199 (LS199 DS64 (25,A4)) is Low
+18:19:35.886: Sensor LS584 (LS584 DS64 (73,S4)) is Low
+18:19:35.886: Sensor LS200 (LS200 DS64 (25,S4)) is Low
+18:19:35.886: Sensor LS129 (LS129 BDL (9,DS01)) is Low
+18:19:35.886: Sensor LS130 (LS130 BDL (9,DS02)) is Low
+18:19:35.886: Sensor LS131 (LS131 BDL (9,DS03)) is Low
+18:19:35.886: Sensor LS132 (LS132 BDL (9,DS04)) is Low
+18:19:35.887: Sensor LS8 (Midway West Passenger Throat) is Low
+18:19:35.887: Sensor LS133 (Lake) is Low
+18:19:35.887: Sensor LS7 (Midway West station 2 stop block) is Low
+18:19:35.887: Sensor LS134 (LS134 BDL (9,DS06)) is Low
+18:19:35.887: Sensor LS135 (LS135 BDL (9,DS07)) is Low
+18:19:35.888: Sensor LS6 (Midway West LS6 LT58 track 1 stop block) is Low
+18:19:35.888: Sensor LS137 (Colton CP 3) is Low
+18:19:35.888: Sensor LS5 (Midway West Psg approach) is Low
+18:19:35.888: Sensor LS138 (Colton CP 2) is Low
+18:19:35.888: Sensor LS139 (Colton CP 1) is Low
+18:19:35.889: Sensor LS4 (Midway West Frt approach) is Low
+18:19:35.889: Sensor LS140 (LS129 BDL (9,DS12)) is Low
+18:19:35.889: Sensor LS3 (Midway West station 3 stop block) is Low
+18:19:35.889: Sensor LS141 (Fox) is Low
+18:19:35.889: Sensor LS2 (LS02 Warning DEFAULT BDL,DS64,WATCHMAN) is Low
+18:19:35.890: Sensor LS142 (Irvine W) is Low
+18:19:35.890: Sensor LS143 (Irvine E) is Low
+18:19:35.890: Sensor LS8 (Midway West Passenger Throat) is Low
+18:19:35.890: Sensor LS144 (Kelso) is Low
+18:19:35.890: Sensor LS136 (Colton CP 4) is High
+18:19:36.390: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 0/0/1; addresses...
+	9-16, 73-80, 137-144, 201-208, 265-272, 329-336, 393-400, 457-464,
+	521-528, 585-592, 649-656, 713-720, 777-784, 841-848, 905-912, 969-976,
+	1033-1040, 1097-1104, 1161-1168, 1225-1232, 1289-1296, 1353-1360, 1417-1424, 1481-1488,
+	1545-1552, 1609-1616, 1673-1680, 1737-1744, 1801-1808, 1865-1872, 1929-1936, 1993-2000.
+18:19:36.390: Sensor LS265 (LS265 DS64 (34,A1)) is Low
+18:19:36.391: Sensor LS393 (LS393 DS64 (50,A1)) is Low
+18:19:36.391: Sensor LS201 (LS201 DS64 (26,A1)) is Low
+18:19:36.391: Sensor LS329 (LS329 DS64 (42,A1)) is Low
+18:19:36.391: Sensor LS585 (LS585 DS64 (74,A1)) is Low
+18:19:36.391: Sensor LS649 (LS649 DS64 (82,A1)) is Low
+18:19:36.391: Sensor LS457 (LS457 DS64 (58,A1)) is Low
+18:19:36.391: Sensor LS521 (LS521 DS64 (66,A1)) is Low
+18:19:36.391: Sensor LS266 (LS266 DS64 (34,S1)) is Low
+18:19:36.391: Sensor LS394 (LS394 DS64 (50,S1)) is Low
+18:19:36.391: Sensor LS202 (LS202 DS64 (26,S1)) is Low
+18:19:36.391: Sensor LS330 (LS330 DS64 (42,S1)) is Low
+18:19:36.391: Sensor LS650 (LS650 DS64 (82,S1)) is Low
+18:19:36.391: Sensor LS586 (LS586 DS64 (74,S1)) is Low
+18:19:36.391: Sensor LS522 (LS522 DS64 (66,S1)) is Low
+18:19:36.391: Sensor LS267 (LS267 DS64 (34,A2)) is Low
+18:19:36.391: Sensor LS395 (LS395 DS64 (50,A2)) is Low
+18:19:36.392: Sensor LS203 (LS203 DS64 (26,A2)) is Low
+18:19:36.392: Sensor LS651 (LS651 DS64 (82,A2)) is Low
+18:19:36.392: Sensor LS331 (LS331 DS64 (42,A2)) is Low
+18:19:36.392: Sensor LS587 (LS587 DS64 (74,A2)) is Low
+18:19:36.392: Sensor LS268 (LS268 DS64 (34,S2)) is Low
+18:19:36.392: Sensor LS523 (LS523 DS64 (66,A2)) is Low
+18:19:36.392: Sensor LS458 (LS458 DS64 (58,S1)) is Low
+18:19:36.392: Sensor LS396 (LS396 DS64 (50,S2)) is Low
+18:19:36.392: Sensor LS204 (LS204 DS64 (26,S2)) is Low
+18:19:36.392: Sensor LS652 (LS652 DS64 (82,S2)) is Low
+18:19:36.392: Sensor LS588 (LS588 DS64 (74,S2)) is Low
+18:19:36.392: Sensor LS269 (LS269 DS64 (34,A3)) is Low
+18:19:36.392: Sensor LS524 (LS524 DS64 (66,S2)) is Low
+18:19:36.392: Sensor LS397 (LS397 DS64 (50,A3)) is Low
+18:19:36.392: Sensor LS459 (LS459 DS64 (58,A2)) is Low
+18:19:36.393: Sensor LS205 (LS205 DS64 (26,A3)) is Low
+18:19:36.393: Sensor LS653 (LS653 DS64 (82,A3)) is Low
+18:19:36.393: Sensor LS332 (LS332 DS64 (42,S2)) is Low
+18:19:36.393: Sensor LS589 (LS589 DS64 (74,A3)) is Low
+18:19:36.393: Sensor LS270 (LS270 DS64 (34,S3)) is Low
+18:19:36.393: Sensor LS525 (LS525 DS64 (66,A3)) is Low
+18:19:36.393: Sensor LS398 (LS398 DS64 (50,S3)) is Low
+18:19:36.393: Sensor LS460 (LS460 DS64 (58,S2)) is Low
+18:19:36.393: Sensor LS654 (LS654 DS64 (82,S3)) is Low
+18:19:36.393: Sensor LS206 (LS206 DS64 (26,S3)) is Low
+18:19:36.393: Sensor LS333 (LS333 DS64 (42,A3)) is Low
+18:19:36.393: Sensor LS271 (LS271 DS64 (34,A4)) is Low
+18:19:36.393: Sensor LS590 (LS590 DS64 (74,S3)) is Low
+18:19:36.393: Sensor LS526 (LS526 DS64 (66,S3)) is Low
+18:19:36.394: Sensor LS399 (LS399 DS64 (50,A4)) is Low
+18:19:36.394: Sensor LS461 (LS461 DS64 (58,A3)) is Low
+18:19:36.394: Sensor LS207 (LS207 DS64 (26,A4)) is Low
+18:19:36.394: Sensor LS655 (LS655 DS64 (82,A4)) is Low
+18:19:36.394: Sensor LS334 (LS334 DS64 (42,S3)) is Low
+18:19:36.394: Sensor LS272 (LS272 DS64 (34,S4)) is Low
+18:19:36.394: Sensor LS591 (LS591 DS64 (74,A4)) is Low
+18:19:36.394: Sensor LS400 (LS400 DS64 (50,S4)) is Low
+18:19:36.394: Sensor LS527 (LS527 DS64 (66,A4)) is Low
+18:19:36.394: Sensor LS462 (LS462 DS64 (58,S3)) is Low
+18:19:36.394: Sensor LS208 (LS208 DS64 (26,S4)) is Low
+18:19:36.394: Sensor LS656 (LS656 DS64 (82,S4)) is Low
+18:19:36.394: Sensor LS335 (LS335 DS64 (42,A4)) is Low
+18:19:36.394: Sensor LS592 (LS592 DS64 (74,S4)) is Low
+18:19:36.394: Sensor LS528 (LS528 DS64 (66,S4)) is Low
+18:19:36.394: Sensor LS463 (LS437 DS64 (58,A4)) is Low
+18:19:36.395: Sensor LS336 (LS336 DS64 (42,S4)) is Low
+18:19:36.395: Sensor LS464 (LS464 DS64 (58,S4)) is Low
+18:19:36.395: Sensor LS145 (Bend 4) is Low
+18:19:36.395: Sensor LS146 (Bend 3) is Low
+18:19:36.395: Sensor LS147 (Bend 2) is Low
+18:19:36.395: Sensor LS9 (LS09 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.395: Sensor LS149 (LS149 BDL (10,DS05)) is Low
+18:19:36.396: Sensor LS10 (LS10 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.396: Sensor LS150 (Echo 3) is Low
+18:19:36.519: Sensor LS11 (LS11 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.526: Sensor LS12 (LS12 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.526: Sensor LS151 (Echo 2) is Low
+18:19:36.533: Sensor LS13 (LS13 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.533: Sensor LS14 (LS14 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.533: Sensor LS15 (LS15 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.533: Sensor LS16 (LS16 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.533: Sensor LS141 (Fox) is Low
+18:19:36.560: Sensor LS141 (Fox) is Low
+18:19:36.560: Sensor LS9 (LS09 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.560: Sensor LS148 (Bend 1) is High
+18:19:36.561: Sensor LS10 (LS10 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.561: Sensor LS11 (LS11 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.561: Sensor LS152 (Echo 1) is High
+18:19:36.562: Sensor LS153 (LS153 DS64 (20,A1) & BDL (10,DS09)) is High
+18:19:36.562: Sensor LS154 (LS154 DS64 (20,S1) & BDL (10,DS10)) is High
+18:19:36.562: Sensor LS12 (LS12 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.562: Sensor LS155 (LS155 DS64 (20,A2) & BDL (10,DS11)) is High
+18:19:36.562: Sensor LS156 (LS156 DS64 (20,S2) & BDL (10,DS12)) is High
+18:19:36.562: Sensor LS30 (Midway Main 3 at Station) is High
+18:19:36.563: Sensor LS157 (LS157 DS64 (20,A3) & BDL (10,DS13)) is High
+18:19:36.563: Sensor LS13 (LS13 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.563: Sensor LS158 (LS158 DS64 (20,S3) & BDL (10,DS14)) is High
+18:19:36.563: Sensor LS14 (LS14 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.563: Sensor LS159 (LS159 DS64 (20,A4) & BDL (10,DS15)) is High
+18:19:36.563: Sensor LS15 (LS15 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.563: Sensor LS160 (LS160 DS64 (20,S4) & BDL (10,DS16)) is High
+18:19:36.564: Sensor LS16 (LS16 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.564: Sensor LS9 (LS09 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.564: Sensor LS10 (LS10 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.565: Sensor LS11 (LS11 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.565: Sensor LS12 (LS12 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.565: Sensor LS13 (LS13 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.677: Sensor LS14 (LS14 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.687: Sensor LS15 (LS15 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:36.697: Sensor LS16 (LS16 Warning DEFAULT BDL, WATCHMAN) is Low
+18:19:37.077: Sensor LS17 (LS17 BDL (2,DS01)) is Low
+18:19:37.077: Sensor LS18 (Midway East Frt approach) is Low
+18:19:37.112: Sensor LS19 (LS19 BDL (2,DS03)) is Low
+18:19:37.133: Sensor LS20 (LS20 BDL (2,DS04)) is Low
+18:19:37.133: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 0/1/0; addresses...
+	17-24, 81-88, 145-152, 209-216, 273-280, 337-344, 401-408, 465-472,
+	529-536, 593-600, 657-664, 721-728, 785-792, 849-856, 913-920, 977-984,
+	1041-1048, 1105-1112, 1169-1176, 1233-1240, 1297-1304, 1361-1368, 1425-1432, 1489-1496,
+	1553-1560, 1617-1624, 1681-1688, 1745-1752, 1809-1816, 1873-1880, 1937-1944, 2001-2008.
+18:19:37.134: Sensor LS529 (LS529 DS64 (67,A1)) is Low
+18:19:37.134: Sensor LS401 (LS401 DS64 (51,A1)) is Low
+18:19:37.134: Sensor LS273 (LS273 DS64 (35,A1)) is Low
+18:19:37.134: Sensor LS337 (LS337 DS64 (43,A1)) is Low
+18:19:37.134: Sensor LS209 (LS209 DS64 (27,A1)) is Low
+18:19:37.134: Sensor LS593 (LS593 DS64 (75,A1)) is Low
+18:19:37.134: Sensor LS530 (LS530 DS64 (67,S1)) is Low
+18:19:37.134: Sensor LS402 (LS402 DS64 (51,S1)) is Low
+18:19:37.134: Sensor LS274 (LS274 DS64 (35,S1)) is Low
+18:19:37.135: Sensor LS210 (LS210 DS64 (27,S1)) is Low
+18:19:37.135: Sensor LS594 (LS594 DS64 (75,S1)) is Low
+18:19:37.135: Sensor LS338 (LS338 DS64 (43,S1)) is Low
+18:19:37.135: Sensor LS403 (LS403 DS64 (51,A2)) is Low
+18:19:37.135: Sensor LS275 (LS275 DS64 (35,A2)) is Low
+18:19:37.135: Sensor LS211 (LS211 DS64 (27,A2)) is Low
+18:19:37.135: Sensor LS339 (LS339 DS64 (43,A2)) is Low
+18:19:37.135: Sensor LS595 (LS595 DS64 (75,A2)) is Low
+18:19:37.135: Sensor LS404 (LS404 DS64 (51,S2)) is Low
+18:19:37.136: Sensor LS531 (LS531 DS64 (67,A2)) is Low
+18:19:37.136: Sensor LS212 (LS212 DS64 (27,S2)) is Low
+18:19:37.136: Sensor LS276 (LS276 DS64 (35,S2)) is Low
+18:19:37.136: Sensor LS340 (LS339 DS64 (43,S2)) is Low
+18:19:37.136: Sensor LS596 (LS596 DS64 (75,S2)) is Low
+18:19:37.188: Sensor LS405 (LS405 DS64 (51,A3)) is Low
+18:19:37.192: Sensor LS532 (LS532 DS64 (67,S2)) is Low
+18:19:37.192: Sensor LS277 (LS277 DS64 (35,A3)) is Low
+18:19:37.192: Sensor LS341 (LS341 DS64 (43,A3)) is Low
+18:19:37.192: Sensor LS597 (LS597 DS64 (75,A3)) is Low
+18:19:37.192: Sensor LS213 (LS213 DS64 (27,A3)) is Low
+18:19:37.192: Sensor LS533 (LS533 DS64 (67,A3)) is Low
+18:19:37.193: Sensor LS406 (LS406 DS64 (51,S3)) is Low
+18:19:37.195: Sensor LS278 (LS278 DS64 (35,S3)) is Low
+18:19:37.205: Sensor LS342 (LS342 DS64 (43,S3)) is Low
+18:19:37.205: Sensor LS598 (LS598 DS64 (75,S3)) is Low
+18:19:37.205: Sensor LS534 (LS534 DS64 (67,S3)) is Low
+18:19:37.205: Sensor LS407 (LS407 DS64 (51,A4)) is Low
+18:19:37.205: Sensor LS214 (LS214 DS64 (27,S3)) is Low
+18:19:37.205: Sensor LS279 (LS279 DS64 (35,A4)) is Low
+18:19:37.205: Sensor LS343 (LS343 DS64 (43,A4)) is Low
+18:19:37.205: Sensor LS599 (LS599 DS64 (75,A4)) is Low
+18:19:37.205: Sensor LS535 (LS535 DS64 (67,A4)) is Low
+18:19:37.205: Sensor LS408 (LS408 DS64 (51,S4)) is Low
+18:19:37.205: Sensor LS280 (LS280 DS64 (35,S4)) is Low
+18:19:37.205: Sensor LS215 (LS215 DS64 (27,A4)) is Low
+18:19:37.206: Sensor LS344 (LS344 DS64 (43,S4)) is Low
+18:19:37.206: Sensor LS216 (LS216 DS64 (27,S4)) is Low
+18:19:37.206: Sensor LS600 (LS600 DS64 (75,S4)) is Low
+18:19:37.206: Sensor LS536 (LS536 DS64 (67,S4)) is Low
+18:19:37.206: Sensor LS21 (LS21 BDL (2,DS05)) is Low
+18:19:37.206: Sensor LS22 (Midway LS22 LT53 passenger 1 2 3 east ladder plus 153) is Low
+18:19:37.206: Sensor LS23 (Midway LS23 below LT52) is Low
+18:19:37.207: Sensor LS24 (Midway LS24 power spur plus turnout) is Low
+18:19:37.207: Sensor LS25 (Midway LS25 track 3 east stopping block) is Low
+18:19:37.257: Sensor LS26 (Midway LS26 East passenger approach stopping block) is Low
+18:19:37.257: Sensor LS27 (Midway LS27 track 1 east stopping block) is Low
+18:19:37.257: Sensor LS28 (Midway LS28 track 2 east stopping block) is Low
+18:19:37.258: Sensor LS29 (Midway East Psg approach) is Low
+18:19:37.287: Sensor LS31 (Midway Main 2 at Station) is Low
+18:19:37.295: Sensor LS32 (Midway Main 1 at Station) is Low
+18:19:37.346: Sensor LS43 (LS43 BDL (3,DS11)) is High
+18:19:38.688: Sensor LS33 (Upton-Vista West) is Low
+18:19:38.689: Sensor LS34 (LS34 BDL (3,DS02)) is Low
+18:19:38.689: Sensor LS35 (LS35 BDL (3,DS03)) is Low
+18:19:38.689: Interrogate LocoNet Turnouts/Sensors with bits a/c/b of 0/1/1; addresses...
+	25-32, 89-96, 153-160, 217-224, 281-288, 345-352, 409-416, 473-480,
+	537-544, 601-608, 665-672, 729-736, 793-800, 857-864, 921-928, 985-992,
+	1049-1056, 1113-1120, 1177-1184, 1241-1248, 1305-1312, 1369-1376, 1433-1440, 1497-1504,
+	1561-1568, 1625-1632, 1689-1696, 1753-1760, 1817-1824, 1881-1888, 1945-1952, 2009-2016.
+18:19:38.689: Sensor LS153 (LS153 DS64 (20,A1) & BDL (10,DS09)) is Low
+18:19:38.689: Sensor LS281 (LS281 DS64 (36,A1)) is Low
+18:19:38.689: Sensor LS601 (LS601 DS64 (76,A1)) is Low
+18:19:38.689: Sensor LS473 (LS473 DS64 (60,A1)) is Low
+18:19:38.690: Sensor LS154 (LS154 DS64 (20,S1) & BDL (10,DS10)) is Low
+18:19:38.690: Sensor LS282 (LS282 DS64 (36,S1)) is Low
+18:19:38.690: Sensor LS537 (LS537 DS64 (68,A1)) is Low
+18:19:38.690: Sensor LS217 (LS217 DS64 (28,A1)) is Low
+18:19:38.690: Sensor LS602 (LS602 DS64 (76,S1)) is Low
+18:19:38.690: Sensor LS155 (LS155 DS64 (20,A2) & BDL (10,DS11)) is Low
+18:19:38.690: Sensor LS283 (LS283 DS64 (36,A2)) is Low
+18:19:38.690: Sensor LS218 (LS218 DS64 (28,S1)) is Low
+18:19:38.690: Sensor LS538 (LS538 DS64 (68,S1)) is Low
+18:19:38.690: Sensor LS603 (LS603 DS64 (76,A2)) is Low
+18:19:38.690: Sensor LS474 (Doering panel LS474 DS64 (60,S1)) is Low
+18:19:38.690: Sensor LS156 (LS156 DS64 (20,S2) & BDL (10,DS12)) is Low
+18:19:38.690: Sensor LS539 (LS539 DS64 (68,A2)) is Low
+18:19:38.690: Sensor LS475 (LS475 DS64 (60,A2)) is Low
+18:19:38.690: Sensor LS476 (Doering panel LS476 DS64 (60,S2)) is Low
+18:19:38.691: Sensor LS157 (LS157 DS64 (20,A3) & BDL (10,DS13)) is Low
+18:19:38.745: Sensor LS219 (LS219 DS64 (28,A2)) is Low
+18:19:38.745: Sensor LS540 (LS540 DS64 (68,S2)) is Low
+18:19:38.745: Sensor LS284 (LS284 DS64 (36,S2)) is Low
+18:19:38.750: Sensor LS604 (LS604 DS64 (76,S2)) is Low
+18:19:38.754: Sensor LS477 (LS477 DS64 (60,A3)) is Low
+18:19:38.759: Sensor LS158 (LS158 DS64 (20,S3) & BDL (10,DS14)) is Low
+18:19:38.761: Sensor LS220 (LS220 DS64 (28,S2)) is Low
+18:19:38.762: Sensor LS605 (LS605 DS64 (76,A3)) is Low
+18:19:38.762: Sensor LS285 (LS285 DS64 (36,A3)) is Low
+18:19:38.762: Sensor LS541 (LS541 DS64 (68,A3)) is Low
+18:19:38.762: Sensor LS159 (LS159 DS64 (20,A4) & BDL (10,DS15)) is Low
+18:19:38.762: Sensor LS221 (LS221 DS64 (28,A3)) is Low
+18:19:38.762: Sensor LS606 (LS606 DS64 (76S3)) is Low
+18:19:38.763: Sensor LS478 (Doering panel LS478 DS64 (60,S3)) is Low
+18:19:38.765: Sensor LS286 (LS286 DS64 (36,S3)) is Low
+18:19:38.776: Sensor LS542 (LS542 DS64 (68,S3)) is Low
+18:19:38.776: Sensor LS607 (LS607 DS64 (76,A4)) is Low
+18:19:38.776: Sensor LS222 (LS222 DS64 (28,S3)) is Low
+18:19:38.776: Sensor LS160 (LS160 DS64 (20,S4) & BDL (10,DS16)) is Low
+18:19:38.776: Sensor LS287 (LS287 DS64 (36,A4)) is Low
+18:19:38.776: Sensor LS479 (LS479 DS64 (60,A4)) is Low
+18:19:38.777: Sensor LS223 (LS223 DS64 (28,A4)) is Low
+18:19:38.777: Sensor LS543 (LS543 DS64 (68,A4)) is Low
+18:19:38.777: Sensor LS288 (LS288 DS64 (36,S4)) is Low
+18:19:38.777: Sensor LS480 (Doering panel LS480 DS64 (60,S4)) is Low
+18:19:38.777: Sensor LS544 (LS544 DS64 (68,S4)) is Low
+18:19:38.777: Sensor LS608 (LS608 DS64 (76,S4)) is Low
+18:19:38.777: Sensor LS224 (LS224 DS64 (28,S4)) is Low
+18:19:38.777: Sensor LS36 (LS35 BDL (3,DS04)) is Low
+18:19:38.777: Sensor LS37 (Sierra-Troy) is Low
+18:19:38.777: Sensor LS38 (LS37 BDL (3,DS06)) is Low
+18:19:38.777: Sensor LS921 is Low
+18:19:38.777: Sensor LS39 (LS39 BDL (3,DS07)) is Low
+18:19:38.778: Sensor LS922 is Low
+18:19:38.778: Sensor LS40 (LS40 BDL (3,DS08)) is Low
+18:19:38.778: Sensor LS923 is Low
+18:19:38.778: Sensor LS41 (Sierra main) is Low
+18:19:38.819: Sensor LS925 is Low
+18:19:38.822: Sensor LS926 is Low
+18:19:38.830: Sensor LS42 (LS42 BDL (3,DS10)) is Low
+18:19:38.834: Sensor LS927 is Low
+18:19:38.840: Sensor LS44 (LS44 BDL (3,DS12)) is Low
+18:19:38.846: Sensor LS928 is Low
+18:19:38.851: Sensor LS45 (Sierra siding east) is Low
+18:19:38.865: Sensor LS46 (Sierra siding west) is Low
+18:19:38.865: Sensor LS47 (LS47 BDL (3,DS16)) is Low
+18:19:38.865: Sensor LS48 (Vista-Whiskey) is Low
+18:19:39.525: Sensor LS49 (Whiskey-Xerox) is Low
+18:19:39.534: Sensor LS50 (Troy-Upton) is Low
+18:19:39.535: Sensor LS51 (Xerox Main 1) is Low
+18:19:39.535: Sensor LS52 (Xerox Main 2) is Low
+18:19:39.535: Sensor LS53 (Upton-Vista East) is Low
+18:19:39.536: Sensor LS54 (Redcliff-Sierra) is Low
+18:19:39.560: Sensor LS55 (LS55 BDL (4,DS07)) is Low
+18:19:39.560: Sensor LS56 (LS56 BDL (4,DS08)) is Low
+18:19:39.560: Sensor LS57 (LS57 BDL (4,DS09)) is Low
+18:19:39.560: Sensor LS58 (LS58 BDL (4,DS10)) is Low
+18:19:39.561: Sensor LS59 (LS59 BDL (4,DS11)) is Low
+18:19:39.561: Sensor LS60 (LS60 BDL (4,DS12)) is Low
+18:19:39.561: Sensor LS61 (LS61 BDL (4,DS013)) is Low
+18:19:39.614: Sensor LS62 (LS62 BDL (4,DS14)) is Low
+18:19:39.628: Sensor LS63 (LS63 BDL (4,DS15)) is Low
+18:19:39.630: Sensor LS64 (LS64 BDL (4,DS16)) is Low
+18:19:39.719: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+18:19:39.723: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:19:39.726: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:39.726: Requesting Switch at LT59 (Midway W Eng Svc) to Closed (Output On).
+18:19:40.163: Requesting Switch at LT159 (Midway W approach to ES Engine Service) to Closed (Output On).
+18:19:40.163: Requesting Switch at LT159 (Midway W approach to ES Engine Service) to Closed (Output On).
+18:19:40.163: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:19:40.210: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:19:40.230: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:19:40.243: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:19:42.073: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:42.099: Sensor LS142 (Irvine W) is Low
+18:19:42.322: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:42.369: Sensor LS142 (Irvine W) is Low
+18:19:42.629: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:42.689: Sensor LS120 (Jackson main) is Low
+18:19:42.746: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:42.794: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:42.899: Sensor LS119 (Jackson siding) is Low
+18:19:43.135: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:43.191: Sensor LS122 (Hudson main) is Low
+18:19:43.405: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:19:43.454: Sensor LS122 (Hudson main) is Low
+18:19:48.232: Sensor LS121 (Hudson siding) is Low
+18:19:48.232: Requesting Switch at LT37 (Jackson E siding) to Closed (Output On).
+18:19:48.532: Request data/status for slot 249.
+18:19:48.534: Report of status slot 249:
+	Device: Type DCS240, Serial Number 1436(0x059C).
+	Track Volts 15.2, Input Volts 15.6, Amps In 0.2, Amps Limit 8.
+	Railsync Volts Loaded: 11.2 UnLoaded 12.8.
+	(See Digitrax KB1049 for details.)
+18:19:48.568: Report of status slot 249:
+	Device: Type DB210, Serial Number 407(0x0197).
+	Track Volts 15.2, Input Volts 15.6, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.568: Report of status slot 249:
+	Device: Type DB210, Serial Number 474(0x01DA).
+	Track Volts 15.2, Input Volts 15.6, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.603: Report of status slot 249:
+	Device: Type DB210, Serial Number 37(0x0025).
+	Track Volts 15.6, Input Volts 18.6, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.633: Report of status slot 249:
+	Device: Type DB210, Serial Number 211(0x00D3).
+	Track Volts 15.2, Input Volts 15.4, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.633: Report of status slot 249:
+	Device: Type DB210, Serial Number 397(0x018D).
+	Track Volts 15.4, Input Volts 16.4, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.634: Report of status slot 249:
+	Device: Type DB210, Serial Number 387(0x0183).
+	Track Volts 15.2, Input Volts 15.6, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:48.664: Report of status slot 249:
+	Device: Type DB210, Serial Number 489(0x01E9).
+	Track Volts 15.2, Input Volts 15.4, Amps In 0.1, Amps Limit 8.
+	Railsync Volts Loaded: 0 UnLoaded 0.
+	(See Digitrax KB1049 for details.)
+18:19:49.025: Request data/status for slot 0.
+18:19:49.039: Report of slot 0 information:
+	Loco 0 (short) is Not Consisted, Idle, operating in 28 SS mode, and is moving Reverse at speed 0,
+	F0=Off, F1=Off, F2=Off, F3=Off, F4=Off, F5=Off, F6=Off, F7=Off, F8=Off
+	Master supports LocoNet 1.1; Track Status: On/Running; Programming Track Status: Available; STAT2=0x00, ThrottleID=0x00 0x00 (0).
+18:19:49.082: Request data/status for slot 248 in Expanded slot format.
+18:19:49.083: Report of status slot 248:
+	Device: Type DCS240(CS), Serial Number 1436(0x059C). HwVersion 0.1, SwVersion 0.3.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.114: Report of status slot 248:
+	Device: Type DB210, Serial Number 211(0x00D3). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.114: Report of status slot 248:
+	Device: Type DB210, Serial Number 37(0x0025). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.143: Report of status slot 248:
+	Device: Type DB210, Serial Number 474(0x01DA). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.144: Request data/status for slot 250 in Expanded slot format.
+18:19:49.146: Report of status slot 250:
+	Device: Type DCS240, Serial Number 1436(0x059C).
+	Slots InUse 88, Idle 204, Free 112,
+	Consist Top locos 4, Consist consisted upwards 58.
+	(See Digitrax KB1049 for details.)
+18:19:49.177: Report of status slot 248:
+	Device: Type DB210, Serial Number 387(0x0183). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.178: Report of status slot 250:
+	Device: Type DB210, Serial Number 474(0x01DA).
+	Slots InUse 0, Idle 0, Free 0,
+	Consist Top locos 0, Consist consisted upwards 0.
+	(See Digitrax KB1049 for details.)
+18:19:49.240: Report of status slot 248:
+	Device: Type DB210, Serial Number 407(0x0197). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:49.269: Report of status slot 248:
+	Device: Type DB210, Serial Number 397(0x018D). HwVersion 0.1, SwVersion 0.2.
+	Rsync Max Rsync Max Off USB Connected USB Link Off,
+	Itrk Max Off, Vin Lo Off, Vin Hi Off, Fuse Bad Off, Overtemp Off,
+	LnetVmin Off, PtrkIsol Off, PTrkMaxI Off, TrkI Lim Off.
+	(See Digitrax KB1049 for details.)
+18:19:51.402: Sensor LS141 (Fox) is Low
+18:19:51.518: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:51.608: Sensor LS141 (Fox) is Low
+18:19:51.717: Sensor LS141 (Fox) is Low
+18:19:51.773: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:51.828: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:52.025: Sensor LS141 (Fox) is Low
+18:19:52.119: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:52.150: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:52.401: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:52.464: Sensor LS152 (Echo 1) is High
+18:19:52.529: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:52.595: Requesting Switch at LT27 (Echo 1) to Closed (Output On).
+18:19:52.731: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:52.796: Sensor LS151 (Echo 2) is Low
+18:19:52.830: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:52.894: Requesting Switch at LT26 (Echo 2) to Closed (Output On).
+18:19:53.024: Sensor LS150 (Echo 3) is Low
+18:19:53.324: Sensor LS4 (Midway West Frt approach) is Low
+18:19:53.525: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:53.585: Sensor LS4 (Midway West Frt approach) is Low
+18:19:53.638: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:53.768: Sensor LS5 (Midway West Psg approach) is Low
+18:19:54.006: Sensor LS65 (Narrows Lower) is Low
+18:19:54.084: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:54.213: Requesting Switch at LT1203 (E UN Sem is at Stop) to Closed (Output On).
+18:19:54.299: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Thrown (Output On).
+18:19:54.380: Sensor LS65 (Narrows Lower) is Low
+18:19:54.437: Requesting Switch at LT60 (Narrows) to Closed (Output On).
+18:19:54.564: Requesting Switch at LT1203 (E UN Sem is at Stop) to Closed (Output On).
+18:19:55.111: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:55.142: Sensor LS122 (Hudson main) is Low
+18:19:55.201: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:55.303: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:55.396: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:55.453: Sensor LS121 (Hudson siding) is Low
+18:19:55.627: Sensor LS143 (Irvine E) is Low
+18:19:55.736: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:55.958: Sensor LS143 (Irvine E) is Low
+18:19:56.026: Requesting Switch at LT36 (Hudson W siding) to Closed (Output On).
+18:19:56.272: Sensor LS5 (Midway West Psg approach) is Low
+18:19:56.374: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:56.589: Sensor LS5 (Midway West Psg approach) is Low
+18:19:56.660: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:56.709: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:56.950: Sensor LS5 (Midway West Psg approach) is Low
+18:19:56.986: Requesting Switch at LT57 (Midway W P1) to Closed (Output On).
+18:19:57.025: Requesting Switch at LT56 (Midway W P2) to Closed (Output On).
+18:19:57.240: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:57.275: Sensor LS144 (Kelso) is Low
+18:19:57.345: Sensor LS133 (Lake) is Low
+18:19:57.594: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:57.668: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:57.758: Sensor LS144 (Kelso) is Low
+18:19:57.794: Sensor LS133 (Lake) is Low
+18:19:58.048: Requesting Switch at LT39 (Jackson W siding) to Closed (Output On).
+18:19:58.048: Sensor LS143 (Irvine E) is Low
+18:19:58.084: Requesting Switch at LT38 (Kelso Industrial) to Thrown (Output On).
+18:19:58.172: Sensor LS144 (Kelso) is Low
+18:19:58.212: Sensor LS133 (Lake) is Low
+18:19:58.232: Sensor LS142 (Irvine W) is Low
+18:19:58.415: Sensor LS141 (Fox) is Low
+18:19:58.477: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:58.749: Sensor LS141 (Fox) is Low
+18:19:58.794: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:19:59.049: Sensor LS133 (Lake) is Low
+18:19:59.118: Sensor LS144 (Kelso) is Low
+18:19:59.197: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:59.255: Requesting Switch at LT40 (Kelso Woodworking) to Closed (Output On).
+18:19:59.504: Sensor LS133 (Lake) is Low
+18:19:59.588: Sensor LS144 (Kelso) is Low
+18:19:59.638: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:19:59.690: Requesting Switch at LT40 (Kelso Woodworking) to Closed (Output On).
+18:20:00.017: Sensor LS124 (Gary main) is Low
+18:20:00.045: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:20:00.074: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:20:00.106: Sensor LS29 (Midway East Psg approach) is Low
+18:20:00.165: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:20:00.217: Requesting Switch at LT50 (Lake) to Closed (Output On).
+18:20:00.270: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:20:00.366: Sensor LS124 (Gary main) is Low
+18:20:00.367: Sensor LS18 (Midway East Frt approach) is Low
+18:20:00.393: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:20:00.678: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:20:00.733: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:20:00.761: Sensor LS124 (Gary main) is Low
+18:20:00.789: Sensor LS117 (Gary Hudson overlap main) is Low
+18:20:00.818: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:20:00.875: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:20:00.876: Requesting Switch at LT30 (Gary E siding) to Closed (Output On).
+18:20:00.931: Requesting Switch at LT33 (Gary W siding) to Closed (Output On).
+18:20:01.018: Sensor LS123 (Gary siding) is Low
+18:20:01.046: Requesting Switch at LT31 (Gary Tyson Steel) to Thrown (Output On).
+18:20:01.137: Sensor LS123 (Gary siding) is Low
+18:20:01.364: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:20:01.452: Sensor LS32 (Midway Main 1 at Station) is Low
+18:20:01.510: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:20:01.574: Requesting Switch at LT54 (Midway E P1) to Closed (Output On).
+18:20:01.699: Requesting Switch at LT55 (Midway E P2) to Thrown (Output On).
+18:20:01.761: Sensor LS31 (Midway Main 2 at Station) is Low
+18:20:01.808: Requesting Switch at LT55 (Midway E P2) to Thrown (Output On).
+18:20:01.872: Requesting Switch at LT55 (Midway E P2) to Closed (Output On).
+18:20:01.996: Sensor LS30 (Midway Main 3 at Station) is High
+18:20:02.310: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:20:02.344: Sensor LS117 (Gary Hudson overlap main) is Low
+18:20:02.409: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:20:02.476: Requesting Switch at LT32 (Hudson E siding) to Closed (Output On).
+18:20:02.616: Sensor LS121 (Hudson siding) is Low
+18:20:06.316: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:20:12.278: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+18:20:16.323: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:20:16.343: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Thrown (Output On).
+18:20:16.363: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:20:16.385: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Thrown (Output On).
+18:20:16.987: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:20:16.988: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:20:17.010: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:20:17.036: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:20:17.062: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:20:17.088: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:20:18.338: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Thrown (Output On).
+18:20:19.032: Requesting Switch at LT105 (Yazoo middle wye) to Thrown (Output On).
+18:20:19.063: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Closed (Output On).
+18:20:19.067: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Closed (Output On).
+18:20:19.123: Requesting Switch at LT105 (Yazoo middle wye) to Closed (Output On).
+18:20:19.182: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:20:19.182: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:20:19.183: Requesting Switch at LT104 (Yazoo X2-Y1,2) to Closed (Output On).
+18:20:19.214: Requesting Switch at LT107 (Yazoo 2-1 xover lower) to Closed (Output On).
+18:20:19.214: Requesting Switch at LT103 (Yazoo X1-Y2,3) to Closed (Output On).
+18:20:19.214: Requesting Switch at LT106 (Yazoo 2-3 xover upper) to Closed (Output On).
+18:20:19.244: Requesting Switch at LT100 (Xerox E) to Closed (Output On).
+18:20:19.244: Requesting Switch at LT711 (Shortline to Station or Port throat turnout) to Closed (Output On).
+18:20:24.309: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:20:30.364: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:20:30.426: Turnout LT6 (Bend to Intermodal) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.483: Turnout LT8 (Bend West 2 to 1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.508: Turnout LT9 (Midway W P3) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.565: Turnout LT10 (Colton Ind E) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.619: Turnout LT11 (Colton Power plant) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.675: Turnout LT12 (Colton E 1 to 2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.730: Turnout LT14 (Colton E 2 to 3) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.765: Turnout LT15 (Colton W 3 to 2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.823: Turnout LT16 (Colton W 2 to 1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.880: Turnout LT17 (Colton W 3 to 4) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.907: Turnout LT18 (Colton Grain silo) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:30.965: Turnout LT19 (Colton Oil Cans unload) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.022: Turnout LT20 (Colton Ind W) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.080: Turnout LT21 (Delta 2 to 1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.109: Turnout LT23 (Delta 4 to 3) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.171: Turnout LT24 (Delta 1 to 2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.230: Turnout LT25 (Echo Street) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.258: Turnout LT26 (Echo 2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.325: Turnout LT27 (Echo 1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.384: Turnout LT28 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.416: Turnout LT30 (Gary E siding) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.478: Turnout LT31 (Gary Tyson Steel) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.562: Turnout LT34 (Hudson Oil Cans load 2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.562: Turnout LT35 (Hudson Oil Cans load 1) output state: Closed output is Off (open), Thrown output is On (sink).
+18:20:31.622: Turnout LT36 (Hudson W siding) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.682: Turnout LT37 (Jackson E siding) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.712: Turnout LT40 (Kelso Woodworking) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.779: Turnout LT41 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.838: Turnout LT42 () output state: Closed output is Off (open), Thrown output is On (sink).
+18:20:31.868: Turnout LT43 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.929: Turnout LT44 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:31.989: Turnout LT54 (Midway E P1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.022: Turnout LT55 (Midway E P2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.110: Turnout LT56 (Midway W P2) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.110: Turnout LT57 (Midway W P1) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.183: Turnout LT58 (Midway W Yard) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.219: Turnout LT59 (Midway W Eng Svc) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.285: Turnout LT60 (Narrows) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.315: Turnout LT61 (Osage pocket E) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.379: Turnout LT63 (Osage W) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.412: Turnout LT64 (McSweeney branch) output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.482: Turnout LT107 (Yazoo 2-1 xover lower) output state: Closed output is Off (open), Thrown output is On (sink).
+18:20:32.541: Turnout LT108 () output state: Closed output is Off (open), Thrown output is On (sink).
+18:20:32.574: Turnout LT109 () output state: Closed output is Off (open), Thrown output is On (sink).
+18:20:32.640: Turnout LT110 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.672: Turnout LT111 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.738: Turnout LT163 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.776: Turnout LT1205 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.844: Turnout LT1206 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.875: Turnout LT1207 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.945: Turnout LT2025 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:32.977: Turnout LT2026 () output state: Closed output is On (sink), Thrown output is Off (open).
+18:20:36.334: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+18:20:42.393: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Thrown (Output On).
+18:20:48.342: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:20:54.425: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:21:00.366: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).
+18:21:06.414: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Thrown (Output On).
+18:21:12.380: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Closed (Output On).
+18:21:18.444: Requesting Switch at LT2022 (Ping Pong gateway LCC -> DCC) to Closed (Output On).
+18:21:21.220: Request Command Station OpSwitches (or DCS210/DCS210+/DCS240/DCS240+/DCS52 check for multiple command stations on LocoNet).
+18:21:24.415: Requesting Switch at LT2021 (Ping Pong gateway DCC -> LCC) to Thrown (Output On).

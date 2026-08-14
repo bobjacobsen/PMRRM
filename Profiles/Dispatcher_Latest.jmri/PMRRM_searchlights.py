@@ -15,17 +15,28 @@
 
 import jmri
 import time
-from org.slf4j import LoggerFactory
+import org.slf4j.LoggerFactory
+
+global nextsearchlightstart
+nextsearchlightstart = 20000
 
 class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
     def current_milli_time(self):
+        import time
         return int(time.time() * 1000)
         
     def init(self) :
         
+        # stagger starts
+        global nextsearchlightstart
+        nextsearchlightstart = nextsearchlightstart + 100
+        self.waitMsec(nextsearchlightstart)
+        memories.provideMemory("IMProgramStatus").setValue("Initializing Searchlights")
+
         self.minAcceptableTime = 200
 
-        self.log = LoggerFactory.getLogger("PMRRM_searchlights");
+        import org.slf4j.LoggerFactory
+        self.log = org.slf4j.LoggerFactory.getLogger("script.PMRRM_searchlights");
 
         # print checks
         if self.local == None : self.log.error("searchlight {} has null head", self.name)

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.loconet.locobufferusb.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="cu.usbserial-FTAH77Y" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.loconet.locobufferusb.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="COM5" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
             <options>
                 <option>
                     <name>CommandStation</name>
@@ -38,9 +46,13 @@
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:PMRRM_searchlights.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MenuItemDisable.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HighlightUnknownBlockSensors.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="scripts:ClearFileHistory.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:MaintainFileHistory.py" type="ScriptFile"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:QueryLnSensorState.py" type="ScriptFile"/>
-        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ThrowTurnoutsWhenBlockAllocated.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="no" name="preference:ThrowTurnoutsWhenBlockAllocated.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:LnSignalsToLCC.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:HideHiResPanel.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:SignalMastIconsLit.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
         <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" enabled="yes" name="Hide Blue Text" type="Action"/>
         <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
             <property name="systemPrefix" value=""/>

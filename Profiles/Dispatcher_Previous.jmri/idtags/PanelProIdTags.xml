@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/idtags.xsl" type="text/xsl"?>
+<idtagtable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/idtags.xsd">
+  <configuration>
+    <storeState>no</storeState>
+    <useFastClock>no</useFastClock>
+  </configuration>
+  <idtags />
+</idtagtable>

@@ -64,7 +64,7 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
   
   - Move the `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri` directory aside, e.g. to the Desktop.  This can be deleted at the end of the process as that directory will be superceded in the next step.
   
-  - Rename the `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri` directory to `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri`
+  - Rename the `~electricalcrew/PMRRM/Profile/Dispatcher_Latest.jmri` directory to `~electricalcrew/PMRRM/Profile/Dispatcher_Previous.jmri`
   
   - Make a *copy* of the `~electricalcrew/PMRRM/Profile/Dispatcher_Work_in_Progress.jmri` directory and name it `~electricalcrew/PMRRM/Profile/Dispatcher_Latest.jmri`
   
@@ -79,11 +79,11 @@ Finally, sign into the `dispatch` account and check each of the three profiles f
   
   - Check the number of changes again and make sure those two files are _not_ marked as changed.
   
-  - Using either the command line or GitHub Desktop, commit all those changes. Push them up to the GitHub repository.
-  
-  - Finally, start JMRI and check each of the three profiles for
+  - Start JMRI and check each of the three profiles for
     - basic launching
     - proper steps in startup and layout communications
 
+  - Using either the command line or GitHub Desktop, commit all those changes. Push them up to the GitHub repository.
+  
   - If appropriate, do the "Process for updating the profiles being used at the PMRRM for normal running" process above.
   

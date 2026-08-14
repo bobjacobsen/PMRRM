@@ -29,5 +29,23 @@
                 </option>
             </options>
         </connection>
+        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
+                </option>
+            </options>
+            <node name="Ident">
+                <parameter name="UserName">PMRRM Dispatcher</parameter>
+                <parameter name="NodeId"/>
+                <parameter name="UserDescription"/>
+            </node>
+            <node name="FastClock">
+                <parameter name="EnableMode">disabled</parameter>
+                <parameter name="ClockCustomId"/>
+                <parameter name="ClockId">default</parameter>
+            </node>
+        </connection>
     </connections>
 </auxiliary-configuration>

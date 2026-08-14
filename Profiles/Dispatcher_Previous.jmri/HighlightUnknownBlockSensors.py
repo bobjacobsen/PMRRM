@@ -32,6 +32,7 @@ class ResetBlockColorListener(java.beans.PropertyChangeListener):
         return
     else :
         self.sensor.removePropertyChangeListener(self)
+        self.block.setBlockExtraColor(self.savedColor)
         self.block.setUseExtraColor(False)
     return
 
@@ -49,13 +50,14 @@ class HighlightUnknownBlockSensors(jmri.util.ThreadingUtil.ThreadAction) :
         foundSome = False
         
         for sensor in sensors.getNamedBeanSet():
-            if sensor.getKnownState() == UNKNOWN :
-                block = blockManager.getBlockWithSensorAssigned(sensor)
-                if block != None :
+            block = blockManager.getBlockWithSensorAssigned(sensor)
+            if block != None :
+                block.setBlockExtraColor(java.awt.Color.green) # reset in case saved  with some other color active
+                if sensor.getKnownState() == UNKNOWN :
                     # have to deal with this one
                     foundSome = True
                     self.log.warn("Found sensor in UNKNOWN state: {} for layout block: {}", sensor, block)
-                    listener = ResetBlockColorListener()
+                    listener = ResetBlockColorListener()    # saves current color
                     listener.set(sensor, block)
                     block.setBlockExtraColor(java.awt.Color(190, 190, 255)) # light blue
                     block.setUseExtraColor(True)

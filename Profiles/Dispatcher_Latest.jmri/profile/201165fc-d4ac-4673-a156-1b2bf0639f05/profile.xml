@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+        <connection xmlns="" class="jmri.jmrix.loconet.locobufferng.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="COM5" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+            <options>
+                <option>
+                    <name>CommandStation</name>
+                    <value>DCS240 (Advanced Command Station)</value>
+                </option>
+                <option>
+                    <name>InterrogateOnStart</name>
+                    <value>Yes</value>
+                </option>
+                <option>
+                    <name>LoconetProtocolAutoDetect</name>
+                    <value>No</value>
+                </option>
+                <option>
+                    <name>PacketizerType</name>
+                    <value>Normal (recommended)</value>
+                </option>
+                <option>
+                    <name>TranspondingPresent</name>
+                    <value>No</value>
+                </option>
+                <option>
+                    <name>TurnoutHandle</name>
+                    <value>Spread</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.can.adapters.gridconnect.lccbuffer.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="COM6" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="M" turnoutInterval="100" userName="LCC">
             <options>
                 <option>
                     <name>Protocol</name>
@@ -9,17 +37,15 @@
                 </option>
             </options>
         </connection>
-        <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
-            <options>
-                <option>
-                    <name>MaxSlots</name>
-                    <value>5</value>
-                </option>
-                <option>
-                    <name>SensorDefaultState</name>
-                    <value>Inactive</value>
-                </option>
-            </options>
-        </connection>
     </connections>
+    <startup xmlns="http://jmri.org/xml/schema/auxiliary-configuration/startup-4-3-5.xsd">
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformFileModelXml" enabled="yes" name="preference:DispatcherDefault.xml" type="XmlFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:CommonInitializationScript.py" type="ScriptFile"/>
+        <perform xmlns="" class="apps.startup.configurexml.TriggerRouteModelXml" enabled="yes" name="Hide Blue Text" type="Action"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformActionModelXml" enabled="yes" name="jmri.web.server.WebServerAction" type="Action">
+            <property name="systemPrefix" value=""/>
+        </perform>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:ChangeDefaultBackupFileName.py" type="ScriptFile"/>
+        <perform xmlns="" class="jmri.util.startup.configurexml.PerformScriptModelXml" enabled="yes" name="preference:GatewayPongGame.py" type="ScriptFile"/>
+    </startup>
 </auxiliary-configuration>

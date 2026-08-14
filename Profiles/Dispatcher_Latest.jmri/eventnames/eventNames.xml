@@ -2,6 +2,278 @@
 <eventNameStore>
   <names>
     <entry>
+      <eventID>01.01.02.00.00.FF.00.65</eventID>
+      <name>Turnout LT047:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.64</eventID>
+      <name>Turnout LT047:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.67</eventID>
+      <name>Turnout LT048:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.66</eventID>
+      <name>Turnout LT048:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.61</eventID>
+      <name>Turnout LT045:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.60</eventID>
+      <name>Turnout LT045:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.63</eventID>
+      <name>Turnout LT046:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.62</eventID>
+      <name>Turnout LT046:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6D</eventID>
+      <name>Turnout LT051:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6C</eventID>
+      <name>Turnout LT051:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6F</eventID>
+      <name>Turnout LT052:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6E</eventID>
+      <name>Turnout LT052:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.69</eventID>
+      <name>Turnout LT049:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.68</eventID>
+      <name>Turnout LT049:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6B</eventID>
+      <name>Turnout LT050:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.6A</eventID>
+      <name>Turnout LT050:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.75</eventID>
+      <name>Turnout LT055:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.74</eventID>
+      <name>Turnout LT055:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.77</eventID>
+      <name>Turnout LT056:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.76</eventID>
+      <name>Turnout LT056:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.71</eventID>
+      <name>Turnout LT053:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.70</eventID>
+      <name>Turnout LT053:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.73</eventID>
+      <name>Turnout LT054:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.72</eventID>
+      <name>Turnout LT054:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7D</eventID>
+      <name>Turnout LT059:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7C</eventID>
+      <name>Turnout LT059:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7F</eventID>
+      <name>Turnout LT060:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7E</eventID>
+      <name>Turnout LT060:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.79</eventID>
+      <name>Turnout LT057:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.78</eventID>
+      <name>Turnout LT057:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7B</eventID>
+      <name>Turnout LT058:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.7A</eventID>
+      <name>Turnout LT058:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.45</eventID>
+      <name>Turnout LT031:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.44</eventID>
+      <name>Turnout LT031:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.47</eventID>
+      <name>Turnout LT032:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.46</eventID>
+      <name>Turnout LT032:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.41</eventID>
+      <name>Turnout LT029:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.40</eventID>
+      <name>Turnout LT029:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.43</eventID>
+      <name>Turnout LT030:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.42</eventID>
+      <name>Turnout LT030:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4D</eventID>
+      <name>Turnout LT035:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4C</eventID>
+      <name>Turnout LT035:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4F</eventID>
+      <name>Turnout LT036:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4E</eventID>
+      <name>Turnout LT036:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.49</eventID>
+      <name>Turnout LT033:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.48</eventID>
+      <name>Turnout LT033:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D0</eventID>
+      <name>Pong DCC->LCC Test Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D1</eventID>
+      <name>Pong DCC->LCC Test Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D2</eventID>
+      <name>Ping LCC->DCC Test Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D3</eventID>
+      <name>Ping LCC->DCC Test Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4B</eventID>
+      <name>Turnout LT034:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.4A</eventID>
+      <name>Turnout LT034:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.55</eventID>
+      <name>Turnout LT039:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.54</eventID>
+      <name>Turnout LT039:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.57</eventID>
+      <name>Turnout LT040:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.56</eventID>
+      <name>Turnout LT040:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.51</eventID>
+      <name>Turnout LT037:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.50</eventID>
+      <name>Turnout LT037:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.53</eventID>
+      <name>Turnout LT038:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.52</eventID>
+      <name>Turnout LT038:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5D</eventID>
+      <name>Turnout LT043:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5C</eventID>
+      <name>Turnout LT043:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5F</eventID>
+      <name>Turnout LT044:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5E</eventID>
+      <name>Turnout LT044:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.59</eventID>
+      <name>Turnout LT041:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.58</eventID>
+      <name>Turnout LT041:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5B</eventID>
+      <name>Turnout LT042:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.5A</eventID>
+      <name>Turnout LT042:Thrown</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.9A.00.B7</eventID>
       <name>02.01.57.00.01.9A.00.B7</name>
     </entry>
@@ -742,6 +1014,14 @@
       <name>Mast GaryE-E-S:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F1.05.8E</eventID>
+      <name>Mast ColtonE-W-2:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F1.05.8F</eventID>
+      <name>Mast ColtonE-W-2:UnHeld</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.11.00.F1.03.A0</eventID>
       <name>Mast ColtonW-E-4:Clear</name>
     </entry>
@@ -756,6 +1036,14 @@
     <entry>
       <eventID>02.01.57.11.00.F1.03.A6</eventID>
       <name>Mast ColtonW-E-4:Stop</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F0.02.EE</eventID>
+      <name>Mast BendE-W-A:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F0.02.EF</eventID>
+      <name>Mast BendE-W-A:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F1.04.80</eventID>
@@ -830,6 +1118,14 @@
       <name>Mast UVint-W-M:Unlit</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F0.03.96</eventID>
+      <name>Mast BendE-W-D:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F0.03.97</eventID>
+      <name>Mast BendE-W-D:UnHeld</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.11.00.F0.02.88</eventID>
       <name>Mast UVint-W-M:Clear</name>
     </entry>
@@ -898,8 +1194,16 @@
       <name>Mast Lake-E-M:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F0.03.5E</eventID>
+      <name>Mast BendE-W-C:Held</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.C3.00.A8</eventID>
       <name>AF Relay 15 apply request</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F0.03.5F</eventID>
+      <name>Mast BendE-W-C:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F0.01.70</eventID>
@@ -954,8 +1258,16 @@
       <name>Mast MidwayE-E-2:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F2.02.EE</eventID>
+      <name>Mast DeltaE-W-4:Held</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.C3.00.A0</eventID>
       <name>AF Trk 14 DCC Toggle</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F2.02.EF</eventID>
+      <name>Mast DeltaE-W-4:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F0.02.50</eventID>
@@ -1014,8 +1326,16 @@
       <name>Mast JacksonE-W-M:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F1.05.FE</eventID>
+      <name>Mast ColtonE-W-4:Held</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.C3.00.B8</eventID>
       <name>AF Trk 16 DCC Toggle</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F1.05.FF</eventID>
+      <name>Mast ColtonE-W-4:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F2.01.E0</eventID>
@@ -1278,6 +1598,14 @@
       <name>Mast GaryW-E-M:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F0.03.26</eventID>
+      <name>Mast BendE-W-B:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F0.03.27</eventID>
+      <name>Mast BendE-W-B:UnHeld</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.11.00.F1.06.B0</eventID>
       <name>Mast Irvine-E-M:Clear</name>
     </entry>
@@ -1308,6 +1636,14 @@
     <entry>
       <eventID>02.01.57.11.00.F2.04.86</eventID>
       <name>Mast HudsonE-W-M:Stop</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F2.01.9E</eventID>
+      <name>Mast DeltaE-W-1:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F2.01.9F</eventID>
+      <name>Mast DeltaE-W-1:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F0.02.18</eventID>
@@ -2106,8 +2442,16 @@
       <name>Mast MidwayW-W-1:Stop</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F2.02.0E</eventID>
+      <name>Mast DeltaE-W-2:Held</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.11.00.F2.04.FF</eventID>
       <name>Mast MidwayE-W-M:2ndDivClear</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F2.02.0F</eventID>
+      <name>Mast DeltaE-W-2:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F0.03.68</eventID>
@@ -2140,6 +2484,14 @@
     <entry>
       <eventID>02.01.57.11.00.F3.05.9E</eventID>
       <name>Mast JacksonW-W-I:Stop</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F1.05.1E</eventID>
+      <name>Mast ColtonE-W-1:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F1.05.1F</eventID>
+      <name>Mast ColtonE-W-1:UnHeld</name>
     </entry>
     <entry>
       <eventID>02.01.57.11.00.F1.03.30</eventID>
@@ -2554,6 +2906,14 @@
       <name>AF Trk 02 DCC Toggle AFW Enabled</name>
     </entry>
     <entry>
+      <eventID>02.01.57.11.00.F2.02.7E</eventID>
+      <name>Mast DeltaE-W-3:Held</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.11.00.F2.02.7F</eventID>
+      <name>Mast DeltaE-W-3:UnHeld</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.A9</eventID>
       <name>Turnout Zion East F3-4 Closed</name>
     </entry>
@@ -2834,6 +3194,10 @@
       <name>AFW Bend C-D Bend side DCC 7 Output OFF reply</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.84</eventID>
+      <name>Sensor Lake (LS133):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.A8.00.4E</eventID>
       <name>Zion Relay 15 applied feedback</name>
     </entry>
@@ -2866,6 +3230,22 @@
       <name>Zion Relay 15 apply request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.8C</eventID>
+      <name>Sensor Fox (LS141):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.8D</eventID>
+      <name>Sensor Irvine W (LS142):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.8E</eventID>
+      <name>Sensor Irvine E (LS143):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.8F</eventID>
+      <name>Sensor Kelso (LS144):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.E8.00.43</eventID>
       <name>AFW Bend Intermodal West DCC 6 Thrown reply</name>
     </entry>
@@ -2886,8 +3266,24 @@
       <name>Turnout Zion East Cab track - Runaround Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.8A</eventID>
+      <name>Sensor Colton CP (LS139):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.00</eventID>
       <name>Turnout Zion East Cab track - Runaround Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.95</eventID>
+      <name>Sensor Echo 3 (LS150):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.96</eventID>
+      <name>Sensor Echo 2 (LS151):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.97</eventID>
+      <name>Sensor Echo 1 (LS152):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.02.A8.00.5B</eventID>
@@ -2898,12 +3294,28 @@
       <name>AFW Bend B-A Bend side DCC 8 Output OFF reply</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.90</eventID>
+      <name>Sensor Bend 4 (LS145):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.A8.00.5A</eventID>
       <name>Zion Relay 16 applied feedback</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.02.E8.00.5A</eventID>
       <name>AFW Bend B-A Bend side DCC 8 Output ON reply</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.91</eventID>
+      <name>Sensor Bend 3 (LS146):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.92</eventID>
+      <name>Sensor Bend 2 (LS147):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.93</eventID>
+      <name>Sensor Bend 1 (LS148):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B0.00.55</eventID>
@@ -3002,6 +3414,10 @@
       <name>Zion Relay 13 apply request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.84</eventID>
+      <name>Sensor Lake (LS133):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B0.00.0D</eventID>
       <name>AES Diesel Shop Service 3 Closed request</name>
     </entry>
@@ -3026,6 +3442,10 @@
       <name>Zion Relay 09 removed feedback</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.8C</eventID>
+      <name>Sensor Fox (LS141):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.02.E8.00.06</eventID>
       <name>AFW Bend DCC 1 AJ Output ON reply</name>
     </entry>
@@ -3034,12 +3454,28 @@
       <name>Zion Relay 09 applied feedback</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.8D</eventID>
+      <name>Sensor Irvine W (LS142):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.8E</eventID>
+      <name>Sensor Irvine E (LS143):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.8F</eventID>
+      <name>Sensor Kelso (LS144):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B0.00.01</eventID>
       <name>AES Diesel Shop Service 1-2 Closed request</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.02.A8.00.01</eventID>
       <name>Zion Track 09 remove request</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.8A</eventID>
+      <name>Sensor Colton CP (LS139):Active</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B0.00.00</eventID>
@@ -3066,6 +3502,26 @@
       <name>AFW Bend C or D from yard DCC 3 Output ON reply</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.95</eventID>
+      <name>Sensor Echo 3 (LS150):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.96</eventID>
+      <name>Sensor Echo 2 (LS151):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.97</eventID>
+      <name>Sensor Echo 1 (LS152):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.90</eventID>
+      <name>Sensor Bend 4 (LS145):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.91</eventID>
+      <name>Sensor Bend 3 (LS146):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B0.00.19</eventID>
       <name>AES Diesel Shop Service 4-5 Closed request</name>
     </entry>
@@ -3074,12 +3530,20 @@
       <name>Zion Track 11 remove request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.92</eventID>
+      <name>Sensor Bend 2 (LS147):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B0.00.18</eventID>
       <name>AES Diesel Shop Service 4-5 Thrown request</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.02.A8.00.18</eventID>
       <name>Zion Relay 11 apply request</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.93</eventID>
+      <name>Sensor Bend 1 (LS148):Active</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.04.5A.00.97</eventID>
@@ -3106,12 +3570,44 @@
       <name>Zion Relay 10 applied feedback</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.24</eventID>
+      <name>Sensor Sierra-Troy (LS37):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.20</eventID>
+      <name>Sensor Upton-Vista West (LS33):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.2C</eventID>
+      <name>Sensor Sierra siding east (LS45):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.2D</eventID>
+      <name>Sensor Sierra siding west (LS46):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.2F</eventID>
+      <name>Sensor Vista-Whiskey (LS48):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.28</eventID>
+      <name>Sensor Sierra main (LS41):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.11</eventID>
       <name>Turnout Yazoo E2 to W2-W3 Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.34</eventID>
+      <name>Sensor Upton-Vista East (LS53):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.10</eventID>
       <name>Turnout Yazoo E2 to W2-W3 Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.35</eventID>
+      <name>Sensor Redcliff-Sierra (LS54):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.20.00.1B.02.13</eventID>
@@ -3126,16 +3622,32 @@
       <name>Turnout Yazoo W2 to E1-E2 Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.30</eventID>
+      <name>Sensor Whiskey-Xerox (LS49):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.14</eventID>
       <name>Turnout Yazoo W2 to E1-E2 Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.31</eventID>
+      <name>Sensor Troy-Upton (LS50):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.20.00.1B.02.17</eventID>
       <name>Turnout Yazoo 2-3 XOver D-N Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.32</eventID>
+      <name>Sensor Xerox Main 1 (LS51):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.16</eventID>
       <name>Turnout Yazoo 2-3 XOver D-N Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.33</eventID>
+      <name>Sensor Xerox Main 2 (LS52):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.20.00.1B.02.19</eventID>
@@ -3146,12 +3658,36 @@
       <name>Turnout Yazoo 1-2 XOver D-N Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.04</eventID>
+      <name>Sensor Midway West Psg approach (LS5):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.05</eventID>
+      <name>Sensor Midway West LS6 LT58 track 1 stop block (LS6):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.06</eventID>
+      <name>Sensor Midway West station 2 stop block (LS7):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.07</eventID>
+      <name>Sensor Midway West Passenger Throat (LS8):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.07</eventID>
       <name>Turnout Whiskey 1-2 Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.02</eventID>
+      <name>Sensor Midway West station 3 stop block (LS3):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.02.06</eventID>
       <name>Turnout Whiskey 1-2 Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.03</eventID>
+      <name>Sensor Midway West Frt approach (LS4):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.20.00.1B.02.09</eventID>
@@ -3170,12 +3706,24 @@
       <name>Turnout Xerox 1-2 Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.15</eventID>
+      <name>Sensor Midway LS22 LT53 passenger 1 2 3 east ladder plus 153 (LS22):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.00.03</eventID>
       <name>Send Loconet Power Off request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.16</eventID>
+      <name>Sensor Midway LS23 below LT52 (LS23):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.00.02</eventID>
       <name>Send Loconet Power On request</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.17</eventID>
+      <name>Sensor Midway LS24 power spur plus turnout (LS24):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.20.00.1B.00.05</eventID>
@@ -3186,6 +3734,10 @@
       <name>Send Loconet Emergency Stop request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.11</eventID>
+      <name>Sensor Midway East Frt approach (LS18):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.20.00.1B.00.07</eventID>
       <name>Bend DCC-LCC LT1 Closed request</name>
     </entry>
@@ -3194,44 +3746,692 @@
       <name>Bend DCC-LCC LT1 Thrown request</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.1C</eventID>
+      <name>Sensor Midway East Psg approach (LS29):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.1D</eventID>
+      <name>Sensor Midway Main 3 at Station (LS30):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.1E</eventID>
+      <name>Sensor Midway Main 2 at Station (LS31):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.1F</eventID>
+      <name>Sensor Midway Main 1 at Station (LS32):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.18</eventID>
+      <name>Sensor Midway LS25 track 3 east stopping block (LS25):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.19</eventID>
+      <name>Sensor Midway LS26 East passenger approach stopping block (LS26):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.1A</eventID>
+      <name>Sensor Midway LS27 track 1 east stopping block (LS27):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.1B</eventID>
+      <name>Sensor Midway LS28 track 2 east stopping block (LS28):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.24</eventID>
+      <name>Sensor Sierra-Troy (LS37):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.65</eventID>
+      <name>Sensor Osage siding east (LS102):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.6D</eventID>
       <name>Turnout Zion East Z2 to Z1 West Xover - Straight Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.66</eventID>
+      <name>Sensor Osage pocket (LS103):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B1.00.6C</eventID>
       <name>Turnout Zion East Z2 to Z1 West Xover - Straight Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.67</eventID>
+      <name>Sensor Osage approach (LS104):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.20</eventID>
+      <name>Sensor Upton-Vista West (LS33):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.2C</eventID>
+      <name>Sensor Sierra siding east (LS45):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.6C</eventID>
+      <name>Sensor Quartz (LS109):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.2D</eventID>
+      <name>Sensor Sierra siding west (LS46):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.6D</eventID>
+      <name>Sensor Narrows Upper (LS110):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.6E</eventID>
+      <name>Sensor Osage siding west (LS111):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.2F</eventID>
+      <name>Sensor Vista-Whiskey (LS48):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.6F</eventID>
+      <name>Sensor Osage main (LS112):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.28</eventID>
+      <name>Sensor Sierra main (LS41):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.68</eventID>
+      <name>Sensor Upton siding (LS105):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.69</eventID>
+      <name>Sensor Upton main (LS106):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.61</eventID>
       <name>Turnout Zion East F1-234 Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.6A</eventID>
+      <name>Sensor Redcliff siding (LS107):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B1.00.60</eventID>
       <name>Turnout Zion East F1-234 Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FA.00.6B</eventID>
+      <name>Sensor Redcliff main (LS108):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.34</eventID>
+      <name>Sensor Upton-Vista East (LS53):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.74</eventID>
+      <name>Sensor Gary Hudson overlap main (LS117):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.35</eventID>
+      <name>Sensor Redcliff-Sierra (LS54):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.75</eventID>
+      <name>Sensor Delta 1 (LS118):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.76</eventID>
+      <name>Sensor Jackson siding (LS119):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.77</eventID>
+      <name>Sensor Jackson main (LS120):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.30</eventID>
+      <name>Sensor Whiskey-Xerox (LS49):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.31</eventID>
+      <name>Sensor Troy-Upton (LS50):Active</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.79</eventID>
       <name>Turnout Zion East F6-78 Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.32</eventID>
+      <name>Sensor Xerox Main 1 (LS51):Active</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B1.00.78</eventID>
       <name>Turnout Zion East F6-78 Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.33</eventID>
+      <name>Sensor Xerox Main 2 (LS52):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7C</eventID>
+      <name>Sensor Delta 4 (LS125):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7D</eventID>
+      <name>Sensor Delta 3 (LS126):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7E</eventID>
+      <name>Sensor Delta 2 (LS127):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7F</eventID>
+      <name>Sensor Delta CP (LS128):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.78</eventID>
+      <name>Sensor Hudson siding (LS121):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.79</eventID>
+      <name>Sensor Hudson main (LS122):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7A</eventID>
+      <name>Sensor Gary siding (LS123):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.7B</eventID>
+      <name>Sensor Gary main (LS124):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.04</eventID>
+      <name>Sensor Midway West Psg approach (LS5):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.05</eventID>
+      <name>Sensor Midway West LS6 LT58 track 1 stop block (LS6):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.06</eventID>
+      <name>Sensor Midway West station 2 stop block (LS7):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.07</eventID>
+      <name>Sensor Midway West Passenger Throat (LS8):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.40</eventID>
+      <name>Sensor Narrows Lower (LS65):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.41</eventID>
+      <name>Sensor Powderhorn main (LS66):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.02</eventID>
+      <name>Sensor Midway West station 3 stop block (LS3):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.42</eventID>
+      <name>Sensor Powderhorn siding (LS67):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.03</eventID>
+      <name>Sensor Midway West Frt approach (LS4):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.43</eventID>
+      <name>Sensor Osage-Powderhorn (LS68):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.15</eventID>
+      <name>Sensor Midway LS22 LT53 passenger 1 2 3 east ladder plus 153 (LS22):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.55</eventID>
+      <name>Sensor Troy siding 2 (LS86):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.16</eventID>
+      <name>Sensor Midway LS23 below LT52 (LS23):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.56</eventID>
+      <name>Sensor Troy siding 1 (LS87):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.17</eventID>
+      <name>Sensor Midway LS24 power spur plus turnout (LS24):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.57</eventID>
+      <name>Sensor Troy main (LS88):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.11</eventID>
+      <name>Sensor Midway East Frt approach (LS18):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.1C</eventID>
+      <name>Sensor Midway East Psg approach (LS29):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.1D</eventID>
+      <name>Sensor Midway Main 3 at Station (LS30):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.5D</eventID>
+      <name>Sensor Whiskey siding 2 (LS94):Inactive</name>
+    </entry>
+    <entry>
       <eventID>02.01.57.00.01.B1.00.55</eventID>
       <name>Turnout Zion East Freight B ladder - WEngine, Cab Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.1E</eventID>
+      <name>Sensor Midway Main 2 at Station (LS31):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.5E</eventID>
+      <name>Sensor Whiskey siding 1 (LS95):Inactive</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.01.B1.00.54</eventID>
       <name>Turnout Zion East Freight B ladder - WEngine, Cab Thrown</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FB.00.1F</eventID>
+      <name>Sensor Midway Main 1 at Station (LS32):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.5F</eventID>
+      <name>Sensor Whiskey main (LS96):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.18</eventID>
+      <name>Sensor Midway LS25 track 3 east stopping block (LS25):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.19</eventID>
+      <name>Sensor Midway LS26 East passenger approach stopping block (LS26):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.1A</eventID>
+      <name>Sensor Midway LS27 track 1 east stopping block (LS27):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.5A</eventID>
+      <name>Sensor Vista siding (LS91):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.1B</eventID>
+      <name>Sensor Midway LS28 track 2 east stopping block (LS28):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FA.00.5B</eventID>
+      <name>Sensor Vista main (LS92):Inactive</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.65</eventID>
+      <name>Sensor Osage siding east (LS102):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.66</eventID>
+      <name>Sensor Osage pocket (LS103):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.67</eventID>
+      <name>Sensor Osage approach (LS104):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6C</eventID>
+      <name>Sensor Quartz (LS109):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6D</eventID>
+      <name>Sensor Narrows Upper (LS110):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6E</eventID>
+      <name>Sensor Osage siding west (LS111):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6F</eventID>
+      <name>Sensor Osage main (LS112):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.68</eventID>
+      <name>Sensor Upton siding (LS105):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.69</eventID>
+      <name>Sensor Upton main (LS106):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6A</eventID>
+      <name>Sensor Redcliff siding (LS107):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.6B</eventID>
+      <name>Sensor Redcliff main (LS108):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.74</eventID>
+      <name>Sensor Gary Hudson overlap main (LS117):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.75</eventID>
+      <name>Sensor Delta 1 (LS118):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.76</eventID>
+      <name>Sensor Jackson siding (LS119):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.77</eventID>
+      <name>Sensor Jackson main (LS120):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7C</eventID>
+      <name>Sensor Delta 4 (LS125):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7D</eventID>
+      <name>Sensor Delta 3 (LS126):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7E</eventID>
+      <name>Sensor Delta 2 (LS127):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7F</eventID>
+      <name>Sensor Delta CP (LS128):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.78</eventID>
+      <name>Sensor Hudson siding (LS121):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.79</eventID>
+      <name>Sensor Hudson main (LS122):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7A</eventID>
+      <name>Sensor Gary siding (LS123):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.7B</eventID>
+      <name>Sensor Gary main (LS124):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.40</eventID>
+      <name>Sensor Narrows Lower (LS65):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.41</eventID>
+      <name>Sensor Powderhorn main (LS66):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.42</eventID>
+      <name>Sensor Powderhorn siding (LS67):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.43</eventID>
+      <name>Sensor Osage-Powderhorn (LS68):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.55</eventID>
+      <name>Sensor Troy siding 2 (LS86):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.56</eventID>
+      <name>Sensor Troy siding 1 (LS87):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.57</eventID>
+      <name>Sensor Troy main (LS88):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.5D</eventID>
+      <name>Sensor Whiskey siding 2 (LS94):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.5E</eventID>
+      <name>Sensor Whiskey siding 1 (LS95):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.5F</eventID>
+      <name>Sensor Whiskey main (LS96):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.5A</eventID>
+      <name>Sensor Vista siding (LS91):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FB.00.5B</eventID>
+      <name>Sensor Vista main (LS92):Active</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.24</eventID>
+      <name>Turnout LT015:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.25</eventID>
+      <name>Turnout LT015:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.26</eventID>
+      <name>Turnout LT016:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.27</eventID>
+      <name>Turnout LT016:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.20</eventID>
+      <name>Turnout LT013:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.21</eventID>
+      <name>Turnout LT013:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.22</eventID>
+      <name>Turnout LT014:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.23</eventID>
+      <name>Turnout LT014:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2C</eventID>
+      <name>Turnout LT019:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2D</eventID>
+      <name>Turnout LT019:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2E</eventID>
+      <name>Turnout LT020:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2F</eventID>
+      <name>Turnout LT020:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.28</eventID>
+      <name>Turnout LT017:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.29</eventID>
+      <name>Turnout LT017:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2A</eventID>
+      <name>Turnout LT018:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.2B</eventID>
+      <name>Turnout LT018:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.34</eventID>
+      <name>Turnout LT023:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.35</eventID>
+      <name>Turnout LT023:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.36</eventID>
+      <name>Turnout LT024:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.37</eventID>
+      <name>Turnout LT024:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.30</eventID>
+      <name>Turnout LT021:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.31</eventID>
+      <name>Turnout LT021:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.32</eventID>
+      <name>Turnout LT022:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.33</eventID>
+      <name>Turnout LT022:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3C</eventID>
+      <name>Turnout LT027:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3D</eventID>
+      <name>Turnout LT027:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3E</eventID>
+      <name>Turnout LT028:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3F</eventID>
+      <name>Turnout LT028:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.38</eventID>
+      <name>Turnout LT025:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.39</eventID>
+      <name>Turnout LT025:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3A</eventID>
+      <name>Turnout LT026:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.3B</eventID>
+      <name>Turnout LT026:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0C</eventID>
+      <name>Turnout LT003:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0D</eventID>
+      <name>Turnout LT003:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0E</eventID>
+      <name>Turnout LT004:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0F</eventID>
+      <name>Turnout LT004:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.08</eventID>
+      <name>Turnout LT001:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.09</eventID>
+      <name>Turnout LT001:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0A</eventID>
+      <name>Turnout LT002:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.0B</eventID>
+      <name>Turnout LT002:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.14</eventID>
+      <name>Turnout LT007:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.15</eventID>
+      <name>Turnout LT007:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.16</eventID>
+      <name>Turnout LT008:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.17</eventID>
+      <name>Turnout LT008:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.10</eventID>
+      <name>Turnout LT005:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.11</eventID>
+      <name>Turnout LT005:Closed</name>
+    </entry>
+    <entry>
       <eventID>01.01.02.00.00.FF.00.12</eventID>
-      <name>AFW Bend Intermodal West DCC 6 Thrown request</name>
+      <name>Turnout LT006:Thrown</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.00.13</eventID>
-      <name>AFW Bend Intermodal West DCC 6 Closed request</name>
+      <name>Turnout LT006:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1C</eventID>
+      <name>Turnout LT011:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1D</eventID>
+      <name>Turnout LT011:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1E</eventID>
+      <name>Turnout LT012:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1F</eventID>
+      <name>Turnout LT012:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.18</eventID>
+      <name>Turnout LT009:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.19</eventID>
+      <name>Turnout LT009:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1A</eventID>
+      <name>Turnout LT010:Thrown</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.00.1B</eventID>
+      <name>Turnout LT010:Closed</name>
     </entry>
   </names>
 </eventNameStore>

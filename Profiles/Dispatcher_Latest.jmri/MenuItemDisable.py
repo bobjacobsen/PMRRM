@@ -11,9 +11,10 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 
 def findMenu(frame, menuName) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
-    	    )
+            "script.MenuItemDisable"
+            )
 
     bar = frame.getJMenuBar()
     if bar is None:
@@ -21,53 +22,59 @@ def findMenu(frame, menuName) :
         return None
     for i in range(0,bar.getMenuCount()-1) :
         menu = bar.getMenu(i)
-	if menu == None :
-		log.debug("Found menu {} None", i)
-		continue
+        if menu == None :
+            log.debug("Found menu {} None", i)
+            continue
         if menuName == menu.getLabel() : 
-		log.debug("found menu {}", menuName)
-		return menu
+            log.debug("found menu {}", menuName)
+            return menu
     log.error("Did not find menu {}", menuName)
     return None # error
+global findMenu
 
 def findItem(menu, itemName) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
-    	    )
+            "script.MenuItemDisable"
+            )
     for i in range(0, menu.getItemCount()) :
         item = menu.getItem(i)
-	if item == None :
-		log.debug("Found menu item {} None", i)
-		continue
+        if item == None :
+            log.debug("Found menu item {} None", i)
+            continue
         if itemName == item.getLabel() : 
-		log.debug("found item {}", itemName)
-		return item
+            log.debug("  found item {}", itemName)
+            return item
     log.error("Did not find item {}", itemName)
     return None # error
+global findItem
 
 # this includes a delay to make sure the window is created if run during startup
 class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
+    import org.slf4j.LoggerFactory
     log = org.slf4j.LoggerFactory.getLogger(
-            "jmri.jmrit.jython.exec.script.MenuItemDisable"
+            "script.MenuItemDisable"
         )
         
     def handle(self):
         self.waitMsec(8000)
 
         thisUser = java.lang.System.getProperty("user.name").lower()
-        # thisUser = "dispatch"  # here for debugging, comment out for normal operation
+        #thisUser = "dispatch"  # here for debugging, comment out for normal operation
         desiredUser = "dispatch"
         if thisUser != desiredUser:
             self.log.info("Skip disabling menu items because user '{}' is not '{}'", thisUser, desiredUser)
             return False # done early
             
         # start with the PanelPro window
-
+        global findMenu
+        global findItem
+        
         # find the frame containing the menus to disable
         frame = jmri.util.JmriJFrame.getFrame("PanelPro")
 
         fileMenu = findMenu(frame, "File")      
-	#fileMenu.setEnabled(False)
+        #fileMenu.setEnabled(False)
         
         if fileMenu is not None:
 
@@ -81,6 +88,8 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         else :
             self.log.warn("Did not find File menu")
             
+        # Preferences... in the Edit menu is not accessible this way  
+        
         toolsMenu = findMenu(frame, "Tools")
 
         if toolsMenu is not None:
@@ -171,8 +180,19 @@ class MenuItemDisable(jmri.jmrit.automat.AbstractAutomaton) :
         # find the LCC menu in the menu bar
         lccMenu = findMenu(frame, "LCC")
         if lccMenu is not None: # skip if run on some other connection
-            lccMenu.setEnabled(False)
 
+            # Find items within that menu and disable it
+            findItem(lccMenu, "Open LccPro").setEnabled(False)
+            findItem(lccMenu, "Start Hub").setEnabled(False)
+            findItem(lccMenu, "Event Table").setEnabled(False)
+            findItem(lccMenu, "Configure Nodes").setEnabled(False)
+            findItem(lccMenu, "Firmware Update").setEnabled(False)
+            findItem(lccMenu, "Ident Tool").setEnabled(False)
+            # leave Traffic Monitor available
+            findItem(lccMenu, "Memory Tool").setEnabled(False)
+            findItem(lccMenu, "STL Editor").setEnabled(False)
+            findItem(lccMenu, "Send Frame").setEnabled(False)
+ 
         debugMenu = findMenu(frame, "Debug")  
         if debugMenu is not None :    
             debugMenu.setEnabled(False)
