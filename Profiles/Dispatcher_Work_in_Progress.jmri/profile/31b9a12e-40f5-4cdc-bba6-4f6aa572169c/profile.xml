@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<auxiliary-configuration xmlns="http://www.netbeans.org/ns/auxiliary-configuration/1">
+<auxiliary-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/auxiliary-configuration.xsd">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
         <connection xmlns="" class="jmri.jmrix.loconet.locobufferng.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="COM5" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
             <options>
