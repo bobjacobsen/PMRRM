@@ -18,7 +18,6 @@ def runscript(name) :
     org.slf4j.LoggerFactory.getLogger("script.CommonInitializationScript").info("Run script "+name)
     execfile(jmri.util.FileUtil.getExternalFilename(name))
 
-runscript("preference:HighlightUnknownBlockSensors.py")
 runscript("preference:MaintainFileHistory.py")
 runscript("preference:ChangeDefaultBackupFileName.py")
 runscript("preference:WatchNodesAndDisplay.py")

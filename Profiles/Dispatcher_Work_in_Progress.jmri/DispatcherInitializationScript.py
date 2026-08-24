@@ -21,6 +21,7 @@ def runscript(name) :
     org.slf4j.LoggerFactory.getLogger("script.CommonInitializationScript").info("Run script "+name)
     execfile(jmri.util.FileUtil.getExternalFilename(name))
 
+runscript("preference:HighlightUnknownBlockSensors.py")
 runscript("preference:HideMemoryIcons.py")
 runscript("preference:DontListenDoubleHead.py")
 runscript("preference:PMRRM_semaphores.py")
