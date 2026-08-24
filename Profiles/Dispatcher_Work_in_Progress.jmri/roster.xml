@@ -288,8 +288,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 38" fileName="DS64_38.xml" roadNumber="" roadName="Standalone Kelso?" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="38" comment="999,38,39,40" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T06:21:14.702+00:00</dateUpdated>
+    <locomotive id="DS64 38" fileName="DS64_38.xml" roadNumber="" roadName="Standalone Kelso?" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="38" comment="560,38,39,40" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-08-22T05:15:31.883+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="38" longaddress="no" />
@@ -497,8 +497,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 63" fileName="DS64_63.xml" roadNumber="" roadName="Echo shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="63" comment="552,551,550,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T21:04:57.321+00:00</dateUpdated>
+    <locomotive id="DS64 63" fileName="DS64_63.xml" roadNumber="" roadName="Echo shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="63" comment="553,552,550,551" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-08-22T04:41:50.978+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="63" longaddress="no" />
