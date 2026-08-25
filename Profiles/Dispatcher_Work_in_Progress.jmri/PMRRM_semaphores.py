@@ -10,6 +10,7 @@
 #  .blocks  A list of the sensors being protected
 #  .turnouts A list of the turnouts being protected
 #  .next    The next upper semaphore (or signal) being protected
+#  .follow   if set true, this will execute tumbledown from previous signal
 # 
 # You must specify _all_ of these.  Store [] if the lists have no content
 #
@@ -96,13 +97,14 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
             self.lastBeans.append(bean.describeState(bean.state))
         
         class workOnLayout(jmri.util.ThreadingUtil.ThreadAction):
-            def __init__(self, blocks, turnouts, upper, lower, display, next):
+            def __init__(self, blocks, turnouts, upper, lower, display, next, follow):
                 self.blocks = blocks
                 self.turnouts = turnouts
                 self.upper = upper
                 self.lower = lower
                 self.display = display
                 self.next = next
+                self.follow = follow
 
             def run(self):
                 # do the work that needs to access the GUI
@@ -117,7 +119,10 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
                 for turnout in self.turnouts :
                     if turnout.state != CLOSED :
                         upper = RED
-                        
+
+                if (self.follow and self.next.getAppearance() == RED ) :
+                    upper = RED
+
                 if upper != self.upper.getAppearance() :
                     self.upper.setAppearance(upper)
                 
@@ -125,7 +130,7 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
                 if self.next and self.next != False :
                     if self.next.getAppearance() != RED :
                         lower = GREEN
-        
+                            
                 if lower != self.lower.getAppearance() :
                     self.lower.setAppearance(lower)
         
@@ -134,7 +139,7 @@ class ControlDualSemaphore (jmri.jmrit.automat.AbstractAutomaton) :
                 else : self.display.setAppearance(RED)
                 
         # invoke on layout thread
-        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.upper, self.lower, self.display, self.next))
+        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.upper, self.lower, self.display, self.next, self.follow))
 
         self.waitChange(self.beans, 4000)  # run again when something changes or after a delay (just in case)?
         
@@ -154,6 +159,7 @@ a.blocks   = [sensors.getSensor("Narrows Lower")]
 a.turnouts = []
 a.display  = signals.getSignalHead("W LN Sem Display")
 a.next     = False
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -164,6 +170,7 @@ a.blocks   = [sensors.getSensor("Narrows Upper")]
 a.turnouts = []
 a.display  = signals.getSignalHead("W UN Sem Display")
 a.next     = signals.getSignalHead("W LN Sem")
+a.follow   = True
 a.start()
 
 a = ControlDualSemaphore()
@@ -174,6 +181,7 @@ a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach
 a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
 a.display  = signals.getSignalHead("W Osage Sem Display")
 a.next     = signals.getSignalHead("W UN Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -184,6 +192,7 @@ a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.display  = signals.getSignalHead("W OP Sem Display")
 a.next     = signals.getSignalHead("W Osage Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -194,6 +203,7 @@ a.blocks   = [sensors.getSensor("Powderhorn main")]
 a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
 a.display  = signals.getSignalHead("W Powder Sem Display")
 a.next     = signals.getSignalHead("W OP Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -204,6 +214,7 @@ a.blocks   = [sensors.getSensor("Quartz")]
 a.turnouts = []
 a.display  = signals.getSignalHead("E RP Sem Display")
 a.next     = signals.getSignalHead("W Powder Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -214,6 +225,7 @@ a.blocks   = [sensors.getSensor("Redcliff main")]
 a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
 a.display  = signals.getSignalHead("W Redcliff Sem Display")
 a.next     = signals.getSignalHead("E RP Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -224,6 +236,7 @@ a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
 a.display  = signals.getSignalHead("W R-S Sem Display")
 a.next     = signals.getSignalHead("W Redcliff Sem")
+a.follow   = False
 a.start()
 
 
@@ -237,6 +250,7 @@ a.blocks   = [sensors.getSensor("Sierra main")]
 a.turnouts = [turnouts.getTurnout("Sierra W"), turnouts.getTurnout("Sierra E")]
 a.display  = signals.getSignalHead("E Sierra Sem Display")
 a.next     = signals.getSignalHead("E S-T")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -247,6 +261,7 @@ a.blocks   = [sensors.getSensor("Redcliff-Sierra")]
 a.turnouts = []
 a.display  = signals.getSignalHead("E RS Sem Display")
 a.next     = signals.getSignalHead("E Sierra Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -257,6 +272,7 @@ a.blocks   = [sensors.getSensor("Redcliff main")]
 a.turnouts = [turnouts.getTurnout("Redcliff W"), turnouts.getTurnout("Redcliff E"), turnouts.getTurnout("Redcliff Staging")]
 a.display  = signals.getSignalHead("E Redcliff Sem Display")
 a.next     = signals.getSignalHead("E RS Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -267,6 +283,7 @@ a.blocks   = [sensors.getSensor("Quartz")]
 a.turnouts = []
 a.display  = signals.getSignalHead("E Quartz Sem Display")
 a.next     = signals.getSignalHead("E Redcliff Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -277,6 +294,7 @@ a.blocks   = [sensors.getSensor("Powderhorn main")]
 a.turnouts = [turnouts.getTurnout("Powderhorn W"), turnouts.getTurnout("Powderhorn E"), turnouts.getTurnout("Powderhorn housetrack"), turnouts.getTurnout("Powderhorn pocket"), turnouts.getTurnout("Powderhorn crossover main")]
 a.display  = signals.getSignalHead("E Powder Sem Display")
 a.next     = signals.getSignalHead("E Quartz Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -287,6 +305,7 @@ a.blocks   = [sensors.getSensor("Osage-Powderhorn")]
 a.turnouts = [turnouts.getTurnout("McSweeney branch")]
 a.display  = signals.getSignalHead("E OP Sem Display")
 a.next     = signals.getSignalHead("E Powder Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -297,6 +316,7 @@ a.blocks   = [sensors.getSensor("Osage main"), sensors.getSensor("Osage approach
 a.turnouts = [turnouts.getTurnout("Osage W"), turnouts.getTurnout("Osage E"), turnouts.getTurnout("Osage pocket E")]
 a.display  = signals.getSignalHead("E Osage Sem Display")
 a.next     = signals.getSignalHead("E OP Sem")
+a.follow   = False
 a.start()
 
 a = ControlDualSemaphore()
@@ -307,5 +327,6 @@ a.blocks   = [sensors.getSensor("Narrows Upper")]
 a.turnouts = []
 a.display  = signals.getSignalHead("E UN Sem Display")
 a.next     = signals.getSignalHead("E Osage Sem")
+a.follow   = False
 a.start()
 

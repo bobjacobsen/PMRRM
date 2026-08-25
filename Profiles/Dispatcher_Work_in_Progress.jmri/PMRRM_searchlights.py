@@ -90,12 +90,13 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
             self.lastBeans.append(bean.describeState(bean.state))
 
         class workOnLayout(jmri.util.ThreadingUtil.ThreadAction):
-            def __init__(self, blocks, turnouts, local, next, next2):
+            def __init__(self, blocks, turnouts, local, next, next2, follow):
                 self.blocks = blocks
                 self.turnouts = turnouts
                 self.local = local
                 self.next = next
                 self.next2 = next2
+                self.follow = follow
 
             def run(self):
                 # do the work that needs to access the GUI
@@ -113,6 +114,9 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
                         nextRed = False
                 if nextRed : local = YELLOW
         
+                if self.follow and self.next.getAppearance() == RED :
+                        local = RED
+                        
                 for sensor in self.blocks :
                     if sensor.state != INACTIVE :
                         local = RED
@@ -125,7 +129,7 @@ class ControlAbsSearchlight (jmri.jmrit.automat.AbstractAutomaton) :
                     self.local.setAppearance(local)
                 
         # invoke on layout thread
-        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.local, self.next, self.next2))
+        jmri.util.ThreadingUtil.runOnLayout(workOnLayout(self.blocks, self.turnouts, self.local, self.next, self.next2, self.follow))
 
         self.waitChange(self.beans, 4000)  # run again when something changes or after a delay (just in case)?
         
@@ -144,6 +148,7 @@ a.blocks   = [sensors.getSensor("Sierra main")]
 a.turnouts = [turnouts.getTurnout("Sierra W"), turnouts.getTurnout("Sierra E")]
 a.next     = signals.getSignalHead("W R-S Sem")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -153,6 +158,7 @@ a.blocks   = [sensors.getSensor("Sierra-Troy")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Sierra Main")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -162,6 +168,7 @@ a.blocks   = [sensors.getSensor("Troy main")]
 a.turnouts = [turnouts.getTurnout("Troy W 1"), turnouts.getTurnout("Troy E 1"), turnouts.getTurnout("Troy station")]
 a.next     = signals.getSignalHead("W S-T")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -171,6 +178,7 @@ a.blocks   = [sensors.getSensor("Troy-Upton")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Troy Main")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -180,6 +188,7 @@ a.blocks   = [sensors.getSensor("Upton main")]
 a.turnouts = [turnouts.getTurnout("Upton W"), turnouts.getTurnout("Upton E")]
 a.next     = signals.getSignalHead("W U-T")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -189,6 +198,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Upton Main")
 a.next2    = False
+a.follow   = True
 a.start()
 
 a = ControlAbsSearchlight()
@@ -198,6 +208,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista West")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W VU")
 a.next2    = False
+a.follow   = True
 a.start()
 
 a = ControlAbsSearchlight()
@@ -207,6 +218,7 @@ a.blocks   = [sensors.getSensor("Vista main")]
 a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2 MainW -VistaYard W"), turnouts.getTurnout("Vista E 2 MainE -VistaYard E")]
 a.next     = signals.getSignalHead("W U-T")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -216,6 +228,7 @@ a.blocks   = [sensors.getSensor("Vista-Whiskey")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Vista Main")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -225,6 +238,7 @@ a.blocks   = [sensors.getSensor("Whiskey main")]
 a.turnouts = [turnouts.getTurnout("Whiskey W 1"), turnouts.getTurnout("Whiskey E 1")]
 a.next     = signals.getSignalHead("W V-W")
 a.next2    = False
+a.follow   = False
 a.start()
 
 
@@ -238,6 +252,7 @@ a.blocks   = [sensors.getSensor("Whiskey-Xerox")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Xerox Main")
 a.next2    = False # according to Mike, as E W-X is single-head, it only references top head at Xerox entrance
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -247,6 +262,7 @@ a.blocks   = [sensors.getSensor("Whiskey main")]
 a.turnouts = [turnouts.getTurnout("Whiskey W 1"), turnouts.getTurnout("Whiskey E 1")]
 a.next     = signals.getSignalHead("E W-X")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -256,6 +272,7 @@ a.blocks   = [sensors.getSensor("Vista-Whiskey")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Whiskey Main")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -265,6 +282,7 @@ a.blocks   = [sensors.getSensor("Vista main")]
 a.turnouts = [turnouts.getTurnout("Vista W 1"), turnouts.getTurnout("Vista E 1"), turnouts.getTurnout("Vista W 2 MainW -VistaYard W"), turnouts.getTurnout("Vista E 2 MainE -VistaYard E")]
 a.next     = signals.getSignalHead("E V-W")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -274,6 +292,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista West")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Vista Main")
 a.next2    = False
+a.follow   = True
 a.start()
 
 a = ControlAbsSearchlight()
@@ -283,6 +302,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E VU")
 a.next2    = False
+a.follow   = True
 a.start()
 
 a = ControlAbsSearchlight()
@@ -292,6 +312,7 @@ a.blocks   = [sensors.getSensor("Upton main")]
 a.turnouts = [turnouts.getTurnout("Upton W"), turnouts.getTurnout("Upton E")]
 a.next     = signals.getSignalHead("E U-V")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -301,6 +322,7 @@ a.blocks   = [sensors.getSensor("Troy-Upton")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Upton Main")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -310,6 +332,7 @@ a.blocks   = [sensors.getSensor("Troy main")]
 a.turnouts = [turnouts.getTurnout("Troy W 1"), turnouts.getTurnout("Troy E 1"), turnouts.getTurnout("Troy station")]
 a.next     = signals.getSignalHead("E T-U")
 a.next2    = False
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -319,4 +342,5 @@ a.blocks   = [sensors.getSensor("Sierra-Troy")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Troy Main")
 a.next2    = False
+a.follow   = False
 a.start()
