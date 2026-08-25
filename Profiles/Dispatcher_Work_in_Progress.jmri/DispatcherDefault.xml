@@ -17338,7 +17338,7 @@
       <systemName>ILB163</systemName>
       <userName>Midway below LT52</userName>
     </layoutblock>
-    <layoutblock systemName="ILB164" occupancysensor="Midway LS24 power spur plus turnout" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB164" occupancysensor="Midway LS24 power spur plus turnout" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB164</systemName>
       <userName>Midway East Engine Pocket</userName>
     </layoutblock>
@@ -20014,7 +20014,7 @@
     <positionablepoint ident="A27" type="ANCHOR" x="575.0" y="220.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A28" type="ANCHOR" x="580.0" y="240.0" connect1name="T42" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-   <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="805" panelwidth="1450" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="805" panelwidth="1450" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -27426,17 +27426,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Aug 25 11:15:08 PDT 2026</date>
+      <date>Tue Aug 25 11:35:59 PDT 2026</date>
       <filename>PanelPro (v5.17.2)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Aug 25 11:15:22 PDT 2026</date>
+      <date>Tue Aug 25 11:36:13 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Aug 25 11:18:00 PDT 2026</date>
+      <date>Tue Aug 25 11:37:35 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
