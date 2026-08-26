@@ -473,8 +473,8 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS90</systemName>
-      <userName>Vista Doering LS90 BDL (6,DS10)</userName>
-      <comment>Called Approach from Doering mine</comment>
+      <userName>LS90 BDL (6,DS10)</userName>
+      <comment>Unused or not documented. Reserved</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS91</systemName>
@@ -4550,8 +4550,6 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT77</systemName>
-      <userName>Troy E 4 Icing</userName>
-      <comment>DS52 address 1</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4561,8 +4559,6 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT78</systemName>
-      <userName>Troy DS62 output 2 unused</userName>
-      <comment>DS52 address 2 - can be changed. Unused</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5015,9 +5011,6 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT148</systemName>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT154</systemName>
       <userName>Midway E Team 1</userName>
       <properties>
@@ -5209,9 +5202,6 @@
           <value class="java.lang.Boolean">false</value>
         </property>
       </properties>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT181</systemName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT183</systemName>
@@ -16893,7 +16883,7 @@
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 4">
+    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 4">
       <systemName>ILB46</systemName>
       <userName>Delta 4</userName>
     </layoutblock>
@@ -17348,7 +17338,7 @@
       <systemName>ILB163</systemName>
       <userName>Midway below LT52</userName>
     </layoutblock>
-    <layoutblock systemName="ILB164" occupancysensor="Midway LS24 power spur plus turnout" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+    <layoutblock systemName="ILB164" occupancysensor="Midway LS24 power spur plus turnout" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
       <systemName>ILB164</systemName>
       <userName>Midway East Engine Pocket</userName>
     </layoutblock>
@@ -17500,7 +17490,7 @@
       <systemName>ILB202</systemName>
       <userName>Midway East P 2 Stopping Block</userName>
     </layoutblock>
-    <layoutblock systemName="ILB203" occupancysensor="Midway LS27 track 1 east stopping block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB203" occupancysensor="Midway LS27 track 1 east stopping block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB203</systemName>
       <userName>Midway East P 1 Stopping Block</userName>
     </layoutblock>
@@ -19484,547 +19474,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="190.0" y="221.0" connect1name="T3" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="24.0" y="260.0" connect1name="T6" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Area" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
-      <mainBallastColor>#000000</mainBallastColor>
-      <mainBallastWidth>0</mainBallastWidth>
-      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
-      <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#000000</mainRailColor>
-      <mainRailCount>1</mainRailCount>
-      <mainRailGap>0</mainRailGap>
-      <mainRailWidth>4</mainRailWidth>
-      <mainTieColor>#000000</mainTieColor>
-      <mainTieGap>0</mainTieGap>
-      <mainTieLength>0</mainTieLength>
-      <mainTieWidth>0</mainTieWidth>
-      <sideBallastColor>#000000</sideBallastColor>
-      <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
-      <sideBlockLineWidth>2</sideBlockLineWidth>
-      <sideRailColor>#000000</sideRailColor>
-      <sideRailCount>1</sideRailCount>
-      <sideRailGap>0</sideRailGap>
-      <sideRailWidth>2</sideRailWidth>
-      <sideTieColor>#000000</sideTieColor>
-      <sideTieGap>0</sideTieGap>
-      <sideTieLength>0</sideTieLength>
-      <sideTieWidth>0</sideTieWidth>
-    </layoutTrackDrawingOptions>
-    <positionablelabel x="170" y="185" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS204" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="115" y="185" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="350" y="205" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS210" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="380" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS224" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="405" y="245" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS222" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="705" y="275" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS184" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="730" y="245" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS178" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="760" y="275" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="815" y="255" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS182" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="875" y="255" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS180" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="65" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="960" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="490" y="140" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="490" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="495" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="495" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" connectaname="T52" connectbname="T25" connectcname="T45" />
-    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="890.0" ycen="120.0" xa="905.0" ya="120.0" xb="875.0" yb="120.0" xc="875.0" yc="130.0" xd="905.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" secondturnoutinverted="true" connectaname="T25" connectbname="T37" connectcname="T21" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="815.0" ycen="160.0" xa="830.0" ya="160.0" xb="800.0" yb="160.0" xc="800.0" yc="170.0" xd="830.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard E 1" connectaname="T22" connectbname="T26" connectcname="T27" />
-    <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="860.0" ycen="140.0" xa="847.52" ya="148.32" xb="872.48" yb="131.68" xc="878.03" yc="140.0" xd="847.52" yd="148.32" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" connectaname="T22" connectbname="T21" connectcname="T56" />
-    <layoutturnout ident="TO27" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="785.0" ycen="160.0" xa="800.0" ya="160.0" xb="770.0" yb="160.0" xc="770.0" yc="150.0" xd="800.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard E 2" connectaname="T26" connectbname="T33" connectcname="T35" />
-    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="785.0" ycen="180.0" xa="797.48" ya="171.68" xb="772.52" yb="188.32" xc="766.97" yc="180.0" xd="797.48" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="VistaYd E 3 LT198 partner" secondturnoutname="VistaYd E 3" connectaname="T27" connectbname="T28" connectcname="T32" />
-    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="755.0" ycen="200.0" xa="740.0" ya="200.0" xb="770.0" yb="200.0" xc="770.0" yc="190.0" xd="740.0" yd="200.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="VistaYd E 3" secondturnoutname="VistaYd E 3 LT198 partner" connectaname="T29" connectbname="T55" connectcname="T28" />
-    <layoutturnout ident="TO31" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="370.0" ycen="140.0" xa="355.0" ya="140.0" xb="385.0" yb="140.0" xc="385.0" yc="150.0" xd="355.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard W 1" connectaname="T38" connectbname="T34" connectcname="T30" />
-    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="400.0" ycen="160.0" xa="387.52" ya="151.68" xb="412.48" yb="168.32" xc="418.03" yc="160.0" xd="387.52" yd="151.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard W 2" connectaname="T30" connectbname="T31" connectcname="T33" />
-    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="430.0" ycen="180.0" xa="417.52" ya="171.68" xb="442.48" yb="188.32" xc="448.03" yc="180.0" xd="417.52" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yd W 3" connectaname="T31" connectbname="T36" connectcname="T32" />
-    <layoutturnout ident="TO36" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="280.0" ycen="130.0" xa="250.0" ya="120.0" xb="290.0" yb="120.0" xc="310.0" yc="140.0" xd="270.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Vista W 2 MainW -VistaYard W" connectaname="T42" connectbname="T37" connectcname="T38" connectdname="T48" />
-    <layoutturnout ident="TO44" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="235.0" ycen="120.0" xa="220.0" ya="120.0" xb="250.0" yb="120.0" xc="255.0" yc="105.0" xd="220.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista W 1" connectaname="T46" connectbname="T42" connectcname="T44" />
-    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="815.0" ycen="190.0" xa="800.0" ya="195.0" xb="830.0" yb="185.0" xc="835.0" yc="200.0" xd="800.0" yd="195.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard E 4" connectaname="T54" connectbname="T58" connectcname="T57" />
-    <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="175.0" ycen="135.0" xa="184.16" ya="137.77" xb="166.68" yb="129.45" xc="165.0" yc="135.0" xd="183.32" yd="140.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye asile turnouts" secondturnoutname="VistaYd Wye LT196 asile turnouts partner" connectaname="T48" connectbname="T39" connectcname="T41" />
-    <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="135.0" ycen="55.0" xa="140.3" ya="42.2" xb="124.39" yb="65.61" xc="135.0" yc="70.0" xd="145.61" yd="44.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye mine end" connectaname="T2" connectbname="T40" connectcname="T39" />
-    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="60.0" ycen="135.0" xa="51.47" ya="138.53" xb="70.0" yb="135.0" xc="67.07" yc="127.93" xd="50.0" yd="135.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye LT196 asile turnouts partner" secondturnoutname="VistaYd Wye asile turnouts" connectaname="T1" connectbname="T41" connectcname="T40" />
-    <tracksegment ident="T21" connect1name="TO26" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T22" connect1name="TO23" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T25" connect1name="TO18" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" connect1name="TO27" type1="TURNOUT_A" connect2name="TO23" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" connect1name="TO28" type1="TURNOUT_A" connect2name="TO23" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T28" connect1name="TO30" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T30" connect1name="TO32" type1="TURNOUT_A" connect2name="TO31" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T31" connect1name="TO33" type1="TURNOUT_A" connect2name="TO32" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T29" connect1name="A17" type1="POS_POINT" connect2name="TO30" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T32" connect1name="TO33" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T33" connect1name="TO32" type1="TURNOUT_C" connect2name="TO27" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T34" connect1name="TO31" type1="TURNOUT_B" connect2name="A16" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T35" connect1name="A16" type1="POS_POINT" connect2name="TO27" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T36" connect1name="TO33" type1="TURNOUT_B" connect2name="A17" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T37" connect1name="TO36" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T38" connect1name="TO31" type1="TURNOUT_A" connect2name="TO36" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T39" connect1name="TO10" type1="TURNOUT_C" connect2name="TO9" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" arc="yes" flip="yes" circle="yes" angle="47.406722530919104" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T42" connect1name="TO44" type1="TURNOUT_B" connect2name="TO36" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T43" connect1name="A24" type1="POS_POINT" connect2name="A25" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T44" connect1name="A25" type1="POS_POINT" connect2name="TO44" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T45" connect1name="A24" type1="POS_POINT" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T48" connect1name="TO36" type1="TURNOUT_D" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="225.61" y="140.28" />
-        <controlpoint index="1" x="195.61" y="140.28" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T52" connect1name="TO18" type1="TURNOUT_A" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T54" connect1name="TO45" type1="TURNOUT_A" connect2name="A35" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T55" connect1name="A35" type1="POS_POINT" connect2name="TO30" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T56" connect1name="TO26" type1="TURNOUT_C" connect2name="EB8" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T57" connect1name="TO45" type1="TURNOUT_C" connect2name="EB7" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T58" connect1name="TO45" type1="TURNOUT_B" connect2name="A34" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T59" connect1name="A34" type1="POS_POINT" connect2name="EB9" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T63" connect1name="A1" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T46" connect1name="TO44" type1="TURNOUT_A" connect2name="EB11" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="86.23287608077806" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T40" connect1name="TO11" type1="TURNOUT_C" connect2name="TO10" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T41" connect1name="TO11" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T1" connect1name="TO11" type1="TURNOUT_A" connect2name="EB2" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T2" connect1name="TO10" type1="TURNOUT_A" connect2name="A26" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" connect1name="EC2" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="A16" type="ANCHOR" x="755.0" y="140.0" connect1name="T34" connect2name="T35" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A17" type="ANCHOR" x="460.0" y="200.0" connect1name="T29" connect2name="T36" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A24" type="ANCHOR" x="895.0" y="100.0" connect1name="T43" connect2name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A25" type="ANCHOR" x="275.0" y="100.0" connect1name="T43" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB11" type="END_BUMPER" x="170.0" y="65.0" connect1name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A3" type="ANCHOR" x="985.0" y="100.0" connect1name="T63" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A35" type="ANCHOR" x="785.0" y="200.0" connect1name="T54" connect2name="T55" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB7" type="END_BUMPER" x="905.0" y="200.0" connect1name="T57" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB8" type="END_BUMPER" x="940.0" y="140.0" connect1name="T56" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB9" type="END_BUMPER" x="910.0" y="180.0" connect1name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A34" type="ANCHOR" x="865.0" y="180.0" connect1name="T58" connect2name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A1" type="ANCHOR" x="973.0" y="114.0" connect1name="T52" connect2name="T63" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A26" type="ANCHOR" x="145.0" y="30.0" connect1name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB2" type="END_BUMPER" x="40.0" y="145.0" connect1name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="999.0" y="83.0" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-  </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Doering Branch" x="182" y="26" windowheight="478" windowwidth="566" panelheight="375" panelwidth="505" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
-      <mainBallastColor>#000000</mainBallastColor>
-      <mainBallastWidth>0</mainBallastWidth>
-      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
-      <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#000000</mainRailColor>
-      <mainRailCount>1</mainRailCount>
-      <mainRailGap>0</mainRailGap>
-      <mainRailWidth>4</mainRailWidth>
-      <mainTieColor>#000000</mainTieColor>
-      <mainTieGap>0</mainTieGap>
-      <mainTieLength>0</mainTieLength>
-      <mainTieWidth>0</mainTieWidth>
-      <sideBallastColor>#000000</sideBallastColor>
-      <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
-      <sideBlockLineWidth>2</sideBlockLineWidth>
-      <sideRailColor>#000000</sideRailColor>
-      <sideRailCount>1</sideRailCount>
-      <sideRailGap>0</sideRailGap>
-      <sideRailWidth>2</sideRailWidth>
-      <sideTieColor>#000000</sideTieColor>
-      <sideTieGap>0</sideTieGap>
-      <sideTieLength>0</sideTieLength>
-      <sideTieWidth>0</sideTieWidth>
-    </layoutTrackDrawingOptions>
-    <positionablelabel x="400" y="75" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS474" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="90" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS476" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS488" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS484" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="135" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS482" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="105" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS478" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS480" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="400" y="165" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS486" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="335.0" ycen="265.0" xa="360.0" ya="265.0" xb="310.0" yb="265.0" xc="320.0" yc="255.0" xd="360.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 535" connectaname="T49" connectbname="T31" connectcname="T14" />
-    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="300.0" ycen="245.0" xa="310.0" ya="250.0" xb="290.0" yb="240.0" xc="285.0" yc="245.0" xd="310.0" yd="250.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 536" connectaname="T14" connectbname="T21" connectcname="T27" />
-    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="60.0" ycen="70.0" xa="55.0" ya="55.0" xb="65.0" yb="85.0" xc="77.17" yc="84.33" xd="55.0" yd="55.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 538" connectaname="T50" connectbname="T26" connectcname="T28" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="70.0" ycen="105.0" xa="66.55" ya="90.4" xb="73.45" yb="119.6" xc="60.0" yc="125.0" xd="66.55" yd="90.4" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 537" connectaname="T26" connectbname="T25" connectcname="T32" />
-    <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="255.0" ycen="265.0" xa="270.0" ya="265.0" xb="240.0" yb="265.0" xc="245.0" yc="275.0" xd="270.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 542" connectaname="T31" connectbname="T36" connectcname="T38" />
-    <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="225.0" ycen="285.0" xa="235.0" ya="280.0" xb="215.0" yb="290.0" xc="200.0" yc="285.0" xd="235.0" yd="280.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 541" connectaname="T38" connectbname="T44" connectcname="T40" />
-    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="180.0" ycen="285.0" xa="195.0" ya="285.0" xb="165.0" yb="285.0" xc="165.0" yc="280.0" xd="195.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 539" connectaname="T40" connectbname="T45" connectcname="T41" />
-    <layoutturnout ident="TO16" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="190.0" ycen="305.0" xa="203.42" ya="298.29" xb="176.58" yb="311.71" xc="170.0" yc="305.0" xd="203.42" yd="298.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 540" connectaname="T44" connectbname="T47" connectcname="T46" />
-    <tracksegment ident="T14" connect1name="TO10" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T21" connect1name="TO10" type1="TURNOUT_B" connect2name="A55" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T26" connect1name="TO12" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T22" connect1name="A55" type1="POS_POINT" connect2name="A61" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T28" connect1name="TO11" type1="TURNOUT_C" connect2name="A56" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T29" connect1name="A56" type1="POS_POINT" connect2name="A57" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T30" connect1name="A57" type1="POS_POINT" connect2name="A48" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="110.0" y="160.0" />
-        <controlpoint index="1" x="135.0" y="220.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T31" connect1name="TO9" type1="TURNOUT_B" connect2name="TO13" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T32" connect1name="TO12" type1="TURNOUT_C" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T33" connect1name="A51" type1="POS_POINT" connect2name="A52" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T34" connect1name="A52" type1="POS_POINT" connect2name="A60" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="80.0" y="205.0" />
-        <controlpoint index="1" x="115.0" y="260.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T35" connect1name="A60" type1="POS_POINT" connect2name="A59" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T36" connect1name="A59" type1="POS_POINT" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T37" connect1name="A61" type1="POS_POINT" connect2name="A48" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T38" connect1name="TO14" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T25" connect1name="TO12" type1="TURNOUT_B" connect2name="A62" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" connect1name="TO10" type1="TURNOUT_C" connect2name="A63" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T39" connect1name="A63" type1="POS_POINT" connect2name="A62" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="135.0" y="240.0" />
-        <controlpoint index="1" x="100.0" y="205.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T42" connect1name="A66" type1="POS_POINT" connect2name="EB7" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T40" connect1name="TO15" type1="TURNOUT_A" connect2name="TO14" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T41" connect1name="TO15" type1="TURNOUT_C" connect2name="A69" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T43" connect1name="A69" type1="POS_POINT" connect2name="A66" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="110.0" y="265.0" />
-        <controlpoint index="1" x="65.0" y="225.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T44" connect1name="TO14" type1="TURNOUT_B" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T45" connect1name="TO15" type1="TURNOUT_B" connect2name="EB8" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T46" connect1name="TO16" type1="TURNOUT_C" connect2name="EB9" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T47" connect1name="TO16" type1="TURNOUT_B" connect2name="A73" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T48" connect1name="A73" type1="POS_POINT" connect2name="EB10" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T49" connect1name="EB11" type1="POS_POINT" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="start" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T50" connect1name="TO11" type1="TURNOUT_A" connect2name="EB12" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="A48" type="ANCHOR" x="205.0" y="225.0" connect1name="T37" connect2name="T30" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A51" type="ANCHOR" x="60.0" y="140.0" connect1name="T32" connect2name="T33" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A52" type="ANCHOR" x="65.0" y="160.0" connect1name="T33" connect2name="T34" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A55" type="ANCHOR" x="270.0" y="230.0" connect1name="T21" connect2name="T22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A56" type="ANCHOR" x="90.0" y="100.0" connect1name="T28" connect2name="T29" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A57" type="ANCHOR" x="95.0" y="120.0" connect1name="T29" connect2name="T30" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A59" type="ANCHOR" x="215.0" y="265.0" connect1name="T35" connect2name="T36" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A60" type="ANCHOR" x="200.0" y="265.0" connect1name="T34" connect2name="T35" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A61" type="ANCHOR" x="240.0" y="225.0" connect1name="T22" connect2name="T37" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A62" type="ANCHOR" x="80.0" y="135.0" connect1name="T25" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A63" type="ANCHOR" x="205.0" y="245.0" connect1name="T27" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB7" type="END_BUMPER" x="40.0" y="160.0" connect1name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A66" type="ANCHOR" x="50.0" y="180.0" connect1name="T42" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB8" type="END_BUMPER" x="50.0" y="285.0" connect1name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A69" type="ANCHOR" x="145.0" y="275.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB9" type="END_BUMPER" x="50.0" y="305.0" connect1name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB10" type="END_BUMPER" x="50.0" y="325.0" connect1name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A73" type="ANCHOR" x="155.0" y="325.0" connect1name="T47" connect2name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB11" type="END_BUMPER" x="455.0" y="265.0" connect1name="T49" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB12" type="END_BUMPER" x="50.0" y="45.0" connect1name="T50" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-  </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="McSweeny Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
-      <mainBallastColor>#000000</mainBallastColor>
-      <mainBallastWidth>0</mainBallastWidth>
-      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
-      <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#000000</mainRailColor>
-      <mainRailCount>1</mainRailCount>
-      <mainRailGap>0</mainRailGap>
-      <mainRailWidth>4</mainRailWidth>
-      <mainTieColor>#000000</mainTieColor>
-      <mainTieGap>0</mainTieGap>
-      <mainTieLength>0</mainTieLength>
-      <mainTieWidth>0</mainTieWidth>
-      <sideBallastColor>#000000</sideBallastColor>
-      <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
-      <sideBlockLineWidth>2</sideBlockLineWidth>
-      <sideRailColor>#000000</sideRailColor>
-      <sideRailCount>1</sideRailCount>
-      <sideRailGap>0</sideRailGap>
-      <sideRailWidth>2</sideRailWidth>
-      <sideTieColor>#000000</sideTieColor>
-      <sideTieGap>0</sideTieGap>
-      <sideTieLength>0</sideTieLength>
-      <sideTieWidth>0</sideTieWidth>
-    </layoutTrackDrawingOptions>
-    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="385" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="McSweeny Branch" fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="75.0" ycen="311.0" xa="60.0" ya="311.0" xb="90.0" yb="311.0" xc="90.0" yc="321.0" xd="60.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="105.0" ycen="331.0" xa="92.52" ya="322.68" xb="117.48" yb="339.32" xc="123.03" yc="331.0" xd="92.52" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
-    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="135.0" ycen="351.0" xa="122.52" ya="342.68" xb="147.48" yb="359.32" xc="153.03" yc="351.0" xd="122.52" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="165.0" ycen="371.0" xa="180.0" ya="371.0" xb="150.0" yb="371.0" xc="150.0" yc="361.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
-    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="195.0" ycen="371.0" xa="180.0" ya="371.0" xb="210.0" yb="371.0" xc="210.0" yc="381.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
-    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="400.0" ycen="371.0" xa="385.0" ya="371.0" xb="415.0" yb="371.0" xc="415.0" yc="361.0" xd="385.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" />
-    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1017.0" ycen="244.0" xa="1029.45" ya="235.64" xb="1004.55" yb="252.36" xc="998.97" yc="244.06" xd="1029.45" yd="235.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1048.0" ycen="214.0" xa="1058.2" ya="203.0" xb="1037.8" yb="225.0" xc="1030.47" yc="218.2" xd="1058.2" yd="203.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1072.0" ycen="179.0" xa="1079.4" ya="165.95" xb="1064.6" yb="192.05" xc="1055.9" yc="187.12" xd="1079.4" yd="165.95" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1087.0" ycen="139.0" xa="1091.2" ya="124.6" xb="1082.8" yb="153.4" xc="1073.2" yc="150.6" xd="1091.2" yd="124.6" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="605.0" y="270.0" />
-        <controlpoint index="1" x="650.0" y="147.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="910.0" y="190.0" />
-        <controlpoint index="1" x="1000.0" y="170.0" />
-      </controlpoints>
-    </tracksegment>
-    <positionablepoint ident="A48" type="ANCHOR" x="445.0" y="272.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A49" type="ANCHOR" x="820.0" y="175.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-  </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Colton Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
-      <mainBallastColor>#000000</mainBallastColor>
-      <mainBallastWidth>0</mainBallastWidth>
-      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
-      <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#000000</mainRailColor>
-      <mainRailCount>1</mainRailCount>
-      <mainRailGap>0</mainRailGap>
-      <mainRailWidth>4</mainRailWidth>
-      <mainTieColor>#000000</mainTieColor>
-      <mainTieGap>0</mainTieGap>
-      <mainTieLength>0</mainTieLength>
-      <mainTieWidth>0</mainTieWidth>
-      <sideBallastColor>#000000</sideBallastColor>
-      <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
-      <sideBlockLineWidth>2</sideBlockLineWidth>
-      <sideRailColor>#000000</sideRailColor>
-      <sideRailCount>1</sideRailCount>
-      <sideRailGap>0</sideRailGap>
-      <sideRailWidth>2</sideRailWidth>
-      <sideTieColor>#000000</sideTieColor>
-      <sideTieGap>0</sideTieGap>
-      <sideTieLength>0</sideTieLength>
-      <sideTieWidth>0</sideTieWidth>
-    </layoutTrackDrawingOptions>
-    <positionablelabel x="115" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="305" y="220" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Colton Industrial Zone" fontFamily="Dialog" fontname="Dialog" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="75.0" ycen="311.0" xa="60.0" ya="311.0" xb="90.0" yb="311.0" xc="90.0" yc="321.0" xd="60.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="105.0" ycen="331.0" xa="92.52" ya="322.68" xb="117.48" yb="339.32" xc="123.03" yc="331.0" xd="92.52" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
-    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="135.0" ycen="351.0" xa="122.52" ya="342.68" xb="147.48" yb="359.32" xc="153.03" yc="351.0" xd="122.52" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="165.0" ycen="371.0" xa="180.0" ya="371.0" xb="150.0" yb="371.0" xc="150.0" yc="361.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
-    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="195.0" ycen="371.0" xa="180.0" ya="371.0" xb="210.0" yb="371.0" xc="210.0" yc="381.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
-    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="400.0" ycen="371.0" xa="385.0" ya="371.0" xb="415.0" yb="371.0" xc="415.0" yc="361.0" xd="385.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" />
-    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1017.0" ycen="244.0" xa="1029.45" ya="235.64" xb="1004.55" yb="252.36" xc="998.97" yc="244.06" xd="1029.45" yd="235.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1048.0" ycen="214.0" xa="1058.2" ya="203.0" xb="1037.8" yb="225.0" xc="1030.47" yc="218.2" xd="1058.2" yd="203.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1072.0" ycen="179.0" xa="1079.4" ya="165.95" xb="1064.6" yb="192.05" xc="1055.9" yc="187.12" xd="1079.4" yd="165.95" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1087.0" ycen="139.0" xa="1091.2" ya="124.6" xb="1082.8" yb="153.4" xc="1073.2" yc="150.6" xd="1091.2" yd="124.6" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
-    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="605.0" y="270.0" />
-        <controlpoint index="1" x="650.0" y="147.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="910.0" y="190.0" />
-        <controlpoint index="1" x="1000.0" y="170.0" />
-      </controlpoints>
-    </tracksegment>
-    <positionablepoint ident="A48" type="ANCHOR" x="445.0" y="272.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A49" type="ANCHOR" x="820.0" y="175.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-  </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Troy Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1391" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
-    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
-      <mainBallastColor>#000000</mainBallastColor>
-      <mainBallastWidth>0</mainBallastWidth>
-      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
-      <mainBlockLineWidth>4</mainBlockLineWidth>
-      <mainRailColor>#000000</mainRailColor>
-      <mainRailCount>1</mainRailCount>
-      <mainRailGap>0</mainRailGap>
-      <mainRailWidth>4</mainRailWidth>
-      <mainTieColor>#000000</mainTieColor>
-      <mainTieGap>0</mainTieGap>
-      <mainTieLength>0</mainTieLength>
-      <mainTieWidth>0</mainTieWidth>
-      <sideBallastColor>#000000</sideBallastColor>
-      <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
-      <sideBlockLineWidth>2</sideBlockLineWidth>
-      <sideRailColor>#000000</sideRailColor>
-      <sideRailCount>1</sideRailCount>
-      <sideRailGap>0</sideRailGap>
-      <sideRailWidth>2</sideRailWidth>
-      <sideTieColor>#000000</sideTieColor>
-      <sideTieGap>0</sideTieGap>
-      <sideTieLength>0</sideTieLength>
-      <sideTieWidth>0</sideTieWidth>
-    </layoutTrackDrawingOptions>
-    <positionablelabel x="170" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS204" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="115" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="350" y="833" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS210" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="380" y="853" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS224" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="405" y="873" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS222" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="705" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS184" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="730" y="808" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS178" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="760" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="815" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS182" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="875" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS180" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="430" y="5" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Troy Industrial Zone and area" fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="300" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="311.0" xa="-15.0" ya="311.0" xb="15.0" yb="311.0" xc="15.0" yc="321.0" xd="-15.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="331.0" xa="-12.48" ya="322.68" xb="12.48" yb="339.32" xc="18.03" yc="331.0" xd="-12.48" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
-    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="351.0" xa="-12.48" ya="342.68" xb="12.48" yb="359.32" xc="18.03" yc="351.0" xd="-12.48" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="9.0" ycen="371.0" xa="24.0" ya="371.0" xb="-6.0" yb="371.0" xc="-6.0" yc="361.0" xd="24.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
-    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="39.0" ycen="371.0" xa="24.0" ya="371.0" xb="54.0" yb="371.0" xc="54.0" yc="381.0" xd="24.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
-    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="154.0" ycen="370.0" xa="134.0" ya="370.0" xb="174.0" yb="370.0" xc="169.0" yc="360.0" xd="134.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" connectbname="T15" connectcname="T12" />
-    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1254.29" ycen="442.19" xa="1266.74" ya="433.83" xb="1241.84" yb="450.55" xc="1236.26" yc="442.25" xd="1266.74" yd="433.83" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T10" connectbname="T16" connectcname="T13" />
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1279.19" ycen="425.46" xa="1291.64" ya="417.09" xb="1266.74" yb="433.83" xc="1261.16" yc="425.53" xd="1291.64" yd="417.09" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T9" connectbname="T10" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1304.1" ycen="408.73" xa="1316.56" ya="400.36" xb="1291.64" yb="417.1" xc="1286.06" yc="408.8" xd="1316.56" yd="400.36" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T8" connectbname="T9" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1329.0" ycen="392.0" xa="1341.45" ya="383.64" xb="1316.55" yb="400.36" xc="1310.97" yc="392.06" xd="1341.45" yd="383.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectbname="T8" />
-    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="215.0" ycen="370.0" xa="200.0" ya="370.0" xb="230.0" yb="370.0" xc="230.0" yc="360.0" xd="200.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T15" connectbname="T27" connectcname="T14" />
-    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="285.0" ycen="370.0" xa="270.0" ya="370.0" xb="300.0" yb="370.0" xc="300.0" yc="360.0" xd="270.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T27" connectbname="T31" />
-    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="276.0" ycen="333.0" xa="261.94" ya="338.23" xb="290.06" yb="327.77" xc="286.57" yc="318.4" xd="261.94" yd="338.23" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T14" connectbname="T42" connectcname="T41" />
-    <layoutturnout ident="TO17" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1070.0" ycen="479.0" xa="1031.76" ya="462.55" xb="1085.0" yb="473.0" xc="1108.24" yc="495.45" xd="1055.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T18" connectbname="T16" connectcname="T17" connectdname="T32" />
-    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1295.0" ycen="529.0" xa="1309.6" ya="525.55" xb="1280.4" yb="532.45" xc="1278.1" yc="522.71" xd="1309.6" yd="525.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T17" />
-    <layoutturnout ident="TO19" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="399.0" ycen="370.0" xa="384.0" ya="370.0" xb="414.0" yb="370.0" xc="414.0" yc="380.0" xd="384.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T31" connectbname="T30" connectcname="T28" />
-    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="995.0" ycen="445.0" xa="1005.0" ya="450.0" xb="985.0" yb="440.0" xc="975.0" yc="445.0" xd="1005.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T18" connectbname="T19" connectcname="T20" />
-    <layoutturnout ident="TO21" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="950.0" ycen="419.0" xa="970.0" ya="429.0" xb="930.0" yb="409.0" xc="930.0" yc="419.0" xd="970.0" yd="429.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T19" connectbname="T22" connectcname="T21" />
-    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="935.0" ycen="444.0" xa="950.0" ya="444.0" xb="920.0" yb="444.0" xc="925.0" yc="455.0" xd="950.0" yd="444.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T20" connectbname="T38" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="865.0" ycen="419.0" xa="880.0" ya="419.0" xb="850.0" yb="419.0" xc="850.0" yc="429.0" xd="880.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T21" connectbname="T40" connectcname="T39" />
-    <layoutturnout ident="TO39" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="910.0" ycen="399.0" xa="896.58" ya="392.29" xb="923.42" yb="405.71" xc="930.0" yc="399.0" xd="896.58" yd="392.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T26" connectbname="T22" connectcname="T23" />
-    <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="975.0" ycen="399.0" xa="985.0" ya="404.0" xb="965.0" yb="394.0" xc="955.0" yc="399.0" xd="985.0" yd="404.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T24" connectbname="T25" connectcname="T23" />
-    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="870.0" ycen="375.0" xa="885.0" ya="385.0" xb="855.0" yb="365.0" xc="850.0" yc="375.0" xd="885.0" yd="385.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T26" connectbname="T43" connectcname="T44" />
-    <layoutturnout ident="TO43" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="469.0" ycen="370.0" xa="454.0" ya="370.0" xb="484.0" yb="370.0" xc="484.0" yc="380.0" xd="454.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T30" connectbname="T40" connectcname="T29" />
-    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="454.0" ycen="395.0" xa="439.4" ya="391.55" xb="468.6" yb="398.45" xc="466.3" yc="408.18" xd="439.4" yd="391.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T28" connectbname="T38" connectcname="T37" />
-    <layoutturnout ident="TO49" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="760.0" ycen="475.0" xa="745.0" ya="475.0" xb="775.0" yb="475.0" xc="775.0" yc="485.0" xd="745.0" yd="475.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T37" />
-    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="389.0" y="200.0" />
-        <controlpoint index="1" x="600.0" y="75.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="1065.0" y="409.0" />
-        <controlpoint index="1" x="1135.0" y="439.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T8" connect1name="TO12" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T9" connect1name="TO11" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T10" connect1name="TO10" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T11" connect1name="A49" type1="POS_POINT" connect2name="A50" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T12" connect1name="A48" type1="POS_POINT" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T13" connect1name="A51" type1="POS_POINT" connect2name="TO10" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T14" connect1name="TO15" type1="TURNOUT_A" connect2name="TO14" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T15" connect1name="TO9" type1="TURNOUT_B" connect2name="TO14" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T16" connect1name="TO17" type1="TURNOUT_B" connect2name="TO10" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="1190.0" y="494.0" />
-        <controlpoint index="1" x="1225.0" y="469.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T17" connect1name="TO17" type1="TURNOUT_C" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <controlpoints>
-        <controlpoint index="0" x="1175.0" y="509.0" />
-        <controlpoint index="1" x="1235.0" y="504.0" />
-      </controlpoints>
-    </tracksegment>
-    <tracksegment ident="T18" connect1name="TO20" type1="TURNOUT_A" connect2name="TO17" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T19" connect1name="TO21" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T20" connect1name="TO22" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T21" connect1name="TO23" type1="TURNOUT_A" connect2name="TO21" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T22" connect1name="TO39" type1="TURNOUT_B" connect2name="TO21" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T23" connect1name="TO40" type1="TURNOUT_C" connect2name="TO39" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T24" connect1name="TO40" type1="TURNOUT_A" connect2name="EB3" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T25" connect1name="TO40" type1="TURNOUT_B" connect2name="EB2" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations>
-        <bumper end="stop" color="#000000" linewidth="8" length="8" />
-      </decorations>
-    </tracksegment>
-    <tracksegment ident="T26" connect1name="TO41" type1="TURNOUT_A" connect2name="TO39" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T27" connect1name="TO14" type1="TURNOUT_B" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T28" connect1name="TO45" type1="TURNOUT_A" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T29" connect1name="A26" type1="POS_POINT" connect2name="TO43" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T30" connect1name="TO43" type1="TURNOUT_A" connect2name="TO19" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T31" connect1name="TO19" type1="TURNOUT_A" connect2name="TO16" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T32" connect1name="TO17" type1="TURNOUT_D" connect2name="A15" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T37" connect1name="TO45" type1="TURNOUT_C" connect2name="TO49" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T38" connect1name="TO45" type1="TURNOUT_B" connect2name="TO22" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T39" connect1name="A26" type1="POS_POINT" connect2name="TO23" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T40" connect1name="TO43" type1="TURNOUT_B" connect2name="TO23" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T41" connect1name="TO15" type1="TURNOUT_C" connect2name="A27" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T42" connect1name="TO15" type1="TURNOUT_B" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T43" connect1name="A27" type1="POS_POINT" connect2name="TO41" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T44" connect1name="A28" type1="POS_POINT" connect2name="TO41" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <positionablepoint ident="A48" type="ANCHOR" x="189.0" y="345.0" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A49" type="ANCHOR" x="915.0" y="349.0" connect1name="T6" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A50" type="ANCHOR" x="980.0" y="374.0" connect1name="T7" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A51" type="ANCHOR" x="1195.0" y="444.0" connect1name="T7" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A1" type="ANCHOR" x="69.0" y="390.0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A4" type="ANCHOR" x="1065.0" y="549.0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB2" type="END_BUMPER" x="895.0" y="359.0" connect1name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB3" type="END_BUMPER" x="1070.0" y="449.0" connect1name="T24" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A15" type="ANCHOR" x="1015.0" y="480.0" connect1name="T32" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A26" type="ANCHOR" x="499.4" y="386.55" connect1name="T29" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A27" type="ANCHOR" x="575.0" y="220.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A28" type="ANCHOR" x="580.0" y="240.0" connect1name="T42" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-  </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="807" panelwidth="1451" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="2552" y="-8" windowheight="1408" windowwidth="2576" panelheight="805" panelwidth="1450" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -22990,7 +22440,6 @@
     <positionablelabel x="831" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" degrees="90" text="----" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="20" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="860" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Use Gary or Hudson siding" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="255" greenBack="0" blueBack="0" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="720" y="670" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Doering Branch - Wiring issue - OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="675" y="585" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="False detection V-W Restricted" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="900" y="287" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Midway E spurs no power OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="130" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="755" y="287" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Midway W spurs ladder short OoS" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="yes" redBack="0" greenBack="255" blueBack="255" fixedWidth="135" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="700" y="695" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Panel version" fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="255" green="255" blue="255" hasBackground="no" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -27434,20 +26883,560 @@
     <positionablepoint ident="A39" type="ANCHOR" x="1040.0" y="535.0" connect1name="T14" connect2name="T241" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Area" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="170" y="185" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS204" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="115" y="185" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="350" y="205" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS210" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="380" y="225" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS224" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="405" y="245" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS222" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="705" y="275" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS184" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="730" y="245" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS178" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="760" y="275" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="815" y="255" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS182" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="875" y="255" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS180" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="65" y="45" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="960" y="40" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="490" y="140" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="490" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="495" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="495" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Vista Yard 4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="940.0" ycen="120.0" xa="955.0" ya="120.0" xb="925.0" yb="120.0" xc="920.0" yc="105.0" xd="955.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 1" connectaname="T52" connectbname="T25" connectcname="T45" />
+    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="890.0" ycen="120.0" xa="905.0" ya="120.0" xb="875.0" yb="120.0" xc="875.0" yc="130.0" xd="905.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E" secondturnoutname="Vista E 2 MainE -VistaYard E partner" secondturnoutinverted="true" connectaname="T25" connectbname="T37" connectcname="T21" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="815.0" ycen="160.0" xa="830.0" ya="160.0" xb="800.0" yb="160.0" xc="800.0" yc="170.0" xd="830.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard E 1" connectaname="T22" connectbname="T26" connectcname="T27" />
+    <layoutturnout ident="TO26" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="860.0" ycen="140.0" xa="847.52" ya="148.32" xb="872.48" yb="131.68" xc="878.03" yc="140.0" xd="847.52" yd="148.32" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" connectaname="T22" connectbname="T21" connectcname="T56" />
+    <layoutturnout ident="TO27" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="785.0" ycen="160.0" xa="800.0" ya="160.0" xb="770.0" yb="160.0" xc="770.0" yc="150.0" xd="800.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard E 2" connectaname="T26" connectbname="T33" connectcname="T35" />
+    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="785.0" ycen="180.0" xa="797.48" ya="171.68" xb="772.52" yb="188.32" xc="766.97" yc="180.0" xd="797.48" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="VistaYd E 3 LT198 partner" secondturnoutname="VistaYd E 3" connectaname="T27" connectbname="T28" connectcname="T32" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="755.0" ycen="200.0" xa="740.0" ya="200.0" xb="770.0" yb="200.0" xc="770.0" yc="190.0" xd="740.0" yd="200.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="VistaYd E 3" secondturnoutname="VistaYd E 3 LT198 partner" connectaname="T29" connectbname="T55" connectcname="T28" />
+    <layoutturnout ident="TO31" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="370.0" ycen="140.0" xa="355.0" ya="140.0" xb="385.0" yb="140.0" xc="385.0" yc="150.0" xd="355.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard W 1" connectaname="T38" connectbname="T34" connectcname="T30" />
+    <layoutturnout ident="TO32" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="400.0" ycen="160.0" xa="387.52" ya="151.68" xb="412.48" yb="168.32" xc="418.03" yc="160.0" xd="387.52" yd="151.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yard W 2" connectaname="T30" connectbname="T31" connectcname="T33" />
+    <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="430.0" ycen="180.0" xa="417.52" ya="171.68" xb="442.48" yb="188.32" xc="448.03" yc="180.0" xd="417.52" yd="171.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista Yd W 3" connectaname="T31" connectbname="T36" connectcname="T32" />
+    <layoutturnout ident="TO36" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="280.0" ycen="130.0" xa="250.0" ya="120.0" xb="290.0" yb="120.0" xc="310.0" yc="140.0" xd="270.0" yd="140.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="Vista W 2 MainW -VistaYard W" connectaname="T42" connectbname="T37" connectcname="T38" connectdname="T48" />
+    <layoutturnout ident="TO44" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="235.0" ycen="120.0" xa="220.0" ya="120.0" xb="250.0" yb="120.0" xc="255.0" yc="105.0" xd="220.0" yd="120.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Vista W 1" connectaname="T46" connectbname="T42" connectcname="T44" />
+    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="815.0" ycen="190.0" xa="800.0" ya="195.0" xb="830.0" yb="185.0" xc="835.0" yc="200.0" xd="800.0" yd="195.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista Yard E 4" connectaname="T54" connectbname="T58" connectcname="T57" />
+    <layoutturnout ident="TO9" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="175.0" ycen="135.0" xa="184.16" ya="137.77" xb="166.68" yb="129.45" xc="165.0" yc="135.0" xd="183.32" yd="140.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye asile turnouts" secondturnoutname="VistaYd Wye LT196 asile turnouts partner" connectaname="T48" connectbname="T39" connectcname="T41" />
+    <layoutturnout ident="TO10" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="135.0" ycen="55.0" xa="140.3" ya="42.2" xb="124.39" yb="65.61" xc="135.0" yc="70.0" xd="145.61" yd="44.39" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye mine end" connectaname="T2" connectbname="T40" connectcname="T39" />
+    <layoutturnout ident="TO11" type="WYE_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="60.0" ycen="135.0" xa="51.47" ya="138.53" xb="70.0" yb="135.0" xc="67.07" yc="127.93" xd="50.0" yd="135.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutWyeXml" turnoutname="VistaYd Wye LT196 asile turnouts partner" secondturnoutname="VistaYd Wye asile turnouts" connectaname="T1" connectbname="T41" connectcname="T40" />
+    <tracksegment ident="T21" connect1name="TO26" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" connect1name="TO23" type1="TURNOUT_A" connect2name="TO26" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" connect1name="TO18" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" connect1name="TO27" type1="TURNOUT_A" connect2name="TO23" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" connect1name="TO28" type1="TURNOUT_A" connect2name="TO23" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T28" connect1name="TO30" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T30" connect1name="TO32" type1="TURNOUT_A" connect2name="TO31" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T31" connect1name="TO33" type1="TURNOUT_A" connect2name="TO32" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T29" connect1name="A17" type1="POS_POINT" connect2name="TO30" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" connect1name="TO33" type1="TURNOUT_C" connect2name="TO28" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T33" connect1name="TO32" type1="TURNOUT_C" connect2name="TO27" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T34" connect1name="TO31" type1="TURNOUT_B" connect2name="A16" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T35" connect1name="A16" type1="POS_POINT" connect2name="TO27" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T36" connect1name="TO33" type1="TURNOUT_B" connect2name="A17" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T37" connect1name="TO36" type1="TURNOUT_B" connect2name="TO19" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T38" connect1name="TO31" type1="TURNOUT_A" connect2name="TO36" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T39" connect1name="TO10" type1="TURNOUT_C" connect2name="TO9" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" arc="yes" flip="yes" circle="yes" angle="47.406722530919104" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T42" connect1name="TO44" type1="TURNOUT_B" connect2name="TO36" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T43" connect1name="A24" type1="POS_POINT" connect2name="A25" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T44" connect1name="A25" type1="POS_POINT" connect2name="TO44" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T45" connect1name="A24" type1="POS_POINT" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T48" connect1name="TO36" type1="TURNOUT_D" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="225.61" y="140.28" />
+        <controlpoint index="1" x="195.61" y="140.28" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T52" connect1name="TO18" type1="TURNOUT_A" connect2name="A1" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T54" connect1name="TO45" type1="TURNOUT_A" connect2name="A35" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T55" connect1name="A35" type1="POS_POINT" connect2name="TO30" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T56" connect1name="TO26" type1="TURNOUT_C" connect2name="EB8" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T57" connect1name="TO45" type1="TURNOUT_C" connect2name="EB7" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T58" connect1name="TO45" type1="TURNOUT_B" connect2name="A34" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T59" connect1name="A34" type1="POS_POINT" connect2name="EB9" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T63" connect1name="A1" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T46" connect1name="TO44" type1="TURNOUT_A" connect2name="EB11" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" arc="yes" flip="no" circle="yes" angle="86.23287608077806" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T40" connect1name="TO11" type1="TURNOUT_C" connect2name="TO10" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T41" connect1name="TO11" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T1" connect1name="TO11" type1="TURNOUT_A" connect2name="EB2" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T2" connect1name="TO10" type1="TURNOUT_A" connect2name="A26" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" connect1name="EC2" type1="POS_POINT" connect2name="A3" type2="POS_POINT" dashed="yes" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A16" type="ANCHOR" x="755.0" y="140.0" connect1name="T34" connect2name="T35" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A17" type="ANCHOR" x="460.0" y="200.0" connect1name="T29" connect2name="T36" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A24" type="ANCHOR" x="895.0" y="100.0" connect1name="T43" connect2name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A25" type="ANCHOR" x="275.0" y="100.0" connect1name="T43" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB11" type="END_BUMPER" x="170.0" y="65.0" connect1name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A3" type="ANCHOR" x="985.0" y="100.0" connect1name="T63" connect2name="T3" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A35" type="ANCHOR" x="785.0" y="200.0" connect1name="T54" connect2name="T55" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB7" type="END_BUMPER" x="905.0" y="200.0" connect1name="T57" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB8" type="END_BUMPER" x="940.0" y="140.0" connect1name="T56" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB9" type="END_BUMPER" x="910.0" y="180.0" connect1name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A34" type="ANCHOR" x="865.0" y="180.0" connect1name="T58" connect2name="T59" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="ANCHOR" x="973.0" y="114.0" connect1name="T52" connect2name="T63" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A26" type="ANCHOR" x="145.0" y="30.0" connect1name="T2" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="END_BUMPER" x="40.0" y="145.0" connect1name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="999.0" y="83.0" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Doering Branch" x="182" y="26" windowheight="478" windowwidth="566" panelheight="375" panelwidth="505" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="400" y="75" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS474" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="90" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS476" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="180" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS488" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS484" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="135" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS482" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="105" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS478" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="120" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS480" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="400" y="165" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS486" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="335.0" ycen="265.0" xa="360.0" ya="265.0" xb="310.0" yb="265.0" xc="320.0" yc="255.0" xd="360.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 535" connectaname="T49" connectbname="T31" connectcname="T14" />
+    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="300.0" ycen="245.0" xa="310.0" ya="250.0" xb="290.0" yb="240.0" xc="285.0" yc="245.0" xd="310.0" yd="250.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 536" connectaname="T14" connectbname="T21" connectcname="T27" />
+    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="60.0" ycen="70.0" xa="55.0" ya="55.0" xb="65.0" yb="85.0" xc="77.17" yc="84.33" xd="55.0" yd="55.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 538" connectaname="T50" connectbname="T26" connectcname="T28" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="70.0" ycen="105.0" xa="66.55" ya="90.4" xb="73.45" yb="119.6" xc="60.0" yc="125.0" xd="66.55" yd="90.4" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 537" connectaname="T26" connectbname="T25" connectcname="T32" />
+    <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="255.0" ycen="265.0" xa="270.0" ya="265.0" xb="240.0" yb="265.0" xc="245.0" yc="275.0" xd="270.0" yd="265.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Doering 542" connectaname="T31" connectbname="T36" connectcname="T38" />
+    <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="225.0" ycen="285.0" xa="235.0" ya="280.0" xb="215.0" yb="290.0" xc="200.0" yc="285.0" xd="235.0" yd="280.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 541" connectaname="T38" connectbname="T44" connectcname="T40" />
+    <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="180.0" ycen="285.0" xa="195.0" ya="285.0" xb="165.0" yb="285.0" xc="165.0" yc="280.0" xd="195.0" yd="285.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 539" connectaname="T40" connectbname="T45" connectcname="T41" />
+    <layoutturnout ident="TO16" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="190.0" ycen="305.0" xa="203.42" ya="298.29" xb="176.58" yb="311.71" xc="170.0" yc="305.0" xd="203.42" yd="298.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Doering 540" connectaname="T44" connectbname="T47" connectcname="T46" />
+    <tracksegment ident="T14" connect1name="TO10" type1="TURNOUT_A" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T21" connect1name="TO10" type1="TURNOUT_B" connect2name="A55" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T26" connect1name="TO12" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" connect1name="A55" type1="POS_POINT" connect2name="A61" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T28" connect1name="TO11" type1="TURNOUT_C" connect2name="A56" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T29" connect1name="A56" type1="POS_POINT" connect2name="A57" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T30" connect1name="A57" type1="POS_POINT" connect2name="A48" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="110.0" y="160.0" />
+        <controlpoint index="1" x="135.0" y="220.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T31" connect1name="TO9" type1="TURNOUT_B" connect2name="TO13" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" connect1name="TO12" type1="TURNOUT_C" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T33" connect1name="A51" type1="POS_POINT" connect2name="A52" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T34" connect1name="A52" type1="POS_POINT" connect2name="A60" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="80.0" y="205.0" />
+        <controlpoint index="1" x="115.0" y="260.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T35" connect1name="A60" type1="POS_POINT" connect2name="A59" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T36" connect1name="A59" type1="POS_POINT" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T37" connect1name="A61" type1="POS_POINT" connect2name="A48" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T38" connect1name="TO14" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T25" connect1name="TO12" type1="TURNOUT_B" connect2name="A62" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" connect1name="TO10" type1="TURNOUT_C" connect2name="A63" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T39" connect1name="A63" type1="POS_POINT" connect2name="A62" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="135.0" y="240.0" />
+        <controlpoint index="1" x="100.0" y="205.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T42" connect1name="A66" type1="POS_POINT" connect2name="EB7" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T40" connect1name="TO15" type1="TURNOUT_A" connect2name="TO14" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T41" connect1name="TO15" type1="TURNOUT_C" connect2name="A69" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T43" connect1name="A69" type1="POS_POINT" connect2name="A66" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="110.0" y="265.0" />
+        <controlpoint index="1" x="65.0" y="225.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T44" connect1name="TO14" type1="TURNOUT_B" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T45" connect1name="TO15" type1="TURNOUT_B" connect2name="EB8" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T46" connect1name="TO16" type1="TURNOUT_C" connect2name="EB9" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T47" connect1name="TO16" type1="TURNOUT_B" connect2name="A73" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T48" connect1name="A73" type1="POS_POINT" connect2name="EB10" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T49" connect1name="EB11" type1="POS_POINT" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="start" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T50" connect1name="TO11" type1="TURNOUT_A" connect2name="EB12" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A48" type="ANCHOR" x="205.0" y="225.0" connect1name="T37" connect2name="T30" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A51" type="ANCHOR" x="60.0" y="140.0" connect1name="T32" connect2name="T33" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A52" type="ANCHOR" x="65.0" y="160.0" connect1name="T33" connect2name="T34" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A55" type="ANCHOR" x="270.0" y="230.0" connect1name="T21" connect2name="T22" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A56" type="ANCHOR" x="90.0" y="100.0" connect1name="T28" connect2name="T29" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A57" type="ANCHOR" x="95.0" y="120.0" connect1name="T29" connect2name="T30" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A59" type="ANCHOR" x="215.0" y="265.0" connect1name="T35" connect2name="T36" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A60" type="ANCHOR" x="200.0" y="265.0" connect1name="T34" connect2name="T35" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A61" type="ANCHOR" x="240.0" y="225.0" connect1name="T22" connect2name="T37" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A62" type="ANCHOR" x="80.0" y="135.0" connect1name="T25" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A63" type="ANCHOR" x="205.0" y="245.0" connect1name="T27" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB7" type="END_BUMPER" x="40.0" y="160.0" connect1name="T42" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A66" type="ANCHOR" x="50.0" y="180.0" connect1name="T42" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB8" type="END_BUMPER" x="50.0" y="285.0" connect1name="T45" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A69" type="ANCHOR" x="145.0" y="275.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB9" type="END_BUMPER" x="50.0" y="305.0" connect1name="T46" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB10" type="END_BUMPER" x="50.0" y="325.0" connect1name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A73" type="ANCHOR" x="155.0" y="325.0" connect1name="T47" connect2name="T48" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB11" type="END_BUMPER" x="455.0" y="265.0" connect1name="T49" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB12" type="END_BUMPER" x="50.0" y="45.0" connect1name="T50" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="McSweeny Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="385" y="170" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="McSweeny Branch" fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="200" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="75.0" ycen="311.0" xa="60.0" ya="311.0" xb="90.0" yb="311.0" xc="90.0" yc="321.0" xd="60.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="105.0" ycen="331.0" xa="92.52" ya="322.68" xb="117.48" yb="339.32" xc="123.03" yc="331.0" xd="92.52" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="135.0" ycen="351.0" xa="122.52" ya="342.68" xb="147.48" yb="359.32" xc="153.03" yc="351.0" xd="122.52" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="165.0" ycen="371.0" xa="180.0" ya="371.0" xb="150.0" yb="371.0" xc="150.0" yc="361.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="195.0" ycen="371.0" xa="180.0" ya="371.0" xb="210.0" yb="371.0" xc="210.0" yc="381.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="400.0" ycen="371.0" xa="385.0" ya="371.0" xb="415.0" yb="371.0" xc="415.0" yc="361.0" xd="385.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1017.0" ycen="244.0" xa="1029.45" ya="235.64" xb="1004.55" yb="252.36" xc="998.97" yc="244.06" xd="1029.45" yd="235.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1048.0" ycen="214.0" xa="1058.2" ya="203.0" xb="1037.8" yb="225.0" xc="1030.47" yc="218.2" xd="1058.2" yd="203.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1072.0" ycen="179.0" xa="1079.4" ya="165.95" xb="1064.6" yb="192.05" xc="1055.9" yc="187.12" xd="1079.4" yd="165.95" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1087.0" ycen="139.0" xa="1091.2" ya="124.6" xb="1082.8" yb="153.4" xc="1073.2" yc="150.6" xd="1091.2" yd="124.6" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="605.0" y="270.0" />
+        <controlpoint index="1" x="650.0" y="147.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="910.0" y="190.0" />
+        <controlpoint index="1" x="1000.0" y="170.0" />
+      </controlpoints>
+    </tracksegment>
+    <positionablepoint ident="A48" type="ANCHOR" x="445.0" y="272.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="ANCHOR" x="820.0" y="175.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Colton Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="115" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="305" y="220" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Colton Industrial Zone" fontFamily="Dialog" fontname="Dialog" size="20" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="250" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="75.0" ycen="311.0" xa="60.0" ya="311.0" xb="90.0" yb="311.0" xc="90.0" yc="321.0" xd="60.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="105.0" ycen="331.0" xa="92.52" ya="322.68" xb="117.48" yb="339.32" xc="123.03" yc="331.0" xd="92.52" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="135.0" ycen="351.0" xa="122.52" ya="342.68" xb="147.48" yb="359.32" xc="153.03" yc="351.0" xd="122.52" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="165.0" ycen="371.0" xa="180.0" ya="371.0" xb="150.0" yb="371.0" xc="150.0" yc="361.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="195.0" ycen="371.0" xa="180.0" ya="371.0" xb="210.0" yb="371.0" xc="210.0" yc="381.0" xd="180.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="400.0" ycen="371.0" xa="385.0" ya="371.0" xb="415.0" yb="371.0" xc="415.0" yc="361.0" xd="385.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1017.0" ycen="244.0" xa="1029.45" ya="235.64" xb="1004.55" yb="252.36" xc="998.97" yc="244.06" xd="1029.45" yd="235.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1048.0" ycen="214.0" xa="1058.2" ya="203.0" xb="1037.8" yb="225.0" xc="1030.47" yc="218.2" xd="1058.2" yd="203.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1072.0" ycen="179.0" xa="1079.4" ya="165.95" xb="1064.6" yb="192.05" xc="1055.9" yc="187.12" xd="1079.4" yd="165.95" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1087.0" ycen="139.0" xa="1091.2" ya="124.6" xb="1082.8" yb="153.4" xc="1073.2" yc="150.6" xd="1091.2" yd="124.6" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" />
+    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="605.0" y="270.0" />
+        <controlpoint index="1" x="650.0" y="147.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="910.0" y="190.0" />
+        <controlpoint index="1" x="1000.0" y="170.0" />
+      </controlpoints>
+    </tracksegment>
+    <positionablepoint ident="A48" type="ANCHOR" x="445.0" y="272.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="ANCHOR" x="820.0" y="175.0" connect1name="T6" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Troy Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1391" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+    <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
+      <mainBallastColor>#000000</mainBallastColor>
+      <mainBallastWidth>0</mainBallastWidth>
+      <mainBlockLineDashPercentageX10>0</mainBlockLineDashPercentageX10>
+      <mainBlockLineWidth>4</mainBlockLineWidth>
+      <mainRailColor>#000000</mainRailColor>
+      <mainRailCount>1</mainRailCount>
+      <mainRailGap>0</mainRailGap>
+      <mainRailWidth>4</mainRailWidth>
+      <mainTieColor>#000000</mainTieColor>
+      <mainTieGap>0</mainTieGap>
+      <mainTieLength>0</mainTieLength>
+      <mainTieWidth>0</mainTieWidth>
+      <sideBallastColor>#000000</sideBallastColor>
+      <sideBallastWidth>0</sideBallastWidth>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
+      <sideBlockLineWidth>2</sideBlockLineWidth>
+      <sideRailColor>#000000</sideRailColor>
+      <sideRailCount>1</sideRailCount>
+      <sideRailGap>0</sideRailGap>
+      <sideRailWidth>2</sideRailWidth>
+      <sideTieColor>#000000</sideTieColor>
+      <sideTieGap>0</sideTieGap>
+      <sideTieLength>0</sideTieLength>
+      <sideTieWidth>0</sideTieWidth>
+    </layoutTrackDrawingOptions>
+    <positionablelabel x="170" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS204" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="115" y="781" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS202" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="350" y="833" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS210" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="380" y="853" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS224" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="405" y="873" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS222" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="705" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS184" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="730" y="808" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS178" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="760" y="838" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="815" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS182" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="875" y="818" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS180" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="30" y="0" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="WEST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="969" y="14" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="EAST" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="35" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1270" y="790" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="1280x800" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="255" green="255" blue="255" hasBackground="yes" redBack="64" greenBack="128" blueBack="64" justification="right" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="430" y="5" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Troy Industrial Zone and area" fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="300" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="311.0" xa="-15.0" ya="311.0" xb="15.0" yb="311.0" xc="15.0" yc="321.0" xd="-15.0" yd="311.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T1" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="331.0" xa="-12.48" ya="322.68" xb="12.48" yb="339.32" xc="18.03" yc="331.0" xd="-12.48" yd="322.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T1" connectbname="T2" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="0.0" ycen="351.0" xa="-12.48" ya="342.68" xb="12.48" yb="359.32" xc="18.03" yc="351.0" xd="-12.48" yd="342.68" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T2" connectbname="T3" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="9.0" ycen="371.0" xa="24.0" ya="371.0" xb="-6.0" yb="371.0" xc="-6.0" yc="361.0" xd="24.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectcname="T3" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="39.0" ycen="371.0" xa="24.0" ya="371.0" xb="54.0" yb="371.0" xc="54.0" yc="381.0" xd="24.0" yd="371.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T4" connectbname="T5" />
+    <layoutturnout ident="TO9" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="154.0" ycen="370.0" xa="134.0" ya="370.0" xb="174.0" yb="370.0" xc="169.0" yc="360.0" xd="134.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T5" connectbname="T15" connectcname="T12" />
+    <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1254.29" ycen="442.19" xa="1266.74" ya="433.83" xb="1241.84" yb="450.55" xc="1236.26" yc="442.25" xd="1266.74" yd="433.83" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T10" connectbname="T16" connectcname="T13" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1279.19" ycen="425.46" xa="1291.64" ya="417.09" xb="1266.74" yb="433.83" xc="1261.16" yc="425.53" xd="1291.64" yd="417.09" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T9" connectbname="T10" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1304.1" ycen="408.73" xa="1316.56" ya="400.36" xb="1291.64" yb="417.1" xc="1286.06" yc="408.8" xd="1316.56" yd="400.36" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T8" connectbname="T9" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1329.0" ycen="392.0" xa="1341.45" ya="383.64" xb="1316.55" yb="400.36" xc="1310.97" yc="392.06" xd="1341.45" yd="383.64" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectbname="T8" />
+    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="215.0" ycen="370.0" xa="200.0" ya="370.0" xb="230.0" yb="370.0" xc="230.0" yc="360.0" xd="200.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T15" connectbname="T27" connectcname="T14" />
+    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="285.0" ycen="370.0" xa="270.0" ya="370.0" xb="300.0" yb="370.0" xc="300.0" yc="360.0" xd="270.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T27" connectbname="T31" />
+    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="276.0" ycen="333.0" xa="261.94" ya="338.23" xb="290.06" yb="327.77" xc="286.57" yc="318.4" xd="261.94" yd="338.23" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T14" connectbname="T42" connectcname="T41" />
+    <layoutturnout ident="TO17" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1070.0" ycen="479.0" xa="1031.76" ya="462.55" xb="1085.0" yb="473.0" xc="1108.24" yc="495.45" xd="1055.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" connectaname="T18" connectbname="T16" connectcname="T17" connectdname="T32" />
+    <layoutturnout ident="TO18" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1295.0" ycen="529.0" xa="1309.6" ya="525.55" xb="1280.4" yb="532.45" xc="1278.1" yc="522.71" xd="1309.6" yd="525.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectcname="T17" />
+    <layoutturnout ident="TO19" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="399.0" ycen="370.0" xa="384.0" ya="370.0" xb="414.0" yb="370.0" xc="414.0" yc="380.0" xd="384.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T31" connectbname="T30" connectcname="T28" />
+    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="995.0" ycen="445.0" xa="1005.0" ya="450.0" xb="985.0" yb="440.0" xc="975.0" yc="445.0" xd="1005.0" yd="450.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T18" connectbname="T19" connectcname="T20" />
+    <layoutturnout ident="TO21" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="950.0" ycen="419.0" xa="970.0" ya="429.0" xb="930.0" yb="409.0" xc="930.0" yc="419.0" xd="970.0" yd="429.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T19" connectbname="T22" connectcname="T21" />
+    <layoutturnout ident="TO22" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="935.0" ycen="444.0" xa="950.0" ya="444.0" xb="920.0" yb="444.0" xc="925.0" yc="455.0" xd="950.0" yd="444.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T20" connectbname="T38" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="865.0" ycen="419.0" xa="880.0" ya="419.0" xb="850.0" yb="419.0" xc="850.0" yc="429.0" xd="880.0" yd="419.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T21" connectbname="T40" connectcname="T39" />
+    <layoutturnout ident="TO39" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="910.0" ycen="399.0" xa="896.58" ya="392.29" xb="923.42" yb="405.71" xc="930.0" yc="399.0" xd="896.58" yd="392.29" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T26" connectbname="T22" connectcname="T23" />
+    <layoutturnout ident="TO40" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="975.0" ycen="399.0" xa="985.0" ya="404.0" xb="965.0" yb="394.0" xc="955.0" yc="399.0" xd="985.0" yd="404.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T24" connectbname="T25" connectcname="T23" />
+    <layoutturnout ident="TO41" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="870.0" ycen="375.0" xa="885.0" ya="385.0" xb="855.0" yb="365.0" xc="850.0" yc="375.0" xd="885.0" yd="385.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T26" connectbname="T43" connectcname="T44" />
+    <layoutturnout ident="TO43" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="469.0" ycen="370.0" xa="454.0" ya="370.0" xb="484.0" yb="370.0" xc="484.0" yc="380.0" xd="454.0" yd="370.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T30" connectbname="T40" connectcname="T29" />
+    <layoutturnout ident="TO45" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="454.0" ycen="395.0" xa="439.4" ya="391.55" xb="468.6" yb="398.45" xc="466.3" yc="408.18" xd="439.4" yd="391.55" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T28" connectbname="T38" connectcname="T37" />
+    <layoutturnout ident="TO49" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="760.0" ycen="475.0" xa="745.0" ya="475.0" xb="775.0" yb="475.0" xc="775.0" yc="485.0" xd="745.0" yd="475.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T37" />
+    <tracksegment ident="T1" connect1name="TO4" type1="TURNOUT_A" connect2name="TO1" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T2" connect1name="TO5" type1="TURNOUT_A" connect2name="TO4" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T3" connect1name="TO6" type1="TURNOUT_C" connect2name="TO5" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T4" connect1name="TO8" type1="TURNOUT_A" connect2name="TO6" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T5" connect1name="TO8" type1="TURNOUT_B" connect2name="TO9" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T6" connect1name="A48" type1="POS_POINT" connect2name="A49" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="389.0" y="200.0" />
+        <controlpoint index="1" x="600.0" y="75.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T7" connect1name="A50" type1="POS_POINT" connect2name="A51" type2="POS_POINT" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="1065.0" y="409.0" />
+        <controlpoint index="1" x="1135.0" y="439.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T8" connect1name="TO12" type1="TURNOUT_A" connect2name="TO13" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T9" connect1name="TO11" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T10" connect1name="TO10" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T11" connect1name="A49" type1="POS_POINT" connect2name="A50" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T12" connect1name="A48" type1="POS_POINT" connect2name="TO9" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T13" connect1name="A51" type1="POS_POINT" connect2name="TO10" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T14" connect1name="TO15" type1="TURNOUT_A" connect2name="TO14" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T15" connect1name="TO9" type1="TURNOUT_B" connect2name="TO14" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T16" connect1name="TO17" type1="TURNOUT_B" connect2name="TO10" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="1190.0" y="494.0" />
+        <controlpoint index="1" x="1225.0" y="469.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T17" connect1name="TO17" type1="TURNOUT_C" connect2name="TO18" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" bezier="yes" hideConLines="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <controlpoints>
+        <controlpoint index="0" x="1175.0" y="509.0" />
+        <controlpoint index="1" x="1235.0" y="504.0" />
+      </controlpoints>
+    </tracksegment>
+    <tracksegment ident="T18" connect1name="TO20" type1="TURNOUT_A" connect2name="TO17" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" connect1name="TO21" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T20" connect1name="TO22" type1="TURNOUT_A" connect2name="TO20" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T21" connect1name="TO23" type1="TURNOUT_A" connect2name="TO21" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T22" connect1name="TO39" type1="TURNOUT_B" connect2name="TO21" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T23" connect1name="TO40" type1="TURNOUT_C" connect2name="TO39" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T24" connect1name="TO40" type1="TURNOUT_A" connect2name="EB3" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T25" connect1name="TO40" type1="TURNOUT_B" connect2name="EB2" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
+      <decorations>
+        <bumper end="stop" color="#000000" linewidth="8" length="8" />
+      </decorations>
+    </tracksegment>
+    <tracksegment ident="T26" connect1name="TO41" type1="TURNOUT_A" connect2name="TO39" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T27" connect1name="TO14" type1="TURNOUT_B" connect2name="TO16" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T28" connect1name="TO45" type1="TURNOUT_A" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T29" connect1name="A26" type1="POS_POINT" connect2name="TO43" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T30" connect1name="TO43" type1="TURNOUT_A" connect2name="TO19" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T31" connect1name="TO19" type1="TURNOUT_A" connect2name="TO16" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T32" connect1name="TO17" type1="TURNOUT_D" connect2name="A15" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T37" connect1name="TO45" type1="TURNOUT_C" connect2name="TO49" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T38" connect1name="TO45" type1="TURNOUT_B" connect2name="TO22" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T39" connect1name="A26" type1="POS_POINT" connect2name="TO23" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T40" connect1name="TO43" type1="TURNOUT_B" connect2name="TO23" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T41" connect1name="TO15" type1="TURNOUT_C" connect2name="A27" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T42" connect1name="TO15" type1="TURNOUT_B" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T43" connect1name="A27" type1="POS_POINT" connect2name="TO41" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T44" connect1name="A28" type1="POS_POINT" connect2name="TO41" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <positionablepoint ident="A48" type="ANCHOR" x="189.0" y="345.0" connect1name="T6" connect2name="T12" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A49" type="ANCHOR" x="915.0" y="349.0" connect1name="T6" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A50" type="ANCHOR" x="980.0" y="374.0" connect1name="T7" connect2name="T11" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A51" type="ANCHOR" x="1195.0" y="444.0" connect1name="T7" connect2name="T13" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A1" type="ANCHOR" x="69.0" y="390.0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A4" type="ANCHOR" x="1065.0" y="549.0" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB2" type="END_BUMPER" x="895.0" y="359.0" connect1name="T25" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="EB3" type="END_BUMPER" x="1070.0" y="449.0" connect1name="T24" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A15" type="ANCHOR" x="1015.0" y="480.0" connect1name="T32" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A26" type="ANCHOR" x="499.4" y="386.55" connect1name="T29" connect2name="T39" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A27" type="ANCHOR" x="575.0" y="220.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A28" type="ANCHOR" x="580.0" y="240.0" connect1name="T42" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+  </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Aug 25 22:44:30 PDT 2026</date>
+      <date>Tue Aug 25 11:15:08 PDT 2026</date>
       <filename>PanelPro (v5.17.2)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Aug 25 22:44:44 PDT 2026</date>
+      <date>Tue Aug 25 11:15:22 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Aug 25 22:45:32 PDT 2026</date>
+      <date>Tue Aug 25 11:18:00 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
