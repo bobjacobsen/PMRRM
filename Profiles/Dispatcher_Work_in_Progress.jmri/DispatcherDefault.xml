@@ -11495,7 +11495,8 @@
         <event>02.01.57.11.00.F3.00.00</event>
       </aspect>
       <disabledAspects>
-        <disabledAspect>Diverging Approach</disabledAspect>
+        <disabledAspect>Advanced Approach</disabledAspect>
+        <disabledAspect>Diverging Advanced Approach</disabledAspect>
       </disabledAspects>
     </olcbsignalmast>
     <olcbsignalmast class="jmri.jmrix.openlcb.configurexml.OlcbSignalMastXml">
