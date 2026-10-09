@@ -14,11 +14,17 @@ import jmri
 panelMenu = jmri.InstanceManager.getDefault(jmri.jmrit.display.EditorManager)
 layoutPanels = panelMenu.getList(jmri.jmrit.display.layoutEditor.LayoutEditor)
 for layoutEditor in layoutPanels :
-    for memoryIcon in layoutEditor.getMemoryLabelList() :
+    for memoryIcon in layoutEditor.getMemoryLabelList()+layoutEditor.getMemoryInputList() :
         if memoryIcon.getMemory() != None and not "$" in memoryIcon.getMemory().getSystemName():
             popupUtil = memoryIcon.getPopupUtility()
             popupUtil.setBorderColor(java.awt.Color.yellow)
             popupUtil.setBorderSize(1)
             popupUtil.setBorder(True)
             memoryIcon.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.yellow))
+    for memoryIcon in layoutEditor.getBlockContensInputList() :
+        popupUtil = memoryIcon.getPopupUtility()
+        popupUtil.setBorderColor(java.awt.Color.yellow)
+        popupUtil.setBorderSize(1)
+        popupUtil.setBorder(True)
+        memoryIcon.setBorder(javax.swing.BorderFactory.createLineBorder(java.awt.Color.yellow))
     layoutEditor.repaint()

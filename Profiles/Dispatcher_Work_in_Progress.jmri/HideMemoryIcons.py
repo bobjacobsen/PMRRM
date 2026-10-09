@@ -13,7 +13,7 @@ import jmri
 panelMenu = jmri.InstanceManager.getDefault(jmri.jmrit.display.EditorManager)
 layoutPanels = panelMenu.getList(jmri.jmrit.display.layoutEditor.LayoutEditor)
 for layoutEditor in layoutPanels :
-    for memoryIcon in layoutEditor.getMemoryLabelList() :
+    for memoryIcon in layoutEditor.getMemoryLabelList()+layoutEditor.getMemoryInputList()+layoutEditor.getBlockContensInputList() :
         memoryIcon.setBorder(javax.swing.BorderFactory.createEmptyBorder())
         popupUtil = memoryIcon.getPopupUtility()
         popupUtil.setBorderSize(0)
