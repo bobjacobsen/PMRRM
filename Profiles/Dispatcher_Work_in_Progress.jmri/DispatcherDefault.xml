@@ -4,7 +4,7 @@
   <jmriversion>
     <major>5</major>
     <minor>17</minor>
-    <test>2</test>
+    <test>4</test>
     <modifier />
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
@@ -349,21 +349,25 @@
     <sensor inverted="false">
       <systemName>LS65</systemName>
       <userName>Narrows Lower</userName>
+      <comment>LS65 BDL (5,DS01)</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS66</systemName>
       <userName>Powderhorn main</userName>
+      <comment>LS66 BDL (5,DS02)</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS67</systemName>
       <userName>Powderhorn siding</userName>
+      <comment>LS67 BDL (5,DS03)</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
       <systemName>LS68</systemName>
       <userName>Osage-Powderhorn</userName>
+      <comment>LS68 BDL (5,DS04)</comment>
       <useGlobalDebounceTimer>yes</useGlobalDebounceTimer>
     </sensor>
     <sensor inverted="false">
@@ -4561,8 +4565,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT78</systemName>
-      <userName>Troy DS62 output 2 unused</userName>
-      <comment>DS52 address 2 - can be changed. Unused</comment>
+      <userName>Troy E - Logging interchange</userName>
+      <comment>Not wired yet . DS52 address 2 - can be changed. Unused</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4972,8 +4976,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT130</systemName>
-      <userName>DS64 (37,1) Maybe tyson</userName>
-      <comment>Use, if any, and location TBD</comment>
+      <userName>Tyson Steel 1</userName>
+      <comment>Fascia button</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4983,8 +4987,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT131</systemName>
-      <userName>DS64 (37,2) Maybe tyson</userName>
-      <comment>Use, if any, and location TBD</comment>
+      <userName>Tyson Steel 2</userName>
+      <comment>Fascia button</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -4994,19 +4998,8 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT132</systemName>
-      <userName>DS64 (37,3) Maybe tyson</userName>
-      <comment>Use, if any, and location TBD</comment>
-      <properties>
-        <property>
-          <key>Send ON/OFF</key>
-          <value class="java.lang.Boolean">false</value>
-        </property>
-      </properties>
-    </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT133</systemName>
-      <userName>DS64 (37,4) Maybe tyson</userName>
-      <comment>Use, if any, and location TBD</comment>
+      <userName>Tyson Steel 3</userName>
+      <comment>Fascia button</comment>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -5275,7 +5268,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT189</systemName>
-      <userName>Troy icing east end</userName>
+      <userName>Troy (NOW 77) icing east end</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -16894,7 +16887,7 @@
       <systemName>ILB45</systemName>
       <userName>Delta 3</userName>
     </layoutblock>
-    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF" memory="Delta main 4">
+    <layoutblock systemName="ILB46" occupancysensor="Delta 4" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green" memory="Delta main 4">
       <systemName>ILB46</systemName>
       <userName>Delta 4</userName>
     </layoutblock>
@@ -17501,7 +17494,7 @@
       <systemName>ILB202</systemName>
       <userName>Midway East P 2 Stopping Block</userName>
     </layoutblock>
-    <layoutblock systemName="ILB203" occupancysensor="Midway LS27 track 1 east stopping block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB203" occupancysensor="Midway LS27 track 1 east stopping block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB203</systemName>
       <userName>Midway East P 1 Stopping Block</userName>
     </layoutblock>
@@ -27438,17 +27431,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Aug 25 22:44:30 PDT 2026</date>
-      <filename>PanelPro (v5.17.2)</filename>
+      <date>Sat Oct 17 11:21:50 PDT 2026</date>
+      <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Aug 25 22:44:44 PDT 2026</date>
+      <date>Sat Oct 17 11:22:04 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Aug 25 22:45:32 PDT 2026</date>
+      <date>Sat Oct 17 20:28:41 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
