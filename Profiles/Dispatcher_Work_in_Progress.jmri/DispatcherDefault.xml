@@ -17992,6 +17992,12 @@
     <meter>
       <systemName>LVDCS240(s/n1436)Voltage</systemName>
     </meter>
+    <meter>
+      <systemName>LV[0](s/n420)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LV[0](s/n420)Voltage</systemName>
+    </meter>
   </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
@@ -27455,17 +27461,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Wed Oct 21 11:51:49 PDT 2026</date>
+      <date>Wed Oct 21 14:47:44 PDT 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Wed Oct 21 11:52:04 PDT 2026</date>
+      <date>Wed Oct 21 14:47:58 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Wed Oct 21 14:46:12 PDT 2026</date>
+      <date>Wed Oct 21 15:12:25 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
