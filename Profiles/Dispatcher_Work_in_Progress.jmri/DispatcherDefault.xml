@@ -4939,6 +4939,9 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT117</systemName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT118</systemName>
       <properties>
         <property>
@@ -4946,6 +4949,9 @@
           <value class="java.lang.Boolean">false</value>
         </property>
       </properties>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT119</systemName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT121</systemName>
@@ -7477,7 +7483,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="true" automate="Off">
       <systemName>LT709</systemName>
-      <userName>Shortline runaround east end</userName>
+      <userName>Zion shortline runaround east end</userName>
       <comment>Fascia button not on Zion soft panel. Will be on hard</comment>
       <properties>
         <property>
@@ -7488,7 +7494,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT710</systemName>
-      <userName>Shortline runaround west end</userName>
+      <userName>Zion shortline runaround west end</userName>
       <comment>Fascia button Not on Zion soft panel. Will be on hard</comment>
       <properties>
         <property>
@@ -7499,7 +7505,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT711</systemName>
-      <userName>Shortline to Station or Port throat turnout</userName>
+      <userName>Zion shortline to Station or Port throat turnout</userName>
       <comment>Closed=Branch to Port. Thrown Branch to Station</comment>
       <properties>
         <property>
@@ -7510,7 +7516,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT713</systemName>
-      <userName>Shortline Zion station west 713</userName>
+      <userName>Zion shortline Zion station west 713</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7520,7 +7526,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT714</systemName>
-      <userName>Shortline Zion station west 714</userName>
+      <userName>Zion shortline Zion station west 714</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7530,7 +7536,7 @@
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT715</systemName>
-      <userName>Shortline Zion station west 715</userName>
+      <userName>Zion shortline Zion station west 715</userName>
       <properties>
         <property>
           <key>Send ON/OFF</key>
@@ -7539,11 +7545,31 @@
       </properties>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
-      <systemName>LT720</systemName>
+      <systemName>LT717</systemName>
+      <userName>Wade east shortline</userName>
+      <comment>Just before tunnel under AES</comment>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT718</systemName>
+      <userName>Zion West siding E shortline</userName>
+      <comment>In open space between tunnels</comment>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT719</systemName>
+      <userName>Zion West siding W shortline</userName>
+      <comment>Just before tunnel under Zion loop</comment>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT721</systemName>
+      <userName>Wade shortline 1</userName>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT722</systemName>
+      <userName>Wade shortline 2</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT723</systemName>
-      <userName>Zion likely unused 1</userName>
+      <userName>Wade shortline 3</userName>
       <comment>Did not hear anything move</comment>
       <properties>
         <property>
@@ -7551,6 +7577,10 @@
           <value class="java.lang.Boolean">false</value>
         </property>
       </properties>
+    </turnout>
+    <turnout feedback="MONITORING" inverted="false" automate="Off">
+      <systemName>LT724</systemName>
+      <userName>Wade shortline 4</userName>
     </turnout>
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>LT725</systemName>
@@ -17962,12 +17992,6 @@
     <meter>
       <systemName>LVDCS240(s/n1436)Voltage</systemName>
     </meter>
-    <meter>
-      <systemName>LV[0](s/n420)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LV[0](s/n420)Voltage</systemName>
-    </meter>
   </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
@@ -27431,17 +27455,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Sat Oct 17 11:21:50 PDT 2026</date>
+      <date>Wed Oct 21 11:51:49 PDT 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Sat Oct 17 11:22:04 PDT 2026</date>
+      <date>Wed Oct 21 11:52:04 PDT 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Sat Oct 17 20:28:41 PDT 2026</date>
+      <date>Wed Oct 21 14:46:12 PDT 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>

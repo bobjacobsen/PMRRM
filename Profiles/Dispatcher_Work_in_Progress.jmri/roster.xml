@@ -278,7 +278,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 37" fileName="DS64_37.xml" roadNumber="" roadName="Tyson" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="37" comment="130,131,132,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-10-17T23:13:40.507+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T21:34:10.971+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="37" longaddress="no" />
@@ -311,7 +311,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 41" fileName="DS64_41.xml" roadNumber="Uses PB" roadName="Heine" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="41" comment="No route but 526 affected by 525 rte  526,527,535,536" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T06:41:23.863+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T18:56:08.835+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="41" longaddress="no" />
@@ -322,7 +322,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 42" fileName="DS64_42.xml" roadNumber="" roadName="McSweeny" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="42" comment="528,529,530,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:19:48.186+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T18:57:15.807+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="42" longaddress="no" />
@@ -333,7 +333,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 43" fileName="DS64_43.xml" roadNumber="" roadName="McSweeny" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="43" comment="531,532,533,538" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T06:39:25.038+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T18:58:56.493+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="43" longaddress="no" />
@@ -344,7 +344,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 45" fileName="DS64_45.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="45" comment="31,34,33,32" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:30:59.317+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T18:59:57.403+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="45" longaddress="no" />
@@ -355,7 +355,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 46" fileName="DS64_46.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="46" comment="30,36,37,35" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:33:08.534+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:00:50.133+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="46" longaddress="no" />
@@ -366,7 +366,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 47" fileName="DS64_47.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="47" comment="999,23,999,24" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:36:46.382+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:01:59.872+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="47" longaddress="no" />
@@ -377,7 +377,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 48" fileName="DS64_48.xml" roadNumber="" roadName="Delta Pod5" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="48" comment="22,999,21,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:38:52.668+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:03:11.080+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="48" longaddress="no" />
@@ -388,7 +388,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 49" fileName="DS64_49.xml" roadNumber="" roadName="Colton Pod4" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="49" comment="17,18,19,20" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:44:10.028+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:04:40.563+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="49" longaddress="no" />
@@ -399,7 +399,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 50" fileName="DS64_50.xml" roadNumber="" roadName="Colton Pod4" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="50" comment="14,15,50,16" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:46:23.555+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:05:42.382+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="50" longaddress="no" />
@@ -410,7 +410,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 51" fileName="DS64_51.xml" roadNumber="" roadName="Colton Pod4" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="51" comment="11,10,13,12" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:48:48.451+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:06:44.071+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="51" longaddress="no" />
@@ -421,7 +421,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 54" fileName="DS64_54.xml" roadNumber="" roadName="Troy West" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="54" comment="588,589,590,591" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T05:56:24.909+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:09:33.388+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="54" longaddress="no" />
@@ -432,7 +432,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 55" fileName="DS64_55.xml" roadNumber="" roadName="Troy West" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="55" comment="592,173,273,172" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T05:56:39.551+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:10:43.785+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="55" longaddress="no" />
@@ -443,7 +443,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 56" fileName="DS64_56.xml" roadNumber="" roadName="Bend/Echo Pod3" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="56" comment="27,26,25,159" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T20:54:21.862+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:12:15.752+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="56" longaddress="no" />
@@ -454,7 +454,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 57" fileName="DS64_57.xml" roadNumber="" roadName="Yazoo CP" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="57" comment="106,999,107,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-06T23:08:39.832+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:16:18.779+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="57" longaddress="no" />
@@ -465,7 +465,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 58" fileName="DS64_58.xml" roadNumber="" roadName="Yazoo CP" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="58" comment="Former rte 101;. 103,104,105,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-06T23:07:24.424+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:17:11.543+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="58" longaddress="no" />
@@ -475,8 +475,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-09T00:57:44.220+00:00</dateUpdated>
+    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="NOT CHECKED / NOT ON LINE" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-10-21T19:18:12.892+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="60" longaddress="no" />
@@ -486,8 +486,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 61" fileName="DS64_61.xml" roadNumber="" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="61" comment="539,540,541,542 A" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-09T01:25:35.868+00:00</dateUpdated>
+    <locomotive id="DS64 61" fileName="DS64_61.xml" roadNumber="NOT CHECKED / NOT ON LINE" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="61" comment="539,540,541,542 A" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-10-21T19:18:37.295+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="61" longaddress="no" />
@@ -498,7 +498,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 63" fileName="DS64_63.xml" roadNumber="" roadName="Echo shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="63" comment="553,552,550,551" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-22T04:41:50.978+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:20:04.571+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="63" longaddress="no" />
@@ -509,7 +509,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 64" fileName="DS64_64.xml" roadNumber="" roadName="Delta Shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="64" comment="557,556,555,554" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T21:20:51.039+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:21:24.092+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="64" longaddress="no" />
@@ -520,7 +520,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 65" fileName="DS64_65.xml" roadNumber="" roadName="Yazoo shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="65" comment="709,710,711,712" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T07:09:03.414+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:22:32.362+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="65" longaddress="no" />
@@ -531,7 +531,7 @@
       <soundlabels />
     </locomotive>
     <locomotive id="DS64 66" fileName="DS64_66.xml" roadNumber="" roadName="Zion shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="66" comment="713,714,715,716" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-07-25T07:13:34.355+00:00</dateUpdated>
+      <dateUpdated>2026-10-21T19:24:04.966+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="66" longaddress="no" />
@@ -541,8 +541,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 67" fileName="DS64_67.xml" roadNumber="" roadName="ZES Shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="67" comment="116,117,118,119" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-08-06T23:20:05.417+00:00</dateUpdated>
+    <locomotive id="DS64 67" fileName="DS64_67.xml" roadNumber="" roadName="ZES Shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="67" comment="717,718,119,999" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-10-21T21:31:37.988+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="67" longaddress="no" />
@@ -554,6 +554,17 @@
     </locomotive>
     <locomotive id="DS64 68" fileName="DS64_68.xml" roadNumber="" roadName="Wade Shortline" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="68" comment="721,722,723,724" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-08-06T23:19:42.604+00:00</dateUpdated>
+      <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="68" longaddress="no" />
+        <number>68</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
+    <locomotive id="DS64 68b" fileName="DS64_68b.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew PMRRM" model="" dccAddress="68" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-10-21T21:46:01.965+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="68" longaddress="no" />
