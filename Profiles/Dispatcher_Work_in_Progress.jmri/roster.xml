@@ -101,6 +101,17 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
+    <locomotive id="DCS 240 Layout" fileName="DCS_240_Layout.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew PMRRM" model="" dccAddress="3" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETCSOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-10-29T22:18:29.429+00:00</dateUpdated>
+      <decoder model="DCS240" family="Command Stations" comment="" maxFnNum="28" />
+      <locoaddress>
+        <dcclocoaddress number="3" longaddress="no" />
+        <number>3</number>
+        <protocol>dcc_short</protocol>
+      </locoaddress>
+      <functionlabels />
+      <soundlabels />
+    </locomotive>
     <locomotive id="DS64 20" fileName="DS64_20.xml" roadNumber="" roadName="Pod 9 Osage" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="20" comment="63,61,162,63" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-10-17T21:55:40.177+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
