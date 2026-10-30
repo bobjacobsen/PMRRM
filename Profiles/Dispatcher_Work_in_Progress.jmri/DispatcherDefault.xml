@@ -20244,7 +20244,7 @@
       <mainTieWidth>0</mainTieWidth>
       <sideBallastColor>#000000</sideBallastColor>
       <sideBallastWidth>0</sideBallastWidth>
-      <sideBlockLineDashPercentageX10>5</sideBlockLineDashPercentageX10>
+      <sideBlockLineDashPercentageX10>0</sideBlockLineDashPercentageX10>
       <sideBlockLineWidth>2</sideBlockLineWidth>
       <sideRailColor>#000000</sideRailColor>
       <sideRailCount>1</sideRailCount>
@@ -27633,17 +27633,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Oct 30 15:49:31 EDT 2026</date>
+      <date>Fri Oct 30 15:52:21 EDT 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Oct 30 15:49:45 EDT 2026</date>
+      <date>Fri Oct 30 15:52:34 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Oct 30 15:51:56 EDT 2026</date>
+      <date>Fri Oct 30 15:54:18 EDT 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
