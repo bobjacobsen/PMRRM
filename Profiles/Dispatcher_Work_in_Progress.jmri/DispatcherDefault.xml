@@ -16921,7 +16921,7 @@
       <occupancysensor>Midway East Stockyard Turnouts</occupancysensor>
       <path todir="80" fromdir="160" block="IB:AUTO:0070">
         <beansetting setting="4">
-          <turnout systemName="LT206 partner" />
+          <turnout systemName="MidwayYd E upper X-over" />
         </beansetting>
         <beansetting setting="2">
           <turnout systemName="MidwayYd E lower X-over" />
@@ -16940,10 +16940,10 @@
       </path>
       <path todir="160" fromdir="80" block="IB:AUTO:0069">
         <beansetting setting="4">
-          <turnout systemName="LT206 partner" />
+          <turnout systemName="MidwayYd E upper X-over" />
         </beansetting>
         <beansetting setting="2">
-          <turnout systemName="MidwayYd E upper X-over" />
+          <turnout systemName="LT206 partner" />
         </beansetting>
         <beansetting setting="4">
           <turnout systemName="MidwayYd E -F ladder, F5" />
@@ -19343,8 +19343,8 @@
     <layoutturnout ident="TO6" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="2011.0" ycen="300.0" xa="2046.0" ya="320.0" xb="1976.0" yb="280.0" xc="1966.0" yc="299.0" xd="2046.0" yd="320.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E Fr4/3" blockname="Midway East Freight Ladder" connectaname="T9" connectbname="T8" connectcname="T13" />
     <layoutturnout ident="TO7" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1942.0" ycen="261.0" xa="1977.0" ya="281.0" xb="1907.0" yb="241.0" xc="1902.0" yc="261.0" xd="1977.0" yd="281.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" blockname="Midway East Freight Ladder" connectaname="T8" connectbname="T10" connectcname="T14" />
     <layoutturnout ident="TO8" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1871.0" ycen="220.0" xa="1906.0" ya="240.0" xb="1836.0" yb="200.0" xc="1826.0" yc="220.0" xd="1906.0" yd="240.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E -F1,F2" blockname="Midway East Freight Ladder" connectaname="T10" connectbname="T12" connectcname="T15" />
-    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="2130.0" ycen="380.0" xa="2166.0" ya="362.0" xb="2094.0" yb="398.0" xc="2085.0" yc="380.0" xd="2166.0" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E upper X-over" secondturnoutname="LT206 partner" secondturnoutinverted="true" blockname="Midway East Freight Ladder" connectaname="T17" connectbname="T19" connectcname="T18" />
-    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="2052.0" ycen="420.0" xa="2012.0" ya="420.0" xb="2092.0" yb="420.0" xc="2092.0" yc="400.0" xd="2012.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="LT206 partner" secondturnoutname="MidwayYd E upper X-over" secondturnoutinverted="true" blockname="Midway East Stockyard Turnouts" connectaname="T21" connectbname="T25" connectcname="T19" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="2130.0" ycen="380.0" xa="2166.0" ya="362.0" xb="2094.0" yb="398.0" xc="2085.0" yc="380.0" xd="2166.0" yd="362.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT206 partner" secondturnoutname="MidwayYd E upper X-over" secondturnoutinverted="true" blockname="Midway East Freight Ladder" connectaname="T17" connectbname="T19" connectcname="T18" />
+    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="2052.0" ycen="420.0" xa="2012.0" ya="420.0" xb="2092.0" yb="420.0" xc="2092.0" yc="400.0" xd="2012.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayYd E upper X-over" secondturnoutname="LT206 partner" secondturnoutinverted="true" blockname="Midway East Stockyard Turnouts" connectaname="T21" connectbname="T25" connectcname="T19" />
     <layoutturnout ident="TO12" type="RH_XOVER" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1980.0" ycen="440.0" xa="1920.0" ya="420.0" xb="2000.0" yb="420.0" xc="2040.0" yc="460.0" xd="1960.0" yd="460.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHXOverXml" turnoutname="MidwayYd E lower X-over" blockname="Midway East Stockyard Turnouts" connectaname="T20" connectbname="T21" connectcname="T24" connectdname="T23" />
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1455.0" ycen="420.0" xa="1415.0" ya="420.0" xb="1495.0" yb="420.0" xc="1495.0" yc="440.0" xd="1415.0" yd="420.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E -West F8-F7" connectaname="T26" connectbname="T20" connectcname="T22" />
     <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1339.0" ycen="380.0" xa="1299.0" ya="380.0" xb="1379.0" yb="380.0" xc="1379.0" yc="400.0" xd="1299.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" connectaname="T28" connectbname="T18" connectcname="T26" />
@@ -27633,17 +27633,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Oct 30 15:52:21 EDT 2026</date>
+      <date>Wed Nov 04 02:36:50 EST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Oct 30 15:52:34 EDT 2026</date>
+      <date>Wed Nov 04 02:37:07 EST 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Oct 30 15:54:18 EDT 2026</date>
+      <date>Wed Nov 04 02:37:39 EST 2026</date>
       <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
