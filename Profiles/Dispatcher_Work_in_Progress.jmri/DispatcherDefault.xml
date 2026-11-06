@@ -2865,53 +2865,53 @@
     </sensor>
     <sensor inverted="false">
       <systemName>LS633</systemName>
-      <userName>LS633 DS64 (80,A1)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS633 DS64 (80,A1)</userName>
+      <comment>LS633 DS64 (80,A1)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS634</systemName>
-      <userName>LS634 DS64 (80,S1)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS634 DS64 (80,S1)</userName>
+      <comment>LS634 DS64 (80,S1)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS635</systemName>
-      <userName>LS635 DS64 (80,A2)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS635 DS64 (80,A2)</userName>
+      <comment>LS635 DS64 (80,A2)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS636</systemName>
-      <userName>LS636 DS64 (80,S2)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS636 DS64 (80,S2)</userName>
+      <comment>LS636 DS64 (80,S2)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS637</systemName>
-      <userName>LS637 DS64 (80,A3)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS637 DS64 (80,A3)</userName>
+      <comment>LS637 DS64 (80,A3)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS638</systemName>
-      <userName>LS638 DS64 (80,S3)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS638 DS64 (80,S3)</userName>
+      <comment>LS638 DS64 (80,S3)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS639</systemName>
-      <userName>LS639 DS64 (80,A4)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS639 DS64 (80,A4)</userName>
+      <comment>LS639 DS64 (80,A4)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS640</systemName>
-      <userName>LS640 DS64 (80,S4)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS640 DS64 (80,S4)</userName>
+      <comment>LS640 DS64 (80,S4)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS641</systemName>
-      <userName>LS641 DS64 (81,A1)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS641 DS64 (81,A1)</userName>
+      <comment>LS641 DS64 (81,A1)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS642</systemName>
-      <userName>LS642 DS64 (81,S1)</userName>
-      <comment>Unused or not documented. Reserved</comment>
+      <userName>Midway Yd-W PB LS642 DS64 (81,S1)</userName>
+      <comment>LS642 DS64 (81,S1)</comment>
     </sensor>
     <sensor inverted="false">
       <systemName>LS643</systemName>
@@ -19464,7 +19464,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS633 DS64 (80,A1)" x="1152" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS633 DS64 (80,A1)" x="1152" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19479,7 +19479,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS634 DS64 (80,S1)" x="1224" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS634 DS64 (80,S1)" x="1224" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19494,7 +19494,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS635 DS64 (80,A2)" x="1280" y="216" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS635 DS64 (80,A2)" x="1280" y="216" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19509,7 +19509,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS636 DS64 (80,S2)" x="1344" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS636 DS64 (80,S2)" x="1344" y="248" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19524,7 +19524,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS637 DS64 (80,A3)" x="1416" y="280" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS637 DS64 (80,A3)" x="1416" y="280" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19539,7 +19539,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS638 DS64 (80,S3)" x="1456" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS638 DS64 (80,S3)" x="1456" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19554,7 +19554,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS639 DS64 (80,A4)" x="1456" y="352" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS639 DS64 (80,A4)" x="1456" y="352" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19569,7 +19569,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS640 DS64 (80,S4)" x="1520" y="344" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS640 DS64 (80,S4)" x="1520" y="344" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19584,7 +19584,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS642 DS64 (81,S1)" x="1616" y="360" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS642 DS64 (81,S1)" x="1616" y="360" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19599,7 +19599,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS641 DS64 (81,A1)" x="1512" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="Midway Yd-W PB LS641 DS64 (81,A1)" x="1512" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -28121,17 +28121,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Nov 06 08:31:17 PST 2026</date>
+      <date>Fri Nov 06 08:47:40 PST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Nov 06 08:31:33 PST 2026</date>
+      <date>Fri Nov 06 08:48:15 PST 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Nov 06 08:46:07 PST 2026</date>
+      <date>Fri Nov 06 08:59:01 PST 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
