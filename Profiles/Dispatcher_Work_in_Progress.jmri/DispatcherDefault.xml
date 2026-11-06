@@ -19160,8 +19160,7 @@
     </sensoricon>
     <positionablelabel x="584" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES11" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1312" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES13" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="244" y="305" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" borderSize="20" redBorder="238" greenBorder="238" blueBorder="238" fixedWidth="25" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1296" y="192" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="25" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1232" y="184" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="25" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="227.0" ycen="63.0" xa="187.0" ya="63.0" xb="267.0" yb="63.0" xc="253.0" yc="90.0" xd="187.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Eng Svc" secondturnoutname="Midway LT59 partner" connectaname="T1" connectbname="T36" connectcname="T4" />
     <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="177.0" ycen="128.0" xa="137.0" ya="128.0" xb="217.0" yb="128.0" xc="212.0" yc="158.0" xd="137.0" yd="128.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" secondturnoutname="Midway LT159 partner" secondturnoutinverted="true" connectaname="T2" connectbname="T3" connectcname="T7" />
     <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="351.0" ycen="191.0" xa="388.0" ya="191.0" xb="314.0" yb="191.0" xc="323.0" yc="164.0" xd="388.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" secondturnoutname="Midway W Eng Svc" connectaname="T8" connectbname="T6" connectcname="T5" />
@@ -27705,17 +27704,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Nov 05 20:42:54 PST 2026</date>
+      <date>Thu Nov 05 20:55:45 PST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Nov 05 20:43:10 PST 2026</date>
+      <date>Thu Nov 05 20:56:02 PST 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Nov 05 20:54:00 PST 2026</date>
+      <date>Thu Nov 05 20:58:52 PST 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
