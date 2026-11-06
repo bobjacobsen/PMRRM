@@ -5,7 +5,7 @@
     <major>5</major>
     <minor>17</minor>
     <test>4</test>
-    <modifier />
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -13152,6 +13152,10 @@
       <systemName>IB201</systemName>
       <userName>AUTOBLK:211</userName>
     </block>
+    <block systemName="IB202">
+      <systemName>IB202</systemName>
+      <userName>AUTOBLK:216</userName>
+    </block>
     <block systemName="IB:AUTO:0004">
       <systemName>IB:AUTO:0004</systemName>
     </block>
@@ -14077,11 +14081,6 @@
           <turnout systemName="LT60" />
         </beansetting>
       </path>
-      <path todir="96" fromdir="144" block="IB87">
-        <beansetting setting="4">
-          <turnout systemName="LT59" />
-        </beansetting>
-      </path>
       <path todir="64" fromdir="128" block="IB:AUTO:0055">
         <beansetting setting="2">
           <turnout systemName="LT59" />
@@ -14683,7 +14682,8 @@
       <systemName>IB66</systemName>
       <userName>AUTOBLK:196</userName>
       <permissive>no</permissive>
-      <path todir="160" fromdir="80" block="IB195" />
+      <path todir="64" fromdir="128" block="IB148" />
+      <path todir="128" fromdir="64" block="IB191" />
     </block>
     <block systemName="IB67" length="6350.0" curve="0">
       <systemName>IB67</systemName>
@@ -16208,13 +16208,13 @@
       <systemName>IB190</systemName>
       <userName>AUTOBLK:85</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB22" />
-      <path todir="128" fromdir="64" block="IB22" />
+      <path todir="128" fromdir="64" block="IB194" />
     </block>
     <block systemName="IB191" length="0.0" curve="0">
       <systemName>IB191</systemName>
       <userName>AUTOBLK:90</userName>
       <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB66" />
     </block>
     <block systemName="IB192" length="0.0" curve="0">
       <systemName>IB192</systemName>
@@ -16240,13 +16240,18 @@
       <systemName>IB193</systemName>
       <userName>AUTOBLK:93</userName>
       <permissive>no</permissive>
-      <path todir="160" fromdir="80" block="IB22" />
-      <path todir="80" fromdir="160" block="IB192" />
+      <path todir="144" fromdir="96" block="IB32">
+        <beansetting setting="4">
+          <turnout systemName="LT59" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB190" />
     </block>
     <block systemName="IB194" length="0.0" curve="0">
       <systemName>IB194</systemName>
       <userName>AUTOBLK:163</userName>
       <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB190" />
     </block>
     <block systemName="IB195" length="0.0" curve="0">
       <systemName>IB195</systemName>
@@ -16259,42 +16264,51 @@
       <systemName>IB196</systemName>
       <userName>AUTOBLK:206</userName>
       <permissive>no</permissive>
-      <path todir="160" fromdir="80" block="IB198" />
+      <path todir="128" fromdir="64" block="IB197" />
     </block>
     <block systemName="IB197" length="0.0" curve="0">
       <systemName>IB197</systemName>
       <userName>AUTOBLK:207</userName>
       <permissive>no</permissive>
+      <path todir="64" fromdir="128" block="IB196" />
     </block>
     <block systemName="IB198" length="0.0" curve="0">
       <systemName>IB198</systemName>
       <userName>AUTOBLK:208</userName>
       <permissive>no</permissive>
-      <path todir="80" fromdir="160" block="IB196" />
-      <path todir="160" fromdir="80" block="IB197" />
+      <path todir="144" fromdir="96" block="IB32">
+        <beansetting setting="4">
+          <turnout systemName="LT59" />
+        </beansetting>
+      </path>
+      <path todir="96" fromdir="144" block="IB196" />
     </block>
     <block systemName="IB199" length="0.0" curve="0">
       <systemName>IB199</systemName>
       <userName>AUTOBLK:209</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB22" />
-      <path todir="128" fromdir="64" block="IB22" />
-      <path todir="80" fromdir="160" block="IB201" />
+      <path todir="64" fromdir="128" block="IB202" />
     </block>
     <block systemName="IB200" length="0.0" curve="0">
       <systemName>IB200</systemName>
       <userName>AUTOBLK:210</userName>
       <permissive>no</permissive>
-      <path todir="64" fromdir="128" block="IB54" />
-      <path todir="160" fromdir="80" block="IB93" />
-      <path todir="160" fromdir="80" block="IB201" />
+      <path todir="144" fromdir="96" block="IB201" />
+      <path todir="128" fromdir="64" block="IB202" />
     </block>
     <block systemName="IB201" length="0.0" curve="0">
       <systemName>IB201</systemName>
       <userName>AUTOBLK:211</userName>
       <permissive>no</permissive>
-      <path todir="32" fromdir="16" block="IB22" />
-      <path todir="32" fromdir="16" block="IB192" />
+      <path todir="144" fromdir="96" block="IB196" />
+      <path todir="96" fromdir="144" block="IB200" />
+    </block>
+    <block systemName="IB202" length="0.0" curve="0">
+      <systemName>IB202</systemName>
+      <userName>AUTOBLK:216</userName>
+      <permissive>no</permissive>
+      <path todir="128" fromdir="64" block="IB199" />
+      <path todir="64" fromdir="128" block="IB200" />
     </block>
     <block systemName="IB:AUTO:0004" length="0.0" curve="0">
       <systemName>IB:AUTO:0004</systemName>
@@ -17290,6 +17304,10 @@
       <systemName>ILB84</systemName>
       <userName>Bend CP3-L</userName>
     </layoutblock>
+    <layoutblock systemName="ILB85" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB85</systemName>
+      <userName>AUTOBLK:85</userName>
+    </layoutblock>
     <layoutblock systemName="ILB86" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB86</systemName>
       <userName>AUTOBLK:86</userName>
@@ -17305,10 +17323,6 @@
     <layoutblock systemName="ILB89" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB89</systemName>
       <userName>CP D3</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB90" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
-      <systemName>ILB90</systemName>
-      <userName>AUTOBLK:90</userName>
     </layoutblock>
     <layoutblock systemName="ILB91" occupancysensor="LS139" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB91</systemName>
@@ -17357,14 +17371,6 @@
     <layoutblock systemName="ILB103" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB103</systemName>
       <userName>Colton CP4</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB104" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB104</systemName>
-      <userName>AUTOBLK:104</userName>
-    </layoutblock>
-    <layoutblock systemName="ILB105" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
-      <systemName>ILB105</systemName>
-      <userName>AUTOBLK:105</userName>
     </layoutblock>
     <layoutblock systemName="ILB106" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="white">
       <systemName>ILB106</systemName>
@@ -17595,6 +17601,10 @@
       <systemName>ILB162</systemName>
       <userName>AUTOBLK:162</userName>
     </layoutblock>
+    <layoutblock systemName="ILB163" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB163</systemName>
+      <userName>AUTOBLK:163</userName>
+    </layoutblock>
     <layoutblock systemName="ILB164" occupancysensor="Midway East 51-53 bypass" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB164</systemName>
       <userName>Midway East 51-53 bypass</userName>
@@ -17754,6 +17764,14 @@
     <layoutblock systemName="ILB204" occupancysensor="Delta CP" occupiedsense="2" trackcolor="black" occupiedcolor="black" extracolor="green">
       <systemName>ILB204</systemName>
       <userName>Delta CP</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB206" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB206</systemName>
+      <userName>AUTOBLK:206</userName>
+    </layoutblock>
+    <layoutblock systemName="ILB207" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
+      <systemName>ILB207</systemName>
+      <userName>AUTOBLK:207</userName>
     </layoutblock>
     <layoutblock systemName="ILB212" occupancysensor="Powderhorn pocket far" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB212</systemName>
@@ -18182,6 +18200,14 @@
   <signalmastlogics class="jmri.managers.configurexml.DefaultSignalMastLogicManagerXml">
     <logicDelay>500</logicDelay>
   </signalmastlogics>
+  <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
+    <meter>
+      <systemName>LVDCS240+(s/n5382)InputCurrent</systemName>
+    </meter>
+    <meter>
+      <systemName>LVDCS240+(s/n5382)Voltage</systemName>
+    </meter>
+  </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
     <logix userName="Start up initializer" enabled="yes">
       <systemName>IX:RTXINITIALIZER</systemName>
@@ -19042,7 +19068,7 @@
       <tooltip>Text Label</tooltip>
     </positionablelabel>
   </paneleditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="640" panelwidth="1736" sliders="no" scrollable="none" editable="yes" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Engine Service" x="20" y="30" windowheight="1373" windowwidth="2466" panelheight="640" panelwidth="1736" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="8" gridSize2nd="16" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19069,66 +19095,66 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="386" y="43" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Passenger Approach" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="384" y="108" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Freight Approach" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1328" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="To Midway Freight" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="263" y="551" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Engine House" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="90" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="Reverse loop" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="298" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="333" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="268" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="237" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="775" y="207" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R5" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="213" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="154" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="159" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="25" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="493" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="D3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="832" y="461" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="S1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="831" y="428" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="S2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="831" y="397" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="S3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="778" y="174" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="R6" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="829" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="S4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="778" y="559" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="D1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="777" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="D2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="343" y="156" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1351" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="219" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1276" y="385" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="496" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS651" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="560" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS649" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="LS650" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1411" y="426" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MESL1" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1411" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MESL2" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1240" y="296" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES03" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1184" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES02" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1112" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES01" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1048" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES05" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="648" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES14" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="600" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES15" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="416" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES09" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="552" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES16" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="560" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES12" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1136" y="392" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES07" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1184" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES04" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1016" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES06" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="464" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB09" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB07" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="336" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB06" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1088" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB05" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1064" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB04" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1000" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB03" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="432" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB08" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="944" y="208" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB02" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="912" y="176" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB01" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="184" y="192" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB18" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="360" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB17" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1104" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES08" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="920" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB12" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="696" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB11" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="696" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB13" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="712" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB14" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="720" y="208" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB15" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="712" y="176" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB16" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="704" y="336" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="PB10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="MidwayES PB01 ReadyTrk 6 East" x="888" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <positionablelabel x="386" y="43" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Passenger Approach" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="384" y="108" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Freight Approach" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1328" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="To Midway Freight" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="263" y="551" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Engine House" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="90" y="230" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Reverse loop" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="298" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="333" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="268" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="237" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="775" y="207" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R5" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="213" y="73" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="154" y="139" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="159" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="25" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="493" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="832" y="461" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="S1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="831" y="428" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="S2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="831" y="397" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="S3" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="778" y="174" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R6" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="829" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="S4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="778" y="559" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="777" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="343" y="156" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1351" y="435" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="219" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1276" y="385" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="496" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS651" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="560" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS649" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS650" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1411" y="426" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MESL1" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1411" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MESL2" fontFamily="Dialog" fontname="Dialog" size="11" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1240" y="296" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES03" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1184" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES02" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1112" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES01" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1048" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES05" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="648" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES14" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="600" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES15" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="416" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES09" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="552" y="152" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES16" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="560" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES12" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1136" y="392" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES07" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1184" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES04" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1016" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES06" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="464" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB09" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="400" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB07" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="336" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB06" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1088" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB05" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1064" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB04" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1000" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB03" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="432" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB08" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="944" y="208" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB02" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="912" y="176" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB01" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="184" y="192" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB18" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="360" y="232" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB17" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1104" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES08" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="920" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB12" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="696" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB11" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="696" y="272" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB13" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="712" y="240" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB14" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="720" y="208" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB15" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="712" y="176" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB16" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="704" y="336" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="MidwayES PB01 ReadyTrk 6 East" x="888" y="184" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19143,7 +19169,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB02 ReadyTrk 5 East" x="904" y="216" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB02 ReadyTrk 5 East" x="904" y="216" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19158,10 +19184,10 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="584" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES11" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="1304" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES13" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="272" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" text="MES10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="MidwayES PB03 ReadyTrk 4 East" x="976" y="240" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <positionablelabel x="584" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES11" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="1304" y="328" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES13" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="272" y="200" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MES10" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <sensoricon sensor="MidwayES PB03 ReadyTrk 4 East" x="976" y="240" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19176,7 +19202,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB04 ReadyTrk 3 East" x="1040" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB04 ReadyTrk 3 East" x="1040" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19191,7 +19217,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB05 ReadyTrk 2 East" x="1064" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB05 ReadyTrk 2 East" x="1064" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19206,7 +19232,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB06 Steam 4" x="896" y="336" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB06 Steam 4" x="896" y="336" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19221,7 +19247,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB07 Steam 3" x="896" y="400" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB07 Steam 3" x="896" y="400" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19236,7 +19262,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB08 Steam 2" x="896" y="432" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB08 Steam 2" x="896" y="432" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19251,7 +19277,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB09 Steam 1" x="896" y="464" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB09 Steam 1" x="896" y="464" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19266,7 +19292,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB10 ReadyTrk R1R2 West" x="736" y="336" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB10 ReadyTrk R1R2 West" x="736" y="336" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19281,7 +19307,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB11 ReadyTrk 2 West" x="736" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB11 ReadyTrk 2 West" x="736" y="304" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19296,7 +19322,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB12 Steam 4 East" x="896" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB12 Steam 4 East" x="896" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19311,7 +19337,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB13 ReadyTrk 4 West" x="736" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB13 ReadyTrk 4 West" x="736" y="272" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19326,7 +19352,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB14 ReadyTrk 4 West" x="752" y="240" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB14 ReadyTrk 4 West" x="752" y="240" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19341,7 +19367,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB15 ReadyTrk 5 West" x="752" y="208" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB15 ReadyTrk 5 West" x="752" y="208" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19356,7 +19382,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB16 ReadyTrk 6 West" x="752" y="176" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB16 ReadyTrk 6 West" x="752" y="176" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19371,7 +19397,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB17 Revlop cntrclk" x="360" y="208" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB17 Revlop cntrclk" x="360" y="208" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19386,7 +19412,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB18 Revloop clkwse" x="216" y="200" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB18 Revloop clkwse" x="216" y="200" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19401,7 +19427,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB19 Diesel 1" x="984" y="552" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB19 Diesel 1" x="984" y="552" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19416,7 +19442,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB20 Diesel 2" x="984" y="520" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB20 Diesel 2" x="984" y="520" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19431,7 +19457,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="MidwayES PB21 Diesel 3" x="984" y="488" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB21 Diesel 3" x="984" y="488" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19446,7 +19472,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS633 DS64 (80,A1)" x="1168" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS633 DS64 (80,A1)" x="1168" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19461,7 +19487,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS634 DS64 (80,S1)" x="1248" y="192" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS634 DS64 (80,S1)" x="1248" y="192" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19476,7 +19502,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS635 DS64 (80,A2)" x="1296" y="224" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS635 DS64 (80,A2)" x="1296" y="224" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19491,7 +19517,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS636 DS64 (80,S2)" x="1368" y="256" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS636 DS64 (80,S2)" x="1368" y="256" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19506,7 +19532,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS637 DS64 (80,A3)" x="1440" y="288" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS637 DS64 (80,A3)" x="1440" y="288" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19521,7 +19547,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS638 DS64 (80,S3)" x="1496" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS638 DS64 (80,S3)" x="1496" y="320" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19536,7 +19562,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS639 DS64 (80,A4)" x="1456" y="352" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS639 DS64 (80,A4)" x="1456" y="352" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19551,7 +19577,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS640 DS64 (80,S4)" x="1520" y="344" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS640 DS64 (80,S4)" x="1520" y="344" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19566,7 +19592,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS642 DS64 (81,S1)" x="1616" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS642 DS64 (81,S1)" x="1616" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19581,7 +19607,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="LS641 DS64 (81,A1)" x="1536" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="true" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="LS641 DS64 (81,A1)" x="1536" y="368" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -19596,36 +19622,36 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="227.0" ycen="63.0" xa="187.0" ya="63.0" xb="267.0" yb="63.0" xc="253.0" yc="90.0" xd="187.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Eng Svc" secondturnoutname="Midway LT59 partner" connectaname="T1" connectbname="T36" connectcname="T4" />
-    <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="177.0" ycen="128.0" xa="137.0" ya="128.0" xb="217.0" yb="128.0" xc="212.0" yc="158.0" xd="137.0" yd="128.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" secondturnoutname="Midway LT159 partner" secondturnoutinverted="true" connectaname="T2" connectbname="T3" connectcname="T7" />
-    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="351.0" ycen="191.0" xa="388.0" ya="191.0" xb="314.0" yb="191.0" xc="323.0" yc="164.0" xd="388.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" secondturnoutname="Midway W Eng Svc" connectaname="T8" connectbname="T6" connectcname="T5" />
-    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="279.0" ycen="191.0" xa="307.0" ya="191.0" xb="251.0" yb="191.0" xc="239.0" yc="211.0" xd="307.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 10 RevLoop-CntrClk" connectaname="T6" connectbname="T7" connectcname="T9" />
-    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="428.0" ycen="191.0" xa="468.0" ya="191.0" xb="388.0" yb="191.0" xc="388.0" yc="211.0" xd="468.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 09 RevLoop-Clk,CntrClk" connectaname="T11" connectbname="T8" connectcname="T10" />
-    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="568.0" ycen="192.0" xa="552.0" ya="192.0" xb="584.0" yb="192.0" xc="600.0" yc="216.0" xd="552.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 16 WLead-R1,R6" connectaname="T11" connectbname="T12" connectcname="T14" />
-    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="624.0" ycen="192.0" xa="592.0" ya="192.0" xb="656.0" yb="192.0" xc="648.0" yc="216.0" xd="592.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 15 WLead-R4,R5R6" connectaname="T12" connectbname="T13" connectcname="T16" />
-    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="664.0" ycen="192.0" xa="632.0" ya="192.0" xb="696.0" yb="192.0" xc="696.0" yc="216.0" xd="632.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 14 WLead-R5,R6" connectaname="T13" connectbname="T24" connectcname="T15" />
-    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="616.0" ycen="232.0" xa="600.0" ya="216.0" xb="632.0" yb="248.0" xc="616.0" yc="256.0" xd="600.0" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 12 WLead-R2R1,R3" connectaname="T14" connectbname="T17" connectcname="T18" />
-    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1040.0" ycen="224.0" xa="1056.0" ya="232.0" xb="1024.0" yb="216.0" xc="992.0" yc="224.0" xd="1056.0" yd="232.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 05 L2-R5,R6" connectaname="T41" connectbname="T25" connectcname="T21" />
-    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1104.0" ycen="256.0" xa="1120.0" ya="264.0" xb="1088.0" yb="248.0" xc="1056.0" yc="256.0" xd="1120.0" yd="264.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 01 L2-R4,R5R6" connectaname="T20" connectbname="T41" connectcname="T22" />
-    <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1171.01" ycen="286.97" xa="1201.77" ya="301.04" xb="1140.25" yb="272.9" xc="1128.0" yc="288.0" xd="1201.77" yd="301.04" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 02 L2-R3,R6" connectaname="T31" connectbname="T20" connectcname="T23" />
-    <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1118.0" ycen="352.0" xa="1158.0" ya="352.0" xb="1078.0" yb="352.0" xc="1078.0" yc="372.0" xd="1158.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 08 L2-S3,R1" connectaname="T27" connectbname="T26" connectcname="T33" />
-    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1198.0" ycen="352.0" xa="1232.0" ya="352.0" xb="1164.0" yb="352.0" xc="1159.0" yc="373.0" xd="1232.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 04 L2-S2S1,R1" connectaname="T29" connectbname="T27" connectcname="T28" />
-    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1121.22" ycen="388.89" xa="1158.99" ya="373.0" xb="1083.45" yb="404.78" xc="1096.0" yc="432.0" xd="1158.99" yd="373.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 07 L2-S1,S2" connectaname="T28" connectbname="T34" connectcname="T35" />
-    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1304.0" ycen="352.0" xa="1336.0" ya="352.0" xb="1272.0" yb="352.0" xc="1272.0" yc="336.0" xd="1336.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 13 R2,R1" connectaname="T38" connectbname="T29" connectcname="T30" />
-    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1360.0" ycen="416.0" xa="1400.0" ya="416.0" xb="1320.0" yb="416.0" xc="1320.0" yc="436.0" xd="1400.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES L1-D1,D2,D3" connectaname="T40" connectbname="T39" connectcname="T44" />
-    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1279.0" ycen="416.0" xa="1319.0" ya="416.0" xb="1239.0" yb="416.0" xc="1239.0" yc="436.0" xd="1319.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES L1-D2,D3" connectaname="T39" connectbname="T45" connectcname="T43" />
-    <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1240.0" ycen="320.0" xa="1268.65" ya="334.33" xb="1211.35" yb="305.67" xc="1184.0" yc="320.0" xd="1268.65" yd="334.33" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 03 L2-R2,L2R3" connectaname="T30" connectbname="T31" connectcname="T59" />
-    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="640.0" ycen="304.0" xa="616.0" ya="288.0" xb="664.0" yb="320.0" xc="672.0" yc="352.0" xd="616.0" yd="288.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 11 WLead-R1,R2" connectaname="T18" connectbname="T59" connectcname="T32" />
-    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1038.0" ycen="352.0" xa="1078.0" ya="352.0" xb="998.0" yb="352.0" xc="997.0" yc="370.0" xd="1078.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 06 L2-S4,R1" connectaname="T26" connectbname="T32" connectcname="T52" />
-    <layoutturnout ident="TO22" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1432.0" ycen="352.0" xa="1472.0" ya="352.0" xb="1392.0" yb="352.0" xc="1400.0" yc="336.0" xd="1472.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T67" connectbname="T38" connectcname="T60" />
-    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1368.0" ycen="320.0" xa="1352.0" ya="312.0" xb="1384.0" yb="328.0" xc="1412.72" yc="320.0" xd="1352.0" yd="312.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T61" connectbname="T60" connectcname="T74" />
-    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1304.0" ycen="288.0" xa="1268.22" ya="270.11" xb="1339.78" yb="305.89" xc="1348.72" yc="288.0" xd="1268.22" yd="270.11" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T62" connectbname="T61" connectcname="T73" />
-    <layoutturnout ident="TO25" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1240.0" ycen="256.0" xa="1224.0" ya="248.0" xb="1256.0" yb="264.0" xc="1284.72" yc="256.0" xd="1224.0" yd="248.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T63" connectbname="T62" connectcname="T72" />
-    <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1176.0" ycen="224.0" xa="1160.0" ya="216.0" xb="1192.0" yb="232.0" xc="1220.72" yc="224.0" xd="1160.0" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T64" connectbname="T63" connectcname="T71" />
-    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1112.0" ycen="192.0" xa="1096.0" ya="184.0" xb="1128.0" yb="200.0" xc="1156.72" yc="192.0" xd="1096.0" yd="184.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T65" connectbname="T64" connectcname="T70" />
-    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1048.0" ycen="160.0" xa="1008.0" ya="160.0" xb="1088.0" yb="160.0" xc="1080.0" yc="176.0" xd="1008.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectbname="T69" connectcname="T65" />
-    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1552.0" ycen="352.0" xa="1592.0" ya="352.0" xb="1512.0" yb="352.0" xc="1512.0" yc="384.0" xd="1592.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectbname="T67" connectcname="T66" />
-    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1632.0" ycen="352.0" xa="1672.0" ya="352.0" xb="1592.0" yb="352.0" xc="1600.0" yc="384.0" xd="1672.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
+    <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="227.0" ycen="63.0" xa="187.0" ya="63.0" xb="267.0" yb="63.0" xc="253.0" yc="90.0" xd="187.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Eng Svc" secondturnoutname="Midway LT59 partner" connectaname="T1" connectbname="T36" connectcname="T4" />
+    <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="177.0" ycen="128.0" xa="137.0" ya="128.0" xb="217.0" yb="128.0" xc="212.0" yc="158.0" xd="137.0" yd="128.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" secondturnoutname="Midway LT159 partner" secondturnoutinverted="true" connectaname="T2" connectbname="T3" connectcname="T7" />
+    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="351.0" ycen="191.0" xa="388.0" ya="191.0" xb="314.0" yb="191.0" xc="323.0" yc="164.0" xd="388.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" secondturnoutname="Midway W Eng Svc" connectaname="T8" connectbname="T6" connectcname="T5" />
+    <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="279.0" ycen="191.0" xa="307.0" ya="191.0" xb="251.0" yb="191.0" xc="239.0" yc="211.0" xd="307.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 10 RevLoop-CntrClk" connectaname="T6" connectbname="T7" connectcname="T9" />
+    <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="428.0" ycen="191.0" xa="468.0" ya="191.0" xb="388.0" yb="191.0" xc="388.0" yc="211.0" xd="468.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 09 RevLoop-Clk,CntrClk" connectaname="T11" connectbname="T8" connectcname="T10" />
+    <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="568.0" ycen="192.0" xa="552.0" ya="192.0" xb="584.0" yb="192.0" xc="600.0" yc="216.0" xd="552.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 16 WLead-R1,R6" connectaname="T11" connectbname="T12" connectcname="T14" />
+    <layoutturnout ident="TO7" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="624.0" ycen="192.0" xa="592.0" ya="192.0" xb="656.0" yb="192.0" xc="648.0" yc="216.0" xd="592.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 15 WLead-R4,R5R6" connectaname="T12" connectbname="T13" connectcname="T16" />
+    <layoutturnout ident="TO8" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="664.0" ycen="192.0" xa="632.0" ya="192.0" xb="696.0" yb="192.0" xc="696.0" yc="216.0" xd="632.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 14 WLead-R5,R6" connectaname="T13" connectbname="T24" connectcname="T15" />
+    <layoutturnout ident="TO9" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="616.0" ycen="232.0" xa="600.0" ya="216.0" xb="632.0" yb="248.0" xc="616.0" yc="256.0" xd="600.0" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 12 WLead-R2R1,R3" connectaname="T14" connectbname="T17" connectcname="T18" />
+    <layoutturnout ident="TO10" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1040.0" ycen="224.0" xa="1056.0" ya="232.0" xb="1024.0" yb="216.0" xc="992.0" yc="224.0" xd="1056.0" yd="232.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 05 L2-R5,R6" connectaname="T41" connectbname="T25" connectcname="T21" />
+    <layoutturnout ident="TO11" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1104.0" ycen="256.0" xa="1120.0" ya="264.0" xb="1088.0" yb="248.0" xc="1056.0" yc="256.0" xd="1120.0" yd="264.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 01 L2-R4,R5R6" connectaname="T20" connectbname="T41" connectcname="T22" />
+    <layoutturnout ident="TO12" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1171.01" ycen="286.97" xa="1201.77" ya="301.04" xb="1140.25" yb="272.9" xc="1128.0" yc="288.0" xd="1201.77" yd="301.04" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 02 L2-R3,R6" connectaname="T31" connectbname="T20" connectcname="T23" />
+    <layoutturnout ident="TO13" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1118.0" ycen="352.0" xa="1158.0" ya="352.0" xb="1078.0" yb="352.0" xc="1078.0" yc="372.0" xd="1158.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 08 L2-S3,R1" connectaname="T27" connectbname="T26" connectcname="T33" />
+    <layoutturnout ident="TO14" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1198.0" ycen="352.0" xa="1232.0" ya="352.0" xb="1164.0" yb="352.0" xc="1159.0" yc="373.0" xd="1232.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 04 L2-S2S1,R1" connectaname="T29" connectbname="T27" connectcname="T28" />
+    <layoutturnout ident="TO16" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1121.22" ycen="388.89" xa="1158.99" ya="373.0" xb="1083.45" yb="404.78" xc="1096.0" yc="432.0" xd="1158.99" yd="373.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 07 L2-S1,S2" connectaname="T28" connectbname="T34" connectcname="T35" />
+    <layoutturnout ident="TO17" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1304.0" ycen="352.0" xa="1336.0" ya="352.0" xb="1272.0" yb="352.0" xc="1272.0" yc="336.0" xd="1336.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 13 R2,R1" connectaname="T38" connectbname="T29" connectcname="T30" />
+    <layoutturnout ident="TO19" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1360.0" ycen="416.0" xa="1400.0" ya="416.0" xb="1320.0" yb="416.0" xc="1320.0" yc="436.0" xd="1400.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES L1-D1,D2,D3" connectaname="T40" connectbname="T39" connectcname="T44" />
+    <layoutturnout ident="TO20" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1279.0" ycen="416.0" xa="1319.0" ya="416.0" xb="1239.0" yb="416.0" xc="1239.0" yc="436.0" xd="1319.0" yd="416.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES L1-D2,D3" connectaname="T39" connectbname="T45" connectcname="T43" />
+    <layoutturnout ident="TO18" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1240.0" ycen="320.0" xa="1268.65" ya="334.33" xb="1211.35" yb="305.67" xc="1184.0" yc="320.0" xd="1268.65" yd="334.33" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 03 L2-R2,L2R3" connectaname="T30" connectbname="T31" connectcname="T59" />
+    <layoutturnout ident="TO21" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="640.0" ycen="304.0" xa="616.0" ya="288.0" xb="664.0" yb="320.0" xc="672.0" yc="352.0" xd="616.0" yd="288.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 11 WLead-R1,R2" connectaname="T18" connectbname="T59" connectcname="T32" />
+    <layoutturnout ident="TO15" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1038.0" ycen="352.0" xa="1078.0" ya="352.0" xb="998.0" yb="352.0" xc="997.0" yc="370.0" xd="1078.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 06 L2-S4,R1" connectaname="T26" connectbname="T32" connectcname="T52" />
+    <layoutturnout ident="TO22" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1432.0" ycen="352.0" xa="1472.0" ya="352.0" xb="1392.0" yb="352.0" xc="1400.0" yc="336.0" xd="1472.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectaname="T67" connectbname="T38" connectcname="T60" />
+    <layoutturnout ident="TO23" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1368.0" ycen="320.0" xa="1352.0" ya="312.0" xb="1384.0" yb="328.0" xc="1412.72" yc="320.0" xd="1352.0" yd="312.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T61" connectbname="T60" connectcname="T74" />
+    <layoutturnout ident="TO24" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1304.0" ycen="288.0" xa="1268.22" ya="270.11" xb="1339.78" yb="305.89" xc="1348.72" yc="288.0" xd="1268.22" yd="270.11" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T62" connectbname="T61" connectcname="T73" />
+    <layoutturnout ident="TO25" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1240.0" ycen="256.0" xa="1224.0" ya="248.0" xb="1256.0" yb="264.0" xc="1284.72" yc="256.0" xd="1224.0" yd="248.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T63" connectbname="T62" connectcname="T72" />
+    <layoutturnout ident="TO26" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1176.0" ycen="224.0" xa="1160.0" ya="216.0" xb="1192.0" yb="232.0" xc="1220.72" yc="224.0" xd="1160.0" yd="216.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T64" connectbname="T63" connectcname="T71" />
+    <layoutturnout ident="TO27" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1112.0" ycen="192.0" xa="1096.0" ya="184.0" xb="1128.0" yb="200.0" xc="1156.72" yc="192.0" xd="1096.0" yd="184.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectaname="T65" connectbname="T64" connectcname="T70" />
+    <layoutturnout ident="TO28" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1048.0" ycen="160.0" xa="1008.0" ya="160.0" xb="1088.0" yb="160.0" xc="1080.0" yc="176.0" xd="1008.0" yd="160.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" connectbname="T69" connectcname="T65" />
+    <layoutturnout ident="TO29" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1552.0" ycen="352.0" xa="1592.0" ya="352.0" xb="1512.0" yb="352.0" xc="1512.0" yc="384.0" xd="1592.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" connectbname="T67" connectcname="T66" />
+    <layoutturnout ident="TO30" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="1632.0" ycen="352.0" xa="1672.0" ya="352.0" xb="1592.0" yb="352.0" xc="1600.0" yc="384.0" xd="1672.0" yd="352.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" />
     <tracksegment ident="T1" connect1name="EC1" type1="POS_POINT" connect2name="TO1" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
       <decorations>
         <arrow style="1" end="start" direction="out" color="#000000" linewidth="2" length="6" gap="1" />
@@ -19681,9 +19707,7 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T39" connect1name="TO19" type1="TURNOUT_B" connect2name="TO20" type2="TURNOUT_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T40" connect1name="TO19" type1="TURNOUT_A" connect2name="A22" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml">
-      <decorations />
-    </tracksegment>
+    <tracksegment ident="T40" connect1name="TO19" type1="TURNOUT_A" connect2name="A22" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T42" connect1name="A12" type1="POS_POINT" connect2name="A15" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T43" connect1name="A14" type1="POS_POINT" connect2name="TO20" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T44" connect1name="A13" type1="POS_POINT" connect2name="TO19" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -19785,7 +19809,7 @@
       <raytrack angle="15.0" index="16" />
     </layoutturntable>
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="110" y="202" windowheight="410" windowwidth="1214" panelheight="532" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Midway Freight" x="0" y="224" windowheight="1211" windowwidth="2440" panelheight="532" panelwidth="2552" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="no" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="2.0" yscale="2.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="4" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="10" gridSize2nd="10" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Midway Freight" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -19978,7 +20002,7 @@
     <positionablepoint ident="A10" type="ANCHOR" x="900.0" y="460.5" connect1name="T29" connect2name="T53" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A11" type="ANCHOR" x="2030.0" y="120.0" connect1name="T5" connect2name="T51" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="218" y="129" windowheight="653" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Port Area" x="539" y="771" windowheight="558" windowwidth="1189" panelheight="412" panelwidth="1075" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="no" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="20.0" turnoutcx="20.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Port Area" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20216,7 +20240,7 @@
     <positionablepoint ident="A9" type="ANCHOR" x="190.0" y="221.0" connect1name="T3" connect2name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="24.0" y="260.0" connect1name="T6" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Area" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Vista Area" x="97" y="213" windowheight="485" windowwidth="798" panelheight="341" panelwidth="1049" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20348,7 +20372,7 @@
     <positionablepoint ident="EB2" type="END_BUMPER" x="40.0" y="145.0" connect1name="T1" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EC2" type="EDGE_CONNECTOR" x="999.0" y="83.0" connect1name="T3" linkedpanel="" linkpointid="" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Doering Branch" x="182" y="26" windowheight="478" windowwidth="566" panelheight="375" panelwidth="505" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Doering Branch" x="182" y="245" windowheight="478" windowwidth="566" panelheight="375" panelwidth="505" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20481,7 +20505,7 @@
     <positionablepoint ident="EB11" type="END_BUMPER" x="455.0" y="265.0" connect1name="T49" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB12" type="END_BUMPER" x="50.0" y="45.0" connect1name="T50" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="McSweeny Branch" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="McSweeny Branch" x="0" y="245" windowheight="925" windowwidth="1549" panelheight="856" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20544,7 +20568,7 @@
     <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Colton Industrial Zone" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Colton Industrial Zone" x="0" y="151" windowheight="1178" windowwidth="2056" panelheight="939" panelwidth="1374" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20608,7 +20632,7 @@
     <positionablepoint ident="A50" type="ANCHOR" x="845.0" y="185.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A51" type="ANCHOR" x="1040.0" y="155.0" connect1name="T7" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Troy Industrial Zone" x="-6" y="0" windowheight="925" windowwidth="1549" panelheight="939" panelwidth="1391" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="Troy Industrial Zone" x="0" y="39" windowheight="1290" windowwidth="2056" panelheight="939" panelwidth="1391" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="gray" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="white" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="yes" turnoutbx="15.0" turnoutcx="15.0" turnoutwid="10.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="no" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="Vista / Doering Branch" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -20756,7 +20780,7 @@
     <positionablepoint ident="A27" type="ANCHOR" x="575.0" y="220.0" connect1name="T41" connect2name="T43" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A28" type="ANCHOR" x="580.0" y="240.0" connect1name="T42" connect2name="T44" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="807" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher" x="0" y="39" windowheight="1400" windowwidth="2534" panelheight="805" panelwidth="1450" sliders="yes" scrollable="both" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="no" tooltipsinedit="yes" mainlinetrackwidth="4" xscale="1.0" yscale="1.0" sidetrackwidth="2" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="2" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="210" greenBackground="210" blueBackground="220" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -22006,21 +22030,6 @@
       </icons>
       <iconmaps />
     </signalheadicon>
-    <sensoricon sensor="NX-MidwayWestPsgApproach-WB" x="570" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="false" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <sensoricon sensor="NX-MidwayEastPsgApproach-EB" x="1307" y="350" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="false" editable="false" degrees="91" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="91" scale="1.0">
         <rotation>0</rotation>
@@ -22587,8 +22596,8 @@
     </sensoricon>
     <positionablelabel x="1235" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Power spur" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1170" y="325" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="East passenger approach    " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="150" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="585" y="325" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="West passenger approach" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="590" y="397" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="West freight approach" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="580" y="330" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="West passenger approach" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="585" y="395" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="West freight approach" fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1220" y="410" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="East freight approach    " fontFamily="Dialog" fontname="Dialog" size="8" style="0" red="0" green="0" blue="0" hasBackground="no" fixedWidth="100" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="840" y="340" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MAIN 1" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="839" y="321" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MAIN 2" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -22844,36 +22853,6 @@
       <iconmaps />
     </sensoricon>
     <sensoricon sensor="NX-GS-WB" x="790" y="165" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="false" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="640" y="375" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="false" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="575" y="375" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="false" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -23764,13 +23743,10 @@
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="787.0" ycen="355.0" xa="774.0" ya="355.0" xb="800.0" yb="355.0" xc="800.0" yc="366.0" xd="774.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Yard" secondturnoutname="Midway LT58 temp partner to be checked" blockname="Midway West track 1 LT58 stopping block" connectaname="T13" connectbname="T14" connectcname="T15">
       <sensorB>NX-MidwayMain1-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="817.0" ycen="380.0" xa="837.0" ya="380.0" xb="797.0" yb="380.0" xc="807.0" yc="370.0" xd="837.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT58 temp partner to be checked" connectaname="T16" connectbname="T19" connectcname="T15" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="677.0" ycen="355.0" xa="658.0" ya="355.0" xb="696.0" yb="355.0" xc="692.0" yc="375.0" xd="658.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="Midway West main passenger" connectaname="T21" connectbname="T17" connectcname="T18" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="666.0" ycen="380.0" xa="678.0" ya="380.0" xb="654.0" yb="380.0" xc="681.0" yc="400.0" xd="678.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T19" connectbname="T22" connectcname="T152" />
-    <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="547.0" ycen="355.0" xa="527.0" ya="355.0" xb="567.0" yb="355.0" xc="570.0" yc="380.0" xd="527.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT60" blockname="Narrows, Lower" connectaname="T28" connectbname="T21" connectcname="T231">
-      <sensorB>NX-MidwayWestPsgApproach-WB</sensorB>
-      <sensorC>NX-MidwayWestFrtApproach-WB</sensorC>
-    </layoutturnout>
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="817.0" ycen="380.0" xa="837.0" ya="380.0" xb="797.0" yb="380.0" xc="807.0" yc="370.0" xd="837.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT58 temp partner to be checked" connectaname="T16" connectbname="T18" connectcname="T15" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="677.0" ycen="355.0" xa="658.0" ya="355.0" xb="696.0" yb="355.0" xc="690.0" yc="370.0" xd="658.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="Midway West main passenger" connectaname="T21" connectbname="T17" connectcname="T19" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="666.0" ycen="380.0" xa="678.0" ya="380.0" xb="654.0" yb="380.0" xc="675.0" yc="390.0" xd="678.0" yd="380.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T252" connectbname="T22" connectcname="T152" />
+    <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="547.0" ycen="355.0" xa="527.0" ya="355.0" xb="567.0" yb="355.0" xc="570.0" yc="380.0" xd="527.0" yd="355.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT60" blockname="Narrows, Lower" connectaname="T28" connectbname="T21" connectcname="T231" />
     <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1022.0" ycen="335.0" xa="1034.0" ya="335.0" xb="1010.0" yb="335.0" xc="1010.0" yc="315.0" xd="1034.0" yd="335.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P2" blockname="Midway East Passenger Ladder" connectaname="T27" connectbname="T248" connectcname="T144">
       <sensorB>NX-MidwayMain2-EB</sensorB>
     </layoutturnout>
@@ -23995,8 +23971,8 @@
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="995.0" ycen="640.0" xa="984.39" ya="650.61" xb="1005.61" yb="629.39" xc="1014.8" yc="640.0" xd="984.39" yd="650.61" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:80" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO116" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1130.0" ycen="470.0" xa="1123.0" ya="470.0" xb="1137.0" yb="470.0" xc="1140.0" yc="460.0" xd="1123.0" yd="470.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket crossover" secondturnoutname="Powderhorn pocket crossover (mirror)" blockname="Powderhorn siding" connectaname="T163" connectbname="T170" connectcname="T250" />
     <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="1155.0" ycen="445.0" xa="1175.0" ya="445.0" xb="1135.0" yb="445.0" xc="1145.0" yc="455.0" xd="1175.0" yd="445.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket crossover (mirror)" secondturnoutname="Powderhorn pocket crossover" blockname="Powderhorn pocket turnout" connectaname="T162" connectbname="T165" connectcname="T250" />
-    <layoutturnout ident="TO117" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="755.0" ycen="410.0" xa="762.0" ya="410.0" xb="748.0" yb="410.0" xc="741.0" yc="396.0" xd="762.0" yd="410.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="AUTOBLK:87" />
-    <layoutturnout ident="TO118" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="625.0" ycen="425.0" xa="632.0" ya="425.0" xb="618.0" yb="425.0" xc="611.0" yc="411.0" xd="632.0" yd="425.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" blockname="AUTOBLK:90" />
+    <layoutturnout ident="TO117" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="730.0" ycen="410.0" xa="737.0" ya="410.0" xb="723.0" yb="410.0" xc="720.0" yc="400.0" xd="737.0" yd="410.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" blockname="AUTOBLK:87" connectbname="T253" connectcname="T247" />
+    <layoutturnout ident="TO118" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="4" xcen="695.0" ycen="410.0" xa="710.0" ya="410.0" xb="680.0" yb="410.0" xc="685.0" yc="400.0" xd="710.0" yd="410.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 10 RevLoop-CntrClk" connectaname="T253" connectcname="T152" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="A41" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Midway East 51-53 bypass" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24012,7 +23988,6 @@
     <tracksegment ident="T15" connect1name="TO10" type1="TURNOUT_C" connect2name="TO11" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T16" blockname="Midway yard" connect1name="TO11" type1="TURNOUT_A" connect2name="EB46" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T17" blockname="Midway West passenger throat" connect1name="TO9" type1="TURNOUT_A" connect2name="TO12" type2="TURNOUT_B" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T19" connect1name="TO13" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T21" blockname="Midway West main passenger" connect1name="TO14" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T24" blockname="Midway West station 3 stop block" connect1name="TO16" type1="TURNOUT_C" connect2name="TO82" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="Midway West station 2 stop block" connect1name="TO16" type1="TURNOUT_B" connect2name="A40" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24139,8 +24114,7 @@
         <bumper end="stop" color="#000000" linewidth="8" length="8" />
       </decorations>
     </tracksegment>
-    <tracksegment ident="T18" blockname="AUTOBLK:104" connect1name="TO12" type1="TURNOUT_C" connect2name="EB20" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T152" blockname="AUTOBLK:105" connect1name="TO13" type1="TURNOUT_C" connect2name="EB19" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T152" connect1name="TO13" type1="TURNOUT_C" connect2name="TO118" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T154" blockname="Gary siding" connect1name="TO76" type1="TURNOUT_B" connect2name="TO75" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T153" blockname="AUTOBLK:106" connect1name="A25" type1="POS_POINT" connect2name="TO76" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T156" blockname="Hudson siding" connect1name="TO73" type1="TURNOUT_B" connect2name="TO74" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -24330,6 +24304,11 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T137" blockname="Powderhorn pocket emergency section" connect1name="A42" type1="POS_POINT" connect2name="TO43" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T247" connect1name="X1" type1="LEVEL_XING_B" connect2name="TO117" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" connect1name="X1" type1="LEVEL_XING_C" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" connect1name="TO12" type1="TURNOUT_C" connect2name="X1" type2="LEVEL_XING_D" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T252" blockname="AUTOBLK:163" connect1name="TO13" type1="TURNOUT_A" connect2name="X1" type2="LEVEL_XING_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T253" connect1name="TO118" type1="TURNOUT_A" connect2name="TO117" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1227.0" y="370.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="462.0" y="355.0" connect1name="T28" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="1075.0" y="190.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -24347,8 +24326,6 @@
     <positionablepoint ident="EB16" type="END_BUMPER" x="882.0" y="270.0" connect1name="T149" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB17" type="END_BUMPER" x="905.0" y="270.0" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB18" type="END_BUMPER" x="905.0" y="285.0" connect1name="T151" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB19" type="END_BUMPER" x="692.0" y="415.0" connect1name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB20" type="END_BUMPER" x="722.0" y="415.0" connect1name="T18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="819.0" y="155.0" connect1name="T153" connect2name="T195" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB21" type="END_BUMPER" x="794.0" y="235.0" connect1name="T179" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB22" type="END_BUMPER" x="1190.0" y="510.0" connect1name="T159" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -24402,7 +24379,7 @@
     <positionablepoint ident="A36" type="ANCHOR" x="1388.0" y="355.0" connect1name="T129" connect2name="T230" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A20" type="ANCHOR" x="280.0" y="335.0" connect1name="T244" connect2name="T212" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A31" type="ANCHOR" x="1221.0" y="80.0" connect1name="T79" connect2name="T228" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A33" type="ANCHOR" x="650.0" y="380.0" connect1name="T22" connect2name="T231" westboundsensor="NX-MidwayWestFrtApproach-EB" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A33" type="ANCHOR" x="650.0" y="380.0" connect1name="T22" connect2name="T231" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB2" type="END_BUMPER" x="790.0" y="655.0" connect1name="T234" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB43" type="END_BUMPER" x="890.0" y="635.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB42" type="END_BUMPER" x="950.0" y="650.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -24420,8 +24397,9 @@
     <positionablepoint ident="A44" type="ANCHOR" x="1030.0" y="355.0" connect1name="T14" connect2name="T249" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A45" type="ANCHOR" x="1210.0" y="445.0" connect1name="T162" connect2name="T251" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A42" type="ANCHOR" x="1310.0" y="510.0" connect1name="T168" connect2name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <levelxing ident="X1" blocknameac="AUTOBLK:85" blocknamebd="AUTOBLK:85" connectaname="T252" connectbname="T247" connectcname="T18" connectdname="T19" xcen="700.0" ycen="380.0" xa="690.0" ya="380.0" xb="705.0" yb="385.0" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
-  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="-6" y="-6" windowheight="925" windowwidth="1549" panelheight="1402" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
+  <LayoutEditor class="jmri.jmrit.display.layoutEditor.configurexml.LayoutEditorXml" name="PMRRM Dispatcher HiRes" x="2560" y="0" windowheight="1420" windowwidth="2540" panelheight="1402" panelwidth="2585" sliders="no" scrollable="none" editable="no" positionable="yes" controlling="yes" animating="yes" showhelpbar="no" drawgrid="yes" snaponadd="yes" snaponmove="yes" antialiasing="yes" turnoutcircles="yes" tooltipsnotedit="yes" tooltipsinedit="yes" mainlinetrackwidth="6" xscale="1.0" yscale="1.0" sidetrackwidth="3" defaulttrackcolor="black" defaultoccupiedtrackcolor="red" defaultalternativetrackcolor="green" defaulttextcolor="black" turnoutcirclecolor="black" turnoutcirclesize="3" turnoutdrawunselectedleg="no" turnoutbx="7.0" turnoutcx="14.0" turnoutwid="14.0" xoverlong="30.0" xoverhwid="10.0" xovershort="10.0" autoblkgenerate="yes" redBackground="192" greenBackground="192" blueBackground="192" gridSize="5" gridSize2nd="20" openDispatcher="no" useDirectTurnoutControl="no">
     <layoutTrackDrawingOptions name="PMRRM Dispatcher HiRes" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutTrackDrawingOptionsXml">
       <mainBallastColor>#000000</mainBallastColor>
       <mainBallastWidth>0</mainBallastWidth>
@@ -24448,7 +24426,7 @@
       <sideTieLength>0</sideTieLength>
       <sideTieWidth>0</sideTieWidth>
     </layoutTrackDrawingOptions>
-    <positionablelabel x="325" y="625" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Engine Service  " fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
+    <positionablelabel x="370" y="630" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="Engine Service  " fontFamily="Dialog" fontname="Dialog" size="12" style="0" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
       <tooltip>Text Label</tooltip>
     </positionablelabel>
     <positionablelabel x="1365" y="570" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="LAKE " fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml">
@@ -26517,36 +26495,6 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-EB" x="371" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
-    <sensoricon sensor="NX-MidwayWestFrtApproach-WB" x="147" y="570" level="10" forcecontroloff="false" hidden="yes" positionable="true" showtooltip="true" editable="false" degrees="270" momentary="false" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
-      <active url="program:resources/icons/smallschematics/tracksegments/circuit-occupied.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </active>
-      <inactive url="program:resources/icons/smallschematics/tracksegments/circuit-empty.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inactive>
-      <unknown url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </unknown>
-      <inconsistent url="program:resources/icons/smallschematics/tracksegments/circuit-error.gif" degrees="270" scale="1.0">
-        <rotation>0</rotation>
-      </inconsistent>
-      <iconmaps />
-    </sensoricon>
     <positionablelabel x="1820" y="70" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 1  " fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1821" y="110" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 2  " fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1821" y="150" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="true" editable="false" text="MAIN 3  " fontFamily="Dialog" fontname="Dialog" size="10" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="50" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -27493,12 +27441,11 @@
     <layoutturnout ident="TO10" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="460.0" ycen="535.0" xa="444.0" ya="535.0" xb="476.0" yb="535.0" xc="481.0" yc="555.0" xd="444.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Yard" secondturnoutname="Midway LT58 temp partner to be checked" blockname="Midway West track 1 LT58 stopping block" connectaname="T13" connectbname="T14" connectcname="T15">
       <sensorB>NX-MidwayMain1-WB</sensorB>
     </layoutturnout>
-    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="499.0" ycen="575.0" xa="519.0" ya="575.0" xb="479.0" yb="575.0" xc="489.0" yc="565.0" xd="519.0" yd="575.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT58 temp partner to be checked" connectaname="T16" connectbname="T19" connectcname="T15" />
-    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="309.0" ycen="535.0" xa="290.0" ya="535.0" xb="328.0" yb="535.0" xc="329.0" yc="555.0" xd="290.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="Midway West main passenger" connectaname="T21" connectbname="T255" connectcname="T18" />
-    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="299.0" ycen="575.0" xa="314.0" ya="575.0" xb="284.0" yb="575.0" xc="319.0" yc="595.0" xd="314.0" yd="575.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T19" connectbname="T22" connectcname="T152" />
+    <layoutturnout ident="TO11" type="RH_TURNOUT" hidden="no" disabled="yes" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="499.0" ycen="575.0" xa="519.0" ya="575.0" xb="479.0" yb="575.0" xc="489.0" yc="565.0" xd="519.0" yd="575.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT58 temp partner to be checked" connectaname="T16" connectbname="T18" connectcname="T15" />
+    <layoutturnout ident="TO12" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="309.0" ycen="535.0" xa="290.0" ya="535.0" xb="328.0" yb="535.0" xc="325.0" yc="550.0" xd="290.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT59" blockname="Midway West main passenger" connectaname="T21" connectbname="T255" connectcname="T257" />
+    <layoutturnout ident="TO13" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="299.0" ycen="575.0" xa="315.0" ya="575.0" xb="283.0" yb="575.0" xc="315.0" yc="590.0" xd="315.0" yd="575.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" connectaname="T19" connectbname="T22" connectcname="T152" />
     <layoutturnout ident="TO14" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="100.0" ycen="535.0" xa="83.0" ya="535.0" xb="117.0" yb="535.0" xc="132.0" yc="575.0" xd="83.0" yd="535.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="LT60" blockname="Narrows, Lower" connectaname="T28" connectbname="T21" connectcname="T231">
       <sensorB>NX-MidwayWestPsgApproach-WB</sensorB>
-      <sensorC>NX-MidwayWestFrtApproach-WB</sensorC>
     </layoutturnout>
     <layoutturnout ident="TO15" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1016.0" ycen="485.0" xa="1036.0" ya="485.0" xb="996.0" yb="485.0" xc="996.0" yc="462.0" xd="1036.0" yd="485.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway E P2" blockname="Midway East Passenger Ladder" connectaname="T27" connectbname="T230" connectcname="T229">
       <sensorB>NX-MidwayMain2-EB</sensorB>
@@ -27724,6 +27671,8 @@
     <layoutturnout ident="TO113" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showtooltip="yes" continuing="2" xcen="1565.0" ycen="1130.0" xa="1554.39" ya="1140.61" xb="1575.61" yb="1119.39" xc="1584.8" yc="1130.0" xd="1554.39" yd="1140.61" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Vista E 2 MainE -VistaYard E partner" blockname="AUTOBLK:80" connectaname="T235" connectbname="T233" connectcname="T236" />
     <layoutturnout ident="TO33" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1445.0" ycen="835.0" xa="1438.0" ya="835.0" xb="1452.0" yb="835.0" xc="1460.0" yc="820.0" xd="1438.0" yd="835.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket crossover" secondturnoutname="Powderhorn pocket crossover (mirror)" blockname="Powderhorn siding" connectaname="T163" connectbname="T170" connectcname="T253" />
     <layoutturnout ident="TO116" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="1470.0" ycen="810.0" xa="1477.0" ya="810.0" xb="1463.0" yb="810.0" xc="1460.0" yc="820.0" xd="1477.0" yd="810.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="Powderhorn pocket crossover (mirror)" blockname="Powderhorn pocket turnout" connectaname="T162" connectbname="T165" connectcname="T253" />
+    <layoutturnout ident="TO117" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="4" xcen="340.0" ycen="615.0" xa="320.0" ya="615.0" xb="360.0" yb="615.0" xc="330.0" yc="605.0" xd="320.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 10 RevLoop-CntrClk" connectbname="T259" connectcname="T152" />
+    <layoutturnout ident="TO118" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" showtooltip="yes" continuing="2" xcen="390.0" ycen="615.0" xa="383.0" ya="615.0" xb="397.0" yb="615.0" xc="375.0" yc="600.0" xd="383.0" yd="615.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" connectaname="T259" connectcname="T258" />
     <tracksegment ident="T1" blockname="Midway East frt approach" connect1name="TO3" type1="TURNOUT_C" connect2name="A28" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T3" blockname="Midway East Main passenger approach" connect1name="TO3" type1="TURNOUT_B" connect2name="A49" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T4" blockname="Midway East 51-53 bypass" connect1name="TO1" type1="TURNOUT_C" connect2name="TO2" type2="TURNOUT_B" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -27739,7 +27688,6 @@
     <tracksegment ident="T15" connect1name="TO10" type1="TURNOUT_C" connect2name="TO11" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T16" blockname="Midway yard" connect1name="TO11" type1="TURNOUT_A" connect2name="EB46" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T17" blockname="Midway West passenger throat" connect1name="TO9" type1="TURNOUT_A" connect2name="A50" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T19" connect1name="TO13" type1="TURNOUT_A" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T21" blockname="Midway West main passenger" connect1name="TO14" type1="TURNOUT_B" connect2name="TO12" type2="TURNOUT_A" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T24" blockname="Midway West station 3 stop block" connect1name="TO16" type1="TURNOUT_C" connect2name="A47" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T25" blockname="Midway West station 2 stop block" connect1name="TO16" type1="TURNOUT_B" connect2name="A40" type2="POS_POINT" dashed="no" mainline="yes" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -27862,8 +27810,7 @@
         <bumper end="stop" color="#000000" linewidth="8" length="8" />
       </decorations>
     </tracksegment>
-    <tracksegment ident="T18" blockname="AUTOBLK:104" connect1name="TO12" type1="TURNOUT_C" connect2name="EB20" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
-    <tracksegment ident="T152" blockname="AUTOBLK:105" connect1name="TO13" type1="TURNOUT_C" connect2name="EB19" type2="POS_POINT" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T152" connect1name="TO13" type1="TURNOUT_C" connect2name="TO117" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T154" blockname="Gary siding" connect1name="TO76" type1="TURNOUT_B" connect2name="A45" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T153" blockname="AUTOBLK:106" connect1name="A25" type1="POS_POINT" connect2name="TO76" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <tracksegment ident="T156" blockname="Hudson siding" connect1name="TO73" type1="TURNOUT_B" connect2name="A44" type2="POS_POINT" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
@@ -28063,6 +28010,11 @@
       </decorations>
     </tracksegment>
     <tracksegment ident="T137" blockname="Powderhorn pocket emergency section" connect1name="A51" type1="POS_POINT" connect2name="TO43" type2="TURNOUT_C" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T18" connect1name="X1" type1="LEVEL_XING_C" connect2name="TO11" type2="TURNOUT_B" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T19" blockname="AUTOBLK:207" connect1name="TO13" type1="TURNOUT_A" connect2name="X1" type2="LEVEL_XING_A" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T257" connect1name="TO12" type1="TURNOUT_C" connect2name="X1" type2="LEVEL_XING_D" dashed="no" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T258" connect1name="X1" type1="LEVEL_XING_B" connect2name="TO118" type2="TURNOUT_C" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
+    <tracksegment ident="T259" connect1name="TO117" type1="TURNOUT_B" connect2name="TO118" type2="TURNOUT_A" dashed="yes" mainline="no" hidden="no" class="jmri.jmrit.display.layoutEditor.configurexml.TrackSegmentXml" />
     <positionablepoint ident="EB1" type="END_BUMPER" x="1240.0" y="565.0" connect1name="T8" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A4" type="ANCHOR" x="2226.0" y="854.0" connect1name="T239" connect2name="T9" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A8" type="ANCHOR" x="2471.0" y="535.0" connect1name="T227" connect2name="T118" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -28080,8 +28032,6 @@
     <positionablepoint ident="EB16" type="END_BUMPER" x="769.0" y="360.0" connect1name="T247" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB17" type="END_BUMPER" x="793.0" y="360.0" connect1name="T150" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB18" type="END_BUMPER" x="793.0" y="400.0" connect1name="T151" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB19" type="END_BUMPER" x="339.0" y="615.0" connect1name="T152" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="EB20" type="END_BUMPER" x="389.0" y="615.0" connect1name="T18" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A25" type="ANCHOR" x="2186.0" y="465.0" connect1name="T153" connect2name="T195" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB21" type="END_BUMPER" x="2181.0" y="625.0" connect1name="T179" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB22" type="END_BUMPER" x="1503.0" y="876.0" connect1name="T159" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -28133,7 +28083,7 @@
     <positionablepoint ident="A32" type="ANCHOR" x="41.0" y="65.0" connect1name="T108" connect2name="T227" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A20" type="ANCHOR" x="2025.0" y="834.0" connect1name="T244" connect2name="T212" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A31" type="ANCHOR" x="2221.0" y="145.0" connect1name="T79" connect2name="T228" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
-    <positionablepoint ident="A33" type="ANCHOR" x="265.0" y="575.0" connect1name="T22" connect2name="T231" westboundsensor="NX-MidwayWestFrtApproach-EB" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <positionablepoint ident="A33" type="ANCHOR" x="265.0" y="575.0" connect1name="T22" connect2name="T231" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB2" type="END_BUMPER" x="1321.0" y="1143.0" connect1name="T234" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB43" type="END_BUMPER" x="1460.0" y="1123.0" connect1name="T60" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="EB42" type="END_BUMPER" x="1520.0" y="1138.0" connect1name="T235" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
@@ -28159,22 +28109,23 @@
     <positionablepoint ident="A50" type="ANCHOR" x="370.0" y="535.0" connect1name="T17" connect2name="T255" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A48" type="ANCHOR" x="1518.5" y="810.0" connect1name="T162" connect2name="T256" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
     <positionablepoint ident="A51" type="ANCHOR" x="1627.75" y="881.75" connect1name="T168" connect2name="T137" class="jmri.jmrit.display.layoutEditor.configurexml.PositionablePointXml" />
+    <levelxing ident="X1" blocknameac="AUTOBLK:206" blocknamebd="AUTOBLK:206" connectaname="T19" connectbname="T258" connectcname="T18" connectdname="T257" xcen="350.0" ycen="575.0" xa="335.0" ya="575.0" xb="360.0" yb="585.0" class="jmri.jmrit.display.layoutEditor.configurexml.LevelXingXml" />
   </LayoutEditor>
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Nov 05 21:35:25 PST 2026</date>
+      <date>Fri Nov 06 08:59:23 EST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Nov 05 21:35:40 PST 2026</date>
-      <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Fri Nov 06 08:59:38 EST 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Thu Nov 05 22:30:51 PST 2026</date>
-      <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+      <date>Fri Nov 06 09:00:16 EST 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
 </layout-config>
