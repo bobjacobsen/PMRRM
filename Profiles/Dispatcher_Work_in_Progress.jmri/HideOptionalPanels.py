@@ -5,7 +5,7 @@ import jmri
 class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
     from org.slf4j import LoggerFactory
     log = LoggerFactory.getLogger(
-            "script.HideHiResPanel"
+            "script.HideOptionalPanels"
         )
         
     def handle(self):
@@ -19,25 +19,32 @@ class HideHiResPanel(jmri.jmrit.automat.AbstractAutomaton) :
             return False # done early
             
         # Now proceed to windows that are to be hidden, but left in Windows menu
-        targets = ["LCC Node Status", "Midway Yard", "PanelPro"]
+        targets = ["PanelPro", "LccPro", "LCC Node Status"]
         for target in targets:
             frame = jmri.util.JmriJFrame.getFrame(target)
-            frame.setVisible(False)         
-            self.log.info("Set the "+target+" panel invisible")
+            if frame :
+                frame.setVisible(False)         
+                self.log.info("Set the "+target+" panel invisible")
+            else :
+                self.log.info("The "+target+" panel was not found when setting hidden")
 
         # and set some Window menu entries disabled and windows invisible
         try :
-            targets = ["Port Area", "Midway Freight", "Midway Engine Service", 
+            targets = ["Midway Yard 2",
+                        "Port Area", "Midway Freight", "Midway Engine Service", 
                         "Vista Area", "Doering Branch", "Troy Industrial Zone", "McSweeny Branch", "Colton Industrial Zone"]
             jmri.util.WindowMenu.setIgnoredFrames(targets)
             for target in targets :
-                self.log.info("Set the {} fully panel hidden", target)
                 frame = jmri.util.JmriJFrame.getFrame(target)
-                if frame is not None : frame.setVisible(False) 
+                if frame : 
+                    frame.setVisible(False) 
+                    self.log.info("Set the {} fully panel hidden", target)
                 else : self.log.error("Frame {} not found", target)        
                 
         except AttributeError:
             self.log.error("Could not adjust JMRI Window menu, you need at least JMRI 5.15.6")
 
-HideHiResPanel().start()
+a = HideHiResPanel()
+a.setName("HideOptionalPanels")
+a.start()
         
