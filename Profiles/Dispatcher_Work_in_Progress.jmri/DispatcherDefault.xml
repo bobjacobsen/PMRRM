@@ -17896,7 +17896,7 @@
     <route userName="Midway E Frt 1">
       <systemName>IO:AUTO:0003</systemName>
       <userName>Midway E Frt 1</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -F1,F2" state="CLOSED" />
@@ -17913,7 +17913,7 @@
     <route userName="Midway E Frt 2">
       <systemName>IO:AUTO:0004</systemName>
       <userName>Midway E Frt 2</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -F1,F2" state="THROWN" />
@@ -17930,7 +17930,7 @@
     <route userName="Midway E Frt 3">
       <systemName>IO:AUTO:0005</systemName>
       <userName>Midway E Frt 3</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
@@ -17946,7 +17946,7 @@
     <route userName="Midway E Frt 4">
       <systemName>IO:AUTO:0006</systemName>
       <userName>Midway E Frt 4</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E Fr4/3" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
@@ -17961,7 +17961,7 @@
     <route userName="Midway E Frt 5">
       <systemName>IO:AUTO:0007</systemName>
       <userName>Midway E Frt 5</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E Fr5/4" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd E Frt 1 routing" state="INACTIVE" />
@@ -17975,7 +17975,7 @@
     <route userName="Midway E Frt 6">
       <systemName>IO:AUTO:0008</systemName>
       <userName>Midway E Frt 6</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E upper X-over" state="CLOSED" />
@@ -17990,7 +17990,7 @@
     <route userName="Midway E Frt 7">
       <systemName>IO:AUTO:0009</systemName>
       <userName>Midway E Frt 7</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd E W end of Midway Yard East track F6/F7 near LT208" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E -F ladder, F5" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd E upper X-over" state="THROWN" />
@@ -18044,7 +18044,7 @@
     <route userName="Midway W Frt 1">
       <systemName>IO:AUTO:0016</systemName>
       <userName>Midway W Frt 1</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="CLOSED" />
       <routeOutputSensor systemName="MidwayYd W Frt 2 routing" state="INACTIVE" />
       <routeOutputSensor systemName="MidwayYd W Frt 3 routing" state="INACTIVE" />
@@ -18057,7 +18057,7 @@
     <route userName="Midway W Frt 2">
       <systemName>IO:AUTO:0017</systemName>
       <userName>Midway W Frt 2</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="THROWN" />
       <routeOutputSensor systemName="MidwayYd W Frt 1 routing" state="INACTIVE" />
@@ -18071,7 +18071,7 @@
     <route userName="Midway W Frt 3">
       <systemName>IO:AUTO:0018</systemName>
       <userName>Midway W Frt 3</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="THROWN" />
@@ -18086,7 +18086,7 @@
     <route userName="Midway W Frt 4">
       <systemName>IO:AUTO:0019</systemName>
       <userName>Midway W Frt 4</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -18102,7 +18102,7 @@
     <route userName="Midway W Frt 5">
       <systemName>IO:AUTO:0020</systemName>
       <userName>Midway W Frt 5</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -18119,7 +18119,7 @@
     <route userName="Midway W Frt 6">
       <systemName>IO:AUTO:0021</systemName>
       <userName>Midway W Frt 6</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -18137,7 +18137,7 @@
     <route userName="Midway W Frt 7">
       <systemName>IO:AUTO:0022</systemName>
       <userName>Midway W Frt 7</userName>
-      <comment>Ugly Midway Yard panel only</comment>
+      <comment>Ugly Midway Yard panel only ?</comment>
       <routeOutputTurnout systemName="MidwayYd W-F1,F2" state="THROWN" />
       <routeOutputTurnout systemName="MidwayYd W-F2,F3" state="CLOSED" />
       <routeOutputTurnout systemName="MidwayYd W-F3,F4" state="CLOSED" />
@@ -28121,17 +28121,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Nov 06 08:47:40 PST 2026</date>
+      <date>Fri Nov 06 18:56:49 PST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Nov 06 08:48:15 PST 2026</date>
+      <date>Fri Nov 06 18:57:04 PST 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Nov 06 08:59:01 PST 2026</date>
+      <date>Fri Nov 06 19:06:19 PST 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
