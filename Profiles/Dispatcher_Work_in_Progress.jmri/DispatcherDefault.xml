@@ -5,7 +5,7 @@
     <major>5</major>
     <minor>17</minor>
     <test>4</test>
-    <modifier />
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -3713,6 +3713,70 @@
       <userName>MidwayES PB18 Revloop clkwse</userName>
     </sensor>
     <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.08;02.01.57.00.01.11.00.09</systemName>
+      <userName>MidwayES 01 L2-R4,R5R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.14;02.01.57.00.01.11.00.15</systemName>
+      <userName>MidwayES 02 L2-R3,R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.20;02.01.57.00.01.11.00.21</systemName>
+      <userName>MidwayES 03 L2-R2,L2R3 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.2C;02.01.57.00.01.11.00.2D</systemName>
+      <userName>MidwayES 04 L2-S2S1,R1 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.38;02.01.57.00.01.11.00.39</systemName>
+      <userName>MidwayES 05 L2-R5,R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.44;02.01.57.00.01.11.00.45</systemName>
+      <userName>MidwayES 06 L2-S4,R1 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.50;02.01.57.00.01.11.00.51</systemName>
+      <userName>MidwayES 07 L2-S1,S2 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.5C;02.01.57.00.01.11.00.5D</systemName>
+      <userName>MidwayES 08 L2-S3,R1 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.68;02.01.57.00.01.11.00.69</systemName>
+      <userName>MidwayES 09 RevLoop-Clk,CntrClk Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.74;02.01.57.00.01.11.00.75</systemName>
+      <userName>MidwayES 10 RevLoop-CntrClk Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.80;02.01.57.00.01.11.00.81</systemName>
+      <userName>MidwayES 11 WLead-R1,R2 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.8C;02.01.57.00.01.11.00.8D</systemName>
+      <userName>MidwayES 12 WLead-R2R1,R3 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.98;02.01.57.00.01.11.00.99</systemName>
+      <userName>MidwayES 13 R2,R1 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.A4;02.01.57.00.01.11.00.A5</systemName>
+      <userName>MidwayES 14 WLead-R5,R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.B0;02.01.57.00.01.11.00.B1</systemName>
+      <userName>MidwayES 15 WLead-R4,R5R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
+      <systemName>MS02.01.57.00.01.11.00.BC;02.01.57.00.01.11.00.BD</systemName>
+      <userName>MidwayES 16 WLead-R1,R6 Thrown</userName>
+    </sensor>
+    <sensor inverted="false">
       <systemName>MS02.01.57.00.01.F3.00.06;02.01.57.00.01.F3.00.07</systemName>
       <userName>MidwayES PB01 ReadyTrk 6 East</userName>
     </sensor>
@@ -3721,7 +3785,7 @@
       <userName>MidwayES PB02 ReadyTrk 5 East</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS02.01.57.00.01.F3.00.1E;02.01.57.00.01.F3.00.1E</systemName>
+      <systemName>MS02.01.57.00.01.F3.00.1E;02.01.57.00.01.F3.00.1F</systemName>
       <userName>MidwayES PB03 ReadyTrk 4 East</userName>
     </sensor>
     <sensor inverted="false">
@@ -8419,82 +8483,82 @@
     <turnout feedback="MONITORING" inverted="false" automate="Off">
       <systemName>MTT2022</systemName>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 01 L2-R4,R5R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.00;02.01.57.00.01.11.00.01</systemName>
       <userName>MidwayES 01 L2-R4,R5R6</userName>
       <comment>Mes01</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 02 L2-R3,R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.0C;02.01.57.00.01.11.00.0D</systemName>
       <userName>MidwayES 02 L2-R3,R6</userName>
       <comment>Mes02</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 03 L2-R2,L2R3 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.18;02.01.57.00.01.11.00.19</systemName>
       <userName>MidwayES 03 L2-R2,L2R3</userName>
       <comment>Mes03</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 04 L2-S2S1,R1 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.24;02.01.57.00.01.11.00.25</systemName>
       <userName>MidwayES 04 L2-S2S1,R1</userName>
       <comment>Mes04</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 05 L2-R5,R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.30;02.01.57.00.01.11.00.31</systemName>
       <userName>MidwayES 05 L2-R5,R6</userName>
       <comment>Mes05</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 06 L2-S4,R1 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.3C;02.01.57.00.01.11.00.3D</systemName>
       <userName>MidwayES 06 L2-S4,R1</userName>
       <comment>Mes06</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 07 L2-S1,S2 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.48;02.01.57.00.01.11.00.49</systemName>
       <userName>MidwayES 07 L2-S1,S2</userName>
       <comment>Mes07</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 08 L2-S3,R1 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.54;02.01.57.00.01.11.00.55</systemName>
       <userName>MidwayES 08 L2-S3,R1</userName>
       <comment>Mes08</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 09 RevLoop-Clk,CntrClk Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.60;02.01.57.00.01.11.00.61</systemName>
       <userName>MidwayES 09 RevLoop-Clk,CntrClk</userName>
       <comment>Mes09</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 10 RevLoop-CntrClk Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.6C;02.01.57.00.01.11.00.6D</systemName>
       <userName>MidwayES 10 RevLoop-CntrClk</userName>
       <comment>Mes10 Clockwise returnside of reverse loop</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 11 WLead-R1,R2 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.78;02.01.57.00.01.11.00.79</systemName>
       <userName>MidwayES 11 WLead-R1,R2</userName>
       <comment>Mes11</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 12 WLead-R2R1,R3 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.84;02.01.57.00.01.11.00.85</systemName>
       <userName>MidwayES 12 WLead-R2R1,R3</userName>
       <comment>Mes12</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 13 R2,R1 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.90;02.01.57.00.01.11.00.91</systemName>
       <userName>MidwayES 13 R2,R1</userName>
       <comment>Mes13</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 14 WLead-R5,R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.9C;02.01.57.00.01.11.00.9D</systemName>
       <userName>MidwayES 14 WLead-R5,R6</userName>
       <comment>Mes14</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 15 WLead-R4,R5R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.A8;02.01.57.00.01.11.00.A9</systemName>
       <userName>MidwayES 15 WLead-R4,R5R6</userName>
       <comment>Mes15</comment>
     </turnout>
-    <turnout feedback="MONITORING" inverted="false" automate="Off">
+    <turnout feedback="ONESENSOR" sensor1="MidwayES 16 WLead-R1,R6 Thrown" inverted="false" automate="Off">
       <systemName>MT02.01.57.00.01.11.00.B4;02.01.57.00.01.11.00.B5</systemName>
       <userName>MidwayES 16 WLead-R1,R6</userName>
       <comment>Mes16</comment>
@@ -17915,58 +17979,10 @@
   </signalmastlogics>
   <meters class="jmri.managers.configurexml.AbstractMeterManagerXml">
     <meter>
-      <systemName>LVDB210(s/n211)InputCurrent</systemName>
+      <systemName>LVDCS240+(s/n5382)InputCurrent</systemName>
     </meter>
     <meter>
-      <systemName>LVDB210(s/n211)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n37)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n387)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n397)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n407)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n474)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDB210(s/n489)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LVDCS240(s/n1436)Voltage</systemName>
-    </meter>
-    <meter>
-      <systemName>LV[0](s/n420)InputCurrent</systemName>
-    </meter>
-    <meter>
-      <systemName>LV[0](s/n420)Voltage</systemName>
+      <systemName>LVDCS240+(s/n5382)Voltage</systemName>
     </meter>
   </meters>
   <logixs class="jmri.managers.configurexml.DefaultLogixManagerXml">
@@ -18554,7 +18570,7 @@
     <positionablelabel x="1640" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS642" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1536" y="376" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS641" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1440" y="368" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="LS639" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="80" y="304" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Warning MES10 only slaved to 159 in JMRI, NOT in Midway ES hard panel 2026-11-06  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="24" y="296" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Warning MES10 only slaved to 159 in JMRI, NOT in Midway ES hard panel 2026-11-06  " fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1152" y="552" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="OBSERVATION TEST PANEL ONLY" fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1064" y="576" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="ALL LOGIC OR CROSS INTERACTIONS SHOULD BE IN HARDWARE OR" fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1088" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="OTHER MAIN LINE DISPATCHER SOFTPANEL PANELS" fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -27364,18 +27380,18 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Tue Nov 10 18:29:47 PST 2026</date>
+      <date>Wed Nov 11 16:27:26 EST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Tue Nov 10 18:30:04 PST 2026</date>
-      <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
+      <date>Wed Nov 11 16:27:41 EST 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Tue Nov 10 19:11:09 PST 2026</date>
-      <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
+      <date>Wed Nov 11 17:30:21 EST 2026</date>
+      <filename>/Users/jake/Library/Mobile Documents/com~apple~CloudDocs/Trains/PMRRM/git_repos/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
 </layout-config>
