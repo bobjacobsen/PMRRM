@@ -1,0 +1,55 @@
+Caleb@rr-cirkits.com
+
+I think I've got a reproducible way of locking up the Gateway.  
+
+The configuration is 
+*) Terminator
+*) LCC Buffer-USB
+*) Gateway with power
+*) Terminator
+
+The LocoNet side of the Gateway if connected to a DCS240+ command station.
+
+The LCC Buffer-USB and the USB port on the DCS240+ are connected to JMRI.
+
+JMRI is running a profile from the PMRRM that has a large number of LocoNet Turnouts defined, but only a couple of LCC Turnouts.
+
+The Gateway has rev-C hardware and the rev-B9c firmware.
+
+JMRI starts up, loads a panel file, and starts emitting a _lot_ of P/C Identified messages:
+
+S: 02.01.12.FE.3D.9B                     Consumer Identified Unknown for EventID:02.01.57.11.00.F2.00.00
+S: 02.01.12.FE.3D.9B                     Consumer Identified Unknown for EventID:02.01.57.11.00.F2.00.00
+S: 02.01.12.FE.3D.9B                     Consumer Identified Unknown for EventID:02.01.57.11.00.F2.00.00
+S: 02.01.12.FE.3D.9B                     Consumer Identified Unknown for EventID:02.01.57.11.00.F2.00.00
+S: 02.01.12.FE.3D.9B                     Producer Identified Unknown for EventID:02.01.57.11.00.F2.03.A6
+S: 02.01.12.FE.3D.9B                     Consumer Identified Unknown for EventID:02.01.57.11.00.F2.03.A6
+S: 02.01.12.FE.3D.9B                     Producer Identified Unknown for EventID:02.01.57.11.00.F2.03.A9
+
+There are a _lot_ of these; it goes on for about 12 seconds.  
+
+Note that some of these are redundant.  (I'm working on reducing that)
+
+With a fast enough computer, these high-priority messages completely fill the CAN bus and no lower-priority messages, including PCER Event messages, can be transmitted until this is done.  A few LocoNet switch messages emitted by JMRI during this sequence seem to be held in the Gateway and become PCER Event messages once the long run of P/C Identified messages are over.
+
+The Gateway survives this start-up just fine.
+
+If I start part of the signal logic during this time, it sends about 15 LocoNet switch requests. The Gateway survives this fine.  It sends the PCER Event messages when the sequence of P/C Identified messages are over.
+
+However, if I _also_ start the full signal logic in JMRI during this period, the gateway will lock up. That signal logic rapidly sends a bunch (80?) of turnout requests on the LocoNet. So many that the command station asks for retransmission of the last of them:
+
+10:33:21.838: Requesting Switch at LT479 (West Powderhorn Westward Servo 2A) to Thrown (Output On).
+10:33:21.841: LONG_ACK: Switch request Failed!
+10:33:21.846: Requesting Switch at LT479 (West Powderhorn Westward Servo 2A) to Thrown (Output On).
+
+There are a bunch of these retransmissions.
+
+
+Now for a bit of speculation:
+
+Perhaps the Gateway has a queue of messages to send LocoNet -> LCC, that queue is overflowing, and that's causing the gateway to stop transmitting messages LocoNet <-> LCC.  Is there such a queue, and how big is it?  If there is such a queue, the LocoNet retransmissions are probably making that buffering situation worse.
+
+
+I'm happy to do any testing on this that would be helpful to you.
+
+Bob

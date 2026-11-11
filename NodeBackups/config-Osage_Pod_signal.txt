@@ -1,4 +1,4 @@
-Node ID.Your name and description for this node.Node Name=Osage Pod signal1
+Node ID.Your name and description for this node.Node Name=Osage Pod signal 26-07-30
 Node ID.Your name and description for this node.Node Description=
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.11.00.F4.00.00

@@ -1,0 +1,10 @@
+Rule to Aspect.Signal Heads(0).Signal Description=BendW-E-1
+Rule to Aspect.Signal Heads(1).Signal Description=BendW-E-2
+Rule to Aspect.Signal Heads(2).Signal Description=BendW-E-3
+Rule to Aspect.Signal Heads(3).Signal Description=BendW-E-4
+Rule to Aspect.Signal Heads(4).Signal Description=UVint-E-M
+Rule to Aspect.Signal Heads(5).Signal Description=UVint-W-M
+Rule to Aspect.Signal Heads(6).Signal Description=BendE-W-A
+Rule to Aspect.Signal Heads(7).Signal Description=BendE-W-B
+Rule to Aspect.Signal Heads(8).Signal Description=BendE-W-C
+Rule to Aspect.Signal Heads(9).Signal Description=BendE-W-D

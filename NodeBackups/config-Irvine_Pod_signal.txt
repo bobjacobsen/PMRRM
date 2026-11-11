@@ -1,4 +1,4 @@
-Node ID.Your name and description for this node.Node Name=Irvine Pod signal1
+Node ID.Your name and description for this node.Node Name=Irvine Pod signal 2026-07-30
 Node ID.Your name and description for this node.Node Description=
 Node Power Monitor.Message Options=0
 Node Power Monitor.Power OK=02.01.57.11.00.F1.00.00
@@ -7716,7 +7716,7 @@ Track Circuits.Circuit(2).Link Address=02.01.57.11.00.F4.02.B8
 Track Circuits.Circuit(3).Remote Signal Description=JacksonW-E-M
 Track Circuits.Circuit(3).Link Address=02.01.57.11.00.F3.05.C8
 Track Circuits.Circuit(4).Remote Signal Description=MidwayE-W-M
-Track Circuits.Circuit(4).Link Address=02.01.57.11.00.F2.0F.10
+Track Circuits.Circuit(4).Link Address=02.01.57.11.00.F2.04.E8
 Track Circuits.Circuit(5).Remote Signal Description=HudsonE-W-M
 Track Circuits.Circuit(5).Link Address=02.01.57.11.00.F2.0E.A0
 Track Circuits.Circuit(6).Remote Signal Description=GaryW-W-S
