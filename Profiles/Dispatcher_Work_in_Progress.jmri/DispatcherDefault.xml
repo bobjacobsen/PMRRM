@@ -3705,11 +3705,11 @@
       <goingInActive>2000</goingInActive>
     </globalDebounceTimers>
     <sensor inverted="false">
-      <systemName>MS01.01.02.00.00.FF.00.7C;01.01.02.00.00.FF.00.7D</systemName>
+      <systemName>MS02.01.57.10.02.80.00.5A;02.01.57.10.02.80.00.5B</systemName>
       <userName>MidwayES PB17 Revlop cntrclk</userName>
     </sensor>
     <sensor inverted="false">
-      <systemName>MS01.01.02.00.00.FF.01.44;01.01.02.00.00.FF.01.45</systemName>
+      <systemName>MS02.01.57.10.02.80.00.4E;02.01.57.10.02.80.00.4F</systemName>
       <userName>MidwayES PB18 Revloop clkwse</userName>
     </sensor>
     <sensor inverted="false">
