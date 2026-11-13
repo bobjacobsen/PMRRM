@@ -18045,7 +18045,7 @@
     <positionablelabel x="829" y="365" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="S4" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="832" y="560" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D1" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="832" y="528" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="D2" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <positionablelabel x="352" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="352" y="168" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="59" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1352" y="432" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="219" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1272" y="384" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="220" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="880" y="496" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB23-LS651" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="64" green="128" blue="64" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -18566,7 +18566,7 @@
     <positionablelabel x="1048" y="552" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="OBSERVATION, DOCUMENTATION &amp; TEST VIRTUAL PANEL ONLY" fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1048" y="576" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="ALL LOGIC OR CROSS INTERACTIONS SHOULD BE IN HARDWARE INFRASTRUCTURE" fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="1048" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="OR OTHER PRIMARY FUNCTION SOFT OR HARD PANELS.  NOT IN THIS PANEL" fontFamily="Dialog" fontname="Dialog" size="16" style="1" red="0" green="0" blue="255" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-    <sensoricon sensor="MidwayES PB20 PassApp-ES unconnected" x="235" y="153" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB20 PassApp-ES unconnected" x="312" y="152" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18581,7 +18581,7 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-	 <sensoricon sensor="MidwayES PB19 FrtAprch-ES X-over" x="213" y="153" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
+    <sensoricon sensor="MidwayES PB19 FrtAprch-ES X-over" x="213" y="153" level="10" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" momentary="true" icon="yes" class="jmri.jmrit.display.configurexml.SensorIconXml">
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
@@ -18596,8 +18596,8 @@
       </inconsistent>
       <iconmaps />
     </sensoricon>
-    <positionablelabel x="176" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB19" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
-	<positionablelabel x="186" y="160" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB20" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="232" y="144" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB19" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="336" y="144" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="PB20" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" justification="centre" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="240" y="8" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="MIDWAY ENGINE SERVICE (ES) ACTUAL PANEL - Differs from current hard panel due to track changes since current  hard panel was built        " fontFamily="Dialog" fontname="Dialog" size="18" style="1" red="0" green="0" blue="255" hasBackground="no" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="48" y="320" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Passenger Approach to ES X-Over not yet (never) wired to panel button. (DS Controlled)." fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="550" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="40" y="389" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="R1-R6: (Power) Ready tracks" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="250" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
@@ -18608,9 +18608,10 @@
     <positionablelabel x="48" y="288" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="All original (unpainted/non-white) turnout routing push buttons operative but not lit" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="500" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="48" y="336" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="No DCC Throttle required for any yard authority turnout" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="450" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <positionablelabel x="24" y="600" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="Turntable not tested as of 2026-11-12. Status unknown. History of forgetting indexing over time - a known Walthers version issue)" fontFamily="Dialog" fontname="Dialog" size="12" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="800" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
+    <positionablelabel x="328" y="136" level="4" forcecontroloff="false" hidden="no" positionable="true" showtooltip="false" editable="false" text="(INOPERATIVE)" fontFamily="Dialog" fontname="Dialog" size="8" style="1" red="0" green="0" blue="0" hasBackground="no" fixedWidth="75" justification="left" class="jmri.jmrit.display.configurexml.PositionableLabelXml" />
     <layoutturnout ident="TO1" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="227.0" ycen="63.0" xa="187.0" ya="63.0" xb="267.0" yb="63.0" xc="253.0" yc="90.0" xd="187.0" yd="63.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W Eng Svc" secondturnoutname="Midway LT59 partner" connectaname="T1" connectbname="T36" connectcname="T4" />
     <layoutturnout ident="TO2" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="192.0" ycen="128.0" xa="152.0" ya="128.0" xb="232.0" yb="128.0" xc="224.0" yc="160.0" xd="152.0" yd="128.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway W approach to ES Engine Service" secondturnoutname="Midway LT159 partner" secondturnoutinverted="true" connectaname="T2" connectbname="T3" connectcname="T7" />
-    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="351.0" ycen="191.0" xa="388.0" ya="191.0" xb="314.0" yb="191.0" xc="323.0" yc="164.0" xd="388.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" secondturnoutname="Midway W Eng Svc" connectaname="T8" connectbname="T6" connectcname="T5" />
+    <layoutturnout ident="TO3" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="351.0" ycen="191.0" xa="388.0" ya="191.0" xb="314.0" yb="191.0" xc="320.0" yc="160.0" xd="388.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="Midway LT59 partner" secondturnoutname="Midway W Eng Svc" connectaname="T8" connectbname="T6" connectcname="T5" />
     <layoutturnout ident="TO4" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="279.0" ycen="191.0" xa="307.0" ya="191.0" xb="251.0" yb="191.0" xc="239.0" yc="211.0" xd="307.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 10 RevLoop-CntrClk" connectaname="T6" connectbname="T7" connectcname="T9" />
     <layoutturnout ident="TO5" type="LH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" showunknown="yes" continuing="2" xcen="428.0" ycen="191.0" xa="468.0" ya="191.0" xb="388.0" yb="191.0" xc="388.0" yc="211.0" xd="468.0" yd="191.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutLHTurnoutXml" turnoutname="MidwayES 09 RevLoop-Clk,CntrClk" connectaname="T11" connectbname="T8" connectcname="T10" />
     <layoutturnout ident="TO6" type="RH_TURNOUT" hidden="no" disabled="no" disableWhenOccupied="no" continuing="2" xcen="568.0" ycen="192.0" xa="552.0" ya="192.0" xb="584.0" yb="192.0" xc="600.0" yc="216.0" xd="552.0" yd="192.0" ver="1" class="jmri.jmrit.display.layoutEditor.configurexml.LayoutRHTurnoutXml" turnoutname="MidwayES 16 WLead-R1,R6" connectaname="T11" connectbname="T12" connectcname="T14" />
@@ -27411,17 +27412,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Thu Nov 12 22:49:55 PST 2026</date>
+      <date>Fri Nov 13 00:19:40 PST 2026</date>
       <filename>PanelPro (v5.17.4)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Thu Nov 12 22:50:13 PST 2026</date>
+      <date>Fri Nov 13 00:19:57 PST 2026</date>
       <filename>/D:/GitHub/PMRRM/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Nov 13 00:06:38 PST 2026</date>
+      <date>Fri Nov 13 00:32:03 PST 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
