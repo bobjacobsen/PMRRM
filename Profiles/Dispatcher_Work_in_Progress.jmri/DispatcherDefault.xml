@@ -18570,13 +18570,13 @@
       <active url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </active>
-      <inactive url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
+      <inactive url="program:resources/icons/USS/sensor/dark.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inactive>
-      <unknown url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
+      <unknown url="program:resources/icons/USS/sensor/s-unknown.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </unknown>
-      <inconsistent url="program:resources/icons/USS/sensor/white-on.gif" degrees="0" scale="1.0">
+      <inconsistent url="program:resources/icons/USS/sensor/s-inconsistent.gif" degrees="0" scale="1.0">
         <rotation>0</rotation>
       </inconsistent>
       <iconmaps />
@@ -27422,7 +27422,7 @@
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Nov 13 00:32:03 PST 2026</date>
+      <date>Fri Nov 13 00:33:26 PST 2026</date>
       <filename>D:\GitHub\PMRRM\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
