@@ -486,8 +486,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only?. Hardware replaced 2026-11-13 75-60" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-11-14T02:43:36.154+00:00</dateUpdated>
+    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="" roadName="Doering" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only?. Hardware replaced 2026-11-13 75-60" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-11-14T05:24:19.594+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="60" longaddress="no" />
@@ -629,8 +629,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 75" fileName="DS64_75.xml" roadNumber="Nothing actively wired" roadName="Zion Port" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="75" comment="749,750,751,752 (not in turnout table)" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-10-21T22:01:05.588+00:00</dateUpdated>
+    <locomotive id="DS64 75 ( no longer any 75)" fileName="DS64_75.xml" roadNumber="Nothing actively wired" roadName="Zion Port (NOT)" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="75" comment="UNIT reallocated 75 -&gt; 60" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-11-14T05:24:03.598+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="75" longaddress="no" />
