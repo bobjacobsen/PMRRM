@@ -486,8 +486,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="NOT CHECKED / NOT ON LINE" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-10-21T19:18:12.892+00:00</dateUpdated>
+    <locomotive id="DS64 60" fileName="DS64_60.xml" roadNumber="" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="60" comment="535,536,537,538 A only?. Hardware replaced 2026-11-13 75-60" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-11-14T02:43:36.154+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="60" longaddress="no" />
@@ -497,8 +497,8 @@
       <functionlabels />
       <soundlabels />
     </locomotive>
-    <locomotive id="DS64 61" fileName="DS64_61.xml" roadNumber="NOT CHECKED / NOT ON LINE" roadName="Doering TBC" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="61" comment="539,540,541,542 A" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-10-21T19:18:37.295+00:00</dateUpdated>
+    <locomotive id="DS64 61" fileName="DS64_61.xml" roadNumber="" roadName="Doering" mfg="Digitrax" owner="Electrical Crew" model="DS64" dccAddress="61" comment="539,540,541,542 A Hardware replaced 2026-11-13 new" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETBDOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-11-14T02:46:43.661+00:00</dateUpdated>
       <decoder model="DS64" family="DS64" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="61" longaddress="no" />
