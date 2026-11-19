@@ -13,7 +13,11 @@
                 </option>
                 <option>
                     <name>LoconetProtocolAutoDetect</name>
-                    <value>Auto Detect</value>
+                    <value>No</value>
+                </option>
+                <option>
+                    <name>LoconetUpdateSlotOnMessageCreation</name>
+                    <value>No</value>
                 </option>
                 <option>
                     <name>PacketizerType</name>
@@ -25,7 +29,7 @@
                 </option>
                 <option>
                     <name>TurnoutHandle</name>
-                    <value>Spread</value>
+                    <value>Both</value>
                 </option>
             </options>
         </connection>
@@ -37,9 +41,9 @@
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName">PMRRM Dispatcher</parameter>
-                <parameter name="NodeId"/>
-                <parameter name="UserDescription"/>
+                <parameter name="UserName">Dispatcher JMRI</parameter>
+                <parameter name="NodeId">05.01.01.01.3C.FE</parameter>
+                <parameter name="UserDescription">Dispatcher computer above Sierra</parameter>
             </node>
             <node name="FastClock">
                 <parameter name="EnableMode">disabled</parameter>

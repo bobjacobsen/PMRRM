@@ -21,9 +21,9 @@
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName">Dispatcher PC Crew</parameter>
-                <parameter name="NodeId"/>
-                <parameter name="UserDescription"/>
+                <parameter name="UserName">Dispatcher JMRI</parameter>
+                <parameter name="NodeId">05.01.01.01.3C.FE</parameter>
+                <parameter name="UserDescription">Dispatcher computer above Sierra</parameter>
             </node>
             <node name="FastClock">
                 <parameter name="EnableMode">disabled</parameter>

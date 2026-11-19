@@ -16,6 +16,10 @@
                     <value>No</value>
                 </option>
                 <option>
+                    <name>LoconetUpdateSlotOnMessageCreation</name>
+                    <value>No</value>
+                </option>
+                <option>
                     <name>PacketizerType</name>
                     <value>Normal (recommended)</value>
                 </option>
@@ -25,7 +29,7 @@
                 </option>
                 <option>
                     <name>TurnoutHandle</name>
-                    <value>Spread</value>
+                    <value>Both</value>
                 </option>
             </options>
         </connection>
@@ -38,8 +42,8 @@
             </options>
             <node name="Ident">
                 <parameter name="UserName">Dispatcher JMRI</parameter>
-                <parameter name="NodeId"/>
-                <parameter name="UserDescription"/>
+                <parameter name="NodeId">05.01.01.01.3C.FE</parameter>
+                <parameter name="UserDescription">Dispatcher computer above Sierra</parameter>
             </node>
             <node name="FastClock">
                 <parameter name="EnableMode">disabled</parameter>
