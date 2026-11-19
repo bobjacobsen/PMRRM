@@ -182,28 +182,28 @@
       <name>Turnout LT033:Closed</name>
     </entry>
     <entry>
+      <eventID>01.01.02.00.00.FF.0F.D1</eventID>
+      <name>Pong DCC-&gt;LCC Test Closed</name>
+    </entry>
+    <entry>
       <eventID>01.01.02.00.00.FF.00.48</eventID>
       <name>Turnout LT033:Thrown</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.0F.D0</eventID>
-      <name>Pong DCC->LCC Test Thrown</name>
-    </entry>
-    <entry>
-      <eventID>01.01.02.00.00.FF.0F.D1</eventID>
-      <name>Pong DCC->LCC Test Closed</name>
-    </entry>
-    <entry>
-      <eventID>01.01.02.00.00.FF.0F.D2</eventID>
-      <name>Ping LCC->DCC Test Thrown</name>
+      <name>Pong DCC-&gt;LCC Test Thrown</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.0F.D3</eventID>
-      <name>Ping LCC->DCC Test Closed</name>
+      <name>Ping LCC-&gt;DCC Test Closed</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.00.4B</eventID>
       <name>Turnout LT034:Closed</name>
+    </entry>
+    <entry>
+      <eventID>01.01.02.00.00.FF.0F.D2</eventID>
+      <name>Ping LCC-&gt;DCC Test Thrown</name>
     </entry>
     <entry>
       <eventID>01.01.02.00.00.FF.00.4A</eventID>
@@ -2980,6 +2980,10 @@
     <entry>
       <eventID>02.01.57.00.02.A8.00.BB</eventID>
       <name>Zion Relay 08 removed feedback</name>
+    </entry>
+    <entry>
+      <eventID>02.01.57.40.02.26.04.07</eventID>
+      <name>A Sample Event Name</name>
     </entry>
     <entry>
       <eventID>02.01.57.00.02.A8.00.BA</eventID>
