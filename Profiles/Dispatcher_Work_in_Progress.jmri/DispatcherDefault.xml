@@ -3,9 +3,9 @@
 <layout-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/layout-5-5-5.xsd">
   <jmriversion>
     <major>5</major>
-    <minor>17</minor>
-    <test>4</test>
-    <modifier />
+    <minor>19</minor>
+    <test>1</test>
+    <modifier>plus</modifier>
   </jmriversion>
   <sensors class="jmri.jmrix.loconet.configurexml.LnSensorManagerXml">
     <globalDebounceTimers>
@@ -9833,7 +9833,7 @@
         <event>02.01.57.11.00.F4.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.76</event>
@@ -9864,7 +9864,7 @@
         <event>02.01.57.11.00.F4.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.AE</event>
@@ -9895,7 +9895,7 @@
         <event>02.01.57.11.00.F4.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.01.E6</event>
@@ -9926,7 +9926,7 @@
         <event>02.01.57.11.00.F4.02.1B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.1E</event>
@@ -9957,7 +9957,7 @@
         <event>02.01.57.11.00.F4.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.56</event>
@@ -9988,7 +9988,7 @@
         <event>02.01.57.11.00.F4.02.8B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.8E</event>
@@ -10019,7 +10019,7 @@
         <event>02.01.57.11.00.F4.04.BB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.BE</event>
@@ -10050,7 +10050,7 @@
         <event>02.01.57.11.00.F4.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.F6</event>
@@ -10081,7 +10081,7 @@
         <event>02.01.57.11.00.F0.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.76</event>
@@ -10112,7 +10112,7 @@
         <event>02.01.57.11.00.F0.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.AE</event>
@@ -10143,7 +10143,7 @@
         <event>02.01.57.11.00.F0.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.01.E6</event>
@@ -10174,7 +10174,7 @@
         <event>02.01.57.11.00.F0.02.1B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.1E</event>
@@ -10205,7 +10205,7 @@
         <event>02.01.57.11.00.F0.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.56</event>
@@ -10236,7 +10236,7 @@
         <event>02.01.57.11.00.F0.02.8B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.8E</event>
@@ -10267,7 +10267,7 @@
         <event>02.01.57.11.00.F0.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.C6</event>
@@ -10298,7 +10298,7 @@
         <event>02.01.57.11.00.F0.02.FB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.02.FE</event>
@@ -10329,7 +10329,7 @@
         <event>02.01.57.11.00.F0.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.03.36</event>
@@ -10360,7 +10360,7 @@
         <event>02.01.57.11.00.F0.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F0.03.6E</event>
@@ -10391,7 +10391,7 @@
         <event>02.01.57.11.00.F3.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.C6</event>
@@ -10422,7 +10422,7 @@
         <event>02.01.57.11.00.F3.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.03.A6</event>
@@ -10453,7 +10453,7 @@
         <event>02.01.57.11.00.F3.03.DB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.03.DE</event>
@@ -10484,7 +10484,7 @@
         <event>02.01.57.11.00.F3.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.86</event>
@@ -10515,7 +10515,7 @@
         <event>02.01.57.11.00.F3.04.BB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.BE</event>
@@ -10546,7 +10546,7 @@
         <event>02.01.57.11.00.F3.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.F6</event>
@@ -10577,7 +10577,7 @@
         <event>02.01.57.11.00.F3.05.2B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.2E</event>
@@ -10608,7 +10608,7 @@
         <event>02.01.57.11.00.F3.05.63</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.66</event>
@@ -10639,7 +10639,7 @@
         <event>02.01.57.11.00.F3.05.9B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.9E</event>
@@ -10670,7 +10670,7 @@
         <event>02.01.57.11.00.F1.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.76</event>
@@ -10701,7 +10701,7 @@
         <event>02.01.57.11.00.F1.01.AB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.AE</event>
@@ -10732,7 +10732,7 @@
         <event>02.01.57.11.00.F1.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.16</event>
@@ -10763,7 +10763,7 @@
         <event>02.01.57.11.00.F1.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.4E</event>
@@ -10794,7 +10794,7 @@
         <event>02.01.57.11.00.F1.06.B3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.B6</event>
@@ -10825,7 +10825,7 @@
         <event>02.01.57.11.00.F1.06.EB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.EE</event>
@@ -10856,7 +10856,7 @@
         <event>02.01.57.11.00.F2.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.36</event>
@@ -10887,7 +10887,7 @@
         <event>02.01.57.11.00.F2.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.6E</event>
@@ -10918,7 +10918,7 @@
         <event>02.01.57.11.00.F2.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.16</event>
@@ -10949,7 +10949,7 @@
         <event>02.01.57.11.00.F2.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.4E</event>
@@ -10980,7 +10980,7 @@
         <event>02.01.57.11.00.F2.05.9B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.05.9E</event>
@@ -11011,7 +11011,7 @@
         <event>02.01.57.11.00.F2.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.05.D6</event>
@@ -11042,7 +11042,7 @@
         <event>02.01.57.11.00.F2.06.0B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.0E</event>
@@ -11073,7 +11073,7 @@
         <event>02.01.57.11.00.F2.06.43</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.46</event>
@@ -11104,7 +11104,7 @@
         <event>02.01.57.11.00.F2.06.7B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.7E</event>
@@ -11135,7 +11135,7 @@
         <event>02.01.57.11.00.F4.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.02.C6</event>
@@ -11150,13 +11150,13 @@
         <event>02.01.57.11.00.F4.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F4.02.D2</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.00.00</event>
@@ -11186,7 +11186,7 @@
         <event>02.01.57.11.00.F3.02.FB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.FE</event>
@@ -11201,13 +11201,13 @@
         <event>02.01.57.11.00.F3.03.04</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F3.03.0A</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.03.0D</event>
@@ -11237,7 +11237,7 @@
         <event>02.01.57.11.00.F3.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.05.D6</event>
@@ -11252,13 +11252,13 @@
         <event>02.01.57.11.00.F3.05.DC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F3.05.E2</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.05.E5</event>
@@ -11288,7 +11288,7 @@
         <event>02.01.57.11.00.F2.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.F6</event>
@@ -11303,13 +11303,13 @@
         <event>02.01.57.11.00.F2.04.FC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Secondary Diverging Approach">
         <event>02.01.57.11.00.F2.05.02</event>
       </aspect>
       <aspect defines="Secondary Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.05.05</event>
@@ -11339,7 +11339,7 @@
         <event>02.01.57.11.00.F4.03.6B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.03.6E</event>
@@ -11351,7 +11351,7 @@
         <event>02.01.57.11.00.F4.03.74</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.03.7D</event>
@@ -11380,7 +11380,7 @@
         <event>02.01.57.11.00.F4.03.DB</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.03.DE</event>
@@ -11392,7 +11392,7 @@
         <event>02.01.57.11.00.F4.03.E4</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.03.ED</event>
@@ -11421,7 +11421,7 @@
         <event>02.01.57.11.00.F4.04.4B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.04.4E</event>
@@ -11433,7 +11433,7 @@
         <event>02.01.57.11.00.F4.04.54</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.04.5D</event>
@@ -11462,7 +11462,7 @@
         <event>02.01.57.11.00.F4.05.2B</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F4.05.2E</event>
@@ -11474,7 +11474,7 @@
         <event>02.01.57.11.00.F4.05.34</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F4.05.3D</event>
@@ -11503,7 +11503,7 @@
         <event>02.01.57.11.00.F3.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.01.76</event>
@@ -11515,7 +11515,7 @@
         <event>02.01.57.11.00.F3.01.7C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.00.00</event>
@@ -11544,7 +11544,7 @@
         <event>02.01.57.11.00.F3.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.01.E6</event>
@@ -11556,7 +11556,7 @@
         <event>02.01.57.11.00.F3.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.01.F5</event>
@@ -11585,7 +11585,7 @@
         <event>02.01.57.11.00.F3.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.02.56</event>
@@ -11597,7 +11597,7 @@
         <event>02.01.57.11.00.F3.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.02.65</event>
@@ -11626,7 +11626,7 @@
         <event>02.01.57.11.00.F3.04.13</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F3.04.16</event>
@@ -11638,7 +11638,7 @@
         <event>02.01.57.11.00.F3.04.1C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F3.04.25</event>
@@ -11667,7 +11667,7 @@
         <event>02.01.57.11.00.F1.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.01.E6</event>
@@ -11679,7 +11679,7 @@
         <event>02.01.57.11.00.F1.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.01.F5</event>
@@ -11708,7 +11708,7 @@
         <event>02.01.57.11.00.F1.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.02.56</event>
@@ -11720,7 +11720,7 @@
         <event>02.01.57.11.00.F1.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.02.65</event>
@@ -11749,7 +11749,7 @@
         <event>02.01.57.11.00.F1.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.02.C6</event>
@@ -11761,7 +11761,7 @@
         <event>02.01.57.11.00.F1.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.02.D5</event>
@@ -11790,7 +11790,7 @@
         <event>02.01.57.11.00.F1.03.33</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.03.36</event>
@@ -11802,7 +11802,7 @@
         <event>02.01.57.11.00.F1.03.3C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.03.45</event>
@@ -11831,7 +11831,7 @@
         <event>02.01.57.11.00.F1.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.03.A6</event>
@@ -11843,7 +11843,7 @@
         <event>02.01.57.11.00.F1.03.AC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.03.B5</event>
@@ -11872,7 +11872,7 @@
         <event>02.01.57.11.00.F1.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.86</event>
@@ -11884,7 +11884,7 @@
         <event>02.01.57.11.00.F1.04.8C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.04.95</event>
@@ -11913,7 +11913,7 @@
         <event>02.01.57.11.00.F1.04.F3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.04.F6</event>
@@ -11925,7 +11925,7 @@
         <event>02.01.57.11.00.F1.04.FC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.05</event>
@@ -11954,7 +11954,7 @@
         <event>02.01.57.11.00.F1.05.63</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.05.66</event>
@@ -11966,7 +11966,7 @@
         <event>02.01.57.11.00.F1.05.6C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.75</event>
@@ -11995,7 +11995,7 @@
         <event>02.01.57.11.00.F1.05.D3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.05.D6</event>
@@ -12007,7 +12007,7 @@
         <event>02.01.57.11.00.F1.05.DC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.05.E5</event>
@@ -12036,7 +12036,7 @@
         <event>02.01.57.11.00.F1.06.43</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F1.06.46</event>
@@ -12048,7 +12048,7 @@
         <event>02.01.57.11.00.F1.06.4C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F1.06.55</event>
@@ -12077,7 +12077,7 @@
         <event>02.01.57.11.00.F2.01.73</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.01.76</event>
@@ -12089,7 +12089,7 @@
         <event>02.01.57.11.00.F2.01.7C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.01.85</event>
@@ -12118,7 +12118,7 @@
         <event>02.01.57.11.00.F2.01.E3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.01.E6</event>
@@ -12130,7 +12130,7 @@
         <event>02.01.57.11.00.F2.01.EC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.01.F5</event>
@@ -12159,7 +12159,7 @@
         <event>02.01.57.11.00.F2.02.53</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.02.56</event>
@@ -12171,7 +12171,7 @@
         <event>02.01.57.11.00.F2.02.5C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.02.65</event>
@@ -12200,7 +12200,7 @@
         <event>02.01.57.11.00.F2.02.C3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.02.C6</event>
@@ -12212,7 +12212,7 @@
         <event>02.01.57.11.00.F2.02.CC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.02.D5</event>
@@ -12241,7 +12241,7 @@
         <event>02.01.57.11.00.F2.03.A3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.03.A6</event>
@@ -12253,7 +12253,7 @@
         <event>02.01.57.11.00.F2.03.AC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.03.B5</event>
@@ -12282,7 +12282,7 @@
         <event>02.01.57.11.00.F2.04.83</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.04.86</event>
@@ -12294,7 +12294,7 @@
         <event>02.01.57.11.00.F2.04.8C</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.04.95</event>
@@ -12323,7 +12323,7 @@
         <event>02.01.57.11.00.F2.06.B3</event>
       </aspect>
       <aspect defines="Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Stop">
         <event>02.01.57.11.00.F2.06.B6</event>
@@ -12335,7 +12335,7 @@
         <event>02.01.57.11.00.F2.06.BC</event>
       </aspect>
       <aspect defines="Diverging Advanced Approach">
-        <event>00.00.00.00.00.00.00.00</event>
+        <event />
       </aspect>
       <aspect defines="Unlit">
         <event>02.01.57.11.00.F2.06.C5</event>
@@ -17295,7 +17295,7 @@
       <systemName>ILB82</systemName>
       <userName>AUTOBLK:82</userName>
     </layoutblock>
-    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="#BEBEFF">
+    <layoutblock systemName="ILB83" occupancysensor="Midway West station 3 stop block" occupiedsense="2" trackcolor="black" occupiedcolor="red" extracolor="green">
       <systemName>ILB83</systemName>
       <userName>Midway West station 3 stop block</userName>
     </layoutblock>
@@ -27469,17 +27469,17 @@
   <filehistory>
     <operation>
       <type>app</type>
-      <date>Fri Nov 13 18:56:55 PST 2026</date>
-      <filename>PanelPro (v5.17.4)</filename>
+      <date>Thu Nov 19 08:47:29 PST 2026</date>
+      <filename>PanelPro (v5.19.1)</filename>
     </operation>
     <operation>
       <type>Load OK</type>
-      <date>Fri Nov 13 18:57:10 PST 2026</date>
+      <date>Thu Nov 19 08:47:42 PST 2026</date>
       <filename>/C:/Users/Electrical Crew/OneDrive/PMRRM-repository/Profiles/Dispatcher_Work_in_Progress.jmri/DispatcherDefault.xml</filename>
     </operation>
     <operation>
       <type>Store</type>
-      <date>Fri Nov 13 21:24:42 PST 2026</date>
+      <date>Thu Nov 19 09:52:30 PST 2026</date>
       <filename>C:\Users\Electrical Crew\OneDrive\PMRRM-repository\Profiles\Dispatcher_Work_in_Progress.jmri\DispatcherDefault.xml</filename>
     </operation>
   </filehistory>
