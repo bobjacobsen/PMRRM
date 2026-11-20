@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="/xml/XSLT/locomotive.xsl" type="text/xsl"?>
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="DCS 240 Layout" fileName="DCS_240_Layout.xml" roadNumber="" roadName="" mfg="" owner="Electrical Crew PMRRM" model="" dccAddress="3" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="LOCONETCSOPSWMODE" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-10-29T22:17:16.000+00:00</dateUpdated>
+    <decoder model="DCS240" family="Command Stations" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="3" longaddress="no" />
+      <number>3</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="OpSw 001" value="0" state="READ" />
+        <varValue item="OpSw 002" value="0" state="READ" />
+        <varValue item="OpSw 003" value="0" state="READ" />
+        <varValue item="OpSw 004" value="0" state="READ" />
+        <varValue item="OpSw 005" value="0" state="READ" />
+        <varValue item="OpSw 006" value="0" state="READ" />
+        <varValue item="OpSw 007" value="0" state="READ" />
+        <varValue item="OpSw 008" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 009" value="1" state="READ" />
+        <varValue item="OpSw 010" value="1" state="READ" />
+        <varValue item="OpSw 011" value="0" state="READ" />
+        <varValue item="OpSw 012" value="0" state="READ" />
+        <varValue item="OpSw 014" value="0" state="READ" />
+        <varValue item="OpSw 013" value="1" state="READ" />
+        <varValue item="OpSw 015" value="1" state="READ" />
+        <varValue item="OpSw 016" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 017" value="0" state="READ" />
+        <varValue item="OpSw 018" value="1" state="READ" />
+        <varValue item="OpSw 019" value="0" state="READ" />
+        <varValue item="OpSw 020" value="1" state="READ" />
+        <varValue item="OpSw 021" value="1" state="READ" />
+        <varValue item="OpSw 022" value="1" state="READ" />
+        <varValue item="OpSw 023" value="0" state="READ" />
+        <varValue item="Default New Loco Mode" value="0" state="READ" />
+        <varValue item="OpSw 024" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 025" value="0" state="READ" />
+        <varValue item="OpSw 026" value="0" state="READ" />
+        <varValue item="OpSw 027" value="0" state="READ" />
+        <varValue item="OpSw 028" value="0" state="READ" />
+        <varValue item="OpSw 029" value="0" state="READ" />
+        <varValue item="OpSw 030" value="0" state="READ" />
+        <varValue item="OpSw 031" value="1" state="READ" />
+        <varValue item="OpSw 032" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 033" value="1" state="READ" />
+        <varValue item="OpSw 034" value="1" state="READ" />
+        <varValue item="OpSw 035" value="0" state="READ" />
+        <varValue item="OpSw 036" value="0" state="READ" />
+        <varValue item="OpSw 037" value="0" state="READ" />
+        <varValue item="OpSw 038" value="0" state="READ" />
+        <varValue item="OpSw 039" value="0" state="READ" />
+        <varValue item="OpSw 040" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 041" value="0" state="READ" />
+        <varValue item="OpSw 042" value="0" state="READ" />
+        <varValue item="OpSw 043" value="1" state="READ" />
+        <varValue item="OpSw 044" value="0" state="READ" />
+        <varValue item="OpSw 045" value="0" state="READ" />
+        <varValue item="OpSw 046" value="0" state="READ" />
+        <varValue item="OpSw 047" value="0" state="READ" />
+        <varValue item="OpSw 048" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 049" value="0" state="READ" />
+        <varValue item="OpSw 050" value="0" state="READ" />
+        <varValue item="OpSw 051" value="0" state="READ" />
+        <varValue item="OpSw 052" value="0" state="READ" />
+        <varValue item="OpSw 053" value="0" state="READ" />
+        <varValue item="OpSw 054" value="0" state="READ" />
+        <varValue item="OpSw 055" value="0" state="READ" />
+        <varValue item="OpSw 056" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 057" value="0" state="READ" />
+        <varValue item="OpSw 058" value="0" state="READ" />
+        <varValue item="OpSw 059" value="1" state="READ" />
+        <varValue item="OpSw 060" value="1" state="READ" />
+        <varValue item="OpSw 061" value="1" state="READ" />
+        <varValue item="OpSw 062" value="0" state="READ" />
+        <varValue item="OpSw 063" value="0" state="READ" />
+        <varValue item="OpSw 064" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 065" value="1" state="READ" />
+        <varValue item="OpSw 066" value="0" state="READ" />
+        <varValue item="OpSw 067" value="0" state="READ" />
+        <varValue item="OpSw 068" value="0" state="READ" />
+        <varValue item="OpSw 069" value="1" state="READ" />
+        <varValue item="OpSw 070" value="0" state="READ" />
+        <varValue item="OpSw 071" value="0" state="READ" />
+        <varValue item="OpSw 072" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 073" value="0" state="READ" />
+        <varValue item="OpSw 074" value="0" state="READ" />
+        <varValue item="OpSw 075" value="0" state="READ" />
+        <varValue item="OpSw 076" value="0" state="READ" />
+        <varValue item="OpSw 077" value="0" state="READ" />
+        <varValue item="OpSw 078" value="0" state="READ" />
+        <varValue item="OpSw 079" value="0" state="READ" />
+        <varValue item="OpSw 080" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 081" value="0" state="READ" />
+        <varValue item="OpSw 082" value="1" state="READ" />
+        <varValue item="OpSw 083" value="0" state="READ" />
+        <varValue item="OpSw 084" value="0" state="READ" />
+        <varValue item="OpSw 085" value="0" state="READ" />
+        <varValue item="OpSw 086" value="1" state="READ" />
+        <varValue item="OpSw 087" value="0" state="READ" />
+        <varValue item="OpSw 088" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 089" value="0" state="READ" />
+        <varValue item="OpSw 090" value="0" state="READ" />
+        <varValue item="OpSw 091" value="0" state="READ" />
+        <varValue item="OpSw 092" value="0" state="READ" />
+        <varValue item="OpSw 093" value="0" state="READ" />
+        <varValue item="OpSw 094" value="0" state="READ" />
+        <varValue item="OpSw 095" value="0" state="READ" />
+        <varValue item="OpSw 096" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 097" value="1" state="READ" />
+        <varValue item="OpSw 098" value="1" state="READ" />
+        <varValue item="OpSw 099" value="0" state="READ" />
+        <varValue item="OpSw 100" value="0" state="READ" />
+        <varValue item="OpSw 101" value="1" state="READ" />
+        <varValue item="OpSw 102" value="1" state="READ" />
+        <varValue item="OpSw 103" value="0" state="READ" />
+        <varValue item="OpSw 104" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 105" value="0" state="READ" />
+        <varValue item="OpSw 106" value="0" state="READ" />
+        <varValue item="OpSw 107" value="0" state="READ" />
+        <varValue item="OpSw 108" value="0" state="READ" />
+        <varValue item="OpSw 109" value="0" state="READ" />
+        <varValue item="OpSw 110" value="0" state="READ" />
+        <varValue item="OpSw 111" value="0" state="READ" />
+        <varValue item="OpSw 112" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 113" value="0" state="READ" />
+        <varValue item="OpSw 114" value="0" state="READ" />
+        <varValue item="OpSw 115" value="1" state="READ" />
+        <varValue item="OpSw 116" value="0" state="READ" />
+        <varValue item="OpSw 117" value="0" state="READ" />
+        <varValue item="OpSw 118" value="0" state="READ" />
+        <varValue item="OpSw 119" value="1" state="READ" />
+        <varValue item="OpSw 120" value="0" state="FROMDEFAULT" />
+        <varValue item="OpSw 121" value="0" state="READ" />
+        <varValue item="OpSw 122" value="0" state="READ" />
+        <varValue item="OpSw 123" value="0" state="READ" />
+        <varValue item="OpSw 124" value="0" state="READ" />
+        <varValue item="OpSw 125" value="0" state="READ" />
+        <varValue item="OpSw 126" value="0" state="READ" />
+        <varValue item="OpSw 127" value="0" state="READ" />
+        <varValue item="OpSw 128" value="0" state="FROMDEFAULT" />
+      </decoderDef>
+      <CVvalue name="csOpSw.001" value="0" state="READ" />
+      <CVvalue name="csOpSw.002" value="0" state="READ" />
+      <CVvalue name="csOpSw.003" value="0" state="READ" />
+      <CVvalue name="csOpSw.004" value="0" state="READ" />
+      <CVvalue name="csOpSw.005" value="0" state="READ" />
+      <CVvalue name="csOpSw.006" value="0" state="READ" />
+      <CVvalue name="csOpSw.007" value="0" state="READ" />
+      <CVvalue name="csOpSw.008" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.009" value="1" state="READ" />
+      <CVvalue name="csOpSw.010" value="1" state="READ" />
+      <CVvalue name="csOpSw.011" value="0" state="READ" />
+      <CVvalue name="csOpSw.012" value="0" state="READ" />
+      <CVvalue name="csOpSw.014" value="0" state="READ" />
+      <CVvalue name="csOpSw.013" value="1" state="READ" />
+      <CVvalue name="csOpSw.015" value="1" state="READ" />
+      <CVvalue name="csOpSw.016" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.017" value="0" state="READ" />
+      <CVvalue name="csOpSw.018" value="1" state="READ" />
+      <CVvalue name="csOpSw.019" value="0" state="READ" />
+      <CVvalue name="csOpSw.020" value="1" state="READ" />
+      <CVvalue name="csOpSw.021" value="1" state="READ" />
+      <CVvalue name="csOpSw.022" value="1" state="READ" />
+      <CVvalue name="csOpSw.023" value="0" state="READ" />
+      <CVvalue name="csOpSw.024" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.025" value="0" state="READ" />
+      <CVvalue name="csOpSw.026" value="0" state="READ" />
+      <CVvalue name="csOpSw.027" value="0" state="READ" />
+      <CVvalue name="csOpSw.028" value="0" state="READ" />
+      <CVvalue name="csOpSw.029" value="0" state="READ" />
+      <CVvalue name="csOpSw.030" value="0" state="READ" />
+      <CVvalue name="csOpSw.031" value="1" state="READ" />
+      <CVvalue name="csOpSw.032" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.033" value="1" state="READ" />
+      <CVvalue name="csOpSw.034" value="1" state="READ" />
+      <CVvalue name="csOpSw.035" value="0" state="READ" />
+      <CVvalue name="csOpSw.036" value="0" state="READ" />
+      <CVvalue name="csOpSw.037" value="0" state="READ" />
+      <CVvalue name="csOpSw.038" value="0" state="READ" />
+      <CVvalue name="csOpSw.039" value="0" state="READ" />
+      <CVvalue name="csOpSw.040" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.041" value="0" state="READ" />
+      <CVvalue name="csOpSw.042" value="0" state="READ" />
+      <CVvalue name="csOpSw.043" value="1" state="READ" />
+      <CVvalue name="csOpSw.044" value="0" state="READ" />
+      <CVvalue name="csOpSw.045" value="0" state="READ" />
+      <CVvalue name="csOpSw.046" value="0" state="READ" />
+      <CVvalue name="csOpSw.047" value="0" state="READ" />
+      <CVvalue name="csOpSw.048" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.049" value="0" state="READ" />
+      <CVvalue name="csOpSw.050" value="0" state="READ" />
+      <CVvalue name="csOpSw.051" value="0" state="READ" />
+      <CVvalue name="csOpSw.052" value="0" state="READ" />
+      <CVvalue name="csOpSw.053" value="0" state="READ" />
+      <CVvalue name="csOpSw.054" value="0" state="READ" />
+      <CVvalue name="csOpSw.055" value="0" state="READ" />
+      <CVvalue name="csOpSw.056" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.057" value="0" state="READ" />
+      <CVvalue name="csOpSw.058" value="0" state="READ" />
+      <CVvalue name="csOpSw.059" value="1" state="READ" />
+      <CVvalue name="csOpSw.060" value="1" state="READ" />
+      <CVvalue name="csOpSw.061" value="1" state="READ" />
+      <CVvalue name="csOpSw.062" value="0" state="READ" />
+      <CVvalue name="csOpSw.063" value="0" state="READ" />
+      <CVvalue name="csOpSw.064" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.065" value="1" state="READ" />
+      <CVvalue name="csOpSw.066" value="0" state="READ" />
+      <CVvalue name="csOpSw.067" value="0" state="READ" />
+      <CVvalue name="csOpSw.068" value="0" state="READ" />
+      <CVvalue name="csOpSw.069" value="1" state="READ" />
+      <CVvalue name="csOpSw.070" value="0" state="READ" />
+      <CVvalue name="csOpSw.071" value="0" state="READ" />
+      <CVvalue name="csOpSw.072" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.073" value="0" state="READ" />
+      <CVvalue name="csOpSw.074" value="0" state="READ" />
+      <CVvalue name="csOpSw.075" value="0" state="READ" />
+      <CVvalue name="csOpSw.076" value="0" state="READ" />
+      <CVvalue name="csOpSw.077" value="0" state="READ" />
+      <CVvalue name="csOpSw.078" value="0" state="READ" />
+      <CVvalue name="csOpSw.079" value="0" state="READ" />
+      <CVvalue name="csOpSw.080" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.081" value="0" state="READ" />
+      <CVvalue name="csOpSw.082" value="1" state="READ" />
+      <CVvalue name="csOpSw.083" value="0" state="READ" />
+      <CVvalue name="csOpSw.084" value="0" state="READ" />
+      <CVvalue name="csOpSw.085" value="0" state="READ" />
+      <CVvalue name="csOpSw.086" value="1" state="READ" />
+      <CVvalue name="csOpSw.087" value="0" state="READ" />
+      <CVvalue name="csOpSw.088" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.089" value="0" state="READ" />
+      <CVvalue name="csOpSw.090" value="0" state="READ" />
+      <CVvalue name="csOpSw.091" value="0" state="READ" />
+      <CVvalue name="csOpSw.092" value="0" state="READ" />
+      <CVvalue name="csOpSw.093" value="0" state="READ" />
+      <CVvalue name="csOpSw.094" value="0" state="READ" />
+      <CVvalue name="csOpSw.095" value="0" state="READ" />
+      <CVvalue name="csOpSw.096" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.097" value="1" state="READ" />
+      <CVvalue name="csOpSw.098" value="1" state="READ" />
+      <CVvalue name="csOpSw.099" value="0" state="READ" />
+      <CVvalue name="csOpSw.100" value="0" state="READ" />
+      <CVvalue name="csOpSw.101" value="1" state="READ" />
+      <CVvalue name="csOpSw.102" value="1" state="READ" />
+      <CVvalue name="csOpSw.103" value="0" state="READ" />
+      <CVvalue name="csOpSw.104" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.105" value="0" state="READ" />
+      <CVvalue name="csOpSw.106" value="0" state="READ" />
+      <CVvalue name="csOpSw.107" value="0" state="READ" />
+      <CVvalue name="csOpSw.108" value="0" state="READ" />
+      <CVvalue name="csOpSw.109" value="0" state="READ" />
+      <CVvalue name="csOpSw.110" value="0" state="READ" />
+      <CVvalue name="csOpSw.111" value="0" state="READ" />
+      <CVvalue name="csOpSw.112" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.113" value="0" state="READ" />
+      <CVvalue name="csOpSw.114" value="0" state="READ" />
+      <CVvalue name="csOpSw.115" value="1" state="READ" />
+      <CVvalue name="csOpSw.116" value="0" state="READ" />
+      <CVvalue name="csOpSw.117" value="0" state="READ" />
+      <CVvalue name="csOpSw.118" value="0" state="READ" />
+      <CVvalue name="csOpSw.119" value="1" state="READ" />
+      <CVvalue name="csOpSw.120" value="0" state="FROMDEFAULT" />
+      <CVvalue name="csOpSw.121" value="0" state="READ" />
+      <CVvalue name="csOpSw.122" value="0" state="READ" />
+      <CVvalue name="csOpSw.123" value="0" state="READ" />
+      <CVvalue name="csOpSw.124" value="0" state="READ" />
+      <CVvalue name="csOpSw.125" value="0" state="READ" />
+      <CVvalue name="csOpSw.126" value="0" state="READ" />
+      <CVvalue name="csOpSw.127" value="0" state="READ" />
+      <CVvalue name="csOpSw.128" value="0" state="FROMDEFAULT" />
+    </values>
+  </locomotive>
+</locomotive-config>
