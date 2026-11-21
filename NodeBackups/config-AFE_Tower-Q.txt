@@ -1,5 +1,5 @@
-NODE ID.Your name and description for this node.Node Name=AFE Tower-Q 24-06-09
-NODE ID.Your name and description for this node.Node Description=AFE ladders
+NODE ID.Your name and description for this node.Node Name=AFE Tower-Q
+NODE ID.Your name and description for this node.Node Description=2024-06-09 AFE ladders
 Port I/O.Line(0).Line Description=
 Port I/O.Line(0).Output Function=0
 Port I/O.Line(0).Receiving the configured Command (C) event(s) will drive or pulse the line:=0
