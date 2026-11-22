@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<auxiliary-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/auxiliary-configuration.xsd">
+    <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
+        <connection xmlns="" class="jmri.jmrix.loconet.hexfile.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" systemPrefix="L" userName="LocoNet">
+            <options>
+                <option>
+                    <name>MaxSlots</name>
+                    <value>5</value>
+                </option>
+                <option>
+                    <name>SensorDefaultState</name>
+                    <value>Inactive</value>
+                </option>
+            </options>
+        </connection>
+        <connection xmlns="" class="jmri.jmrix.can.adapters.loopback.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="(none)" systemPrefix="M" turnoutInterval="100" userName="LCC">
+            <options>
+                <option>
+                    <name>Protocol</name>
+                    <value>OpenLCB</value>
+                </option>
+            </options>
+            <node name="Ident">
+                <parameter name="UserName">Dispatcher Simulation</parameter>
+                <parameter name="NodeId">05.01.01.01.3C.F8</parameter>
+                <parameter name="UserDescription">Simulated Dispatcher Current</parameter>
+            </node>
+            <node name="FastClock">
+                <parameter name="EnableMode">disabled</parameter>
+                <parameter name="ClockCustomId"/>
+                <parameter name="ClockId">default</parameter>
+            </node>
+        </connection>
+    </connections>
+</auxiliary-configuration>
