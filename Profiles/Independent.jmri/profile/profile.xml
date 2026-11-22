@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/auxiliary-configuration.xsd">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" address="monitoring-rpi.local" class="jmri.jmrix.loconet.loconetovertcp.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" mdnsConfigure="false" port="1234" reconnectMaxAttempts="-1" reconnectMaxInterval="120" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+        <connection xmlns="" class="jmri.jmrix.loconet.locobufferng.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="COM5" reconnectMaxAttempts="-1" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
             <options>
                 <option>
                     <name>CommandStation</name>
@@ -20,6 +20,10 @@
                     <value>No</value>
                 </option>
                 <option>
+                    <name>PacketizerType</name>
+                    <value>Normal (recommended)</value>
+                </option>
+                <option>
                     <name>TranspondingPresent</name>
                     <value>No</value>
                 </option>
@@ -29,20 +33,16 @@
                 </option>
             </options>
         </connection>
-        <connection xmlns="" address="monitoring-rpi.local" class="jmri.jmrix.can.adapters.gridconnect.net.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" mdnsConfigure="false" port="12021" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="M" turnoutInterval="100" userName="LCC">
+        <connection xmlns="" class="jmri.jmrix.can.adapters.gridconnect.lccbuffer.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="COM6" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="M" turnoutInterval="100" userName="LCC">
             <options>
-                <option>
-                    <name>Gateway</name>
-                    <value>Pass All</value>
-                </option>
                 <option>
                     <name>Protocol</name>
                     <value>OpenLCB</value>
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName">Rosie</parameter>
-                <parameter name="NodeId">05.01.01.01.3C.F9</parameter>
+                <parameter name="UserName">Dispatcher Machiine</parameter>
+                <parameter name="NodeId">05.01.01.01.3C.FE</parameter>
                 <parameter name="UserDescription"/>
             </node>
             <node name="FastClock">
