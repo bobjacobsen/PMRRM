@@ -8,8 +8,8 @@ Assigned node IDs
 05.01.01.01.3C.FE  Dispatcher machine on upper level
 05.01.01.01.3C.FD  Monitoring machine
 05.01.01.01.3C.FC  Zion RPi
-05.01.01.01.3C.FB  Peter's laptop 1
-05.01.01.01.3C.FA  Peter's laptop 2
-05.01.01.01.3C.F9  Peter's laptop 3
+05.01.01.01.3C.FB  Peter's laptop 1  "Intermodal 2"
+05.01.01.01.3C.FA  Peter's laptop 2  "Transport"
+05.01.01.01.3C.F9  Peter's laptop 3  "Rosie"
 05.01.01.01.3C.F8  Bob's laptop
 
