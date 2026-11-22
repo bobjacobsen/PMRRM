@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="SP 6192" fileName="SP_6192.xml" roadNumber="6192" roadName="Southern Pacific" mfg="Stewart" owner="223 Dan Wexler" model="F7A" dccAddress="3" comment="DO NOT SEPARATE FROM SP 8092&#xA;SPEAKER DAMAGED? MUTED." developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2022-08-31T03:05:36.164+00:00</dateUpdated>
+    <decoder model="DSX Diesel" family="DSX Diesel" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="3" longaddress="no" />
+      <number>3</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>GROUP TE: 48 / 35</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="0" />
+        <varValue item="Consist Address Active For F1" value="0" />
+        <varValue item="Consist Address Active For F2" value="0" />
+        <varValue item="Consist Address Active For F3" value="0" />
+        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F5" value="0" />
+        <varValue item="Consist Address Active For F6" value="0" />
+        <varValue item="Consist Address Active For F7" value="0" />
+        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For FL in Forward" value="0" />
+        <varValue item="Consist Address Active For FL in Reverse" value="0" />
+        <varValue item="Consist Acceleration Adjustment" value="0" />
+        <varValue item="Consist Acceleration Adjustment Sign" value="0" />
+        <varValue item="Consist Deceleration Adjustment" value="0" />
+        <varValue item="Consist Deceleration Adjustment Sign" value="0" />
+        <varValue item="Advanced Group 1 Option 1" value="0" />
+        <varValue item="Advanced Group 1 Option 2" value="0" />
+        <varValue item="Advanced Group 1 Option 3" value="0" />
+        <varValue item="Advanced Group 1 Option 4" value="0" />
+        <varValue item="FL(f) controls output Bell" value="0" />
+        <varValue item="FL(f) controls output Horn" value="0" />
+        <varValue item="FL(f) controls output RPM+" value="0" />
+        <varValue item="FL(f) controls output RPM-" value="0" />
+        <varValue item="FL(r) controls output Bell" value="0" />
+        <varValue item="FL(r) controls output Horn" value="0" />
+        <varValue item="FL(r) controls output RPM+" value="0" />
+        <varValue item="FL(r) controls output RPM-" value="0" />
+        <varValue item="F1 controls output Bell" value="1" />
+        <varValue item="F1 controls output Horn" value="0" />
+        <varValue item="F1 controls output RPM+" value="0" />
+        <varValue item="F1 controls output RPM-" value="0" />
+        <varValue item="F2 controls output Bell" value="0" />
+        <varValue item="F2 controls output Horn" value="1" />
+        <varValue item="F2 controls output RPM+" value="0" />
+        <varValue item="F2 controls output RPM-" value="0" />
+        <varValue item="F3 controls output Horn" value="0" />
+        <varValue item="F3 controls output RPM+" value="0" />
+        <varValue item="F3 controls output RPM-" value="0" />
+        <varValue item="F3 controls output Coupler" value="1" />
+        <varValue item="F3 controls output DynBrake" value="0" />
+        <varValue item="F3 controls output Dim" value="0" />
+        <varValue item="F4 controls output Horn" value="0" />
+        <varValue item="F4 controls output RPM+" value="0" />
+        <varValue item="F4 controls output RPM-" value="0" />
+        <varValue item="F4 controls output Coupler" value="0" />
+        <varValue item="F4 controls output DynBrake" value="1" />
+        <varValue item="F4 controls output Dim" value="0" />
+        <varValue item="F5 controls output Horn" value="0" />
+        <varValue item="F5 controls output RPM+" value="0" />
+        <varValue item="F5 controls output RPM-" value="0" />
+        <varValue item="F5 controls output Coupler" value="0" />
+        <varValue item="F5 controls output DynBrake" value="0" />
+        <varValue item="F5 controls output Dim" value="0" />
+        <varValue item="F6 controls output Horn" value="0" />
+        <varValue item="F6 controls output RPM+" value="0" />
+        <varValue item="F6 controls output RPM-" value="0" />
+        <varValue item="F6 controls output Coupler" value="0" />
+        <varValue item="F6 controls output DynBrake" value="0" />
+        <varValue item="F6 controls output Dim" value="0" />
+        <varValue item="F7 controls output Coupler" value="0" />
+        <varValue item="F7 controls output DynBrake" value="0" />
+        <varValue item="F7 controls output Dim" value="1" />
+        <varValue item="F7 controls output Mute" value="0" />
+        <varValue item="F8 controls output Coupler" value="0" />
+        <varValue item="F8 controls output DynBrake" value="0" />
+        <varValue item="F8 controls output Dim" value="0" />
+        <varValue item="F8 controls output Mute" value="1" />
+        <varValue item="Sound Option 1" value="1" />
+        <varValue item="Sound Option 2" value="1" />
+        <varValue item="Sound Option 3" value="0" />
+        <varValue item="Sound Setting 1" value="7" />
+        <varValue item="Sound Setting 2" value="4" />
+        <varValue item="Sound Setting 3" value="0" />
+        <varValue item="Sound Setting 4" value="0" />
+        <varValue item="Sound Setting 5" value="0" />
+        <varValue item="Sound Setting 6" value="0" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Accel" value="0" />
+        <varValue item="Decel" value="0" />
+        <varValue item="Decoder Version" value="0" />
+        <varValue item="Manufacturer" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="User Id #1" value="0" />
+        <varValue item="User Id #2" value="0" />
+      </decoderDef>
+      <CVvalue name="11" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="30" value="0" />
+      <CVvalue name="33" value="0" />
+      <CVvalue name="34" value="0" />
+      <CVvalue name="35" value="4" />
+      <CVvalue name="36" value="8" />
+      <CVvalue name="37" value="32" />
+      <CVvalue name="38" value="64" />
+      <CVvalue name="39" value="0" />
+      <CVvalue name="40" value="0" />
+      <CVvalue name="41" value="16" />
+      <CVvalue name="42" value="32" />
+      <CVvalue name="56" value="3" />
+      <CVvalue name="58" value="7" />
+      <CVvalue name="59" value="4" />
+      <CVvalue name="60" value="0" />
+      <CVvalue name="61" value="0" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="2" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:00:22 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:29:39 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:49 PST 2026-->
+</locomotive-config>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 5.1.5+Rb1b4a78a89 on Sat Mar 18 13:42:12 PDT 2023-->
+  <locomotive id="CAT 71" fileName="CAT_71.xml" roadNumber="71" roadName="Cheyenne, Arapaho &amp; Tonopah" mfg="Bachmann" owner="147 Bob Googooian" model="70 Tonner" dccAddress="71" comment="switcher" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2023-03-18T20:42:12.493+00:00</dateUpdated>
+    <decoder model="2 function decoder (36-552)" family="E-Z Command decoders" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="71" longaddress="no" />
+      <number>71</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <values>
+      <decoderDef>
+        <varValue item="Vstart" value="10" />
+        <varValue item="Accel" value="1" />
+        <varValue item="Decel" value="1" />
+        <varValue item="Decoder Version" value="46" />
+        <varValue item="Manufacturer" value="101" />
+        <varValue item="DC Brake Momentum" value="1" />
+        <varValue item="F1 controls output Dim" value="0" />
+        <varValue item="F2 controls output Dim" value="0" />
+        <varValue item="F3 controls output Dim" value="0" />
+        <varValue item="F4 controls output Dim" value="0" />
+        <varValue item="F5 controls output Dim" value="0" />
+        <varValue item="F6 controls output Dim" value="0" />
+        <varValue item="F7 controls output Dim" value="0" />
+        <varValue item="F8 controls output Dim" value="0" />
+        <varValue item="Global lighting option 1" value="64" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="Short Address" value="71" />
+        <varValue item="Long Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="User Id #1" value="255" />
+        <varValue item="User Id #2" value="255" />
+      </decoderDef>
+      <CVvalue name="2" value="10" />
+      <CVvalue name="3" value="1" />
+      <CVvalue name="4" value="1" />
+      <CVvalue name="7" value="46" />
+      <CVvalue name="8" value="101" />
+      <CVvalue name="50" value="4" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="52" value="64" />
+      <CVvalue name="1" value="71" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="2" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="105" value="255" />
+      <CVvalue name="106" value="255" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:52:07 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:23:15 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:44 PST 2026-->
+</locomotive-config>

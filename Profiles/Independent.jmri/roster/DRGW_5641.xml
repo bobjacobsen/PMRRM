@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="DRGW 5641" fileName="DRGW_5641.xml" roadNumber="5641" roadName="D&amp;RGW" mfg="Athearn" owner="263 John Finnerty" model="F7aa" dccAddress="5641" comment="" developerID="-1" manufacturerID="113" productID="158" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-08T03:58:29.794+00:00</dateUpdated>
+    <decoder model="P2k F7A w/Mars" family="QSI Diesel Ver. 7" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="5641" longaddress="yes" />
+      <number>5641</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupler</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Fans</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Doppler</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Squeal</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Mute</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Heavy Load</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Status</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Number Board</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Cab Light</functionlabel>
+    </functionlabels>
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>44 /  36 /  30</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="CV56.254.6" value="0" />
+        <varValue item="Vstart" value="32" />
+        <varValue item="Vhigh" value="1" />
+        <varValue item="Decoder Version" value="0" />
+        <varValue item="Manufacturer" value="113" />
+        <varValue item="Packet Time-out Value" value="0" />
+        <varValue item="Consist Address Active For F1" value="0" />
+        <varValue item="Consist Address Active For F2" value="0" />
+        <varValue item="Consist Address Active For F3" value="0" />
+        <varValue item="Consist Address Active For F4" value="0" />
+        <varValue item="Consist Address Active For F5" value="0" />
+        <varValue item="Consist Address Active For F6" value="0" />
+        <varValue item="Consist Address Active For F7" value="0" />
+        <varValue item="Consist Address Active For F8" value="0" />
+        <varValue item="Consist Address Active For FL in Forward" value="0" />
+        <varValue item="Consist Address Active For FL in Reverse" value="0" />
+        <varValue item="Consist Address Active For F9" value="0" />
+        <varValue item="Consist Address Active For F10" value="0" />
+        <varValue item="Consist Address Active For F11" value="0" />
+        <varValue item="Consist Address Active For F12" value="0" />
+        <varValue item="Consist Acceleration Adjustment" value="0" />
+        <varValue item="Consist Acceleration Adjustment Sign" value="0" />
+        <varValue item="Consist Deceleration Adjustment" value="0" />
+        <varValue item="Consist Deceleration Adjustment Sign" value="0" />
+        <varValue item="Speed Table Selection" value="2" />
+        <varValue item="Speed Table Definition" value="0" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(f) controls output 2" value="1" />
+        <varValue item="FL(f) controls output 3" value="0" />
+        <varValue item="FL(f) controls output 4" value="0" />
+        <varValue item="FL(f) controls output 5" value="0" />
+        <varValue item="FL(f) controls output 6" value="0" />
+        <varValue item="FL(f) controls output 7" value="0" />
+        <varValue item="FL(f) controls output 8" value="0" />
+        <varValue item="FL(r) controls output 1" value="1" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="FL(r) controls output 3" value="0" />
+        <varValue item="FL(r) controls output 4" value="0" />
+        <varValue item="FL(r) controls output 5" value="0" />
+        <varValue item="FL(r) controls output 6" value="0" />
+        <varValue item="FL(r) controls output 7" value="0" />
+        <varValue item="FL(r) controls output 8" value="0" />
+        <varValue item="F1 controls output 1" value="0" />
+        <varValue item="F1 controls output 2" value="0" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F1 controls output 4" value="0" />
+        <varValue item="F1 controls output 5" value="0" />
+        <varValue item="F1 controls output 6" value="0" />
+        <varValue item="F1 controls output 7" value="0" />
+        <varValue item="F1 controls output 8" value="0" />
+        <varValue item="F2 controls output 1" value="0" />
+        <varValue item="F2 controls output 2" value="0" />
+        <varValue item="F2 controls output 3" value="0" />
+        <varValue item="F2 controls output 4" value="1" />
+        <varValue item="F2 controls output 5" value="0" />
+        <varValue item="F2 controls output 6" value="0" />
+        <varValue item="F2 controls output 7" value="0" />
+        <varValue item="F2 controls output 8" value="0" />
+        <varValue item="F3 controls output 1" value="0" />
+        <varValue item="F3 controls output 2" value="0" />
+        <varValue item="F3 controls output 3" value="0" />
+        <varValue item="F3 controls output 4" value="0" />
+        <varValue item="F3 controls output 5" value="1" />
+        <varValue item="F3 controls output 6" value="0" />
+        <varValue item="F3 controls output 7" value="0" />
+        <varValue item="F3 controls output 8" value="0" />
+        <varValue item="F4 controls output 4" value="0" />
+        <varValue item="F4 controls output 5" value="0" />
+        <varValue item="F4 controls output 6" value="1" />
+        <varValue item="F4 controls output 7" value="0" />
+        <varValue item="F4 controls output 8" value="0" />
+        <varValue item="F4 controls output 9" value="0" />
+        <varValue item="F4 controls output 10" value="0" />
+        <varValue item="F4 controls output 11" value="0" />
+        <varValue item="F5 controls output 4" value="0" />
+        <varValue item="F5 controls output 5" value="0" />
+        <varValue item="F5 controls output 6" value="0" />
+        <varValue item="F5 controls output 7" value="1" />
+        <varValue item="F5 controls output 8" value="0" />
+        <varValue item="F5 controls output 9" value="0" />
+        <varValue item="F5 controls output 10" value="0" />
+        <varValue item="F5 controls output 11" value="0" />
+        <varValue item="F6 controls output 4" value="0" />
+        <varValue item="F6 controls output 5" value="0" />
+        <varValue item="F6 controls output 6" value="0" />
+        <varValue item="F6 controls output 7" value="0" />
+        <varValue item="F6 controls output 8" value="1" />
+        <varValue item="F6 controls output 9" value="0" />
+        <varValue item="F6 controls output 10" value="0" />
+        <varValue item="F6 controls output 11" value="0" />
+        <varValue item="F7 controls output 4" value="0" />
+        <varValue item="F7 controls output 5" value="0" />
+        <varValue item="F7 controls output 6" value="0" />
+        <varValue item="F7 controls output 7" value="0" />
+        <varValue item="F7 controls output 8" value="0" />
+        <varValue item="F7 controls output 9" value="1" />
+        <varValue item="F7 controls output 10" value="0" />
+        <varValue item="F7 controls output 11" value="0" />
+        <varValue item="F8 controls output 4" value="0" />
+        <varValue item="F8 controls output 5" value="0" />
+        <varValue item="F8 controls output 6" value="0" />
+        <varValue item="F8 controls output 7" value="0" />
+        <varValue item="F8 controls output 8" value="0" />
+        <varValue item="F8 controls output 9" value="0" />
+        <varValue item="F8 controls output 10" value="1" />
+        <varValue item="F8 controls output 11" value="0" />
+        <varValue item="F9 controls output 7" value="0" />
+        <varValue item="F9 controls output 8" value="0" />
+        <varValue item="F9 controls output 9" value="0" />
+        <varValue item="F9 controls output 10" value="0" />
+        <varValue item="F9 controls output 11" value="1" />
+        <varValue item="F9 controls output 12" value="0" />
+        <varValue item="F9 controls output 13" value="0" />
+        <varValue item="F9 controls output 14" value="0" />
+        <varValue item="F10 controls output 7" value="0" />
+        <varValue item="F10 controls output 8" value="0" />
+        <varValue item="F10 controls output 9" value="0" />
+        <varValue item="F10 controls output 10" value="0" />
+        <varValue item="F10 controls output 11" value="0" />
+        <varValue item="F10 controls output 12" value="1" />
+        <varValue item="F10 controls output 13" value="0" />
+        <varValue item="F10 controls output 14" value="0" />
+        <varValue item="F11 controls output 7" value="0" />
+        <varValue item="F11 controls output 8" value="0" />
+        <varValue item="F11 controls output 9" value="0" />
+        <varValue item="F11 controls output 10" value="0" />
+        <varValue item="F11 controls output 11" value="0" />
+        <varValue item="F11 controls output 12" value="0" />
+        <varValue item="F11 controls output 13" value="1" />
+        <varValue item="F11 controls output 14" value="0" />
+        <varValue item="F12 controls output 7" value="0" />
+        <varValue item="F12 controls output 8" value="0" />
+        <varValue item="F12 controls output 9" value="0" />
+        <varValue item="F12 controls output 10" value="0" />
+        <varValue item="F12 controls output 11" value="0" />
+        <varValue item="F12 controls output 12" value="0" />
+        <varValue item="F12 controls output 13" value="0" />
+        <varValue item="F12 controls output 14" value="1" />
+        <varValue item="Primary Index for Verbal CV Inquiry" value="0" />
+        <varValue item="Secondary Index for Verbal CV Inquiry" value="0" />
+        <varValue item="CV62 Verbal Ack" value="1" />
+        <varValue item="CV62 CV Readout" value="0" />
+        <varValue item="Verbal CV Inquiry" value="0" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="CV51.0" value="127" />
+        <varValue item="CV51.1" value="0" />
+        <varValue item="CV51.2 Doppler" value="1" />
+        <varValue item="CV51.2 Horn" value="1" />
+        <varValue item="CV51.2 Heavy" value="1" />
+        <varValue item="CV51.5" value="0" />
+        <varValue item="CV52.0" value="11" />
+        <varValue item="CV52.8" value="11" />
+        <varValue item="CV52.10" value="11" />
+        <varValue item="CV52.16" value="11" />
+        <varValue item="CV52.19" value="11" />
+        <varValue item="CV52.21" value="11" />
+        <varValue item="CV52.22" value="11" />
+        <varValue item="CV52.24" value="11" />
+        <varValue item="CV52.26" value="11" />
+        <varValue item="CV52.28" value="11" />
+        <varValue item="CV52.34" value="11" />
+        <varValue item="CV52.37" value="11" />
+        <varValue item="CV53.1.0" value="136" />
+        <varValue item="CV53.1.1" value="136" />
+        <varValue item="CV53.2.0" value="136" />
+        <varValue item="CV53.2.1" value="136" />
+        <varValue item="CV53.3.0" value="3" />
+        <varValue item="CV53.3.1" value="3" />
+        <varValue item="CV53.4.0" value="1" />
+        <varValue item="CV53.4.1" value="1" />
+        <varValue item="CV53.5.0" value="211" />
+        <varValue item="CV53.5.1" value="211" />
+        <varValue item="CV53.6.0" value="8" />
+        <varValue item="CV53.6.1" value="8" />
+        <varValue item="CV53.7.0" value="5" />
+        <varValue item="CV53.7.1" value="5" />
+        <varValue item="CV53.8.0" value="65" />
+        <varValue item="CV53.8.1" value="144" />
+        <varValue item="CV53.9.0" value="216" />
+        <varValue item="CV53.9.1" value="9" />
+        <varValue item="CV53.10.0" value="64" />
+        <varValue item="CV53.10.1" value="64" />
+        <varValue item="CV53.11.0" value="179" />
+        <varValue item="CV53.11.1" value="145" />
+        <varValue item="CV53.12.0" value="178" />
+        <varValue item="CV53.12.1" value="178" />
+        <varValue item="CV53.13.0" value="137" />
+        <varValue item="CV53.13.1" value="137" />
+        <varValue item="CV53.14.0" value="138" />
+        <varValue item="CV53.14.1" value="138" />
+        <varValue item="CV53.15.0" value="10" />
+        <varValue item="CV53.16.0" value="10" />
+        <varValue item="CV53.17.0" value="10" />
+        <varValue item="CV53.18.0" value="10" />
+        <varValue item="CV53.19.0" value="10" />
+        <varValue item="CV53.20.0" value="10" />
+        <varValue item="CV53.21.0" value="10" />
+        <varValue item="CV53.22.0" value="10" />
+        <varValue item="CV53.23.0" value="10" />
+        <varValue item="CV53.24.0" value="10" />
+        <varValue item="CV53.25.0" value="10" />
+        <varValue item="CV53.26.0" value="10" />
+        <varValue item="CV53.27.0" value="10" />
+        <varValue item="CV53.28.0" value="10" />
+        <varValue item="CV53.29.0" value="10" />
+        <varValue item="CV53.30.0" value="10" />
+        <varValue item="CV55.3.0" value="2" />
+        <varValue item="CV55.3.1" value="1" />
+        <varValue item="CV55.3.5 Auto" value="0" />
+        <varValue item="CV55.3.5 Hold" value="5" />
+        <varValue item="CV55.21.0" value="10" />
+        <varValue item="CV55.70.0" value="1" />
+        <varValue item="CV55.70.1 FWD" value="2" />
+        <varValue item="CV55.70.1 NFF" value="1" />
+        <varValue item="CV55.70.1 REV" value="1" />
+        <varValue item="CV55.70.1 NFR" value="1" />
+        <varValue item="CV55.73.0" value="1" />
+        <varValue item="CV55.73.1 FWD" value="1" />
+        <varValue item="CV55.73.1 NFF" value="1" />
+        <varValue item="CV55.73.1 REV" value="2" />
+        <varValue item="CV55.73.1 NFR" value="1" />
+        <varValue item="CV55.76.0" value="1" />
+        <varValue item="CV55.76.1" value="3" />
+        <varValue item="CV55.76.2" value="1" />
+        <varValue item="CV55.76.3" value="1" />
+        <varValue item="CV55.76.4" value="1" />
+        <varValue item="CV55.76.6" value="100" />
+        <varValue item="CV55.76.10" value="32" />
+        <varValue item="CV55.76.11" value="4" />
+        <varValue item="CV55.76.12" value="255" />
+        <varValue item="CV55.76.13" value="32" />
+        <varValue item="CV55.100.0" value="1" />
+        <varValue item="CV55.100.1 FWD" value="1" />
+        <varValue item="CV55.100.1 NFF" value="1" />
+        <varValue item="CV55.100.1 REV" value="1" />
+        <varValue item="CV55.100.1 NFR" value="1" />
+        <varValue item="CV55.136.0 70" value="1" />
+        <varValue item="CV55.136.0 73" value="1" />
+        <varValue item="CV55.136.0 76" value="1" />
+        <varValue item="CV55.136.0 80" value="1" />
+        <varValue item="CV55.136.0 84" value="1" />
+        <varValue item="CV55.136.0 88" value="1" />
+        <varValue item="CV55.136.0 92" value="1" />
+        <varValue item="CV55.136.0 96" value="1" />
+        <varValue item="CV55.136.1 100" value="0" />
+        <varValue item="CV55.136.1 102" value="0" />
+        <varValue item="CV55.136.1 104" value="0" />
+        <varValue item="CV55.136.1 106" value="0" />
+        <varValue item="CV55.136.1 112" value="0" />
+        <varValue item="CV55.136.1 114" value="0" />
+        <varValue item="CV55.136.2 116" value="0" />
+        <varValue item="CV55.136.2 118" value="0" />
+        <varValue item="CV55.137.0 70" value="0" />
+        <varValue item="CV55.137.0 73" value="0" />
+        <varValue item="CV55.137.0 76" value="0" />
+        <varValue item="CV55.137.0 80" value="0" />
+        <varValue item="CV55.137.0 84" value="0" />
+        <varValue item="CV55.137.0 88" value="0" />
+        <varValue item="CV55.137.0 92" value="0" />
+        <varValue item="CV55.137.0 96" value="0" />
+        <varValue item="CV55.137.1 100" value="1" />
+        <varValue item="CV55.137.1 102" value="1" />
+        <varValue item="CV55.137.1 104" value="1" />
+        <varValue item="CV55.137.1 106" value="1" />
+        <varValue item="CV55.137.1 112" value="1" />
+        <varValue item="CV55.137.1 114" value="1" />
+        <varValue item="CV55.137.2 116" value="0" />
+        <varValue item="CV55.137.2 118" value="0" />
+        <varValue item="CV55.138.0 70" value="0" />
+        <varValue item="CV55.138.0 73" value="0" />
+        <varValue item="CV55.138.0 76" value="0" />
+        <varValue item="CV55.138.0 80" value="0" />
+        <varValue item="CV55.138.0 84" value="0" />
+        <varValue item="CV55.138.0 88" value="0" />
+        <varValue item="CV55.138.0 92" value="0" />
+        <varValue item="CV55.138.0 96" value="0" />
+        <varValue item="CV55.138.1 100" value="0" />
+        <varValue item="CV55.138.1 102" value="0" />
+        <varValue item="CV55.138.1 104" value="0" />
+        <varValue item="CV55.138.1 106" value="0" />
+        <varValue item="CV55.138.1 112" value="0" />
+        <varValue item="CV55.138.1 114" value="0" />
+        <varValue item="CV55.138.2 116" value="1" />
+        <varValue item="CV55.138.2 118" value="1" />
+        <varValue item="CV55.154.0" value="30" />
+        <varValue item="CV55.154.0 hoot" value="0" />
+        <varValue item="CV55.154.1" value="15" />
+        <varValue item="CV55.154.2" value="30" />
+        <varValue item="CV55.154.2 hoot" value="0" />
+        <varValue item="CV55.154.3" value="15" />
+        <varValue item="CV55.154.4" value="10" />
+        <varValue item="CV55.154.4 hoot" value="0" />
+        <varValue item="CV55.154.5" value="15" />
+        <varValue item="CV55.154.6" value="30" />
+        <varValue item="CV55.154.6 hoot" value="0" />
+        <varValue item="CV55.178.0 MPH" value="1" />
+        <varValue item="CV55.178.0 BEMF" value="0" />
+        <varValue item="CV55.178.0 PWM" value="0" />
+        <varValue item="CV55.178.0 Temp" value="0" />
+        <varValue item="CV55.178.0 Miles" value="0" />
+        <varValue item="CV55.178.0 Volts" value="0" />
+        <varValue item="CV56.0 Power" value="1" />
+        <varValue item="CV56.0 Units" value="0" />
+        <varValue item="CV56.0 Reed" value="0" />
+        <varValue item="CV56.4" value="1" />
+        <varValue item="CV56.5" value="1" />
+        <varValue item="CV56.9" value="128" />
+        <varValue item="CV56.9" value="128" />
+        <varValue item="CV56.18.0" value="7" />
+        <varValue item="CV56.18.2" value="106" />
+        <varValue item="CV56.19.0" value="7" />
+        <varValue item="CV56.19.2" value="40" />
+        <varValue item="CV56.20.0" value="7" />
+        <varValue item="CV56.20.2" value="40" />
+        <varValue item="CV56.21.0" value="4" />
+        <varValue item="CV56.21.2" value="10" />
+        <varValue item="CV56.254.2" value="0" />
+        <varValue item="CV56.254.3" value="0" />
+        <varValue item="CV56.254.4" value="0" />
+        <varValue item="CV56.254.5" value="0" />
+        <varValue item="CV56.254.8" value="0" />
+        <varValue item="CV56.254.10" value="0" />
+        <varValue item="CV56.254.11" value="0" />
+        <varValue item="CV56.254.12" value="0" />
+        <varValue item="CV56.254.14" value="0" />
+        <varValue item="Product Number" value="0" />
+        <varValue item="Hardware Profile" value="0" />
+        <varValue item="PICV" value="49" />
+        <varValue item="SICV" value="50" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="5641" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Accel" value="0" />
+        <varValue item="Decel" value="0" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" />
+      </decoderDef>
+      <CVvalue name="56.254.6" value="0" />
+      <CVvalue name="2" value="32" />
+      <CVvalue name="5" value="1" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="113" />
+      <CVvalue name="11" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="23" value="0" />
+      <CVvalue name="24" value="0" />
+      <CVvalue name="25" value="2" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="33" value="3" />
+      <CVvalue name="34" value="3" />
+      <CVvalue name="35" value="4" />
+      <CVvalue name="36" value="8" />
+      <CVvalue name="37" value="16" />
+      <CVvalue name="38" value="4" />
+      <CVvalue name="39" value="8" />
+      <CVvalue name="40" value="16" />
+      <CVvalue name="41" value="32" />
+      <CVvalue name="42" value="64" />
+      <CVvalue name="43" value="16" />
+      <CVvalue name="44" value="32" />
+      <CVvalue name="45" value="64" />
+      <CVvalue name="46" value="128" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="62" value="1" />
+      <CVvalue name="64" value="0" />
+      <CVvalue name="66" value="128" />
+      <CVvalue name="95" value="128" />
+      <CVvalue name="51.0" value="127" />
+      <CVvalue name="51.1" value="0" />
+      <CVvalue name="51.2" value="13" />
+      <CVvalue name="51.5" value="0" />
+      <CVvalue name="52.0" value="11" />
+      <CVvalue name="52.8" value="11" />
+      <CVvalue name="52.10" value="11" />
+      <CVvalue name="52.16" value="11" />
+      <CVvalue name="52.19" value="11" />
+      <CVvalue name="52.21" value="11" />
+      <CVvalue name="52.22" value="11" />
+      <CVvalue name="52.24" value="11" />
+      <CVvalue name="52.26" value="11" />
+      <CVvalue name="52.28" value="11" />
+      <CVvalue name="52.34" value="11" />
+      <CVvalue name="52.37" value="11" />
+      <CVvalue name="53.1.0" value="136" />
+      <CVvalue name="53.1.1" value="136" />
+      <CVvalue name="53.2.0" value="136" />
+      <CVvalue name="53.2.1" value="136" />
+      <CVvalue name="53.3.0" value="3" />
+      <CVvalue name="53.3.1" value="3" />
+      <CVvalue name="53.4.0" value="1" />
+      <CVvalue name="53.4.1" value="1" />
+      <CVvalue name="53.5.0" value="211" />
+      <CVvalue name="53.5.1" value="211" />
+      <CVvalue name="53.6.0" value="8" />
+      <CVvalue name="53.6.1" value="8" />
+      <CVvalue name="53.7.0" value="5" />
+      <CVvalue name="53.7.1" value="5" />
+      <CVvalue name="53.8.0" value="65" />
+      <CVvalue name="53.8.1" value="144" />
+      <CVvalue name="53.9.0" value="216" />
+      <CVvalue name="53.9.1" value="9" />
+      <CVvalue name="53.10.0" value="64" />
+      <CVvalue name="53.10.1" value="64" />
+      <CVvalue name="53.11.0" value="179" />
+      <CVvalue name="53.11.1" value="145" />
+      <CVvalue name="53.12.0" value="178" />
+      <CVvalue name="53.12.1" value="178" />
+      <CVvalue name="53.13.0" value="137" />
+      <CVvalue name="53.13.1" value="137" />
+      <CVvalue name="53.14.0" value="138" />
+      <CVvalue name="53.14.1" value="138" />
+      <CVvalue name="53.15.0" value="10" />
+      <CVvalue name="53.16.0" value="10" />
+      <CVvalue name="53.17.0" value="10" />
+      <CVvalue name="53.18.0" value="10" />
+      <CVvalue name="53.19.0" value="10" />
+      <CVvalue name="53.20.0" value="10" />
+      <CVvalue name="53.21.0" value="10" />
+      <CVvalue name="53.22.0" value="10" />
+      <CVvalue name="53.23.0" value="10" />
+      <CVvalue name="53.24.0" value="10" />
+      <CVvalue name="53.25.0" value="10" />
+      <CVvalue name="53.26.0" value="10" />
+      <CVvalue name="53.27.0" value="10" />
+      <CVvalue name="53.28.0" value="10" />
+      <CVvalue name="53.29.0" value="10" />
+      <CVvalue name="53.30.0" value="10" />
+      <CVvalue name="55.3.0" value="2" />
+      <CVvalue name="55.3.1" value="1" />
+      <CVvalue name="55.3.5" value="5" />
+      <CVvalue name="55.21.0" value="10" />
+      <CVvalue name="55.70.0" value="1" />
+      <CVvalue name="55.70.1" value="86" />
+      <CVvalue name="55.73.0" value="1" />
+      <CVvalue name="55.73.1" value="101" />
+      <CVvalue name="55.76.0" value="1" />
+      <CVvalue name="55.76.1" value="3" />
+      <CVvalue name="55.76.2" value="1" />
+      <CVvalue name="55.76.3" value="1" />
+      <CVvalue name="55.76.4" value="1" />
+      <CVvalue name="55.76.6" value="100" />
+      <CVvalue name="55.76.10" value="32" />
+      <CVvalue name="55.76.11" value="4" />
+      <CVvalue name="55.76.12" value="255" />
+      <CVvalue name="55.76.13" value="32" />
+      <CVvalue name="55.100.0" value="1" />
+      <CVvalue name="55.100.1" value="85" />
+      <CVvalue name="55.136.0" value="255" />
+      <CVvalue name="55.136.1" value="0" />
+      <CVvalue name="55.136.2" value="0" />
+      <CVvalue name="55.137.0" value="0" />
+      <CVvalue name="55.137.1" value="207" />
+      <CVvalue name="55.137.2" value="0" />
+      <CVvalue name="55.138.0" value="0" />
+      <CVvalue name="55.138.1" value="0" />
+      <CVvalue name="55.138.2" value="3" />
+      <CVvalue name="55.154.0" value="30" />
+      <CVvalue name="55.154.1" value="15" />
+      <CVvalue name="55.154.2" value="30" />
+      <CVvalue name="55.154.3" value="15" />
+      <CVvalue name="55.154.4" value="10" />
+      <CVvalue name="55.154.5" value="15" />
+      <CVvalue name="55.154.6" value="30" />
+      <CVvalue name="55.178.0" value="1" />
+      <CVvalue name="56.0" value="1" />
+      <CVvalue name="56.4" value="1" />
+      <CVvalue name="56.5" value="1" />
+      <CVvalue name="56.9" value="128" />
+      <CVvalue name="56.18.0" value="7" />
+      <CVvalue name="56.18.2" value="106" />
+      <CVvalue name="56.19.0" value="7" />
+      <CVvalue name="56.19.2" value="40" />
+      <CVvalue name="56.20.0" value="7" />
+      <CVvalue name="56.20.2" value="40" />
+      <CVvalue name="56.21.0" value="4" />
+      <CVvalue name="56.21.2" value="10" />
+      <CVvalue name="56.254.2" value="0" />
+      <CVvalue name="56.254.3" value="0" />
+      <CVvalue name="56.254.4" value="0" />
+      <CVvalue name="56.254.5" value="0" />
+      <CVvalue name="56.254.8" value="0" />
+      <CVvalue name="56.254.10" value="0" />
+      <CVvalue name="56.254.11" value="0" />
+      <CVvalue name="56.254.12" value="0" />
+      <CVvalue name="56.254.14" value="0" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="214" />
+      <CVvalue name="18" value="9" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="67" value="0" />
+      <CVvalue name="68" value="9" />
+      <CVvalue name="69" value="18" />
+      <CVvalue name="70" value="28" />
+      <CVvalue name="71" value="37" />
+      <CVvalue name="72" value="47" />
+      <CVvalue name="73" value="56" />
+      <CVvalue name="74" value="66" />
+      <CVvalue name="75" value="75" />
+      <CVvalue name="76" value="85" />
+      <CVvalue name="77" value="94" />
+      <CVvalue name="78" value="103" />
+      <CVvalue name="79" value="113" />
+      <CVvalue name="80" value="122" />
+      <CVvalue name="81" value="132" />
+      <CVvalue name="82" value="141" />
+      <CVvalue name="83" value="151" />
+      <CVvalue name="84" value="160" />
+      <CVvalue name="85" value="170" />
+      <CVvalue name="86" value="179" />
+      <CVvalue name="87" value="188" />
+      <CVvalue name="88" value="198" />
+      <CVvalue name="89" value="207" />
+      <CVvalue name="90" value="217" />
+      <CVvalue name="91" value="226" />
+      <CVvalue name="92" value="236" />
+      <CVvalue name="93" value="245" />
+      <CVvalue name="94" value="255" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:54:26 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:25:01 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:45 PST 2026-->
+</locomotive-config>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="SP 8092" fileName="SP_8092.xml" roadNumber="8092" roadName="Southern Pacific" mfg="Athearn Genesis" owner="203 Mike Panton" model="F7B" dccAddress="6202" comment="Do not separate from SP6202, &#xA;SP 8092 is MU to lead engine" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-02-08T03:58:34.023+00:00</dateUpdated>
+    <decoder model="1910 - HO Scale - Diesel" family="Sound Decoders" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="6202" longaddress="yes" />
+      <number>6202</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels>
+      <functionlabel num="0" lockable="true" visible="true" functionImage="" functionImageSelected="">Light</functionlabel>
+      <functionlabel num="1" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell</functionlabel>
+      <functionlabel num="2" lockable="false" visible="true" functionImage="" functionImageSelected="">Horn</functionlabel>
+      <functionlabel num="3" lockable="true" visible="true" functionImage="" functionImageSelected="">Ditch Lights</functionlabel>
+      <functionlabel num="4" lockable="true" visible="true" functionImage="" functionImageSelected="">Coupling</functionlabel>
+      <functionlabel num="5" lockable="true" visible="true" functionImage="" functionImageSelected="">Brake release/Squeal</functionlabel>
+      <functionlabel num="6" lockable="true" visible="true" functionImage="" functionImageSelected="">Dynamic Brake</functionlabel>
+      <functionlabel num="7" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Hose/Uncoupling Lever</functionlabel>
+      <functionlabel num="8" lockable="true" visible="true" functionImage="" functionImageSelected="">Shut Down/Notch Down</functionlabel>
+      <functionlabel num="9" lockable="true" visible="true" functionImage="" functionImageSelected="">Fan/Notch Up</functionlabel>
+      <functionlabel num="10" lockable="true" visible="true" functionImage="" functionImageSelected="">Rail Clack</functionlabel>
+      <functionlabel num="11" lockable="true" visible="true" functionImage="" functionImageSelected="">Traction Air Compressor</functionlabel>
+      <functionlabel num="12" lockable="true" visible="true" functionImage="" functionImageSelected="">Volume On/Off</functionlabel>
+      <functionlabel num="13" lockable="true" visible="true" functionImage="" functionImageSelected="">Master Volume Decrease</functionlabel>
+      <functionlabel num="14" lockable="true" visible="true" functionImage="" functionImageSelected="">Master Volume Increase</functionlabel>
+      <functionlabel num="15" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Compressor</functionlabel>
+      <functionlabel num="16" lockable="true" visible="true" functionImage="" functionImageSelected="">Flange Squeal</functionlabel>
+      <functionlabel num="17" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+      <functionlabel num="18" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell Type</functionlabel>
+      <functionlabel num="19" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Type</functionlabel>
+      <functionlabel num="20" lockable="true" visible="true" functionImage="" functionImageSelected="">Loco Sound</functionlabel>
+      <functionlabel num="21" lockable="true" visible="true" functionImage="" functionImageSelected="">Bell Volume</functionlabel>
+      <functionlabel num="22" lockable="true" visible="true" functionImage="" functionImageSelected="">Horn Volume</functionlabel>
+      <functionlabel num="23" lockable="true" visible="true" functionImage="" functionImageSelected="">Diesel Rumble Volume</functionlabel>
+      <functionlabel num="24" lockable="true" visible="true" functionImage="" functionImageSelected="">Safety Valve Pop</functionlabel>
+      <functionlabel num="25" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+      <functionlabel num="26" lockable="true" visible="true" functionImage="" functionImageSelected="">Flange Noise</functionlabel>
+      <functionlabel num="27" lockable="true" visible="true" functionImage="" functionImageSelected="">Sand Drop</functionlabel>
+      <functionlabel num="28" lockable="true" visible="true" functionImage="" functionImageSelected="">Air Release</functionlabel>
+    </functionlabels>
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:SP</key>
+        <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>24 / 20 / 16
+Group TE: 44 / 37 / 31</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Vstart" value="0" />
+        <varValue item="Accel" value="10" />
+        <varValue item="Decel" value="5" />
+        <varValue item="Vhigh" value="0" />
+        <varValue item="Motor Option 1" value="0" />
+        <varValue item="Decoder Version" value="0" />
+        <varValue item="Manufacturer" value="143" />
+        <varValue item="Sound Setting 1" value="16" />
+        <varValue item="Sound Option 2" value="0" />
+        <varValue item="Sound Setting 2" value="12" />
+        <varValue item="Sound Option 3" value="0" />
+        <varValue item="Sound Setting 3" value="12" />
+        <varValue item="Sound Group 3 Option 2" value="3" />
+        <varValue item="Sound Setting 4" value="12" />
+        <varValue item="Sound Setting 5" value="12" />
+        <varValue item="Sound Setting 6" value="12" />
+        <varValue item="Sound Setting 7" value="12" />
+        <varValue item="Sound Setting 8" value="12" />
+        <varValue item="Sound Setting 9" value="12" />
+        <varValue item="Sound Setting 10" value="12" />
+        <varValue item="Sound Setting 11" value="12" />
+        <varValue item="Sound Option 9" value="1" />
+        <varValue item="Sound Setting 12" value="12" />
+        <varValue item="Sound Option 5" value="0" />
+        <varValue item="Global lighting option 5" value="120" />
+        <varValue item="Global lighting option 1" value="0" />
+        <varValue item="Global lighting option 2" value="0" />
+        <varValue item="Global lighting option 3" value="0" />
+        <varValue item="Global lighting option 4" value="255" />
+        <varValue item="Sound Option 8" value="0" />
+        <varValue item="Sound Option 6" value="0" />
+        <varValue item="Sound Option 7" value="0" />
+        <varValue item="Short Address" value="3" />
+        <varValue item="Long Address" value="6202" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Consist Direction" value="0" />
+        <varValue item="Consist Address" value="0" />
+        <varValue item="Consist Function" value="0" />
+        <varValue item="Locomotive Direction" value="0" />
+        <varValue item="Speed Step Mode" value="1" />
+        <varValue item="Analog (DC) Operation" value="0" />
+        <varValue item="Speed Table Definition" value="1" />
+        <varValue item="Function Map Option 1" value="0" />
+        <varValue item="Function Map Option 2" value="0" />
+        <varValue item="Function Map Option 3" value="0" />
+        <varValue item="Kick Start" value="10" />
+        <varValue item="Speed Table" value="135,145,155,163,171,178,185,190,195,200,204,208,211,213,216,219,222,224,225,227,228,230,231,232,233,234,234,235" />
+        <varValue item="User Id #1" value="0" />
+        <varValue item="User Id #2" value="0" />
+        <varValue item="EMF Option 1" value="3" />
+        <varValue item="EMF Static Config" value="0" />
+        <varValue item="EMF Dynamic Config" value="31" />
+        <varValue item="Load Control" value="3" />
+      </decoderDef>
+      <CVvalue name="2" value="0" />
+      <CVvalue name="3" value="10" />
+      <CVvalue name="4" value="5" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="143" />
+      <CVvalue name="49" value="16" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="51" value="12" />
+      <CVvalue name="52" value="0" />
+      <CVvalue name="53" value="12" />
+      <CVvalue name="54" value="3" />
+      <CVvalue name="55" value="12" />
+      <CVvalue name="56" value="12" />
+      <CVvalue name="57" value="12" />
+      <CVvalue name="58" value="12" />
+      <CVvalue name="59" value="12" />
+      <CVvalue name="60" value="12" />
+      <CVvalue name="61" value="12" />
+      <CVvalue name="62" value="12" />
+      <CVvalue name="63" value="1" />
+      <CVvalue name="64" value="12" />
+      <CVvalue name="115" value="0" />
+      <CVvalue name="116" value="120" />
+      <CVvalue name="117" value="0" />
+      <CVvalue name="118" value="0" />
+      <CVvalue name="119" value="0" />
+      <CVvalue name="120" value="255" />
+      <CVvalue name="121" value="0" />
+      <CVvalue name="122" value="0" />
+      <CVvalue name="123" value="0" />
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="216" />
+      <CVvalue name="18" value="58" />
+      <CVvalue name="29" value="50" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="37" value="0" />
+      <CVvalue name="39" value="0" />
+      <CVvalue name="42" value="0" />
+      <CVvalue name="65" value="10" />
+      <CVvalue name="67" value="135" />
+      <CVvalue name="68" value="145" />
+      <CVvalue name="69" value="155" />
+      <CVvalue name="70" value="163" />
+      <CVvalue name="71" value="171" />
+      <CVvalue name="72" value="178" />
+      <CVvalue name="73" value="185" />
+      <CVvalue name="74" value="190" />
+      <CVvalue name="75" value="195" />
+      <CVvalue name="76" value="200" />
+      <CVvalue name="77" value="204" />
+      <CVvalue name="78" value="208" />
+      <CVvalue name="79" value="211" />
+      <CVvalue name="80" value="213" />
+      <CVvalue name="81" value="216" />
+      <CVvalue name="82" value="219" />
+      <CVvalue name="83" value="222" />
+      <CVvalue name="84" value="224" />
+      <CVvalue name="85" value="225" />
+      <CVvalue name="86" value="227" />
+      <CVvalue name="87" value="228" />
+      <CVvalue name="88" value="230" />
+      <CVvalue name="89" value="231" />
+      <CVvalue name="90" value="232" />
+      <CVvalue name="91" value="233" />
+      <CVvalue name="92" value="234" />
+      <CVvalue name="93" value="234" />
+      <CVvalue name="94" value="235" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+      <CVvalue name="112" value="3" />
+      <CVvalue name="113" value="0" />
+      <CVvalue name="114" value="31" />
+      <CVvalue name="124" value="3" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 15:00:53 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:30:00 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:49 PST 2026-->
+</locomotive-config>

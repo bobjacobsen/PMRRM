@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="NS 5280" fileName="NS_5280.xml" roadNumber="5280" roadName="Norfolk Southern " mfg="Proto 2000" owner="252 John Madriaga " model="GP38-2" dccAddress="5280" comment="Run with NS5334" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2020-07-21T18:05:28.470+00:00</dateUpdated>
+    <decoder model="DN136D" family="Series 6 with FX3, silent, improved BEMF" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="5280" longaddress="yes" />
+      <number>5280</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>Group TE:35:30:25</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Primary Address" value="3" />
+        <varValue item="Extended Address" value="5280" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Start Volts" value="0" />
+        <varValue item="Max Volts" value="0" />
+        <varValue item="Mid Volts" value="0" />
+        <varValue item="Acceleration Rate" value="0" />
+        <varValue item="Deceleration Rate" value="0" />
+        <varValue item="Version ID" value="51" />
+        <varValue item="Manufacturer ID" value="129" />
+        <varValue item="Motor Drive Frequency" value="0" />
+        <varValue item="Locomotive Direction In Consist" value="0" />
+        <varValue item="Advanced Consist Address" value="0" />
+        <varValue item="Advanced Consist Function 1 Override" value="0" />
+        <varValue item="Advanced Consist Function 2 Override" value="0" />
+        <varValue item="Advanced Consist Function 3 Override" value="0" />
+        <varValue item="Advanced Consist Function 4 Override" value="0" />
+        <varValue item="Advanced Consist Function 5 Override" value="0" />
+        <varValue item="Advanced Consist Function F0F Override" value="0" />
+        <varValue item="Advanced Consist Function F0R Override" value="0" />
+        <varValue item="Normal Direction of Travel" value="0" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Analog conversion mode" value="0" />
+        <varValue item="Use Speed Table" value="0" />
+        <varValue item="FL(f) controls output 1" value="1" />
+        <varValue item="FL(f) controls output 2" value="0" />
+        <varValue item="FL(f) controls output 3" value="0" />
+        <varValue item="FL(r) controls output 1" value="0" />
+        <varValue item="FL(r) controls output 2" value="1" />
+        <varValue item="FL(r) controls output 3" value="0" />
+        <varValue item="F1 controls output 1" value="0" />
+        <varValue item="F1 controls output 2" value="0" />
+        <varValue item="F1 controls output 3" value="1" />
+        <varValue item="F2 controls output 1" value="0" />
+        <varValue item="F2 controls output 2" value="0" />
+        <varValue item="F2 controls output 3" value="0" />
+        <varValue item="F3 controls output 1" value="0" />
+        <varValue item="F3 controls output 2" value="0" />
+        <varValue item="F3 controls output 3" value="0" />
+        <varValue item="Forward light F0F effect generated" value="0" />
+        <varValue item="Forward light F0F behavior" value="0" />
+        <varValue item="Reverse light F0R effect generated" value="0" />
+        <varValue item="Reverse light F0R behavior" value="0" />
+        <varValue item="Function 1 effect generated" value="0" />
+        <varValue item="Function 1 behavior" value="0" />
+        <varValue item="Switching speed enabled by F6" value="0" />
+        <varValue item="Torque compensation" value="0" />
+        <varValue item="Decoder Lock Feature" value="0" />
+        <varValue item="Static compensation for speed stabilization" value="128" />
+        <varValue item="Dynamic compensation for speed stabilization" value="80" />
+        <varValue item="Solo operation droop compensation for speed stabilization" value="6" />
+        <varValue item="Advanced consist droop compensation for speed stabilization" value="0" />
+        <varValue item="Speed Compensation Control" value="0" />
+        <varValue item="LED/Lamp Algorithm" value="0" />
+        <varValue item="Digitrax Transponding" value="0" />
+        <varValue item="Split field motor" value="0" />
+        <varValue item="Vstart/Vmid/Vfull in 128 step mode" value="0" />
+        <varValue item="Short-circuit protection" value="0" />
+        <varValue item="Lamp keep-alive voltage" value="0" />
+        <varValue item="FX rate adjust" value="0" />
+        <varValue item="Ditch light hold-over time" value="0" />
+        <varValue item="Decoder Lock ID number" value="0" />
+        <varValue item="Kick Start" value="2" />
+        <varValue item="Forward Trim" value="128" />
+        <varValue item="Speed Table" value="73,93,110,126,140,153,164,175,184,193,200,207,213,219,224,228,232,236,239,242,244,247,249,251,253,253,253,253" />
+        <varValue item="Reverse Trim" value="128" />
+        <varValue item="User ID #1 (0-255)" value="255" />
+        <varValue item="User ID #2 (0-255)" value="255" />
+      </decoderDef>
+      <CVvalue name="1" value="3" />
+      <CVvalue name="17" value="212" />
+      <CVvalue name="18" value="160" />
+      <CVvalue name="29" value="34" />
+      <CVvalue name="2" value="0" />
+      <CVvalue name="5" value="0" />
+      <CVvalue name="6" value="0" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="7" value="51" />
+      <CVvalue name="8" value="129" />
+      <CVvalue name="9" value="0" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="22" value="0" />
+      <CVvalue name="33" value="1" />
+      <CVvalue name="34" value="2" />
+      <CVvalue name="35" value="4" />
+      <CVvalue name="36" value="8" />
+      <CVvalue name="37" value="16" />
+      <CVvalue name="49" value="0" />
+      <CVvalue name="50" value="0" />
+      <CVvalue name="51" value="0" />
+      <CVvalue name="54" value="0" />
+      <CVvalue name="55" value="128" />
+      <CVvalue name="56" value="80" />
+      <CVvalue name="57" value="6" />
+      <CVvalue name="61" value="0" />
+      <CVvalue name="62" value="0" />
+      <CVvalue name="63" value="0" />
+      <CVvalue name="16" value="0" />
+      <CVvalue name="65" value="2" />
+      <CVvalue name="66" value="128" />
+      <CVvalue name="67" value="73" />
+      <CVvalue name="68" value="93" />
+      <CVvalue name="69" value="110" />
+      <CVvalue name="70" value="126" />
+      <CVvalue name="71" value="140" />
+      <CVvalue name="72" value="153" />
+      <CVvalue name="73" value="164" />
+      <CVvalue name="74" value="175" />
+      <CVvalue name="75" value="184" />
+      <CVvalue name="76" value="193" />
+      <CVvalue name="77" value="200" />
+      <CVvalue name="78" value="207" />
+      <CVvalue name="79" value="213" />
+      <CVvalue name="80" value="219" />
+      <CVvalue name="81" value="224" />
+      <CVvalue name="82" value="228" />
+      <CVvalue name="83" value="232" />
+      <CVvalue name="84" value="236" />
+      <CVvalue name="85" value="239" />
+      <CVvalue name="86" value="242" />
+      <CVvalue name="87" value="244" />
+      <CVvalue name="88" value="247" />
+      <CVvalue name="89" value="249" />
+      <CVvalue name="90" value="251" />
+      <CVvalue name="91" value="253" />
+      <CVvalue name="92" value="253" />
+      <CVvalue name="93" value="253" />
+      <CVvalue name="94" value="253" />
+      <CVvalue name="95" value="128" />
+      <CVvalue name="105" value="255" />
+      <CVvalue name="106" value="255" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:56:06 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:26:20 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:46 PST 2026-->
+</locomotive-config>

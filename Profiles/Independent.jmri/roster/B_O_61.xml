@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="B&amp;O 61" fileName="B_O_61.xml" roadNumber="61" roadName="Baltimore &amp; Ohio" mfg="Proto 2000" owner="270 Matthew J Zepeda" model="E6" dccAddress="61" comment="" developerID="-1" manufacturerID="129" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-11-13T22:30:33.531+00:00</dateUpdated>
+    <decoder model="DH126D" family="Economy Series 6 with FX3, silent" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="61" longaddress="no" />
+      <number>61</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>TE</key>
+        <value>31 /  21 </value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="61" state="FROMFILEUNKNOWN" />
+        <varValue item="Long Address" value="0" state="FROMFILE" />
+        <varValue item="Address Format" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Vstart" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Vhigh" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Vmid" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Accel" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Decel" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Decoder Version" value="51" state="FROMFILEUNKNOWN" />
+        <varValue item="Manufacturer" value="129" state="FROMFILEUNKNOWN" />
+        <varValue item="Total PWM Period" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Direction" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For F1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For F2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For F3" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For F4" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For F5" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For FL in Forward" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Consist Address Active For FL in Reverse" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Locomotive Direction" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Speed Step Mode" value="1" state="FROMFILEUNKNOWN" />
+        <varValue item="Analog (DC) Operation" value="1" state="FROMFILEUNKNOWN" />
+        <varValue item="Speed Table Definition" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="FL(f) controls output 1" value="1" state="FROMFILEUNKNOWN" />
+        <varValue item="FL(f) controls output 2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="FL(r) controls output 1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="FL(r) controls output 2" value="1" state="FROMFILEUNKNOWN" />
+        <varValue item="F1 controls output 1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="F1 controls output 2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="F2 controls output 1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="F2 controls output 2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="F3 controls output 1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="F3 controls output 2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function F0F effect generated" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function F0F behavior" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function F0R effect generated" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function F0R behavior" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function 1 effect generated" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function 1 behavior" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function 2 effect generated" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Function 2 behavior" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Switching speed enabled by F6" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Torque compensation" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Decoder Lock Feature" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="EMF Static Config" value="128" state="FROMFILEUNKNOWN" />
+        <varValue item="EMF Dynamic Config" value="80" state="FROMFILEUNKNOWN" />
+        <varValue item="EMF Droop Config" value="6" state="FROMFILEUNKNOWN" />
+        <varValue item="Advanced consist droop compensation for speed stabilization" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Speed Compensation Control" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Directional Headlights" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Advanced Ack" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Split field motor" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Vstart/Vmid/Vfull in 128 step mode" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Short-circuit protection" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Global lighting option 1" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Global lighting option 2" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Global lighting option 3" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Decoder Lock ID number" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Kick Start" value="2" state="FROMFILEUNKNOWN" />
+        <varValue item="Forward Trim" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="Speed Table" value="0,9,18,28,37,47,56,66,75,85,94,103,113,122,132,141,151,160,170,179,188,198,207,217,226,236,245,255" state="FROMFILE" />
+        <varValue item="Reverse Trim" value="0" state="FROMFILEUNKNOWN" />
+        <varValue item="User Id #1" value="255" state="FROMFILEUNKNOWN" />
+        <varValue item="User Id #2" value="255" state="FROMFILEUNKNOWN" />
+      </decoderDef>
+      <CVvalue name="1" value="61" state="FROMFILEUNKNOWN" />
+      <CVvalue name="17" value="0" state="FROMFILE" />
+      <CVvalue name="18" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="29" value="6" state="FROMFILEUNKNOWN" />
+      <CVvalue name="2" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="5" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="6" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="3" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="4" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="7" value="51" state="FROMFILEUNKNOWN" />
+      <CVvalue name="8" value="129" state="FROMFILEUNKNOWN" />
+      <CVvalue name="9" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="19" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="21" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="22" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="33" value="1" state="FROMFILEUNKNOWN" />
+      <CVvalue name="34" value="2" state="FROMFILEUNKNOWN" />
+      <CVvalue name="35" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="36" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="37" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="49" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="50" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="51" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="52" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="54" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="55" value="128" state="FROMFILEUNKNOWN" />
+      <CVvalue name="56" value="80" state="FROMFILEUNKNOWN" />
+      <CVvalue name="57" value="6" state="FROMFILEUNKNOWN" />
+      <CVvalue name="61" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="62" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="63" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="16" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="65" value="2" state="FROMFILEUNKNOWN" />
+      <CVvalue name="66" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="67" value="0" state="FROMFILE" />
+      <CVvalue name="68" value="9" state="FROMFILE" />
+      <CVvalue name="69" value="18" state="FROMFILE" />
+      <CVvalue name="70" value="28" state="FROMFILE" />
+      <CVvalue name="71" value="37" state="FROMFILE" />
+      <CVvalue name="72" value="47" state="FROMFILE" />
+      <CVvalue name="73" value="56" state="FROMFILE" />
+      <CVvalue name="74" value="66" state="FROMFILE" />
+      <CVvalue name="75" value="75" state="FROMFILE" />
+      <CVvalue name="76" value="85" state="FROMFILE" />
+      <CVvalue name="77" value="94" state="FROMFILE" />
+      <CVvalue name="78" value="103" state="FROMFILE" />
+      <CVvalue name="79" value="113" state="FROMFILE" />
+      <CVvalue name="80" value="122" state="FROMFILE" />
+      <CVvalue name="81" value="132" state="FROMFILE" />
+      <CVvalue name="82" value="141" state="FROMFILE" />
+      <CVvalue name="83" value="151" state="FROMFILE" />
+      <CVvalue name="84" value="160" state="FROMFILE" />
+      <CVvalue name="85" value="170" state="FROMFILE" />
+      <CVvalue name="86" value="179" state="FROMFILE" />
+      <CVvalue name="87" value="188" state="FROMFILE" />
+      <CVvalue name="88" value="198" state="FROMFILE" />
+      <CVvalue name="89" value="207" state="FROMFILE" />
+      <CVvalue name="90" value="217" state="FROMFILE" />
+      <CVvalue name="91" value="226" state="FROMFILE" />
+      <CVvalue name="92" value="236" state="FROMFILE" />
+      <CVvalue name="93" value="245" state="FROMFILE" />
+      <CVvalue name="94" value="255" state="FROMFILE" />
+      <CVvalue name="95" value="0" state="FROMFILEUNKNOWN" />
+      <CVvalue name="105" value="255" state="FROMFILEUNKNOWN" />
+      <CVvalue name="106" value="255" state="FROMFILEUNKNOWN" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:43 PST 2026-->
+</locomotive-config>

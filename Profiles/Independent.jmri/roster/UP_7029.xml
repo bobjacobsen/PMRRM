@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <!--Written by JMRI version 4.22+R4c4384d74 on Tue Jun 15 12:24:26 PDT 2021-->
+  <locomotive id="UP 7029" fileName="UP_7029.xml" roadNumber="7029" roadName="Union Pacific" mfg="Broadway Limited" owner="259 Skip Martin" model="4-8-2 Mountain" dccAddress="7029" comment="" developerID="" manufacturerID="" productID="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="">
+    <dateUpdated>2019-11-19T23:57:34.087+0000</dateUpdated>
+    <decoder model="Rolling Thunder" family="Paragon 3" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="7029" longaddress="yes" />
+      <number>7029</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:SM</key>
+        <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>RosterGroup:UP</key>
+        <value>yes</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Packet Time-out Value" value="2" />
+        <varValue item="Receivers Volume Rate of Change" value="2" />
+        <varValue item="Receivers Maximum Volume" value="100" />
+        <varValue item="Receivers Minimum Volume" value="0" />
+        <varValue item="RSS Digital Filter Coefficient" value="4" />
+        <varValue item="Signal Strength Volume Increase" value="135" />
+        <varValue item="Signal Strength Volume Decrease" value="111" />
+        <varValue item="Signal Search Dwell Time" value="80" />
+        <varValue item="Lock Signal Strength" value="100" />
+        <varValue item="Start Scan Channel" value="1" />
+        <varValue item="End Scan Channel" value="1" />
+        <varValue item="Frequency" value="1" />
+        <varValue item="Sensitivity." value="0" />
+        <varValue item="Primary Address" value="127" />
+        <varValue item="Extended Address" value="7029" />
+        <varValue item="Address Format" value="1" />
+        <varValue item="Manufacturer Version No: " value="0" />
+        <varValue item="Manufacturer ID: " value="0" />
+      </decoderDef>
+      <CVvalue name="11" value="2" />
+      <CVvalue name="130" value="2" />
+      <CVvalue name="131" value="100" />
+      <CVvalue name="132" value="0" />
+      <CVvalue name="133" value="4" />
+      <CVvalue name="135" value="135" />
+      <CVvalue name="136" value="111" />
+      <CVvalue name="140" value="80" />
+      <CVvalue name="141" value="100" />
+      <CVvalue name="142" value="1" />
+      <CVvalue name="143" value="1" />
+      <CVvalue name="213" value="128" />
+      <CVvalue name="1" value="127" />
+      <CVvalue name="17" value="219" />
+      <CVvalue name="18" value="117" />
+      <CVvalue name="29" value="250" />
+      <CVvalue name="7" value="0" />
+      <CVvalue name="8" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:51 PST 2026-->
+</locomotive-config>

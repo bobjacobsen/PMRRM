@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config>
+  <locomotive id="ATSF 32" fileName="ATSF_32.xml" roadNumber="32" roadName="ATSF" mfg="Athearn" owner="209 Bruce Bloch" model="F3A" dccAddress="32" comment="Runs with 32A, 32B and 32C" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2018-06-17T04:25:28.000+00:00</dateUpdated>
+    <decoder model="Athearn Genesis F Unit" family="Athearn" comment="" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="32" longaddress="no" />
+      <number>32</number>
+      <protocol>dcc_short</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:ATSF</key>
+        <value>yes</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Start voltage" value="0" />
+        <varValue item="Acceleration" value="0" />
+        <varValue item="Deceleration" value="0" />
+        <varValue item="Top voltage" value="32" />
+        <varValue item="Middle Voltage" value="1" />
+        <varValue item="Manufacturer version number" value="32" />
+        <varValue item="Manufacturer ID" value="143" />
+        <varValue item="Advanced consist address" value="0" />
+        <varValue item="Consist Light Functions follows " value="0" />
+        <varValue item="Horn type" value="4" />
+        <varValue item="Horn volume" value="3" />
+        <varValue item="Bell type" value="3" />
+        <varValue item="Bell volume" value="3" />
+        <varValue item="Bell ring rate" value="3" />
+        <varValue item="Diesel volume" value="3" />
+        <varValue item="Brake squeal volume" value="3" />
+        <varValue item="Dynamic brake volume" value="3" />
+        <varValue item="Air release volume" value="3" />
+        <varValue item="Air pump volume" value="3" />
+        <varValue item="Safety pop valve volume" value="3" />
+        <varValue item="Engine cooling fan volume" value="3" />
+        <varValue item="Coupling volume" value="3" />
+        <varValue item="Random noise volume" value="3" />
+        <varValue item="Rail wheel clack" value="3" />
+        <varValue item="Exhaust volume" value="3" />
+        <varValue item="Coupling fire volume" value="3" />
+        <varValue item="Brake release volume" value="3" />
+        <varValue item="Auto Brake squeal" value="1" />
+        <varValue item="Coupling Sound Type" value="1" />
+        <varValue item="Lights Enable/Disable" value="1" />
+        <varValue item="Primary Address" value="32" />
+        <varValue item="Extended Address" value="0" />
+        <varValue item="Address Format" value="0" />
+        <varValue item="Locomotive Direction" value="1" />
+        <varValue item="Speed Steps" value="1" />
+        <varValue item="Power Source Conversion" value="0" />
+        <varValue item="User ID #1 (0-255)" value="0" />
+        <varValue item="User ID #2 (0-255)" value="0" />
+      </decoderDef>
+      <CVvalue name="2" value="0" />
+      <CVvalue name="3" value="0" />
+      <CVvalue name="4" value="0" />
+      <CVvalue name="5" value="32" />
+      <CVvalue name="6" value="1" />
+      <CVvalue name="7" value="32" />
+      <CVvalue name="8" value="143" />
+      <CVvalue name="19" value="0" />
+      <CVvalue name="21" value="0" />
+      <CVvalue name="50" value="4" />
+      <CVvalue name="51" value="3" />
+      <CVvalue name="52" value="3" />
+      <CVvalue name="53" value="3" />
+      <CVvalue name="54" value="3" />
+      <CVvalue name="55" value="3" />
+      <CVvalue name="56" value="3" />
+      <CVvalue name="57" value="3" />
+      <CVvalue name="58" value="3" />
+      <CVvalue name="59" value="3" />
+      <CVvalue name="60" value="3" />
+      <CVvalue name="61" value="3" />
+      <CVvalue name="62" value="3" />
+      <CVvalue name="63" value="3" />
+      <CVvalue name="64" value="3" />
+      <CVvalue name="112" value="3" />
+      <CVvalue name="113" value="3" />
+      <CVvalue name="114" value="3" />
+      <CVvalue name="115" value="1" />
+      <CVvalue name="116" value="1" />
+      <CVvalue name="117" value="1" />
+      <CVvalue name="1" value="32" />
+      <CVvalue name="17" value="0" />
+      <CVvalue name="18" value="0" />
+      <CVvalue name="29" value="3" />
+      <CVvalue name="105" value="0" />
+      <CVvalue name="106" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.15.3plus+jenkins+20260213T2025Z+R099362ba8c on Sat Feb 14 14:49:14 PST 2026-->
+  <!--Written by JMRI version 5.15.4plus+jenkins+20260305T1324Z+R2910b939945 on Thu Mar 05 17:20:30 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:39 PST 2026-->
+</locomotive-config>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locomotive-config SYSTEM "/xml/DTD/locomotive-config.dtd">
+<locomotive-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/locomotive-config.xsd">
+  <locomotive id="DRGW 01431" fileName="DRGW_01431.xml" roadNumber="01431" roadName="D&amp;RGW" mfg="Rapido" owner="148 Kevin Schiller" model="Cupola caboose" dccAddress="0" comment="" developerID="-1" manufacturerID="1000" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+    <dateUpdated>2026-06-27T21:15:00.826+00:00</dateUpdated>
+    <decoder model="No Decoder" family="No Decoder" comment="Wand for lights" maxFnNum="28" />
+    <locoaddress>
+      <dcclocoaddress number="0" longaddress="yes" />
+      <number>0</number>
+      <protocol>dcc_long</protocol>
+    </locoaddress>
+    <functionlabels />
+    <soundlabels />
+    <attributepairs>
+      <keyvaluepair>
+        <key>RosterGroup:Caboose</key>
+        <value>yes</value>
+      </keyvaluepair>
+      <keyvaluepair>
+        <key>RosterGroup:DRGW</key>
+        <value>yes</value>
+      </keyvaluepair>
+    </attributepairs>
+    <values>
+      <decoderDef>
+        <varValue item="Short Address" value="0" />
+      </decoderDef>
+      <CVvalue name="1" value="0" />
+    </values>
+  </locomotive>
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:52:45 PST 2026-->
+</locomotive-config>
