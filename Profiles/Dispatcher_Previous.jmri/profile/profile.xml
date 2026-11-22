@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <auxiliary-configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/auxiliary-configuration.xsd">
     <connections xmlns="http://jmri.org/xml/schema/auxiliary-configuration/connections-2-9-6.xsd">
-        <connection xmlns="" class="jmri.jmrix.loconet.locobufferng.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" port="COM5" reconnectMaxAttempts="-1" reconnectMaxInterval="120" speed="57600" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
+        <connection xmlns="" address="monitoring-rpi.local" class="jmri.jmrix.loconet.loconetovertcp.configurexml.ConnectionConfigXml" disabled="no" manufacturer="Digitrax" mdnsConfigure="false" port="1234" reconnectMaxAttempts="-1" reconnectMaxInterval="120" systemPrefix="L" turnoutInterval="250" userName="LocoNet">
             <options>
                 <option>
                     <name>CommandStation</name>
@@ -13,15 +13,11 @@
                 </option>
                 <option>
                     <name>LoconetProtocolAutoDetect</name>
-                    <value>No</value>
+                    <value>Auto Detect</value>
                 </option>
                 <option>
                     <name>LoconetUpdateSlotOnMessageCreation</name>
                     <value>No</value>
-                </option>
-                <option>
-                    <name>PacketizerType</name>
-                    <value>Normal (recommended)</value>
                 </option>
                 <option>
                     <name>TranspondingPresent</name>
@@ -33,17 +29,21 @@
                 </option>
             </options>
         </connection>
-        <connection xmlns="" class="jmri.jmrix.can.adapters.gridconnect.lccbuffer.serialdriver.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" port="COM6" reconnectMaxAttempts="100" reconnectMaxInterval="120" speed="57600" systemPrefix="M" turnoutInterval="100" userName="LCC">
+        <connection xmlns="" address="monitoring-rpi.local" class="jmri.jmrix.can.adapters.gridconnect.net.configurexml.ConnectionConfigXml" disabled="no" manufacturer="LCC" mdnsConfigure="false" port="12021" reconnectMaxAttempts="100" reconnectMaxInterval="120" systemPrefix="M" turnoutInterval="100" userName="LCC">
             <options>
+                <option>
+                    <name>Gateway</name>
+                    <value>Pass All</value>
+                </option>
                 <option>
                     <name>Protocol</name>
                     <value>OpenLCB</value>
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName">Dispatcher JMRI</parameter>
-                <parameter name="NodeId">05.01.01.01.3C.FE</parameter>
-                <parameter name="UserDescription">Dispatcher computer above Sierra</parameter>
+                <parameter name="UserName">Intermodal 2</parameter>
+                <parameter name="NodeId">05.01.01.01.3C.FB</parameter>
+                <parameter name="UserDescription"/>
             </node>
             <node name="FastClock">
                 <parameter name="EnableMode">disabled</parameter>

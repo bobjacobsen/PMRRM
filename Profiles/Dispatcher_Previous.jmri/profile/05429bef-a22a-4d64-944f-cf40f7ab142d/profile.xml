@@ -41,7 +41,7 @@
                 </option>
             </options>
             <node name="Ident">
-                <parameter name="UserName">Peter's Laptop</parameter>
+                <parameter name="UserName">Intermodal 2</parameter>
                 <parameter name="NodeId">05.01.01.01.3C.FB</parameter>
                 <parameter name="UserDescription"/>
             </node>
