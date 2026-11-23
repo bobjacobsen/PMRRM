@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="/xml/XSLT/roster2array.xsl" type="text/xsl"?>
 <roster-config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://jmri.org/xml/schema/roster.xsd">
-  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 12:58:49 PST 2026-->
+  <!--Written by JMRI version 5.19.1+R873303dbb6 on Sun Nov 22 15:08:26 PST 2026-->
   <roster>
     <locomotive id="AMT 114" fileName="AMT_114.xml" roadNumber="114" roadName="Amtrak" mfg="Athearn Genesis" owner="254 Aaron Gold" model="P42DC" dccAddress="114" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
       <dateUpdated>2026-08-29T21:05:14.709+00:00</dateUpdated>
@@ -9271,7 +9271,7 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CB&amp;Q 135" fileName="CB_Q_135.xml" roadNumber="135" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="F3A" dccAddress="135" comment="" developerID="-1" manufacturerID="141" productID="2115" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-06-27T21:14:21.430+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:07:01.901+00:00</dateUpdated>
       <decoder model="TSU-PNP8 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="135" longaddress="yes" />
@@ -9465,7 +9465,7 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CB&amp;Q 164" fileName="CB_Q_164.xml" roadNumber="164" roadName="Chicago, Burlington &amp; Quincy" mfg="Athearn" owner="148 Kevin Schiller" model="F7A" dccAddress="164" comment="F5 Gyralight" developerID="-1" manufacturerID="141" productID="2115" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-06-27T21:13:54.338+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:08:16.276+00:00</dateUpdated>
       <decoder model="TSU-PNP8 EMD-2 Diesels" family="Tsunami2 Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="164" longaddress="yes" />
@@ -10961,7 +10961,7 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CP 7010" fileName="CP_7010.xml" roadNumber="7010" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD70ACU" dccAddress="7010" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:28.570+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:03:27.103+00:00</dateUpdated>
       <decoder model="TSU-GN2208 SD70ACU" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7010" longaddress="yes" />
@@ -11108,7 +11108,7 @@ Group TE: 65 / 48</value>
       </attributepairs>
     </locomotive>
     <locomotive id="CP 7022" fileName="CP_7022.xml" roadNumber="7022" roadName="Canadian Pacific" mfg="Athearn Genesis" owner="217 Peter Ely" model="SD70ACU" dccAddress="7022" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:28.581+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:02:29.782+00:00</dateUpdated>
       <decoder model="TSU-GN2208 SD70ACU" family="Tsunami2 Diesel OEM Genesis" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="7022" longaddress="yes" />
@@ -13930,7 +13930,7 @@ Group TE: 52 / 45 / 38</value>
       </attributepairs>
     </locomotive>
     <locomotive id="DRGW 5332" fileName="DRGW_5332.xml" roadNumber="5332" roadName="D&amp;RGW" mfg="OMI" owner="148 Kevin Schiller" model="SD45" dccAddress="5332" comment="" developerID="-1" manufacturerID="151" productID="33554588,33554680,33554651" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:29.614+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:01:39.311+00:00</dateUpdated>
       <decoder model="LokSound 5 DCC" family="ESU LokSound 5" comment="F5 mars light, F6 class lights" maxFnNum="31" />
       <locoaddress>
         <dcclocoaddress number="5332" longaddress="yes" />
@@ -25728,7 +25728,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 5623" fileName="SP_5623.xml" roadNumber="5623" roadName="Southern Pacific" mfg="Athearn Genesis" owner="265 AJ Chier" model="GP9 Passenger" dccAddress="5623" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:33.381+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T22:54:45.579+00:00</dateUpdated>
       <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5623" longaddress="yes" />
@@ -25950,7 +25950,7 @@ Group TE: 41 / 30</value>
       </attributepairs>
     </locomotive>
     <locomotive id="SP 5672" fileName="SP_5672.xml" roadNumber="5672" roadName="Southern Pacific" mfg="Athearn Genesis" owner="265 AJ Chier" model="GP9" dccAddress="5672" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-08T03:58:33.428+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:08:26.728+00:00</dateUpdated>
       <decoder model="GP9" family="Tsunami Diesel Genesis OEM" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="5672" longaddress="yes" />
@@ -27758,8 +27758,8 @@ Group TE: 44 / 37 / 31</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
-    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
+    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
@@ -27795,8 +27795,8 @@ Group TE: 44 / 37 / 31</value>
       </functionlabels>
       <soundlabels />
     </locomotive>
-    <locomotive id="SP 8141B" fileName="SP_8141B.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
-      <dateUpdated>2026-02-11T15:13:18.109+00:00</dateUpdated>
+    <locomotive id="SP 8141b" fileName="SP_8141b0.xml" roadNumber="8141" roadName="Southern Pacific" mfg="BLI" owner="J270 Matthew J Zepeda" model="F7b" dccAddress="6268" comment="Address is 6268" developerID="-1" manufacturerID="38" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="false">
+      <dateUpdated>2025-03-13T18:19:12.106+00:00</dateUpdated>
       <decoder model="Diesel" family="Paragon 2" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="6268" longaddress="yes" />
@@ -36792,7 +36792,7 @@ Group TE: 92 / 80 / 68</value>
       <soundlabels />
     </locomotive>
     <locomotive id="UR 300" fileName="UR_300.xml" roadNumber="300" roadName="Utah Railway" mfg="Atlas" owner="265 AJ Chier" model="RSD4" dccAddress="300" comment="" developerID="" manufacturerID="" productID="" decoderModes="" maxSpeed="100" imageFilePath="" iconFilePath="" URL="" IsShuntingOn="" locoDataEnabled="true" physicsTractionType="DIESEL_ELECTRIC" physicsWeightKg="0.0" physicsPowerKw="0.0" physicsTractiveEffortKn="0.0" physicsMaxSpeedKmh="0.0" physicsMechanicalTransmission="false">
-      <dateUpdated>2026-09-19T18:40:55.141+00:00</dateUpdated>
+      <dateUpdated>2026-11-22T23:05:50.692+00:00</dateUpdated>
       <decoder model="ECO-PNP Diesel" family="Econami Diesel" comment="" maxFnNum="28" />
       <locoaddress>
         <dcclocoaddress number="300" longaddress="yes" />
@@ -36822,8 +36822,16 @@ Group TE: 92 / 80 / 68</value>
       <soundlabels />
       <attributepairs>
         <keyvaluepair>
+          <key>physicsMaxSpeedUnit</key>
+          <value>KMH</value>
+        </keyvaluepair>
+        <keyvaluepair>
           <key>TE</key>
           <value>22 / 18 / 15</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsPowerUnit</key>
+          <value>KW</value>
         </keyvaluepair>
         <keyvaluepair>
           <key>InspectedBy</key>
@@ -36832,6 +36840,14 @@ Group TE: 92 / 80 / 68</value>
         <keyvaluepair>
           <key>InspectionDate</key>
           <value> 09 / 19 / 2026</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsTractiveEffortUnit</key>
+          <value>KN</value>
+        </keyvaluepair>
+        <keyvaluepair>
+          <key>physicsWeightUnit</key>
+          <value>T</value>
         </keyvaluepair>
       </attributepairs>
     </locomotive>
