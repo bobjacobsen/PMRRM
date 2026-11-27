@@ -10,7 +10,8 @@
 #  .turnouts A list of the turnouts being protected
 #  .next     The next signal being protected
 #  .next2    A possible 2nd head on the next signal being protected
-# 
+#  .follow   if set true, this will execute tumbledown from previous signal
+#
 # You must specify _all_ of these.  Store [] if the lists have no content
 
 import jmri
@@ -198,7 +199,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista East")]
 a.turnouts = []
 a.next     = signals.getSignalHead("W Upton Main")
 a.next2    = False
-a.follow   = True
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
@@ -292,7 +293,7 @@ a.blocks   = [sensors.getSensor("Upton-Vista West")]
 a.turnouts = []
 a.next     = signals.getSignalHead("E Vista Main")
 a.next2    = False
-a.follow   = True
+a.follow   = False
 a.start()
 
 a = ControlAbsSearchlight()
